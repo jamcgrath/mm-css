@@ -1,0 +1,30 @@
+.a-content-start {
+	align-content: start;
+}
+.a-content-flex-start {
+	align-content: flex-start;
+}
+.a-content-center {
+	align-content: center;
+}
+.a-content-end {
+	align-content: end;
+}
+.a-content-flex-end {
+	align-content: flex-end;
+}
+.a-content-between {
+	align-content: space-between;
+}
+.a-content-around {
+	align-content: space-around;
+}
+.a-content-evenly {
+	align-content: space-evenly;
+}
+.a-content-stretch {
+	align-content: stretch;
+}
+.a-content-normal {
+	align-content: normal;
+}

@@ -1,0 +1,355 @@
+.title-1,
+.title-1_article,
+.title-1_med,
+.title-1_semibold {
+	--_fs: var(--fs, var(--title-1));
+	--_fw: var(--fw, var(--fw-4));
+	--_lh: var(--lh, var(--lh-125));
+	--_ls: var(--ls, var(--ls-02));
+	--_ff: var(--ff, var(--sans));
+	font-size: var(--_fs);
+	font-weight: var(--_fw);
+	font-family: var(--_ff);
+	line-height: var(--_lh);
+	letter-spacing: var(--_ls);
+}
+
+.title-1_article {
+	--ff: var(--serif);
+}
+.title-1_med {
+	--fw: var(--fw-5);
+}
+.title-1_semibold {
+	--fw: var(--fw-6);
+}
+
+.title-2,
+.title-2_article,
+.title-2_med,
+.title-2_semibold {
+	--_fs: var(--fs, var(--title-2));
+	--_fw: var(--fw, var(--fw-4));
+	--_lh: var(--lh, var(--lh-116));
+	--_ls: var(--ls, var(--ls-015));
+	--_ff: var(--ff, var(--sans));
+	font-size: var(--_fs);
+	font-weight: var(--_fw);
+	font-family: var(--_ff);
+	line-height: var(--_lh);
+	letter-spacing: var(--_ls);
+}
+.title-2_article {
+	--ff: var(--serif);
+}
+.title-2_med {
+	--fw: var(--fw-5);
+}
+.title-2_semibold {
+	--fw: var(--fw-6);
+}
+
+.title-3,
+.title-3_article,
+.title-3_med,
+.title-3_semibold {
+	--_fs: var(--fs, var(--title-3));
+	--_fw: var(--fw, var(--fw-4));
+	--_lh: var(--lh, var(--lh-120));
+	--_ls: var(--ls, var(--ls-125));
+	--_ff: var(--ff, var(--sans));
+	font-size: var(--_fs);
+	font-weight: var(--_fw);
+	font-family: var(--_ff);
+	line-height: var(--_lh);
+	letter-spacing: var(--_ls);
+}
+.title-3_article {
+	--ff: var(--serif);
+}
+.title-3_med {
+	--fw: var(--fw-5);
+}
+.title-3_semibold {
+	--fw: var(--fw-6);
+}
+
+.title-4,
+.title-4_article,
+.title-4_med,
+.title-4_semibold {
+	--_fs: var(--fs, var(--title-4));
+	--_fw: var(--fw, var(--fw-4));
+	--_lh: var(--lh, var(--lh-125));
+	--_ls: var(--ls, var(--ls-01));
+	--_ff: var(--ff, var(--sans));
+	font-size: var(--_fs);
+	font-weight: var(--_fw);
+	font-family: var(--_ff);
+	line-height: var(--_lh);
+	letter-spacing: var(--_ls);
+}
+.title-4_article {
+	--ff: var(--serif);
+}
+.title-4_med {
+	--fw: var(--fw-5);
+}
+.title-4_semibold {
+	--fw: var(--fw-6);
+}
+
+.title-5,
+.title-5_article,
+.title-5_med,
+.title-5_semibold {
+	--_fs: var(--fs, var(--title-5));
+	--_fw: var(--fw, var(--fw-4));
+	--_lh: var(--lh, var(--lh-133));
+	--_ls: var(--ls, var(--ls-075));
+	--_ff: var(--ff, var(--sans));
+	font-size: var(--_fs);
+	font-weight: var(--_fw);
+	font-family: var(--_ff);
+	line-height: var(--_lh);
+	letter-spacing: var(--_ls);
+}
+.title-5_article {
+	--ff: var(--serif);
+}
+.title-5_med {
+	--fw: var(--fw-5);
+}
+.title-5_semibold {
+	--fw: var(--fw-6);
+}
+
+.title-6,
+.title-6_article,
+.title-6_med,
+.title-6_semibold {
+	--_fs: var(--fs, var(--title-6));
+	--_fw: var(--fw, var(--fw-4));
+	--_lh: var(--lh, var(--lh-160));
+	--_ls: var(--ls, var(--ls-05));
+	--_ff: var(--ff, var(--sans));
+	font-size: var(--_fs);
+	font-weight: var(--_fw);
+	font-family: var(--_ff);
+	line-height: var(--_lh);
+	letter-spacing: var(--_ls);
+}
+.title-6_article {
+	--ff: var(--serif);
+}
+.title-6_med {
+	--fw: var(--fw-5);
+}
+.title-6_semibold {
+	--fw: var(--fw-6);
+}
+
+.copy,
+.copy_article,
+.copy_med,
+.copy_semibold,
+.copy_italic,
+.copy_link {
+	--_fs: var(--fs, var(--copy));
+	--_fw: var(--fw, var(--fw-4));
+	--_lh: var(--lh, var(--lh-133));
+	--_ls: var(--ls, var(--ls-025));
+	--_ff: var(--ff, var(--serif));
+	font-size: var(--_fs);
+	font-weight: var(--_fw);
+	font-family: var(--_ff);
+	line-height: var(--_lh);
+	letter-spacing: var(--_ls);
+}
+
+.copy_med {
+	--fw: var(--fw-5);
+	--ff: var(--sans);
+}
+.copy_semibold {
+	--fw: var(--fw-6);
+}
+.copy_italic {
+	font-style: italic;
+}
+.copy_link {
+	text-decoration: underline;
+}
+
+.body,
+.body_article,
+.body_med,
+.body_semibold,
+.body_italic,
+.body_link {
+	--_fs: var(--fs, var(--body));
+	--_fw: var(--fw, var(--fw-4));
+	--_lh: var(--lh, var(--lh-150));
+	--_ls: var(--ls, var(--ls-025));
+	--_ff: var(--ff, var(--sans));
+	font-size: var(--_fs);
+	font-weight: var(--_fw);
+	font-family: var(--_ff);
+	line-height: var(--_lh);
+	letter-spacing: var(--_ls);
+}
+.body_article {
+	--ff: var(--serif);
+}
+.body_med {
+	--fw: var(--fw-5);
+}
+.body_semibold {
+	--fw: var(--fw-6);
+}
+.body_italic {
+	font-style: italic;
+}
+.body_link {
+	text-decoration: underline;
+}
+
+.label,
+.label_article,
+.label_med,
+.label_semibold,
+.label_italic,
+.label_link {
+	--_fs: var(--fs, var(--label));
+	--_fw: var(--fw, var(--fw-4));
+	--_lh: var(--lh, var(--lh-171));
+	--_ls: var(--ls, normal);
+	--_ff: var(--ff, var(--sans));
+	font-size: var(--_fs);
+	font-weight: var(--_fw);
+	font-family: var(--_ff);
+	line-height: var(--_lh);
+	letter-spacing: var(--_ls);
+}
+.label_article {
+	--ff: var(--serif);
+}
+.label_med {
+	--fw: var(--fw-5);
+}
+.label_semibold {
+	--fw: var(--fw-6);
+}
+.label_italic {
+	font-style: italic;
+}
+.label_link {
+	text-decoration: underline;
+}
+
+.caption,
+.caption_article,
+.caption_med,
+.caption_semibold,
+.caption_italic,
+.captioin_link {
+	--_fs: var(--fs, var(--caption));
+	--_fw: var(--fw, var(--fw-4));
+	--_lh: var(--lh, var(--lh-133));
+	--_ls: var(--ls, normal);
+	--_ff: var(--ff, var(--sans));
+	font-size: var(--_fs);
+	font-weight: var(--_fw);
+	font-family: var(--_ff);
+	line-height: var(--_lh);
+	letter-spacing: var(--_ls);
+}
+.caption_article {
+	--ff: var(--serif);
+}
+.caption_med {
+	--fw: var(--fw-5);
+}
+.caption_semibold {
+	--fw: var(--fw-6);
+}
+.caption_italic {
+	font-style: italic;
+}
+.caption_link {
+	text-decoration: underline;
+}
+
+.small,
+.small_article,
+.small_med,
+.small_semibold,
+.small_italic,
+.small_link {
+	--_fs: var(--fs, var(--small));
+	--_fw: var(--fw, var(--fw-4));
+	--_lh: var(--lh, var(--lh-120));
+	--_ls: var(--ls, normal);
+	--_ff: var(--ff, var(--sans));
+	font-size: var(--_fs);
+	font-weight: var(--_fw);
+	font-family: var(--_ff);
+	line-height: var(--_lh);
+	letter-spacing: var(--_ls);
+}
+.small_article {
+	--ff: var(--serif);
+}
+.small_med {
+	--fw: var(--fw-5);
+}
+.small_semibold {
+	--fw: var(--fw-6);
+}
+.small_italic {
+	font-style: italic;
+}
+.small_link {
+	text-decoration: underline;
+}
+
+.overline-big {
+	--_fs: var(--fs, var(--overline-big));
+	--_fw: var(--fw, var(--fw-7));
+	--_lh: var(--lh, var(--lh-109));
+	--_ls: var(--ls, var(--ls-1));
+	--_ff: var(--ff, var(--sans));
+	font-size: var(--_fs);
+	font-weight: var(--_fw);
+	font-family: var(--_ff);
+	line-height: var(--_lh);
+	letter-spacing: var(--_ls);
+}
+
+.overline-small {
+	--_fs: var(--fs, var(--overline-small));
+	--_fw: var(--fw, var(--fw-7));
+	--_lh: var(--lh, var(--lh-133));
+	--_ls: var(--ls, var(--ls-1));
+	--_ff: var(--ff, var(--sans));
+	font-size: var(--_fs);
+	font-weight: var(--_fw);
+	font-family: var(--_ff);
+	line-height: var(--_lh);
+	letter-spacing: var(--_ls);
+}
+
+.quote {
+	--_fs: var(--fs, var(--quotel));
+	--_fw: var(--fw, var(--fw-5));
+	--_lh: var(--lh, var(--lh-120));
+	--_ls: var(--ls, normal);
+	--_ff: var(--ff, var(--serif));
+	--_fstyle: var(--fstyle, italic);
+	font-size: var(--_fs);
+	font-weight: var(--_fw);
+	font-family: var(--_ff);
+	font-style: var(--_fstyle);
+	line-height: var(--_lh);
+	letter-spacing: var(--_ls);
+}

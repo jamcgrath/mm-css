@@ -1,0 +1,7 @@
+.tu-offset-auto {
+	text-underline-offset: auto;
+}
+._tu-offset- {
+	--_tu-offset: var(--tu-offset, auto);
+	text-underline-offset: var(--tu-offset);
+}

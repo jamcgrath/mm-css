@@ -1,0 +1,4 @@
+._text-shadow {
+	--_txt-shadow: var(--text-shadow, none);
+	text-shadow: var(--_txt-shadow);
+}

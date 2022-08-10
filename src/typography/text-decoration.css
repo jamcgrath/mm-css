@@ -1,0 +1,45 @@
+._td,
+.td-underline,
+.td-overline,
+.td-strike,
+.td-underover,
+.td-wavy,
+.td-dot,
+.td-dash,
+.td-double {
+	--_td-color: var(--td-color, currentcolor);
+	--_td-thickness: var(--td-thickness, auto);
+	--_td-line: var(--td-line, none);
+	--_td-style: var(--td-style, solid);
+	text-decoration-color: var(--_td-color);
+	text-decoration-thickness: var(--_td-thickness);
+	text-decoration-line: var(--_td-line);
+	text-decoration-style: var(--td-style);
+}
+.td-underline {
+	--td-line: underline;
+}
+.td-overline {
+	--td-line: overline;
+}
+.td-strike {
+	--td-line: line-through;
+}
+.td-underover {
+	--td-line: underline overline;
+}
+.td-wavy {
+	--td-style: wavy;
+}
+.td-dot {
+	--td-style: dotted;
+}
+.td-dash {
+	--td-style: dashed;
+}
+.td-wavy {
+	--td-style: wavy;
+}
+.td-double {
+	--td-style: double;
+}

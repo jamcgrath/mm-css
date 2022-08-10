@@ -1,0 +1,33 @@
+{
+  "name": "postcss-responsify",
+  "version": "1.0.3",
+  "description": "PostCSS plugin to automatically create responsive classes with at-rules",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/derek-duncan/postcss-responsify.git"
+  },
+  "keywords": [
+    "postcss",
+    "postcss-plugin",
+    "responsive",
+    "stylesheet",
+    "classes",
+    "css"
+  ],
+  "author": {
+    "name": "Derek Duncan",
+    "email": "work@derekduncan.me"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/derek-duncan/postcss-responsify/issues"
+  },
+  "homepage": "https://github.com/derek-duncan/postcss-responsify#readme",
+  "dependencies": {
+    "postcss": "^5.1.1"
+  }
+}
