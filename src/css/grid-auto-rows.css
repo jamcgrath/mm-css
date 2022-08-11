@@ -1,0 +1,13 @@
+.grid-auto-row {
+	grid-auto-rows: auto;
+}
+.grid-auto-row-min {
+	grid-auto-rows: min-content;
+}
+.grid-auto-row-max {
+	grid-auto-rows: max-content;
+}
+._grid-auto-row {
+	--_grid-auto-row: var(--grid-auto-row, auto)
+	grid-auto-rows: var(--_grid-auto-row);
+}
