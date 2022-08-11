@@ -1,0 +1,32 @@
+.obj-pos-t {
+	object-position: top;
+}
+.obj-pos-l {
+	object-position: left;
+}
+.obj-pos-r {
+	object-position: right;
+}
+.obj-pos-b {
+	object-position: bottom;
+}
+.obj-pos-c {
+	object-position: center;
+}
+.obj-pos-tl {
+	object-position: top left;
+}
+.obj-pos-tr {
+	object-position: top right;
+}
+.obj-pos-bl {
+	object-position: bottom left;
+}
+.obj-pos-br {
+	object-position: bottom right;
+}
+
+._obj-pos {
+	--_obj-pos: var(--obj-pos, 50% 50%);
+	object-position: var(--_obj-pos);
+}
