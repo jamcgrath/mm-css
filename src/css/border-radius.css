@@ -1,0 +1,9 @@
+.circle {
+	border-raduis: 50%;
+}
+._circle {
+	--_width: var(--width, auto);
+	border-raduis: 50%;
+	width: var(--_width);
+	height: var(--_width);
+}
