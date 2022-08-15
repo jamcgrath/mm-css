@@ -1,4 +1,4 @@
-@import "normalize.css";
+@import "./css/normalize.css";
 @import "./css/media-queries-props.css";
 @import "./css/colors-props.css";
 @import "./css/spacing-props.css";
@@ -47,7 +47,6 @@
 @import "./css/height.css";
 @import "./css/hide-scroll.css";
 @import "./css/list.css";
-@import "./css/magic.css";
 @import "./css/max-height.css";
 @import "./css/max-width.css";
 @import "./css/min-height.css";
