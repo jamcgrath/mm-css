@@ -18,3 +18,9 @@
 .list-style-decimal {
 	list-style: decimal;
 }
+.list-in {
+	list-style-position: inside;
+}
+.list-out {
+	list-style-position: outside;
+}

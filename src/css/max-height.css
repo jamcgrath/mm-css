@@ -1,0 +1,14 @@
+.max-h-auto {
+	max-height: auto;
+}
+.max-h-max {
+	max-height: max-content;
+}
+.max-h-min {
+	max-height: min-content;
+}
+
+._max-w {
+	--_max-height: var(--max-height, auto);
+	max-height: var(--_max-height);
+}

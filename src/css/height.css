@@ -1,0 +1,23 @@
+.h-100 {
+	height: 100%;
+}
+.h-100vh {
+	height: 100vh;
+}
+.h-min {
+	height: min-content;
+}
+.h-max {
+	height: max-content;
+}
+.h-fit {
+	height: fit-content;
+}
+.h-auto {
+	height: auto;
+}
+
+._h {
+	--_height: var(--height, auto);
+	height: var(--_height);
+}

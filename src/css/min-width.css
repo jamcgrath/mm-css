@@ -1,0 +1,17 @@
+.min-w-0 {
+	min-width: 0;
+}
+.min-w-100 {
+	min-width: 100%;
+}
+.min-w-min {
+	min-width: min-content;
+}
+.min-w-min {
+	min-width: min-content;
+}
+
+._min-w {
+	--_min-width: var(--min-width, none);
+	min-width: var(--_max-width);
+}
