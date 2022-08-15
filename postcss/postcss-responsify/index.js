@@ -10,7 +10,7 @@
  */
 
 const postcss = require("postcss");
-const merge = require("lodash/merge");
+const merge = require("lodash.merge");
 
 /**
  * Processes a breakpoint option by creating a PostCSS @media atRule from the options
@@ -90,6 +90,7 @@ function processBreakpoints(root, breakpointsOption) {
  */
 function createPrefixedRule(rule, prefix) {
 	const selectors = rule.selector.replace("\n\t", "").split(",");
+	// const selectors = rule.selector.replace(regex, "").split(",");
 	const prefixLength = prefix.length;
 	const selectorStart = rule.selector.slice(1, prefixLength + 1);
 	const isAlreadyPrefixed = selectorStart === prefix;

@@ -1,16 +1,32 @@
 {
-  "name": "mm-css",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "postcss": "^8.4.16",
-    "postcss-cli": "^10.0.0"
-  }
+	"name": "mm-css",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"postcss:build": "postcss src/styles.css -o dist/styles.css"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"postcss": "^8.4.16",
+		"postcss-cli": "^10.0.0",
+		"postcss-import": "^14.1.0",
+		"postcss-preset-env": "^7.7.2"
+	},
+	"dependencies": {
+		"autoprefixer": "^10.4.8"
+	},
+	"browserslist": [
+		"> 5%",
+		"last 2 versions",
+		"Android >= 6",
+		"Safari >= 13",
+		"ios >= 12.5",
+		"edge >= 18",
+		"chrome >= 74",
+		"not dead"
+	]
 }
