@@ -48,5 +48,6 @@
 
 	/* font family */
 	--sans: "Poppins", sans-serif;
-	--serif: "Playfair Display", serif;
+	--serif: Georgia, Times, "Times New Roman", serif;
+	--serif-1: "Playfair Display", serif;
 }
