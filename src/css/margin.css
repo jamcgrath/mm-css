@@ -1,3 +1,6 @@
+.m-auto {
+	margin: auto;
+}
 .m-0 {
 	margin: var(--space-0);
 }
@@ -113,6 +116,10 @@
 	margin: var(--space-100);
 }
 
+.mx-auto {
+	margin-left: auto;
+	margin-right: auto;
+}
 .mx-0 {
 	margin-left: var(--space-0);
 	margin-right: var(--space-0);

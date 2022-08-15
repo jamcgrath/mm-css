@@ -1,0 +1,36 @@
+:root {
+	--sm-container: 480px;
+	--md-container: 768px;
+	--lg-container: 1024px;
+	--xl-container: 1280px;
+	--xxl-container: 1920px;
+}
+.container,
+.sm-container,
+.md-container,
+.lg-container,
+.xl-container,
+.xxl-container {
+	width: 100%;
+}
+.sm-container {
+	max-width: 480px;
+}
+.md-container {
+	max-width: 768px;
+}
+.lg-container {
+	max-width: 1024px;
+}
+.xl-container {
+	max-width: 1280px;
+}
+.xxl-container {
+	max-width: 1920px;
+}
+
+._container {
+	--_max-width: var(--max-width: none);
+	width: 100%;
+	max-width: var(--_max-width);
+}
