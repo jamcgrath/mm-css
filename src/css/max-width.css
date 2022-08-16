@@ -73,7 +73,3 @@
 .max-w-min {
 	max-width: min-content;
 }
-._max-w {
-	--_max-width: var(--max-width, none);
-	max-width: var(--_max-width);
-}

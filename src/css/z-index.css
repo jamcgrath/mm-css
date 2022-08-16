@@ -37,7 +37,3 @@
 .z-max {
 	z-index: 2147483647;
 }
-._z-index {
-	--_z: var(--z-index, auto);
-	z-index: var(--_z);
-}

@@ -10,8 +10,3 @@
 .min-w-min {
 	min-width: min-content;
 }
-
-._min-w {
-	--_min-width: var(--min-width, none);
-	min-width: var(--_max-width);
-}

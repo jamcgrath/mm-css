@@ -70,8 +70,3 @@
 .w-100vw {
 	width: 100vw;
 }
-
-._w {
-	--_width: var(--width, none);
-	width: var(--_width);
-}

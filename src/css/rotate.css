@@ -73,8 +73,3 @@
 .rotate-360 {
 	transform: rotate(360deg);
 }
-
-._rotate {
-	--_rotate: var(--rotate, rotate(0deg));
-	transform: var(--_rotate);
-}

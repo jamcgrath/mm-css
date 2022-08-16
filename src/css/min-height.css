@@ -16,8 +16,3 @@
 .min-h-fit {
 	min-height: fit-content;
 }
-
-._min-h {
-	--_min-height: (--min-height, auto);
-	min-height: var(--_min-height);
-}

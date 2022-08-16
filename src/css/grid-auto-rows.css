@@ -7,7 +7,3 @@
 .grid-auto-row-max {
 	grid-auto-rows: max-content;
 }
-._grid-auto-row {
-	--_grid-auto-row: var(--grid-auto-row, auto)
-	grid-auto-rows: var(--_grid-auto-row);
-}

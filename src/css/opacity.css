@@ -40,8 +40,3 @@
 .o-10 {
 	opacity: 1;
 }
-
-._o {
-	--_opacity: var(--opacity, 1);
-	opacity: var(--_opacity);
-}

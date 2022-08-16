@@ -16,8 +16,3 @@
 .h-auto {
 	height: auto;
 }
-
-._h {
-	--_height: var(--height, auto);
-	height: var(--_height);
-}

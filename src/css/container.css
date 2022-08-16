@@ -28,9 +28,3 @@
 .xxl-container {
 	max-width: 1920px;
 }
-
-._container {
-	--_max-width: var(--max-width: none);
-	width: 100%;
-	max-width: var(--_max-width);
-}
