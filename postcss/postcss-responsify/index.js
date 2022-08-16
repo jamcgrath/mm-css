@@ -90,7 +90,6 @@ function processBreakpoints(root, breakpointsOption) {
  */
 function createPrefixedRule(rule, prefix) {
 	const selectors = rule.selector.replace(/\n\t/g, "").split(",");
-	// const selectors = rule.selector.replace(regex, "").split(",");
 	const prefixLength = prefix.length;
 	const selectorStart = rule.selector.slice(1, prefixLength + 1);
 	const isAlreadyPrefixed = selectorStart === prefix;
@@ -99,7 +98,6 @@ function createPrefixedRule(rule, prefix) {
 
 	const selectorArray = [];
 	selectors.forEach((s) => {
-		console.log(s);
 		selectorArray.push(`.${prefix + s.substring(1)}`);
 	});
 	const selector = selectorArray.toString();
