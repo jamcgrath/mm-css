@@ -1,11 +1,10 @@
 :root {
 	/* Brand Warm */
-	--bw-primary: hsla(329, 97%, 72%, 1);
-	--bw-primary-light: hsla(329, 100%, 88%, 1);
-	--bw-secondary: hsla(0, 100%, 78%, 1);
-	--bw-secondary-light: hsla(8, 100%, 91%, 1);
-	--bw-tertiary: hsla(271, 100%, 70%, 1);
-	--bw-tertiary-light: hsla(270, 100%, 89%, 1);
+	--bw-primary: hsla(234, 100%, 25%, 1);
+	--bw-secondary: hsla(271, 100%, 70%, 1)
+	--bw-secondary-light: hsla(270, 100%, 89%, 1)
+	--bw-tertiary: hsla(0, 100%, 78%, 1);
+	--bw-tertiary-light: hsla(8, 100%, 91%, 1);
 
 	/* Brand Cold */
 	--bc-primary: hsla(203, 100%, 71%, 1);
@@ -46,13 +45,13 @@
 	--gray-9: hsla(235, 94%, 14%, 1);
 
 	/* Neutral */
-	--black: hsla(0, 0%, 3%, 1);
+	--black: hsla(0, 0%, 3%, 1)
 	--white: hsla(0, 0%, 100%, 1);
 
 	/* States */
-	--hover: hsla(233, 100%, 75%, 1);
-	--hover-light: hsla(233, 100%, 89%, 1);
-	--pressed: hsla(233, 75%, 63%, 1);
-	--pressed-light: hsla(233, 73%, 75%, 1);
+	--hover: hsla(234, 80%, 41%, 1)
+	--hover-light: hsla(271, 100%, 76%, 1)
+	--pressed: hsla(234, 99%, 20%, 1)
+	--pressed-light: hsla(271, 100%, 76%, 1);
 	--motion: linear-gradient(90deg, #f1f4ff 0%, #e7ebfb 100%);
 }

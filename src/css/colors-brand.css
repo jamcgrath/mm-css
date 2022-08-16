@@ -2,9 +2,6 @@
 .bw-primary: {
 	color: var(--bw-primary);
 }
-.bw-primary-light {
-	color: var(--bw-primary-light);
-}
 .bw-secondary {
 	color: var(--bw-secondary);
 }
