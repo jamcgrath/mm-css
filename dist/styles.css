@@ -1,9 +1,559 @@
-@import "./css/normalize.css";
-@import "./css/media-queries-props.css";
-@import "./css/colors-props.css";
-@import "./css/spacing-props.css";
-@import "./css/typography-props.css";
-@import "./css/colors-alerts-bg.css";
+/*
+	normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css  &
+	select HTML5 Boilerplate css (H5BP)
+	select items from https://piccalil.li/blog/a-modern-css-reset
+*/
+
+/* Document
+   ========================================================================== */
+
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+
+html {
+	line-height: 1.25; /* 1 */
+	-webkit-text-size-adjust: 100%; /* 2 */
+	font-size: 1rem;
+}
+
+/* Box sizing */
+
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+}
+
+/* Sections
+   ========================================================================== */
+
+/* Set core body defaults */
+
+body {
+	min-height: 100vh;
+	text-rendering: optimizeSpeed;
+	font-family: "Inter", sans-serif;
+	scrollbar-gutter: stable both-edges;
+	color: #272754;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	scroll-behavior: smooth;
+	-webkit-overflow-scrolling: touch;
+}
+
+/**
+ * Remove all the margin in all browsers.
+ */
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+	margin: 0;
+}
+
+/* Grouping content
+   ========================================================================== */
+
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ * + A better looking default horizontal rule from H5BP
+
+ */
+
+hr {
+	--hr-color: #ccc;
+	--hr-margin-y: 0;
+	--hr-margin-x: 1em;
+	--hr-width: 1px;
+
+	box-sizing: content-box; /* 1 */
+	overflow: visible; /* 2 */
+	display: block;
+	height: 1px;
+	border: 0;
+	border-top: var(--hr-width) solid var(--hr-color);
+	margin: var(--hr-margin-x) var(--hr-margin-y);
+	padding: 0;
+}
+
+/* Text-level semantics
+   ========================================================================== */
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+
+abbr[title] {
+	border-bottom: none; /* 1 */
+	text-decoration: underline; /* 2 */
+	-webkit-text-decoration: underline dotted;
+	        text-decoration: underline dotted; /* 2 */
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+
+b,
+strong {
+	font-weight: bolder;
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+
+small {
+	font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+
+sub,
+sup {
+	font-size: 75%;
+	line-height: 0;
+	position: relative;
+	vertical-align: baseline;
+}
+
+sub {
+	bottom: -0.25em;
+}
+
+sup {
+	top: -0.5em;
+}
+
+/* Forms
+   ========================================================================== */
+
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+
+button,
+input,
+optgroup,
+select,
+textarea {
+	font-family: inherit; /* 1 */
+	font-size: 100%; /* 1 */
+	line-height: 1.15; /* 1 */
+	margin: 0; /* 2 */
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+
+button,
+input {
+	/* 1 */
+	overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+
+button,
+select {
+	/* 1 */
+	text-transform: none;
+}
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+	-webkit-appearance: button;
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+	border-style: none;
+	padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+	outline: 1px dotted ButtonText;
+}
+
+/*
+ * Remove default fieldset styles. From H5BP
+ */
+
+fieldset {
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+
+legend {
+	box-sizing: border-box; /* 1 */
+	color: inherit; /* 2 */
+	display: table; /* 1 */
+	max-width: 100%; /* 1 */
+	padding: 0; /* 3 */
+	white-space: normal; /* 1 */
+}
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+
+progress {
+	vertical-align: baseline;
+}
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ * Allow only vertical resizing of textareas.
+
+ */
+
+textarea {
+	overflow: auto;
+	resize: vertical;
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+	height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+
+[type="search"] {
+	-webkit-appearance: textfield; /* 1 */
+	outline-offset: -2px; /* 2 */
+}
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+
+[type="search"]::-webkit-search-decoration {
+	-webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+
+::-webkit-file-upload-button {
+	-webkit-appearance: button; /* 1 */
+	font: inherit; /* 2 */
+}
+
+/* Interactive
+   ========================================================================== */
+
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+
+details {
+	display: block;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+
+summary {
+	display: list-item;
+}
+
+/*
+ * Remove the gap between audio, canvas, iframes,
+ * images, videos and the bottom of their containers:
+ * https://github.com/h5bp/html5-boilerplate/issues/440
+ */
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+	vertical-align: middle;
+}
+
+a {
+	--text-decoration: none;
+	-webkit-text-decoration: var(--text-decoration);
+	        text-decoration: var(--text-decoration);
+}
+
+/* Make images easier to work with */
+
+img,
+picture {
+	max-width: 100%;
+	display: block;
+}
+
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+
+ul {
+	list-style: none;
+}
+
+/* Set core root defaults */
+
+html[focus-within] {
+	scroll-behavior: smooth;
+}
+
+html:focus-within {
+	scroll-behavior: smooth;
+}
+
+/* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
+
+@media (prefers-reduced-motion: reduce) {
+	html[focus-within] {
+		scroll-behavior: auto;
+	}
+	html:focus-within {
+		scroll-behavior: auto;
+	}
+
+	*,
+	*::before,
+	*::after {
+		-webkit-animation-duration: 0.01ms !important;
+		        animation-duration: 0.01ms !important;
+		-webkit-animation-iteration-count: 1 !important;
+		        animation-iteration-count: 1 !important;
+		transition-duration: 0.01ms !important;
+		scroll-behavior: auto !important;
+	}
+}
+
+/* @custom-media --sm (width >= 480px); */
+
+:root {
+	/* Brand Warm */
+	--bw-primary: hsla(329, 97%, 72%, 1);
+	--bw-primary-light: hsla(329, 100%, 88%, 1);
+	--bw-secondary: hsla(0, 100%, 78%, 1);
+	--bw-secondary-light: hsla(8, 100%, 91%, 1);
+	--bw-tertiary: hsla(271, 100%, 70%, 1);
+	--bw-tertiary-light: hsla(270, 100%, 89%, 1);
+
+	/* Brand Cold */
+	--bc-primary: hsla(203, 100%, 71%, 1);
+	--bc-primary-light: hsla(203, 100%, 87%, 1);
+	--bc-secondary: hsla(178, 69%, 65%, 1);
+	--bc-secondary-light: hsla(177, 68%, 86%, 1);
+	--bc-tertiary: hsla(234, 100%, 25%, 1);
+	--bc-tertiary-light: hsla(241, 100%, 84%, 1);
+
+	/* Brand Other */
+	--bo-1: linear-gradient(180deg, #d2a4ff 0%, #ac55ff 100%);
+	--bo-2: linear-gradient(180deg, #e3c7ff 0%, rgba(180, 102, 255, 0.75) 100%);
+	--bo-3: hsla(271, 100%, 94%, 1);
+	--bo-4: hsla(331, 95%, 54%, 1);
+	--bo-5: hsla(235, 35%, 93%, 1);
+
+	/* Product */
+	--info: hsla(221, 89%, 65%, 1);
+	--info-light: hsla(221, 93%, 95%, 1);
+	--success: hsla(163, 100%, 38%, 1);
+	--success-light: hsla(163, 62%, 91%, 1);
+	--alert: hsla(42, 88%, 54%, 1);
+	--alert-light: hsla(42, 100%, 95%, 1);
+	--warning: hsla(22, 100%, 71%, 1);
+	--warning-light: hsla(22, 100%, 96%, 1);
+	--error: hsla(351, 92%, 53%, 1);
+	--error-light: hsla(352, 100%, 95%, 1);
+
+	/* Grays */
+	--gray-1: hsla(0, 0%, 98%, 1);
+	--gray-2: hsla(0, 0%, 96%, 1);
+	--gray-3: hsla(0, 0%, 92%, 1);
+	--gray-4: hsla(0, 0%, 84%, 1);
+	--gray-5: hsla(0, 0%, 70%, 1);
+	--gray-6: hsla(0, 0%, 61%, 1);
+	--gray-7: hsla(0, 0%, 41%, 1);
+	--gray-8: hsla(0, 0%, 23%, 1);
+	--gray-9: hsla(235, 94%, 14%, 1);
+
+	/* Neutral */
+	--black: hsla(0, 0%, 3%, 1);
+	--white: hsla(0, 0%, 100%, 1);
+
+	/* States */
+	--hover: hsla(233, 100%, 75%, 1);
+	--hover-light: hsla(233, 100%, 89%, 1);
+	--pressed: hsla(233, 75%, 63%, 1);
+	--pressed-light: hsla(233, 73%, 75%, 1);
+	--motion: linear-gradient(90deg, #f1f4ff 0%, #e7ebfb 100%);
+}
+
+:root {
+	--space-0: 0;
+	--space-0-5: 0.125rem;
+	--space-1: .25rem
+	--space-1-5: .375rem;
+	--space-2: .5rem;
+	--space-2-5: .625rem;
+	--space-3: .75rem;
+	--space-3-5: .875rem;
+	--space-4: 1rem;
+	--space-5: 1.125rem;
+	--space-6: 1.5rem;
+	--space-7: 1.75rem;
+	--space-8: 2rem;
+	--space-9: 2.25rem;
+	--space-10: 2.5rem;
+	--space-11: 2.75rem;
+	--space-12: 3rem;
+	--space-13: 3.25rem;
+	--space-14: 3.5rem;
+	--space-15: 3.75rem;
+	--space-16: 4rem;;
+	--space-20: 5rem;
+	--space-24: 6rem;
+	--space-28: 7rem;
+	--space-32: 8rem;
+	--space-36: 9rem;
+	--space-40: 10rem;
+	--space-44: 11rem;
+	--space-48: 12rem;
+	--space-52: 13rem;
+	--space-56: 14rem;
+	--space-60: 15rem;
+	--space-64: 16rem;
+	--space-72: 18rem
+	--space-80: 20rem;
+	--space-84: 21rem;
+	--space-96: 24rem;
+	--space-100: 25rem;
+	--space-1px: 1px;
+	--space-2px: 2px;
+	--space-3px: 3px;
+	--space-4px: 4px;
+	--space-5px: 5px;
+	--space-6px: 6px;
+	--space-7px: 7px;
+	--space-8px: 8px;
+	--space-9px: 9px;
+	--space-10px: 10px;
+	--space-11px: 11px;
+	--space-12px: 12px;
+	--space-13px: 13px;
+	--space-14px: 14px;
+	--space-15px: 15px;
+}
+
+:root {
+	--title-1: 4rem;
+	--title-2: 3rem;
+	--title-3: 2.5rem;
+	--title-4: 2rem;
+	--title-5: 1.5rem;
+	--title-6: 1.25rem;
+	--copy: 1.125rem;
+	--body: 1rem;
+	--label: 0.875rem;
+	--caption: 0.75rem;
+	--small: 0.625rem;
+	--overline-big: 0.6875rem;
+	--overline-small: 0.5625rem;
+	--quote: 2.5rem;
+
+	/* font-weight */
+	--fw-9: 900;
+	--fw-8: 800;
+	--fw-7: 700;
+	--fw-6: 600;
+	--fw-5: 500;
+	--fw-4: 400;
+	--fw-3: 300;
+	--fw-2: 200;
+	--fw-1: 100;
+
+	/* line-height */
+	--lh-109: 1.09;
+	--lh-112: 1.125;
+	--lh-116: 1.16;
+	--lh-120: 1.2;
+	--lh-125: 1.25;
+	--lh-133: 1.33;
+	--lh-150: 1.5;
+	--lh-160: 1.6;
+	--lh-171: 1.714;
+
+	/* letter-spacing */
+	--ls-1: 1px;
+	--ls-025: -0.25px;
+	--ls-05: -0.5px;
+	--ls-075: -0.75px;
+	--ls-01: -1px;
+	--ld-0125: -1.25px;
+	--ls-015: -1.5px;
+	--ls-02: -2px;
+
+	/* font family */
+	--sans: "Poppins", sans-serif;
+	--serif: Georgia, Times, "Times New Roman", serif;
+	--serif-1: "Playfair Display", serif;
+}
+
+/* @import "./css/colors-alerts-bg.css";
 @import "./css/colors-alerts.css";
 @import "./css/colors-brand-bg.css";
 @import "./css/colors-brand.css";
@@ -13,9 +563,427 @@
 @import "./css/colors-neutral-bg.css";
 @import "./css/colors-neutral.css";
 @import "./css/colors-state-bg.css";
-@import "./css/colors-state.css";
-@import "./css/typography-styles.css";
-@import "./css/margin.css";
+@import "./css/colors-state.css"; */
+
+.title-1,
+	.title-1_article,
+	.title-1_med,
+	.title-1_semibold {
+		font-size: 4rem;
+		font-size: var(--title-1);
+		font-weight: 400;
+		font-weight: var(--fw-4);
+		font-family: "Poppins", sans-serif;
+		font-family: var(--sans);
+		line-height: 1.25;
+		line-height: var(--lh-125);
+		letter-spacing: -2px;
+		letter-spacing: var(--ls-02);
+	}
+
+.title-1_article {
+		font-family: Georgia, Times, "Times New Roman", serif;
+		font-family: var(--serif);
+	}
+
+.title-1_med {
+		font-weight: 500;
+		font-weight: var(--fw-5);
+	}
+
+.title-1_semibold {
+		font-weight: 600;
+		font-weight: var(--fw-6);
+	}
+
+.title-2,
+	.title-2_article,
+	.title-2_med,
+	.title-2_semibold {
+		font-size: 3rem;
+		font-size: var(--title-2);
+		font-weight: 400;
+		font-weight: var(--fw-4);
+		font-family: "Poppins", sans-serif;
+		font-family: var(--sans);
+		line-height: 1.16;
+		line-height: var(--lh-116);
+		letter-spacing: -1.5px;
+		letter-spacing: var(--ls-015);
+	}
+
+.title-2_article {
+		font-family: Georgia, Times, "Times New Roman", serif;
+		font-family: var(--serif);
+	}
+
+.title-2_med {
+		font-weight: 500;
+		font-weight: var(--fw-5);
+	}
+
+.title-2_semibold {
+		font-weight: 600;
+		font-weight: var(--fw-6);
+	}
+
+.title-3,
+	.title-3_article,
+	.title-3_med,
+	.title-3_semibold {
+		font-size: 2.5rem;
+		font-size: var(--title-3);
+		font-weight: 400;
+		font-weight: var(--fw-4);
+		font-family: "Poppins", sans-serif;
+		font-family: var(--sans);
+		line-height: 1.2;
+		line-height: var(--lh-120);
+		letter-spacing: var(--ls-125);
+	}
+
+.title-3_article {
+		font-family: Georgia, Times, "Times New Roman", serif;
+		font-family: var(--serif);
+	}
+
+.title-3_med {
+		font-weight: 500;
+		font-weight: var(--fw-5);
+	}
+
+.title-3_semibold {
+		font-weight: 600;
+		font-weight: var(--fw-6);
+	}
+
+.title-4,
+	.title-4_article,
+	.title-4_med,
+	.title-4_semibold {
+		font-size: 2rem;
+		font-size: var(--title-4);
+		font-weight: 400;
+		font-weight: var(--fw-4);
+		font-family: "Poppins", sans-serif;
+		font-family: var(--sans);
+		line-height: 1.25;
+		line-height: var(--lh-125);
+		letter-spacing: -1px;
+		letter-spacing: var(--ls-01);
+	}
+
+.title-4_article {
+		font-family: Georgia, Times, "Times New Roman", serif;
+		font-family: var(--serif);
+	}
+
+.title-4_med {
+		font-weight: 500;
+		font-weight: var(--fw-5);
+	}
+
+.title-4_semibold {
+		font-weight: 600;
+		font-weight: var(--fw-6);
+	}
+
+.title-5,
+	.title-5_article,
+	.title-5_med,
+	.title-5_semibold {
+		font-size: 1.5rem;
+		font-size: var(--title-5);
+		font-weight: 400;
+		font-weight: var(--fw-4);
+		font-family: "Poppins", sans-serif;
+		font-family: var(--sans);
+		line-height: 1.33;
+		line-height: var(--lh-133);
+		letter-spacing: -0.75px;
+		letter-spacing: var(--ls-075);
+	}
+
+.title-5_article {
+		font-family: Georgia, Times, "Times New Roman", serif;
+		font-family: var(--serif);
+	}
+
+.title-5_med {
+		font-weight: 500;
+		font-weight: var(--fw-5);
+	}
+
+.title-5_semibold {
+		font-weight: 600;
+		font-weight: var(--fw-6);
+	}
+
+.title-6,
+	.title-6_article,
+	.title-6_med,
+	.title-6_semibold {
+		font-size: 1.25rem;
+		font-size: var(--title-6);
+		font-weight: 400;
+		font-weight: var(--fw-4);
+		font-family: "Poppins", sans-serif;
+		font-family: var(--sans);
+		line-height: 1.6;
+		line-height: var(--lh-160);
+		letter-spacing: -0.5px;
+		letter-spacing: var(--ls-05);
+	}
+
+.title-6_article {
+		font-family: Georgia, Times, "Times New Roman", serif;
+		font-family: var(--serif);
+	}
+
+.title-6_med {
+		font-family: 500;
+		font-family: var(--fw-5);
+	}
+
+.title-6_semibold {
+		font-family: 600;
+		font-family: var(--fw-6);
+	}
+
+.copy,
+	.copy_article,
+	.copy_med,
+	.copy_semibold,
+	.copy_italic,
+	.copy_link {
+		font-size: 1.125rem;
+		font-size: var(--copy);
+		font-weight: 400;
+		font-weight: var(--fw-4);
+		font-family: Georgia, Times, "Times New Roman", serif;
+		font-family: var(--serif);
+		line-height: 1.33;
+		line-height: var(--lh-133);
+		letter-spacing: -0.25px;
+		letter-spacing: var(--ls-025);
+	}
+
+.copy_med {
+		font-weight: 500;
+		font-weight: var(--fw-5);
+		font-family: "Poppins", sans-serif;
+		font-family: var(--sans);
+	}
+
+.copy_semibold {
+		font-weight: 600;
+		font-weight: var(--fw-6);
+	}
+
+.copy_italic {
+		font-style: italic;
+	}
+
+.copy_link {
+		text-decoration: underline;
+	}
+
+.body,
+	.body_article,
+	.body_med,
+	.body_semibold,
+	.body_italic,
+	.body_link {
+		font-size: 1rem;
+		font-size: var(--body);
+		font-weight: 400;
+		font-weight: var(--fw-4);
+		font-family: "Poppins", sans-serif;
+		font-family: var(--sans);
+		line-height: 1.5;
+		line-height: var(--lh-150);
+		letter-spacing: -0.25px;
+		letter-spacing: var(--ls-025);
+	}
+
+.body_article {
+		font-family: Georgia, Times, "Times New Roman", serif;
+		font-family: var(--serif);
+	}
+
+.body_med {
+		font-weight: 500;
+		font-weight: var(--fw-5);
+	}
+
+.body_semibold {
+		font-weight: 600;
+		font-weight: var(--fw-6);
+	}
+
+.body_italic {
+		font-style: italic;
+	}
+
+.body_link {
+		text-decoration: underline;
+	}
+
+.label,
+	.label_article,
+	.label_med,
+	.label_semibold,
+	.label_italic,
+	.label_link {
+		font-size: 0.875rem;
+		font-size: var(--label);
+		font-weight: 400;
+		font-weight: var(--fw-4);
+		font-family: "Poppins", sans-serif;
+		font-family: var(--sans);
+		line-height: 1.714;
+		line-height: var(--lh-171);
+	}
+
+.label_article {
+		font-family: Georgia, Times, "Times New Roman", serif;
+		font-family: var(--serif);
+	}
+
+.label_med {
+		font-weight: 500;
+		font-weight: var(--fw-5);
+	}
+
+.label_semibold {
+		font-weight: 600;
+		font-weight: var(--fw-6);
+	}
+
+.label_italic {
+		font-style: italic;
+	}
+
+.label_link {
+		text-decoration: underline;
+	}
+
+.caption,
+	.caption_article,
+	.caption_med,
+	.caption_semibold,
+	.caption_italic,
+	.captioin_link {
+		font-size: 0.75rem;
+		font-size: var(--caption);
+		font-weight: 400;
+		font-weight: var(--fw-4);
+		font-family: "Poppins", sans-serif;
+		font-family: var(--sans);
+		line-height: 1.33;
+		line-height: var(--lh-133);
+	}
+
+.caption_article {
+		font-family: Georgia, Times, "Times New Roman", serif;
+		font-family: var(--serif);
+	}
+
+.caption_med {
+		font-weight: 500;
+		font-weight: var(--fw-5);
+	}
+
+.caption_semibold {
+		font-weight: 600;
+		font-weight: var(--fw-6);
+	}
+
+.caption_italic {
+		font-style: italic;
+	}
+
+.caption_link {
+		text-decoration: underline;
+	}
+
+.small,
+	.small_article,
+	.small_med,
+	.small_semibold,
+	.small_italic,
+	.small_link {
+		font-size: 0.625rem;
+		font-size: var(--small);
+		font-weight: 400;
+		font-weight: var(--fw-4);
+		font-family: "Poppins", sans-serif;
+		font-family: var(--sans);
+		line-height: 1.2;
+		line-height: var(--lh-120);
+	}
+
+.small_article {
+		font-family: Georgia, Times, "Times New Roman", serif;
+		font-family: var(--serif);
+	}
+
+.small_med {
+		font-weight: 500;
+		font-weight: var(--fw-5);
+	}
+
+.small_semibold {
+		font-weight: 600;
+		font-weight: var(--fw-6);
+	}
+
+.small_italic {
+		font-style: italic;
+	}
+
+.small_link {
+		text-decoration: underline;
+	}
+
+.overline-big {
+		font-size: 0.6875rem;
+		font-size: var(--overline-big);
+		font-weight: 700;
+		font-weight: var(--fw-7);
+		font-family: "Poppins", sans-serif;
+		font-family: var(--sans);
+		line-height: 1.09;
+		line-height: var(--lh-109);
+		letter-spacing: 1px;
+		letter-spacing: var(--ls-1);
+	}
+
+.overline-small {
+		font-size: 0.5625rem;
+		font-size: var(--overline-small);
+		font-weight: 700;
+		font-weight: var(--fw-7);
+		font-family: "Poppins", sans-serif;
+		font-family: var(--sans);
+		line-height: 1.33;
+		line-height: var(--lh-133);
+		letter-spacing: 1px;
+		letter-spacing: var(--ls-1);
+	}
+
+.quote {
+		font-size: 2.5rem;
+		font-size: var(--quote);
+		font-weight: 500;
+		font-weight: var(--fw-5);
+		font-family: var(--serif-2);
+		font-style: var(--_italic);
+		line-height: 1.2;
+		line-height: var(--lh-120);
+	}
+
+/* @import "./css/margin.css";
 @import "./css/padding.css";
 @import "./css/display.css";
 @import "./css/flex.css";
@@ -41,6 +1009,7 @@
 @import "./css/box-sizing.css";
 @import "./css/cursor.css";
 @import "./css/float.css";
+@import "./css/clear-fix.css";
 @import "./css/focus.css";
 @import "./css/font-style.css";
 @import "./css/font-weight.css";
@@ -73,4 +1042,1684 @@
 @import "./css/width.css";
 @import "./css/word-break.css";
 @import "./css/z-index.css";
-@import "./css/custom.css";
+@import "./css/custom.css"; */
+
+@media (min-width: 300px) {
+	.sm-title-1,.sm-title-1_article,.sm-title-1_med,.sm-title-1_semibold {
+		font-size: 4rem;
+		font-size: var(--title-1);
+		font-weight: 400;
+		font-weight: var(--fw-4);
+		font-family: "Poppins", sans-serif;
+		font-family: var(--sans);
+		line-height: 1.25;
+		line-height: var(--lh-125);
+		letter-spacing: -2px;
+		letter-spacing: var(--ls-02);
+	}
+	.sm-title-1_article {
+		font-family: Georgia, Times, "Times New Roman", serif;
+		font-family: var(--serif);
+	}
+	.sm-title-1_med {
+		font-weight: 500;
+		font-weight: var(--fw-5);
+	}
+	.sm-title-1_semibold {
+		font-weight: 600;
+		font-weight: var(--fw-6);
+	}
+
+	.sm-title-2,.sm-title-2_article,.sm-title-2_med,.sm-title-2_semibold {
+		font-size: 3rem;
+		font-size: var(--title-2);
+		font-weight: 400;
+		font-weight: var(--fw-4);
+		font-family: "Poppins", sans-serif;
+		font-family: var(--sans);
+		line-height: 1.16;
+		line-height: var(--lh-116);
+		letter-spacing: -1.5px;
+		letter-spacing: var(--ls-015);
+	}
+	.sm-title-2_article {
+		font-family: Georgia, Times, "Times New Roman", serif;
+		font-family: var(--serif);
+	}
+	.sm-title-2_med {
+		font-weight: 500;
+		font-weight: var(--fw-5);
+	}
+	.sm-title-2_semibold {
+		font-weight: 600;
+		font-weight: var(--fw-6);
+	}
+
+	.sm-title-3,.sm-title-3_article,.sm-title-3_med,.sm-title-3_semibold {
+		font-size: 2.5rem;
+		font-size: var(--title-3);
+		font-weight: 400;
+		font-weight: var(--fw-4);
+		font-family: "Poppins", sans-serif;
+		font-family: var(--sans);
+		line-height: 1.2;
+		line-height: var(--lh-120);
+		letter-spacing: var(--ls-125);
+	}
+	.sm-title-3_article {
+		font-family: Georgia, Times, "Times New Roman", serif;
+		font-family: var(--serif);
+	}
+	.sm-title-3_med {
+		font-weight: 500;
+		font-weight: var(--fw-5);
+	}
+	.sm-title-3_semibold {
+		font-weight: 600;
+		font-weight: var(--fw-6);
+	}
+
+	.sm-title-4,.sm-title-4_article,.sm-title-4_med,.sm-title-4_semibold {
+		font-size: 2rem;
+		font-size: var(--title-4);
+		font-weight: 400;
+		font-weight: var(--fw-4);
+		font-family: "Poppins", sans-serif;
+		font-family: var(--sans);
+		line-height: 1.25;
+		line-height: var(--lh-125);
+		letter-spacing: -1px;
+		letter-spacing: var(--ls-01);
+	}
+	.sm-title-4_article {
+		font-family: Georgia, Times, "Times New Roman", serif;
+		font-family: var(--serif);
+	}
+	.sm-title-4_med {
+		font-weight: 500;
+		font-weight: var(--fw-5);
+	}
+	.sm-title-4_semibold {
+		font-weight: 600;
+		font-weight: var(--fw-6);
+	}
+
+	.sm-title-5,.sm-title-5_article,.sm-title-5_med,.sm-title-5_semibold {
+		font-size: 1.5rem;
+		font-size: var(--title-5);
+		font-weight: 400;
+		font-weight: var(--fw-4);
+		font-family: "Poppins", sans-serif;
+		font-family: var(--sans);
+		line-height: 1.33;
+		line-height: var(--lh-133);
+		letter-spacing: -0.75px;
+		letter-spacing: var(--ls-075);
+	}
+	.sm-title-5_article {
+		font-family: Georgia, Times, "Times New Roman", serif;
+		font-family: var(--serif);
+	}
+	.sm-title-5_med {
+		font-weight: 500;
+		font-weight: var(--fw-5);
+	}
+	.sm-title-5_semibold {
+		font-weight: 600;
+		font-weight: var(--fw-6);
+	}
+
+	.sm-title-6,.sm-title-6_article,.sm-title-6_med,.sm-title-6_semibold {
+		font-size: 1.25rem;
+		font-size: var(--title-6);
+		font-weight: 400;
+		font-weight: var(--fw-4);
+		font-family: "Poppins", sans-serif;
+		font-family: var(--sans);
+		line-height: 1.6;
+		line-height: var(--lh-160);
+		letter-spacing: -0.5px;
+		letter-spacing: var(--ls-05);
+	}
+	.sm-title-6_article {
+		font-family: Georgia, Times, "Times New Roman", serif;
+		font-family: var(--serif);
+	}
+	.sm-title-6_med {
+		font-family: 500;
+		font-family: var(--fw-5);
+	}
+	.sm-title-6_semibold {
+		font-family: 600;
+		font-family: var(--fw-6);
+	}
+
+	.sm-copy,.sm-copy_article,.sm-copy_med,.sm-copy_semibold,.sm-copy_italic,.sm-copy_link {
+		font-size: 1.125rem;
+		font-size: var(--copy);
+		font-weight: 400;
+		font-weight: var(--fw-4);
+		font-family: Georgia, Times, "Times New Roman", serif;
+		font-family: var(--serif);
+		line-height: 1.33;
+		line-height: var(--lh-133);
+		letter-spacing: -0.25px;
+		letter-spacing: var(--ls-025);
+	}
+
+	.sm-copy_med {
+		font-weight: 500;
+		font-weight: var(--fw-5);
+		font-family: "Poppins", sans-serif;
+		font-family: var(--sans);
+	}
+	.sm-copy_semibold {
+		font-weight: 600;
+		font-weight: var(--fw-6);
+	}
+	.sm-copy_italic {
+		font-style: italic;
+	}
+	.sm-copy_link {
+		text-decoration: underline;
+	}
+
+	.sm-body,.sm-body_article,.sm-body_med,.sm-body_semibold,.sm-body_italic,.sm-body_link {
+		font-size: 1rem;
+		font-size: var(--body);
+		font-weight: 400;
+		font-weight: var(--fw-4);
+		font-family: "Poppins", sans-serif;
+		font-family: var(--sans);
+		line-height: 1.5;
+		line-height: var(--lh-150);
+		letter-spacing: -0.25px;
+		letter-spacing: var(--ls-025);
+	}
+	.sm-body_article {
+		font-family: Georgia, Times, "Times New Roman", serif;
+		font-family: var(--serif);
+	}
+	.sm-body_med {
+		font-weight: 500;
+		font-weight: var(--fw-5);
+	}
+	.sm-body_semibold {
+		font-weight: 600;
+		font-weight: var(--fw-6);
+	}
+	.sm-body_italic {
+		font-style: italic;
+	}
+	.sm-body_link {
+		text-decoration: underline;
+	}
+
+	.sm-label,.sm-label_article,.sm-label_med,.sm-label_semibold,.sm-label_italic,.sm-label_link {
+		font-size: 0.875rem;
+		font-size: var(--label);
+		font-weight: 400;
+		font-weight: var(--fw-4);
+		font-family: "Poppins", sans-serif;
+		font-family: var(--sans);
+		line-height: 1.714;
+		line-height: var(--lh-171);
+	}
+	.sm-label_article {
+		font-family: Georgia, Times, "Times New Roman", serif;
+		font-family: var(--serif);
+	}
+	.sm-label_med {
+		font-weight: 500;
+		font-weight: var(--fw-5);
+	}
+	.sm-label_semibold {
+		font-weight: 600;
+		font-weight: var(--fw-6);
+	}
+	.sm-label_italic {
+		font-style: italic;
+	}
+	.sm-label_link {
+		text-decoration: underline;
+	}
+
+	.sm-caption,.sm-caption_article,.sm-caption_med,.sm-caption_semibold,.sm-caption_italic,.sm-captioin_link {
+		font-size: 0.75rem;
+		font-size: var(--caption);
+		font-weight: 400;
+		font-weight: var(--fw-4);
+		font-family: "Poppins", sans-serif;
+		font-family: var(--sans);
+		line-height: 1.33;
+		line-height: var(--lh-133);
+	}
+	.sm-caption_article {
+		font-family: Georgia, Times, "Times New Roman", serif;
+		font-family: var(--serif);
+	}
+	.sm-caption_med {
+		font-weight: 500;
+		font-weight: var(--fw-5);
+	}
+	.sm-caption_semibold {
+		font-weight: 600;
+		font-weight: var(--fw-6);
+	}
+	.sm-caption_italic {
+		font-style: italic;
+	}
+	.sm-caption_link {
+		text-decoration: underline;
+	}
+
+	.sm-small,.sm-small_article,.sm-small_med,.sm-small_semibold,.sm-small_italic,.sm-small_link {
+		font-size: 0.625rem;
+		font-size: var(--small);
+		font-weight: 400;
+		font-weight: var(--fw-4);
+		font-family: "Poppins", sans-serif;
+		font-family: var(--sans);
+		line-height: 1.2;
+		line-height: var(--lh-120);
+	}
+	.sm-small_article {
+		font-family: Georgia, Times, "Times New Roman", serif;
+		font-family: var(--serif);
+	}
+	.sm-small_med {
+		font-weight: 500;
+		font-weight: var(--fw-5);
+	}
+	.sm-small_semibold {
+		font-weight: 600;
+		font-weight: var(--fw-6);
+	}
+	.sm-small_italic {
+		font-style: italic;
+	}
+	.sm-small_link {
+		text-decoration: underline;
+	}
+
+	.sm-overline-big {
+		font-size: 0.6875rem;
+		font-size: var(--overline-big);
+		font-weight: 700;
+		font-weight: var(--fw-7);
+		font-family: "Poppins", sans-serif;
+		font-family: var(--sans);
+		line-height: 1.09;
+		line-height: var(--lh-109);
+		letter-spacing: 1px;
+		letter-spacing: var(--ls-1);
+	}
+
+	.sm-overline-small {
+		font-size: 0.5625rem;
+		font-size: var(--overline-small);
+		font-weight: 700;
+		font-weight: var(--fw-7);
+		font-family: "Poppins", sans-serif;
+		font-family: var(--sans);
+		line-height: 1.33;
+		line-height: var(--lh-133);
+		letter-spacing: 1px;
+		letter-spacing: var(--ls-1);
+	}
+
+	.sm-quote {
+		font-size: 2.5rem;
+		font-size: var(--quote);
+		font-weight: 500;
+		font-weight: var(--fw-5);
+		font-family: var(--serif-2);
+		font-style: var(--_italic);
+		line-height: 1.2;
+		line-height: var(--lh-120);
+	}
+}
+
+@media (min-width: 768px) {
+	.md-title-1,.md-title-1_article,.md-title-1_med,.md-title-1_semibold {
+		font-size: 4rem;
+		font-size: var(--title-1);
+		font-weight: 400;
+		font-weight: var(--fw-4);
+		font-family: "Poppins", sans-serif;
+		font-family: var(--sans);
+		line-height: 1.25;
+		line-height: var(--lh-125);
+		letter-spacing: -2px;
+		letter-spacing: var(--ls-02);
+	}
+	.md-title-1_article {
+		font-family: Georgia, Times, "Times New Roman", serif;
+		font-family: var(--serif);
+	}
+	.md-title-1_med {
+		font-weight: 500;
+		font-weight: var(--fw-5);
+	}
+	.md-title-1_semibold {
+		font-weight: 600;
+		font-weight: var(--fw-6);
+	}
+
+	.md-title-2,.md-title-2_article,.md-title-2_med,.md-title-2_semibold {
+		font-size: 3rem;
+		font-size: var(--title-2);
+		font-weight: 400;
+		font-weight: var(--fw-4);
+		font-family: "Poppins", sans-serif;
+		font-family: var(--sans);
+		line-height: 1.16;
+		line-height: var(--lh-116);
+		letter-spacing: -1.5px;
+		letter-spacing: var(--ls-015);
+	}
+	.md-title-2_article {
+		font-family: Georgia, Times, "Times New Roman", serif;
+		font-family: var(--serif);
+	}
+	.md-title-2_med {
+		font-weight: 500;
+		font-weight: var(--fw-5);
+	}
+	.md-title-2_semibold {
+		font-weight: 600;
+		font-weight: var(--fw-6);
+	}
+
+	.md-title-3,.md-title-3_article,.md-title-3_med,.md-title-3_semibold {
+		font-size: 2.5rem;
+		font-size: var(--title-3);
+		font-weight: 400;
+		font-weight: var(--fw-4);
+		font-family: "Poppins", sans-serif;
+		font-family: var(--sans);
+		line-height: 1.2;
+		line-height: var(--lh-120);
+		letter-spacing: var(--ls-125);
+	}
+	.md-title-3_article {
+		font-family: Georgia, Times, "Times New Roman", serif;
+		font-family: var(--serif);
+	}
+	.md-title-3_med {
+		font-weight: 500;
+		font-weight: var(--fw-5);
+	}
+	.md-title-3_semibold {
+		font-weight: 600;
+		font-weight: var(--fw-6);
+	}
+
+	.md-title-4,.md-title-4_article,.md-title-4_med,.md-title-4_semibold {
+		font-size: 2rem;
+		font-size: var(--title-4);
+		font-weight: 400;
+		font-weight: var(--fw-4);
+		font-family: "Poppins", sans-serif;
+		font-family: var(--sans);
+		line-height: 1.25;
+		line-height: var(--lh-125);
+		letter-spacing: -1px;
+		letter-spacing: var(--ls-01);
+	}
+	.md-title-4_article {
+		font-family: Georgia, Times, "Times New Roman", serif;
+		font-family: var(--serif);
+	}
+	.md-title-4_med {
+		font-weight: 500;
+		font-weight: var(--fw-5);
+	}
+	.md-title-4_semibold {
+		font-weight: 600;
+		font-weight: var(--fw-6);
+	}
+
+	.md-title-5,.md-title-5_article,.md-title-5_med,.md-title-5_semibold {
+		font-size: 1.5rem;
+		font-size: var(--title-5);
+		font-weight: 400;
+		font-weight: var(--fw-4);
+		font-family: "Poppins", sans-serif;
+		font-family: var(--sans);
+		line-height: 1.33;
+		line-height: var(--lh-133);
+		letter-spacing: -0.75px;
+		letter-spacing: var(--ls-075);
+	}
+	.md-title-5_article {
+		font-family: Georgia, Times, "Times New Roman", serif;
+		font-family: var(--serif);
+	}
+	.md-title-5_med {
+		font-weight: 500;
+		font-weight: var(--fw-5);
+	}
+	.md-title-5_semibold {
+		font-weight: 600;
+		font-weight: var(--fw-6);
+	}
+
+	.md-title-6,.md-title-6_article,.md-title-6_med,.md-title-6_semibold {
+		font-size: 1.25rem;
+		font-size: var(--title-6);
+		font-weight: 400;
+		font-weight: var(--fw-4);
+		font-family: "Poppins", sans-serif;
+		font-family: var(--sans);
+		line-height: 1.6;
+		line-height: var(--lh-160);
+		letter-spacing: -0.5px;
+		letter-spacing: var(--ls-05);
+	}
+	.md-title-6_article {
+		font-family: Georgia, Times, "Times New Roman", serif;
+		font-family: var(--serif);
+	}
+	.md-title-6_med {
+		font-family: 500;
+		font-family: var(--fw-5);
+	}
+	.md-title-6_semibold {
+		font-family: 600;
+		font-family: var(--fw-6);
+	}
+
+	.md-copy,.md-copy_article,.md-copy_med,.md-copy_semibold,.md-copy_italic,.md-copy_link {
+		font-size: 1.125rem;
+		font-size: var(--copy);
+		font-weight: 400;
+		font-weight: var(--fw-4);
+		font-family: Georgia, Times, "Times New Roman", serif;
+		font-family: var(--serif);
+		line-height: 1.33;
+		line-height: var(--lh-133);
+		letter-spacing: -0.25px;
+		letter-spacing: var(--ls-025);
+	}
+
+	.md-copy_med {
+		font-weight: 500;
+		font-weight: var(--fw-5);
+		font-family: "Poppins", sans-serif;
+		font-family: var(--sans);
+	}
+	.md-copy_semibold {
+		font-weight: 600;
+		font-weight: var(--fw-6);
+	}
+	.md-copy_italic {
+		font-style: italic;
+	}
+	.md-copy_link {
+		text-decoration: underline;
+	}
+
+	.md-body,.md-body_article,.md-body_med,.md-body_semibold,.md-body_italic,.md-body_link {
+		font-size: 1rem;
+		font-size: var(--body);
+		font-weight: 400;
+		font-weight: var(--fw-4);
+		font-family: "Poppins", sans-serif;
+		font-family: var(--sans);
+		line-height: 1.5;
+		line-height: var(--lh-150);
+		letter-spacing: -0.25px;
+		letter-spacing: var(--ls-025);
+	}
+	.md-body_article {
+		font-family: Georgia, Times, "Times New Roman", serif;
+		font-family: var(--serif);
+	}
+	.md-body_med {
+		font-weight: 500;
+		font-weight: var(--fw-5);
+	}
+	.md-body_semibold {
+		font-weight: 600;
+		font-weight: var(--fw-6);
+	}
+	.md-body_italic {
+		font-style: italic;
+	}
+	.md-body_link {
+		text-decoration: underline;
+	}
+
+	.md-label,.md-label_article,.md-label_med,.md-label_semibold,.md-label_italic,.md-label_link {
+		font-size: 0.875rem;
+		font-size: var(--label);
+		font-weight: 400;
+		font-weight: var(--fw-4);
+		font-family: "Poppins", sans-serif;
+		font-family: var(--sans);
+		line-height: 1.714;
+		line-height: var(--lh-171);
+	}
+	.md-label_article {
+		font-family: Georgia, Times, "Times New Roman", serif;
+		font-family: var(--serif);
+	}
+	.md-label_med {
+		font-weight: 500;
+		font-weight: var(--fw-5);
+	}
+	.md-label_semibold {
+		font-weight: 600;
+		font-weight: var(--fw-6);
+	}
+	.md-label_italic {
+		font-style: italic;
+	}
+	.md-label_link {
+		text-decoration: underline;
+	}
+
+	.md-caption,.md-caption_article,.md-caption_med,.md-caption_semibold,.md-caption_italic,.md-captioin_link {
+		font-size: 0.75rem;
+		font-size: var(--caption);
+		font-weight: 400;
+		font-weight: var(--fw-4);
+		font-family: "Poppins", sans-serif;
+		font-family: var(--sans);
+		line-height: 1.33;
+		line-height: var(--lh-133);
+	}
+	.md-caption_article {
+		font-family: Georgia, Times, "Times New Roman", serif;
+		font-family: var(--serif);
+	}
+	.md-caption_med {
+		font-weight: 500;
+		font-weight: var(--fw-5);
+	}
+	.md-caption_semibold {
+		font-weight: 600;
+		font-weight: var(--fw-6);
+	}
+	.md-caption_italic {
+		font-style: italic;
+	}
+	.md-caption_link {
+		text-decoration: underline;
+	}
+
+	.md-small,.md-small_article,.md-small_med,.md-small_semibold,.md-small_italic,.md-small_link {
+		font-size: 0.625rem;
+		font-size: var(--small);
+		font-weight: 400;
+		font-weight: var(--fw-4);
+		font-family: "Poppins", sans-serif;
+		font-family: var(--sans);
+		line-height: 1.2;
+		line-height: var(--lh-120);
+	}
+	.md-small_article {
+		font-family: Georgia, Times, "Times New Roman", serif;
+		font-family: var(--serif);
+	}
+	.md-small_med {
+		font-weight: 500;
+		font-weight: var(--fw-5);
+	}
+	.md-small_semibold {
+		font-weight: 600;
+		font-weight: var(--fw-6);
+	}
+	.md-small_italic {
+		font-style: italic;
+	}
+	.md-small_link {
+		text-decoration: underline;
+	}
+
+	.md-overline-big {
+		font-size: 0.6875rem;
+		font-size: var(--overline-big);
+		font-weight: 700;
+		font-weight: var(--fw-7);
+		font-family: "Poppins", sans-serif;
+		font-family: var(--sans);
+		line-height: 1.09;
+		line-height: var(--lh-109);
+		letter-spacing: 1px;
+		letter-spacing: var(--ls-1);
+	}
+
+	.md-overline-small {
+		font-size: 0.5625rem;
+		font-size: var(--overline-small);
+		font-weight: 700;
+		font-weight: var(--fw-7);
+		font-family: "Poppins", sans-serif;
+		font-family: var(--sans);
+		line-height: 1.33;
+		line-height: var(--lh-133);
+		letter-spacing: 1px;
+		letter-spacing: var(--ls-1);
+	}
+
+	.md-quote {
+		font-size: 2.5rem;
+		font-size: var(--quote);
+		font-weight: 500;
+		font-weight: var(--fw-5);
+		font-family: var(--serif-2);
+		font-style: var(--_italic);
+		line-height: 1.2;
+		line-height: var(--lh-120);
+	}
+}
+
+@media (min-width: 1024px) {
+	.lg-title-1,.lg-title-1_article,.lg-title-1_med,.lg-title-1_semibold {
+		font-size: 4rem;
+		font-size: var(--title-1);
+		font-weight: 400;
+		font-weight: var(--fw-4);
+		font-family: "Poppins", sans-serif;
+		font-family: var(--sans);
+		line-height: 1.25;
+		line-height: var(--lh-125);
+		letter-spacing: -2px;
+		letter-spacing: var(--ls-02);
+	}
+	.lg-title-1_article {
+		font-family: Georgia, Times, "Times New Roman", serif;
+		font-family: var(--serif);
+	}
+	.lg-title-1_med {
+		font-weight: 500;
+		font-weight: var(--fw-5);
+	}
+	.lg-title-1_semibold {
+		font-weight: 600;
+		font-weight: var(--fw-6);
+	}
+
+	.lg-title-2,.lg-title-2_article,.lg-title-2_med,.lg-title-2_semibold {
+		font-size: 3rem;
+		font-size: var(--title-2);
+		font-weight: 400;
+		font-weight: var(--fw-4);
+		font-family: "Poppins", sans-serif;
+		font-family: var(--sans);
+		line-height: 1.16;
+		line-height: var(--lh-116);
+		letter-spacing: -1.5px;
+		letter-spacing: var(--ls-015);
+	}
+	.lg-title-2_article {
+		font-family: Georgia, Times, "Times New Roman", serif;
+		font-family: var(--serif);
+	}
+	.lg-title-2_med {
+		font-weight: 500;
+		font-weight: var(--fw-5);
+	}
+	.lg-title-2_semibold {
+		font-weight: 600;
+		font-weight: var(--fw-6);
+	}
+
+	.lg-title-3,.lg-title-3_article,.lg-title-3_med,.lg-title-3_semibold {
+		font-size: 2.5rem;
+		font-size: var(--title-3);
+		font-weight: 400;
+		font-weight: var(--fw-4);
+		font-family: "Poppins", sans-serif;
+		font-family: var(--sans);
+		line-height: 1.2;
+		line-height: var(--lh-120);
+		letter-spacing: var(--ls-125);
+	}
+	.lg-title-3_article {
+		font-family: Georgia, Times, "Times New Roman", serif;
+		font-family: var(--serif);
+	}
+	.lg-title-3_med {
+		font-weight: 500;
+		font-weight: var(--fw-5);
+	}
+	.lg-title-3_semibold {
+		font-weight: 600;
+		font-weight: var(--fw-6);
+	}
+
+	.lg-title-4,.lg-title-4_article,.lg-title-4_med,.lg-title-4_semibold {
+		font-size: 2rem;
+		font-size: var(--title-4);
+		font-weight: 400;
+		font-weight: var(--fw-4);
+		font-family: "Poppins", sans-serif;
+		font-family: var(--sans);
+		line-height: 1.25;
+		line-height: var(--lh-125);
+		letter-spacing: -1px;
+		letter-spacing: var(--ls-01);
+	}
+	.lg-title-4_article {
+		font-family: Georgia, Times, "Times New Roman", serif;
+		font-family: var(--serif);
+	}
+	.lg-title-4_med {
+		font-weight: 500;
+		font-weight: var(--fw-5);
+	}
+	.lg-title-4_semibold {
+		font-weight: 600;
+		font-weight: var(--fw-6);
+	}
+
+	.lg-title-5,.lg-title-5_article,.lg-title-5_med,.lg-title-5_semibold {
+		font-size: 1.5rem;
+		font-size: var(--title-5);
+		font-weight: 400;
+		font-weight: var(--fw-4);
+		font-family: "Poppins", sans-serif;
+		font-family: var(--sans);
+		line-height: 1.33;
+		line-height: var(--lh-133);
+		letter-spacing: -0.75px;
+		letter-spacing: var(--ls-075);
+	}
+	.lg-title-5_article {
+		font-family: Georgia, Times, "Times New Roman", serif;
+		font-family: var(--serif);
+	}
+	.lg-title-5_med {
+		font-weight: 500;
+		font-weight: var(--fw-5);
+	}
+	.lg-title-5_semibold {
+		font-weight: 600;
+		font-weight: var(--fw-6);
+	}
+
+	.lg-title-6,.lg-title-6_article,.lg-title-6_med,.lg-title-6_semibold {
+		font-size: 1.25rem;
+		font-size: var(--title-6);
+		font-weight: 400;
+		font-weight: var(--fw-4);
+		font-family: "Poppins", sans-serif;
+		font-family: var(--sans);
+		line-height: 1.6;
+		line-height: var(--lh-160);
+		letter-spacing: -0.5px;
+		letter-spacing: var(--ls-05);
+	}
+	.lg-title-6_article {
+		font-family: Georgia, Times, "Times New Roman", serif;
+		font-family: var(--serif);
+	}
+	.lg-title-6_med {
+		font-family: 500;
+		font-family: var(--fw-5);
+	}
+	.lg-title-6_semibold {
+		font-family: 600;
+		font-family: var(--fw-6);
+	}
+
+	.lg-copy,.lg-copy_article,.lg-copy_med,.lg-copy_semibold,.lg-copy_italic,.lg-copy_link {
+		font-size: 1.125rem;
+		font-size: var(--copy);
+		font-weight: 400;
+		font-weight: var(--fw-4);
+		font-family: Georgia, Times, "Times New Roman", serif;
+		font-family: var(--serif);
+		line-height: 1.33;
+		line-height: var(--lh-133);
+		letter-spacing: -0.25px;
+		letter-spacing: var(--ls-025);
+	}
+
+	.lg-copy_med {
+		font-weight: 500;
+		font-weight: var(--fw-5);
+		font-family: "Poppins", sans-serif;
+		font-family: var(--sans);
+	}
+	.lg-copy_semibold {
+		font-weight: 600;
+		font-weight: var(--fw-6);
+	}
+	.lg-copy_italic {
+		font-style: italic;
+	}
+	.lg-copy_link {
+		text-decoration: underline;
+	}
+
+	.lg-body,.lg-body_article,.lg-body_med,.lg-body_semibold,.lg-body_italic,.lg-body_link {
+		font-size: 1rem;
+		font-size: var(--body);
+		font-weight: 400;
+		font-weight: var(--fw-4);
+		font-family: "Poppins", sans-serif;
+		font-family: var(--sans);
+		line-height: 1.5;
+		line-height: var(--lh-150);
+		letter-spacing: -0.25px;
+		letter-spacing: var(--ls-025);
+	}
+	.lg-body_article {
+		font-family: Georgia, Times, "Times New Roman", serif;
+		font-family: var(--serif);
+	}
+	.lg-body_med {
+		font-weight: 500;
+		font-weight: var(--fw-5);
+	}
+	.lg-body_semibold {
+		font-weight: 600;
+		font-weight: var(--fw-6);
+	}
+	.lg-body_italic {
+		font-style: italic;
+	}
+	.lg-body_link {
+		text-decoration: underline;
+	}
+
+	.lg-label,.lg-label_article,.lg-label_med,.lg-label_semibold,.lg-label_italic,.lg-label_link {
+		font-size: 0.875rem;
+		font-size: var(--label);
+		font-weight: 400;
+		font-weight: var(--fw-4);
+		font-family: "Poppins", sans-serif;
+		font-family: var(--sans);
+		line-height: 1.714;
+		line-height: var(--lh-171);
+	}
+	.lg-label_article {
+		font-family: Georgia, Times, "Times New Roman", serif;
+		font-family: var(--serif);
+	}
+	.lg-label_med {
+		font-weight: 500;
+		font-weight: var(--fw-5);
+	}
+	.lg-label_semibold {
+		font-weight: 600;
+		font-weight: var(--fw-6);
+	}
+	.lg-label_italic {
+		font-style: italic;
+	}
+	.lg-label_link {
+		text-decoration: underline;
+	}
+
+	.lg-caption,.lg-caption_article,.lg-caption_med,.lg-caption_semibold,.lg-caption_italic,.lg-captioin_link {
+		font-size: 0.75rem;
+		font-size: var(--caption);
+		font-weight: 400;
+		font-weight: var(--fw-4);
+		font-family: "Poppins", sans-serif;
+		font-family: var(--sans);
+		line-height: 1.33;
+		line-height: var(--lh-133);
+	}
+	.lg-caption_article {
+		font-family: Georgia, Times, "Times New Roman", serif;
+		font-family: var(--serif);
+	}
+	.lg-caption_med {
+		font-weight: 500;
+		font-weight: var(--fw-5);
+	}
+	.lg-caption_semibold {
+		font-weight: 600;
+		font-weight: var(--fw-6);
+	}
+	.lg-caption_italic {
+		font-style: italic;
+	}
+	.lg-caption_link {
+		text-decoration: underline;
+	}
+
+	.lg-small,.lg-small_article,.lg-small_med,.lg-small_semibold,.lg-small_italic,.lg-small_link {
+		font-size: 0.625rem;
+		font-size: var(--small);
+		font-weight: 400;
+		font-weight: var(--fw-4);
+		font-family: "Poppins", sans-serif;
+		font-family: var(--sans);
+		line-height: 1.2;
+		line-height: var(--lh-120);
+	}
+	.lg-small_article {
+		font-family: Georgia, Times, "Times New Roman", serif;
+		font-family: var(--serif);
+	}
+	.lg-small_med {
+		font-weight: 500;
+		font-weight: var(--fw-5);
+	}
+	.lg-small_semibold {
+		font-weight: 600;
+		font-weight: var(--fw-6);
+	}
+	.lg-small_italic {
+		font-style: italic;
+	}
+	.lg-small_link {
+		text-decoration: underline;
+	}
+
+	.lg-overline-big {
+		font-size: 0.6875rem;
+		font-size: var(--overline-big);
+		font-weight: 700;
+		font-weight: var(--fw-7);
+		font-family: "Poppins", sans-serif;
+		font-family: var(--sans);
+		line-height: 1.09;
+		line-height: var(--lh-109);
+		letter-spacing: 1px;
+		letter-spacing: var(--ls-1);
+	}
+
+	.lg-overline-small {
+		font-size: 0.5625rem;
+		font-size: var(--overline-small);
+		font-weight: 700;
+		font-weight: var(--fw-7);
+		font-family: "Poppins", sans-serif;
+		font-family: var(--sans);
+		line-height: 1.33;
+		line-height: var(--lh-133);
+		letter-spacing: 1px;
+		letter-spacing: var(--ls-1);
+	}
+
+	.lg-quote {
+		font-size: 2.5rem;
+		font-size: var(--quote);
+		font-weight: 500;
+		font-weight: var(--fw-5);
+		font-family: var(--serif-2);
+		font-style: var(--_italic);
+		line-height: 1.2;
+		line-height: var(--lh-120);
+	}
+}
+
+@media (min-width: 1440px) {
+	.xl-title-1,.xl-title-1_article,.xl-title-1_med,.xl-title-1_semibold {
+		font-size: 4rem;
+		font-size: var(--title-1);
+		font-weight: 400;
+		font-weight: var(--fw-4);
+		font-family: "Poppins", sans-serif;
+		font-family: var(--sans);
+		line-height: 1.25;
+		line-height: var(--lh-125);
+		letter-spacing: -2px;
+		letter-spacing: var(--ls-02);
+	}
+	.xl-title-1_article {
+		font-family: Georgia, Times, "Times New Roman", serif;
+		font-family: var(--serif);
+	}
+	.xl-title-1_med {
+		font-weight: 500;
+		font-weight: var(--fw-5);
+	}
+	.xl-title-1_semibold {
+		font-weight: 600;
+		font-weight: var(--fw-6);
+	}
+
+	.xl-title-2,.xl-title-2_article,.xl-title-2_med,.xl-title-2_semibold {
+		font-size: 3rem;
+		font-size: var(--title-2);
+		font-weight: 400;
+		font-weight: var(--fw-4);
+		font-family: "Poppins", sans-serif;
+		font-family: var(--sans);
+		line-height: 1.16;
+		line-height: var(--lh-116);
+		letter-spacing: -1.5px;
+		letter-spacing: var(--ls-015);
+	}
+	.xl-title-2_article {
+		font-family: Georgia, Times, "Times New Roman", serif;
+		font-family: var(--serif);
+	}
+	.xl-title-2_med {
+		font-weight: 500;
+		font-weight: var(--fw-5);
+	}
+	.xl-title-2_semibold {
+		font-weight: 600;
+		font-weight: var(--fw-6);
+	}
+
+	.xl-title-3,.xl-title-3_article,.xl-title-3_med,.xl-title-3_semibold {
+		font-size: 2.5rem;
+		font-size: var(--title-3);
+		font-weight: 400;
+		font-weight: var(--fw-4);
+		font-family: "Poppins", sans-serif;
+		font-family: var(--sans);
+		line-height: 1.2;
+		line-height: var(--lh-120);
+		letter-spacing: var(--ls-125);
+	}
+	.xl-title-3_article {
+		font-family: Georgia, Times, "Times New Roman", serif;
+		font-family: var(--serif);
+	}
+	.xl-title-3_med {
+		font-weight: 500;
+		font-weight: var(--fw-5);
+	}
+	.xl-title-3_semibold {
+		font-weight: 600;
+		font-weight: var(--fw-6);
+	}
+
+	.xl-title-4,.xl-title-4_article,.xl-title-4_med,.xl-title-4_semibold {
+		font-size: 2rem;
+		font-size: var(--title-4);
+		font-weight: 400;
+		font-weight: var(--fw-4);
+		font-family: "Poppins", sans-serif;
+		font-family: var(--sans);
+		line-height: 1.25;
+		line-height: var(--lh-125);
+		letter-spacing: -1px;
+		letter-spacing: var(--ls-01);
+	}
+	.xl-title-4_article {
+		font-family: Georgia, Times, "Times New Roman", serif;
+		font-family: var(--serif);
+	}
+	.xl-title-4_med {
+		font-weight: 500;
+		font-weight: var(--fw-5);
+	}
+	.xl-title-4_semibold {
+		font-weight: 600;
+		font-weight: var(--fw-6);
+	}
+
+	.xl-title-5,.xl-title-5_article,.xl-title-5_med,.xl-title-5_semibold {
+		font-size: 1.5rem;
+		font-size: var(--title-5);
+		font-weight: 400;
+		font-weight: var(--fw-4);
+		font-family: "Poppins", sans-serif;
+		font-family: var(--sans);
+		line-height: 1.33;
+		line-height: var(--lh-133);
+		letter-spacing: -0.75px;
+		letter-spacing: var(--ls-075);
+	}
+	.xl-title-5_article {
+		font-family: Georgia, Times, "Times New Roman", serif;
+		font-family: var(--serif);
+	}
+	.xl-title-5_med {
+		font-weight: 500;
+		font-weight: var(--fw-5);
+	}
+	.xl-title-5_semibold {
+		font-weight: 600;
+		font-weight: var(--fw-6);
+	}
+
+	.xl-title-6,.xl-title-6_article,.xl-title-6_med,.xl-title-6_semibold {
+		font-size: 1.25rem;
+		font-size: var(--title-6);
+		font-weight: 400;
+		font-weight: var(--fw-4);
+		font-family: "Poppins", sans-serif;
+		font-family: var(--sans);
+		line-height: 1.6;
+		line-height: var(--lh-160);
+		letter-spacing: -0.5px;
+		letter-spacing: var(--ls-05);
+	}
+	.xl-title-6_article {
+		font-family: Georgia, Times, "Times New Roman", serif;
+		font-family: var(--serif);
+	}
+	.xl-title-6_med {
+		font-family: 500;
+		font-family: var(--fw-5);
+	}
+	.xl-title-6_semibold {
+		font-family: 600;
+		font-family: var(--fw-6);
+	}
+
+	.xl-copy,.xl-copy_article,.xl-copy_med,.xl-copy_semibold,.xl-copy_italic,.xl-copy_link {
+		font-size: 1.125rem;
+		font-size: var(--copy);
+		font-weight: 400;
+		font-weight: var(--fw-4);
+		font-family: Georgia, Times, "Times New Roman", serif;
+		font-family: var(--serif);
+		line-height: 1.33;
+		line-height: var(--lh-133);
+		letter-spacing: -0.25px;
+		letter-spacing: var(--ls-025);
+	}
+
+	.xl-copy_med {
+		font-weight: 500;
+		font-weight: var(--fw-5);
+		font-family: "Poppins", sans-serif;
+		font-family: var(--sans);
+	}
+	.xl-copy_semibold {
+		font-weight: 600;
+		font-weight: var(--fw-6);
+	}
+	.xl-copy_italic {
+		font-style: italic;
+	}
+	.xl-copy_link {
+		text-decoration: underline;
+	}
+
+	.xl-body,.xl-body_article,.xl-body_med,.xl-body_semibold,.xl-body_italic,.xl-body_link {
+		font-size: 1rem;
+		font-size: var(--body);
+		font-weight: 400;
+		font-weight: var(--fw-4);
+		font-family: "Poppins", sans-serif;
+		font-family: var(--sans);
+		line-height: 1.5;
+		line-height: var(--lh-150);
+		letter-spacing: -0.25px;
+		letter-spacing: var(--ls-025);
+	}
+	.xl-body_article {
+		font-family: Georgia, Times, "Times New Roman", serif;
+		font-family: var(--serif);
+	}
+	.xl-body_med {
+		font-weight: 500;
+		font-weight: var(--fw-5);
+	}
+	.xl-body_semibold {
+		font-weight: 600;
+		font-weight: var(--fw-6);
+	}
+	.xl-body_italic {
+		font-style: italic;
+	}
+	.xl-body_link {
+		text-decoration: underline;
+	}
+
+	.xl-label,.xl-label_article,.xl-label_med,.xl-label_semibold,.xl-label_italic,.xl-label_link {
+		font-size: 0.875rem;
+		font-size: var(--label);
+		font-weight: 400;
+		font-weight: var(--fw-4);
+		font-family: "Poppins", sans-serif;
+		font-family: var(--sans);
+		line-height: 1.714;
+		line-height: var(--lh-171);
+	}
+	.xl-label_article {
+		font-family: Georgia, Times, "Times New Roman", serif;
+		font-family: var(--serif);
+	}
+	.xl-label_med {
+		font-weight: 500;
+		font-weight: var(--fw-5);
+	}
+	.xl-label_semibold {
+		font-weight: 600;
+		font-weight: var(--fw-6);
+	}
+	.xl-label_italic {
+		font-style: italic;
+	}
+	.xl-label_link {
+		text-decoration: underline;
+	}
+
+	.xl-caption,.xl-caption_article,.xl-caption_med,.xl-caption_semibold,.xl-caption_italic,.xl-captioin_link {
+		font-size: 0.75rem;
+		font-size: var(--caption);
+		font-weight: 400;
+		font-weight: var(--fw-4);
+		font-family: "Poppins", sans-serif;
+		font-family: var(--sans);
+		line-height: 1.33;
+		line-height: var(--lh-133);
+	}
+	.xl-caption_article {
+		font-family: Georgia, Times, "Times New Roman", serif;
+		font-family: var(--serif);
+	}
+	.xl-caption_med {
+		font-weight: 500;
+		font-weight: var(--fw-5);
+	}
+	.xl-caption_semibold {
+		font-weight: 600;
+		font-weight: var(--fw-6);
+	}
+	.xl-caption_italic {
+		font-style: italic;
+	}
+	.xl-caption_link {
+		text-decoration: underline;
+	}
+
+	.xl-small,.xl-small_article,.xl-small_med,.xl-small_semibold,.xl-small_italic,.xl-small_link {
+		font-size: 0.625rem;
+		font-size: var(--small);
+		font-weight: 400;
+		font-weight: var(--fw-4);
+		font-family: "Poppins", sans-serif;
+		font-family: var(--sans);
+		line-height: 1.2;
+		line-height: var(--lh-120);
+	}
+	.xl-small_article {
+		font-family: Georgia, Times, "Times New Roman", serif;
+		font-family: var(--serif);
+	}
+	.xl-small_med {
+		font-weight: 500;
+		font-weight: var(--fw-5);
+	}
+	.xl-small_semibold {
+		font-weight: 600;
+		font-weight: var(--fw-6);
+	}
+	.xl-small_italic {
+		font-style: italic;
+	}
+	.xl-small_link {
+		text-decoration: underline;
+	}
+
+	.xl-overline-big {
+		font-size: 0.6875rem;
+		font-size: var(--overline-big);
+		font-weight: 700;
+		font-weight: var(--fw-7);
+		font-family: "Poppins", sans-serif;
+		font-family: var(--sans);
+		line-height: 1.09;
+		line-height: var(--lh-109);
+		letter-spacing: 1px;
+		letter-spacing: var(--ls-1);
+	}
+
+	.xl-overline-small {
+		font-size: 0.5625rem;
+		font-size: var(--overline-small);
+		font-weight: 700;
+		font-weight: var(--fw-7);
+		font-family: "Poppins", sans-serif;
+		font-family: var(--sans);
+		line-height: 1.33;
+		line-height: var(--lh-133);
+		letter-spacing: 1px;
+		letter-spacing: var(--ls-1);
+	}
+
+	.xl-quote {
+		font-size: 2.5rem;
+		font-size: var(--quote);
+		font-weight: 500;
+		font-weight: var(--fw-5);
+		font-family: var(--serif-2);
+		font-style: var(--_italic);
+		line-height: 1.2;
+		line-height: var(--lh-120);
+	}
+}
+
+@media (min-width: 1920px) {
+	.xxl-title-1,.xxl-title-1_article,.xxl-title-1_med,.xxl-title-1_semibold {
+		font-size: 4rem;
+		font-size: var(--title-1);
+		font-weight: 400;
+		font-weight: var(--fw-4);
+		font-family: "Poppins", sans-serif;
+		font-family: var(--sans);
+		line-height: 1.25;
+		line-height: var(--lh-125);
+		letter-spacing: -2px;
+		letter-spacing: var(--ls-02);
+	}
+	.xxl-title-1_article {
+		font-family: Georgia, Times, "Times New Roman", serif;
+		font-family: var(--serif);
+	}
+	.xxl-title-1_med {
+		font-weight: 500;
+		font-weight: var(--fw-5);
+	}
+	.xxl-title-1_semibold {
+		font-weight: 600;
+		font-weight: var(--fw-6);
+	}
+
+	.xxl-title-2,.xxl-title-2_article,.xxl-title-2_med,.xxl-title-2_semibold {
+		font-size: 3rem;
+		font-size: var(--title-2);
+		font-weight: 400;
+		font-weight: var(--fw-4);
+		font-family: "Poppins", sans-serif;
+		font-family: var(--sans);
+		line-height: 1.16;
+		line-height: var(--lh-116);
+		letter-spacing: -1.5px;
+		letter-spacing: var(--ls-015);
+	}
+	.xxl-title-2_article {
+		font-family: Georgia, Times, "Times New Roman", serif;
+		font-family: var(--serif);
+	}
+	.xxl-title-2_med {
+		font-weight: 500;
+		font-weight: var(--fw-5);
+	}
+	.xxl-title-2_semibold {
+		font-weight: 600;
+		font-weight: var(--fw-6);
+	}
+
+	.xxl-title-3,.xxl-title-3_article,.xxl-title-3_med,.xxl-title-3_semibold {
+		font-size: 2.5rem;
+		font-size: var(--title-3);
+		font-weight: 400;
+		font-weight: var(--fw-4);
+		font-family: "Poppins", sans-serif;
+		font-family: var(--sans);
+		line-height: 1.2;
+		line-height: var(--lh-120);
+		letter-spacing: var(--ls-125);
+	}
+	.xxl-title-3_article {
+		font-family: Georgia, Times, "Times New Roman", serif;
+		font-family: var(--serif);
+	}
+	.xxl-title-3_med {
+		font-weight: 500;
+		font-weight: var(--fw-5);
+	}
+	.xxl-title-3_semibold {
+		font-weight: 600;
+		font-weight: var(--fw-6);
+	}
+
+	.xxl-title-4,.xxl-title-4_article,.xxl-title-4_med,.xxl-title-4_semibold {
+		font-size: 2rem;
+		font-size: var(--title-4);
+		font-weight: 400;
+		font-weight: var(--fw-4);
+		font-family: "Poppins", sans-serif;
+		font-family: var(--sans);
+		line-height: 1.25;
+		line-height: var(--lh-125);
+		letter-spacing: -1px;
+		letter-spacing: var(--ls-01);
+	}
+	.xxl-title-4_article {
+		font-family: Georgia, Times, "Times New Roman", serif;
+		font-family: var(--serif);
+	}
+	.xxl-title-4_med {
+		font-weight: 500;
+		font-weight: var(--fw-5);
+	}
+	.xxl-title-4_semibold {
+		font-weight: 600;
+		font-weight: var(--fw-6);
+	}
+
+	.xxl-title-5,.xxl-title-5_article,.xxl-title-5_med,.xxl-title-5_semibold {
+		font-size: 1.5rem;
+		font-size: var(--title-5);
+		font-weight: 400;
+		font-weight: var(--fw-4);
+		font-family: "Poppins", sans-serif;
+		font-family: var(--sans);
+		line-height: 1.33;
+		line-height: var(--lh-133);
+		letter-spacing: -0.75px;
+		letter-spacing: var(--ls-075);
+	}
+	.xxl-title-5_article {
+		font-family: Georgia, Times, "Times New Roman", serif;
+		font-family: var(--serif);
+	}
+	.xxl-title-5_med {
+		font-weight: 500;
+		font-weight: var(--fw-5);
+	}
+	.xxl-title-5_semibold {
+		font-weight: 600;
+		font-weight: var(--fw-6);
+	}
+
+	.xxl-title-6,.xxl-title-6_article,.xxl-title-6_med,.xxl-title-6_semibold {
+		font-size: 1.25rem;
+		font-size: var(--title-6);
+		font-weight: 400;
+		font-weight: var(--fw-4);
+		font-family: "Poppins", sans-serif;
+		font-family: var(--sans);
+		line-height: 1.6;
+		line-height: var(--lh-160);
+		letter-spacing: -0.5px;
+		letter-spacing: var(--ls-05);
+	}
+	.xxl-title-6_article {
+		font-family: Georgia, Times, "Times New Roman", serif;
+		font-family: var(--serif);
+	}
+	.xxl-title-6_med {
+		font-family: 500;
+		font-family: var(--fw-5);
+	}
+	.xxl-title-6_semibold {
+		font-family: 600;
+		font-family: var(--fw-6);
+	}
+
+	.xxl-copy,.xxl-copy_article,.xxl-copy_med,.xxl-copy_semibold,.xxl-copy_italic,.xxl-copy_link {
+		font-size: 1.125rem;
+		font-size: var(--copy);
+		font-weight: 400;
+		font-weight: var(--fw-4);
+		font-family: Georgia, Times, "Times New Roman", serif;
+		font-family: var(--serif);
+		line-height: 1.33;
+		line-height: var(--lh-133);
+		letter-spacing: -0.25px;
+		letter-spacing: var(--ls-025);
+	}
+
+	.xxl-copy_med {
+		font-weight: 500;
+		font-weight: var(--fw-5);
+		font-family: "Poppins", sans-serif;
+		font-family: var(--sans);
+	}
+	.xxl-copy_semibold {
+		font-weight: 600;
+		font-weight: var(--fw-6);
+	}
+	.xxl-copy_italic {
+		font-style: italic;
+	}
+	.xxl-copy_link {
+		text-decoration: underline;
+	}
+
+	.xxl-body,.xxl-body_article,.xxl-body_med,.xxl-body_semibold,.xxl-body_italic,.xxl-body_link {
+		font-size: 1rem;
+		font-size: var(--body);
+		font-weight: 400;
+		font-weight: var(--fw-4);
+		font-family: "Poppins", sans-serif;
+		font-family: var(--sans);
+		line-height: 1.5;
+		line-height: var(--lh-150);
+		letter-spacing: -0.25px;
+		letter-spacing: var(--ls-025);
+	}
+	.xxl-body_article {
+		font-family: Georgia, Times, "Times New Roman", serif;
+		font-family: var(--serif);
+	}
+	.xxl-body_med {
+		font-weight: 500;
+		font-weight: var(--fw-5);
+	}
+	.xxl-body_semibold {
+		font-weight: 600;
+		font-weight: var(--fw-6);
+	}
+	.xxl-body_italic {
+		font-style: italic;
+	}
+	.xxl-body_link {
+		text-decoration: underline;
+	}
+
+	.xxl-label,.xxl-label_article,.xxl-label_med,.xxl-label_semibold,.xxl-label_italic,.xxl-label_link {
+		font-size: 0.875rem;
+		font-size: var(--label);
+		font-weight: 400;
+		font-weight: var(--fw-4);
+		font-family: "Poppins", sans-serif;
+		font-family: var(--sans);
+		line-height: 1.714;
+		line-height: var(--lh-171);
+	}
+	.xxl-label_article {
+		font-family: Georgia, Times, "Times New Roman", serif;
+		font-family: var(--serif);
+	}
+	.xxl-label_med {
+		font-weight: 500;
+		font-weight: var(--fw-5);
+	}
+	.xxl-label_semibold {
+		font-weight: 600;
+		font-weight: var(--fw-6);
+	}
+	.xxl-label_italic {
+		font-style: italic;
+	}
+	.xxl-label_link {
+		text-decoration: underline;
+	}
+
+	.xxl-caption,.xxl-caption_article,.xxl-caption_med,.xxl-caption_semibold,.xxl-caption_italic,.xxl-captioin_link {
+		font-size: 0.75rem;
+		font-size: var(--caption);
+		font-weight: 400;
+		font-weight: var(--fw-4);
+		font-family: "Poppins", sans-serif;
+		font-family: var(--sans);
+		line-height: 1.33;
+		line-height: var(--lh-133);
+	}
+	.xxl-caption_article {
+		font-family: Georgia, Times, "Times New Roman", serif;
+		font-family: var(--serif);
+	}
+	.xxl-caption_med {
+		font-weight: 500;
+		font-weight: var(--fw-5);
+	}
+	.xxl-caption_semibold {
+		font-weight: 600;
+		font-weight: var(--fw-6);
+	}
+	.xxl-caption_italic {
+		font-style: italic;
+	}
+	.xxl-caption_link {
+		text-decoration: underline;
+	}
+
+	.xxl-small,.xxl-small_article,.xxl-small_med,.xxl-small_semibold,.xxl-small_italic,.xxl-small_link {
+		font-size: 0.625rem;
+		font-size: var(--small);
+		font-weight: 400;
+		font-weight: var(--fw-4);
+		font-family: "Poppins", sans-serif;
+		font-family: var(--sans);
+		line-height: 1.2;
+		line-height: var(--lh-120);
+	}
+	.xxl-small_article {
+		font-family: Georgia, Times, "Times New Roman", serif;
+		font-family: var(--serif);
+	}
+	.xxl-small_med {
+		font-weight: 500;
+		font-weight: var(--fw-5);
+	}
+	.xxl-small_semibold {
+		font-weight: 600;
+		font-weight: var(--fw-6);
+	}
+	.xxl-small_italic {
+		font-style: italic;
+	}
+	.xxl-small_link {
+		text-decoration: underline;
+	}
+
+	.xxl-overline-big {
+		font-size: 0.6875rem;
+		font-size: var(--overline-big);
+		font-weight: 700;
+		font-weight: var(--fw-7);
+		font-family: "Poppins", sans-serif;
+		font-family: var(--sans);
+		line-height: 1.09;
+		line-height: var(--lh-109);
+		letter-spacing: 1px;
+		letter-spacing: var(--ls-1);
+	}
+
+	.xxl-overline-small {
+		font-size: 0.5625rem;
+		font-size: var(--overline-small);
+		font-weight: 700;
+		font-weight: var(--fw-7);
+		font-family: "Poppins", sans-serif;
+		font-family: var(--sans);
+		line-height: 1.33;
+		line-height: var(--lh-133);
+		letter-spacing: 1px;
+		letter-spacing: var(--ls-1);
+	}
+
+	.xxl-quote {
+		font-size: 2.5rem;
+		font-size: var(--quote);
+		font-weight: 500;
+		font-weight: var(--fw-5);
+		font-family: var(--serif-2);
+		font-style: var(--_italic);
+		line-height: 1.2;
+		line-height: var(--lh-120);
+	}
+}

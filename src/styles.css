@@ -3,7 +3,7 @@
 @import "./css/colors-props.css";
 @import "./css/spacing-props.css";
 @import "./css/typography-props.css";
-@import "./css/colors-alerts-bg.css";
+/* @import "./css/colors-alerts-bg.css";
 @import "./css/colors-alerts.css";
 @import "./css/colors-brand-bg.css";
 @import "./css/colors-brand.css";
@@ -13,9 +13,9 @@
 @import "./css/colors-neutral-bg.css";
 @import "./css/colors-neutral.css";
 @import "./css/colors-state-bg.css";
-@import "./css/colors-state.css";
+@import "./css/colors-state.css"; */
 @import "./css/typography-styles.css";
-@import "./css/margin.css";
+/* @import "./css/margin.css";
 @import "./css/padding.css";
 @import "./css/display.css";
 @import "./css/flex.css";
@@ -74,4 +74,4 @@
 @import "./css/width.css";
 @import "./css/word-break.css";
 @import "./css/z-index.css";
-@import "./css/custom.css";
+@import "./css/custom.css"; */

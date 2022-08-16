@@ -89,7 +89,7 @@ function processBreakpoints(root, breakpointsOption) {
  * @return {Object} Responsified PostCSS rule
  */
 function createPrefixedRule(rule, prefix) {
-	const selectors = rule.selector.replace("\n\t", "").split(",");
+	const selectors = rule.selector.replace(/\n\t/g, "").split(",");
 	// const selectors = rule.selector.replace(regex, "").split(",");
 	const prefixLength = prefix.length;
 	const selectorStart = rule.selector.slice(1, prefixLength + 1);
@@ -99,6 +99,7 @@ function createPrefixedRule(rule, prefix) {
 
 	const selectorArray = [];
 	selectors.forEach((s) => {
+		console.log(s);
 		selectorArray.push(`.${prefix + s.substring(1)}`);
 	});
 	const selector = selectorArray.toString();
