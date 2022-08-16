@@ -37,21 +37,22 @@
 	width: auto;
 }
 
-.reset-visually-hidden {
-	position: static;
-	width: auto;
-	height: auto;
-	padding: 0;
-	margin: 0;
-	overflow: visible;
-	clip: auto;
-	white-space: normal;
-}
-
 /*
  * Hide visually and from screen readers, but maintain layout
  */
+@responsive {
+	.invisible {
+		visibility: hidden;
+	}
 
-.invisible {
-	visibility: hidden;
+	.reset-visually-hidden {
+		position: static;
+		width: auto;
+		height: auto;
+		padding: 0;
+		margin: 0;
+		overflow: visible;
+		clip: auto;
+		white-space: normal;
+	}
 }

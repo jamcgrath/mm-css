@@ -1,36 +1,38 @@
-.j-items-flex-start {
-	justify-items: flex-start;
-}
-.j-items-flex-end {
-	justify-items: flex-end;
-}
-.j-items-center {
-	justify-items: center;
-}
-.j-items-start {
-	justify-items: start;
-}
-.j-items-end {
-	justify-items: end;
-}
-.j-items-stretch {
-	justify-items: stretch;
-}
-.j-items-self-start {
-	justify-items: self-start;
-}
-.j-items-self-end {
-	justify-items: self-end;
-}
-.j-items-left {
-	justify-items: left;
-}
-.j-items-right {
-	justify-items: right;
-}
-.j-items-normal {
-	justify-items: normal;
-}
-.j-items-stretch {
-	justify-items: stretch;
+@responsive {
+	.j-items-flex-start {
+		justify-items: flex-start;
+	}
+	.j-items-flex-end {
+		justify-items: flex-end;
+	}
+	.j-items-center {
+		justify-items: center;
+	}
+	.j-items-start {
+		justify-items: start;
+	}
+	.j-items-end {
+		justify-items: end;
+	}
+	.j-items-stretch {
+		justify-items: stretch;
+	}
+	.j-items-self-start {
+		justify-items: self-start;
+	}
+	.j-items-self-end {
+		justify-items: self-end;
+	}
+	.j-items-left {
+		justify-items: left;
+	}
+	.j-items-right {
+		justify-items: right;
+	}
+	.j-items-normal {
+		justify-items: normal;
+	}
+	.j-items-stretch {
+		justify-items: stretch;
+	}
 }

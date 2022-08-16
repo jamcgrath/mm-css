@@ -1,36 +1,38 @@
-.j-self-center {
-	justify-self: center;
-}
-.j-self-start {
-	justify-self: start;
-}
-.j-self-end {
-	justify-self: end;
-}
-.j-self-flex-start {
-	justify-self: flex-start;
-}
-.j-self-flex-end {
-	justify-self: flex-end;
-}
-.j-self-self-start {
-	justify-self: self-start;
-}
-.j-self-self-end {
-	justify-self: self-end;
-}
-.j-self-right {
-	justify-self: right;
-}
-.j-self-left {
-	justify-self: left;
-}
-.j-self-stretch {
-	justify-self: stretch;
-}
-.j-self-normal {
-	justify-self: normal;
-}
-.j-self-auto {
-	justify-self: auto;
+@responsive {
+	.j-self-center {
+		justify-self: center;
+	}
+	.j-self-start {
+		justify-self: start;
+	}
+	.j-self-end {
+		justify-self: end;
+	}
+	.j-self-flex-start {
+		justify-self: flex-start;
+	}
+	.j-self-flex-end {
+		justify-self: flex-end;
+	}
+	.j-self-self-start {
+		justify-self: self-start;
+	}
+	.j-self-self-end {
+		justify-self: self-end;
+	}
+	.j-self-right {
+		justify-self: right;
+	}
+	.j-self-left {
+		justify-self: left;
+	}
+	.j-self-stretch {
+		justify-self: stretch;
+	}
+	.j-self-normal {
+		justify-self: normal;
+	}
+	.j-self-auto {
+		justify-self: auto;
+	}
 }

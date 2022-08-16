@@ -1,15 +1,17 @@
-.grid-flow-row {
-	grid-auto-flow: row;
-}
-.grid-flow-column {
-	grid-auto-flow: column;
-}
-.grid-flow-dense {
-	grid-auto-flow: dense;
-}
-.grid-flow-row-dense {
-	grid-auto-flow: row dense;
-}
-.grid-flow-column-dense {
-	grid-auto-flow: column dense;
+@responsive {
+	.grid-flow-row {
+		grid-auto-flow: row;
+	}
+	.grid-flow-column {
+		grid-auto-flow: column;
+	}
+	.grid-flow-dense {
+		grid-auto-flow: dense;
+	}
+	.grid-flow-row-dense {
+		grid-auto-flow: row dense;
+	}
+	.grid-flow-column-dense {
+		grid-auto-flow: column dense;
+	}
 }

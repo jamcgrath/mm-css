@@ -12,8 +12,10 @@ const responsifyOptions = {
 module.exports = {
 	plugins: [
 		require("postcss-import"),
-		require("postcss-preset-env")({ stage: 1 }),
-		require("autoprefixer")({ flexbox: false }),
+		require("postcss-preset-env")({
+			stage: 2,
+			autoprefixer: { flexbox: false },
+		}),
 		require("./postcss/postcss-responsify/index.js")(responsifyOptions),
 	],
 };

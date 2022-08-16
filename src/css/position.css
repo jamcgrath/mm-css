@@ -1,18 +1,21 @@
-.relative {
-	position: relative;
+@responsive {
+	.relative {
+		position: relative;
+	}
+	.absolute {
+		position: absolute;
+	}
+	.fixed {
+		position: fixed;
+	}
+	.static {
+		position: static;
+	}
+	.sticky {
+		position: sticky;
+	}
 }
-.absolute {
-	position: absolute;
-}
-.fixed {
-	position: fixed;
-}
-.static {
-	position: static;
-}
-.sticky {
-	position: sticky;
-}
+
 .inset-0 {
 	top: 0;
 	right: 0;

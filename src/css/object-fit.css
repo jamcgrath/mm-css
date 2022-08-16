@@ -1,15 +1,17 @@
-.of-contain {
-	of: contain;
-}
-.of-cover {
-	of: cover;
-}
-.of-fill {
-	of: fill;
-}
-.of-none {
-	of: none;
-}
-.of-scale-down {
-	object-fit: scale-down;
+@responsive {
+	.of-contain {
+		of: contain;
+	}
+	.of-cover {
+		of: cover;
+	}
+	.of-fill {
+		of: fill;
+	}
+	.of-none {
+		of: none;
+	}
+	.of-scale-down {
+		object-fit: scale-down;
+	}
 }

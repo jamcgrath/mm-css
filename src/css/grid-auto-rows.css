@@ -1,9 +1,11 @@
-.grid-auto-row {
-	grid-auto-rows: auto;
-}
-.grid-auto-row-min {
-	grid-auto-rows: min-content;
-}
-.grid-auto-row-max {
-	grid-auto-rows: max-content;
+@responsive {
+	.grid-auto-row {
+		grid-auto-rows: auto;
+	}
+	.grid-auto-row-min {
+		grid-auto-rows: min-content;
+	}
+	.grid-auto-row-max {
+		grid-auto-rows: max-content;
+	}
 }
