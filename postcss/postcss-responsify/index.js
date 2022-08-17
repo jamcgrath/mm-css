@@ -97,8 +97,12 @@ function createPrefixedRule(rule, prefix) {
 	if (isAlreadyPrefixed) return false;
 
 	const selectorArray = [];
-	selectors.forEach((s) => {
-		selectorArray.push(`.${prefix + s.substring(1)}`);
+	selectors.forEach((s, index) => {
+		let newLine = "";
+		if (index > 0) {
+			newLine = "\n";
+		}
+		selectorArray.push(`${newLine}.${prefix + s.substring(1)}`);
 	});
 	const selector = selectorArray.toString();
 
