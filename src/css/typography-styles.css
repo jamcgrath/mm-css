@@ -2,121 +2,71 @@
 	.title-1,
 	.title-1_article,
 	.title-1_med,
-	.title-1_semibold {
+	.title-1_semibold,
+	.title-1_display {
 		font-size: var(--title-1);
 		font-weight: var(--fw-4);
 		font-family: var(--sans);
 		line-height: var(--lh-125);
 		letter-spacing: var(--ls-02);
 	}
-	.title-1_article {
-		font-family: var(--serif);
-	}
-	.title-1_med {
-		font-weight: var(--fw-5);
-	}
-	.title-1_semibold {
-		font-weight: var(--fw-6);
-	}
 
 	.title-2,
 	.title-2_article,
 	.title-2_med,
-	.title-2_semibold {
+	.title-2_semibold,
+	.title-2_display {
 		font-size: var(--title-2);
 		font-weight: var(--fw-4);
 		font-family: var(--sans);
 		line-height: var(--lh-116);
 		letter-spacing: var(--ls-015);
 	}
-	.title-2_article {
-		font-family: var(--serif);
-	}
-	.title-2_med {
-		font-weight: var(--fw-5);
-	}
-	.title-2_semibold {
-		font-weight: var(--fw-6);
-	}
 
 	.title-3,
 	.title-3_article,
 	.title-3_med,
-	.title-3_semibold {
+	.title-3_semibold,
+	.title-3_display {
 		font-size: var(--title-3);
 		font-weight: var(--fw-4);
 		font-family: var(--sans);
 		line-height: var(--lh-120);
 		letter-spacing: var(--ls-125);
 	}
-	.title-3_article {
-		font-family: var(--serif);
-	}
-	.title-3_med {
-		font-weight: var(--fw-5);
-	}
-	.title-3_semibold {
-		font-weight: var(--fw-6);
-	}
 
 	.title-4,
 	.title-4_article,
 	.title-4_med,
-	.title-4_semibold {
+	.title-4_semibold .title-4_display {
 		font-size: var(--title-4);
 		font-weight: var(--fw-4);
 		font-family: var(--sans);
 		line-height: var(--lh-125);
 		letter-spacing: var(--ls-01);
 	}
-	.title-4_article {
-		font-family: var(--serif);
-	}
-	.title-4_med {
-		font-weight: var(--fw-5);
-	}
-	.title-4_semibold {
-		font-weight: var(--fw-6);
-	}
 
 	.title-5,
 	.title-5_article,
 	.title-5_med,
-	.title-5_semibold {
+	.title-5_semibold,
+	.title-5_display {
 		font-size: var(--title-5);
 		font-weight: var(--fw-4);
 		font-family: var(--sans);
 		line-height: var(--lh-133);
 		letter-spacing: var(--ls-075);
 	}
-	.title-5_article {
-		font-family: var(--serif);
-	}
-	.title-5_med {
-		font-weight: var(--fw-5);
-	}
-	.title-5_semibold {
-		font-weight: var(--fw-6);
-	}
 
 	.title-6,
 	.title-6_article,
 	.title-6_med,
-	.title-6_semibold {
+	.title-6_semibold .title-6_display {
 		font-size: var(--title-6);
 		font-weight: var(--fw-4);
 		font-family: var(--sans);
 		line-height: var(--lh-160);
 		letter-spacing: var(--ls-05);
-	}
-	.title-6_article {
-		font-family: var(--serif);
-	}
-	.title-6_med {
-		font-family: var(--fw-5);
-	}
-	.title-6_semibold {
-		font-family: var(--fw-6);
 	}
 
 	.copy,
@@ -124,26 +74,13 @@
 	.copy_med,
 	.copy_semibold,
 	.copy_italic,
-	.copy_link {
+	.copy_link,
+	.title-7_display {
 		font-size: var(--copy);
 		font-weight: var(--fw-4);
-		font-family: var(--serif);
+		font-family: var(--serif-1);
 		line-height: var(--lh-133);
 		letter-spacing: var(--ls-025);
-	}
-
-	.copy_med {
-		font-weight: var(--fw-5);
-		font-family: var(--sans);
-	}
-	.copy_semibold {
-		font-weight: var(--fw-6);
-	}
-	.copy_italic {
-		font-style: italic;
-	}
-	.copy_link {
-		text-decoration: underline;
 	}
 
 	.body,
@@ -151,27 +88,13 @@
 	.body_med,
 	.body_semibold,
 	.body_italic,
-	.body_link {
+	.body_link,
+	.title-8_display {
 		font-size: var(--body);
 		font-weight: var(--fw-4);
 		font-family: var(--sans);
 		line-height: var(--lh-150);
 		letter-spacing: var(--ls-025);
-	}
-	.body_article {
-		font-family: var(--serif);
-	}
-	.body_med {
-		font-weight: var(--fw-5);
-	}
-	.body_semibold {
-		font-weight: var(--fw-6);
-	}
-	.body_italic {
-		font-style: italic;
-	}
-	.body_link {
-		text-decoration: underline;
 	}
 
 	.label,
@@ -179,26 +102,12 @@
 	.label_med,
 	.label_semibold,
 	.label_italic,
-	.label_link {
+	.label_link,
+	.title-9_display {
 		font-size: var(--label);
 		font-weight: var(--fw-4);
 		font-family: var(--sans);
 		line-height: var(--lh-171);
-	}
-	.label_article {
-		font-family: var(--serif);
-	}
-	.label_med {
-		font-weight: var(--fw-5);
-	}
-	.label_semibold {
-		font-weight: var(--fw-6);
-	}
-	.label_italic {
-		font-style: italic;
-	}
-	.label_link {
-		text-decoration: underline;
 	}
 
 	.caption,
@@ -206,26 +115,12 @@
 	.caption_med,
 	.caption_semibold,
 	.caption_italic,
-	.captioin_link {
+	.caption_link,
+	.title-10_display {
 		font-size: var(--caption);
 		font-weight: var(--fw-4);
 		font-family: var(--sans);
 		line-height: var(--lh-133);
-	}
-	.caption_article {
-		font-family: var(--serif);
-	}
-	.caption_med {
-		font-weight: var(--fw-5);
-	}
-	.caption_semibold {
-		font-weight: var(--fw-6);
-	}
-	.caption_italic {
-		font-style: italic;
-	}
-	.caption_link {
-		text-decoration: underline;
 	}
 
 	.small,
@@ -239,18 +134,89 @@
 		font-family: var(--sans);
 		line-height: var(--lh-120);
 	}
+
+	.title-1_article,
+	.title-2_article,
+	.title-3_article,
+	.title-4_article,
+	.title-5_article,
+	.title-6_article,
+	.copy_article,
+	.body_article,
+	.label_article,
+	.caption_article,
 	.small_article {
 		font-family: var(--serif);
 	}
-	.small_med {
+	.title-1_med,
+	.title-2_med,
+	.title-3_med,
+	.title-4_med,
+	.title-5_med,
+	.title-6_med,
+	.copy_med,
+	.body_med,
+	.label_med,
+	.caption_med,
+	.small_med,
+	.copy_italic,
+	.body_italic,
+	.label_italic,
+	.caption_italic,
+	.small_italic,
+	.copy_link,
+	.body_link,
+	.label_link,
+	.caption_link,
+	.small_link {
 		font-weight: var(--fw-5);
 	}
+	.title-1_semibold,
+	.title-2_semibold,
+	.title-3_semibold,
+	.title-4_semibold,
+	.title-5_semibold,
+	.title-6_semibold,
+	.copy_semibold,
+	.body_semibold,
+	.label_semibold,
+	.caption_semibold,
 	.small_semibold {
 		font-weight: var(--fw-6);
 	}
+
+	.title-1_display,
+	.title-2_display,
+	.title-3_display,
+	.title-4_display,
+	.title-5_display,
+	.title-6_display,
+	.title-7_display,
+	.title-8_display,
+	.title-9_display,
+	.title-10_display {
+		font-weight: var(--fw-7);
+	}
+
+	.copy_med,
+	.copy_semibold,
+	.copy_italic,
+	.copy_link,
+	.title-7_display {
+		font-family: var(--sans);
+	}
+
+	.copy_italic,
+	.body_italic,
+	.label_italic,
+	.caption_italic,
 	.small_italic {
 		font-style: italic;
 	}
+	.copy_link,
+	.body_link,
+	.label_link,
+	.caption_link,
 	.small_link {
 		text-decoration: underline;
 	}
