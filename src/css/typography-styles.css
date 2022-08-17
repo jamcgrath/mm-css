@@ -38,7 +38,8 @@
 	.title-4,
 	.title-4_article,
 	.title-4_med,
-	.title-4_semibold .title-4_display {
+	.title-4_semibold,
+	.title-4_display {
 		font-size: var(--title-4);
 		font-weight: var(--fw-4);
 		font-family: var(--sans);
