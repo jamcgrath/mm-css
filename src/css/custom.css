@@ -5,14 +5,14 @@
 
 ._circle {
 	--_width: var(--width);
-	border-raduis: 50%;
+	border-radius: 50%;
 	width: var(--_width, 100%);
 	height: var(--_width, 100%);
 }
 
 ._br {
 	--_br: var(--br, 0);
-	border-raduis: var(--br);
+	border-radius: var(--br);
 }
 
 ._h {
