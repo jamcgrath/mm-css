@@ -1,5 +1,5 @@
 /* brand warm */
-.bw-primary: {
+.bw-primary {
 	color: var(--bw-primary);
 }
 .bw-secondary {
@@ -16,7 +16,7 @@
 }
 
 /* brand cold  */
-.bc-primary: {
+.bc-primary {
 	color: var(--bc-primary);
 }
 .bc-primary-light {

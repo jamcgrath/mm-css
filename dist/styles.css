@@ -693,7 +693,7 @@ html:focus-within {
 
 /* brand warm */
 
-.bw-primary: {
+.bw-primary {
 	color: var(--bw-primary);
 }
 
@@ -715,7 +715,7 @@ html:focus-within {
 
 /* brand cold  */
 
-.bc-primary: {
+.bc-primary {
 	color: var(--bc-primary);
 }
 
