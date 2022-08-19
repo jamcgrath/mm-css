@@ -4,7 +4,7 @@
 }
 
 ._circle {
-	--_width: var(--width);
+	--_width: var(--circle-width);
 	border-radius: 50%;
 	width: var(--_width, 100%);
 	height: var(--_width, 100%);
