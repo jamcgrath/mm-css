@@ -1,0 +1,14 @@
+{
+  ".hide-scroll": {
+    "msOverflowStyle": "none",
+    "scrollbarWidth": "none"
+  },
+  ".hide-scroll::-webkit-scrollbar": {
+    "display": "none"
+  },
+  "@media (--sm)": true,
+  "@media (--md)": true,
+  "@media (--lg)": true,
+  "@media (--xl)": true,
+  "@media (--xxl)": true
+}

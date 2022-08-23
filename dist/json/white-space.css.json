@@ -1,0 +1,25 @@
+{
+  ".ws-normal": {
+    "whiteSpace": "normal"
+  },
+  ".ws-nowrap": {
+    "whiteSpace": "nowrap"
+  },
+  ".ws-pre": {
+    "whiteSpace": "pre"
+  },
+  ".ws-pre-wrap": {
+    "whiteSpace": "pre-wrap"
+  },
+  ".ws-pre-line": {
+    "whiteSpace": "pre-line"
+  },
+  ".ws-break": {
+    "whiteSpace": "break-spaces"
+  },
+  "@media (min-width: 300px)": true,
+  "@media (min-width: 768px)": true,
+  "@media (min-width: 1024px)": true,
+  "@media (min-width: 1440px)": true,
+  "@media (min-width: 1920px)": true
+}

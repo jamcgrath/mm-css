@@ -1,0 +1,53 @@
+/* brand warm */
+.bg-bw-primary {
+  background-color: var(--bw-primary);
+}
+.bg-bw-primary-light {
+  background-color: var(--bw-primary-light);
+}
+.bg-bw-secondary {
+  background-color: var(--bw-secondary);
+}
+.bg-bw-secondary-light {
+  background-color: var(--bw-secondary-light);
+}
+.bg-bw-tertiary {
+  background-color: var(--bw-tertiary);
+}
+.bg-bw-tertiary-light {
+  background-color: var(--bw-tertiary-light);
+}
+/* brand cold  */
+.bg-bc-primary {
+  background-color: var(--bc-primary);
+}
+.bg-bc-primary-light {
+  background-color: var(--bc-primary-light);
+}
+.bg-bc-secondary {
+  background-color: var(--bc-secondary);
+}
+.bg-bc-secondary-light {
+  background-color: var(--bc-secondary-light);
+}
+.bg-bc-tertiary {
+  background-color: var(--bc-tertiary);
+}
+.bg-bc-tertiary-light {
+  background-color: var(--bc-tertiary-light);
+}
+/* brand other */
+.bg-bo-3 {
+  background-color: var(--bo-3);
+}
+.bg-bo-4 {
+  background-color: var(--bo-4);
+}
+.bg-bo-5 {
+  background-color: var(--bo-5);
+}
+@media (--sm);
+@media (--md);
+@media (--lg);
+@media (--xl);
+@media (--xxl)

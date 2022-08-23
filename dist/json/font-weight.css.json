@@ -1,0 +1,34 @@
+{
+  ".thin": {
+    "fontWeight": "var(--fw-1)"
+  },
+  ".extra-light": {
+    "fontWeight": "var(--fw-2)"
+  },
+  ".light": {
+    "fontWeight": "var(--fw-3)"
+  },
+  ".regular": {
+    "fontWeight": "var(--fw-4)"
+  },
+  ".medium": {
+    "fontWeight": "var(--fw-5)"
+  },
+  ".bold": {
+    "fontWeight": "var(--fw-6)"
+  },
+  ".semi-bold": {
+    "fontWeight": "var(--fw-7)"
+  },
+  ".extra-bold": {
+    "fontWeight": "var(--fw-8)"
+  },
+  ".black-bold": {
+    "fontWeight": "var(--fw-9)"
+  },
+  "@media (--sm)": true,
+  "@media (--md)": true,
+  "@media (--lg)": true,
+  "@media (--xl)": true,
+  "@media (--xxl)": true
+}

@@ -1,0 +1,35 @@
+{
+  ".min-h-0": {
+    "minHeight": "0"
+  },
+  ".min-h-100": {
+    "minHeight": "100%"
+  },
+  ".min-h-100vh": {
+    "minHeight": "100vh"
+  },
+  ".min-h-min": {
+    "minHeight": [
+      "-webkit-min-content",
+      "min-content"
+    ]
+  },
+  ".min-h-max": {
+    "minHeight": [
+      "-webkit-max-content",
+      "max-content"
+    ]
+  },
+  ".min-h-fit": {
+    "minHeight": [
+      "-webkit-fit-content",
+      "-moz-fit-content",
+      "fit-content"
+    ]
+  },
+  "@media (min-width: 300px)": true,
+  "@media (min-width: 768px)": true,
+  "@media (min-width: 1024px)": true,
+  "@media (min-width: 1440px)": true,
+  "@media (min-width: 1920px)": true
+}

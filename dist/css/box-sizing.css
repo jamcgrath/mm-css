@@ -1,0 +1,14 @@
+.box-border {
+	box-sizing: border-box;
+}
+.box-content {
+	box-sizing: content-box;
+}
+.box-padding {
+	box-sizing: padding-box;
+}
+@media (--sm);
+@media (--md);
+@media (--lg);
+@media (--xl);
+@media (--xxl)

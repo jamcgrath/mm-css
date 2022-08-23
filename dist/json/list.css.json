@@ -1,0 +1,33 @@
+{
+  ".list-reset": {
+    "listStyle": "none",
+    "padding": "0",
+    "margin": "0"
+  },
+  ".list-style-none": {
+    "listStyle": "none"
+  },
+  ".list-style-square": {
+    "listStyle": "square"
+  },
+  ".list-style-circle": {
+    "listStyle": "circle"
+  },
+  ".list-style-disc": {
+    "listStyle": "disc"
+  },
+  ".list-style-decimal": {
+    "listStyle": "decimal"
+  },
+  ".list-in": {
+    "listStylePosition": "inside"
+  },
+  ".list-out": {
+    "listStylePosition": "outside"
+  },
+  "@media (--sm)": true,
+  "@media (--md)": true,
+  "@media (--lg)": true,
+  "@media (--xl)": true,
+  "@media (--xxl)": true
+}

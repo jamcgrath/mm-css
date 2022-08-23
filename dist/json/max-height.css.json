@@ -1,0 +1,22 @@
+{
+  ".max-h-auto": {
+    "maxHeight": "auto"
+  },
+  ".max-h-max": {
+    "maxHeight": [
+      "-webkit-max-content",
+      "max-content"
+    ]
+  },
+  ".max-h-min": {
+    "maxHeight": [
+      "-webkit-min-content",
+      "min-content"
+    ]
+  },
+  "@media (--sm)": true,
+  "@media (--md)": true,
+  "@media (--lg)": true,
+  "@media (--xl)": true,
+  "@media (--xxl)": true
+}

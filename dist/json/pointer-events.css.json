@@ -1,0 +1,13 @@
+{
+  ".pointer-events-none": {
+    "pointerEvents": "none"
+  },
+  ".pointer-events-auto": {
+    "pointerEvents": "auto"
+  },
+  "@media (min-width: 300px)": true,
+  "@media (min-width: 768px)": true,
+  "@media (min-width: 1024px)": true,
+  "@media (min-width: 1440px)": true,
+  "@media (min-width: 1920px)": true
+}

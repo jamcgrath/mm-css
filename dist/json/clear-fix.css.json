@@ -1,0 +1,14 @@
+{
+  ".clearfix::before,\n.clearfix::after": {
+    "content": "\"\"",
+    "display": "table"
+  },
+  ".clearfix::after": {
+    "clear": "both"
+  },
+  "@media (--sm)": true,
+  "@media (--md)": true,
+  "@media (--lg)": true,
+  "@media (--xl)": true,
+  "@media (--xxl)": true
+}

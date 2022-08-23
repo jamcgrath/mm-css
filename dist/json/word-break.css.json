@@ -1,0 +1,19 @@
+{
+  ".word-break-normal": {
+    "wordBreak": "normal"
+  },
+  ".word-break-all": {
+    "wordBreak": "break-all"
+  },
+  ".word-break-keep": {
+    "wordBreak": "keep-all"
+  },
+  ".word-break-word": {
+    "wordBreak": "break-word"
+  },
+  "@media (min-width: 300px)": true,
+  "@media (min-width: 768px)": true,
+  "@media (min-width: 1024px)": true,
+  "@media (min-width: 1440px)": true,
+  "@media (min-width: 1920px)": true
+}

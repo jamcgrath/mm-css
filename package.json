@@ -1,38 +1,42 @@
 {
-	"name": "mm-css",
-	"version": "1.0.0",
-	"description": "",
-	"main": "index.js",
-	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1",
-		"postcss:build": "postcss src/styles.css -o dist/styles.css"
-	},
-	"keywords": [],
-	"author": "",
-	"license": "ISC",
-	"devDependencies": {
-		"postcss": "^8.4.16",
-		"postcss-cli": "^10.0.0",
-		"postcss-import": "^14.1.0",
-		"postcss-preset-env": "^7.7.2"
-	},
-	"dependencies": {
-		"autoprefixer": "^10.4.8"
-	},
-"browserslist": [
-		"> 5%",
-		"last 2 versions",
-		"Android >= 6",
-		"Safari >= 13",
-		"ios >= 12.5",
-		"edge > 18",
-		"chrome >= 74",
-		"Opera >= 63",
-		"op_mob >= 59",
-		"not dead",
-		"not op_mini all",
-		"not kaios > 0",
-		"not and_qq > 0",
-		"not and_uc > 0"
-	]
+  "name": "mm-css",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postcss:build": "postcss src/styles.css -o dist/styles.css",
+    "postcss:build:single": "postcss src/**/*.css --base src --dir dist",
+    "csstojson": "node ./scripts/csstojson.js",
+		"build": "npm run postcss:build && npm run postcss:build:single && npm run csstojson"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "postcss": "^8.4.16",
+    "postcss-cli": "^10.0.0",
+    "postcss-import": "^14.1.0",
+    "postcss-preset-env": "^7.7.2"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.4.8",
+    "postcss-js": "^4.0.0"
+  },
+  "browserslist": [
+    "> 5%",
+    "last 2 versions",
+    "Android >= 6",
+    "Safari >= 13",
+    "ios >= 12.5",
+    "edge > 18",
+    "chrome >= 74",
+    "Opera >= 63",
+    "op_mob >= 59",
+    "not dead",
+    "not op_mini all",
+    "not kaios > 0",
+    "not and_qq > 0",
+    "not and_uc > 0"
+  ]
 }

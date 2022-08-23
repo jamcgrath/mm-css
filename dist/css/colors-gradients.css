@@ -1,0 +1,14 @@
+.bo-1-gradient {
+	background: var(--bo-1);
+}
+.bo-2-gradient {
+	background: var(--bo-1);
+}
+.motion-gradient {
+	background: var(--motion);
+}
+@media (--sm);
+@media (--md);
+@media (--lg);
+@media (--xl);
+@media (--xxl)

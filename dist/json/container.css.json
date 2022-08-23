@@ -1,0 +1,32 @@
+{
+  ":root": {
+    "--sm-container": "480px",
+    "--md-container": "768px",
+    "--lg-container": "1024px",
+    "--xl-container": "1280px",
+    "--xxl-container": "1920px"
+  },
+  ".container,\n.sm-container,\n.md-container,\n.lg-container,\n.xl-container,\n.xxl-container": {
+    "width": "100%"
+  },
+  ".sm-container": {
+    "maxWidth": "480px"
+  },
+  ".md-container": {
+    "maxWidth": "768px"
+  },
+  ".lg-container": {
+    "maxWidth": "1024px"
+  },
+  ".xl-container": {
+    "maxWidth": "1280px"
+  },
+  ".xxl-container": {
+    "maxWidth": "1920px"
+  },
+  "@media (--sm)": true,
+  "@media (--md)": true,
+  "@media (--lg)": true,
+  "@media (--xl)": true,
+  "@media (--xxl)": true
+}

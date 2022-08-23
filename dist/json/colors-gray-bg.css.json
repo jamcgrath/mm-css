@@ -1,0 +1,34 @@
+{
+  ".bg-gray-1": {
+    "backgroundColor": "var(--gray-1)"
+  },
+  ".bg-gray-2": {
+    "backgroundColor": "var(--gray-2)"
+  },
+  ".bg-gray-3": {
+    "backgroundColor": "var(--gray-3)"
+  },
+  ".bg-gray-4": {
+    "backgroundColor": "var(--gray-4)"
+  },
+  ".bg-gray-5": {
+    "backgroundColor": "var(--gray-5)"
+  },
+  ".bg-gray-6": {
+    "backgroundColor": "var(--gray-6)"
+  },
+  ".bg-gray-7": {
+    "backgroundColor": "var(--gray-7)"
+  },
+  ".bg-gray-8": {
+    "backgroundColor": "var(--gray-8)"
+  },
+  ".bg-gray-9": {
+    "backgroundColor": "var(--gray-9)"
+  },
+  "@media (--sm)": true,
+  "@media (--md)": true,
+  "@media (--lg)": true,
+  "@media (--xl)": true,
+  "@media (--xxl)": true
+}

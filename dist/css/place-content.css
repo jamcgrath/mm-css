@@ -1,0 +1,227 @@
+
+	.p-content-center {
+		place-content: center;
+	}
+.p-content-start {
+		place-content: start;
+	}
+.p-content-end {
+		place-content: end;
+	}
+.p-content-between {
+		place-content: between;
+	}
+.p-content-around {
+		place-content: around;
+	}
+.p-content-evenly {
+		place-content: evenly;
+	}
+.p-content-stretch {
+		place-content: stretch;
+	}
+.p-content-flex-start {
+		place-content: flex-start;
+	}
+.p-content-flex-end {
+		place-content: flex-end;
+	}
+.p-content-left {
+		place-content: left;
+	}
+.p-content-right {
+		place-content: right;
+	}
+.p-content-normal {
+		place-content: normal;
+	}
+@media (min-width: 300px) {
+	.sm-p-content-center {
+		place-content: center;
+	}
+	.sm-p-content-start {
+		place-content: start;
+	}
+	.sm-p-content-end {
+		place-content: end;
+	}
+	.sm-p-content-between {
+		place-content: between;
+	}
+	.sm-p-content-around {
+		place-content: around;
+	}
+	.sm-p-content-evenly {
+		place-content: evenly;
+	}
+	.sm-p-content-stretch {
+		place-content: stretch;
+	}
+	.sm-p-content-flex-start {
+		place-content: flex-start;
+	}
+	.sm-p-content-flex-end {
+		place-content: flex-end;
+	}
+	.sm-p-content-left {
+		place-content: left;
+	}
+	.sm-p-content-right {
+		place-content: right;
+	}
+	.sm-p-content-normal {
+		place-content: normal;
+	}
+}
+@media (min-width: 768px) {
+	.md-p-content-center {
+		place-content: center;
+	}
+	.md-p-content-start {
+		place-content: start;
+	}
+	.md-p-content-end {
+		place-content: end;
+	}
+	.md-p-content-between {
+		place-content: between;
+	}
+	.md-p-content-around {
+		place-content: around;
+	}
+	.md-p-content-evenly {
+		place-content: evenly;
+	}
+	.md-p-content-stretch {
+		place-content: stretch;
+	}
+	.md-p-content-flex-start {
+		place-content: flex-start;
+	}
+	.md-p-content-flex-end {
+		place-content: flex-end;
+	}
+	.md-p-content-left {
+		place-content: left;
+	}
+	.md-p-content-right {
+		place-content: right;
+	}
+	.md-p-content-normal {
+		place-content: normal;
+	}
+}
+@media (min-width: 1024px) {
+	.lg-p-content-center {
+		place-content: center;
+	}
+	.lg-p-content-start {
+		place-content: start;
+	}
+	.lg-p-content-end {
+		place-content: end;
+	}
+	.lg-p-content-between {
+		place-content: between;
+	}
+	.lg-p-content-around {
+		place-content: around;
+	}
+	.lg-p-content-evenly {
+		place-content: evenly;
+	}
+	.lg-p-content-stretch {
+		place-content: stretch;
+	}
+	.lg-p-content-flex-start {
+		place-content: flex-start;
+	}
+	.lg-p-content-flex-end {
+		place-content: flex-end;
+	}
+	.lg-p-content-left {
+		place-content: left;
+	}
+	.lg-p-content-right {
+		place-content: right;
+	}
+	.lg-p-content-normal {
+		place-content: normal;
+	}
+}
+@media (min-width: 1440px) {
+	.xl-p-content-center {
+		place-content: center;
+	}
+	.xl-p-content-start {
+		place-content: start;
+	}
+	.xl-p-content-end {
+		place-content: end;
+	}
+	.xl-p-content-between {
+		place-content: between;
+	}
+	.xl-p-content-around {
+		place-content: around;
+	}
+	.xl-p-content-evenly {
+		place-content: evenly;
+	}
+	.xl-p-content-stretch {
+		place-content: stretch;
+	}
+	.xl-p-content-flex-start {
+		place-content: flex-start;
+	}
+	.xl-p-content-flex-end {
+		place-content: flex-end;
+	}
+	.xl-p-content-left {
+		place-content: left;
+	}
+	.xl-p-content-right {
+		place-content: right;
+	}
+	.xl-p-content-normal {
+		place-content: normal;
+	}
+}
+@media (min-width: 1920px) {
+	.xxl-p-content-center {
+		place-content: center;
+	}
+	.xxl-p-content-start {
+		place-content: start;
+	}
+	.xxl-p-content-end {
+		place-content: end;
+	}
+	.xxl-p-content-between {
+		place-content: between;
+	}
+	.xxl-p-content-around {
+		place-content: around;
+	}
+	.xxl-p-content-evenly {
+		place-content: evenly;
+	}
+	.xxl-p-content-stretch {
+		place-content: stretch;
+	}
+	.xxl-p-content-flex-start {
+		place-content: flex-start;
+	}
+	.xxl-p-content-flex-end {
+		place-content: flex-end;
+	}
+	.xxl-p-content-left {
+		place-content: left;
+	}
+	.xxl-p-content-right {
+		place-content: right;
+	}
+	.xxl-p-content-normal {
+		place-content: normal;
+	}
+}

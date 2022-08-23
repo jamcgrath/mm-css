@@ -1,0 +1,31 @@
+{
+  ".v-align-baseline": {
+    "verticalAlign": "baseline"
+  },
+  ".v-align-bottom": {
+    "verticalAlign": "bottom"
+  },
+  ".v-align-middle": {
+    "verticalAlign": "middle"
+  },
+  ".v-align-top": {
+    "verticalAlign": "top"
+  },
+  ".v-align-text-bottom": {
+    "verticalAlign": "text-bottom"
+  },
+  ".v-align-text-top": {
+    "verticalAlign": "text-top"
+  },
+  ".v-align-sub": {
+    "verticalAlign": "sub"
+  },
+  ".v-align-super": {
+    "verticalAlign": "super"
+  },
+  "@media (min-width: 300px)": true,
+  "@media (min-width: 768px)": true,
+  "@media (min-width: 1024px)": true,
+  "@media (min-width: 1440px)": true,
+  "@media (min-width: 1920px)": true
+}

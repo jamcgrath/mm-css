@@ -1,0 +1,101 @@
+
+	.grid-flow-row {
+		grid-auto-flow: row;
+	}
+.grid-flow-column {
+		grid-auto-flow: column;
+	}
+.grid-flow-dense {
+		grid-auto-flow: dense;
+	}
+.grid-flow-row-dense {
+		grid-auto-flow: row dense;
+	}
+.grid-flow-column-dense {
+		grid-auto-flow: column dense;
+	}
+@media (--sm) {
+	.sm-grid-flow-row {
+		grid-auto-flow: row;
+	}
+	.sm-grid-flow-column {
+		grid-auto-flow: column;
+	}
+	.sm-grid-flow-dense {
+		grid-auto-flow: dense;
+	}
+	.sm-grid-flow-row-dense {
+		grid-auto-flow: row dense;
+	}
+	.sm-grid-flow-column-dense {
+		grid-auto-flow: column dense;
+	}
+}
+@media (--md) {
+	.md-grid-flow-row {
+		grid-auto-flow: row;
+	}
+	.md-grid-flow-column {
+		grid-auto-flow: column;
+	}
+	.md-grid-flow-dense {
+		grid-auto-flow: dense;
+	}
+	.md-grid-flow-row-dense {
+		grid-auto-flow: row dense;
+	}
+	.md-grid-flow-column-dense {
+		grid-auto-flow: column dense;
+	}
+}
+@media (--lg) {
+	.lg-grid-flow-row {
+		grid-auto-flow: row;
+	}
+	.lg-grid-flow-column {
+		grid-auto-flow: column;
+	}
+	.lg-grid-flow-dense {
+		grid-auto-flow: dense;
+	}
+	.lg-grid-flow-row-dense {
+		grid-auto-flow: row dense;
+	}
+	.lg-grid-flow-column-dense {
+		grid-auto-flow: column dense;
+	}
+}
+@media (--xl) {
+	.xl-grid-flow-row {
+		grid-auto-flow: row;
+	}
+	.xl-grid-flow-column {
+		grid-auto-flow: column;
+	}
+	.xl-grid-flow-dense {
+		grid-auto-flow: dense;
+	}
+	.xl-grid-flow-row-dense {
+		grid-auto-flow: row dense;
+	}
+	.xl-grid-flow-column-dense {
+		grid-auto-flow: column dense;
+	}
+}
+@media (--xxl) {
+	.xxl-grid-flow-row {
+		grid-auto-flow: row;
+	}
+	.xxl-grid-flow-column {
+		grid-auto-flow: column;
+	}
+	.xxl-grid-flow-dense {
+		grid-auto-flow: dense;
+	}
+	.xxl-grid-flow-row-dense {
+		grid-auto-flow: row dense;
+	}
+	.xxl-grid-flow-column-dense {
+		grid-auto-flow: column dense;
+	}
+}

@@ -1,0 +1,66 @@
+{
+  ".float-left": {
+    "cssFloat": "left"
+  },
+  ".float-right": {
+    "cssFloat": "right"
+  },
+  ".float-none": {
+    "cssFloat": "none"
+  },
+  "@media (--sm)": {
+    ".sm-float-left": {
+      "cssFloat": "left"
+    },
+    ".sm-float-right": {
+      "cssFloat": "right"
+    },
+    ".sm-float-none": {
+      "cssFloat": "none"
+    }
+  },
+  "@media (--md)": {
+    ".md-float-left": {
+      "cssFloat": "left"
+    },
+    ".md-float-right": {
+      "cssFloat": "right"
+    },
+    ".md-float-none": {
+      "cssFloat": "none"
+    }
+  },
+  "@media (--lg)": {
+    ".lg-float-left": {
+      "cssFloat": "left"
+    },
+    ".lg-float-right": {
+      "cssFloat": "right"
+    },
+    ".lg-float-none": {
+      "cssFloat": "none"
+    }
+  },
+  "@media (--xl)": {
+    ".xl-float-left": {
+      "cssFloat": "left"
+    },
+    ".xl-float-right": {
+      "cssFloat": "right"
+    },
+    ".xl-float-none": {
+      "cssFloat": "none"
+    }
+  },
+  "@media (--xxl)": {
+    ".xxl-float-left": {
+      "cssFloat": "left"
+    },
+    ".xxl-float-right": {
+      "cssFloat": "right"
+    },
+    ".xxl-float-none": {
+      "cssFloat": "none"
+    }
+  }
+}

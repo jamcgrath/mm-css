@@ -1,0 +1,228 @@
+{
+  ".j-self-center": {
+    "justifySelf": "center"
+  },
+  ".j-self-start": {
+    "justifySelf": "start"
+  },
+  ".j-self-end": {
+    "justifySelf": "end"
+  },
+  ".j-self-flex-start": {
+    "justifySelf": "flex-start"
+  },
+  ".j-self-flex-end": {
+    "justifySelf": "flex-end"
+  },
+  ".j-self-self-start": {
+    "justifySelf": "self-start"
+  },
+  ".j-self-self-end": {
+    "justifySelf": "self-end"
+  },
+  ".j-self-right": {
+    "justifySelf": "right"
+  },
+  ".j-self-left": {
+    "justifySelf": "left"
+  },
+  ".j-self-stretch": {
+    "justifySelf": "stretch"
+  },
+  ".j-self-normal": {
+    "justifySelf": "normal"
+  },
+  ".j-self-auto": {
+    "justifySelf": "auto"
+  },
+  "@media (--sm)": {
+    ".sm-j-self-center": {
+      "justifySelf": "center"
+    },
+    ".sm-j-self-start": {
+      "justifySelf": "start"
+    },
+    ".sm-j-self-end": {
+      "justifySelf": "end"
+    },
+    ".sm-j-self-flex-start": {
+      "justifySelf": "flex-start"
+    },
+    ".sm-j-self-flex-end": {
+      "justifySelf": "flex-end"
+    },
+    ".sm-j-self-self-start": {
+      "justifySelf": "self-start"
+    },
+    ".sm-j-self-self-end": {
+      "justifySelf": "self-end"
+    },
+    ".sm-j-self-right": {
+      "justifySelf": "right"
+    },
+    ".sm-j-self-left": {
+      "justifySelf": "left"
+    },
+    ".sm-j-self-stretch": {
+      "justifySelf": "stretch"
+    },
+    ".sm-j-self-normal": {
+      "justifySelf": "normal"
+    },
+    ".sm-j-self-auto": {
+      "justifySelf": "auto"
+    }
+  },
+  "@media (--md)": {
+    ".md-j-self-center": {
+      "justifySelf": "center"
+    },
+    ".md-j-self-start": {
+      "justifySelf": "start"
+    },
+    ".md-j-self-end": {
+      "justifySelf": "end"
+    },
+    ".md-j-self-flex-start": {
+      "justifySelf": "flex-start"
+    },
+    ".md-j-self-flex-end": {
+      "justifySelf": "flex-end"
+    },
+    ".md-j-self-self-start": {
+      "justifySelf": "self-start"
+    },
+    ".md-j-self-self-end": {
+      "justifySelf": "self-end"
+    },
+    ".md-j-self-right": {
+      "justifySelf": "right"
+    },
+    ".md-j-self-left": {
+      "justifySelf": "left"
+    },
+    ".md-j-self-stretch": {
+      "justifySelf": "stretch"
+    },
+    ".md-j-self-normal": {
+      "justifySelf": "normal"
+    },
+    ".md-j-self-auto": {
+      "justifySelf": "auto"
+    }
+  },
+  "@media (--lg)": {
+    ".lg-j-self-center": {
+      "justifySelf": "center"
+    },
+    ".lg-j-self-start": {
+      "justifySelf": "start"
+    },
+    ".lg-j-self-end": {
+      "justifySelf": "end"
+    },
+    ".lg-j-self-flex-start": {
+      "justifySelf": "flex-start"
+    },
+    ".lg-j-self-flex-end": {
+      "justifySelf": "flex-end"
+    },
+    ".lg-j-self-self-start": {
+      "justifySelf": "self-start"
+    },
+    ".lg-j-self-self-end": {
+      "justifySelf": "self-end"
+    },
+    ".lg-j-self-right": {
+      "justifySelf": "right"
+    },
+    ".lg-j-self-left": {
+      "justifySelf": "left"
+    },
+    ".lg-j-self-stretch": {
+      "justifySelf": "stretch"
+    },
+    ".lg-j-self-normal": {
+      "justifySelf": "normal"
+    },
+    ".lg-j-self-auto": {
+      "justifySelf": "auto"
+    }
+  },
+  "@media (--xl)": {
+    ".xl-j-self-center": {
+      "justifySelf": "center"
+    },
+    ".xl-j-self-start": {
+      "justifySelf": "start"
+    },
+    ".xl-j-self-end": {
+      "justifySelf": "end"
+    },
+    ".xl-j-self-flex-start": {
+      "justifySelf": "flex-start"
+    },
+    ".xl-j-self-flex-end": {
+      "justifySelf": "flex-end"
+    },
+    ".xl-j-self-self-start": {
+      "justifySelf": "self-start"
+    },
+    ".xl-j-self-self-end": {
+      "justifySelf": "self-end"
+    },
+    ".xl-j-self-right": {
+      "justifySelf": "right"
+    },
+    ".xl-j-self-left": {
+      "justifySelf": "left"
+    },
+    ".xl-j-self-stretch": {
+      "justifySelf": "stretch"
+    },
+    ".xl-j-self-normal": {
+      "justifySelf": "normal"
+    },
+    ".xl-j-self-auto": {
+      "justifySelf": "auto"
+    }
+  },
+  "@media (--xxl)": {
+    ".xxl-j-self-center": {
+      "justifySelf": "center"
+    },
+    ".xxl-j-self-start": {
+      "justifySelf": "start"
+    },
+    ".xxl-j-self-end": {
+      "justifySelf": "end"
+    },
+    ".xxl-j-self-flex-start": {
+      "justifySelf": "flex-start"
+    },
+    ".xxl-j-self-flex-end": {
+      "justifySelf": "flex-end"
+    },
+    ".xxl-j-self-self-start": {
+      "justifySelf": "self-start"
+    },
+    ".xxl-j-self-self-end": {
+      "justifySelf": "self-end"
+    },
+    ".xxl-j-self-right": {
+      "justifySelf": "right"
+    },
+    ".xxl-j-self-left": {
+      "justifySelf": "left"
+    },
+    ".xxl-j-self-stretch": {
+      "justifySelf": "stretch"
+    },
+    ".xxl-j-self-normal": {
+      "justifySelf": "normal"
+    },
+    ".xxl-j-self-auto": {
+      "justifySelf": "auto"
+    }
+  }
+}

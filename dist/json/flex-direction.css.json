@@ -1,0 +1,84 @@
+{
+  ".flex-row": {
+    "flexDirection": "row"
+  },
+  ".flex-reverse": {
+    "flexDirection": "row-reverse"
+  },
+  ".flex-col": {
+    "flexDirection": "column"
+  },
+  ".flex-col-reverse": {
+    "flexDirection": "column-reverse"
+  },
+  "@media (--sm)": {
+    ".sm-flex-row": {
+      "flexDirection": "row"
+    },
+    ".sm-flex-reverse": {
+      "flexDirection": "row-reverse"
+    },
+    ".sm-flex-col": {
+      "flexDirection": "column"
+    },
+    ".sm-flex-col-reverse": {
+      "flexDirection": "column-reverse"
+    }
+  },
+  "@media (--md)": {
+    ".md-flex-row": {
+      "flexDirection": "row"
+    },
+    ".md-flex-reverse": {
+      "flexDirection": "row-reverse"
+    },
+    ".md-flex-col": {
+      "flexDirection": "column"
+    },
+    ".md-flex-col-reverse": {
+      "flexDirection": "column-reverse"
+    }
+  },
+  "@media (--lg)": {
+    ".lg-flex-row": {
+      "flexDirection": "row"
+    },
+    ".lg-flex-reverse": {
+      "flexDirection": "row-reverse"
+    },
+    ".lg-flex-col": {
+      "flexDirection": "column"
+    },
+    ".lg-flex-col-reverse": {
+      "flexDirection": "column-reverse"
+    }
+  },
+  "@media (--xl)": {
+    ".xl-flex-row": {
+      "flexDirection": "row"
+    },
+    ".xl-flex-reverse": {
+      "flexDirection": "row-reverse"
+    },
+    ".xl-flex-col": {
+      "flexDirection": "column"
+    },
+    ".xl-flex-col-reverse": {
+      "flexDirection": "column-reverse"
+    }
+  },
+  "@media (--xxl)": {
+    ".xxl-flex-row": {
+      "flexDirection": "row"
+    },
+    ".xxl-flex-reverse": {
+      "flexDirection": "row-reverse"
+    },
+    ".xxl-flex-col": {
+      "flexDirection": "column"
+    },
+    ".xxl-flex-col-reverse": {
+      "flexDirection": "column-reverse"
+    }
+  }
+}

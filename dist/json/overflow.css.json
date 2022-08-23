@@ -1,0 +1,52 @@
+{
+  ".overflow-auto": {
+    "overflow": "auto"
+  },
+  ".overflow-x-auto": {
+    "overflowX": "auto"
+  },
+  ".overflow-y-auto": {
+    "overflowY": "auto"
+  },
+  ".overflow-scroll": {
+    "overflow": "scroll"
+  },
+  ".overflow-x-scroll": {
+    "overflowX": "scroll"
+  },
+  ".overflow-y-scroll": {
+    "overflowY": "scroll"
+  },
+  ".overflow-hidden": {
+    "overflow": "hidden"
+  },
+  ".overflow-x-hidden": {
+    "overflowX": "hidden"
+  },
+  ".overflow-y-hidden": {
+    "overflowY": "hidden"
+  },
+  ".overflow-visible": {
+    "overflow": "visible"
+  },
+  ".overflow-x-visible": {
+    "overflowX": "visible"
+  },
+  ".overflow-y-visible": {
+    "overflowY": "visible"
+  },
+  ".overflow-clip": {
+    "overflow": "clip"
+  },
+  ".overflow-x-clip": {
+    "overflowX": "clip"
+  },
+  ".overflow-y-clip": {
+    "overflowY": "clip"
+  },
+  "@media (min-width: 300px)": true,
+  "@media (min-width: 768px)": true,
+  "@media (min-width: 1024px)": true,
+  "@media (min-width: 1440px)": true,
+  "@media (min-width: 1920px)": true
+}

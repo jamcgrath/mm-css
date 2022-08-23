@@ -1,0 +1,65 @@
+
+	.flex-wrap {
+		flex-wrap: wrap;
+	}
+.flex-nowrap {
+		flex-wrap: nowrap;
+	}
+.flex-wrap-reverse {
+		flex-wrap: wrap-reverse;
+	}
+@media (--sm) {
+	.sm-flex-wrap {
+		flex-wrap: wrap;
+	}
+	.sm-flex-nowrap {
+		flex-wrap: nowrap;
+	}
+	.sm-flex-wrap-reverse {
+		flex-wrap: wrap-reverse;
+	}
+}
+@media (--md) {
+	.md-flex-wrap {
+		flex-wrap: wrap;
+	}
+	.md-flex-nowrap {
+		flex-wrap: nowrap;
+	}
+	.md-flex-wrap-reverse {
+		flex-wrap: wrap-reverse;
+	}
+}
+@media (--lg) {
+	.lg-flex-wrap {
+		flex-wrap: wrap;
+	}
+	.lg-flex-nowrap {
+		flex-wrap: nowrap;
+	}
+	.lg-flex-wrap-reverse {
+		flex-wrap: wrap-reverse;
+	}
+}
+@media (--xl) {
+	.xl-flex-wrap {
+		flex-wrap: wrap;
+	}
+	.xl-flex-nowrap {
+		flex-wrap: nowrap;
+	}
+	.xl-flex-wrap-reverse {
+		flex-wrap: wrap-reverse;
+	}
+}
+@media (--xxl) {
+	.xxl-flex-wrap {
+		flex-wrap: wrap;
+	}
+	.xxl-flex-nowrap {
+		flex-wrap: nowrap;
+	}
+	.xxl-flex-wrap-reverse {
+		flex-wrap: wrap-reverse;
+	}
+}

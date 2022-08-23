@@ -1,0 +1,139 @@
+
+	.relative {
+		position: relative;
+	}
+
+.absolute {
+		position: absolute;
+	}
+
+.fixed {
+		position: fixed;
+	}
+
+.static {
+		position: static;
+	}
+
+.sticky {
+		position: -webkit-sticky;
+		position: sticky;
+	}
+
+.inset-0 {
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+
+.l-0 {
+	left: 0;
+}
+
+.r-0 {
+	right: 0;
+}
+
+.t-0 {
+	top: 0;
+}
+
+.b-0 {
+	bottom: 0;
+}
+
+@media (min-width: 300px) {
+	.sm-relative {
+		position: relative;
+	}
+	.sm-absolute {
+		position: absolute;
+	}
+	.sm-fixed {
+		position: fixed;
+	}
+	.sm-static {
+		position: static;
+	}
+	.sm-sticky {
+		position: -webkit-sticky;
+		position: sticky;
+	}
+}
+
+@media (min-width: 768px) {
+	.md-relative {
+		position: relative;
+	}
+	.md-absolute {
+		position: absolute;
+	}
+	.md-fixed {
+		position: fixed;
+	}
+	.md-static {
+		position: static;
+	}
+	.md-sticky {
+		position: -webkit-sticky;
+		position: sticky;
+	}
+}
+
+@media (min-width: 1024px) {
+	.lg-relative {
+		position: relative;
+	}
+	.lg-absolute {
+		position: absolute;
+	}
+	.lg-fixed {
+		position: fixed;
+	}
+	.lg-static {
+		position: static;
+	}
+	.lg-sticky {
+		position: -webkit-sticky;
+		position: sticky;
+	}
+}
+
+@media (min-width: 1440px) {
+	.xl-relative {
+		position: relative;
+	}
+	.xl-absolute {
+		position: absolute;
+	}
+	.xl-fixed {
+		position: fixed;
+	}
+	.xl-static {
+		position: static;
+	}
+	.xl-sticky {
+		position: -webkit-sticky;
+		position: sticky;
+	}
+}
+
+@media (min-width: 1920px) {
+	.xxl-relative {
+		position: relative;
+	}
+	.xxl-absolute {
+		position: absolute;
+	}
+	.xxl-fixed {
+		position: fixed;
+	}
+	.xxl-static {
+		position: static;
+	}
+	.xxl-sticky {
+		position: -webkit-sticky;
+		position: sticky;
+	}
+}

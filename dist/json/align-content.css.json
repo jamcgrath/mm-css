@@ -1,0 +1,192 @@
+{
+  ".a-content-start": {
+    "alignContent": "start"
+  },
+  ".a-content-flex-start": {
+    "alignContent": "flex-start"
+  },
+  ".a-content-center": {
+    "alignContent": "center"
+  },
+  ".a-content-end": {
+    "alignContent": "end"
+  },
+  ".a-content-flex-end": {
+    "alignContent": "flex-end"
+  },
+  ".a-content-between": {
+    "alignContent": "space-between"
+  },
+  ".a-content-around": {
+    "alignContent": "space-around"
+  },
+  ".a-content-evenly": {
+    "alignContent": "space-evenly"
+  },
+  ".a-content-stretch": {
+    "alignContent": "stretch"
+  },
+  ".a-content-normal": {
+    "alignContent": "normal"
+  },
+  "@media (--sm)": {
+    ".sm-a-content-start": {
+      "alignContent": "start"
+    },
+    ".sm-a-content-flex-start": {
+      "alignContent": "flex-start"
+    },
+    ".sm-a-content-center": {
+      "alignContent": "center"
+    },
+    ".sm-a-content-end": {
+      "alignContent": "end"
+    },
+    ".sm-a-content-flex-end": {
+      "alignContent": "flex-end"
+    },
+    ".sm-a-content-between": {
+      "alignContent": "space-between"
+    },
+    ".sm-a-content-around": {
+      "alignContent": "space-around"
+    },
+    ".sm-a-content-evenly": {
+      "alignContent": "space-evenly"
+    },
+    ".sm-a-content-stretch": {
+      "alignContent": "stretch"
+    },
+    ".sm-a-content-normal": {
+      "alignContent": "normal"
+    }
+  },
+  "@media (--md)": {
+    ".md-a-content-start": {
+      "alignContent": "start"
+    },
+    ".md-a-content-flex-start": {
+      "alignContent": "flex-start"
+    },
+    ".md-a-content-center": {
+      "alignContent": "center"
+    },
+    ".md-a-content-end": {
+      "alignContent": "end"
+    },
+    ".md-a-content-flex-end": {
+      "alignContent": "flex-end"
+    },
+    ".md-a-content-between": {
+      "alignContent": "space-between"
+    },
+    ".md-a-content-around": {
+      "alignContent": "space-around"
+    },
+    ".md-a-content-evenly": {
+      "alignContent": "space-evenly"
+    },
+    ".md-a-content-stretch": {
+      "alignContent": "stretch"
+    },
+    ".md-a-content-normal": {
+      "alignContent": "normal"
+    }
+  },
+  "@media (--lg)": {
+    ".lg-a-content-start": {
+      "alignContent": "start"
+    },
+    ".lg-a-content-flex-start": {
+      "alignContent": "flex-start"
+    },
+    ".lg-a-content-center": {
+      "alignContent": "center"
+    },
+    ".lg-a-content-end": {
+      "alignContent": "end"
+    },
+    ".lg-a-content-flex-end": {
+      "alignContent": "flex-end"
+    },
+    ".lg-a-content-between": {
+      "alignContent": "space-between"
+    },
+    ".lg-a-content-around": {
+      "alignContent": "space-around"
+    },
+    ".lg-a-content-evenly": {
+      "alignContent": "space-evenly"
+    },
+    ".lg-a-content-stretch": {
+      "alignContent": "stretch"
+    },
+    ".lg-a-content-normal": {
+      "alignContent": "normal"
+    }
+  },
+  "@media (--xl)": {
+    ".xl-a-content-start": {
+      "alignContent": "start"
+    },
+    ".xl-a-content-flex-start": {
+      "alignContent": "flex-start"
+    },
+    ".xl-a-content-center": {
+      "alignContent": "center"
+    },
+    ".xl-a-content-end": {
+      "alignContent": "end"
+    },
+    ".xl-a-content-flex-end": {
+      "alignContent": "flex-end"
+    },
+    ".xl-a-content-between": {
+      "alignContent": "space-between"
+    },
+    ".xl-a-content-around": {
+      "alignContent": "space-around"
+    },
+    ".xl-a-content-evenly": {
+      "alignContent": "space-evenly"
+    },
+    ".xl-a-content-stretch": {
+      "alignContent": "stretch"
+    },
+    ".xl-a-content-normal": {
+      "alignContent": "normal"
+    }
+  },
+  "@media (--xxl)": {
+    ".xxl-a-content-start": {
+      "alignContent": "start"
+    },
+    ".xxl-a-content-flex-start": {
+      "alignContent": "flex-start"
+    },
+    ".xxl-a-content-center": {
+      "alignContent": "center"
+    },
+    ".xxl-a-content-end": {
+      "alignContent": "end"
+    },
+    ".xxl-a-content-flex-end": {
+      "alignContent": "flex-end"
+    },
+    ".xxl-a-content-between": {
+      "alignContent": "space-between"
+    },
+    ".xxl-a-content-around": {
+      "alignContent": "space-around"
+    },
+    ".xxl-a-content-evenly": {
+      "alignContent": "space-evenly"
+    },
+    ".xxl-a-content-stretch": {
+      "alignContent": "stretch"
+    },
+    ".xxl-a-content-normal": {
+      "alignContent": "normal"
+    }
+  }
+}

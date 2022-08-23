@@ -1,0 +1,47 @@
+.o-0 {
+	opacity: 0;
+}
+.o-05 {
+	opacity: 0.05;
+}
+.o-1 {
+	opacity: 0.1;
+}
+.o-2 {
+	opacity: 0.2;
+}
+.o-25 {
+	opacity: 0.25;
+}
+.o-3 {
+	opacity: 0.3;
+}
+.o-4 {
+	opacity: 0.4;
+}
+.o-5 {
+	opacity: 0.5;
+}
+.o-6 {
+	opacity: 0.6;
+}
+.o-7 {
+	opacity: 0.7;
+}
+.o-75 {
+	opacity: 0.75;
+}
+.o-8 {
+	opacity: 0.8;
+}
+.o-9 {
+	opacity: 0.9;
+}
+.o-10 {
+	opacity: 1;
+}
+@media (min-width: 300px);
+@media (min-width: 768px);
+@media (min-width: 1024px);
+@media (min-width: 1440px);
+@media (min-width: 1920px)

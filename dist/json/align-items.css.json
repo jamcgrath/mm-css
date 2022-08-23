@@ -1,0 +1,138 @@
+{
+  ".a-items-flex-start": {
+    "alignItems": "flex-start"
+  },
+  ".a-items-flex-end": {
+    "alignItems": "flex-end"
+  },
+  ".a-items-center": {
+    "alignItems": "center"
+  },
+  ".a-items-start": {
+    "alignItems": "start"
+  },
+  ".a-items-end": {
+    "alignItems": "end"
+  },
+  ".a-items-normal": {
+    "alignItems": "normal"
+  },
+  ".a-items-stretch": {
+    "alignItems": "stretch"
+  },
+  "@media (--sm)": {
+    ".sm-a-items-flex-start": {
+      "alignItems": "flex-start"
+    },
+    ".sm-a-items-flex-end": {
+      "alignItems": "flex-end"
+    },
+    ".sm-a-items-center": {
+      "alignItems": "center"
+    },
+    ".sm-a-items-start": {
+      "alignItems": "start"
+    },
+    ".sm-a-items-end": {
+      "alignItems": "end"
+    },
+    ".sm-a-items-normal": {
+      "alignItems": "normal"
+    },
+    ".sm-a-items-stretch": {
+      "alignItems": "stretch"
+    }
+  },
+  "@media (--md)": {
+    ".md-a-items-flex-start": {
+      "alignItems": "flex-start"
+    },
+    ".md-a-items-flex-end": {
+      "alignItems": "flex-end"
+    },
+    ".md-a-items-center": {
+      "alignItems": "center"
+    },
+    ".md-a-items-start": {
+      "alignItems": "start"
+    },
+    ".md-a-items-end": {
+      "alignItems": "end"
+    },
+    ".md-a-items-normal": {
+      "alignItems": "normal"
+    },
+    ".md-a-items-stretch": {
+      "alignItems": "stretch"
+    }
+  },
+  "@media (--lg)": {
+    ".lg-a-items-flex-start": {
+      "alignItems": "flex-start"
+    },
+    ".lg-a-items-flex-end": {
+      "alignItems": "flex-end"
+    },
+    ".lg-a-items-center": {
+      "alignItems": "center"
+    },
+    ".lg-a-items-start": {
+      "alignItems": "start"
+    },
+    ".lg-a-items-end": {
+      "alignItems": "end"
+    },
+    ".lg-a-items-normal": {
+      "alignItems": "normal"
+    },
+    ".lg-a-items-stretch": {
+      "alignItems": "stretch"
+    }
+  },
+  "@media (--xl)": {
+    ".xl-a-items-flex-start": {
+      "alignItems": "flex-start"
+    },
+    ".xl-a-items-flex-end": {
+      "alignItems": "flex-end"
+    },
+    ".xl-a-items-center": {
+      "alignItems": "center"
+    },
+    ".xl-a-items-start": {
+      "alignItems": "start"
+    },
+    ".xl-a-items-end": {
+      "alignItems": "end"
+    },
+    ".xl-a-items-normal": {
+      "alignItems": "normal"
+    },
+    ".xl-a-items-stretch": {
+      "alignItems": "stretch"
+    }
+  },
+  "@media (--xxl)": {
+    ".xxl-a-items-flex-start": {
+      "alignItems": "flex-start"
+    },
+    ".xxl-a-items-flex-end": {
+      "alignItems": "flex-end"
+    },
+    ".xxl-a-items-center": {
+      "alignItems": "center"
+    },
+    ".xxl-a-items-start": {
+      "alignItems": "start"
+    },
+    ".xxl-a-items-end": {
+      "alignItems": "end"
+    },
+    ".xxl-a-items-normal": {
+      "alignItems": "normal"
+    },
+    ".xxl-a-items-stretch": {
+      "alignItems": "stretch"
+    }
+  }
+}

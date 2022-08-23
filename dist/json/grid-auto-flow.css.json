@@ -1,0 +1,102 @@
+{
+  ".grid-flow-row": {
+    "gridAutoFlow": "row"
+  },
+  ".grid-flow-column": {
+    "gridAutoFlow": "column"
+  },
+  ".grid-flow-dense": {
+    "gridAutoFlow": "dense"
+  },
+  ".grid-flow-row-dense": {
+    "gridAutoFlow": "row dense"
+  },
+  ".grid-flow-column-dense": {
+    "gridAutoFlow": "column dense"
+  },
+  "@media (--sm)": {
+    ".sm-grid-flow-row": {
+      "gridAutoFlow": "row"
+    },
+    ".sm-grid-flow-column": {
+      "gridAutoFlow": "column"
+    },
+    ".sm-grid-flow-dense": {
+      "gridAutoFlow": "dense"
+    },
+    ".sm-grid-flow-row-dense": {
+      "gridAutoFlow": "row dense"
+    },
+    ".sm-grid-flow-column-dense": {
+      "gridAutoFlow": "column dense"
+    }
+  },
+  "@media (--md)": {
+    ".md-grid-flow-row": {
+      "gridAutoFlow": "row"
+    },
+    ".md-grid-flow-column": {
+      "gridAutoFlow": "column"
+    },
+    ".md-grid-flow-dense": {
+      "gridAutoFlow": "dense"
+    },
+    ".md-grid-flow-row-dense": {
+      "gridAutoFlow": "row dense"
+    },
+    ".md-grid-flow-column-dense": {
+      "gridAutoFlow": "column dense"
+    }
+  },
+  "@media (--lg)": {
+    ".lg-grid-flow-row": {
+      "gridAutoFlow": "row"
+    },
+    ".lg-grid-flow-column": {
+      "gridAutoFlow": "column"
+    },
+    ".lg-grid-flow-dense": {
+      "gridAutoFlow": "dense"
+    },
+    ".lg-grid-flow-row-dense": {
+      "gridAutoFlow": "row dense"
+    },
+    ".lg-grid-flow-column-dense": {
+      "gridAutoFlow": "column dense"
+    }
+  },
+  "@media (--xl)": {
+    ".xl-grid-flow-row": {
+      "gridAutoFlow": "row"
+    },
+    ".xl-grid-flow-column": {
+      "gridAutoFlow": "column"
+    },
+    ".xl-grid-flow-dense": {
+      "gridAutoFlow": "dense"
+    },
+    ".xl-grid-flow-row-dense": {
+      "gridAutoFlow": "row dense"
+    },
+    ".xl-grid-flow-column-dense": {
+      "gridAutoFlow": "column dense"
+    }
+  },
+  "@media (--xxl)": {
+    ".xxl-grid-flow-row": {
+      "gridAutoFlow": "row"
+    },
+    ".xxl-grid-flow-column": {
+      "gridAutoFlow": "column"
+    },
+    ".xxl-grid-flow-dense": {
+      "gridAutoFlow": "dense"
+    },
+    ".xxl-grid-flow-row-dense": {
+      "gridAutoFlow": "row dense"
+    },
+    ".xxl-grid-flow-column-dense": {
+      "gridAutoFlow": "column dense"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  ".bg-bw-primary": {
+    "backgroundColor": "var(--bw-primary)"
+  },
+  ".bg-bw-primary-light": {
+    "backgroundColor": "var(--bw-primary-light)"
+  },
+  ".bg-bw-secondary": {
+    "backgroundColor": "var(--bw-secondary)"
+  },
+  ".bg-bw-secondary-light": {
+    "backgroundColor": "var(--bw-secondary-light)"
+  },
+  ".bg-bw-tertiary": {
+    "backgroundColor": "var(--bw-tertiary)"
+  },
+  ".bg-bw-tertiary-light": {
+    "backgroundColor": "var(--bw-tertiary-light)"
+  },
+  ".bg-bc-primary": {
+    "backgroundColor": "var(--bc-primary)"
+  },
+  ".bg-bc-primary-light": {
+    "backgroundColor": "var(--bc-primary-light)"
+  },
+  ".bg-bc-secondary": {
+    "backgroundColor": "var(--bc-secondary)"
+  },
+  ".bg-bc-secondary-light": {
+    "backgroundColor": "var(--bc-secondary-light)"
+  },
+  ".bg-bc-tertiary": {
+    "backgroundColor": "var(--bc-tertiary)"
+  },
+  ".bg-bc-tertiary-light": {
+    "backgroundColor": "var(--bc-tertiary-light)"
+  },
+  ".bg-bo-3": {
+    "backgroundColor": "var(--bo-3)"
+  },
+  ".bg-bo-4": {
+    "backgroundColor": "var(--bo-4)"
+  },
+  ".bg-bo-5": {
+    "backgroundColor": "var(--bo-5)"
+  },
+  "@media (--sm)": true,
+  "@media (--md)": true,
+  "@media (--lg)": true,
+  "@media (--xl)": true,
+  "@media (--xxl)": true
+}

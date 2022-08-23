@@ -1,0 +1,155 @@
+
+	.aspect-1 {
+		aspect-ratio: 1 / 1;
+	}
+.aspect-3-2 {
+		aspect-ratio: 3 / 2;
+	}
+.aspect-3-4 {
+		aspect-ratio: 3 / 4;
+	}
+.aspect-4-3 {
+		aspect-ratio: 4 / 3;
+	}
+.aspect-5-9 {
+		aspect-ratio: 5 / 9;
+	}
+.aspect-9-16 {
+		aspect-ratio: 9 / 16;
+	}
+.aspect-16-9 {
+		aspect-ratio: 16 / 9;
+	}
+.aspect-auto {
+		aspect-ratio: auto;
+	}
+@media (--sm) {
+	.sm-aspect-1 {
+		aspect-ratio: 1 / 1;
+	}
+	.sm-aspect-3-2 {
+		aspect-ratio: 3 / 2;
+	}
+	.sm-aspect-3-4 {
+		aspect-ratio: 3 / 4;
+	}
+	.sm-aspect-4-3 {
+		aspect-ratio: 4 / 3;
+	}
+	.sm-aspect-5-9 {
+		aspect-ratio: 5 / 9;
+	}
+	.sm-aspect-9-16 {
+		aspect-ratio: 9 / 16;
+	}
+	.sm-aspect-16-9 {
+		aspect-ratio: 16 / 9;
+	}
+	.sm-aspect-auto {
+		aspect-ratio: auto;
+	}
+}
+@media (--md) {
+	.md-aspect-1 {
+		aspect-ratio: 1 / 1;
+	}
+	.md-aspect-3-2 {
+		aspect-ratio: 3 / 2;
+	}
+	.md-aspect-3-4 {
+		aspect-ratio: 3 / 4;
+	}
+	.md-aspect-4-3 {
+		aspect-ratio: 4 / 3;
+	}
+	.md-aspect-5-9 {
+		aspect-ratio: 5 / 9;
+	}
+	.md-aspect-9-16 {
+		aspect-ratio: 9 / 16;
+	}
+	.md-aspect-16-9 {
+		aspect-ratio: 16 / 9;
+	}
+	.md-aspect-auto {
+		aspect-ratio: auto;
+	}
+}
+@media (--lg) {
+	.lg-aspect-1 {
+		aspect-ratio: 1 / 1;
+	}
+	.lg-aspect-3-2 {
+		aspect-ratio: 3 / 2;
+	}
+	.lg-aspect-3-4 {
+		aspect-ratio: 3 / 4;
+	}
+	.lg-aspect-4-3 {
+		aspect-ratio: 4 / 3;
+	}
+	.lg-aspect-5-9 {
+		aspect-ratio: 5 / 9;
+	}
+	.lg-aspect-9-16 {
+		aspect-ratio: 9 / 16;
+	}
+	.lg-aspect-16-9 {
+		aspect-ratio: 16 / 9;
+	}
+	.lg-aspect-auto {
+		aspect-ratio: auto;
+	}
+}
+@media (--xl) {
+	.xl-aspect-1 {
+		aspect-ratio: 1 / 1;
+	}
+	.xl-aspect-3-2 {
+		aspect-ratio: 3 / 2;
+	}
+	.xl-aspect-3-4 {
+		aspect-ratio: 3 / 4;
+	}
+	.xl-aspect-4-3 {
+		aspect-ratio: 4 / 3;
+	}
+	.xl-aspect-5-9 {
+		aspect-ratio: 5 / 9;
+	}
+	.xl-aspect-9-16 {
+		aspect-ratio: 9 / 16;
+	}
+	.xl-aspect-16-9 {
+		aspect-ratio: 16 / 9;
+	}
+	.xl-aspect-auto {
+		aspect-ratio: auto;
+	}
+}
+@media (--xxl) {
+	.xxl-aspect-1 {
+		aspect-ratio: 1 / 1;
+	}
+	.xxl-aspect-3-2 {
+		aspect-ratio: 3 / 2;
+	}
+	.xxl-aspect-3-4 {
+		aspect-ratio: 3 / 4;
+	}
+	.xxl-aspect-4-3 {
+		aspect-ratio: 4 / 3;
+	}
+	.xxl-aspect-5-9 {
+		aspect-ratio: 5 / 9;
+	}
+	.xxl-aspect-9-16 {
+		aspect-ratio: 9 / 16;
+	}
+	.xxl-aspect-16-9 {
+		aspect-ratio: 16 / 9;
+	}
+	.xxl-aspect-auto {
+		aspect-ratio: auto;
+	}
+}

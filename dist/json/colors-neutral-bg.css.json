@@ -1,0 +1,13 @@
+{
+  ".bg-black": {
+    "backgroundColor": "var(--black)"
+  },
+  ".bg-white": {
+    "backgroundColor": "var(--white)"
+  },
+  "@media (--sm)": true,
+  "@media (--md)": true,
+  "@media (--lg)": true,
+  "@media (--xl)": true,
+  "@media (--xxl)": true
+}

@@ -1,0 +1,10 @@
+{
+  ".circle": {
+    "borderRadius": "50%"
+  },
+  "@media (--sm)": true,
+  "@media (--md)": true,
+  "@media (--lg)": true,
+  "@media (--xl)": true,
+  "@media (--xxl)": true
+}

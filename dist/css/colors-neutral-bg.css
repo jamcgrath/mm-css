@@ -1,0 +1,11 @@
+.bg-black {
+	background-color: var(--black);
+}
+.bg-white {
+	background-color: var(--white);
+}
+@media (--sm);
+@media (--md);
+@media (--lg);
+@media (--xl);
+@media (--xxl)

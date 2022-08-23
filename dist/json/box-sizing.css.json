@@ -1,0 +1,16 @@
+{
+  ".box-border": {
+    "boxSizing": "border-box"
+  },
+  ".box-content": {
+    "boxSizing": "content-box"
+  },
+  ".box-padding": {
+    "boxSizing": "padding-box"
+  },
+  "@media (--sm)": true,
+  "@media (--md)": true,
+  "@media (--lg)": true,
+  "@media (--xl)": true,
+  "@media (--xxl)": true
+}

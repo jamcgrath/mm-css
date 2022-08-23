@@ -1,0 +1,110 @@
+{
+  ".visually-hidden": {
+    "border": "0",
+    "clip": "rect(0, 0, 0, 0)",
+    "height": "1px",
+    "margin": "-1px",
+    "overflow": "hidden",
+    "padding": "0",
+    "position": "absolute",
+    "whiteSpace": "nowrap",
+    "width": "1px"
+  },
+  ".visually-hidden.focusable:active,\n.visually-hidden.focusable:focus": {
+    "clip": "auto",
+    "height": "auto",
+    "margin": "0",
+    "overflow": "visible",
+    "position": "static",
+    "whiteSpace": "inherit",
+    "width": "auto"
+  },
+  ".invisible": {
+    "visibility": "hidden"
+  },
+  ".reset-visually-hidden": {
+    "position": "static",
+    "width": "auto",
+    "height": "auto",
+    "padding": "0",
+    "margin": "0",
+    "overflow": "visible",
+    "clip": "auto",
+    "whiteSpace": "normal"
+  },
+  "@media (min-width: 300px)": {
+    ".sm-invisible": {
+      "visibility": "hidden"
+    },
+    ".sm-reset-visually-hidden": {
+      "position": "static",
+      "width": "auto",
+      "height": "auto",
+      "padding": "0",
+      "margin": "0",
+      "overflow": "visible",
+      "clip": "auto",
+      "whiteSpace": "normal"
+    }
+  },
+  "@media (min-width: 768px)": {
+    ".md-invisible": {
+      "visibility": "hidden"
+    },
+    ".md-reset-visually-hidden": {
+      "position": "static",
+      "width": "auto",
+      "height": "auto",
+      "padding": "0",
+      "margin": "0",
+      "overflow": "visible",
+      "clip": "auto",
+      "whiteSpace": "normal"
+    }
+  },
+  "@media (min-width: 1024px)": {
+    ".lg-invisible": {
+      "visibility": "hidden"
+    },
+    ".lg-reset-visually-hidden": {
+      "position": "static",
+      "width": "auto",
+      "height": "auto",
+      "padding": "0",
+      "margin": "0",
+      "overflow": "visible",
+      "clip": "auto",
+      "whiteSpace": "normal"
+    }
+  },
+  "@media (min-width: 1440px)": {
+    ".xl-invisible": {
+      "visibility": "hidden"
+    },
+    ".xl-reset-visually-hidden": {
+      "position": "static",
+      "width": "auto",
+      "height": "auto",
+      "padding": "0",
+      "margin": "0",
+      "overflow": "visible",
+      "clip": "auto",
+      "whiteSpace": "normal"
+    }
+  },
+  "@media (min-width: 1920px)": {
+    ".xxl-invisible": {
+      "visibility": "hidden"
+    },
+    ".xxl-reset-visually-hidden": {
+      "position": "static",
+      "width": "auto",
+      "height": "auto",
+      "padding": "0",
+      "margin": "0",
+      "overflow": "visible",
+      "clip": "auto",
+      "whiteSpace": "normal"
+    }
+  }
+}

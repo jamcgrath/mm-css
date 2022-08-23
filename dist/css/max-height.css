@@ -1,0 +1,16 @@
+.max-h-auto {
+	max-height: auto;
+}
+.max-h-max {
+	max-height: -webkit-max-content;
+	max-height: max-content;
+}
+.max-h-min {
+	max-height: -webkit-min-content;
+	max-height: min-content;
+}
+@media (--sm);
+@media (--md);
+@media (--lg);
+@media (--xl);
+@media (--xxl)

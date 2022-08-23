@@ -1,0 +1,46 @@
+{
+  ".z--1": {
+    "zIndex": -1
+  },
+  ".z-0": {
+    "zIndex": 0
+  },
+  ".z-1": {
+    "zIndex": 1
+  },
+  ".z-10": {
+    "zIndex": 10
+  },
+  ".z-20": {
+    "zIndex": 20
+  },
+  ".z-30": {
+    "zIndex": 30
+  },
+  ".z-40": {
+    "zIndex": 40
+  },
+  ".z-50": {
+    "zIndex": 50
+  },
+  ".z-100": {
+    "zIndex": 100
+  },
+  ".z-500": {
+    "zIndex": 500
+  },
+  ".z-1000": {
+    "zIndex": 1000
+  },
+  ".z-negative": {
+    "zIndex": -1
+  },
+  ".z-max": {
+    "zIndex": 2147483647
+  },
+  "@media (min-width: 300px)": true,
+  "@media (min-width: 768px)": true,
+  "@media (min-width: 1024px)": true,
+  "@media (min-width: 1440px)": true,
+  "@media (min-width: 1920px)": true
+}

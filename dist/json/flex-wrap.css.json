@@ -1,0 +1,66 @@
+{
+  ".flex-wrap": {
+    "flexWrap": "wrap"
+  },
+  ".flex-nowrap": {
+    "flexWrap": "nowrap"
+  },
+  ".flex-wrap-reverse": {
+    "flexWrap": "wrap-reverse"
+  },
+  "@media (--sm)": {
+    ".sm-flex-wrap": {
+      "flexWrap": "wrap"
+    },
+    ".sm-flex-nowrap": {
+      "flexWrap": "nowrap"
+    },
+    ".sm-flex-wrap-reverse": {
+      "flexWrap": "wrap-reverse"
+    }
+  },
+  "@media (--md)": {
+    ".md-flex-wrap": {
+      "flexWrap": "wrap"
+    },
+    ".md-flex-nowrap": {
+      "flexWrap": "nowrap"
+    },
+    ".md-flex-wrap-reverse": {
+      "flexWrap": "wrap-reverse"
+    }
+  },
+  "@media (--lg)": {
+    ".lg-flex-wrap": {
+      "flexWrap": "wrap"
+    },
+    ".lg-flex-nowrap": {
+      "flexWrap": "nowrap"
+    },
+    ".lg-flex-wrap-reverse": {
+      "flexWrap": "wrap-reverse"
+    }
+  },
+  "@media (--xl)": {
+    ".xl-flex-wrap": {
+      "flexWrap": "wrap"
+    },
+    ".xl-flex-nowrap": {
+      "flexWrap": "nowrap"
+    },
+    ".xl-flex-wrap-reverse": {
+      "flexWrap": "wrap-reverse"
+    }
+  },
+  "@media (--xxl)": {
+    ".xxl-flex-wrap": {
+      "flexWrap": "wrap"
+    },
+    ".xxl-flex-nowrap": {
+      "flexWrap": "nowrap"
+    },
+    ".xxl-flex-wrap-reverse": {
+      "flexWrap": "wrap-reverse"
+    }
+  }
+}

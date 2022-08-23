@@ -1,0 +1,210 @@
+{
+  ".j-items-flex-start": {
+    "justifyItems": "flex-start"
+  },
+  ".j-items-flex-end": {
+    "justifyItems": "flex-end"
+  },
+  ".j-items-center": {
+    "justifyItems": "center"
+  },
+  ".j-items-start": {
+    "justifyItems": "start"
+  },
+  ".j-items-end": {
+    "justifyItems": "end"
+  },
+  ".j-items-stretch": {
+    "justifyItems": "stretch"
+  },
+  ".j-items-self-start": {
+    "justifyItems": "self-start"
+  },
+  ".j-items-self-end": {
+    "justifyItems": "self-end"
+  },
+  ".j-items-left": {
+    "justifyItems": "left"
+  },
+  ".j-items-right": {
+    "justifyItems": "right"
+  },
+  ".j-items-normal": {
+    "justifyItems": "normal"
+  },
+  "@media (--sm)": {
+    ".sm-j-items-flex-start": {
+      "justifyItems": "flex-start"
+    },
+    ".sm-j-items-flex-end": {
+      "justifyItems": "flex-end"
+    },
+    ".sm-j-items-center": {
+      "justifyItems": "center"
+    },
+    ".sm-j-items-start": {
+      "justifyItems": "start"
+    },
+    ".sm-j-items-end": {
+      "justifyItems": "end"
+    },
+    ".sm-j-items-stretch": {
+      "justifyItems": "stretch"
+    },
+    ".sm-j-items-self-start": {
+      "justifyItems": "self-start"
+    },
+    ".sm-j-items-self-end": {
+      "justifyItems": "self-end"
+    },
+    ".sm-j-items-left": {
+      "justifyItems": "left"
+    },
+    ".sm-j-items-right": {
+      "justifyItems": "right"
+    },
+    ".sm-j-items-normal": {
+      "justifyItems": "normal"
+    }
+  },
+  "@media (--md)": {
+    ".md-j-items-flex-start": {
+      "justifyItems": "flex-start"
+    },
+    ".md-j-items-flex-end": {
+      "justifyItems": "flex-end"
+    },
+    ".md-j-items-center": {
+      "justifyItems": "center"
+    },
+    ".md-j-items-start": {
+      "justifyItems": "start"
+    },
+    ".md-j-items-end": {
+      "justifyItems": "end"
+    },
+    ".md-j-items-stretch": {
+      "justifyItems": "stretch"
+    },
+    ".md-j-items-self-start": {
+      "justifyItems": "self-start"
+    },
+    ".md-j-items-self-end": {
+      "justifyItems": "self-end"
+    },
+    ".md-j-items-left": {
+      "justifyItems": "left"
+    },
+    ".md-j-items-right": {
+      "justifyItems": "right"
+    },
+    ".md-j-items-normal": {
+      "justifyItems": "normal"
+    }
+  },
+  "@media (--lg)": {
+    ".lg-j-items-flex-start": {
+      "justifyItems": "flex-start"
+    },
+    ".lg-j-items-flex-end": {
+      "justifyItems": "flex-end"
+    },
+    ".lg-j-items-center": {
+      "justifyItems": "center"
+    },
+    ".lg-j-items-start": {
+      "justifyItems": "start"
+    },
+    ".lg-j-items-end": {
+      "justifyItems": "end"
+    },
+    ".lg-j-items-stretch": {
+      "justifyItems": "stretch"
+    },
+    ".lg-j-items-self-start": {
+      "justifyItems": "self-start"
+    },
+    ".lg-j-items-self-end": {
+      "justifyItems": "self-end"
+    },
+    ".lg-j-items-left": {
+      "justifyItems": "left"
+    },
+    ".lg-j-items-right": {
+      "justifyItems": "right"
+    },
+    ".lg-j-items-normal": {
+      "justifyItems": "normal"
+    }
+  },
+  "@media (--xl)": {
+    ".xl-j-items-flex-start": {
+      "justifyItems": "flex-start"
+    },
+    ".xl-j-items-flex-end": {
+      "justifyItems": "flex-end"
+    },
+    ".xl-j-items-center": {
+      "justifyItems": "center"
+    },
+    ".xl-j-items-start": {
+      "justifyItems": "start"
+    },
+    ".xl-j-items-end": {
+      "justifyItems": "end"
+    },
+    ".xl-j-items-stretch": {
+      "justifyItems": "stretch"
+    },
+    ".xl-j-items-self-start": {
+      "justifyItems": "self-start"
+    },
+    ".xl-j-items-self-end": {
+      "justifyItems": "self-end"
+    },
+    ".xl-j-items-left": {
+      "justifyItems": "left"
+    },
+    ".xl-j-items-right": {
+      "justifyItems": "right"
+    },
+    ".xl-j-items-normal": {
+      "justifyItems": "normal"
+    }
+  },
+  "@media (--xxl)": {
+    ".xxl-j-items-flex-start": {
+      "justifyItems": "flex-start"
+    },
+    ".xxl-j-items-flex-end": {
+      "justifyItems": "flex-end"
+    },
+    ".xxl-j-items-center": {
+      "justifyItems": "center"
+    },
+    ".xxl-j-items-start": {
+      "justifyItems": "start"
+    },
+    ".xxl-j-items-end": {
+      "justifyItems": "end"
+    },
+    ".xxl-j-items-stretch": {
+      "justifyItems": "stretch"
+    },
+    ".xxl-j-items-self-start": {
+      "justifyItems": "self-start"
+    },
+    ".xxl-j-items-self-end": {
+      "justifyItems": "self-end"
+    },
+    ".xxl-j-items-left": {
+      "justifyItems": "left"
+    },
+    ".xxl-j-items-right": {
+      "justifyItems": "right"
+    },
+    ".xxl-j-items-normal": {
+      "justifyItems": "normal"
+    }
+  }
+}

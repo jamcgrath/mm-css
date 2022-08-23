@@ -1,0 +1,174 @@
+{
+  ".obj-pos-t": {
+    "objectPosition": "top"
+  },
+  ".obj-pos-l": {
+    "objectPosition": "left"
+  },
+  ".obj-pos-r": {
+    "objectPosition": "right"
+  },
+  ".obj-pos-b": {
+    "objectPosition": "bottom"
+  },
+  ".obj-pos-c": {
+    "objectPosition": "center"
+  },
+  ".obj-pos-tl": {
+    "objectPosition": "top left"
+  },
+  ".obj-pos-tr": {
+    "objectPosition": "top right"
+  },
+  ".obj-pos-bl": {
+    "objectPosition": "bottom left"
+  },
+  ".obj-pos-br": {
+    "objectPosition": "bottom right"
+  },
+  "@media (min-width: 300px)": {
+    ".sm-obj-pos-t": {
+      "objectPosition": "top"
+    },
+    ".sm-obj-pos-l": {
+      "objectPosition": "left"
+    },
+    ".sm-obj-pos-r": {
+      "objectPosition": "right"
+    },
+    ".sm-obj-pos-b": {
+      "objectPosition": "bottom"
+    },
+    ".sm-obj-pos-c": {
+      "objectPosition": "center"
+    },
+    ".sm-obj-pos-tl": {
+      "objectPosition": "top left"
+    },
+    ".sm-obj-pos-tr": {
+      "objectPosition": "top right"
+    },
+    ".sm-obj-pos-bl": {
+      "objectPosition": "bottom left"
+    },
+    ".sm-obj-pos-br": {
+      "objectPosition": "bottom right"
+    }
+  },
+  "@media (min-width: 768px)": {
+    ".md-obj-pos-t": {
+      "objectPosition": "top"
+    },
+    ".md-obj-pos-l": {
+      "objectPosition": "left"
+    },
+    ".md-obj-pos-r": {
+      "objectPosition": "right"
+    },
+    ".md-obj-pos-b": {
+      "objectPosition": "bottom"
+    },
+    ".md-obj-pos-c": {
+      "objectPosition": "center"
+    },
+    ".md-obj-pos-tl": {
+      "objectPosition": "top left"
+    },
+    ".md-obj-pos-tr": {
+      "objectPosition": "top right"
+    },
+    ".md-obj-pos-bl": {
+      "objectPosition": "bottom left"
+    },
+    ".md-obj-pos-br": {
+      "objectPosition": "bottom right"
+    }
+  },
+  "@media (min-width: 1024px)": {
+    ".lg-obj-pos-t": {
+      "objectPosition": "top"
+    },
+    ".lg-obj-pos-l": {
+      "objectPosition": "left"
+    },
+    ".lg-obj-pos-r": {
+      "objectPosition": "right"
+    },
+    ".lg-obj-pos-b": {
+      "objectPosition": "bottom"
+    },
+    ".lg-obj-pos-c": {
+      "objectPosition": "center"
+    },
+    ".lg-obj-pos-tl": {
+      "objectPosition": "top left"
+    },
+    ".lg-obj-pos-tr": {
+      "objectPosition": "top right"
+    },
+    ".lg-obj-pos-bl": {
+      "objectPosition": "bottom left"
+    },
+    ".lg-obj-pos-br": {
+      "objectPosition": "bottom right"
+    }
+  },
+  "@media (min-width: 1440px)": {
+    ".xl-obj-pos-t": {
+      "objectPosition": "top"
+    },
+    ".xl-obj-pos-l": {
+      "objectPosition": "left"
+    },
+    ".xl-obj-pos-r": {
+      "objectPosition": "right"
+    },
+    ".xl-obj-pos-b": {
+      "objectPosition": "bottom"
+    },
+    ".xl-obj-pos-c": {
+      "objectPosition": "center"
+    },
+    ".xl-obj-pos-tl": {
+      "objectPosition": "top left"
+    },
+    ".xl-obj-pos-tr": {
+      "objectPosition": "top right"
+    },
+    ".xl-obj-pos-bl": {
+      "objectPosition": "bottom left"
+    },
+    ".xl-obj-pos-br": {
+      "objectPosition": "bottom right"
+    }
+  },
+  "@media (min-width: 1920px)": {
+    ".xxl-obj-pos-t": {
+      "objectPosition": "top"
+    },
+    ".xxl-obj-pos-l": {
+      "objectPosition": "left"
+    },
+    ".xxl-obj-pos-r": {
+      "objectPosition": "right"
+    },
+    ".xxl-obj-pos-b": {
+      "objectPosition": "bottom"
+    },
+    ".xxl-obj-pos-c": {
+      "objectPosition": "center"
+    },
+    ".xxl-obj-pos-tl": {
+      "objectPosition": "top left"
+    },
+    ".xxl-obj-pos-tr": {
+      "objectPosition": "top right"
+    },
+    ".xxl-obj-pos-bl": {
+      "objectPosition": "bottom left"
+    },
+    ".xxl-obj-pos-br": {
+      "objectPosition": "bottom right"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+.italic {
+	font-style: italic;
+}
+.no-fstyle {
+	font-style: normal;
+}
+.oblique {
+	font-style: oblique;
+}
+@media (--sm);
+@media (--md);
+@media (--lg);
+@media (--xl);
+@media (--xxl)

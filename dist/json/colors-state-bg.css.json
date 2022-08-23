@@ -1,0 +1,19 @@
+{
+  ".bg-hover:hover": {
+    "backgroundColor": "var(--hover)"
+  },
+  ".bg-pressed:active": {
+    "backgroundColor": "var(--pressed)"
+  },
+  ".bg-hover-light:hover": {
+    "backgroundColor": "var(--hover)"
+  },
+  ".bg-pressed-light:active": {
+    "backgroundColor": "var(--pressed)"
+  },
+  "@media (--sm)": true,
+  "@media (--md)": true,
+  "@media (--lg)": true,
+  "@media (--xl)": true,
+  "@media (--xxl)": true
+}

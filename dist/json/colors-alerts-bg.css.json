@@ -1,0 +1,37 @@
+{
+  ".bg-info": {
+    "backgroundColor": "var(--info)"
+  },
+  ".bg-info-light": {
+    "backgroundColor": "var(--info-light)"
+  },
+  ".bg-success": {
+    "backgroundColor": "var(--success)"
+  },
+  ".bg-success-light": {
+    "backgroundColor": "var(--success-light)"
+  },
+  ".bg-alert": {
+    "backgroundColor": "var(--alert)"
+  },
+  ".bg-alert-light": {
+    "backgroundColor": "var(--alert-light)"
+  },
+  ".bg-warning": {
+    "backgroundColor": "var(--warning)"
+  },
+  ".bg-warning-light": {
+    "backgroundColor": "var(--warning-light)"
+  },
+  ".bg-error": {
+    "backgroundColor": "var(--error)"
+  },
+  ".bg-error-light": {
+    "backgroundColor": "var(--error-light)"
+  },
+  "@media (--sm)": true,
+  "@media (--md)": true,
+  "@media (--lg)": true,
+  "@media (--xl)": true,
+  "@media (--xxl)": true
+}

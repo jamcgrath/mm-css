@@ -1,0 +1,11 @@
+.black {
+	color: var(--black);
+}
+.white {
+	color: var(--white);
+}
+@media (--sm);
+@media (--md);
+@media (--lg);
+@media (--xl);
+@media (--xxl)
