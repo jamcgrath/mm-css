@@ -434,59 +434,59 @@ html:focus-within {
 }
 
 :root {
-	--space-0: 0;
-	--space-0-5: 0.125rem;
-	--space-1: .25rem
-	--space-1-5: .375rem;
-	--space-2: .5rem;
-	--space-2-5: .625rem;
-	--space-3: .75rem;
-	--space-3-5: .875rem;
-	--space-4: 1rem;
-	--space-5: 1.125rem;
-	--space-6: 1.5rem;
-	--space-7: 1.75rem;
-	--space-8: 2rem;
-	--space-9: 2.25rem;
-	--space-10: 2.5rem;
-	--space-11: 2.75rem;
-	--space-12: 3rem;
-	--space-13: 3.25rem;
-	--space-14: 3.5rem;
-	--space-15: 3.75rem;
-	--space-16: 4rem;;
-	--space-20: 5rem;
-	--space-24: 6rem;
-	--space-28: 7rem;
-	--space-32: 8rem;
-	--space-36: 9rem;
-	--space-40: 10rem;
-	--space-44: 11rem;
-	--space-48: 12rem;
-	--space-52: 13rem;
-	--space-56: 14rem;
-	--space-60: 15rem;
-	--space-64: 16rem;
-	--space-72: 18rem
-	--space-80: 20rem;
-	--space-84: 21rem;
-	--space-96: 24rem;
-	--space-100: 25rem;
-	--space-1px: 1px;
-	--space-2px: 2px;
-	--space-3px: 3px;
-	--space-4px: 4px;
-	--space-5px: 5px;
-	--space-6px: 6px;
-	--space-7px: 7px;
-	--space-8px: 8px;
-	--space-9px: 9px;
-	--space-10px: 10px;
-	--space-11px: 11px;
-	--space-12px: 12px;
-	--space-13px: 13px;
-	--space-14px: 14px;
-	--space-15px: 15px;
+  --space-0: 0;
+  --space-0-5: 0.125rem;
+  --space-1: 0.25rem;
+  --space-1-5: 0.375rem;
+  --space-2: 0.5rem;
+  --space-2-5: 0.625rem;
+  --space-3: 0.75rem;
+  --space-3-5: 0.875rem;
+  --space-4: 1rem;
+  --space-5: 1.125rem;
+  --space-6: 1.5rem;
+  --space-7: 1.75rem;
+  --space-8: 2rem;
+  --space-9: 2.25rem;
+  --space-10: 2.5rem;
+  --space-11: 2.75rem;
+  --space-12: 3rem;
+  --space-13: 3.25rem;
+  --space-14: 3.5rem;
+  --space-15: 3.75rem;
+  --space-16: 4rem;
+  --space-20: 5rem;
+  --space-24: 6rem;
+  --space-28: 7rem;
+  --space-32: 8rem;
+  --space-36: 9rem;
+  --space-40: 10rem;
+  --space-44: 11rem;
+  --space-48: 12rem;
+  --space-52: 13rem;
+  --space-56: 14rem;
+  --space-60: 15rem;
+  --space-64: 16rem;
+  --space-72: 18rem;
+  --space-80: 20rem;
+  --space-84: 21rem;
+  --space-96: 24rem;
+  --space-100: 25rem;
+  --space-1px: 1px;
+  --space-2px: 2px;
+  --space-3px: 3px;
+  --space-4px: 4px;
+  --space-5px: 5px;
+  --space-6px: 6px;
+  --space-7px: 7px;
+  --space-8px: 8px;
+  --space-9px: 9px;
+  --space-10px: 10px;
+  --space-11px: 11px;
+  --space-12px: 12px;
+  --space-13px: 13px;
+  --space-14px: 14px;
+  --space-15px: 15px;
 }
 
 :root {
@@ -5467,6 +5467,22 @@ html:focus-within {
 	right: 0;
 	bottom: 0;
 	left: 0;
+}
+
+.l-0 {
+	left: 0;
+}
+
+.r-0 {
+	right: 0;
+}
+
+.t-0 {
+	top: 0;
+}
+
+.b-0 {
+	bottom: 0;
 }
 
 .resize-none {
