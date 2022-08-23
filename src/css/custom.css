@@ -1,108 +1,108 @@
 ._aspect {
-	--_aspect: var(--aspect-ratio, auto);
-	aspect-ratio: var(--_aspect);
+  --_aspect: var(--aspect-ratio, auto);
+  aspect-ratio: var(--_aspect);
 }
 
 ._circle {
-	--_width: var(--circle-width);
-	border-radius: 50%;
-	width: var(--_width, 100%);
-	height: var(--_width, 100%);
+  --_width: var(--circle-width);
+  border-radius: 50%;
+  width: var(--_width, 100%);
+  height: var(--_width, 100%);
 }
 
 ._br {
-	--_br: var(--br, 0);
-	border-radius: var(--br);
+  --_br: var(--br, 0);
+  border-radius: var(--br);
 }
 
 ._h {
-	--_height: var(--height, auto);
-	height: var(--_height);
+  --_height: var(--height, auto);
+  height: var(--_height);
 }
 
 ._container {
-	--_max-width: var(--max-width: none);
-	width: 100%;
-	max-width: var(--_max-width);
+  --_max-width: var(--max-width: none);
+  width: 100%;
+  max-width: var(--_max-width);
 }
 
 ._grid-auto-col {
-	--_grid-auto-col: var(--grid-auto-col, auto)
-	grid-auto-columns: var(--_grid-auto-col);
+  --_grid-auto-col: var(--grid-auto-col, auto);
+  grid-auto-columns: var(--_grid-auto-col);
 }
 
 ._grid-auto-row {
-	--_grid-auto-row: var(--grid-auto-row, auto)
-	grid-auto-rows: var(--_grid-auto-row);
+  --_grid-auto-row: var(--grid-auto-row, auto);
+  grid-auto-rows: var(--_grid-auto-row);
 }
 
 ._max-h {
-	--_max-height: var(--max-height, auto);
-	max-height: var(--_max-height);
+  --_max-height: var(--max-height, auto);
+  max-height: var(--_max-height);
 }
 
 ._max-w {
-	--_max-width: var(--max-width, none);
-	max-width: var(--_max-width);
+  --_max-width: var(--max-width, none);
+  max-width: var(--_max-width);
 }
 
 ._min-h {
-	--_min-height: (--min-height, auto);
-	min-height: var(--_min-height);
+  --_min-height: (--min-height, auto);
+  min-height: var(--_min-height);
 }
 
 ._min-w {
-	--_min-width: var(--min-width, none);
-	min-width: var(--_max-width);
+  --_min-width: var(--min-width, none);
+  min-width: var(--_max-width);
 }
 
 ._obj-pos {
-	--_obj-pos: var(--obj-pos, 50% 50%);
-	object-position: var(--_obj-pos);
+  --_obj-pos: var(--obj-pos, 50% 50%);
+  object-position: var(--_obj-pos);
 }
 
 ._o {
-	--_opacity: var(--opacity, 1);
-	opacity: var(--_opacity);
+  --_opacity: var(--opacity, 1);
+  opacity: var(--_opacity);
 }
 
 ._inset {
-	--_top: var(--top, auto);
-	--_right: var(--right, auto);
-	--_bottom: var(--bottom, auto);
-	--_left: var(--left, auto);
-	top: var(--_top);
-	left: var(--_left);
-	right: var(--_right);
-	bottom: var(--_bottom);
+  --_top: var(--top, auto);
+  --_right: var(--right, auto);
+  --_bottom: var(--bottom, auto);
+  --_left: var(--left, auto);
+  top: var(--_top);
+  left: var(--_left);
+  right: var(--_right);
+  bottom: var(--_bottom);
 }
 
 ._rotate {
-	--_rotate: var(--rotate, rotate(0deg));
-	transform: var(--_rotate);
+  --_rotate: var(--rotate, rotate(0deg));
+  transform: var(--_rotate);
 }
 
 ._text-shadow {
-	--_txt-shadow: var(--text-shadow, none);
-	text-shadow: var(--_txt-shadow);
+  --_txt-shadow: var(--text-shadow, none);
+  text-shadow: var(--_txt-shadow);
 }
 
 ._tu-offset- {
-	--_tu-offset: var(--tu-offset, auto);
-	text-underline-offset: var(--tu-offset);
+  --_tu-offset: var(--tu-offset, auto);
+  text-underline-offset: var(--tu-offset);
 }
 
 ._v-align {
-	--_v-align: var(--v-align, baseline);
-	vertical-align: var(_v-align);
+  --_v-align: var(--v-align, baseline);
+  vertical-align: var(_v-align);
 }
 
 ._w {
-	--_width: var(--width, none);
-	width: var(--_width);
+  --_width: var(--width, none);
+  width: var(--_width);
 }
 
 ._z-index {
-	--_z: var(--z-index, auto);
-	z-index: var(--_z);
+  --_z: var(--z-index, auto);
+  z-index: var(--_z);
 }
