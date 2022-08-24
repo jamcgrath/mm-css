@@ -37,8 +37,8 @@
   },
   "@supports (width: min(250px, 100%))": {
     ".grid-fluid": {
-      "--_grid-min": "var(--grid-col-width, 250px)",
-      "gridTemplateColumns": "repeat(\n\t\t\tauto-fit,\n\t\t\tminmax(min(var(--_grid-min), 100%), 1fr)\n\t\t)"
+      "--_grid-min": "var(--col-width, 250px)",
+      "gridTemplateColumns": "repeat(\n      auto-fit,\n      minmax(min(var(--_grid-min), 100%), 1fr)\n    )"
     }
   },
   "@media (--sm)": {

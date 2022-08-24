@@ -37,6 +37,12 @@
   background-color: var(--bc-tertiary-light);
 }
 /* brand other */
+.bg-bo-1 {
+  background: var(--bo-1);
+}
+.bg-bo-2 {
+  background: var(--bo-2);
+}
 .bg-bo-3 {
   background-color: var(--bo-3);
 }

@@ -35,6 +35,12 @@
   ".bg-bc-tertiary-light": {
     "backgroundColor": "var(--bc-tertiary-light)"
   },
+  ".bg-bo-1": {
+    "background": "var(--bo-1)"
+  },
+  ".bg-bo-2": {
+    "background": "var(--bo-2)"
+  },
   ".bg-bo-3": {
     "backgroundColor": "var(--bo-3)"
   },

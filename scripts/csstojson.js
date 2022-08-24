@@ -14,8 +14,9 @@ files.forEach((file) => {
     const css = fs.readFileSync(`${folderPath}/${file}`, 'utf8')
     const root = postcss.parse(css)
     const postCSSObj = postcssJs.objectify(root)
+    const filename = file.split('.')[0]
     fs.writeFileSync(
-      `./dist/json/${file}.json`,
+      `./dist/json/${filename}.json`,
       JSON.stringify(postCSSObj, null, 2)
     )
   } catch (err) {

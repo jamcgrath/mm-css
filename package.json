@@ -7,8 +7,9 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "postcss:build": "postcss src/styles.css -o dist/styles.css",
     "postcss:build:single": "postcss src/**/*.css --base src --dir dist",
-    "csstojson": "node ./scripts/csstojson.js",
-		"build": "npm run postcss:build && npm run postcss:build:single && npm run csstojson"
+    "cleanjson": "rm -rf ./dist/json/*",
+    "csstojson": "npm run cleanjson && node ./scripts/csstojson.js",
+    "build": "npm run postcss:build && npm run postcss:build:single && npm run csstojson"
   },
   "keywords": [],
   "author": "",
