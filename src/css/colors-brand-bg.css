@@ -34,9 +34,6 @@
 .bg-bc-tertiary {
   background-color: var(--bc-tertiary);
 }
-.bg-bc-tertiary-light {
-  background-color: var(--bc-tertiary-light);
-}
 
 /* brand other */
 .bg-bo-1 {
