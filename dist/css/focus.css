@@ -1,4 +1,4 @@
-:root {
+/* :root {
 	--focus-outline-color: var(--hover);
 	--focus-outline-style: solid;
 	--focus-outline-width: 1px;
@@ -19,14 +19,6 @@
 	*:focus {
 		outline: 0;
 	}
-	*.focus-visible {
-		--_focus-color: var(--focus-color, var(--focus-outline-color));
-		--_focus-style: var(--focus-style, var(--focus-outline-style));
-		--_focus-width: var(--focus-width, var(--focus-outline-width));
-		--_focus-offset: var(--focus-offset, var(--focus-outline-offset));
-		outline: var(--focus-width) var(--focus-style) var(--focus-color);
-		outline-offset: var(--focus-offset);
-	}
 	*:focus-visible {
 		--_focus-color: var(--focus-color, var(--focus-outline-color));
 		--_focus-style: var(--focus-style, var(--focus-outline-style));
@@ -35,14 +27,9 @@
 		outline: var(--focus-width) var(--focus-style) var(--focus-color);
 		outline-offset: var(--focus-offset);
 	}
-}
-
+} */
 @media (--sm);
-
 @media (--md);
-
 @media (--lg);
-
 @media (--xl);
-
 @media (--xxl)

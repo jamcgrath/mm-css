@@ -1,4 +1,4 @@
-:root {
+/* :root {
 	--focus-outline-color: var(--hover);
 	--focus-outline-style: solid;
 	--focus-outline-width: 1px;
@@ -27,4 +27,4 @@
 		outline: var(--focus-width) var(--focus-style) var(--focus-color);
 		outline-offset: var(--focus-offset);
 	}
-}
+} */
