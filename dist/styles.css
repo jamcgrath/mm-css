@@ -3423,6 +3423,10 @@ html:focus-within {
 		padding-right: var(--space-100);
 	}
 
+.border-0 {
+    border: 0;
+  }
+
 .block {
 		display: block;
 	}
@@ -8111,6 +8115,9 @@ html:focus-within {
 	.sm-pr-100 {
 		padding-right: var(--space-100);
 	}
+  .sm-border-0 {
+    border: 0;
+  }
 	.sm-block {
 		display: block;
 	}
@@ -11423,6 +11430,9 @@ html:focus-within {
 	.md-pr-100 {
 		padding-right: var(--space-100);
 	}
+  .md-border-0 {
+    border: 0;
+  }
 	.md-block {
 		display: block;
 	}
@@ -14735,6 +14745,9 @@ html:focus-within {
 	.lg-pr-100 {
 		padding-right: var(--space-100);
 	}
+  .lg-border-0 {
+    border: 0;
+  }
 	.lg-block {
 		display: block;
 	}
@@ -18047,6 +18060,9 @@ html:focus-within {
 	.xl-pr-100 {
 		padding-right: var(--space-100);
 	}
+  .xl-border-0 {
+    border: 0;
+  }
 	.xl-block {
 		display: block;
 	}
@@ -21359,6 +21375,9 @@ html:focus-within {
 	.xxl-pr-100 {
 		padding-right: var(--space-100);
 	}
+  .xxl-border-0 {
+    border: 0;
+  }
 	.xxl-block {
 		display: block;
 	}

@@ -1,8 +1,29 @@
-.border-0 {
-  border: 0;
+
+  .border-0 {
+    border: 0;
+  }
+@media (--sm) {
+  .sm-border-0 {
+    border: 0;
+  }
 }
-@media (min-width: 300px);
-@media (min-width: 768px);
-@media (min-width: 1024px);
-@media (min-width: 1440px);
-@media (min-width: 1920px)
+@media (--md) {
+  .md-border-0 {
+    border: 0;
+  }
+}
+@media (--lg) {
+  .lg-border-0 {
+    border: 0;
+  }
+}
+@media (--xl) {
+  .xl-border-0 {
+    border: 0;
+  }
+}
+@media (--xxl) {
+  .xxl-border-0 {
+    border: 0;
+  }
+}

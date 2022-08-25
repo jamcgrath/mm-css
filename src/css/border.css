@@ -1,3 +1,5 @@
-.border-0 {
-  border: 0;
+@responsive {
+  .border-0 {
+    border: 0;
+  }
 }

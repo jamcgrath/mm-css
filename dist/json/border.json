@@ -2,9 +2,29 @@
   ".border-0": {
     "border": "0"
   },
-  "@media (min-width: 300px)": true,
-  "@media (min-width: 768px)": true,
-  "@media (min-width: 1024px)": true,
-  "@media (min-width: 1440px)": true,
-  "@media (min-width: 1920px)": true
+  "@media (--sm)": {
+    ".sm-border-0": {
+      "border": "0"
+    }
+  },
+  "@media (--md)": {
+    ".md-border-0": {
+      "border": "0"
+    }
+  },
+  "@media (--lg)": {
+    ".lg-border-0": {
+      "border": "0"
+    }
+  },
+  "@media (--xl)": {
+    ".xl-border-0": {
+      "border": "0"
+    }
+  },
+  "@media (--xxl)": {
+    ".xxl-border-0": {
+      "border": "0"
+    }
+  }
 }

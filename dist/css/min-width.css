@@ -12,8 +12,8 @@
 	min-width: -webkit-min-content;
 	min-width: min-content;
 }
-@media (min-width: 300px);
-@media (min-width: 768px);
-@media (min-width: 1024px);
-@media (min-width: 1440px);
-@media (min-width: 1920px)
+@media (--sm);
+@media (--md);
+@media (--lg);
+@media (--xl);
+@media (--xxl)

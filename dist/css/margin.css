@@ -880,7 +880,7 @@
 .mr-100 {
 		margin-right: var(--space-100);
 	}
-@media (min-width: 300px) {
+@media (--sm) {
 	.sm-m-auto {
 		margin: auto;
 	}
@@ -1769,7 +1769,7 @@
 		margin-right: var(--space-100);
 	}
 }
-@media (min-width: 768px) {
+@media (--md) {
 	.md-m-auto {
 		margin: auto;
 	}
@@ -2658,7 +2658,7 @@
 		margin-right: var(--space-100);
 	}
 }
-@media (min-width: 1024px) {
+@media (--lg) {
 	.lg-m-auto {
 		margin: auto;
 	}
@@ -3547,7 +3547,7 @@
 		margin-right: var(--space-100);
 	}
 }
-@media (min-width: 1440px) {
+@media (--xl) {
 	.xl-m-auto {
 		margin: auto;
 	}
@@ -4436,7 +4436,7 @@
 		margin-right: var(--space-100);
 	}
 }
-@media (min-width: 1920px) {
+@media (--xxl) {
 	.xxl-m-auto {
 		margin: auto;
 	}
