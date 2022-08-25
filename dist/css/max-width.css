@@ -76,7 +76,7 @@
 		max-width: -webkit-min-content;
 		max-width: min-content;
 	}
-@media (--sm) {
+@media (min-width: 300px) {
 	.sm-max-w-5 {
 		max-max-width: 5%;
 	}
@@ -155,7 +155,7 @@
 		max-width: min-content;
 	}
 }
-@media (--md) {
+@media (min-width: 768px) {
 	.md-max-w-5 {
 		max-max-width: 5%;
 	}
@@ -234,7 +234,7 @@
 		max-width: min-content;
 	}
 }
-@media (--lg) {
+@media (min-width: 1024px) {
 	.lg-max-w-5 {
 		max-max-width: 5%;
 	}
@@ -313,7 +313,7 @@
 		max-width: min-content;
 	}
 }
-@media (--xl) {
+@media (min-width: 1440px) {
 	.xl-max-w-5 {
 		max-max-width: 5%;
 	}
@@ -392,7 +392,7 @@
 		max-width: min-content;
 	}
 }
-@media (--xxl) {
+@media (min-width: 1920px) {
 	.xxl-max-w-5 {
 		max-max-width: 5%;
 	}

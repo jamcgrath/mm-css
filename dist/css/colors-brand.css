@@ -1,47 +1,44 @@
 /* brand warm */
 .bw-primary {
-	color: var(--bw-primary);
+  color: var(--bw-primary);
 }
 .bw-secondary {
-	color: var(--bw-secondary);
+  color: var(--bw-secondary);
 }
 .bw-secondary-light {
-	color: var(--bw-secondary-light);
+  color: var(--bw-secondary-light);
 }
 .bw-tertiary {
-	color: var(--bw-tertiary);
+  color: var(--bw-tertiary);
 }
 .bw-tertiary-light {
-	color: var(--bw-tertiary-light);
+  color: var(--bw-tertiary-light);
 }
 /* brand cold  */
 .bc-primary {
-	color: var(--bc-primary);
+  color: var(--bc-primary);
 }
 .bc-primary-light {
-	color: var(--bc-primary-light);
+  color: var(--bc-primary-light);
 }
 .bc-secondary {
-	color: var(--bc-secondary);
+  color: var(--bc-secondary);
 }
 .bc-secondary-light {
-	color: var(--bc-secondary-light);
+  color: var(--bc-secondary-light);
 }
 .bc-tertiary {
-	color: var(--bc-tertiary);
-}
-.bc-tertiary-light {
-	color: var(--bc-tertiary-light);
+  color: var(--bc-tertiary);
 }
 /* brand other */
 .bo-3 {
-	color: var(--bo-3);
+  color: var(--bo-3);
 }
 .bo-4 {
-	color: var(--bo-4);
+  color: var(--bo-4);
 }
 .bo-5 {
-	color: var(--bo-5);
+  color: var(--bo-5);
 }
 @media (--sm);
 @media (--md);

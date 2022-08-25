@@ -80,7 +80,7 @@
       "min-content"
     ]
   },
-  "@media (--sm)": {
+  "@media (min-width: 300px)": {
     ".sm-max-w-5": {
       "maxMaxWidth": "5%"
     },
@@ -163,7 +163,7 @@
       ]
     }
   },
-  "@media (--md)": {
+  "@media (min-width: 768px)": {
     ".md-max-w-5": {
       "maxMaxWidth": "5%"
     },
@@ -246,7 +246,7 @@
       ]
     }
   },
-  "@media (--lg)": {
+  "@media (min-width: 1024px)": {
     ".lg-max-w-5": {
       "maxMaxWidth": "5%"
     },
@@ -329,7 +329,7 @@
       ]
     }
   },
-  "@media (--xl)": {
+  "@media (min-width: 1440px)": {
     ".xl-max-w-5": {
       "maxMaxWidth": "5%"
     },
@@ -412,7 +412,7 @@
       ]
     }
   },
-  "@media (--xxl)": {
+  "@media (min-width: 1920px)": {
     ".xxl-max-w-5": {
       "maxMaxWidth": "5%"
     },

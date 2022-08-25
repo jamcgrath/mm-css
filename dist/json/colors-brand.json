@@ -29,9 +29,6 @@
   ".bc-tertiary": {
     "color": "var(--bc-tertiary)"
   },
-  ".bc-tertiary-light": {
-    "color": "var(--bc-tertiary-light)"
-  },
   ".bo-3": {
     "color": "var(--bo-3)"
   },
