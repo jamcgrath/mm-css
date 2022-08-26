@@ -8,7 +8,7 @@
   ".float-none": {
     "cssFloat": "none"
   },
-  "@media (--sm)": {
+  "@media (min-width: 480px)": {
     ".sm-float-left": {
       "cssFloat": "left"
     },
@@ -19,7 +19,7 @@
       "cssFloat": "none"
     }
   },
-  "@media (--md)": {
+  "@media (min-width: 768px)": {
     ".md-float-left": {
       "cssFloat": "left"
     },
@@ -30,7 +30,7 @@
       "cssFloat": "none"
     }
   },
-  "@media (--lg)": {
+  "@media (min-width: 1024px)": {
     ".lg-float-left": {
       "cssFloat": "left"
     },
@@ -41,7 +41,7 @@
       "cssFloat": "none"
     }
   },
-  "@media (--xl)": {
+  "@media (min-width: 1440px)": {
     ".xl-float-left": {
       "cssFloat": "left"
     },
@@ -52,7 +52,7 @@
       "cssFloat": "none"
     }
   },
-  "@media (--xxl)": {
+  "@media min-width: 1920px)": {
     ".xxl-float-left": {
       "cssFloat": "left"
     },

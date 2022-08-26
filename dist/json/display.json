@@ -23,7 +23,7 @@
   ".hidden": {
     "display": "none"
   },
-  "@media (--sm)": {
+  "@media (min-width: 480px)": {
     ".sm-block": {
       "display": "block"
     },
@@ -49,7 +49,7 @@
       "display": "none"
     }
   },
-  "@media (--md)": {
+  "@media (min-width: 768px)": {
     ".md-block": {
       "display": "block"
     },
@@ -75,7 +75,7 @@
       "display": "none"
     }
   },
-  "@media (--lg)": {
+  "@media (min-width: 1024px)": {
     ".lg-block": {
       "display": "block"
     },
@@ -101,7 +101,7 @@
       "display": "none"
     }
   },
-  "@media (--xl)": {
+  "@media (min-width: 1440px)": {
     ".xl-block": {
       "display": "block"
     },
@@ -127,7 +127,7 @@
       "display": "none"
     }
   },
-  "@media (--xxl)": {
+  "@media min-width: 1920px)": {
     ".xxl-block": {
       "display": "block"
     },

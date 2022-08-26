@@ -29,7 +29,7 @@
 .a-content-normal {
 		align-content: normal;
 	}
-@media (--sm) {
+@media (min-width: 480px) {
 	.sm-a-content-start {
 		align-content: start;
 	}
@@ -61,7 +61,7 @@
 		align-content: normal;
 	}
 }
-@media (--md) {
+@media (min-width: 768px) {
 	.md-a-content-start {
 		align-content: start;
 	}
@@ -93,7 +93,7 @@
 		align-content: normal;
 	}
 }
-@media (--lg) {
+@media (min-width: 1024px) {
 	.lg-a-content-start {
 		align-content: start;
 	}
@@ -125,7 +125,7 @@
 		align-content: normal;
 	}
 }
-@media (--xl) {
+@media (min-width: 1440px) {
 	.xl-a-content-start {
 		align-content: start;
 	}
@@ -157,7 +157,7 @@
 		align-content: normal;
 	}
 }
-@media (--xxl) {
+@media min-width: 1920px) {
 	.xxl-a-content-start {
 		align-content: start;
 	}

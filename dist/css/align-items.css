@@ -20,7 +20,7 @@
 .a-items-stretch {
 		align-items: stretch;
 	}
-@media (--sm) {
+@media (min-width: 480px) {
 	.sm-a-items-flex-start {
 		align-items: flex-start;
 	}
@@ -43,7 +43,7 @@
 		align-items: stretch;
 	}
 }
-@media (--md) {
+@media (min-width: 768px) {
 	.md-a-items-flex-start {
 		align-items: flex-start;
 	}
@@ -66,7 +66,7 @@
 		align-items: stretch;
 	}
 }
-@media (--lg) {
+@media (min-width: 1024px) {
 	.lg-a-items-flex-start {
 		align-items: flex-start;
 	}
@@ -89,7 +89,7 @@
 		align-items: stretch;
 	}
 }
-@media (--xl) {
+@media (min-width: 1440px) {
 	.xl-a-items-flex-start {
 		align-items: flex-start;
 	}
@@ -112,7 +112,7 @@
 		align-items: stretch;
 	}
 }
-@media (--xxl) {
+@media min-width: 1920px) {
 	.xxl-a-items-flex-start {
 		align-items: flex-start;
 	}

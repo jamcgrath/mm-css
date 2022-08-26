@@ -7,8 +7,8 @@
 .box-padding {
 	box-sizing: padding-box;
 }
-@media (--sm);
-@media (--md);
-@media (--lg);
-@media (--xl);
-@media (--xxl)
+@media (min-width: 480px);
+@media (min-width: 768px);
+@media (min-width: 1024px);
+@media (min-width: 1440px);
+@media min-width: 1920px)

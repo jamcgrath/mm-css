@@ -23,7 +23,7 @@
 .text-justify {
 		text-align: justify;
 	}
-@media (min-width: 300px) {
+@media (min-width: 480px) {
 	.sm-text-center {
 		text-align: center;
 	}
@@ -127,7 +127,7 @@
 		text-align: justify;
 	}
 }
-@media (min-width: 1920px) {
+@media min-width: 1920px) {
 	.xxl-text-center {
 		text-align: center;
 	}

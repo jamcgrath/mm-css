@@ -8,7 +8,7 @@
 .float-none {
 		float: none;
 	}
-@media (--sm) {
+@media (min-width: 480px) {
 	.sm-float-left {
 		float: left;
 	}
@@ -19,7 +19,7 @@
 		float: none;
 	}
 }
-@media (--md) {
+@media (min-width: 768px) {
 	.md-float-left {
 		float: left;
 	}
@@ -30,7 +30,7 @@
 		float: none;
 	}
 }
-@media (--lg) {
+@media (min-width: 1024px) {
 	.lg-float-left {
 		float: left;
 	}
@@ -41,7 +41,7 @@
 		float: none;
 	}
 }
-@media (--xl) {
+@media (min-width: 1440px) {
 	.xl-float-left {
 		float: left;
 	}
@@ -52,7 +52,7 @@
 		float: none;
 	}
 }
-@media (--xxl) {
+@media min-width: 1920px) {
 	.xxl-float-left {
 		float: left;
 	}

@@ -14,7 +14,7 @@
 .of-scale-down {
 		object-fit: scale-down;
 	}
-@media (min-width: 300px) {
+@media (min-width: 480px) {
 	.sm-of-contain {
 		of: contain;
 	}
@@ -82,7 +82,7 @@
 		object-fit: scale-down;
 	}
 }
-@media (min-width: 1920px) {
+@media min-width: 1920px) {
 	.xxl-of-contain {
 		of: contain;
 	}

@@ -41,7 +41,7 @@
       "gridTemplateColumns": "repeat(\n      auto-fit,\n      minmax(min(var(--_grid-min), 100%), 1fr)\n    )"
     }
   },
-  "@media (--sm)": {
+  "@media (min-width: 480px)": {
     ".sm-grid-col-1": {
       "gridTemplateColumns": "repeat(1, minmax(0, 1fr))"
     },
@@ -79,7 +79,7 @@
       "gridTemplateColumns": "repeat(12, minmax(0, 1fr))"
     }
   },
-  "@media (--md)": {
+  "@media (min-width: 768px)": {
     ".md-grid-col-1": {
       "gridTemplateColumns": "repeat(1, minmax(0, 1fr))"
     },
@@ -117,7 +117,7 @@
       "gridTemplateColumns": "repeat(12, minmax(0, 1fr))"
     }
   },
-  "@media (--lg)": {
+  "@media (min-width: 1024px)": {
     ".lg-grid-col-1": {
       "gridTemplateColumns": "repeat(1, minmax(0, 1fr))"
     },
@@ -155,7 +155,7 @@
       "gridTemplateColumns": "repeat(12, minmax(0, 1fr))"
     }
   },
-  "@media (--xl)": {
+  "@media (min-width: 1440px)": {
     ".xl-grid-col-1": {
       "gridTemplateColumns": "repeat(1, minmax(0, 1fr))"
     },
@@ -193,7 +193,7 @@
       "gridTemplateColumns": "repeat(12, minmax(0, 1fr))"
     }
   },
-  "@media (--xxl)": {
+  "@media min-width: 1920px)": {
     ".xxl-grid-col-1": {
       "gridTemplateColumns": "repeat(1, minmax(0, 1fr))"
     },

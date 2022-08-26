@@ -167,7 +167,7 @@
   ".row-end-13": {
     "gridRowEnd": "13"
   },
-  "@media (--sm)": {
+  "@media (min-width: 480px)": {
     ".sm-col-start-auto": {
       "gridColumnStart": "auto"
     },
@@ -337,7 +337,7 @@
       "gridRowEnd": "13"
     }
   },
-  "@media (--md)": {
+  "@media (min-width: 768px)": {
     ".md-col-start-auto": {
       "gridColumnStart": "auto"
     },
@@ -507,7 +507,7 @@
       "gridRowEnd": "13"
     }
   },
-  "@media (--lg)": {
+  "@media (min-width: 1024px)": {
     ".lg-col-start-auto": {
       "gridColumnStart": "auto"
     },
@@ -677,7 +677,7 @@
       "gridRowEnd": "13"
     }
   },
-  "@media (--xl)": {
+  "@media (min-width: 1440px)": {
     ".xl-col-start-auto": {
       "gridColumnStart": "auto"
     },
@@ -847,7 +847,7 @@
       "gridRowEnd": "13"
     }
   },
-  "@media (--xxl)": {
+  "@media min-width: 1920px)": {
     ".xxl-col-start-auto": {
       "gridColumnStart": "auto"
     },

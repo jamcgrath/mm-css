@@ -341,7 +341,7 @@
 .gap-col-100 {
 		column-gap: var(--space-100);
 	}
-@media (--sm) {
+@media (min-width: 480px) {
 	.sm-gap-0 {
 		gap: var(--space-0);
 	}
@@ -687,7 +687,7 @@
 		column-gap: var(--space-100);
 	}
 }
-@media (--md) {
+@media (min-width: 768px) {
 	.md-gap-0 {
 		gap: var(--space-0);
 	}
@@ -1033,7 +1033,7 @@
 		column-gap: var(--space-100);
 	}
 }
-@media (--lg) {
+@media (min-width: 1024px) {
 	.lg-gap-0 {
 		gap: var(--space-0);
 	}
@@ -1379,7 +1379,7 @@
 		column-gap: var(--space-100);
 	}
 }
-@media (--xl) {
+@media (min-width: 1440px) {
 	.xl-gap-0 {
 		gap: var(--space-0);
 	}
@@ -1725,7 +1725,7 @@
 		column-gap: var(--space-100);
 	}
 }
-@media (--xxl) {
+@media min-width: 1920px) {
 	.xxl-gap-0 {
 		gap: var(--space-0);
 	}

@@ -10,7 +10,7 @@
 		grid-auto-columns: -webkit-max-content;
 		grid-auto-columns: max-content;
 	}
-@media (--sm) {
+@media (min-width: 480px) {
 	.sm-grid-auto-col {
 		grid-auto-columns: auto;
 	}
@@ -23,7 +23,7 @@
 		grid-auto-columns: max-content;
 	}
 }
-@media (--md) {
+@media (min-width: 768px) {
 	.md-grid-auto-col {
 		grid-auto-columns: auto;
 	}
@@ -36,7 +36,7 @@
 		grid-auto-columns: max-content;
 	}
 }
-@media (--lg) {
+@media (min-width: 1024px) {
 	.lg-grid-auto-col {
 		grid-auto-columns: auto;
 	}
@@ -49,7 +49,7 @@
 		grid-auto-columns: max-content;
 	}
 }
-@media (--xl) {
+@media (min-width: 1440px) {
 	.xl-grid-auto-col {
 		grid-auto-columns: auto;
 	}
@@ -62,7 +62,7 @@
 		grid-auto-columns: max-content;
 	}
 }
-@media (--xxl) {
+@media min-width: 1920px) {
 	.xxl-grid-auto-col {
 		grid-auto-columns: auto;
 	}

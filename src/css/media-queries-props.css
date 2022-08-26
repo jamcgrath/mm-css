@@ -1,5 +1,4 @@
-/* @custom-media --sm (width >= 480px); */
-@custom-media --sm (width >= 300px);
+@custom-media --sm (width >= 480px);
 @custom-media --sm-max (width <= 480px);
 @custom-media --sm-only (480px <= width <= 768px);
 

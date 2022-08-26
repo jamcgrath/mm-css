@@ -8,7 +8,7 @@
 .flex-wrap-reverse {
 		flex-wrap: wrap-reverse;
 	}
-@media (--sm) {
+@media (min-width: 480px) {
 	.sm-flex-wrap {
 		flex-wrap: wrap;
 	}
@@ -19,7 +19,7 @@
 		flex-wrap: wrap-reverse;
 	}
 }
-@media (--md) {
+@media (min-width: 768px) {
 	.md-flex-wrap {
 		flex-wrap: wrap;
 	}
@@ -30,7 +30,7 @@
 		flex-wrap: wrap-reverse;
 	}
 }
-@media (--lg) {
+@media (min-width: 1024px) {
 	.lg-flex-wrap {
 		flex-wrap: wrap;
 	}
@@ -41,7 +41,7 @@
 		flex-wrap: wrap-reverse;
 	}
 }
-@media (--xl) {
+@media (min-width: 1440px) {
 	.xl-flex-wrap {
 		flex-wrap: wrap;
 	}
@@ -52,7 +52,7 @@
 		flex-wrap: wrap-reverse;
 	}
 }
-@media (--xxl) {
+@media min-width: 1920px) {
 	.xxl-flex-wrap {
 		flex-wrap: wrap;
 	}

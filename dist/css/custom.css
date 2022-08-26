@@ -107,12 +107,12 @@
   z-index: var(--_z);
 }
 
-@media (--sm);
+@media (min-width: 480px);
 
-@media (--md);
+@media (min-width: 768px);
 
-@media (--lg);
+@media (min-width: 1024px);
 
-@media (--xl);
+@media (min-width: 1440px);
 
-@media (--xxl)
+@media min-width: 1920px)

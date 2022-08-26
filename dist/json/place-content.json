@@ -35,7 +35,7 @@
   ".p-content-normal": {
     "placeContent": "normal"
   },
-  "@media (min-width: 300px)": {
+  "@media (min-width: 480px)": {
     ".sm-p-content-center": {
       "placeContent": "center"
     },
@@ -187,7 +187,7 @@
       "placeContent": "normal"
     }
   },
-  "@media (min-width: 1920px)": {
+  "@media min-width: 1920px)": {
     ".xxl-p-content-center": {
       "placeContent": "center"
     },

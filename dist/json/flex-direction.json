@@ -11,7 +11,7 @@
   ".flex-col-reverse": {
     "flexDirection": "column-reverse"
   },
-  "@media (--sm)": {
+  "@media (min-width: 480px)": {
     ".sm-flex-row": {
       "flexDirection": "row"
     },
@@ -25,7 +25,7 @@
       "flexDirection": "column-reverse"
     }
   },
-  "@media (--md)": {
+  "@media (min-width: 768px)": {
     ".md-flex-row": {
       "flexDirection": "row"
     },
@@ -39,7 +39,7 @@
       "flexDirection": "column-reverse"
     }
   },
-  "@media (--lg)": {
+  "@media (min-width: 1024px)": {
     ".lg-flex-row": {
       "flexDirection": "row"
     },
@@ -53,7 +53,7 @@
       "flexDirection": "column-reverse"
     }
   },
-  "@media (--xl)": {
+  "@media (min-width: 1440px)": {
     ".xl-flex-row": {
       "flexDirection": "row"
     },
@@ -67,7 +67,7 @@
       "flexDirection": "column-reverse"
     }
   },
-  "@media (--xxl)": {
+  "@media min-width: 1920px)": {
     ".xxl-flex-row": {
       "flexDirection": "row"
     },

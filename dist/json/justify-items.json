@@ -32,7 +32,7 @@
   ".j-items-normal": {
     "justifyItems": "normal"
   },
-  "@media (--sm)": {
+  "@media (min-width: 480px)": {
     ".sm-j-items-flex-start": {
       "justifyItems": "flex-start"
     },
@@ -67,7 +67,7 @@
       "justifyItems": "normal"
     }
   },
-  "@media (--md)": {
+  "@media (min-width: 768px)": {
     ".md-j-items-flex-start": {
       "justifyItems": "flex-start"
     },
@@ -102,7 +102,7 @@
       "justifyItems": "normal"
     }
   },
-  "@media (--lg)": {
+  "@media (min-width: 1024px)": {
     ".lg-j-items-flex-start": {
       "justifyItems": "flex-start"
     },
@@ -137,7 +137,7 @@
       "justifyItems": "normal"
     }
   },
-  "@media (--xl)": {
+  "@media (min-width: 1440px)": {
     ".xl-j-items-flex-start": {
       "justifyItems": "flex-start"
     },
@@ -172,7 +172,7 @@
       "justifyItems": "normal"
     }
   },
-  "@media (--xxl)": {
+  "@media min-width: 1920px)": {
     ".xxl-j-items-flex-start": {
       "justifyItems": "flex-start"
     },

@@ -373,7 +373,7 @@ html:focus-within {
 	}
 }
 
-@media (min-width: 300px);
+@media (min-width: 480px);
 
 @media (min-width: 768px);
 
@@ -381,4 +381,4 @@ html:focus-within {
 
 @media (min-width: 1440px);
 
-@media (min-width: 1920px)
+@media min-width: 1920px)

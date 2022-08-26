@@ -14,7 +14,7 @@
       "max-content"
     ]
   },
-  "@media (--sm)": {
+  "@media (min-width: 480px)": {
     ".sm-grid-auto-col": {
       "gridAutoColumns": "auto"
     },
@@ -31,7 +31,7 @@
       ]
     }
   },
-  "@media (--md)": {
+  "@media (min-width: 768px)": {
     ".md-grid-auto-col": {
       "gridAutoColumns": "auto"
     },
@@ -48,7 +48,7 @@
       ]
     }
   },
-  "@media (--lg)": {
+  "@media (min-width: 1024px)": {
     ".lg-grid-auto-col": {
       "gridAutoColumns": "auto"
     },
@@ -65,7 +65,7 @@
       ]
     }
   },
-  "@media (--xl)": {
+  "@media (min-width: 1440px)": {
     ".xl-grid-auto-col": {
       "gridAutoColumns": "auto"
     },
@@ -82,7 +82,7 @@
       ]
     }
   },
-  "@media (--xxl)": {
+  "@media min-width: 1920px)": {
     ".xxl-grid-auto-col": {
       "gridAutoColumns": "auto"
     },

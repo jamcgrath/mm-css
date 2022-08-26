@@ -35,7 +35,7 @@
   ".b-0": {
     "bottom": "0"
   },
-  "@media (min-width: 300px)": {
+  "@media (min-width: 480px)": {
     ".sm-relative": {
       "position": "relative"
     },
@@ -115,7 +115,7 @@
       ]
     }
   },
-  "@media (min-width: 1920px)": {
+  "@media min-width: 1920px)": {
     ".xxl-relative": {
       "position": "relative"
     },

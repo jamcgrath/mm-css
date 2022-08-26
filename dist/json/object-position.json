@@ -26,7 +26,7 @@
   ".obj-pos-br": {
     "objectPosition": "bottom right"
   },
-  "@media (min-width: 300px)": {
+  "@media (min-width: 480px)": {
     ".sm-obj-pos-t": {
       "objectPosition": "top"
     },
@@ -142,7 +142,7 @@
       "objectPosition": "bottom right"
     }
   },
-  "@media (min-width: 1920px)": {
+  "@media min-width: 1920px)": {
     ".xxl-obj-pos-t": {
       "objectPosition": "top"
     },

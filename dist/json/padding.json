@@ -873,7 +873,7 @@
   ".pr-100": {
     "paddingRight": "var(--space-100)"
   },
-  "@media (min-width: 300px)": {
+  "@media (min-width: 480px)": {
     ".sm-p-0": {
       "padding": "var(--space-0)"
     },
@@ -4377,7 +4377,7 @@
       "paddingRight": "var(--space-100)"
     }
   },
-  "@media (min-width: 1920px)": {
+  "@media min-width: 1920px)": {
     ".xxl-p-0": {
       "padding": "var(--space-0)"
     },

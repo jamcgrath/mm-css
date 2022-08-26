@@ -23,7 +23,7 @@
   ".text-justify": {
     "textAlign": "justify"
   },
-  "@media (min-width: 300px)": {
+  "@media (min-width: 480px)": {
     ".sm-text-center": {
       "textAlign": "center"
     },
@@ -127,7 +127,7 @@
       "textAlign": "justify"
     }
   },
-  "@media (min-width: 1920px)": {
+  "@media min-width: 1920px)": {
     ".xxl-text-center": {
       "textAlign": "center"
     },

@@ -1,21 +1,26 @@
 const breakpoints = [
-	{ prefix: "sm-", mediaQuery: "(--sm)" },
-	{ prefix: "md-", mediaQuery: "(--md)" },
-	{ prefix: "lg-", mediaQuery: "(--lg)" },
-	{ prefix: "xl-", mediaQuery: "(--xl)" },
-	{ prefix: "xxl-", mediaQuery: "(--xxl)" },
-];
+  { prefix: 'sm-', mediaQuery: '(min-width: 480px)' },
+  { prefix: 'md-', mediaQuery: '(min-width: 768px)' },
+  { prefix: 'lg-', mediaQuery: '(min-width: 1024px)' },
+  { prefix: 'xl-', mediaQuery: '(min-width: 1440px)' },
+  { prefix: 'xxl-', mediaQuery: 'min-width: 1920px)' },
+]
+
 const responsifyOptions = {
-	breakpoints,
-};
+  breakpoints,
+}
 
 module.exports = {
-	plugins: [
-		require("postcss-import"),
-		require("postcss-preset-env")({
-			stage: 2,
-			autoprefixer: { flexbox: false },
-		}),
-		require("./postcss/postcss-responsify/index.js")(responsifyOptions),
-	],
-};
+  plugins: [
+    require('postcss-import'),
+    require('./postcss/postcss-responsify/index.js')(responsifyOptions),
+    require('postcss-preset-env')({
+      stage: 2,
+      autoprefixer: { flexbox: false },
+      postcssCustomProperties: {
+        preserve: true,
+        importFrom: './src/css/media-queries-props.css',
+      },
+    }),
+  ],
+}

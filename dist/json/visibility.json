@@ -32,7 +32,7 @@
     "clip": "auto",
     "whiteSpace": "normal"
   },
-  "@media (min-width: 300px)": {
+  "@media (min-width: 480px)": {
     ".sm-invisible": {
       "visibility": "hidden"
     },
@@ -92,7 +92,7 @@
       "whiteSpace": "normal"
     }
   },
-  "@media (min-width: 1920px)": {
+  "@media min-width: 1920px)": {
     ".xxl-invisible": {
       "visibility": "hidden"
     },

@@ -29,7 +29,7 @@
 .a-self-auto {
 		align-self: auto;
 	}
-@media (--sm) {
+@media (min-width: 480px) {
 	.sm-a-self-center {
 		align-self: center;
 	}
@@ -61,7 +61,7 @@
 		align-self: auto;
 	}
 }
-@media (--md) {
+@media (min-width: 768px) {
 	.md-a-self-center {
 		align-self: center;
 	}
@@ -93,7 +93,7 @@
 		align-self: auto;
 	}
 }
-@media (--lg) {
+@media (min-width: 1024px) {
 	.lg-a-self-center {
 		align-self: center;
 	}
@@ -125,7 +125,7 @@
 		align-self: auto;
 	}
 }
-@media (--xl) {
+@media (min-width: 1440px) {
 	.xl-a-self-center {
 		align-self: center;
 	}
@@ -157,7 +157,7 @@
 		align-self: auto;
 	}
 }
-@media (--xxl) {
+@media min-width: 1920px) {
 	.xxl-a-self-center {
 		align-self: center;
 	}

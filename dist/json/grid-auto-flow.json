@@ -14,7 +14,7 @@
   ".grid-flow-column-dense": {
     "gridAutoFlow": "column dense"
   },
-  "@media (--sm)": {
+  "@media (min-width: 480px)": {
     ".sm-grid-flow-row": {
       "gridAutoFlow": "row"
     },
@@ -31,7 +31,7 @@
       "gridAutoFlow": "column dense"
     }
   },
-  "@media (--md)": {
+  "@media (min-width: 768px)": {
     ".md-grid-flow-row": {
       "gridAutoFlow": "row"
     },
@@ -48,7 +48,7 @@
       "gridAutoFlow": "column dense"
     }
   },
-  "@media (--lg)": {
+  "@media (min-width: 1024px)": {
     ".lg-grid-flow-row": {
       "gridAutoFlow": "row"
     },
@@ -65,7 +65,7 @@
       "gridAutoFlow": "column dense"
     }
   },
-  "@media (--xl)": {
+  "@media (min-width: 1440px)": {
     ".xl-grid-flow-row": {
       "gridAutoFlow": "row"
     },
@@ -82,7 +82,7 @@
       "gridAutoFlow": "column dense"
     }
   },
-  "@media (--xxl)": {
+  "@media min-width: 1920px)": {
     ".xxl-grid-flow-row": {
       "gridAutoFlow": "row"
     },

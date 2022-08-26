@@ -10,7 +10,7 @@
 		grid-auto-rows: -webkit-max-content;
 		grid-auto-rows: max-content;
 	}
-@media (--sm) {
+@media (min-width: 480px) {
 	.sm-grid-auto-row {
 		grid-auto-rows: auto;
 	}
@@ -23,7 +23,7 @@
 		grid-auto-rows: max-content;
 	}
 }
-@media (--md) {
+@media (min-width: 768px) {
 	.md-grid-auto-row {
 		grid-auto-rows: auto;
 	}
@@ -36,7 +36,7 @@
 		grid-auto-rows: max-content;
 	}
 }
-@media (--lg) {
+@media (min-width: 1024px) {
 	.lg-grid-auto-row {
 		grid-auto-rows: auto;
 	}
@@ -49,7 +49,7 @@
 		grid-auto-rows: max-content;
 	}
 }
-@media (--xl) {
+@media (min-width: 1440px) {
 	.xl-grid-auto-row {
 		grid-auto-rows: auto;
 	}
@@ -62,7 +62,7 @@
 		grid-auto-rows: max-content;
 	}
 }
-@media (--xxl) {
+@media min-width: 1920px) {
 	.xxl-grid-auto-row {
 		grid-auto-rows: auto;
 	}

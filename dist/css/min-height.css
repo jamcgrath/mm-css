@@ -20,8 +20,8 @@
 	min-height: -moz-fit-content;
 	min-height: fit-content;
 }
-@media (--sm);
-@media (--md);
-@media (--lg);
-@media (--xl);
-@media (--xxl)
+@media (min-width: 480px);
+@media (min-width: 768px);
+@media (min-width: 1024px);
+@media (min-width: 1440px);
+@media min-width: 1920px)

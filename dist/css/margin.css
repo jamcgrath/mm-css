@@ -880,7 +880,7 @@
 .mr-100 {
 		margin-right: var(--space-100);
 	}
-@media (--sm) {
+@media (min-width: 480px) {
 	.sm-m-auto {
 		margin: auto;
 	}
@@ -1769,7 +1769,7 @@
 		margin-right: var(--space-100);
 	}
 }
-@media (--md) {
+@media (min-width: 768px) {
 	.md-m-auto {
 		margin: auto;
 	}
@@ -2658,7 +2658,7 @@
 		margin-right: var(--space-100);
 	}
 }
-@media (--lg) {
+@media (min-width: 1024px) {
 	.lg-m-auto {
 		margin: auto;
 	}
@@ -3547,7 +3547,7 @@
 		margin-right: var(--space-100);
 	}
 }
-@media (--xl) {
+@media (min-width: 1440px) {
 	.xl-m-auto {
 		margin: auto;
 	}
@@ -4436,7 +4436,7 @@
 		margin-right: var(--space-100);
 	}
 }
-@media (--xxl) {
+@media min-width: 1920px) {
 	.xxl-m-auto {
 		margin: auto;
 	}

@@ -2,27 +2,27 @@
   ".border-0": {
     "border": "0"
   },
-  "@media (--sm)": {
+  "@media (min-width: 480px)": {
     ".sm-border-0": {
       "border": "0"
     }
   },
-  "@media (--md)": {
+  "@media (min-width: 768px)": {
     ".md-border-0": {
       "border": "0"
     }
   },
-  "@media (--lg)": {
+  "@media (min-width: 1024px)": {
     ".lg-border-0": {
       "border": "0"
     }
   },
-  "@media (--xl)": {
+  "@media (min-width: 1440px)": {
     ".xl-border-0": {
       "border": "0"
     }
   },
-  "@media (--xxl)": {
+  "@media min-width: 1920px)": {
     ".xxl-border-0": {
       "border": "0"
     }
