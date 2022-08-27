@@ -1,6 +1,9 @@
 .bg-black {
-	background-color: var(--black);
+  background-color: var(--black);
 }
 .bg-white {
-	background-color: var(--white);
+  background-color: var(--white);
+}
+.bg-transparent {
+  background-color: transparent;
 }

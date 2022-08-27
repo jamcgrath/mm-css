@@ -2,7 +2,7 @@
   ".j-content-start": {
     "justifyContent": "start"
   },
-  ".j-conetent-flex-start": {
+  ".j-content-flex-start": {
     "justifyContent": "flex-start"
   },
   ".j-content-center": {
@@ -39,7 +39,7 @@
     ".sm-j-content-start": {
       "justifyContent": "start"
     },
-    ".sm-j-conetent-flex-start": {
+    ".sm-j-content-flex-start": {
       "justifyContent": "flex-start"
     },
     ".sm-j-content-center": {
@@ -77,7 +77,7 @@
     ".md-j-content-start": {
       "justifyContent": "start"
     },
-    ".md-j-conetent-flex-start": {
+    ".md-j-content-flex-start": {
       "justifyContent": "flex-start"
     },
     ".md-j-content-center": {
@@ -115,7 +115,7 @@
     ".lg-j-content-start": {
       "justifyContent": "start"
     },
-    ".lg-j-conetent-flex-start": {
+    ".lg-j-content-flex-start": {
       "justifyContent": "flex-start"
     },
     ".lg-j-content-center": {
@@ -153,7 +153,7 @@
     ".xl-j-content-start": {
       "justifyContent": "start"
     },
-    ".xl-j-conetent-flex-start": {
+    ".xl-j-content-flex-start": {
       "justifyContent": "flex-start"
     },
     ".xl-j-content-center": {
@@ -191,7 +191,7 @@
     ".xxl-j-content-start": {
       "justifyContent": "start"
     },
-    ".xxl-j-conetent-flex-start": {
+    ".xxl-j-content-flex-start": {
       "justifyContent": "flex-start"
     },
     ".xxl-j-content-center": {

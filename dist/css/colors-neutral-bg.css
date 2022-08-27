@@ -1,8 +1,11 @@
 .bg-black {
-	background-color: var(--black);
+  background-color: var(--black);
 }
 .bg-white {
-	background-color: var(--white);
+  background-color: var(--white);
+}
+.bg-transparent {
+  background-color: transparent;
 }
 @media (min-width: 480px);
 @media (min-width: 768px);
