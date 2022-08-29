@@ -4706,41 +4706,33 @@ html:focus-within {
 		grid-row-end: 13;
 	}
 
-:root {
-	--sm-container: 480px;
-	--md-container: 768px;
-	--lg-container: 1024px;
-	--xl-container: 1280px;
-	--xxl-container: 1920px;
-}
-
 .container,
 .sm-container,
 .md-container,
 .lg-container,
 .xl-container,
 .xxl-container {
-	width: 100%;
+  width: 100%;
 }
 
 .sm-container {
-	max-width: 480px;
+  max-width: 480px;
 }
 
 .md-container {
-	max-width: 768px;
+  max-width: 768px;
 }
 
 .lg-container {
-	max-width: 1024px;
+  max-width: 1024px;
 }
 
 .xl-container {
-	max-width: 1280px;
+  max-width: 1280px;
 }
 
 .xxl-container {
-	max-width: 1920px;
+  max-width: 1920px;
 }
 
 .aspect-1 {
@@ -5290,63 +5282,63 @@ html:focus-within {
 }
 
 .overflow-auto {
-	overflow: auto;
+  overflow: auto;
 }
 
 .overflow-x-auto {
-	overflow-x: auto;
+  overflow-x: auto;
 }
 
 .overflow-y-auto {
-	overflow-y: auto;
+  overflow-y: auto;
 }
 
 .overflow-scroll {
-	overflow: scroll;
+  overflow: scroll;
 }
 
 .overflow-x-scroll {
-	overflow-x: scroll;
+  overflow-x: scroll;
 }
 
 .overflow-y-scroll {
-	overflow-y: scroll;
+  overflow-y: scroll;
 }
 
 .overflow-hidden {
-	overflow: hidden;
+  overflow: hidden;
 }
 
 .overflow-x-hidden {
-	overflow-x: hidden;
+  overflow-x: hidden;
 }
 
 .overflow-y-hidden {
-	overflow-y: hidden;
+  overflow-y: hidden;
 }
 
 .overflow-visible {
-	overflow: visible;
+  overflow: visible;
 }
 
 .overflow-x-visible {
-	overflow-x: visible;
+  overflow-x: visible;
 }
 
 .overflow-y-visible {
-	overflow-y: visible;
+  overflow-y: visible;
 }
 
 .overflow-clip {
-	overflow: clip;
+  overflow: clip;
 }
 
 .overflow-x-clip {
-	overflow-x: clip;
+  overflow-x: clip;
 }
 
 .overflow-y-clip {
-	overflow-y: clip;
+  overflow-y: clip;
 }
 
 .overscroll-auto {
