@@ -44,7 +44,7 @@
   },
   "._min-w": {
     "--_min-width": "var(--min-width, none)",
-    "minWidth": "var(--_max-width)"
+    "minWidth": "var(--_min-width)"
   },
   "._obj-pos": {
     "--_obj-pos": "var(--obj-pos, 50% 50%)",

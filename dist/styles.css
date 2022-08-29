@@ -6044,7 +6044,7 @@ html:focus-within {
 
 ._min-w {
   --_min-width: var(--min-width, none);
-  min-width: var(--_max-width);
+  min-width: var(--_min-width);
 }
 
 ._obj-pos {
