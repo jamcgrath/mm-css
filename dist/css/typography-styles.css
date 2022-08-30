@@ -226,7 +226,7 @@
     font-size: var(--quote);
     font-weight: var(--fw-5);
     font-family: var(--serif-2);
-    font-style: var(--_italic);
+    font-style: italic;
     line-height: var(--lh-120);
   }
 @media (min-width: 480px) {
@@ -474,7 +474,7 @@
     font-size: var(--quote);
     font-weight: var(--fw-5);
     font-family: var(--serif-2);
-    font-style: var(--_italic);
+    font-style: italic;
     line-height: var(--lh-120);
   }
 }
@@ -723,7 +723,7 @@
     font-size: var(--quote);
     font-weight: var(--fw-5);
     font-family: var(--serif-2);
-    font-style: var(--_italic);
+    font-style: italic;
     line-height: var(--lh-120);
   }
 }
@@ -972,7 +972,7 @@
     font-size: var(--quote);
     font-weight: var(--fw-5);
     font-family: var(--serif-2);
-    font-style: var(--_italic);
+    font-style: italic;
     line-height: var(--lh-120);
   }
 }
@@ -1221,7 +1221,7 @@
     font-size: var(--quote);
     font-weight: var(--fw-5);
     font-family: var(--serif-2);
-    font-style: var(--_italic);
+    font-style: italic;
     line-height: var(--lh-120);
   }
 }
@@ -1470,7 +1470,7 @@
     font-size: var(--quote);
     font-weight: var(--fw-5);
     font-family: var(--serif-2);
-    font-style: var(--_italic);
+    font-style: italic;
     line-height: var(--lh-120);
   }
 }

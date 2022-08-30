@@ -1135,7 +1135,7 @@ html:focus-within {
     font-size: var(--quote);
     font-weight: var(--fw-5);
     font-family: var(--serif-2);
-    font-style: var(--_italic);
+    font-style: italic;
     line-height: var(--lh-120);
   }
 
@@ -6355,7 +6355,7 @@ html:focus-within {
     font-size: var(--quote);
     font-weight: var(--fw-5);
     font-family: var(--serif-2);
-    font-style: var(--_italic);
+    font-style: italic;
     line-height: var(--lh-120);
   }
 	.sm-m-auto {
@@ -9671,7 +9671,7 @@ html:focus-within {
     font-size: var(--quote);
     font-weight: var(--fw-5);
     font-family: var(--serif-2);
-    font-style: var(--_italic);
+    font-style: italic;
     line-height: var(--lh-120);
   }
 	.md-m-auto {
@@ -12987,7 +12987,7 @@ html:focus-within {
     font-size: var(--quote);
     font-weight: var(--fw-5);
     font-family: var(--serif-2);
-    font-style: var(--_italic);
+    font-style: italic;
     line-height: var(--lh-120);
   }
 	.lg-m-auto {
@@ -16303,7 +16303,7 @@ html:focus-within {
     font-size: var(--quote);
     font-weight: var(--fw-5);
     font-family: var(--serif-2);
-    font-style: var(--_italic);
+    font-style: italic;
     line-height: var(--lh-120);
   }
 	.xl-m-auto {
@@ -19619,7 +19619,7 @@ html:focus-within {
     font-size: var(--quote);
     font-weight: var(--fw-5);
     font-family: var(--serif-2);
-    font-style: var(--_italic);
+    font-style: italic;
     line-height: var(--lh-120);
   }
 	.xxl-m-auto {

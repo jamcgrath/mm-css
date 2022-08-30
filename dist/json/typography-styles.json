@@ -112,7 +112,7 @@
     "fontSize": "var(--quote)",
     "fontWeight": "var(--fw-5)",
     "fontFamily": "var(--serif-2)",
-    "fontStyle": "var(--_italic)",
+    "fontStyle": "italic",
     "lineHeight": "var(--lh-120)"
   },
   "@media (min-width: 480px)": {
@@ -229,7 +229,7 @@
       "fontSize": "var(--quote)",
       "fontWeight": "var(--fw-5)",
       "fontFamily": "var(--serif-2)",
-      "fontStyle": "var(--_italic)",
+      "fontStyle": "italic",
       "lineHeight": "var(--lh-120)"
     }
   },
@@ -347,7 +347,7 @@
       "fontSize": "var(--quote)",
       "fontWeight": "var(--fw-5)",
       "fontFamily": "var(--serif-2)",
-      "fontStyle": "var(--_italic)",
+      "fontStyle": "italic",
       "lineHeight": "var(--lh-120)"
     }
   },
@@ -465,7 +465,7 @@
       "fontSize": "var(--quote)",
       "fontWeight": "var(--fw-5)",
       "fontFamily": "var(--serif-2)",
-      "fontStyle": "var(--_italic)",
+      "fontStyle": "italic",
       "lineHeight": "var(--lh-120)"
     }
   },
@@ -583,7 +583,7 @@
       "fontSize": "var(--quote)",
       "fontWeight": "var(--fw-5)",
       "fontFamily": "var(--serif-2)",
-      "fontStyle": "var(--_italic)",
+      "fontStyle": "italic",
       "lineHeight": "var(--lh-120)"
     }
   },
@@ -701,7 +701,7 @@
       "fontSize": "var(--quote)",
       "fontWeight": "var(--fw-5)",
       "fontFamily": "var(--serif-2)",
-      "fontStyle": "var(--_italic)",
+      "fontStyle": "italic",
       "lineHeight": "var(--lh-120)"
     }
   }
