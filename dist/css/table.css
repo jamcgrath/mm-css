@@ -1,0 +1,17 @@
+.table-auto {
+  table-layout: auto;
+}
+.table-fixed {
+  table-layout: fixed;
+}
+.border-collapse {
+  border-collapse: collapse;
+}
+.border-separate {
+  border-collapse: separate;
+}
+@media (min-width: 480px);
+@media (min-width: 768px);
+@media (min-width: 1024px);
+@media (min-width: 1440px);
+@media min-width: 1920px)

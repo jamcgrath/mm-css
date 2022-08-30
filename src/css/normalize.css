@@ -13,16 +13,16 @@
  */
 
 html {
-	line-height: 1.25; /* 1 */
-	-webkit-text-size-adjust: 100%; /* 2 */
-	font-size: 1rem;
+  line-height: 1.25; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+  font-size: 1rem;
 }
 
 /* Box sizing */
 *,
 *:before,
 *:after {
-	box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 /* Sections
@@ -30,15 +30,15 @@ html {
 
 /* Set core body defaults */
 body {
-	min-height: 100vh;
-	text-rendering: optimizeSpeed;
-	font-family: "Inter", sans-serif;
-	scrollbar-gutter: stable both-edges;
-	color: #272754;
-	overflow-y: scroll;
-	overflow-x: hidden;
-	scroll-behavior: smooth;
-	-webkit-overflow-scrolling: touch;
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  font-family: 'Poppins', sans-serif;
+  scrollbar-gutter: stable both-edges;
+  color: #272754;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
 }
 
 /**
@@ -55,7 +55,7 @@ figure,
 blockquote,
 dl,
 dd {
-	margin: 0;
+  margin: 0;
 }
 
 /* Grouping content
@@ -69,19 +69,19 @@ dd {
  */
 
 hr {
-	--hr-color: #ccc;
-	--hr-margin-y: 0;
-	--hr-margin-x: 1em;
-	--hr-width: 1px;
+  --hr-color: #ccc;
+  --hr-margin-y: 0;
+  --hr-margin-x: 1em;
+  --hr-width: 1px;
 
-	box-sizing: content-box; /* 1 */
-	overflow: visible; /* 2 */
-	display: block;
-	height: 1px;
-	border: 0;
-	border-top: var(--hr-width) solid var(--hr-color);
-	margin: var(--hr-margin-x) var(--hr-margin-y);
-	padding: 0;
+  box-sizing: content-box; /* 1 */
+  overflow: visible; /* 2 */
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: var(--hr-width) solid var(--hr-color);
+  margin: var(--hr-margin-x) var(--hr-margin-y);
+  padding: 0;
 }
 
 /* Text-level semantics
@@ -93,9 +93,9 @@ hr {
  */
 
 abbr[title] {
-	border-bottom: none; /* 1 */
-	text-decoration: underline; /* 2 */
-	text-decoration: underline dotted; /* 2 */
+  border-bottom: none; /* 1 */
+  text-decoration: underline; /* 2 */
+  text-decoration: underline dotted; /* 2 */
 }
 
 /**
@@ -104,7 +104,7 @@ abbr[title] {
 
 b,
 strong {
-	font-weight: bolder;
+  font-weight: bolder;
 }
 
 /**
@@ -112,7 +112,7 @@ strong {
  */
 
 small {
-	font-size: 80%;
+  font-size: 80%;
 }
 
 /**
@@ -122,18 +122,18 @@ small {
 
 sub,
 sup {
-	font-size: 75%;
-	line-height: 0;
-	position: relative;
-	vertical-align: baseline;
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
 }
 
 sub {
-	bottom: -0.25em;
+  bottom: -0.25em;
 }
 
 sup {
-	top: -0.5em;
+  top: -0.5em;
 }
 
 /* Forms
@@ -149,10 +149,10 @@ input,
 optgroup,
 select,
 textarea {
-	font-family: inherit; /* 1 */
-	font-size: 100%; /* 1 */
-	line-height: 1.15; /* 1 */
-	margin: 0; /* 2 */
+  font-family: inherit; /* 1 */
+  font-size: 100%; /* 1 */
+  line-height: 1.15; /* 1 */
+  margin: 0; /* 2 */
 }
 
 /**
@@ -162,8 +162,8 @@ textarea {
 
 button,
 input {
-	/* 1 */
-	overflow: visible;
+  /* 1 */
+  overflow: visible;
 }
 
 /**
@@ -173,8 +173,8 @@ input {
 
 button,
 select {
-	/* 1 */
-	text-transform: none;
+  /* 1 */
+  text-transform: none;
 }
 
 /**
@@ -182,10 +182,10 @@ select {
  */
 
 button,
-[type="button"],
-[type="reset"],
-[type="submit"] {
-	-webkit-appearance: button;
+[type='button'],
+[type='reset'],
+[type='submit'] {
+  -webkit-appearance: button;
 }
 
 /**
@@ -193,11 +193,11 @@ button,
  */
 
 button::-moz-focus-inner,
-[type="button"]::-moz-focus-inner,
-[type="reset"]::-moz-focus-inner,
-[type="submit"]::-moz-focus-inner {
-	border-style: none;
-	padding: 0;
+[type='button']::-moz-focus-inner,
+[type='reset']::-moz-focus-inner,
+[type='submit']::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
 }
 
 /**
@@ -205,10 +205,10 @@ button::-moz-focus-inner,
  */
 
 button:-moz-focusring,
-[type="button"]:-moz-focusring,
-[type="reset"]:-moz-focusring,
-[type="submit"]:-moz-focusring {
-	outline: 1px dotted ButtonText;
+[type='button']:-moz-focusring,
+[type='reset']:-moz-focusring,
+[type='submit']:-moz-focusring {
+  outline: 1px dotted ButtonText;
 }
 
 /*
@@ -216,9 +216,9 @@ button:-moz-focusring,
  */
 
 fieldset {
-	border: 0;
-	margin: 0;
-	padding: 0;
+  border: 0;
+  margin: 0;
+  padding: 0;
 }
 
 /**
@@ -229,12 +229,12 @@ fieldset {
  */
 
 legend {
-	box-sizing: border-box; /* 1 */
-	color: inherit; /* 2 */
-	display: table; /* 1 */
-	max-width: 100%; /* 1 */
-	padding: 0; /* 3 */
-	white-space: normal; /* 1 */
+  box-sizing: border-box; /* 1 */
+  color: inherit; /* 2 */
+  display: table; /* 1 */
+  max-width: 100%; /* 1 */
+  padding: 0; /* 3 */
+  white-space: normal; /* 1 */
 }
 
 /**
@@ -242,7 +242,7 @@ legend {
  */
 
 progress {
-	vertical-align: baseline;
+  vertical-align: baseline;
 }
 
 /**
@@ -252,17 +252,17 @@ progress {
  */
 
 textarea {
-	overflow: auto;
-	resize: vertical;
+  overflow: auto;
+  resize: vertical;
 }
 
 /**
  * Correct the cursor style of increment and decrement buttons in Chrome.
  */
 
-[type="number"]::-webkit-inner-spin-button,
-[type="number"]::-webkit-outer-spin-button {
-	height: auto;
+[type='number']::-webkit-inner-spin-button,
+[type='number']::-webkit-outer-spin-button {
+  height: auto;
 }
 
 /**
@@ -270,17 +270,17 @@ textarea {
  * 2. Correct the outline style in Safari.
  */
 
-[type="search"] {
-	-webkit-appearance: textfield; /* 1 */
-	outline-offset: -2px; /* 2 */
+[type='search'] {
+  -webkit-appearance: textfield; /* 1 */
+  outline-offset: -2px; /* 2 */
 }
 
 /**
  * Remove the inner padding in Chrome and Safari on macOS.
  */
 
-[type="search"]::-webkit-search-decoration {
-	-webkit-appearance: none;
+[type='search']::-webkit-search-decoration {
+  -webkit-appearance: none;
 }
 
 /**
@@ -289,8 +289,8 @@ textarea {
  */
 
 ::-webkit-file-upload-button {
-	-webkit-appearance: button; /* 1 */
-	font: inherit; /* 2 */
+  -webkit-appearance: button; /* 1 */
+  font: inherit; /* 2 */
 }
 
 /* Interactive
@@ -301,7 +301,7 @@ textarea {
  */
 
 details {
-	display: block;
+  display: block;
 }
 
 /*
@@ -309,7 +309,7 @@ details {
  */
 
 summary {
-	display: list-item;
+  display: list-item;
 }
 
 /*
@@ -324,43 +324,43 @@ iframe,
 img,
 svg,
 video {
-	vertical-align: middle;
+  vertical-align: middle;
 }
 
 a {
-	--text-decoration: none;
-	text-decoration: var(--text-decoration);
+  --text-decoration: none;
+  text-decoration: var(--text-decoration);
 }
 
 /* Make images easier to work with */
 img,
 picture {
-	max-width: 100%;
-	display: block;
+  max-width: 100%;
+  display: block;
 }
 
 /* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
 ul {
-	list-style: none;
+  list-style: none;
 }
 
 /* Set core root defaults */
 html:focus-within {
-	scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 /* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
 @media (prefers-reduced-motion: reduce) {
-	html:focus-within {
-		scroll-behavior: auto;
-	}
+  html:focus-within {
+    scroll-behavior: auto;
+  }
 
-	*,
-	*::before,
-	*::after {
-		animation-duration: 0.01ms !important;
-		animation-iteration-count: 1 !important;
-		transition-duration: 0.01ms !important;
-		scroll-behavior: auto !important;
-	}
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
 }

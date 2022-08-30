@@ -21,6 +21,9 @@
 .xxl-container {
   max-width: 1920px;
 }
+.xxxl-container {
+  max-width: 1920000px;
+}
 @media (min-width: 480px);
 @media (min-width: 768px);
 @media (min-width: 1024px);
