@@ -225,7 +225,7 @@
 .quote {
     font-size: var(--quote);
     font-weight: var(--fw-5);
-    font-family: var(--serif-2);
+    font-family: var(--serif-1);
     font-style: italic;
     line-height: var(--lh-120);
   }
@@ -473,7 +473,7 @@
   .sm-quote {
     font-size: var(--quote);
     font-weight: var(--fw-5);
-    font-family: var(--serif-2);
+    font-family: var(--serif-1);
     font-style: italic;
     line-height: var(--lh-120);
   }
@@ -722,7 +722,7 @@
   .md-quote {
     font-size: var(--quote);
     font-weight: var(--fw-5);
-    font-family: var(--serif-2);
+    font-family: var(--serif-1);
     font-style: italic;
     line-height: var(--lh-120);
   }
@@ -971,7 +971,7 @@
   .lg-quote {
     font-size: var(--quote);
     font-weight: var(--fw-5);
-    font-family: var(--serif-2);
+    font-family: var(--serif-1);
     font-style: italic;
     line-height: var(--lh-120);
   }
@@ -1220,7 +1220,7 @@
   .xl-quote {
     font-size: var(--quote);
     font-weight: var(--fw-5);
-    font-family: var(--serif-2);
+    font-family: var(--serif-1);
     font-style: italic;
     line-height: var(--lh-120);
   }
@@ -1469,7 +1469,7 @@
   .xxl-quote {
     font-size: var(--quote);
     font-weight: var(--fw-5);
-    font-family: var(--serif-2);
+    font-family: var(--serif-1);
     font-style: italic;
     line-height: var(--lh-120);
   }

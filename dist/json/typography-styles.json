@@ -111,7 +111,7 @@
   ".quote": {
     "fontSize": "var(--quote)",
     "fontWeight": "var(--fw-5)",
-    "fontFamily": "var(--serif-2)",
+    "fontFamily": "var(--serif-1)",
     "fontStyle": "italic",
     "lineHeight": "var(--lh-120)"
   },
@@ -228,7 +228,7 @@
     ".sm-quote": {
       "fontSize": "var(--quote)",
       "fontWeight": "var(--fw-5)",
-      "fontFamily": "var(--serif-2)",
+      "fontFamily": "var(--serif-1)",
       "fontStyle": "italic",
       "lineHeight": "var(--lh-120)"
     }
@@ -346,7 +346,7 @@
     ".md-quote": {
       "fontSize": "var(--quote)",
       "fontWeight": "var(--fw-5)",
-      "fontFamily": "var(--serif-2)",
+      "fontFamily": "var(--serif-1)",
       "fontStyle": "italic",
       "lineHeight": "var(--lh-120)"
     }
@@ -464,7 +464,7 @@
     ".lg-quote": {
       "fontSize": "var(--quote)",
       "fontWeight": "var(--fw-5)",
-      "fontFamily": "var(--serif-2)",
+      "fontFamily": "var(--serif-1)",
       "fontStyle": "italic",
       "lineHeight": "var(--lh-120)"
     }
@@ -582,7 +582,7 @@
     ".xl-quote": {
       "fontSize": "var(--quote)",
       "fontWeight": "var(--fw-5)",
-      "fontFamily": "var(--serif-2)",
+      "fontFamily": "var(--serif-1)",
       "fontStyle": "italic",
       "lineHeight": "var(--lh-120)"
     }
@@ -700,7 +700,7 @@
     ".xxl-quote": {
       "fontSize": "var(--quote)",
       "fontWeight": "var(--fw-5)",
-      "fontFamily": "var(--serif-2)",
+      "fontFamily": "var(--serif-1)",
       "fontStyle": "italic",
       "lineHeight": "var(--lh-120)"
     }
