@@ -1,29 +1,29 @@
 @responsive {
-	.obj-pos-t {
-		object-position: top;
-	}
-	.obj-pos-l {
-		object-position: left;
-	}
-	.obj-pos-r {
-		object-position: right;
-	}
-	.obj-pos-b {
-		object-position: bottom;
-	}
-	.obj-pos-c {
-		object-position: center;
-	}
-	.obj-pos-tl {
-		object-position: top left;
-	}
-	.obj-pos-tr {
-		object-position: top right;
-	}
-	.obj-pos-bl {
-		object-position: bottom left;
-	}
-	.obj-pos-br {
-		object-position: bottom right;
-	}
+  .op-t {
+    object-position: top;
+  }
+  .op-l {
+    object-position: left;
+  }
+  .op-r {
+    object-position: right;
+  }
+  .op-b {
+    object-position: bottom;
+  }
+  .op-c {
+    object-position: center;
+  }
+  .op-tl {
+    object-position: top left;
+  }
+  .op-tr {
+    object-position: top right;
+  }
+  .op-bl {
+    object-position: bottom left;
+  }
+  .op-br {
+    object-position: bottom right;
+  }
 }

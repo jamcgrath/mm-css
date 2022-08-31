@@ -9,8 +9,8 @@
     "textDecorationThickness": "var(--_td-thickness)",
     "WebkitTextDecorationLine": "var(--_td-line)",
     "textDecorationLine": "var(--_td-line)",
-    "WebkitTextDecorationStyle": "var(--td-style)",
-    "textDecorationStyle": "var(--td-style)"
+    "WebkitTextDecorationStyle": "var(--_td-style)",
+    "textDecorationStyle": "var(--_td-style)"
   },
   ".td-underline": {
     "--td-line": "underline"
