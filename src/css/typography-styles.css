@@ -80,7 +80,7 @@
   .title-7_display {
     font-size: var(--copy);
     font-weight: var(--fw-4);
-    font-family: var(--serif-1);
+    font-family: var(--serif);
     line-height: var(--lh-133);
     letter-spacing: var(--ls-025);
   }

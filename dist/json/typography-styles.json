@@ -44,7 +44,7 @@
   ".copy,\n  .copy_article,\n  .copy_med,\n  .copy_semibold,\n  .copy_italic,\n  .copy_link,\n  .title-7_display": {
     "fontSize": "var(--copy)",
     "fontWeight": "var(--fw-4)",
-    "fontFamily": "var(--serif-1)",
+    "fontFamily": "var(--serif)",
     "lineHeight": "var(--lh-133)",
     "letterSpacing": "var(--ls-025)"
   },
@@ -161,7 +161,7 @@
     ".sm-copy,\n.sm-  .copy_article,\n.sm-  .copy_med,\n.sm-  .copy_semibold,\n.sm-  .copy_italic,\n.sm-  .copy_link,\n.sm-  .title-7_display": {
       "fontSize": "var(--copy)",
       "fontWeight": "var(--fw-4)",
-      "fontFamily": "var(--serif-1)",
+      "fontFamily": "var(--serif)",
       "lineHeight": "var(--lh-133)",
       "letterSpacing": "var(--ls-025)"
     },
@@ -279,7 +279,7 @@
     ".md-copy,\n.md-  .copy_article,\n.md-  .copy_med,\n.md-  .copy_semibold,\n.md-  .copy_italic,\n.md-  .copy_link,\n.md-  .title-7_display": {
       "fontSize": "var(--copy)",
       "fontWeight": "var(--fw-4)",
-      "fontFamily": "var(--serif-1)",
+      "fontFamily": "var(--serif)",
       "lineHeight": "var(--lh-133)",
       "letterSpacing": "var(--ls-025)"
     },
@@ -397,7 +397,7 @@
     ".lg-copy,\n.lg-  .copy_article,\n.lg-  .copy_med,\n.lg-  .copy_semibold,\n.lg-  .copy_italic,\n.lg-  .copy_link,\n.lg-  .title-7_display": {
       "fontSize": "var(--copy)",
       "fontWeight": "var(--fw-4)",
-      "fontFamily": "var(--serif-1)",
+      "fontFamily": "var(--serif)",
       "lineHeight": "var(--lh-133)",
       "letterSpacing": "var(--ls-025)"
     },
@@ -515,7 +515,7 @@
     ".xl-copy,\n.xl-  .copy_article,\n.xl-  .copy_med,\n.xl-  .copy_semibold,\n.xl-  .copy_italic,\n.xl-  .copy_link,\n.xl-  .title-7_display": {
       "fontSize": "var(--copy)",
       "fontWeight": "var(--fw-4)",
-      "fontFamily": "var(--serif-1)",
+      "fontFamily": "var(--serif)",
       "lineHeight": "var(--lh-133)",
       "letterSpacing": "var(--ls-025)"
     },
@@ -633,7 +633,7 @@
     ".xxl-copy,\n.xxl-  .copy_article,\n.xxl-  .copy_med,\n.xxl-  .copy_semibold,\n.xxl-  .copy_italic,\n.xxl-  .copy_link,\n.xxl-  .title-7_display": {
       "fontSize": "var(--copy)",
       "fontWeight": "var(--fw-4)",
-      "fontFamily": "var(--serif-1)",
+      "fontFamily": "var(--serif)",
       "lineHeight": "var(--lh-133)",
       "letterSpacing": "var(--ls-025)"
     },

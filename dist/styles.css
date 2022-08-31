@@ -969,7 +969,7 @@ html:focus-within {
   .title-7_display {
     font-size: var(--copy);
     font-weight: var(--fw-4);
-    font-family: var(--serif-1);
+    font-family: var(--serif);
     line-height: var(--lh-133);
     letter-spacing: var(--ls-025);
   }
@@ -6192,7 +6192,7 @@ html:focus-within {
 .sm-  .title-7_display {
     font-size: var(--copy);
     font-weight: var(--fw-4);
-    font-family: var(--serif-1);
+    font-family: var(--serif);
     line-height: var(--lh-133);
     letter-spacing: var(--ls-025);
   }
@@ -9508,7 +9508,7 @@ html:focus-within {
 .md-  .title-7_display {
     font-size: var(--copy);
     font-weight: var(--fw-4);
-    font-family: var(--serif-1);
+    font-family: var(--serif);
     line-height: var(--lh-133);
     letter-spacing: var(--ls-025);
   }
@@ -12824,7 +12824,7 @@ html:focus-within {
 .lg-  .title-7_display {
     font-size: var(--copy);
     font-weight: var(--fw-4);
-    font-family: var(--serif-1);
+    font-family: var(--serif);
     line-height: var(--lh-133);
     letter-spacing: var(--ls-025);
   }
@@ -16140,7 +16140,7 @@ html:focus-within {
 .xl-  .title-7_display {
     font-size: var(--copy);
     font-weight: var(--fw-4);
-    font-family: var(--serif-1);
+    font-family: var(--serif);
     line-height: var(--lh-133);
     letter-spacing: var(--ls-025);
   }
@@ -19456,7 +19456,7 @@ html:focus-within {
 .xxl-  .title-7_display {
     font-size: var(--copy);
     font-weight: var(--fw-4);
-    font-family: var(--serif-1);
+    font-family: var(--serif);
     line-height: var(--lh-133);
     letter-spacing: var(--ls-025);
   }

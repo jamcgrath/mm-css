@@ -74,7 +74,7 @@
   .title-7_display {
     font-size: var(--copy);
     font-weight: var(--fw-4);
-    font-family: var(--serif-1);
+    font-family: var(--serif);
     line-height: var(--lh-133);
     letter-spacing: var(--ls-025);
   }
@@ -311,7 +311,7 @@
 .sm-  .title-7_display {
     font-size: var(--copy);
     font-weight: var(--fw-4);
-    font-family: var(--serif-1);
+    font-family: var(--serif);
     line-height: var(--lh-133);
     letter-spacing: var(--ls-025);
   }
@@ -560,7 +560,7 @@
 .md-  .title-7_display {
     font-size: var(--copy);
     font-weight: var(--fw-4);
-    font-family: var(--serif-1);
+    font-family: var(--serif);
     line-height: var(--lh-133);
     letter-spacing: var(--ls-025);
   }
@@ -809,7 +809,7 @@
 .lg-  .title-7_display {
     font-size: var(--copy);
     font-weight: var(--fw-4);
-    font-family: var(--serif-1);
+    font-family: var(--serif);
     line-height: var(--lh-133);
     letter-spacing: var(--ls-025);
   }
@@ -1058,7 +1058,7 @@
 .xl-  .title-7_display {
     font-size: var(--copy);
     font-weight: var(--fw-4);
-    font-family: var(--serif-1);
+    font-family: var(--serif);
     line-height: var(--lh-133);
     letter-spacing: var(--ls-025);
   }
@@ -1307,7 +1307,7 @@
 .xxl-  .title-7_display {
     font-size: var(--copy);
     font-weight: var(--fw-4);
-    font-family: var(--serif-1);
+    font-family: var(--serif);
     line-height: var(--lh-133);
     letter-spacing: var(--ls-025);
   }
