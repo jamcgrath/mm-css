@@ -1,0 +1,29 @@
+@responsive {
+  .badge-sm,
+  .badge-med {
+    --badge-padding: 2px 4px;
+    --badge-fs: 1em;
+    --badge-lh: 1.333;
+    --badge-fw: var(--fw-7);
+    --badge-ls: 1px;
+    --badge-gap: 4px;
+    padding: var(--badge-padding);
+    font-size: var(--badge-fs);
+    line-height: var(--badge-lh);
+    font-weight: var(--badge-fw);
+    gap: var(--badge-gap);
+    border-radius: 4px;
+    display: inline-flex;
+    align-items: center;
+    text-transform: uppercase;
+  }
+
+  .badge-sm {
+    --badge-fs: var(--overline-small);
+  }
+
+  .badge-med {
+    --badge-padding: 4px 8px;
+    --badge-fs: var(--overline-big);
+  }
+}
