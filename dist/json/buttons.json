@@ -1,5 +1,17 @@
 {
-  "button,\n.btn-sm,\n.btn-med,\n.btn-lg,\n[class*='btn-']": {
+  "button": {
+    "--_bg": "var(--btn-bg, transparent)",
+    "--_color": "var(--btn-color, currentcolor)",
+    "--_border-width": "var(--btn-border-width, 0)",
+    "--_border-color": "var(--btn-border-color, none)",
+    "--_padding": "var(--btn-padding, 0)",
+    "background": "var(--_bg)",
+    "color": "var(--_color)",
+    "borderWidth": "var(--_border-width)",
+    "borderColor": "var(--_border-color)",
+    "padding": "var(--_padding)"
+  },
+  ".btn-sm,\n.btn-med,\n.btn-lg,\n[class*='btn-']": {
     "--_bg": "var(--btn-bg, transparent)",
     "--_color": "var(--btn-color, currentcolor)",
     "--_border-width": "var(--btn-border-width, 0)",
