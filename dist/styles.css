@@ -430,6 +430,8 @@ html:focus-within {
   --pressed: hsla(234, 99%, 20%, 1);
   --pressed-light: hsla(271, 100%, 76%, 1);
   --motion: linear-gradient(90deg, #f1f4ff 0%, #e7ebfb 100%);
+
+  --transparent: transparent;
 }
 
 :root {
@@ -6137,6 +6139,164 @@ html:focus-within {
     --badge-padding: 4px 8px;
     --badge-fs: var(--overline-big);
   }
+
+button,
+.btn-sm,
+.btn-med,
+.btn-lg,
+[class*='btn-'] {
+  --_bg: var(--btn-bg, transparent);
+  --_color: var(--btn-color, currentcolor);
+  --_border-width: var(--btn-border-width, 0);
+  --_border-color: var(--btn-border-color, none);
+  --_border-radius: var(--btn-border-radius, 12px);
+  --_padding: var(--btn-padding, 0);
+  --_fs: var(--btn-fs, var(--body));
+  --_fw: var(--btn-fw, var(--fw-5));
+  --_lh: var(--btn-lh, 1.5);
+  --_gap: var(--btn-gap, 9px);
+  --_min-width: var(--btn-min-width, auto);
+  --_min-height: var(--btn-min-height, auto);
+
+  background: var(--_bg);
+  color: var(--_color);
+  border-width: var(--_border-width);
+  border-color: var(--_border-color);
+  border-style: solid;
+  border-radius: var(--_border-radius);
+  font-size: var(--_fs);
+  font-weight: var(--_fw);
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: var(--_gap);
+  min-width: var(--_min-width);
+  min-height: var(--_min-height);
+  padding: var(--_padding);
+  cursor: pointer;
+}
+
+.btn-sm_primary,
+.btn-med_primary,
+.btn-lg_primary {
+  --btn-color: var(--white);
+  --btn-bg: var(--bw-primary);
+}
+
+.btn-sm_outline,
+.btn-med_outline,
+.btn-lg_outline {
+  --btn-color: var(--bw-primary);
+  --btn-bg: transparent;
+  --btn-border-color: currentcolor;
+  --btn-border-width: 1.5px;
+}
+
+.btn-sm_ghost,
+.btn-med_ghost,
+.btn-lg_ghost {
+  --btn-color: var(--bw-primary);
+}
+
+.btn-sm-disabled,
+.btn-med-disabled,
+.btn-lg-disabled,
+.btn-sm[disabled],
+.btn-med[disabled],
+.btn-lg[disabled] {
+  --btn-color: var(--gray-6);
+  --btn-bg: var(--gray-3);
+}
+
+.btn-sm_outline-disabled,
+.btn-med_outline-disabled,
+.btn-lg_outline-disabled,
+.btn-sm_outline[disabled],
+.btn-med_outline[disabled],
+.btn-lg_outline[disabled] {
+  --btn-color: var(--gray-6);
+  --btn-bg: transparent;
+  --btn-border-color: currentcolor;
+  --btn-border-width: 1.5px;
+}
+
+.btn-sm_ghost-disabled,
+.btn-med_ghost-disabled,
+.btn-lg_ghost-disabled,
+.btn-sm_ghost[disabled],
+.btn-med_ghost[disabled],
+.btn-lg_ghost[disabled] {
+  --btn-color: var(--gray-6);
+}
+
+.btn-sm,
+.btn-sm_primary,
+.btn-sm_outline,
+.btn-sm_ghost,
+.btn-sm-disabled,
+.btn-sm[disabled],
+.btn-sm_outline-disabled,
+.btn-sm_outline[disabled],
+.btn-sm_ghost-disabled,
+.btn-sm_ghost[disabled] {
+  --btn-min-width: 77px;
+  --btn-min-height: 32px;
+  --btn-padding: var(--space-0-5) var(--space-3);
+}
+
+.btn-med,
+.btn-med_primary,
+.btn-med_outline,
+.btn-med_ghost,
+.btn-med-disabled,
+.btn-med[disabled],
+.btn-med_ghost-disabled,
+.btn-med-ghost[disabled],
+.btn-med_outline-disabled,
+.btn-med-outline[disabled] {
+  --btn-min-width: 85px;
+  --btn-min-height: 40px;
+  --btn-padding: var(--space-1-5) var(--space-4);
+}
+
+.btn-lg,
+.btn-lg_primary,
+.btn-lg_outline,
+.btn-lg_ghost,
+.btn-lg-disabled,
+.btn-lg[disabled],
+.btn-lg_outline-disabled,
+.btn-lg_outline[disabled],
+.btn-lg_ghost-disabled,
+.btn-lg_ghost[disabled] {
+  --btn-min-width: 101px;
+  --btn-min-height: 48px;
+  --btn-padding: var(--space-2-5) var(--space-6);
+}
+
+.btn-icon[class*='btn-sm'] {
+  --btn-min-width: 97px;
+}
+
+.btn-icon[class*='btn-md'] {
+  --btn-min-width: 105px;
+}
+
+.btn-icon[class*='btn-lg'] {
+  --btn-min-width: 121px;
+}
+
+.btn-icons[class*='btn-sm'] {
+  --btn-min-width: 117px;
+}
+
+.btn-icons[class*='btn-md'] {
+  --btn-min-width: 125px;
+}
+
+.btn-icons[class*='btn-lg'] {
+  --btn-min-width: 141px;
+}
 
 @media (min-width: 480px) {
   .sm-title-1,

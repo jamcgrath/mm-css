@@ -1,0 +1,96 @@
+{
+  "button,\n.btn-sm,\n.btn-med,\n.btn-lg,\n[class*='btn-']": {
+    "--_bg": "var(--btn-bg, transparent)",
+    "--_color": "var(--btn-color, currentcolor)",
+    "--_border-width": "var(--btn-border-width, 0)",
+    "--_border-color": "var(--btn-border-color, none)",
+    "--_border-radius": "var(--btn-border-radius, 12px)",
+    "--_padding": "var(--btn-padding, 0)",
+    "--_fs": "var(--btn-fs, var(--body))",
+    "--_fw": "var(--btn-fw, var(--fw-5))",
+    "--_lh": "var(--btn-lh, 1.5)",
+    "--_gap": "var(--btn-gap, 9px)",
+    "--_min-width": "var(--btn-min-width, auto)",
+    "--_min-height": "var(--btn-min-height, auto)",
+    "background": "var(--_bg)",
+    "color": "var(--_color)",
+    "borderWidth": "var(--_border-width)",
+    "borderColor": "var(--_border-color)",
+    "borderStyle": "solid",
+    "borderRadius": "var(--_border-radius)",
+    "fontSize": "var(--_fs)",
+    "fontWeight": "var(--_fw)",
+    "display": "inline-flex",
+    "justifyContent": "center",
+    "alignItems": "center",
+    "gap": "var(--_gap)",
+    "minWidth": "var(--_min-width)",
+    "minHeight": "var(--_min-height)",
+    "padding": "var(--_padding)",
+    "cursor": "pointer"
+  },
+  ".btn-sm_primary,\n.btn-med_primary,\n.btn-lg_primary": {
+    "--btn-color": "var(--white)",
+    "--btn-bg": "var(--bw-primary)"
+  },
+  ".btn-sm_outline,\n.btn-med_outline,\n.btn-lg_outline": {
+    "--btn-color": "var(--bw-primary)",
+    "--btn-bg": "transparent",
+    "--btn-border-color": "currentcolor",
+    "--btn-border-width": "1.5px"
+  },
+  ".btn-sm_ghost,\n.btn-med_ghost,\n.btn-lg_ghost": {
+    "--btn-color": "var(--bw-primary)"
+  },
+  ".btn-sm-disabled,\n.btn-med-disabled,\n.btn-lg-disabled,\n.btn-sm[disabled],\n.btn-med[disabled],\n.btn-lg[disabled]": {
+    "--btn-color": "var(--gray-6)",
+    "--btn-bg": "var(--gray-3)"
+  },
+  ".btn-sm_outline-disabled,\n.btn-med_outline-disabled,\n.btn-lg_outline-disabled,\n.btn-sm_outline[disabled],\n.btn-med_outline[disabled],\n.btn-lg_outline[disabled]": {
+    "--btn-color": "var(--gray-6)",
+    "--btn-bg": "transparent",
+    "--btn-border-color": "currentcolor",
+    "--btn-border-width": "1.5px"
+  },
+  ".btn-sm_ghost-disabled,\n.btn-med_ghost-disabled,\n.btn-lg_ghost-disabled,\n.btn-sm_ghost[disabled],\n.btn-med_ghost[disabled],\n.btn-lg_ghost[disabled]": {
+    "--btn-color": "var(--gray-6)"
+  },
+  ".btn-sm,\n.btn-sm_primary,\n.btn-sm_outline,\n.btn-sm_ghost,\n.btn-sm-disabled,\n.btn-sm[disabled],\n.btn-sm_outline-disabled,\n.btn-sm_outline[disabled],\n.btn-sm_ghost-disabled,\n.btn-sm_ghost[disabled]": {
+    "--btn-min-width": "77px",
+    "--btn-min-height": "32px",
+    "--btn-padding": "var(--space-0-5) var(--space-3)"
+  },
+  ".btn-med,\n.btn-med_primary,\n.btn-med_outline,\n.btn-med_ghost,\n.btn-med-disabled,\n.btn-med[disabled],\n.btn-med_ghost-disabled,\n.btn-med-ghost[disabled],\n.btn-med_outline-disabled,\n.btn-med-outline[disabled]": {
+    "--btn-min-width": "85px",
+    "--btn-min-height": "40px",
+    "--btn-padding": "var(--space-1-5) var(--space-4)"
+  },
+  ".btn-lg,\n.btn-lg_primary,\n.btn-lg_outline,\n.btn-lg_ghost,\n.btn-lg-disabled,\n.btn-lg[disabled],\n.btn-lg_outline-disabled,\n.btn-lg_outline[disabled],\n.btn-lg_ghost-disabled,\n.btn-lg_ghost[disabled]": {
+    "--btn-min-width": "101px",
+    "--btn-min-height": "48px",
+    "--btn-padding": "var(--space-2-5) var(--space-6)"
+  },
+  ".btn-icon[class*='btn-sm']": {
+    "--btn-min-width": "97px"
+  },
+  ".btn-icon[class*='btn-md']": {
+    "--btn-min-width": "105px"
+  },
+  ".btn-icon[class*='btn-lg']": {
+    "--btn-min-width": "121px"
+  },
+  ".btn-icons[class*='btn-sm']": {
+    "--btn-min-width": "117px"
+  },
+  ".btn-icons[class*='btn-md']": {
+    "--btn-min-width": "125px"
+  },
+  ".btn-icons[class*='btn-lg']": {
+    "--btn-min-width": "141px"
+  },
+  "@media (min-width: 480px)": true,
+  "@media (min-width: 768px)": true,
+  "@media (min-width: 1024px)": true,
+  "@media (min-width: 1440px)": true,
+  "@media min-width: 1920px)": true
+}
