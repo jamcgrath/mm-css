@@ -11,41 +11,42 @@ button {
   padding: var(--_padding);
 }
 
-.btn-sm,
-.btn-med,
-.btn-lg,
-[class*='btn-'] {
-  --_bg: var(--btn-bg, transparent);
-  --_color: var(--btn-color, currentcolor);
-  --_border-width: var(--btn-border-width, 0);
-  --_border-color: var(--btn-border-color, none);
-  --_border-radius: var(--btn-border-radius, 12px);
-  --_padding: var(--btn-padding, 0);
-  --_fs: var(--btn-fs, var(--body));
-  --_fw: var(--btn-fw, var(--fw-5));
-  --_lh: var(--btn-lh, 1.5);
-  --_gap: var(--btn-gap, 9px);
-  --_min-width: var(--btn-min-width, auto);
-  --_min-height: var(--btn-min-height, auto);
+@responsive {
+  .btn-sm,
+  .btn-med,
+  .btn-lg,
+  [class*='btn-'] {
+    --_bg: var(--btn-bg, transparent);
+    --_color: var(--btn-color, currentcolor);
+    --_border-width: var(--btn-border-width, 0);
+    --_border-color: var(--btn-border-color, none);
+    --_border-radius: var(--btn-border-radius, 12px);
+    --_padding: var(--btn-padding, 0);
+    --_fs: var(--btn-fs, var(--body));
+    --_fw: var(--btn-fw, var(--fw-5));
+    --_lh: var(--btn-lh, 1.5);
+    --_gap: var(--btn-gap, 9px);
+    --_min-width: var(--btn-min-width, auto);
+    --_min-height: var(--btn-min-height, auto);
 
-  background: var(--_bg);
-  color: var(--_color);
-  border-width: var(--_border-width);
-  border-color: var(--_border-color);
-  border-style: solid;
-  border-radius: var(--_border-radius);
-  font-size: var(--_fs);
-  font-weight: var(--_fw);
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-  gap: var(--_gap);
-  min-width: var(--_min-width);
-  min-height: var(--_min-height);
-  padding: var(--_padding);
-  cursor: pointer;
+    background: var(--_bg);
+    color: var(--_color);
+    border-width: var(--_border-width);
+    border-color: var(--_border-color);
+    border-style: solid;
+    border-radius: var(--_border-radius);
+    font-size: var(--_fs);
+    font-weight: var(--_fw);
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: var(--_gap);
+    min-width: var(--_min-width);
+    min-height: var(--_min-height);
+    padding: var(--_padding);
+    cursor: pointer;
+  }
 }
-
 .btn-sm_primary,
 .btn-med_primary,
 .btn-lg_primary {
@@ -98,6 +99,53 @@ button {
   --btn-color: var(--gray-6);
 }
 
+.btn-sm-success,
+.btn-med-success,
+.btn-lg-success {
+  --btn-color: var(--white);
+  --btn-bg: var(--success);
+}
+.btn-sm_outline-success,
+.btn-med_outline-success,
+.btn-lg_outline-success {
+  --btn-color: var(--success);
+  --btn-bg: transparent;
+  --btn-border-color: currentcolor;
+  --btn-border-width: 1.5px;
+}
+.btn-sm_ghost-success,
+.btn-med_ghost-success,
+.btn-lg_ghost-success {
+  --btn-color: var(--success);
+}
+
+.btn-sm-error,
+.btn-med-error,
+.btn-lg-error {
+  --btn-color: var(--white);
+  --btn-bg: var(--error);
+}
+.btn-sm_outline-error,
+.btn-med_outline-error,
+.btn-lg_outline-error {
+  --btn-color: var(--error);
+  --btn-bg: transparent;
+  --btn-border-color: currentcolor;
+  --btn-border-width: 1.5px;
+}
+.btn-sm_ghost-error,
+.btn-med_ghost-error,
+.btn-lg_ghost-error {
+  --btn-color: var(--error);
+}
+
+.btn-sm_,
+.btn-med_,
+.btn-lg_ {
+  --btn-color: var(--white);
+  --btn-bg: var(--);
+}
+
 .btn-sm,
 .btn-sm_primary,
 .btn-sm_outline,
@@ -107,7 +155,13 @@ button {
 .btn-sm_outline-disabled,
 .btn-sm_outline[disabled],
 .btn-sm_ghost-disabled,
-.btn-sm_ghost[disabled] {
+.btn-sm_ghost[disabled],
+.btn-sm-success,
+.btn-sm-error,
+.btn-sm_outline-success,
+.btn-sm_outline-error,
+.btn-sm_ghost-success,
+.btn-sm_ghost-error {
   --btn-min-width: 77px;
   --btn-min-height: 32px;
   --btn-padding: var(--space-0-5) var(--space-3);
@@ -122,7 +176,13 @@ button {
 .btn-med_ghost-disabled,
 .btn-med-ghost[disabled],
 .btn-med_outline-disabled,
-.btn-med-outline[disabled] {
+.btn-med-outline[disabled],
+.btn-med-success,
+.btn-med-error,
+.btn-med_outline-success,
+.btn-med_outline-error,
+.btn-med_ghost-success,
+.btn-med_ghost-error {
   --btn-min-width: 85px;
   --btn-min-height: 40px;
   --btn-padding: var(--space-1-5) var(--space-4);
@@ -137,11 +197,17 @@ button {
 .btn-lg_outline-disabled,
 .btn-lg_outline[disabled],
 .btn-lg_ghost-disabled,
-.btn-lg_ghost[disabled] {
+.btn-lg_ghost[disabled],
+.btn-lg-success,
+.btn-lg-error.btn-sm_outline-success,
+.btn-lg_outline-error,
+.btn-lg_ghost-success,
+.btn-lg_ghost-error {
   --btn-min-width: 101px;
   --btn-min-height: 48px;
   --btn-padding: var(--space-2-5) var(--space-6);
 }
+
 .btn-icon[class*='btn-sm'] {
   --btn-min-width: 97px;
 }

@@ -11,7 +11,7 @@
     "borderColor": "var(--_border-color)",
     "padding": "var(--_padding)"
   },
-  ".btn-sm,\n.btn-med,\n.btn-lg,\n[class*='btn-']": {
+  ".btn-sm,\n  .btn-med,\n  .btn-lg,\n  [class*='btn-']": {
     "--_bg": "var(--btn-bg, transparent)",
     "--_color": "var(--btn-color, currentcolor)",
     "--_border-width": "var(--btn-border-width, 0)",
@@ -67,17 +67,47 @@
   ".btn-sm_ghost-disabled,\n.btn-med_ghost-disabled,\n.btn-lg_ghost-disabled,\n.btn-sm_ghost[disabled],\n.btn-med_ghost[disabled],\n.btn-lg_ghost[disabled]": {
     "--btn-color": "var(--gray-6)"
   },
-  ".btn-sm,\n.btn-sm_primary,\n.btn-sm_outline,\n.btn-sm_ghost,\n.btn-sm-disabled,\n.btn-sm[disabled],\n.btn-sm_outline-disabled,\n.btn-sm_outline[disabled],\n.btn-sm_ghost-disabled,\n.btn-sm_ghost[disabled]": {
+  ".btn-sm-success,\n.btn-med-success,\n.btn-lg-success": {
+    "--btn-color": "var(--white)",
+    "--btn-bg": "var(--success)"
+  },
+  ".btn-sm_outline-success,\n.btn-med_outline-success,\n.btn-lg_outline-success": {
+    "--btn-color": "var(--success)",
+    "--btn-bg": "transparent",
+    "--btn-border-color": "currentcolor",
+    "--btn-border-width": "1.5px"
+  },
+  ".btn-sm_ghost-success,\n.btn-med_ghost-success,\n.btn-lg_ghost-success": {
+    "--btn-color": "var(--success)"
+  },
+  ".btn-sm-error,\n.btn-med-error,\n.btn-lg-error": {
+    "--btn-color": "var(--white)",
+    "--btn-bg": "var(--error)"
+  },
+  ".btn-sm_outline-error,\n.btn-med_outline-error,\n.btn-lg_outline-error": {
+    "--btn-color": "var(--error)",
+    "--btn-bg": "transparent",
+    "--btn-border-color": "currentcolor",
+    "--btn-border-width": "1.5px"
+  },
+  ".btn-sm_ghost-error,\n.btn-med_ghost-error,\n.btn-lg_ghost-error": {
+    "--btn-color": "var(--error)"
+  },
+  ".btn-sm_,\n.btn-med_,\n.btn-lg_": {
+    "--btn-color": "var(--white)",
+    "--btn-bg": "var(--)"
+  },
+  ".btn-sm,\n.btn-sm_primary,\n.btn-sm_outline,\n.btn-sm_ghost,\n.btn-sm-disabled,\n.btn-sm[disabled],\n.btn-sm_outline-disabled,\n.btn-sm_outline[disabled],\n.btn-sm_ghost-disabled,\n.btn-sm_ghost[disabled],\n.btn-sm-success,\n.btn-sm-error,\n.btn-sm_outline-success,\n.btn-sm_outline-error,\n.btn-sm_ghost-success,\n.btn-sm_ghost-error": {
     "--btn-min-width": "77px",
     "--btn-min-height": "32px",
     "--btn-padding": "var(--space-0-5) var(--space-3)"
   },
-  ".btn-med,\n.btn-med_primary,\n.btn-med_outline,\n.btn-med_ghost,\n.btn-med-disabled,\n.btn-med[disabled],\n.btn-med_ghost-disabled,\n.btn-med-ghost[disabled],\n.btn-med_outline-disabled,\n.btn-med-outline[disabled]": {
+  ".btn-med,\n.btn-med_primary,\n.btn-med_outline,\n.btn-med_ghost,\n.btn-med-disabled,\n.btn-med[disabled],\n.btn-med_ghost-disabled,\n.btn-med-ghost[disabled],\n.btn-med_outline-disabled,\n.btn-med-outline[disabled],\n.btn-med-success,\n.btn-med-error,\n.btn-med_outline-success,\n.btn-med_outline-error,\n.btn-med_ghost-success,\n.btn-med_ghost-error": {
     "--btn-min-width": "85px",
     "--btn-min-height": "40px",
     "--btn-padding": "var(--space-1-5) var(--space-4)"
   },
-  ".btn-lg,\n.btn-lg_primary,\n.btn-lg_outline,\n.btn-lg_ghost,\n.btn-lg-disabled,\n.btn-lg[disabled],\n.btn-lg_outline-disabled,\n.btn-lg_outline[disabled],\n.btn-lg_ghost-disabled,\n.btn-lg_ghost[disabled]": {
+  ".btn-lg,\n.btn-lg_primary,\n.btn-lg_outline,\n.btn-lg_ghost,\n.btn-lg-disabled,\n.btn-lg[disabled],\n.btn-lg_outline-disabled,\n.btn-lg_outline[disabled],\n.btn-lg_ghost-disabled,\n.btn-lg_ghost[disabled],\n.btn-lg-success,\n.btn-lg-error.btn-sm_outline-success,\n.btn-lg_outline-error,\n.btn-lg_ghost-success,\n.btn-lg_ghost-error": {
     "--btn-min-width": "101px",
     "--btn-min-height": "48px",
     "--btn-padding": "var(--space-2-5) var(--space-6)"
@@ -100,9 +130,164 @@
   ".btn-icons[class*='btn-lg']": {
     "--btn-min-width": "141px"
   },
-  "@media (min-width: 480px)": true,
-  "@media (min-width: 768px)": true,
-  "@media (min-width: 1024px)": true,
-  "@media (min-width: 1440px)": true,
-  "@media min-width: 1920px)": true
+  "@media (min-width: 480px)": {
+    ".sm-btn-sm,\n.sm-btn-med,\n.sm-btn-lg": {
+      "--_bg": "var(--btn-bg, transparent)",
+      "--_color": "var(--btn-color, currentcolor)",
+      "--_border-width": "var(--btn-border-width, 0)",
+      "--_border-color": "var(--btn-border-color, none)",
+      "--_border-radius": "var(--btn-border-radius, 12px)",
+      "--_padding": "var(--btn-padding, 0)",
+      "--_fs": "var(--btn-fs, var(--body))",
+      "--_fw": "var(--btn-fw, var(--fw-5))",
+      "--_lh": "var(--btn-lh, 1.5)",
+      "--_gap": "var(--btn-gap, 9px)",
+      "--_min-width": "var(--btn-min-width, auto)",
+      "--_min-height": "var(--btn-min-height, auto)",
+      "background": "var(--_bg)",
+      "color": "var(--_color)",
+      "borderWidth": "var(--_border-width)",
+      "borderColor": "var(--_border-color)",
+      "borderStyle": "solid",
+      "borderRadius": "var(--_border-radius)",
+      "fontSize": "var(--_fs)",
+      "fontWeight": "var(--_fw)",
+      "display": "inline-flex",
+      "justifyContent": "center",
+      "alignItems": "center",
+      "gap": "var(--_gap)",
+      "minWidth": "var(--_min-width)",
+      "minHeight": "var(--_min-height)",
+      "padding": "var(--_padding)",
+      "cursor": "pointer"
+    }
+  },
+  "@media (min-width: 768px)": {
+    ".md-btn-sm,\n.md-btn-med,\n.md-btn-lg": {
+      "--_bg": "var(--btn-bg, transparent)",
+      "--_color": "var(--btn-color, currentcolor)",
+      "--_border-width": "var(--btn-border-width, 0)",
+      "--_border-color": "var(--btn-border-color, none)",
+      "--_border-radius": "var(--btn-border-radius, 12px)",
+      "--_padding": "var(--btn-padding, 0)",
+      "--_fs": "var(--btn-fs, var(--body))",
+      "--_fw": "var(--btn-fw, var(--fw-5))",
+      "--_lh": "var(--btn-lh, 1.5)",
+      "--_gap": "var(--btn-gap, 9px)",
+      "--_min-width": "var(--btn-min-width, auto)",
+      "--_min-height": "var(--btn-min-height, auto)",
+      "background": "var(--_bg)",
+      "color": "var(--_color)",
+      "borderWidth": "var(--_border-width)",
+      "borderColor": "var(--_border-color)",
+      "borderStyle": "solid",
+      "borderRadius": "var(--_border-radius)",
+      "fontSize": "var(--_fs)",
+      "fontWeight": "var(--_fw)",
+      "display": "inline-flex",
+      "justifyContent": "center",
+      "alignItems": "center",
+      "gap": "var(--_gap)",
+      "minWidth": "var(--_min-width)",
+      "minHeight": "var(--_min-height)",
+      "padding": "var(--_padding)",
+      "cursor": "pointer"
+    }
+  },
+  "@media (min-width: 1024px)": {
+    ".lg-btn-sm,\n.lg-btn-med,\n.lg-btn-lg": {
+      "--_bg": "var(--btn-bg, transparent)",
+      "--_color": "var(--btn-color, currentcolor)",
+      "--_border-width": "var(--btn-border-width, 0)",
+      "--_border-color": "var(--btn-border-color, none)",
+      "--_border-radius": "var(--btn-border-radius, 12px)",
+      "--_padding": "var(--btn-padding, 0)",
+      "--_fs": "var(--btn-fs, var(--body))",
+      "--_fw": "var(--btn-fw, var(--fw-5))",
+      "--_lh": "var(--btn-lh, 1.5)",
+      "--_gap": "var(--btn-gap, 9px)",
+      "--_min-width": "var(--btn-min-width, auto)",
+      "--_min-height": "var(--btn-min-height, auto)",
+      "background": "var(--_bg)",
+      "color": "var(--_color)",
+      "borderWidth": "var(--_border-width)",
+      "borderColor": "var(--_border-color)",
+      "borderStyle": "solid",
+      "borderRadius": "var(--_border-radius)",
+      "fontSize": "var(--_fs)",
+      "fontWeight": "var(--_fw)",
+      "display": "inline-flex",
+      "justifyContent": "center",
+      "alignItems": "center",
+      "gap": "var(--_gap)",
+      "minWidth": "var(--_min-width)",
+      "minHeight": "var(--_min-height)",
+      "padding": "var(--_padding)",
+      "cursor": "pointer"
+    }
+  },
+  "@media (min-width: 1440px)": {
+    ".xl-btn-sm,\n.xl-btn-med,\n.xl-btn-lg": {
+      "--_bg": "var(--btn-bg, transparent)",
+      "--_color": "var(--btn-color, currentcolor)",
+      "--_border-width": "var(--btn-border-width, 0)",
+      "--_border-color": "var(--btn-border-color, none)",
+      "--_border-radius": "var(--btn-border-radius, 12px)",
+      "--_padding": "var(--btn-padding, 0)",
+      "--_fs": "var(--btn-fs, var(--body))",
+      "--_fw": "var(--btn-fw, var(--fw-5))",
+      "--_lh": "var(--btn-lh, 1.5)",
+      "--_gap": "var(--btn-gap, 9px)",
+      "--_min-width": "var(--btn-min-width, auto)",
+      "--_min-height": "var(--btn-min-height, auto)",
+      "background": "var(--_bg)",
+      "color": "var(--_color)",
+      "borderWidth": "var(--_border-width)",
+      "borderColor": "var(--_border-color)",
+      "borderStyle": "solid",
+      "borderRadius": "var(--_border-radius)",
+      "fontSize": "var(--_fs)",
+      "fontWeight": "var(--_fw)",
+      "display": "inline-flex",
+      "justifyContent": "center",
+      "alignItems": "center",
+      "gap": "var(--_gap)",
+      "minWidth": "var(--_min-width)",
+      "minHeight": "var(--_min-height)",
+      "padding": "var(--_padding)",
+      "cursor": "pointer"
+    }
+  },
+  "@media min-width: 1920px)": {
+    ".xxl-btn-sm,\n.xxl-btn-med,\n.xxl-btn-lg": {
+      "--_bg": "var(--btn-bg, transparent)",
+      "--_color": "var(--btn-color, currentcolor)",
+      "--_border-width": "var(--btn-border-width, 0)",
+      "--_border-color": "var(--btn-border-color, none)",
+      "--_border-radius": "var(--btn-border-radius, 12px)",
+      "--_padding": "var(--btn-padding, 0)",
+      "--_fs": "var(--btn-fs, var(--body))",
+      "--_fw": "var(--btn-fw, var(--fw-5))",
+      "--_lh": "var(--btn-lh, 1.5)",
+      "--_gap": "var(--btn-gap, 9px)",
+      "--_min-width": "var(--btn-min-width, auto)",
+      "--_min-height": "var(--btn-min-height, auto)",
+      "background": "var(--_bg)",
+      "color": "var(--_color)",
+      "borderWidth": "var(--_border-width)",
+      "borderColor": "var(--_border-color)",
+      "borderStyle": "solid",
+      "borderRadius": "var(--_border-radius)",
+      "fontSize": "var(--_fs)",
+      "fontWeight": "var(--_fw)",
+      "display": "inline-flex",
+      "justifyContent": "center",
+      "alignItems": "center",
+      "gap": "var(--_gap)",
+      "minWidth": "var(--_min-width)",
+      "minHeight": "var(--_min-height)",
+      "padding": "var(--_padding)",
+      "cursor": "pointer"
+    }
+  }
 }

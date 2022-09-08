@@ -24,7 +24,7 @@
     "--badge-fs": "var(--overline-big)"
   },
   "@media (min-width: 480px)": {
-    ".sm-badge-sm,\n.sm-  .badge-med": {
+    ".sm-badge-sm,\n.sm-badge-med": {
       "--badge-padding": "2px 4px",
       "--badge-fs": "1em",
       "--badge-lh": "1.333",
@@ -50,7 +50,7 @@
     }
   },
   "@media (min-width: 768px)": {
-    ".md-badge-sm,\n.md-  .badge-med": {
+    ".md-badge-sm,\n.md-badge-med": {
       "--badge-padding": "2px 4px",
       "--badge-fs": "1em",
       "--badge-lh": "1.333",
@@ -76,7 +76,7 @@
     }
   },
   "@media (min-width: 1024px)": {
-    ".lg-badge-sm,\n.lg-  .badge-med": {
+    ".lg-badge-sm,\n.lg-badge-med": {
       "--badge-padding": "2px 4px",
       "--badge-fs": "1em",
       "--badge-lh": "1.333",
@@ -102,7 +102,7 @@
     }
   },
   "@media (min-width: 1440px)": {
-    ".xl-badge-sm,\n.xl-  .badge-med": {
+    ".xl-badge-sm,\n.xl-badge-med": {
       "--badge-padding": "2px 4px",
       "--badge-fs": "1em",
       "--badge-lh": "1.333",
@@ -128,7 +128,7 @@
     }
   },
   "@media min-width: 1920px)": {
-    ".xxl-badge-sm,\n.xxl-  .badge-med": {
+    ".xxl-badge-sm,\n.xxl-badge-med": {
       "--badge-padding": "2px 4px",
       "--badge-fs": "1em",
       "--badge-lh": "1.333",
