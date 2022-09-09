@@ -1,0 +1,32 @@
+.thin_hover:hover {
+  font-weight: var(--fw-1);
+}
+.extra-light_hover:hover {
+  font-weight: var(--fw-2);
+}
+.light_hover:hover {
+  font-weight: var(--fw-3);
+}
+.regular_hover:hover {
+  font-weight: var(--fw-4);
+}
+.medium_hover:hover {
+  font-weight: var(--fw-5);
+}
+.bold_hover:hover {
+  font-weight: var(--fw-6);
+}
+.semi-bold_hover:hover {
+  font-weight: var(--fw-7);
+}
+.extra-bold_hover:hover {
+  font-weight: var(--fw-8);
+}
+.black-bold_hover:hover {
+  font-weight: var(--fw-9);
+}
+@media (min-width: 480px);
+@media (min-width: 768px);
+@media (min-width: 1024px);
+@media (min-width: 1440px);
+@media min-width: 1920px)

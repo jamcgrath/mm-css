@@ -1,0 +1,55 @@
+{
+  ".bg-bw-primary_active:active": {
+    "backgroundColor": "var(--bw-primary)"
+  },
+  ".bg-bw-primary-light_active:active": {
+    "backgroundColor": "var(--bw-primary-light)"
+  },
+  ".bg-bw-secondary_active:active": {
+    "backgroundColor": "var(--bw-secondary)"
+  },
+  ".bg-bw-secondary-light_active:active": {
+    "backgroundColor": "var(--bw-secondary-light)"
+  },
+  ".bg-bw-tertiary_active:active": {
+    "backgroundColor": "var(--bw-tertiary)"
+  },
+  ".bg-bw-tertiary-light_active:active": {
+    "backgroundColor": "var(--bw-tertiary-light)"
+  },
+  ".bg-bc-primary_active:active": {
+    "backgroundColor": "var(--bc-primary)"
+  },
+  ".bg-bc-primary-light_active:active": {
+    "backgroundColor": "var(--bc-primary-light)"
+  },
+  ".bg-bc-secondary_active:active": {
+    "backgroundColor": "var(--bc-secondary)"
+  },
+  ".bg-bc-secondary-light_active:active": {
+    "backgroundColor": "var(--bc-secondary-light)"
+  },
+  ".bg-bc-tertiary_active:active": {
+    "backgroundColor": "var(--bc-tertiary)"
+  },
+  ".bg-bo-1_active:active": {
+    "background": "var(--bo-1)"
+  },
+  ".bg-bo-2_active:active": {
+    "background": "var(--bo-2)"
+  },
+  ".bg-bo-3_active:active": {
+    "backgroundColor": "var(--bo-3)"
+  },
+  ".bg-bo-4_active:active": {
+    "backgroundColor": "var(--bo-4)"
+  },
+  ".bg-bo-5_active:active": {
+    "backgroundColor": "var(--bo-5)"
+  },
+  "@media (min-width: 480px)": true,
+  "@media (min-width: 768px)": true,
+  "@media (min-width: 1024px)": true,
+  "@media (min-width: 1440px)": true,
+  "@media min-width: 1920px)": true
+}

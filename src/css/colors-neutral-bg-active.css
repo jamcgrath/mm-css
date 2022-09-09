@@ -1,0 +1,9 @@
+.bg-black_active:active {
+  background-color: var(--black);
+}
+.bg-white_active:active {
+  background-color: var(--white);
+}
+.bg-transparent_active:active {
+  background-color: transparent;
+}

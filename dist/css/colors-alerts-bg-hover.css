@@ -1,0 +1,36 @@
+/* alert backgrounds */
+.bg-info_hover:hover {
+  background-color: var(--info);
+}
+.bg-info-light_hover:hover {
+  background-color: var(--info-light);
+}
+.bg-success_hover:hover {
+  background-color: var(--success);
+}
+.bg-success-light_hover:hover {
+  background-color: var(--success-light);
+}
+.bg-alert_hover:hover {
+  background-color: var(--alert);
+}
+.bg-alert-light_hover:hover {
+  background-color: var(--alert-light);
+}
+.bg-warning_hover:hover {
+  background-color: var(--warning);
+}
+.bg-warning-light_hover:hover {
+  background-color: var(--warning-light);
+}
+.bg-error_hover:hover {
+  background-color: var(--error);
+}
+.bg-error-light_hover:hover {
+  background-color: var(--error-light);
+}
+@media (min-width: 480px);
+@media (min-width: 768px);
+@media (min-width: 1024px);
+@media (min-width: 1440px);
+@media min-width: 1920px)

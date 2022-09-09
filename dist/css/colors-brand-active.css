@@ -14,7 +14,6 @@
 .bw-tertiary-light_active:active {
   color: var(--bw-tertiary-light);
 }
-
 /* brand cold  */
 .bc-primary_active:active {
   color: var(--bc-primary);
@@ -31,7 +30,6 @@
 .bc-tertiary_active:active {
   color: var(--bc-tertiary);
 }
-
 /* brand other */
 .bo-3_active:active {
   color: var(--bo-3);
@@ -42,3 +40,8 @@
 .bo-5_active:active {
   color: var(--bo-5);
 }
+@media (min-width: 480px);
+@media (min-width: 768px);
+@media (min-width: 1024px);
+@media (min-width: 1440px);
+@media min-width: 1920px)
