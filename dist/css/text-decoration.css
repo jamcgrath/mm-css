@@ -6,7 +6,8 @@
 .td-wavy,
 .td-dot,
 .td-dash,
-.td-double {
+.td-double,
+.td-underline_hover {
   --_td-color: var(--td-color, currentcolor);
   --_td-thickness: var(--td-thickness, auto);
   --_td-line: var(--td-line, none);
@@ -19,7 +20,8 @@
   -webkit-text-decoration-style: var(--_td-style);
           text-decoration-style: var(--_td-style);
 }
-.td-underline {
+.td-underline,
+.td-underline_hover:hover {
   --td-line: underline;
 }
 .td-overline {

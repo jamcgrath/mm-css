@@ -5560,6 +5560,42 @@ html:focus-within {
 	font-weight: var(--fw-9);
 }
 
+.thin_hover:hover {
+  font-weight: var(--fw-1);
+}
+
+.extra-light_hover:hover {
+  font-weight: var(--fw-2);
+}
+
+.light_hover:hover {
+  font-weight: var(--fw-3);
+}
+
+.regular_hover:hover {
+  font-weight: var(--fw-4);
+}
+
+.medium_hover:hover {
+  font-weight: var(--fw-5);
+}
+
+.bold_hover:hover {
+  font-weight: var(--fw-6);
+}
+
+.semi-bold_hover:hover {
+  font-weight: var(--fw-7);
+}
+
+.extra-bold_hover:hover {
+  font-weight: var(--fw-8);
+}
+
+.black-bold_hover:hover {
+  font-weight: var(--fw-9);
+}
+
 .h-100 {
 		height: 100%;
 	}
@@ -6257,7 +6293,8 @@ html:focus-within {
 .td-wavy,
 .td-dot,
 .td-dash,
-.td-double {
+.td-double,
+.td-underline_hover {
   --_td-color: var(--td-color, currentcolor);
   --_td-thickness: var(--td-thickness, auto);
   --_td-line: var(--td-line, none);
@@ -6271,7 +6308,8 @@ html:focus-within {
           text-decoration-style: var(--_td-style);
 }
 
-.td-underline {
+.td-underline,
+.td-underline_hover:hover {
   --td-line: underline;
 }
 

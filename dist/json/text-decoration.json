@@ -1,5 +1,5 @@
 {
-  "._td,\n.td-underline,\n.td-overline,\n.td-strike,\n.td-underover,\n.td-wavy,\n.td-dot,\n.td-dash,\n.td-double": {
+  "._td,\n.td-underline,\n.td-overline,\n.td-strike,\n.td-underover,\n.td-wavy,\n.td-dot,\n.td-dash,\n.td-double,\n.td-underline_hover": {
     "--_td-color": "var(--td-color, currentcolor)",
     "--_td-thickness": "var(--td-thickness, auto)",
     "--_td-line": "var(--td-line, none)",
@@ -12,7 +12,7 @@
     "WebkitTextDecorationStyle": "var(--_td-style)",
     "textDecorationStyle": "var(--_td-style)"
   },
-  ".td-underline": {
+  ".td-underline,\n.td-underline_hover:hover": {
     "--td-line": "underline"
   },
   ".td-overline": {
