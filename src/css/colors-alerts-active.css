@@ -1,0 +1,30 @@
+.info_active:active {
+  color: var(--info);
+}
+.info-light_active:active {
+  color: var(--info-light);
+}
+.success_active:active {
+  color: var(--success);
+}
+.success-light_active:active {
+  color: var(--success-light);
+}
+.alert_active:active {
+  color: var(--alert);
+}
+.alert-light_active:active {
+  color: var(--alert-light);
+}
+.warning_active:active {
+  color: var(--warning);
+}
+.warning-light_active:active {
+  color: var(--warning-light);
+}
+.error_active:active {
+  color: var(--error);
+}
+.error-light_active:active {
+  color: var(--error-light);
+}

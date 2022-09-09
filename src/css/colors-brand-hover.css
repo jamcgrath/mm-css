@@ -1,0 +1,44 @@
+/* brand warm */
+.bw-primary_hover:hover {
+  color: var(--bw-primary);
+}
+.bw-secondary_hover:hover {
+  color: var(--bw-secondary);
+}
+.bw-secondary-light_hover:hover {
+  color: var(--bw-secondary-light);
+}
+.bw-tertiary_hover:hover {
+  color: var(--bw-tertiary);
+}
+.bw-tertiary-light_hover:hover {
+  color: var(--bw-tertiary-light);
+}
+
+/* brand cold  */
+.bc-primary_hover:hover {
+  color: var(--bc-primary);
+}
+.bc-primary-light_hover:hover {
+  color: var(--bc-primary-light);
+}
+.bc-secondary_hover:hover {
+  color: var(--bc-secondary);
+}
+.bc-secondary-light_hover:hover {
+  color: var(--bc-secondary-light);
+}
+.bc-tertiary_hover:hover {
+  color: var(--bc-tertiary);
+}
+
+/* brand other */
+.bo-3_hover:hover {
+  color: var(--bo-3);
+}
+.bo-4_hover:hover {
+  color: var(--bo-4);
+}
+.bo-5_hover:hover {
+  color: var(--bo-5);
+}

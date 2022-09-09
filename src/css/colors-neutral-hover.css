@@ -1,0 +1,6 @@
+.black_hover:hover {
+  color: var(--black);
+}
+.white_hover:hover {
+  color: var(--white);
+}

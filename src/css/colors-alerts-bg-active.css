@@ -1,0 +1,31 @@
+/* alert backgrounds */
+.bg-info_active:active {
+  background-color: var(--info);
+}
+.bg-info-light_active:active {
+  background-color: var(--info-light);
+}
+.bg-success_active:active {
+  background-color: var(--success);
+}
+.bg-success-light_active:active {
+  background-color: var(--success-light);
+}
+.bg-alert_active:active {
+  background-color: var(--alert);
+}
+.bg-alert-light_active:active {
+  background-color: var(--alert-light);
+}
+.bg-warning_active:active {
+  background-color: var(--warning);
+}
+.bg-warning-light_active:active {
+  background-color: var(--warning-light);
+}
+.bg-error_active:active {
+  background-color: var(--error);
+}
+.bg-error-light_active:active {
+  background-color: var(--error-light);
+}

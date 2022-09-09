@@ -1,0 +1,9 @@
+.bo-1-gradient_active:active {
+  background: var(--bo-1);
+}
+.bo-2-gradient_active:active {
+  background: var(--bo-1);
+}
+.motion-gradient_active:active {
+  background: var(--motion);
+}

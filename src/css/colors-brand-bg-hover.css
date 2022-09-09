@@ -1,0 +1,53 @@
+/* brand warm */
+.bg-bw-primary_hover:hover {
+  background-color: var(--bw-primary);
+}
+.bg-bw-primary-light_hover:hover {
+  background-color: var(--bw-primary-light);
+}
+.bg-bw-secondary_hover:hover {
+  background-color: var(--bw-secondary);
+}
+.bg-bw-secondary-light_hover:hover {
+  background-color: var(--bw-secondary-light);
+}
+.bg-bw-tertiary_hover:hover {
+  background-color: var(--bw-tertiary);
+}
+.bg-bw-tertiary-light_hover:hover {
+  background-color: var(--bw-tertiary-light);
+}
+
+/* brand cold  */
+.bg-bc-primary_hover:hover {
+  background-color: var(--bc-primary);
+}
+.bg-bc-primary-light_hover:hover {
+  background-color: var(--bc-primary-light);
+}
+.bg-bc-secondary_hover:hover {
+  background-color: var(--bc-secondary);
+}
+.bg-bc-secondary-light_hover:hover {
+  background-color: var(--bc-secondary-light);
+}
+.bg-bc-tertiary_hover:hover {
+  background-color: var(--bc-tertiary);
+}
+
+/* brand other */
+.bg-bo-1_hover:hover {
+  background: var(--bo-1);
+}
+.bg-bo-2_hover:hover {
+  background: var(--bo-2);
+}
+.bg-bo-3_hover:hover {
+  background-color: var(--bo-3);
+}
+.bg-bo-4_hover:hover {
+  background-color: var(--bo-4);
+}
+.bg-bo-5_hover:hover {
+  background-color: var(--bo-5);
+}
