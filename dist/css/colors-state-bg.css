@@ -1,14 +1,14 @@
-.bg-hover:hover {
-	background-color: var(--hover);
+.hover-bg:hover {
+  background-color-bg: var(--hover);
 }
-.bg-pressed:active {
-	background-color: var(--pressed);
+.pressed-bg:active {
+  background-color-bg: var(--pressed);
 }
-.bg-hover-light:hover {
-	background-color: var(--hover);
+.hover-light-bg:hover {
+  background-color-bg: var(--hover);
 }
-.bg-pressed-light:active {
-	background-color: var(--pressed);
+.pressed-light-bg:active {
+  background-color-bg: var(--pressed);
 }
 @media (min-width: 480px);
 @media (min-width: 768px);

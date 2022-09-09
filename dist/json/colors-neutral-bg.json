@@ -1,11 +1,11 @@
 {
-  ".bg-black_hover": {
+  ".black-bg": {
     "backgroundColor": "var(--black)"
   },
-  ".bg-white_hover": {
+  ".white-bg": {
     "backgroundColor": "var(--white)"
   },
-  ".bg-transparent_hover": {
+  ".transparent-bg": {
     "backgroundColor": "transparent"
   },
   "@media (min-width: 480px)": true,

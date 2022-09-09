@@ -1,32 +1,32 @@
 {
-  ".bg-info": {
+  ".info-bg": {
     "backgroundColor": "var(--info)"
   },
-  ".bg-info-light": {
+  ".info-light-bg": {
     "backgroundColor": "var(--info-light)"
   },
-  ".bg-success": {
+  ".success-bg": {
     "backgroundColor": "var(--success)"
   },
-  ".bg-success-light": {
+  ".success-light-bg": {
     "backgroundColor": "var(--success-light)"
   },
-  ".bg-alert": {
+  ".alert-bg": {
     "backgroundColor": "var(--alert)"
   },
-  ".bg-alert-light": {
+  ".alert-light-bg": {
     "backgroundColor": "var(--alert-light)"
   },
-  ".bg-warning": {
+  ".warning-bg": {
     "backgroundColor": "var(--warning)"
   },
-  ".bg-warning-light": {
+  ".warning-light-bg": {
     "backgroundColor": "var(--warning-light)"
   },
-  ".bg-error": {
+  ".error-bg": {
     "backgroundColor": "var(--error)"
   },
-  ".bg-error-light": {
+  ".error-light-bg": {
     "backgroundColor": "var(--error-light)"
   },
   "@media (min-width: 480px)": true,

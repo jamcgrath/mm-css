@@ -1,32 +1,32 @@
 {
-  ".bg-info_hover:hover": {
+  ".-info-bg_hover:hover": {
     "backgroundColor": "var(--info)"
   },
-  ".bg-info-light_hover:hover": {
+  ".-info-light-bg_hover:hover": {
     "backgroundColor": "var(--info-light)"
   },
-  ".bg-success_hover:hover": {
+  ".-success-bg_hover:hover": {
     "backgroundColor": "var(--success)"
   },
-  ".bg-success-light_hover:hover": {
+  ".-success-light-bg_hover:hover": {
     "backgroundColor": "var(--success-light)"
   },
-  ".bg-alert_hover:hover": {
+  ".-alert-bg_hover:hover": {
     "backgroundColor": "var(--alert)"
   },
-  ".bg-alert-light_hover:hover": {
+  ".-alert-light-bg_hover:hover": {
     "backgroundColor": "var(--alert-light)"
   },
-  ".bg-warning_hover:hover": {
+  ".-warning-bg_hover:hover": {
     "backgroundColor": "var(--warning)"
   },
-  ".bg-warning-light_hover:hover": {
+  ".-warning-light-bg_hover:hover": {
     "backgroundColor": "var(--warning-light)"
   },
-  ".bg-error_hover:hover": {
+  ".-error-bg_hover:hover": {
     "backgroundColor": "var(--error)"
   },
-  ".bg-error-light_hover:hover": {
+  ".-error-light-bg_hover:hover": {
     "backgroundColor": "var(--error-light)"
   },
   "@media (min-width: 480px)": true,

@@ -1,50 +1,50 @@
 {
-  ".bg-bw-primary_hover:hover": {
+  ".bw-primary-bg_hover:hover": {
     "backgroundColor": "var(--bw-primary)"
   },
-  ".bg-bw-primary-light_hover:hover": {
+  ".bw-primary-light-bg_hover:hover": {
     "backgroundColor": "var(--bw-primary-light)"
   },
-  ".bg-bw-secondary_hover:hover": {
+  ".bw-secondary-bg_hover:hover": {
     "backgroundColor": "var(--bw-secondary)"
   },
-  ".bg-bw-secondary-light_hover:hover": {
+  ".bw-secondary-light-bg_hover:hover": {
     "backgroundColor": "var(--bw-secondary-light)"
   },
-  ".bg-bw-tertiary_hover:hover": {
+  ".bw-tertiary-bg_hover:hover": {
     "backgroundColor": "var(--bw-tertiary)"
   },
-  ".bg-bw-tertiary-light_hover:hover": {
+  ".bw-tertiary-light-bg_hover:hover": {
     "backgroundColor": "var(--bw-tertiary-light)"
   },
-  ".bg-bc-primary_hover:hover": {
+  ".bc-primary-bg_hover:hover": {
     "backgroundColor": "var(--bc-primary)"
   },
-  ".bg-bc-primary-light_hover:hover": {
+  ".bc-primary-light-bg_hover:hover": {
     "backgroundColor": "var(--bc-primary-light)"
   },
-  ".bg-bc-secondary_hover:hover": {
+  ".bc-secondary-bg_hover:hover": {
     "backgroundColor": "var(--bc-secondary)"
   },
-  ".bg-bc-secondary-light_hover:hover": {
+  ".bc-secondary-light-bg_hover:hover": {
     "backgroundColor": "var(--bc-secondary-light)"
   },
-  ".bg-bc-tertiary_hover:hover": {
+  ".bc-tertiary-bg_hover:hover": {
     "backgroundColor": "var(--bc-tertiary)"
   },
-  ".bg-bo-1_hover:hover": {
+  ".bo-1-bg_hover:hover": {
     "background": "var(--bo-1)"
   },
-  ".bg-bo-2_hover:hover": {
+  ".bo-2-bg_hover:hover": {
     "background": "var(--bo-2)"
   },
-  ".bg-bo-3_hover:hover": {
+  ".bo-3-bg_hover:hover": {
     "backgroundColor": "var(--bo-3)"
   },
-  ".bg-bo-4_hover:hover": {
+  ".bo-4-bg_hover:hover": {
     "backgroundColor": "var(--bo-4)"
   },
-  ".bg-bo-5_hover:hover": {
+  ".bo-5-bg_hover:hover": {
     "backgroundColor": "var(--bo-5)"
   },
   "@media (min-width: 480px)": true,

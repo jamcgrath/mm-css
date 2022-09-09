@@ -1,52 +1,52 @@
 /* brand warm */
-.bg-bw-primary_active:active {
+.bw-primary-bg_active:active {
   background-color: var(--bw-primary);
 }
-.bg-bw-primary-light_active:active {
+.bw-primary-light-bg_active:active {
   background-color: var(--bw-primary-light);
 }
-.bg-bw-secondary_active:active {
+.bw-secondary-bg_active:active {
   background-color: var(--bw-secondary);
 }
-.bg-bw-secondary-light_active:active {
+.bw-secondary-light-bg_active:active {
   background-color: var(--bw-secondary-light);
 }
-.bg-bw-tertiary_active:active {
+.bw-tertiary-bg_active:active {
   background-color: var(--bw-tertiary);
 }
-.bg-bw-tertiary-light_active:active {
+.bw-tertiary-light-bg_active:active {
   background-color: var(--bw-tertiary-light);
 }
 /* brand cold  */
-.bg-bc-primary_active:active {
+.bc-primary-bg_active:active {
   background-color: var(--bc-primary);
 }
-.bg-bc-primary-light_active:active {
+.bc-primary-light-bg_active:active {
   background-color: var(--bc-primary-light);
 }
-.bg-bc-secondary_active:active {
+.bc-secondary-bg_active:active {
   background-color: var(--bc-secondary);
 }
-.bg-bc-secondary-light_active:active {
+.bc-secondary-light-bg_active:active {
   background-color: var(--bc-secondary-light);
 }
-.bg-bc-tertiary_active:active {
+.bc-tertiary-bg_active:active {
   background-color: var(--bc-tertiary);
 }
 /* brand other */
-.bg-bo-1_active:active {
+.bo-1-bg_active:active {
   background: var(--bo-1);
 }
-.bg-bo-2_active:active {
+.bo-2-bg_active:active {
   background: var(--bo-2);
 }
-.bg-bo-3_active:active {
+.bo-3-bg_active:active {
   background-color: var(--bo-3);
 }
-.bg-bo-4_active:active {
+.bo-4-bg_active:active {
   background-color: var(--bo-4);
 }
-.bg-bo-5_active:active {
+.bo-5-bg_active:active {
   background-color: var(--bo-5);
 }
 @media (min-width: 480px);

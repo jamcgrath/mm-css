@@ -1,15 +1,15 @@
 {
-  ".bg-hover:hover": {
-    "backgroundColor": "var(--hover)"
+  ".hover-bg:hover": {
+    "backgroundColorBg": "var(--hover)"
   },
-  ".bg-pressed:active": {
-    "backgroundColor": "var(--pressed)"
+  ".pressed-bg:active": {
+    "backgroundColorBg": "var(--pressed)"
   },
-  ".bg-hover-light:hover": {
-    "backgroundColor": "var(--hover)"
+  ".hover-light-bg:hover": {
+    "backgroundColorBg": "var(--hover)"
   },
-  ".bg-pressed-light:active": {
-    "backgroundColor": "var(--pressed)"
+  ".pressed-light-bg:active": {
+    "backgroundColorBg": "var(--pressed)"
   },
   "@media (min-width: 480px)": true,
   "@media (min-width: 768px)": true,

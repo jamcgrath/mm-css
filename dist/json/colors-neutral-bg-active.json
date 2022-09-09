@@ -1,11 +1,11 @@
 {
-  ".bg-black_active:active": {
+  ".black-bg_active:active": {
     "backgroundColor": "var(--black)"
   },
-  ".bg-white_active:active": {
+  ".white-bg_active:active": {
     "backgroundColor": "var(--white)"
   },
-  ".bg-transparent_active:active": {
+  ".transparent-bg_active:active": {
     "backgroundColor": "transparent"
   },
   "@media (min-width: 480px)": true,

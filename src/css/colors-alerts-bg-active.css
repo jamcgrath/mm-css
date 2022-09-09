@@ -1,31 +1,31 @@
 /* alert backgrounds */
-.bg-info_active:active {
+.info-bg_active:active {
   background-color: var(--info);
 }
-.bg-info-light_active:active {
+.info-light-bg_active:active {
   background-color: var(--info-light);
 }
-.bg-success_active:active {
+.success-bg_active:active {
   background-color: var(--success);
 }
-.bg-success-light_active:active {
+.success-light-bg_active:active {
   background-color: var(--success-light);
 }
-.bg-alert_active:active {
+.alert-bg_active:active {
   background-color: var(--alert);
 }
-.bg-alert-light_active:active {
+.alert-light-bg_active:active {
   background-color: var(--alert-light);
 }
-.bg-warning_active:active {
+.warning-bg_active:active {
   background-color: var(--warning);
 }
-.bg-warning-light_active:active {
+.warning-light-bg_active:active {
   background-color: var(--warning-light);
 }
-.bg-error_active:active {
+.error-bg_active:active {
   background-color: var(--error);
 }
-.bg-error-light_active:active {
+.error-light-bg_active:active {
   background-color: var(--error-light);
 }
