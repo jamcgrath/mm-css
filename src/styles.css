@@ -2,12 +2,16 @@
 @import './css/colors-props.css';
 @import './css/spacing-props.css';
 @import './css/typography-props.css';
-@import './css/colors-brand.css';
+@import './css/colors-lime.css';
+@import './css/colors-lime-bg.css';
+@import './css/colors-lime-active.css';
+@import './css/colors-lime-hover.css';
+/* @import './css/colors-brand.css';
 @import './css/colors-brand-hover.css';
 @import './css/colors-brand-active.css';
 @import './css/colors-brand-bg.css';
 @import './css/colors-brand-bg-hover.css';
-@import './css/colors-brand-bg-active.css';
+@import './css/colors-brand-bg-active.css'; */
 @import './css/colors-alerts.css';
 @import './css/colors-alerts-hover.css';
 @import './css/colors-alerts-active.css';
@@ -20,15 +24,15 @@
 @import './css/colors-gray-bg.css';
 @import './css/colors-gray-bg-hover.css';
 @import './css/colors-gray-bg-active.css';
-@import './css/colors-neutral.css';
+/* @import './css/colors-neutral.css';
 @import './css/colors-neutral-hover.css';
 @import './css/colors-neutral-active.css';
 @import './css/colors-neutral-bg.css';
 @import './css/colors-neutral-bg-hover.css';
 @import './css/colors-neutral-bg-active.css';
-@import './css/colors-gradients.css';
-@import './css/colors-state.css';
-@import './css/colors-state-bg.css';
+@import './css/colors-gradients.css'; */
+/* @import './css/colors-state.css'; */
+/* @import './css/colors-state-bg.css'; */
 @import './css/typography-styles.css';
 @import './css/margin.css';
 @import './css/padding.css';

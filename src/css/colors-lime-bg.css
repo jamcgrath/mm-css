@@ -1,0 +1,9 @@
+.lime-light-bg {
+  background-color: var(--lime-light);
+}
+.lime-bg {
+  background-color: var(--lime);
+}
+.lime-dark-bg {
+  background-color: var(--lime-dark);
+}

@@ -374,26 +374,79 @@ html:focus-within {
 }
 
 :root {
-  /* Brand Warm */
-  --bw-primary: hsla(234, 100%, 25%, 1);
-  --bw-secondary: hsla(271, 100%, 70%, 1);
-  --bw-secondary-light: hsla(270, 100%, 89%, 1);
-  --bw-tertiary: hsla(0, 100%, 78%, 1);
-  --bw-tertiary-light: hsla(8, 100%, 91%, 1);
+  --grape-light: hsla(271, 100%, 94%, 1);
+  --grape: hsla(271, 100%, 70%, 1);
+  --grape-dark: hsla(271, 100%, 42%, 1);
+  --grape-90: hsla(271, 100%, 70%, 0.9);
+  --grape-80: hsla(271, 100%, 70%, 0.8);
+  --grape-70: hsla(271, 100%, 70%, 0.7);
+  --grape-60: hsla(271, 100%, 70%, 0.6);
+  --grape-50: hsla(271, 100%, 70%, 0.5);
+  --grape-40: hsla(271, 100%, 70%, 0.4);
+  --grape-30: hsla(271, 100%, 70%, 0.3);
+  --grape-20: hsla(271, 100%, 70%, 0.2);
+  --grape-10: hsla(271, 100%, 70%, 0.1);
 
-  /* Brand Cold */
-  --bc-primary: hsla(203, 100%, 71%, 1);
-  --bc-primary-light: hsla(203, 100%, 87%, 1);
-  --bc-secondary: hsla(178, 69%, 65%, 1);
-  --bc-secondary-light: hsla(177, 68%, 86%, 1);
-  --bc-tertiary: hsla(241, 100%, 84%, 1);
+  --navy-light: hsla(235, 34%, 85%, 1);
+  --navy: hsla(234, 100%, 25%, 1);
+  --navy-dark: hsla(234, 100%, 13%, 1);
+  --navy-90: hsla(234, 100%, 25%, 0.9);
+  --navy-80: hsla(234, 100%, 25%, 0.8);
+  --navy-70: hsla(234, 100%, 25%, 0.7);
+  --navy-60: hsla(234, 100%, 25%, 0.6);
+  --navy-50: hsla(234, 100%, 25%, 0.5);
+  --navy-40: hsla(234, 100%, 25%, 0.4);
+  --navy-30: hsla(234, 100%, 25%, 0.3);
+  --navy-20: hsla(234, 100%, 25%, 0.2);
+  --navy-10: hsla(234, 100%, 25%, 0.1);
 
-  /* Brand Other */
-  --bo-1: linear-gradient(180deg, #d2a4ff 0%, #ac55ff 100%);
-  --bo-2: linear-gradient(180deg, #e3c7ff 0%, rgba(180, 102, 255, 0.75) 100%);
-  --bo-3: hsla(271, 100%, 94%, 1);
-  --bo-4: hsla(331, 95%, 54%, 1);
-  --bo-5: hsla(235, 35%, 93%, 1);
+  --citrus-light: hsla(0, 100%, 89%, 1);
+  --citrus: hsla(0, 100%, 78%, 1);
+  --citrus-dark: hsla(0, 100%, 74%, 1);
+
+  --coral-light: hsla(349, 100%, 86%, 1);
+  --coral: hsla(349, 99%, 73%, 1);
+  --coral-dark: hsla(341, 100%, 60%, 1);
+
+  --aqua-light: hsla(190, 75%, 78%, 1);
+  --aqua: hsla(190, 75%, 56%, 1);
+  --aqua-dark: hsla(195, 78%, 44%, 1);
+
+  --lime-light: hsla(159, 76%, 72%, 1);
+  --lime: hsla(159, 100%, 43%, 1);
+  --lime-dark: hsla(161, 82%, 40%, 1);
+
+  --white: hsla(0, 0%, 100%, 1);
+  --white-90: hsla(0, 0%, 100%, 0.9);
+  --white-80: hsla(0, 0%, 100%, 0.8);
+  --white-70: hsla(0, 0%, 100%, 0.7);
+  --white-60: hsla(0, 0%, 100%, 0.6);
+  --white-50: hsla(0, 0%, 100%, 0.5);
+  --white-40: hsla(0, 0%, 100%, 0.4);
+  --white-30: hsla(0, 0%, 100%, 0.3);
+  --white-20: hsla(0, 0%, 100%, 0.2);
+  --white-10: hsla(0, 0%, 100%, 0.1);
+
+  --black: hsla(0, 0%, 3%, 1);
+  --black-90: hsla(0, 0%, 0%, 0.9);
+  --black-80: hsla(0, 0%, 0%, 0.8);
+  --black-70: hsla(0, 0%, 0%, 0.7);
+  --black-60: hsla(0, 0%, 0%, 0.6);
+  --black-50: hsla(0, 0%, 0%, 0.5);
+  --black-40: hsla(0, 0%, 0%, 0.4);
+  --black-30: hsla(0, 0%, 0%, 0.3);
+  --black-20: hsla(0, 0%, 0%, 0.2);
+  --black-10: hsla(0, 0%, 0%, 0.1);
+
+  --gray-1: hsla(0, 0%, 98%, 1);
+  --gray-2: hsla(0, 0%, 96%, 1);
+  --gray-3: hsla(0, 0%, 92%, 1);
+  --gray-4: hsla(0, 0%, 84%, 1);
+  --gray-5: hsla(0, 0%, 70%, 1);
+  --gray-6: hsla(0, 0%, 61%, 1);
+  --gray-7: hsla(0, 0%, 41%, 1);
+  --gray-8: hsla(0, 0%, 23%, 1);
+  --gray-9: hsla(235, 94%, 14%, 1);
 
   /* Product */
   --info: hsla(221, 89%, 65%, 1);
@@ -406,28 +459,6 @@ html:focus-within {
   --warning-light: hsla(22, 100%, 96%, 1);
   --error: hsla(351, 92%, 53%, 1);
   --error-light: hsla(352, 100%, 95%, 1);
-
-  /* Grays */
-  --gray-1: hsla(0, 0%, 98%, 1);
-  --gray-2: hsla(0, 0%, 96%, 1);
-  --gray-3: hsla(0, 0%, 92%, 1);
-  --gray-4: hsla(0, 0%, 84%, 1);
-  --gray-5: hsla(0, 0%, 70%, 1);
-  --gray-6: hsla(0, 0%, 61%, 1);
-  --gray-7: hsla(0, 0%, 41%, 1);
-  --gray-8: hsla(0, 0%, 23%, 1);
-  --gray-9: hsla(235, 94%, 14%, 1);
-
-  /* Neutral */
-  --black: hsla(0, 0%, 3%, 1);
-  --white: hsla(0, 0%, 100%, 1);
-
-  /* States */
-  --hover: hsla(234, 80%, 41%, 1);
-  --hover-light: hsla(271, 100%, 76%, 1);
-  --pressed: hsla(234, 99%, 20%, 1);
-  --pressed-light: hsla(271, 100%, 76%, 1);
-  --motion: linear-gradient(90deg, #f1f4ff 0%, #e7ebfb 100%);
 
   --transparent: transparent;
 }
@@ -542,389 +573,84 @@ html:focus-within {
 	--serif-1: "Playfair Display", serif;
 }
 
-/* brand warm */
-
-.bw-primary {
-  color: var(--bw-primary);
-}
-
-.bw-secondary {
-  color: var(--bw-secondary);
-}
-
-.bw-secondary-light {
-  color: var(--bw-secondary-light);
-}
-
-.bw-tertiary {
-  color: var(--bw-tertiary);
-}
-
-.bw-tertiary-light {
-  color: var(--bw-tertiary-light);
-}
-
-/* brand cold  */
-
-.bc-primary {
-  color: var(--bc-primary);
-}
-
-.bc-primary-light {
-  color: var(--bc-primary-light);
-}
-
-.bc-secondary {
-  color: var(--bc-secondary);
-}
-
-.bc-secondary-light {
-  color: var(--bc-secondary-light);
-}
-
-.bc-tertiary {
-  color: var(--bc-tertiary);
-}
-
-/* brand other */
-
-.bo-3 {
-  color: var(--bo-3);
-}
-
-.bo-4 {
-  color: var(--bo-4);
-}
-
-.bo-5 {
-  color: var(--bo-5);
-}
-
-/* brand warm */
-
-.bw-primary_hover:hover {
-  color: var(--bw-primary);
-}
-
-.bw-secondary_hover:hover {
-  color: var(--bw-secondary);
-}
-
-.bw-secondary-light_hover:hover {
-  color: var(--bw-secondary-light);
-}
-
-.bw-tertiary_hover:hover {
-  color: var(--bw-tertiary);
-}
-
-.bw-tertiary-light_hover:hover {
-  color: var(--bw-tertiary-light);
-}
-
-/* brand cold  */
-
-.bc-primary_hover:hover {
-  color: var(--bc-primary);
-}
-
-.bc-primary-light_hover:hover {
-  color: var(--bc-primary-light);
-}
-
-.bc-secondary_hover:hover {
-  color: var(--bc-secondary);
-}
-
-.bc-secondary-light_hover:hover {
-  color: var(--bc-secondary-light);
-}
-
-.bc-tertiary_hover:hover {
-  color: var(--bc-tertiary);
-}
-
-/* brand other */
-
-.bo-3_hover:hover {
-  color: var(--bo-3);
-}
-
-.bo-4_hover:hover {
-  color: var(--bo-4);
-}
-
-.bo-5_hover:hover {
-  color: var(--bo-5);
-}
-
-/* brand warm */
-
-.bw-primary_active:active {
-  color: var(--bw-primary);
-}
-
-.bw-secondary_active:active {
-  color: var(--bw-secondary);
-}
-
-.bw-secondary-light_active:active {
-  color: var(--bw-secondary-light);
-}
-
-.bw-tertiary_active:active {
-  color: var(--bw-tertiary);
-}
-
-.bw-tertiary-light_active:active {
-  color: var(--bw-tertiary-light);
-}
-
-/* brand cold  */
-
-.bc-primary_active:active {
-  color: var(--bc-primary);
-}
-
-.bc-primary-light_active:active {
-  color: var(--bc-primary-light);
-}
-
-.bc-secondary_active:active {
-  color: var(--bc-secondary);
-}
-
-.bc-secondary-light_active:active {
-  color: var(--bc-secondary-light);
-}
-
-.bc-tertiary_active:active {
-  color: var(--bc-tertiary);
-}
-
-/* brand other */
-
-.bo-3_active:active {
-  color: var(--bo-3);
-}
-
-.bo-4_active:active {
-  color: var(--bo-4);
-}
-
-.bo-5_active:active {
-  color: var(--bo-5);
-}
-
-/* brand warm */
-
-.bw-primary-bg {
-  background-color: var(--bw-primary);
-}
-
-.bw-primary-light-bg {
-  background-color: var(--bw-primary-light);
-}
-
-.bw-secondary-bg {
-  background-color: var(--bw-secondary);
-}
-
-.bw-secondary-light-bg {
-  background-color: var(--bw-secondary-light);
-}
-
-.bw-tertiary-bg {
-  background-color: var(--bw-tertiary);
-}
-
-.bw-tertiary-light-bg {
-  background-color: var(--bw-tertiary-light);
-}
-
-/* brand cold  */
-
-.bc-primary-bg {
-  background-color: var(--bc-primary);
-}
-
-.bc-primary-light-bg {
-  background-color: var(--bc-primary-light);
-}
-
-.bc-secondary-bg {
-  background-color: var(--bc-secondary);
-}
-
-.bc-secondary-light-bg {
-  background-color: var(--bc-secondary-light);
-}
-
-.bc-tertiary-bg {
-  background-color: var(--bc-tertiary);
-}
-
-/* brand other */
-
-.bo-1-bg {
-  background: var(--bo-1);
-}
-
-.bo-2-bg {
-  background: var(--bo-2);
-}
-
-.bo-3-bg {
-  background-color: var(--bo-3);
+.lime-light {
+  color: var(--lime-light);
 }
 
-.bo-4-bg {
-  background-color: var(--bo-4);
+.lime {
+  color: var(--lime);
 }
 
-.bo-5-bg {
-  background-color: var(--bo-5);
+.lime-dark {
+  color: var(--lime-dark);
 }
 
-/* brand warm */
-
-.bw-primary-bg_hover:hover {
-  background-color: var(--bw-primary);
-}
-
-.bw-primary-light-bg_hover:hover {
-  background-color: var(--bw-primary-light);
-}
-
-.bw-secondary-bg_hover:hover {
-  background-color: var(--bw-secondary);
-}
-
-.bw-secondary-light-bg_hover:hover {
-  background-color: var(--bw-secondary-light);
-}
-
-.bw-tertiary-bg_hover:hover {
-  background-color: var(--bw-tertiary);
-}
-
-.bw-tertiary-light-bg_hover:hover {
-  background-color: var(--bw-tertiary-light);
-}
-
-/* brand cold  */
-
-.bc-primary-bg_hover:hover {
-  background-color: var(--bc-primary);
-}
-
-.bc-primary-light-bg_hover:hover {
-  background-color: var(--bc-primary-light);
-}
-
-.bc-secondary-bg_hover:hover {
-  background-color: var(--bc-secondary);
-}
-
-.bc-secondary-light-bg_hover:hover {
-  background-color: var(--bc-secondary-light);
-}
-
-.bc-tertiary-bg_hover:hover {
-  background-color: var(--bc-tertiary);
-}
-
-/* brand other */
-
-.bo-1-bg_hover:hover {
-  background: var(--bo-1);
-}
-
-.bo-2-bg_hover:hover {
-  background: var(--bo-2);
-}
-
-.bo-3-bg_hover:hover {
-  background-color: var(--bo-3);
+.lime-light-bg {
+  background-color: var(--lime-light);
 }
 
-.bo-4-bg_hover:hover {
-  background-color: var(--bo-4);
+.lime-bg {
+  background-color: var(--lime);
 }
 
-.bo-5-bg_hover:hover {
-  background-color: var(--bo-5);
+.lime-dark-bg {
+  background-color: var(--lime-dark);
 }
 
-/* brand warm */
-
-.bw-primary-bg_active:active {
-  background-color: var(--bw-primary);
-}
-
-.bw-primary-light-bg_active:active {
-  background-color: var(--bw-primary-light);
-}
-
-.bw-secondary-bg_active:active {
-  background-color: var(--bw-secondary);
+.lime-light_hover:hover {
+  color: var(--lime-light);
 }
 
-.bw-secondary-light-bg_active:active {
-  background-color: var(--bw-secondary-light);
+.lime_hover:hover {
+  color: var(--lime);
 }
 
-.bw-tertiary-bg_active:active {
-  background-color: var(--bw-tertiary);
+.lime-dark_hover:hover {
+  color: var(--lime-dark);
 }
 
-.bw-tertiary-light-bg_active:active {
-  background-color: var(--bw-tertiary-light);
+.lime-light-bg_hover:hover {
+  background-color: var(--lime-light);
 }
 
-/* brand cold  */
-
-.bc-primary-bg_active:active {
-  background-color: var(--bc-primary);
-}
-
-.bc-primary-light-bg_active:active {
-  background-color: var(--bc-primary-light);
+.lime-bg_hover:hover {
+  background-color: var(--lime);
 }
 
-.bc-secondary-bg_active:active {
-  background-color: var(--bc-secondary);
+.lime-dark-bg_hover:hover {
+  background-color: var(--lime-dark);
 }
 
-.bc-secondary-light-bg_active:active {
-  background-color: var(--bc-secondary-light);
+.lime-light_active {
+  color: var(--lime-light);
 }
 
-.bc-tertiary-bg_active:active {
-  background-color: var(--bc-tertiary);
+.lime_active {
+  color: var(--lime);
 }
 
-/* brand other */
-
-.bo-1-bg_active:active {
-  background: var(--bo-1);
+.lime-dark_active {
+  color: var(--lime-dark);
 }
 
-.bo-2-bg_active:active {
-  background: var(--bo-2);
+.lime-light-bg_active {
+  background-color: var(--lime-light);
 }
 
-.bo-3-bg_active:active {
-  background-color: var(--bo-3);
+.lime-bg_active {
+  background-color: var(--lime);
 }
 
-.bo-4-bg_active:active {
-  background-color: var(--bo-4);
+.lime-dark-bg_active {
+  background-color: var(--lime-dark);
 }
 
-.bo-5-bg_active:active {
-  background-color: var(--bo-5);
-}
+/* @import './css/colors-brand.css';
+@import './css/colors-brand-hover.css';
+@import './css/colors-brand-active.css';
+@import './css/colors-brand-bg.css';
+@import './css/colors-brand-bg-hover.css';
+@import './css/colors-brand-bg-active.css'; */
 
 .info {
 	color: var(--info);
@@ -1388,109 +1114,17 @@ html:focus-within {
   background-color: var(--gray-9);
 }
 
-.black {
-	color: var(--black);
-}
+/* @import './css/colors-neutral.css';
+@import './css/colors-neutral-hover.css';
+@import './css/colors-neutral-active.css';
+@import './css/colors-neutral-bg.css';
+@import './css/colors-neutral-bg-hover.css';
+@import './css/colors-neutral-bg-active.css';
+@import './css/colors-gradients.css'; */
 
-.white {
-	color: var(--white);
-}
+/* @import './css/colors-state.css'; */
 
-.black_hover:hover {
-  color: var(--black);
-}
-
-.white_hover:hover {
-  color: var(--white);
-}
-
-.black_active:active {
-  color: var(--black);
-}
-
-.white_active:active {
-  color: var(--white);
-}
-
-.black-bg {
-  background-color: var(--black);
-}
-
-.white-bg {
-  background-color: var(--white);
-}
-
-.transparent-bg {
-  background-color: transparent;
-}
-
-.black-bg_hover:hover {
-  background-color: var(--black);
-}
-
-.white-bg_hover:hover {
-  background-color: var(--white);
-}
-
-.transparent-bg_hover:hover {
-  background-color: transparent;
-}
-
-.black-bg_active:active {
-  background-color: var(--black);
-}
-
-.white-bg_active:active {
-  background-color: var(--white);
-}
-
-.transparent-bg_active:active {
-  background-color: transparent;
-}
-
-.bo-1-gradient-bg {
-  background: var(--bo-1);
-}
-
-.bo-2-gradient-bg {
-  background: var(--bo-1);
-}
-
-.motion-gradient-bg {
-  background: var(--motion);
-}
-
-.hover:hover {
-	color: var(--hover);
-}
-
-.pressed:active {
-	color: var(--pressed);
-}
-
-.hover-light:hover {
-	color: var(--hover);
-}
-
-.pressed-light:active {
-	color: var(--pressed);
-}
-
-.hover-bg:hover {
-  background-color-bg: var(--hover);
-}
-
-.pressed-bg:active {
-  background-color-bg: var(--pressed);
-}
-
-.hover-light-bg:hover {
-  background-color-bg: var(--hover);
-}
-
-.pressed-light-bg:active {
-  background-color-bg: var(--pressed);
-}
+/* @import './css/colors-state-bg.css'; */
 
 .title-1,
   .title-1_article,
@@ -5886,59 +5520,59 @@ html:focus-within {
   }
 
 .o-0 {
-	opacity: 0;
+  opacity: 0;
 }
 
 .o-05 {
-	opacity: 0.05;
-}
-
-.o-1 {
-	opacity: 0.1;
-}
-
-.o-2 {
-	opacity: 0.2;
-}
-
-.o-25 {
-	opacity: 0.25;
-}
-
-.o-3 {
-	opacity: 0.3;
-}
-
-.o-4 {
-	opacity: 0.4;
-}
-
-.o-5 {
-	opacity: 0.5;
-}
-
-.o-6 {
-	opacity: 0.6;
-}
-
-.o-7 {
-	opacity: 0.7;
-}
-
-.o-75 {
-	opacity: 0.75;
-}
-
-.o-8 {
-	opacity: 0.8;
-}
-
-.o-9 {
-	opacity: 0.9;
+  opacity: 0.05;
 }
 
 .o-10 {
-	opacity: 1;
+  opacity: 0.1;
+}
+
+.o-20 {
+  opacity: 0.2;
+}
+
+.o-25 {
+  opacity: 0.25;
+}
+
+.o-30 {
+  opacity: 0.3;
+}
+
+.o-40 {
+  opacity: 0.4;
+}
+
+.o-50 {
+  opacity: 0.5;
+}
+
+.o-60 {
+  opacity: 0.6;
+}
+
+.o-70 {
+  opacity: 0.7;
+}
+
+.o-75 {
+  opacity: 0.75;
+}
+
+.o-80 {
+  opacity: 0.8;
+}
+
+.o-90 {
+  opacity: 0.9;
+}
+
+.o-100 {
+  opacity: 1;
 }
 
 .overflow-auto {
