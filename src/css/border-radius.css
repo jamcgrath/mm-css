@@ -1,3 +1,17 @@
-.circle {
-	border-radius: 50%;
+@responsive {
+  .br-0 {
+    border-radius: 0;
+  }
+  .br-4 {
+    border-radius: 4px;
+  }
+  .br-8 {
+    border-radius: 8px;
+  }
+  .br-12 {
+    border-radius: 12px;
+  }
+  .circle {
+    border-radius: 50%;
+  }
 }
