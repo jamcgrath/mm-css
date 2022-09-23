@@ -1,0 +1,41 @@
+.grape-light {
+  color: var(--grape-light);
+}
+.grape {
+  color: var(--grape);
+}
+.grape-dark {
+  color: var(--grape-dark);
+}
+.grape-90 {
+  color: var(--grape-90);
+}
+.grape-80 {
+  color: var(--grape-80);
+}
+.grape-70 {
+  color: var(--grape-70);
+}
+.grape-60 {
+  color: var(--grape-60);
+}
+.grape-50 {
+  color: var(--grape-50);
+}
+.grape-40 {
+  color: var(--grape-40);
+}
+.grape-30 {
+  color: var(--grape-30);
+}
+.grape-20 {
+  color: var(--grape-20);
+}
+.grape-10 {
+  color: var(--grape-10);
+}
+@media (min-width: 480px);
+@media (min-width: 768px);
+@media (min-width: 1024px);
+@media (min-width: 1440px);
+@media min-width: 1920px)

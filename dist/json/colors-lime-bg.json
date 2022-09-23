@@ -1,12 +1,12 @@
 {
-  ".lime-light": {
-    "color": "var(--lime-light)"
+  ".lime-light-bg": {
+    "backgroundColor": "var(--lime-light)"
   },
-  ".lime": {
-    "color": "var(--lime)"
+  ".lime-bg": {
+    "backgroundColor": "var(--lime)"
   },
-  ".lime-dark": {
-    "color": "var(--lime-dark)"
+  ".lime-dark-bg": {
+    "backgroundColor": "var(--lime-dark)"
   },
   "@media (min-width: 480px)": true,
   "@media (min-width: 768px)": true,

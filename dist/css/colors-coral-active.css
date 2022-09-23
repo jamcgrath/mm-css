@@ -1,0 +1,23 @@
+.coral-light_active:active {
+  color: var(--coral-light);
+}
+.coral_active:active {
+  color: var(--coral);
+}
+.coral-dark_active:active {
+  color: var(--coral-dark);
+}
+.coral-light-bg_active:active {
+  background-color: var(--coral-light);
+}
+.coral-bg_active:active {
+  background-color: var(--coral);
+}
+.coral-dark-bg_active:active {
+  background-color: var(--coral-dark);
+}
+@media (min-width: 480px);
+@media (min-width: 768px);
+@media (min-width: 1024px);
+@media (min-width: 1440px);
+@media min-width: 1920px)

@@ -1,0 +1,79 @@
+{
+  ".navy-light_hover:hover": {
+    "color": "var(--navy-light)"
+  },
+  ".navy_hover:hover": {
+    "color": "var(--navy)"
+  },
+  ".navy-dark_hover:hover": {
+    "color": "var(--navy-dark)"
+  },
+  ".navy-90_hover:hover": {
+    "color": "var(--navy-90)"
+  },
+  ".navy-80_hover:hover": {
+    "color": "var(--navy-80)"
+  },
+  ".navy-70_hover:hover": {
+    "color": "var(--navy-70)"
+  },
+  ".navy-60_hover:hover": {
+    "color": "var(--navy-60)"
+  },
+  ".navy-50_hover:hover": {
+    "color": "var(--navy-50)"
+  },
+  ".navy-40_hover:hover": {
+    "color": "var(--navy-40)"
+  },
+  ".navy-30_hover:hover": {
+    "color": "var(--navy-30)"
+  },
+  ".navy-20_hover:hover": {
+    "color": "var(--navy-20)"
+  },
+  ".navy-10_hover:hover": {
+    "color": "var(--navy-10)"
+  },
+  ".navy-light-bg_hover:hover": {
+    "backgroundColor": "var(--navy-light)"
+  },
+  ".navy-bg_hover:hover": {
+    "backgroundColor": "var(--navy)"
+  },
+  ".navy-dark-bg_hover:hover": {
+    "backgroundColor": "var(--navy-dark)"
+  },
+  ".navy-90-bg_hover:hover": {
+    "backgroundColor": "var(--navy-90)"
+  },
+  ".navy-80-bg_hover:hover": {
+    "backgroundColor": "var(--navy-80)"
+  },
+  ".navy-70-bg_hover:hover": {
+    "backgroundColor": "var(--navy-70)"
+  },
+  ".navy-60-bg_hover:hover": {
+    "backgroundColor": "var(--navy-60)"
+  },
+  ".navy-50-bg_hover:hover": {
+    "backgroundColor": "var(--navy-50)"
+  },
+  ".navy-40-bg_hover:hover": {
+    "backgroundColor": "var(--navy-40)"
+  },
+  ".navy-30-bg_hover:hover": {
+    "backgroundColor": "var(--navy-30)"
+  },
+  ".navy-20-bg_hover:hover": {
+    "backgroundColor": "var(--navy-20)"
+  },
+  ".navy-10-bg_hover:hover": {
+    "backgroundColor": "var(--navy-10)"
+  },
+  "@media (min-width: 480px)": true,
+  "@media (min-width: 768px)": true,
+  "@media (min-width: 1024px)": true,
+  "@media (min-width: 1440px)": true,
+  "@media min-width: 1920px)": true
+}

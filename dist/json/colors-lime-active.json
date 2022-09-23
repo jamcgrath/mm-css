@@ -1,12 +1,21 @@
 {
-  ".lime-light": {
+  ".lime-light_active": {
     "color": "var(--lime-light)"
   },
-  ".lime": {
+  ".lime_active": {
     "color": "var(--lime)"
   },
-  ".lime-dark": {
+  ".lime-dark_active": {
     "color": "var(--lime-dark)"
+  },
+  ".lime-light-bg_active": {
+    "backgroundColor": "var(--lime-light)"
+  },
+  ".lime-bg_active": {
+    "backgroundColor": "var(--lime)"
+  },
+  ".lime-dark-bg_active": {
+    "backgroundColor": "var(--lime-dark)"
   },
   "@media (min-width: 480px)": true,
   "@media (min-width: 768px)": true,

@@ -1,0 +1,25 @@
+{
+  ".citrus-light_active:active": {
+    "color": "var(--citrus-light)"
+  },
+  ".citrus_active:active": {
+    "color": "var(--citrus)"
+  },
+  ".citrus-dark_active:active": {
+    "color": "var(--citrus-dark)"
+  },
+  ".citrus-light-bg_active:active": {
+    "backgroundColor": "var(--citrus-light)"
+  },
+  ".citrus-bg_active:active": {
+    "backgroundColor": "var(--citrus)"
+  },
+  ".citrus-dark-bg_active:active": {
+    "backgroundColor": "var(--citrus-dark)"
+  },
+  "@media (min-width: 480px)": true,
+  "@media (min-width: 768px)": true,
+  "@media (min-width: 1024px)": true,
+  "@media (min-width: 1440px)": true,
+  "@media min-width: 1920px)": true
+}

@@ -1,11 +1,11 @@
-.lime-light {
-  color: var(--lime-light);
+.aqua-light {
+  color: var(--aqua-light);
 }
-.lime {
-  color: var(--lime);
+.aqua {
+  color: var(--aqua);
 }
-.lime-dark {
-  color: var(--lime-dark);
+.aqua-dark {
+  color: var(--aqua-dark);
 }
 @media (min-width: 480px);
 @media (min-width: 768px);

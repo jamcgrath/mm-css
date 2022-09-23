@@ -1,0 +1,14 @@
+.aqua-light-bg {
+  background-color: var(--aqua-light);
+}
+.aqua-bg {
+  background-color: var(--aqua);
+}
+.aqua-dark-bg {
+  background-color: var(--aqua-dark);
+}
+@media (min-width: 480px);
+@media (min-width: 768px);
+@media (min-width: 1024px);
+@media (min-width: 1440px);
+@media min-width: 1920px)

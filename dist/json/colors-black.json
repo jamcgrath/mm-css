@@ -1,0 +1,37 @@
+{
+  ".black": {
+    "color": "var(--black)"
+  },
+  ".black-90": {
+    "color": "var(--black-90)"
+  },
+  ".black-80": {
+    "color": "var(--black-80)"
+  },
+  ".black-70": {
+    "color": "var(--black-70)"
+  },
+  ".black-60": {
+    "color": "var(--black-60)"
+  },
+  ".black-50": {
+    "color": "var(--black-50)"
+  },
+  ".black-40": {
+    "color": "var(--black-40)"
+  },
+  ".black-30": {
+    "color": "var(--black-30)"
+  },
+  ".black-20": {
+    "color": "var(--black-20)"
+  },
+  ".black-10": {
+    "color": "var(--black-10)"
+  },
+  "@media (min-width: 480px)": true,
+  "@media (min-width: 768px)": true,
+  "@media (min-width: 1024px)": true,
+  "@media (min-width: 1440px)": true,
+  "@media min-width: 1920px)": true
+}

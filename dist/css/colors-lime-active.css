@@ -1,0 +1,23 @@
+.lime-light_active {
+  color: var(--lime-light);
+}
+.lime_active {
+  color: var(--lime);
+}
+.lime-dark_active {
+  color: var(--lime-dark);
+}
+.lime-light-bg_active {
+  background-color: var(--lime-light);
+}
+.lime-bg_active {
+  background-color: var(--lime);
+}
+.lime-dark-bg_active {
+  background-color: var(--lime-dark);
+}
+@media (min-width: 480px);
+@media (min-width: 768px);
+@media (min-width: 1024px);
+@media (min-width: 1440px);
+@media min-width: 1920px)

@@ -1,0 +1,67 @@
+{
+  ".white_hover:hover": {
+    "color": "var(--white)"
+  },
+  ".white-90_hover:hover": {
+    "color": "var(--white-90)"
+  },
+  ".white-80_hover:hover": {
+    "color": "var(--white-80)"
+  },
+  ".white-70_hover:hover": {
+    "color": "var(--white-70)"
+  },
+  ".white-60_hover:hover": {
+    "color": "var(--white-60)"
+  },
+  ".white-50_hover:hover": {
+    "color": "var(--white-50)"
+  },
+  ".white-40_hover:hover": {
+    "color": "var(--white-40)"
+  },
+  ".white-30_hover:hover": {
+    "color": "var(--white-30)"
+  },
+  ".white-20_hover:hover": {
+    "color": "var(--white-20)"
+  },
+  ".white-10_hover:hover": {
+    "color": "var(--white-10)"
+  },
+  ".white-bg_hover:hover": {
+    "color": "var(--white)"
+  },
+  ".white-90-bg_hover:hover": {
+    "color": "var(--white-90)"
+  },
+  ".white-80-bg_hover:hover": {
+    "color": "var(--white-80)"
+  },
+  ".white-70-bg_hover:hover": {
+    "color": "var(--white-70)"
+  },
+  ".white-60-bg_hover:hover": {
+    "color": "var(--white-60)"
+  },
+  ".white-50-bg_hover:hover": {
+    "color": "var(--white-50)"
+  },
+  ".white-40-bg_hover:hover": {
+    "color": "var(--white-40)"
+  },
+  ".white-30-bg_hover:hover": {
+    "color": "var(--white-30)"
+  },
+  ".white-20-bg_hover:hover": {
+    "color": "var(--white-20)"
+  },
+  ".white-10-bg_hover:hover": {
+    "color": "var(--white-10)"
+  },
+  "@media (min-width: 480px)": true,
+  "@media (min-width: 768px)": true,
+  "@media (min-width: 1024px)": true,
+  "@media (min-width: 1440px)": true,
+  "@media min-width: 1920px)": true
+}
