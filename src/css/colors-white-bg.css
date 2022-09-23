@@ -1,0 +1,30 @@
+.white-bg {
+  color: var(--white);
+}
+.white-90-bg {
+  color: var(--white-90);
+}
+.white-80-bg {
+  color: var(--white-80);
+}
+.white-70-bg {
+  color: var(--white-70);
+}
+.white-60-bg {
+  color: var(--white-60);
+}
+.white-50-bg {
+  color: var(--white-50);
+}
+.white-40-bg {
+  color: var(--white-40);
+}
+.white-30-bg {
+  color: var(--white-30);
+}
+.white-20-bg {
+  color: var(--white-20);
+}
+.white-10-bg {
+  color: var(--white-10);
+}

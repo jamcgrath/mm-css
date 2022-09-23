@@ -1,0 +1,9 @@
+.coral-light-bg {
+  background-color: var(--coral-light);
+}
+.coral-bg {
+  background-color: var(--coral);
+}
+.coral-dark-bg {
+  background-color: var(--coral-dark);
+}

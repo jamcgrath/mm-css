@@ -1,0 +1,18 @@
+.aqua-light_active:active {
+  color: var(--aqua-light);
+}
+.aqua_active:active {
+  color: var(--aqua);
+}
+.aqua-dark_active:active {
+  color: var(--aqua-dark);
+}
+.aqua-light-bg_active:active {
+  background-color: var(--aqua-light);
+}
+.aqua-bg_active:active {
+  background-color: var(--aqua);
+}
+.aqua-dark-bg_active:active {
+  background-color: var(--aqua-dark);
+}

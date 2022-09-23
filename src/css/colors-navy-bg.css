@@ -1,0 +1,36 @@
+.navy-light-bg {
+  background-color: var(--navy-light);
+}
+.navy-bg {
+  background-color: var(--navy);
+}
+.navy-dark-bg {
+  background-color: var(--navy-dark);
+}
+.navy-90-bg {
+  background-color: var(--navy-90);
+}
+.navy-80-bg {
+  background-color: var(--navy-80);
+}
+.navy-70-bg {
+  background-color: var(--navy-70);
+}
+.navy-60-bg {
+  background-color: var(--navy-60);
+}
+.navy-50-bg {
+  background-color: var(--navy-50);
+}
+.navy-40-bg {
+  background-color: var(--navy-40);
+}
+.navy-30-bg {
+  background-color: var(--navy-30);
+}
+.navy-20-bg {
+  background-color: var(--navy-20);
+}
+.navy-10-bg {
+  background-color: var(--navy-10);
+}

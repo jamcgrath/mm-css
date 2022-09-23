@@ -1,0 +1,9 @@
+.citrus-light-bg {
+  background-color: var(--citrus-light);
+}
+.citrus-bg {
+  background-color: var(--citrus);
+}
+.citrus-dark-bg {
+  background-color: var(--citrus-dark);
+}

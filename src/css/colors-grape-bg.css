@@ -1,0 +1,36 @@
+.grape-light-bg {
+  background-color: var(--grape-light);
+}
+.grape-bg {
+  background-color: var(--grape);
+}
+.grape-dark-bg {
+  background-color: var(--grape-dark);
+}
+.grape-90-bg {
+  background-color: var(--grape-90);
+}
+.grape-80-bg {
+  background-color: var(--grape-80);
+}
+.grape-70-bg {
+  background-color: var(--grape-70);
+}
+.grape-60-bg {
+  background-color: var(--grape-60);
+}
+.grape-50-bg {
+  background-color: var(--grape-50);
+}
+.grape-40-bg {
+  background-color: var(--grape-40);
+}
+.grape-30-bg {
+  background-color: var(--grape-30);
+}
+.grape-20-bg {
+  background-color: var(--grape-20);
+}
+.grape-10-bg {
+  background-color: var(--grape-10);
+}

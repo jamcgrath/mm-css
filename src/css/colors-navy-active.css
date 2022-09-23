@@ -1,0 +1,72 @@
+.navy-light_active:active {
+  color: var(--navy-light);
+}
+.navy_active:active {
+  color: var(--navy);
+}
+.navy-dark_active:active {
+  color: var(--navy-dark);
+}
+.navy-90_active:active {
+  color: var(--navy-90);
+}
+.navy-80_active:active {
+  color: var(--navy-80);
+}
+.navy-70_active:active {
+  color: var(--navy-70);
+}
+.navy-60_active:active {
+  color: var(--navy-60);
+}
+.navy-50_active:active {
+  color: var(--navy-50);
+}
+.navy-40_active:active {
+  color: var(--navy-40);
+}
+.navy-30_active:active {
+  color: var(--navy-30);
+}
+.navy-20_active:active {
+  color: var(--navy-20);
+}
+.navy-10_active:active {
+  color: var(--navy-10);
+}
+.navy-light-bg_active:active {
+  background-color: var(--navy-light);
+}
+.navy-bg_active:active {
+  background-color: var(--navy);
+}
+.navy-dark-bg_active:active {
+  background-color: var(--navy-dark);
+}
+.navy-90-bg_active:active {
+  background-color: var(--navy-90);
+}
+.navy-80-bg_active:active {
+  background-color: var(--navy-80);
+}
+.navy-70-bg_active:active {
+  background-color: var(--navy-70);
+}
+.navy-60-bg_active:active {
+  background-color: var(--navy-60);
+}
+.navy-50-bg_active:active {
+  background-color: var(--navy-50);
+}
+.navy-40-bg_active:active {
+  background-color: var(--navy-40);
+}
+.navy-30-bg_active:active {
+  background-color: var(--navy-30);
+}
+.navy-20-bg_active:active {
+  background-color: var(--navy-20);
+}
+.navy-10-bg_active:active {
+  background-color: var(--navy-10);
+}
