@@ -6278,9 +6278,25 @@ html:focus-within {
 		aspect-ratio: auto;
 	}
 
+.br-0 {
+    border-radius: 0;
+  }
+
+.br-4 {
+    border-radius: 4px;
+  }
+
+.br-8 {
+    border-radius: 8px;
+  }
+
+.br-12 {
+    border-radius: 12px;
+  }
+
 .circle {
-	border-radius: 50%;
-}
+    border-radius: 50%;
+  }
 
 .box-border {
 	box-sizing: border-box;
@@ -10795,6 +10811,21 @@ button[disabled],
 	.sm-aspect-auto {
 		aspect-ratio: auto;
 	}
+  .sm-br-0 {
+    border-radius: 0;
+  }
+  .sm-br-4 {
+    border-radius: 4px;
+  }
+  .sm-br-8 {
+    border-radius: 8px;
+  }
+  .sm-br-12 {
+    border-radius: 12px;
+  }
+  .sm-circle {
+    border-radius: 50%;
+  }
 	.sm-float-left {
 		float: left;
 	}
@@ -14210,6 +14241,21 @@ button[disabled],
 	.md-aspect-auto {
 		aspect-ratio: auto;
 	}
+  .md-br-0 {
+    border-radius: 0;
+  }
+  .md-br-4 {
+    border-radius: 4px;
+  }
+  .md-br-8 {
+    border-radius: 8px;
+  }
+  .md-br-12 {
+    border-radius: 12px;
+  }
+  .md-circle {
+    border-radius: 50%;
+  }
 	.md-float-left {
 		float: left;
 	}
@@ -17625,6 +17671,21 @@ button[disabled],
 	.lg-aspect-auto {
 		aspect-ratio: auto;
 	}
+  .lg-br-0 {
+    border-radius: 0;
+  }
+  .lg-br-4 {
+    border-radius: 4px;
+  }
+  .lg-br-8 {
+    border-radius: 8px;
+  }
+  .lg-br-12 {
+    border-radius: 12px;
+  }
+  .lg-circle {
+    border-radius: 50%;
+  }
 	.lg-float-left {
 		float: left;
 	}
@@ -21040,6 +21101,21 @@ button[disabled],
 	.xl-aspect-auto {
 		aspect-ratio: auto;
 	}
+  .xl-br-0 {
+    border-radius: 0;
+  }
+  .xl-br-4 {
+    border-radius: 4px;
+  }
+  .xl-br-8 {
+    border-radius: 8px;
+  }
+  .xl-br-12 {
+    border-radius: 12px;
+  }
+  .xl-circle {
+    border-radius: 50%;
+  }
 	.xl-float-left {
 		float: left;
 	}
@@ -24455,6 +24531,21 @@ button[disabled],
 	.xxl-aspect-auto {
 		aspect-ratio: auto;
 	}
+  .xxl-br-0 {
+    border-radius: 0;
+  }
+  .xxl-br-4 {
+    border-radius: 4px;
+  }
+  .xxl-br-8 {
+    border-radius: 8px;
+  }
+  .xxl-br-12 {
+    border-radius: 12px;
+  }
+  .xxl-circle {
+    border-radius: 50%;
+  }
 	.xxl-float-left {
 		float: left;
 	}
