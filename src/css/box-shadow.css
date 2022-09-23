@@ -1,6 +1,6 @@
-.box-shadow-small,
-.box-shadow-medium,
-.box-shadow-large {
+.box-shadow-sm,
+.box-shadow-med,
+.box-shadow-lg {
   --_bs-x: var(--bs-x, 0);
   --_bs-y: var(--bs-y, 4px);
   --_bs-blur: var(--bs-blur, 12px);
@@ -8,11 +8,11 @@
   --_bs-color: var(--bs-color, rgba(0, 0, 0, 0.04));
   box-shadow: var(--_bs-x) var(--_bs-y) var(--_bs-blur) var(--_bs-spread) var(--_bs-color);
 }
-.box-shadow-medium {;
+.box-shadow-med {;
   --bs-y: 6px;
   --bs-color:rgba(0, 0, 0, 0.12);
 }
-.box-shadow-large {
+.box-shadow-lg {
 	--bs-y: 12px;
 	--bs-blur: 24px;
 	--bs-color, rgba(0, 0, 0, 0.24);
