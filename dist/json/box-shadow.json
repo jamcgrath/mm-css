@@ -1,0 +1,25 @@
+{
+  ".box-shadow-sm,\n.box-shadow-med,\n.box-shadow-lg": {
+    "--_bs-x": "var(--bs-x, 0)",
+    "--_bs-y": "var(--bs-y, 4px)",
+    "--_bs-blur": "var(--bs-blur, 12px)",
+    "--_bs-spread": "var(--bs-spread, 0)",
+    "--_bs-color": "var(--bs-color, rgba(0, 0, 0, 0.04))",
+    "boxShadow": "var(--_bs-x) var(--_bs-y) var(--_bs-blur) var(--_bs-spread)\n    var(--_bs-color)"
+  },
+  ".box-shadow-med": {
+    "--bs-y": "6px",
+    "--bs-color": "rgba(0, 0, 0, 0.12)"
+  },
+  ".box-shadow-lg": {
+    "--bs-y": "12px",
+    "--bs-blur": "24px",
+    "--bs-color": "rgba(0, 0, 0, 0.24)",
+    "boxShadow": "var(--_bs-x) var(--_bs-y) var(--_bs-blur) var(--_bs-spread)\n    var(--_bs-color)"
+  },
+  "@media (min-width: 480px)": true,
+  "@media (min-width: 768px)": true,
+  "@media (min-width: 1024px)": true,
+  "@media (min-width: 1440px)": true,
+  "@media min-width: 1920px)": true
+}
