@@ -32,9 +32,6 @@
   ".z-1000": {
     "zIndex": 1000
   },
-  ".z-negative": {
-    "zIndex": -1
-  },
   ".z-max": {
     "zIndex": 2147483647
   },
