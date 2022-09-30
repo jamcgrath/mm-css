@@ -25,8 +25,6 @@
   --navy-20: hsla(234, 100%, 25%, 0.2);
   --navy-10: hsla(234, 100%, 25%, 0.1);
 
-  --product-primary: hsla(234, 80%, 41%, 1);
-
   --citrus-light: hsla(0, 100%, 89%, 1);
   --citrus: hsla(0, 100%, 78%, 1);
   --citrus-dark: hsla(0, 100%, 74%, 1);
@@ -88,6 +86,10 @@
   --error-light: hsla(352, 100%, 95%, 1);
 
   --hover: hsla(234, 80%, 41%, 1);
+  --hover-light: hsla(271, 100%, 76%, 1);
+  --pressed: hsla(234, 99%, 20%, 1);
+  --pressed-light: hsla(271, 100%, 76%, 1);
+  --motion: linear-gradient(90deg, #f1f4ff 0%, #e7ebfb 100%);
 
   --transparent: transparent;
 }
