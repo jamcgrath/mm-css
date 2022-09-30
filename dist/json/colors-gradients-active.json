@@ -1,0 +1,16 @@
+{
+  ".bo-1-gradient-bg_active:active": {
+    "background": "var(--bo-1)"
+  },
+  ".bo-2-gradient-bg_active:active": {
+    "background": "var(--bo-1)"
+  },
+  ".motion-gradient-bg_active:active": {
+    "background": "var(--motion)"
+  },
+  "@media (min-width: 480px)": true,
+  "@media (min-width: 768px)": true,
+  "@media (min-width: 1024px)": true,
+  "@media (min-width: 1440px)": true,
+  "@media min-width: 1920px)": true
+}

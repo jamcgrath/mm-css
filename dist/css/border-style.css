@@ -1,0 +1,17 @@
+.border-solid {
+  border-style: solid;
+}
+.border-dashed {
+  border-style: dashed;
+}
+.border-dotted {
+  border-style: dotted;
+}
+.border-double {
+  border-style: double;
+}
+@media (min-width: 480px);
+@media (min-width: 768px);
+@media (min-width: 1024px);
+@media (min-width: 1440px);
+@media min-width: 1920px)

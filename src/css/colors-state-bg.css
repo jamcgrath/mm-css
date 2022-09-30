@@ -1,0 +1,12 @@
+.hover-bg:hover {
+  background-color-bg: var(--hover);
+}
+.pressed-bg:active {
+  background-color-bg: var(--pressed);
+}
+.hover-light-bg:hover {
+  background-color-bg: var(--hover);
+}
+.pressed-light-bg:active {
+  background-color-bg: var(--pressed);
+}

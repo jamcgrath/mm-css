@@ -1,0 +1,12 @@
+.hover:hover {
+	color: var(--hover);
+}
+.pressed:active {
+	color: var(--pressed);
+}
+.hover-light:hover {
+	color: var(--hover);
+}
+.pressed-light:active {
+	color: var(--pressed);
+}
