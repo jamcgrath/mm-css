@@ -400,6 +400,8 @@ html:focus-within {
   --navy-20: hsla(234, 100%, 25%, 0.2);
   --navy-10: hsla(234, 100%, 25%, 0.1);
 
+  --product-primary: hsla(234, 80%, 41%, 1);
+
   --citrus-light: hsla(0, 100%, 89%, 1);
   --citrus: hsla(0, 100%, 78%, 1);
   --citrus-dark: hsla(0, 100%, 74%, 1);
@@ -459,6 +461,8 @@ html:focus-within {
   --warning-light: hsla(22, 100%, 96%, 1);
   --error: hsla(351, 92%, 53%, 1);
   --error-light: hsla(352, 100%, 95%, 1);
+
+  --hover: hsla(234, 80%, 41%, 1);
 
   --transparent: transparent;
 }
@@ -4905,8 +4909,38 @@ html:focus-within {
 	}
 
 .border-0 {
-    border: 0;
-  }
+  border: 0;
+}
+
+.border {
+  border-width: 1px;
+}
+
+.border-t {
+  border-top-width: 1px;
+}
+
+.border-r {
+  border-right-width: 1px;
+}
+
+.border-b {
+  border-bottom-width: 1px;
+}
+
+.border-l {
+  border-left-width: 1px;
+}
+
+.border-tb {
+  border-top-width: 1px;
+  border-bottom-width: 1px;
+}
+
+.border-lr {
+  border-left-width: 1px;
+  border-right-width: 1px;
+}
 
 .block {
 		display: block;
@@ -9830,9 +9864,6 @@ button[disabled],
 	.sm-pr-100 {
 		padding-right: var(--space-100);
 	}
-  .sm-border-0 {
-    border: 0;
-  }
 	.sm-block {
 		display: block;
 	}
@@ -13260,9 +13291,6 @@ button[disabled],
 	.md-pr-100 {
 		padding-right: var(--space-100);
 	}
-  .md-border-0 {
-    border: 0;
-  }
 	.md-block {
 		display: block;
 	}
@@ -16690,9 +16718,6 @@ button[disabled],
 	.lg-pr-100 {
 		padding-right: var(--space-100);
 	}
-  .lg-border-0 {
-    border: 0;
-  }
 	.lg-block {
 		display: block;
 	}
@@ -20120,9 +20145,6 @@ button[disabled],
 	.xl-pr-100 {
 		padding-right: var(--space-100);
 	}
-  .xl-border-0 {
-    border: 0;
-  }
 	.xl-block {
 		display: block;
 	}
@@ -23550,9 +23572,6 @@ button[disabled],
 	.xxl-pr-100 {
 		padding-right: var(--space-100);
 	}
-  .xxl-border-0 {
-    border: 0;
-  }
 	.xxl-block {
 		display: block;
 	}
