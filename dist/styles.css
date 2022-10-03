@@ -6315,6 +6315,10 @@ html:focus-within {
     border-radius: 12px;
   }
 
+.br-100 {
+    border-radius: 100px;
+  }
+
 .circle {
     border-radius: 50%;
   }
@@ -10862,6 +10866,9 @@ button[disabled],
   .sm-br-12 {
     border-radius: 12px;
   }
+  .sm-br-100 {
+    border-radius: 100px;
+  }
   .sm-circle {
     border-radius: 50%;
   }
@@ -14288,6 +14295,9 @@ button[disabled],
   }
   .md-br-12 {
     border-radius: 12px;
+  }
+  .md-br-100 {
+    border-radius: 100px;
   }
   .md-circle {
     border-radius: 50%;
@@ -17716,6 +17726,9 @@ button[disabled],
   .lg-br-12 {
     border-radius: 12px;
   }
+  .lg-br-100 {
+    border-radius: 100px;
+  }
   .lg-circle {
     border-radius: 50%;
   }
@@ -21143,6 +21156,9 @@ button[disabled],
   .xl-br-12 {
     border-radius: 12px;
   }
+  .xl-br-100 {
+    border-radius: 100px;
+  }
   .xl-circle {
     border-radius: 50%;
   }
@@ -24569,6 +24585,9 @@ button[disabled],
   }
   .xxl-br-12 {
     border-radius: 12px;
+  }
+  .xxl-br-100 {
+    border-radius: 100px;
   }
   .xxl-circle {
     border-radius: 50%;
