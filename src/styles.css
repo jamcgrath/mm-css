@@ -46,6 +46,11 @@
 @import './css/colors-gray-bg.css';
 @import './css/colors-gray-bg-hover.css';
 @import './css/colors-gray-bg-active.css';
+@import './css/colors-gradients.css';
+@import './css/colors-gradients-hover.css';
+@import './css/colors-gradients-active.css';
+@import './css/colors-state.css';
+@import './css/colors-state-bg.css';
 @import './css/typography-styles.css';
 @import './css/margin.css';
 @import './css/padding.css';
