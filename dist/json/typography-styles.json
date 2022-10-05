@@ -111,9 +111,16 @@
   ".quote": {
     "fontSize": "var(--quote)",
     "fontWeight": "var(--fw-5)",
-    "fontFamily": "var(--serif-1)",
+    "fontFamily": "var(--serif)",
     "fontStyle": "italic",
-    "lineHeight": "var(--lh-120)"
+    "lineHeight": "var(--lh-120)",
+    "quotes": "'“' '”' '‘' '’'"
+  },
+  ".quote:before": {
+    "content": "open-quote"
+  },
+  ".quote:after": {
+    "content": "close-quote"
   },
   "@media (min-width: 480px)": {
     ".sm-title-1,\n.sm-title-1_article,\n.sm-title-1_med,\n.sm-title-1_semibold,\n.sm-title-1_display": {
@@ -228,9 +235,16 @@
     ".sm-quote": {
       "fontSize": "var(--quote)",
       "fontWeight": "var(--fw-5)",
-      "fontFamily": "var(--serif-1)",
+      "fontFamily": "var(--serif)",
       "fontStyle": "italic",
-      "lineHeight": "var(--lh-120)"
+      "lineHeight": "var(--lh-120)",
+      "quotes": "'“' '”' '‘' '’'"
+    },
+    ".sm-quote:before": {
+      "content": "open-quote"
+    },
+    ".sm-quote:after": {
+      "content": "close-quote"
     }
   },
   "@media (min-width: 768px)": {
@@ -346,9 +360,16 @@
     ".md-quote": {
       "fontSize": "var(--quote)",
       "fontWeight": "var(--fw-5)",
-      "fontFamily": "var(--serif-1)",
+      "fontFamily": "var(--serif)",
       "fontStyle": "italic",
-      "lineHeight": "var(--lh-120)"
+      "lineHeight": "var(--lh-120)",
+      "quotes": "'“' '”' '‘' '’'"
+    },
+    ".md-quote:before": {
+      "content": "open-quote"
+    },
+    ".md-quote:after": {
+      "content": "close-quote"
     }
   },
   "@media (min-width: 1024px)": {
@@ -464,9 +485,16 @@
     ".lg-quote": {
       "fontSize": "var(--quote)",
       "fontWeight": "var(--fw-5)",
-      "fontFamily": "var(--serif-1)",
+      "fontFamily": "var(--serif)",
       "fontStyle": "italic",
-      "lineHeight": "var(--lh-120)"
+      "lineHeight": "var(--lh-120)",
+      "quotes": "'“' '”' '‘' '’'"
+    },
+    ".lg-quote:before": {
+      "content": "open-quote"
+    },
+    ".lg-quote:after": {
+      "content": "close-quote"
     }
   },
   "@media (min-width: 1440px)": {
@@ -582,9 +610,16 @@
     ".xl-quote": {
       "fontSize": "var(--quote)",
       "fontWeight": "var(--fw-5)",
-      "fontFamily": "var(--serif-1)",
+      "fontFamily": "var(--serif)",
       "fontStyle": "italic",
-      "lineHeight": "var(--lh-120)"
+      "lineHeight": "var(--lh-120)",
+      "quotes": "'“' '”' '‘' '’'"
+    },
+    ".xl-quote:before": {
+      "content": "open-quote"
+    },
+    ".xl-quote:after": {
+      "content": "close-quote"
     }
   },
   "@media min-width: 1920px)": {
@@ -700,9 +735,16 @@
     ".xxl-quote": {
       "fontSize": "var(--quote)",
       "fontWeight": "var(--fw-5)",
-      "fontFamily": "var(--serif-1)",
+      "fontFamily": "var(--serif)",
       "fontStyle": "italic",
-      "lineHeight": "var(--lh-120)"
+      "lineHeight": "var(--lh-120)",
+      "quotes": "'“' '”' '‘' '’'"
+    },
+    ".xxl-quote:before": {
+      "content": "open-quote"
+    },
+    ".xxl-quote:after": {
+      "content": "close-quote"
     }
   }
 }

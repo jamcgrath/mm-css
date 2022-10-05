@@ -225,9 +225,16 @@
 .quote {
     font-size: var(--quote);
     font-weight: var(--fw-5);
-    font-family: var(--serif-1);
+    font-family: var(--serif);
     font-style: italic;
     line-height: var(--lh-120);
+    quotes: '“' '”' '‘' '’';
+  }
+.quote:before {
+    content: open-quote;
+  }
+.quote:after {
+    content: close-quote;
   }
 @media (min-width: 480px) {
   .sm-title-1,
@@ -473,9 +480,16 @@
   .sm-quote {
     font-size: var(--quote);
     font-weight: var(--fw-5);
-    font-family: var(--serif-1);
+    font-family: var(--serif);
     font-style: italic;
     line-height: var(--lh-120);
+    quotes: '“' '”' '‘' '’';
+  }
+  .sm-quote:before {
+    content: open-quote;
+  }
+  .sm-quote:after {
+    content: close-quote;
   }
 }
 @media (min-width: 768px) {
@@ -722,9 +736,16 @@
   .md-quote {
     font-size: var(--quote);
     font-weight: var(--fw-5);
-    font-family: var(--serif-1);
+    font-family: var(--serif);
     font-style: italic;
     line-height: var(--lh-120);
+    quotes: '“' '”' '‘' '’';
+  }
+  .md-quote:before {
+    content: open-quote;
+  }
+  .md-quote:after {
+    content: close-quote;
   }
 }
 @media (min-width: 1024px) {
@@ -971,9 +992,16 @@
   .lg-quote {
     font-size: var(--quote);
     font-weight: var(--fw-5);
-    font-family: var(--serif-1);
+    font-family: var(--serif);
     font-style: italic;
     line-height: var(--lh-120);
+    quotes: '“' '”' '‘' '’';
+  }
+  .lg-quote:before {
+    content: open-quote;
+  }
+  .lg-quote:after {
+    content: close-quote;
   }
 }
 @media (min-width: 1440px) {
@@ -1220,9 +1248,16 @@
   .xl-quote {
     font-size: var(--quote);
     font-weight: var(--fw-5);
-    font-family: var(--serif-1);
+    font-family: var(--serif);
     font-style: italic;
     line-height: var(--lh-120);
+    quotes: '“' '”' '‘' '’';
+  }
+  .xl-quote:before {
+    content: open-quote;
+  }
+  .xl-quote:after {
+    content: close-quote;
   }
 }
 @media min-width: 1920px) {
@@ -1469,8 +1504,15 @@
   .xxl-quote {
     font-size: var(--quote);
     font-weight: var(--fw-5);
-    font-family: var(--serif-1);
+    font-family: var(--serif);
     font-style: italic;
     line-height: var(--lh-120);
+    quotes: '“' '”' '‘' '’';
+  }
+  .xxl-quote:before {
+    content: open-quote;
+  }
+  .xxl-quote:after {
+    content: close-quote;
   }
 }

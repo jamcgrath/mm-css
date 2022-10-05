@@ -1,55 +1,54 @@
 :root {
-	--title-1: 4rem;
-	--title-2: 3rem;
-	--title-3: 2.5rem;
-	--title-4: 2rem;
-	--title-5: 1.5rem;
-	--title-6: 1.25rem;
-	--copy: 1.125rem;
-	--body: 1rem;
-	--label: 0.875rem;
-	--caption: 0.75rem;
-	--small: 0.625rem;
-	--overline-big: 0.6875rem;
-	--overline-small: 0.5625rem;
-	--quote: 2.5rem;
+  --title-1: 4rem;
+  --title-2: 3rem;
+  --title-3: 2.5rem;
+  --title-4: 2rem;
+  --title-5: 1.5rem;
+  --title-6: 1.25rem;
+  --copy: 1.125rem;
+  --body: 1rem;
+  --label: 0.875rem;
+  --caption: 0.75rem;
+  --small: 0.625rem;
+  --overline-big: 0.6875rem;
+  --overline-small: 0.5625rem;
+  --quote: 2.5rem;
 
-	/* font-weight */
-	--fw-9: 900;
-	--fw-8: 800;
-	--fw-7: 700;
-	--fw-6: 600;
-	--fw-5: 500;
-	--fw-4: 400;
-	--fw-3: 300;
-	--fw-2: 200;
-	--fw-1: 100;
+  /* font-weight */
+  --fw-9: 900;
+  --fw-8: 800;
+  --fw-7: 700;
+  --fw-6: 600;
+  --fw-5: 500;
+  --fw-4: 400;
+  --fw-3: 300;
+  --fw-2: 200;
+  --fw-1: 100;
 
-	/* line-height */
-	--lh-109: 1.09;
-	--lh-112: 1.125;
-	--lh-116: 1.16;
-	--lh-120: 1.2;
-	--lh-125: 1.25;
-	--lh-133: 1.33;
-	--lh-150: 1.5;
-	--lh-160: 1.6;
-	--lh-171: 1.714;
+  /* line-height */
+  --lh-109: 1.09;
+  --lh-112: 1.125;
+  --lh-116: 1.16;
+  --lh-120: 1.2;
+  --lh-125: 1.25;
+  --lh-133: 1.33;
+  --lh-150: 1.5;
+  --lh-160: 1.6;
+  --lh-171: 1.714;
 
-	/* letter-spacing */
-	--ls-1: 1px;
-	--ls-025: -0.25px;
-	--ls-05: -0.5px;
-	--ls-075: -0.75px;
-	--ls-01: -1px;
-	--ld-0125: -1.25px;
-	--ls-015: -1.5px;
-	--ls-02: -2px;
+  /* letter-spacing */
+  --ls-1: 1px;
+  --ls-025: -0.25px;
+  --ls-05: -0.5px;
+  --ls-075: -0.75px;
+  --ls-01: -1px;
+  --ld-0125: -1.25px;
+  --ls-015: -1.5px;
+  --ls-02: -2px;
 
-	/* font family */
-	--sans: "Poppins", sans-serif;
-	--serif: Georgia, Times, "Times New Roman", serif;
-	--serif-1: "Playfair Display", serif;
+  /* font family */
+  --sans: 'Poppins', sans-serif;
+  --serif: Georgia, Times, 'Times New Roman', serif;
 }
 @media (min-width: 480px);
 @media (min-width: 768px);
