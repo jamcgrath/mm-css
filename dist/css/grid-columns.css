@@ -213,7 +213,7 @@
   }
 }
 
-@media min-width: 1920px) {
+@media (min-width: 1920px) {
   .xxl-grid-col-1 {
     grid-template-columns: repeat(1, minmax(0, 1fr));
   }

@@ -397,7 +397,7 @@
       "gridRow": "span 12"
     }
   },
-  "@media min-width: 1920px)": {
+  "@media (min-width: 1920px)": {
     ".xxl-col-span-auto": {
       "gridColumn": "auto"
     },

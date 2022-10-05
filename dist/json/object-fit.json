@@ -82,7 +82,7 @@
       "objectFit": "scale-down"
     }
   },
-  "@media min-width: 1920px)": {
+  "@media (min-width: 1920px)": {
     ".xxl-of-contain": {
       "of": "contain"
     },

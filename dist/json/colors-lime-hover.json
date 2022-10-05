@@ -21,5 +21,5 @@
   "@media (min-width: 768px)": true,
   "@media (min-width: 1024px)": true,
   "@media (min-width: 1440px)": true,
-  "@media min-width: 1920px)": true
+  "@media (min-width: 1920px)": true
 }

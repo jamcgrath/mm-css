@@ -4436,7 +4436,7 @@
 		margin-right: var(--space-100);
 	}
 }
-@media min-width: 1920px) {
+@media (min-width: 1920px) {
 	.xxl-m-auto {
 		margin: auto;
 	}

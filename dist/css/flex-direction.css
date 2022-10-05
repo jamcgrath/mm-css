@@ -67,7 +67,7 @@
 		flex-direction: column-reverse;
 	}
 }
-@media min-width: 1920px) {
+@media (min-width: 1920px) {
 	.xxl-flex-row {
 		flex-direction: row;
 	}

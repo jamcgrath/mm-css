@@ -622,7 +622,7 @@
       "content": "close-quote"
     }
   },
-  "@media min-width: 1920px)": {
+  "@media (min-width: 1920px)": {
     ".xxl-title-1,\n.xxl-title-1_article,\n.xxl-title-1_med,\n.xxl-title-1_semibold,\n.xxl-title-1_display": {
       "fontSize": "var(--title-1)",
       "fontWeight": "var(--fw-4)",

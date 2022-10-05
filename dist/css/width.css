@@ -367,7 +367,7 @@
 		width: 100vw;
 	}
 }
-@media min-width: 1920px) {
+@media (min-width: 1920px) {
 	.xxl-w-auto {
 		width: auto;
 	}

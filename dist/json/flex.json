@@ -97,7 +97,7 @@
       "flex": "none"
     }
   },
-  "@media min-width: 1920px)": {
+  "@media (min-width: 1920px)": {
     ".xxl-flex-1": {
       "flex": 1
     },

@@ -97,7 +97,7 @@
       "borderRadius": "50%"
     }
   },
-  "@media min-width: 1920px)": {
+  "@media (min-width: 1920px)": {
     ".xxl-br-0": {
       "borderRadius": "0"
     },

@@ -847,7 +847,7 @@
       "gridRowEnd": "13"
     }
   },
-  "@media min-width: 1920px)": {
+  "@media (min-width: 1920px)": {
     ".xxl-col-start-auto": {
       "gridColumnStart": "auto"
     },

@@ -112,7 +112,7 @@
       "alignItems": "stretch"
     }
   },
-  "@media min-width: 1920px)": {
+  "@media (min-width: 1920px)": {
     ".xxl-a-items-flex-start": {
       "alignItems": "flex-start"
     },

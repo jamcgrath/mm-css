@@ -112,7 +112,7 @@
 		align-items: stretch;
 	}
 }
-@media min-width: 1920px) {
+@media (min-width: 1920px) {
 	.xxl-a-items-flex-start {
 		align-items: flex-start;
 	}

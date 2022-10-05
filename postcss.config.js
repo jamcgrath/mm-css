@@ -3,7 +3,7 @@ const breakpoints = [
   { prefix: 'md-', mediaQuery: '(min-width: 768px)' },
   { prefix: 'lg-', mediaQuery: '(min-width: 1024px)' },
   { prefix: 'xl-', mediaQuery: '(min-width: 1440px)' },
-  { prefix: 'xxl-', mediaQuery: 'min-width: 1920px)' },
+  { prefix: 'xxl-', mediaQuery: '(min-width: 1920px)' },
 ]
 
 const responsifyOptions = {

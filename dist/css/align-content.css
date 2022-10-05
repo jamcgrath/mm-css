@@ -157,7 +157,7 @@
 		align-content: normal;
 	}
 }
-@media min-width: 1920px) {
+@media (min-width: 1920px) {
 	.xxl-a-content-start {
 		align-content: start;
 	}

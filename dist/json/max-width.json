@@ -412,7 +412,7 @@
       ]
     }
   },
-  "@media min-width: 1920px)": {
+  "@media (min-width: 1920px)": {
     ".xxl-max-w-5": {
       "maxMaxWidth": "5%"
     },

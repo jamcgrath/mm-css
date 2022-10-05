@@ -127,7 +127,7 @@
       "textAlign": "justify"
     }
   },
-  "@media min-width: 1920px)": {
+  "@media (min-width: 1920px)": {
     ".xxl-text-center": {
       "textAlign": "center"
     },

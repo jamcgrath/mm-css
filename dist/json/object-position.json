@@ -142,7 +142,7 @@
       "objectPosition": "bottom right"
     }
   },
-  "@media min-width: 1920px)": {
+  "@media (min-width: 1920px)": {
     ".xxl-op-t": {
       "objectPosition": "top"
     },

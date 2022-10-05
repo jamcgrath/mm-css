@@ -1717,7 +1717,7 @@
       "columnGap": "var(--space-100)"
     }
   },
-  "@media min-width: 1920px)": {
+  "@media (min-width: 1920px)": {
     ".xxl-gap-0": {
       "gap": "var(--space-0)"
     },

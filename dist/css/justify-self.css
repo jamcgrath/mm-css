@@ -187,7 +187,7 @@
 		justify-self: auto;
 	}
 }
-@media min-width: 1920px) {
+@media (min-width: 1920px) {
 	.xxl-j-self-center {
 		justify-self: center;
 	}

@@ -97,7 +97,7 @@
     border-radius: 50%;
   }
 }
-@media min-width: 1920px) {
+@media (min-width: 1920px) {
   .xxl-br-0 {
     border-radius: 0;
   }

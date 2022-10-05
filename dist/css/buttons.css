@@ -425,7 +425,7 @@ button[disabled],
   }
 }
 
-@media min-width: 1920px) {
+@media (min-width: 1920px) {
 
   .xxl-btn-outline {
     background-color: var(--btn-bg) !important;

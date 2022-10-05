@@ -172,7 +172,7 @@
       "justifyItems": "normal"
     }
   },
-  "@media min-width: 1920px)": {
+  "@media (min-width: 1920px)": {
     ".xxl-j-items-flex-start": {
       "justifyItems": "flex-start"
     },

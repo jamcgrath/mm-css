@@ -140,7 +140,7 @@
     --badge-fs: var(--overline-big);
   }
 }
-@media min-width: 1920px) {
+@media (min-width: 1920px) {
   .xxl-badge-sm,
 .xxl-badge-med {
     --badge-padding: 2px 4px;

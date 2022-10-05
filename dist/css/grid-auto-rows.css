@@ -62,7 +62,7 @@
 		grid-auto-rows: max-content;
 	}
 }
-@media min-width: 1920px) {
+@media (min-width: 1920px) {
 	.xxl-grid-auto-row {
 		grid-auto-rows: auto;
 	}
