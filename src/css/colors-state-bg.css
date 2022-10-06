@@ -4,9 +4,9 @@
 .pressed-bg:active {
   background-color-bg: var(--pressed);
 }
-.hover-light-bg:hover {
-  background-color-bg: var(--hover);
+.hover-alt-bg:hover {
+  background-color-bg: var(--hover-alt);
 }
-.pressed-light-bg:active {
-  background-color-bg: var(--pressed);
+.pressed-alt-bg:active {
+  background-color-bg: var(--pressed-alt);
 }
