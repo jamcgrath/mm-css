@@ -136,14 +136,6 @@
     --btn-padding: var(--space-3) var(--space-6);
   }
 
-  .btn-icon[class*='btn-sm'],
-  .btn-icon[class*='btn-md'] {
-    --gap: var(--space-1-5);
-  }
-
-  .btn-icon[class*='btn-lg'] {
-    --gap: var(--space-2-5);
-  }
   .btn[disabled] {
     --btn-bg: var(--gray-3);
     --btn-color: var(--gray-6);
@@ -183,6 +175,15 @@
   }
   .btn-circle.btn-lg i {
     padding-top: 6px;
+  }
+
+  .btn-icon.btn-sm,
+  .btn-icon.btn-med {
+    --gap: var(--space-1);
+  }
+
+  .btn-icon.btn-lg {
+    --gap: var(--space-2);
   }
 
   .btn:focus-visible {
