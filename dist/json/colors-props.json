@@ -76,9 +76,9 @@
     "--error": "hsla(351, 92%, 53%, 1)",
     "--error-light": "hsla(352, 100%, 95%, 1)",
     "--hover": "hsla(234, 80%, 41%, 1)",
-    "--hover-light": "hsla(271, 100%, 76%, 1)",
+    "--hover-alt": "hsla(271, 100%, 76%, 1)",
     "--pressed": "hsla(234, 99%, 20%, 1)",
-    "--pressed-light": "hsla(271, 100%, 76%, 1)",
+    "--pressed-alt": "hsla(271, 81%, 61%, 1)",
     "--motion": "linear-gradient(90deg, #f1f4ff 0%, #e7ebfb 100%)",
     "--transparent": "transparent"
   },
