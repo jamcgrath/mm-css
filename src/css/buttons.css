@@ -191,7 +191,6 @@
     --btn-gap: var(--spacing-2);
   }
 
-  /* focus ring */
   .btn:focus-visible {
     --btn-focus-color: var(--hover);
     outline: 2px solid var(--btn-focus-color);
