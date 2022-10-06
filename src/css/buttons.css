@@ -10,9 +10,12 @@
     --btn-lh: var(--lh-125);
     --btn-text-align: center;
 
+    background: var(--btn-bg);
+    color: var(--btn-color);
     border: var(--btn-border);
     font-size: var(--btn-fs);
     font-weight: var(--btn-fw);
+    line-height: var(--btn-lh);
     padding: var(--btn-padding);
     text-align: center;
     cursor: pointer;
@@ -21,7 +24,6 @@
     --btn-border-radius: 8px;
     --btn-fs: var(--label);
     --btn-fw: var(--fw-6);
-    --btn-lh: var(--lh-125);
     --btn-gap: var(--btn-gap, 9px);
     border-radius: var(--btn-border-radius);
     display: inline-flex;
@@ -181,14 +183,6 @@
   }
   .btn-circle.btn-lg i {
     padding-top: 6px;
-  }
-
-  .btn-icon.btn-sm,
-  .btn-icon.btn-md {
-    --btn-gap: var(--spacing-1);
-  }
-  .btn-icon.btn-lg {
-    --btn-gap: var(--spacing-2);
   }
 
   .btn:focus-visible {

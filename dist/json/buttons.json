@@ -8,9 +8,12 @@
     "--btn-fw": "var(--fw-4)",
     "--btn-lh": "var(--lh-125)",
     "--btn-text-align": "center",
+    "background": "var(--btn-bg)",
+    "color": "var(--btn-color)",
     "border": "var(--btn-border)",
     "fontSize": "var(--btn-fs)",
     "fontWeight": "var(--btn-fw)",
+    "lineHeight": "var(--btn-lh)",
     "padding": "var(--btn-padding)",
     "textAlign": "center",
     "cursor": "pointer"
@@ -19,7 +22,6 @@
     "--btn-border-radius": "8px",
     "--btn-fs": "var(--label)",
     "--btn-fw": "var(--fw-6)",
-    "--btn-lh": "var(--lh-125)",
     "--btn-gap": "var(--btn-gap, 9px)",
     "borderRadius": "var(--btn-border-radius)",
     "display": "inline-flex",
@@ -160,12 +162,6 @@
   ".btn-circle.btn-lg i": {
     "paddingTop": "6px"
   },
-  ".btn-icon.btn-sm,\n  .btn-icon.btn-md": {
-    "--btn-gap": "var(--spacing-1)"
-  },
-  ".btn-icon.btn-lg": {
-    "--btn-gap": "var(--spacing-2)"
-  },
   ".btn.focus-visible": {
     "--btn-focus-color": "var(--hover)",
     "outline": "2px solid var(--btn-focus-color)",
@@ -187,7 +183,6 @@
       "--btn-border-radius": "8px",
       "--btn-fs": "var(--label)",
       "--btn-fw": "var(--fw-6)",
-      "--btn-lh": "var(--lh-125)",
       "--btn-gap": "var(--btn-gap, 9px)",
       "borderRadius": "var(--btn-border-radius)",
       "display": "inline-flex",
@@ -307,12 +302,6 @@
       "--btn-fs": "var(--body)",
       "paddingTop": "6px"
     },
-    ".sm-btn-icon,\n.sm-btn-icon": {
-      "--btn-gap": "var(--spacing-1)"
-    },
-    ".sm-btn-icon": {
-      "--btn-gap": "var(--spacing-2)"
-    },
     ".sm-btn.focus-visible": {
       "--btn-focus-color": "var(--hover)",
       "outline": "2px solid var(--btn-focus-color)",
@@ -335,7 +324,6 @@
       "--btn-border-radius": "8px",
       "--btn-fs": "var(--label)",
       "--btn-fw": "var(--fw-6)",
-      "--btn-lh": "var(--lh-125)",
       "--btn-gap": "var(--btn-gap, 9px)",
       "borderRadius": "var(--btn-border-radius)",
       "display": "inline-flex",
@@ -455,12 +443,6 @@
       "--btn-fs": "var(--body)",
       "paddingTop": "6px"
     },
-    ".md-btn-icon,\n.md-btn-icon": {
-      "--btn-gap": "var(--spacing-1)"
-    },
-    ".md-btn-icon": {
-      "--btn-gap": "var(--spacing-2)"
-    },
     ".md-btn.focus-visible": {
       "--btn-focus-color": "var(--hover)",
       "outline": "2px solid var(--btn-focus-color)",
@@ -483,7 +465,6 @@
       "--btn-border-radius": "8px",
       "--btn-fs": "var(--label)",
       "--btn-fw": "var(--fw-6)",
-      "--btn-lh": "var(--lh-125)",
       "--btn-gap": "var(--btn-gap, 9px)",
       "borderRadius": "var(--btn-border-radius)",
       "display": "inline-flex",
@@ -603,12 +584,6 @@
       "--btn-fs": "var(--body)",
       "paddingTop": "6px"
     },
-    ".lg-btn-icon,\n.lg-btn-icon": {
-      "--btn-gap": "var(--spacing-1)"
-    },
-    ".lg-btn-icon": {
-      "--btn-gap": "var(--spacing-2)"
-    },
     ".lg-btn.focus-visible": {
       "--btn-focus-color": "var(--hover)",
       "outline": "2px solid var(--btn-focus-color)",
@@ -631,7 +606,6 @@
       "--btn-border-radius": "8px",
       "--btn-fs": "var(--label)",
       "--btn-fw": "var(--fw-6)",
-      "--btn-lh": "var(--lh-125)",
       "--btn-gap": "var(--btn-gap, 9px)",
       "borderRadius": "var(--btn-border-radius)",
       "display": "inline-flex",
@@ -751,12 +725,6 @@
       "--btn-fs": "var(--body)",
       "paddingTop": "6px"
     },
-    ".xl-btn-icon,\n.xl-btn-icon": {
-      "--btn-gap": "var(--spacing-1)"
-    },
-    ".xl-btn-icon": {
-      "--btn-gap": "var(--spacing-2)"
-    },
     ".xl-btn.focus-visible": {
       "--btn-focus-color": "var(--hover)",
       "outline": "2px solid var(--btn-focus-color)",
@@ -779,7 +747,6 @@
       "--btn-border-radius": "8px",
       "--btn-fs": "var(--label)",
       "--btn-fw": "var(--fw-6)",
-      "--btn-lh": "var(--lh-125)",
       "--btn-gap": "var(--btn-gap, 9px)",
       "borderRadius": "var(--btn-border-radius)",
       "display": "inline-flex",
@@ -898,12 +865,6 @@
       "height": "56px",
       "--btn-fs": "var(--body)",
       "paddingTop": "6px"
-    },
-    ".xxl-btn-icon,\n.xxl-btn-icon": {
-      "--btn-gap": "var(--spacing-1)"
-    },
-    ".xxl-btn-icon": {
-      "--btn-gap": "var(--spacing-2)"
     },
     ".xxl-btn.focus-visible": {
       "--btn-focus-color": "var(--hover)",
