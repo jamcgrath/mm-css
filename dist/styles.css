@@ -14,8 +14,10 @@
 
 html {
   line-height: 1.25; /* 1 */
-  -webkit-text-size-adjust: 100%; /* 2 */
   font-size: 1rem;
+  -webkit-text-size-adjust: 100%; /* 2 */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 /* Box sizing */
@@ -6395,6 +6397,10 @@ html:focus-within {
     border-radius: 12px;
   }
 
+.br-96 {
+    border-radius: 96px;
+  }
+
 .br-100 {
     border-radius: 100px;
   }
@@ -11107,6 +11113,9 @@ button,
   .sm-br-12 {
     border-radius: 12px;
   }
+  .sm-br-96 {
+    border-radius: 96px;
+  }
   .sm-br-100 {
     border-radius: 100px;
   }
@@ -14471,6 +14480,9 @@ button,
   }
   .md-br-12 {
     border-radius: 12px;
+  }
+  .md-br-96 {
+    border-radius: 96px;
   }
   .md-br-100 {
     border-radius: 100px;
@@ -17837,6 +17849,9 @@ button,
   .lg-br-12 {
     border-radius: 12px;
   }
+  .lg-br-96 {
+    border-radius: 96px;
+  }
   .lg-br-100 {
     border-radius: 100px;
   }
@@ -21202,6 +21217,9 @@ button,
   .xl-br-12 {
     border-radius: 12px;
   }
+  .xl-br-96 {
+    border-radius: 96px;
+  }
   .xl-br-100 {
     border-radius: 100px;
   }
@@ -24566,6 +24584,9 @@ button,
   }
   .xxl-br-12 {
     border-radius: 12px;
+  }
+  .xxl-br-96 {
+    border-radius: 96px;
   }
   .xxl-br-100 {
     border-radius: 100px;

@@ -11,6 +11,9 @@
   ".br-12": {
     "borderRadius": "12px"
   },
+  ".br-96": {
+    "borderRadius": "96px"
+  },
   ".br-100": {
     "borderRadius": "100px"
   },
@@ -29,6 +32,9 @@
     },
     ".sm-br-12": {
       "borderRadius": "12px"
+    },
+    ".sm-br-96": {
+      "borderRadius": "96px"
     },
     ".sm-br-100": {
       "borderRadius": "100px"
@@ -50,6 +56,9 @@
     ".md-br-12": {
       "borderRadius": "12px"
     },
+    ".md-br-96": {
+      "borderRadius": "96px"
+    },
     ".md-br-100": {
       "borderRadius": "100px"
     },
@@ -69,6 +78,9 @@
     },
     ".lg-br-12": {
       "borderRadius": "12px"
+    },
+    ".lg-br-96": {
+      "borderRadius": "96px"
     },
     ".lg-br-100": {
       "borderRadius": "100px"
@@ -90,6 +102,9 @@
     ".xl-br-12": {
       "borderRadius": "12px"
     },
+    ".xl-br-96": {
+      "borderRadius": "96px"
+    },
     ".xl-br-100": {
       "borderRadius": "100px"
     },
@@ -109,6 +124,9 @@
     },
     ".xxl-br-12": {
       "borderRadius": "12px"
+    },
+    ".xxl-br-96": {
+      "borderRadius": "96px"
     },
     ".xxl-br-100": {
       "borderRadius": "100px"
