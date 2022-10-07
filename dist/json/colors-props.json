@@ -77,8 +77,12 @@
     "--error-light": "hsla(352, 100%, 95%, 1)",
     "--hover": "hsla(234, 80%, 41%, 1)",
     "--hover-alt": "hsla(271, 100%, 76%, 1)",
+    "--hover-navy-light": "hsla(234, 34%, 88%, 1)",
+    "--hover-error": "hsla(351, 92%, 63%, 1)",
     "--pressed": "hsla(234, 99%, 20%, 1)",
     "--pressed-alt": "hsla(271, 81%, 61%, 1)",
+    "--pressed-navy-light": "hsla(235, 33%, 78%, 1)",
+    "--pressed-error": "hsla(351, 81%, 48%, 1)",
     "--motion": "linear-gradient(90deg, #f1f4ff 0%, #e7ebfb 100%)",
     "--transparent": "transparent"
   },
