@@ -107,9 +107,7 @@ function createPrefixedRule(rule, prefix) {
 			newLine = "\n";
 		}
 		selectorArray.push(`${newLine}.${prefix}${sel.slice(1)}`);
-		// selectorArray.push(`${newLine}.${prefix}${sel}`);
 	});
-	console.log(selectorArray);
 	const selector = selectorArray.toString();
 
 	return rule.clone({
