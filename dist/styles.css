@@ -8022,27 +8022,28 @@ button,
 }
 
 .btn-circle {
+  --btn-circle-width: ;
   aspect-ratio: 1 / 1;
+  width: var(--btn-circle-width);
+  height: var(--btn-circle-width);
+  overflow: hidden;
 }
 
 .btn-circle.btn-sm {
   --btn-padding: var(--spacing-1_5);
-  width: 24px;
-  height: 24px;
+  --btn-circle-width: 24px;
 }
 
 .btn-circle.btn-med {
   --btn-padding: var(--spacing-2);
   --btn-fs: var(--body);
-  width: 40px;
-  height: 40px;
+  --btn-circle-width: 40px;
 }
 
 .btn-circle.btn-lg {
   --btn-padding: var(--spacing-4);
   --btn-fs: var(--body);
-  width: 56px;
-  height: 56px;
+  --btn-circle-width: 56px;
 }
 
 .btn-circle.btn-sm i {
