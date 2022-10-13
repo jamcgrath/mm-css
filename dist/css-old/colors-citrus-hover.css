@@ -1,0 +1,23 @@
+.citrus-light_hover:hover {
+  color: var(--citrus-light);
+}
+.citrus_hover:hover {
+  color: var(--citrus);
+}
+.citrus-dark_hover:hover {
+  color: var(--citrus-dark);
+}
+.citrus-light-bg_hover:hover {
+  background-color: var(--citrus-light);
+}
+.citrus-bg_hover:hover {
+  background-color: var(--citrus);
+}
+.citrus-dark-bg_hover:hover {
+  background-color: var(--citrus-dark);
+}
+@media (min-width: 480px);
+@media (min-width: 768px);
+@media (min-width: 1024px);
+@media (min-width: 1440px);
+@media (min-width: 1920px)

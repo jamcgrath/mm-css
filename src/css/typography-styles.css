@@ -1,9 +1,9 @@
 @responsive {
   .title-1,
-  .title-1_article,
   .title-1_med,
   .title-1_semibold,
-  .title-1_display {
+  .title-1_display,
+  .title-1_bold {
     font-size: var(--title-1);
     font-weight: var(--fw-4);
     font-family: var(--sans);
@@ -12,9 +12,9 @@
   }
 
   .title-2,
-  .title-2_article,
   .title-2_med,
   .title-2_semibold,
+  .title-2_bold,
   .title-2_display {
     font-size: var(--title-2);
     font-weight: var(--fw-4);
@@ -24,9 +24,9 @@
   }
 
   .title-3,
-  .title-3_article,
   .title-3_med,
   .title-3_semibold,
+  .title-3_bold,
   .title-3_display {
     font-size: var(--title-3);
     font-weight: var(--fw-4);
@@ -36,9 +36,9 @@
   }
 
   .title-4,
-  .title-4_article,
   .title-4_med,
   .title-4_semibold,
+  .title-4_bold,
   .title-4_display {
     font-size: var(--title-4);
     font-weight: var(--fw-4);
@@ -48,9 +48,9 @@
   }
 
   .title-5,
-  .title-5_article,
   .title-5_med,
   .title-5_semibold,
+  .title-5_bold,
   .title-5_display {
     font-size: var(--title-5);
     font-weight: var(--fw-4);
@@ -60,9 +60,9 @@
   }
 
   .title-6,
-  .title-6_article,
   .title-6_med,
   .title-6_semibold,
+  .title-6_bold,
   .title-6_display {
     font-size: var(--title-6);
     font-weight: var(--fw-4);
@@ -75,6 +75,7 @@
   .copy_article,
   .copy_med,
   .copy_semibold,
+  .copy_bold,
   .copy_italic,
   .copy_link,
   .title-7_display {
@@ -89,6 +90,7 @@
   .body_article,
   .body_med,
   .body_semibold,
+  .body_bold,
   .body_italic,
   .body_link,
   .title-8_display {
@@ -103,6 +105,7 @@
   .label_article,
   .label_med,
   .label_semibold,
+  .label_bold,
   .label_italic,
   .label_link,
   .title-9_display {
@@ -116,6 +119,7 @@
   .caption_article,
   .caption_med,
   .caption_semibold,
+  .caption_bold,
   .caption_italic,
   .caption_link,
   .title-10_display {
@@ -129,6 +133,7 @@
   .small_article,
   .small_med,
   .small_semibold,
+  .small_bold,
   .small_italic,
   .small_link {
     font-size: var(--small);
@@ -137,12 +142,28 @@
     line-height: var(--lh-120);
   }
 
-  .title-1_article,
-  .title-2_article,
-  .title-3_article,
-  .title-4_article,
-  .title-5_article,
-  .title-6_article,
+  .overline-large,
+  .overline-large_med,
+  .overline-large_semibold,
+  .overline-large_bold {
+    font-size: var(--overline-large);
+    font-weight: var(--fw-7);
+    font-family: var(--sans);
+    line-height: var(--lh-109);
+    letter-spacing: var(--ls-1);
+  }
+
+  .overline-small,
+  .overline-small_med,
+  .overline-small_semibold,
+  .overline-small_bold {
+    font-size: var(--overline-small);
+    font-weight: var(--fw-7);
+    font-family: var(--sans);
+    line-height: var(--lh-133);
+    letter-spacing: var(--ls-1);
+  }
+
   .copy_article,
   .body_article,
   .label_article,
@@ -170,7 +191,9 @@
   .body_link,
   .label_link,
   .caption_link,
-  .small_link {
+  .small_link,
+  .overline-large_med,
+  .overline-small_med {
     font-weight: var(--fw-5);
   }
   .title-1_semibold,
@@ -183,7 +206,9 @@
   .body_semibold,
   .label_semibold,
   .caption_semibold,
-  .small_semibold {
+  .small_semibold,
+  .overline-large_semibold,
+  .overline-small_semibold {
     font-weight: var(--fw-6);
   }
 
@@ -196,7 +221,20 @@
   .title-7_display,
   .title-8_display,
   .title-9_display,
-  .title-10_display {
+  .title-10_display,
+  .title-1_bold,
+  .title-2_bold,
+  .title-3_bold,
+  .title-4_bold,
+  .title-5_bold,
+  .title-6_bold,
+  .copy_bold,
+  .body_bold,
+  .label_bold,
+  .caption_bold,
+  .small_bold,
+  .overline-large_bold,
+  .overline-small_bold {
     font-weight: var(--fw-7);
   }
 
@@ -221,22 +259,6 @@
   .caption_link,
   .small_link {
     text-decoration: underline;
-  }
-
-  .overline-big {
-    font-size: var(--overline-big);
-    font-weight: var(--fw-7);
-    font-family: var(--sans);
-    line-height: var(--lh-109);
-    letter-spacing: var(--ls-1);
-  }
-
-  .overline-small {
-    font-size: var(--overline-small);
-    font-weight: var(--fw-7);
-    font-family: var(--sans);
-    line-height: var(--lh-133);
-    letter-spacing: var(--ls-1);
   }
 
   .quote {

@@ -1,0 +1,11 @@
+.transparent {
+  color: transparent;
+}
+.transparent-bg {
+  background-color: transparent;
+}
+@media (min-width: 480px);
+@media (min-width: 768px);
+@media (min-width: 1024px);
+@media (min-width: 1440px);
+@media (min-width: 1920px)

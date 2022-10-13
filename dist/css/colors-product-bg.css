@@ -1,0 +1,55 @@
+/* alert backgrounds */
+.info-bg,
+.info-bg_hover:hover {
+  background-color: var(--info);
+}
+.info-light-bg,
+.info-light-bg_hover:hover,
+.info-light-bg_active:active {
+  background-color: var(--info-light);
+}
+.success-bg,
+.success-bg_hover:hover,
+.success-bg_active:active {
+  background-color: var(--success);
+}
+.success-light-bg,
+.success-light-bg_hover:hover,
+.success-light-bg_active:active {
+  background-color: var(--success-light);
+}
+.alert-bg,
+.alert-bg_hover:hover,
+.alert-bg_active:active {
+  background-color: var(--alert);
+}
+.alert-light-bg,
+.alert-light-bg_hover:hover,
+.alert-light-bg_active:active {
+  background-color: var(--alert-light);
+}
+.warning-bg,
+.warning-bg_hover:hover,
+.warning-bg_active:active {
+  background-color: var(--warning);
+}
+.warning-light-bg,
+.warning-light-bg_hover:hover,
+.warning-light-bg_active:active {
+  background-color: var(--warning-light);
+}
+.error-bg,
+.error-bg_hover:hover,
+.error-bg_active:active {
+  background-color: var(--error);
+}
+.error-light-bg,
+.error-light-bg_hover:hover,
+.error-light-bg_active:active {
+  background-color: var(--error-light);
+}
+@media (min-width: 480px);
+@media (min-width: 768px);
+@media (min-width: 1024px);
+@media (min-width: 1440px);
+@media (min-width: 1920px)

@@ -1,0 +1,23 @@
+.lime-light_hover:hover {
+  color: var(--lime-light);
+}
+.lime_hover:hover {
+  color: var(--lime);
+}
+.lime-dark_hover:hover {
+  color: var(--lime-dark);
+}
+.lime-light-bg_hover:hover {
+  background-color: var(--lime-light);
+}
+.lime-bg_hover:hover {
+  background-color: var(--lime);
+}
+.lime-dark-bg_hover:hover {
+  background-color: var(--lime-dark);
+}
+@media (min-width: 480px);
+@media (min-width: 768px);
+@media (min-width: 1024px);
+@media (min-width: 1440px);
+@media (min-width: 1920px)
