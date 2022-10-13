@@ -1,31 +1,31 @@
 /* alert backgrounds */
-.-info-bg_hover:hover {
+.info-bg_hover:hover {
   background-color: var(--info);
 }
-.-info-light-bg_hover:hover {
+.info-light-bg_hover:hover {
   background-color: var(--info-light);
 }
-.-success-bg_hover:hover {
+.success-bg_hover:hover {
   background-color: var(--success);
 }
-.-success-light-bg_hover:hover {
+.success-light-bg_hover:hover {
   background-color: var(--success-light);
 }
-.-alert-bg_hover:hover {
+.alert-bg_hover:hover {
   background-color: var(--alert);
 }
-.-alert-light-bg_hover:hover {
+.alert-light-bg_hover:hover {
   background-color: var(--alert-light);
 }
-.-warning-bg_hover:hover {
+.warning-bg_hover:hover {
   background-color: var(--warning);
 }
-.-warning-light-bg_hover:hover {
+.warning-light-bg_hover:hover {
   background-color: var(--warning-light);
 }
-.-error-bg_hover:hover {
+.error-bg_hover:hover {
   background-color: var(--error);
 }
-.-error-light-bg_hover:hover {
+.error-light-bg_hover:hover {
   background-color: var(--error-light);
 }
