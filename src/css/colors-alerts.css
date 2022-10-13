@@ -1,30 +1,50 @@
-.info {
-	color: var(--info);
+.info,
+.info_hover:hover,
+.info_active:active {
+  color: var(--info);
 }
-.info-light {
-	color: var(--info-light);
+.info-light,
+.info-light_hover:hover,
+.info-light_active:active {
+  color: var(--info-light);
 }
-.success {
-	color: var(--success);
+.success,
+.success_hover:hover,
+.success_active:active {
+  color: var(--success);
 }
-.success-light {
-	color: var(--success-light);
+.success-light,
+.success-light_hover:hover,
+.success-light_active:active {
+  color: var(--success-light);
 }
-.alert {
-	color: var(--alert);
+.alert,
+.alert_hover:hover,
+.alert_active:active {
+  color: var(--alert);
 }
-.alert-light {
-	color: var(--alert-light);
+.alert-light,
+.alert-light_hover:hover,
+.alert-light_active:active {
+  color: var(--alert-light);
 }
-.warning {
-	color: var(--warning);
+.warning,
+.warning_hover:hover,
+.warning_active:active {
+  color: var(--warning);
 }
-.warning-light {
-	color: var(--warning-light);
+.warning-light,
+.warning-light_hover:hover,
+.warning-light_active:active {
+  color: var(--warning-light);
 }
-.error {
-	color: var(--error);
+.error,
+.error_hover:hover,
+.error_active:active {
+  color: var(--error);
 }
-.error-light {
-	color: var(--error-light);
+.error-light,
+.error-light_hover:hover,
+.error-light_active:active {
+  color: var(--error-light);
 }
