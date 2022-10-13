@@ -11,7 +11,7 @@
     "--label": "0.875rem",
     "--caption": "0.75rem",
     "--small": "0.625rem",
-    "--overline-big": "0.6875rem",
+    "--overline-large": "0.75rem",
     "--overline-small": "0.5625rem",
     "--quote": "2.5rem",
     "--fw-9": "900",
