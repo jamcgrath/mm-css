@@ -1,11 +1,11 @@
 {
-  ".lime-light": {
+  ".lime-light,\n.lime-light_hover:hover,\n.lime-light_active:active": {
     "color": "var(--lime-light)"
   },
-  ".lime": {
+  ".lime,\n.lime_hover:hover,\n.lime_active:active": {
     "color": "var(--lime)"
   },
-  ".lime-dark": {
+  ".lime-dark,\n.lime-dark_hover:hover,\n.lime-dark_active:active": {
     "color": "var(--lime-dark)"
   },
   "@media (min-width: 480px)": true,

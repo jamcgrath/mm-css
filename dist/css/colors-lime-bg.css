@@ -1,10 +1,16 @@
-.lime-light-bg {
+.lime-light-bg,
+.lime-light-bg_hover:hover,
+.lime-light-bg_active:active {
   background-color: var(--lime-light);
 }
-.lime-bg {
+.lime-bg,
+.lime-bg_hover:hover,
+.lime-bg_active:active {
   background-color: var(--lime);
 }
-.lime-dark-bg {
+.lime-dark-bg,
+.lime-dark-bg_hover:hover,
+.lime-dark-bg_active:active {
   background-color: var(--lime-dark);
 }
 @media (min-width: 480px);

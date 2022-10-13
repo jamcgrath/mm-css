@@ -1,11 +1,11 @@
 {
-  ".coral-light": {
+  ".coral-light,\n.coral-light_hover:hover,\n.coral-light_active:active": {
     "color": "var(--coral-light)"
   },
-  ".coral": {
+  ".coral,\n.coral_hover:hover,\n.coral_active:active": {
     "color": "var(--coral)"
   },
-  ".coral-dark": {
+  ".coral-dark,\n.coral-dark_hover:hover,\n.coral-dark_active:active": {
     "color": "var(--coral-dark)"
   },
   "@media (min-width: 480px)": true,

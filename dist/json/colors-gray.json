@@ -1,29 +1,29 @@
 {
-  ".gray-1": {
+  ".gray-1,\n.gray-1_hover:hover,\n.gray-1_active:active": {
     "color": "var(--gray-1)"
   },
-  ".gray-2": {
+  ".gray-2,\n.gray-2_hover:hover,\n.gray-2_active:active": {
     "color": "var(--gray-2)"
   },
-  ".gray-3": {
+  ".gray-3,\n.gray-3_hover:hover,\n.gray-3_active:active": {
     "color": "var(--gray-3)"
   },
-  ".gray-4": {
+  ".gray-4,\n.gray-4_hover:hover,\n.gray-4_active:active": {
     "color": "var(--gray-4)"
   },
-  ".gray-5": {
+  ".gray-5,\n.gray-5_hover:hover,\n.gray-5_active:active": {
     "color": "var(--gray-5)"
   },
-  ".gray-6": {
+  ".gray-6,\n.gray-6_hover:hover,\n.gray-6_active:active": {
     "color": "var(--gray-6)"
   },
-  ".gray-7": {
+  ".gray-7,\n.gray-7_hover:hover,\n.gray-7_active:active": {
     "color": "var(--gray-7)"
   },
-  ".gray-8": {
+  ".gray-8,\n.gray-8_hover:hover,\n.gray-8_active:active": {
     "color": "var(--gray-8)"
   },
-  ".gray-9": {
+  ".gray-9,\n.gray-9_hover:hover,\n.gray-9_active:active": {
     "color": "var(--gray-9)"
   },
   "@media (min-width: 480px)": true,

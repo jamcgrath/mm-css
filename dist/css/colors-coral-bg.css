@@ -1,10 +1,16 @@
-.coral-light-bg {
+.coral-light-bg,
+.coral-light-bg_hover:hover,
+.coral-light-bg_active:active {
   background-color: var(--coral-light);
 }
-.coral-bg {
+.coral-bg,
+.coral-bg_hover:hover,
+.coral-bg_active:active {
   background-color: var(--coral);
 }
-.coral-dark-bg {
+.coral-dark-bg,
+.coral-dark-bg_hover:hover,
+.coral-dark-bg_active:active {
   background-color: var(--coral-dark);
 }
 @media (min-width: 480px);

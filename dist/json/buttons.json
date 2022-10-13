@@ -34,7 +34,7 @@
     "--btn-color": "var(--white)"
   },
   ".btn-primary:hover": {
-    "--btn-bg": "var(--hover)"
+    "--btn-bg": "var(--navy-hover)"
   },
   ".btn-primary:focus": {
     "--btn-bg": "var(--pressed)"
@@ -44,10 +44,10 @@
     "--btn-color": "var(--navy)"
   },
   ".btn-tonal:hover": {
-    "--btn-bg": "var(--hover-navy-light)"
+    "--btn-bg": "var(--navy-light-hover)"
   },
   ".btn-tonal:focus": {
-    "--btn-bg": "var(--pressed-navy-light)",
+    "--btn-bg": "var(--navy-light-pressed)",
     "--btn-focus-color": "var(--navy)"
   },
   ".btn-outline,\n.btn-outline-secondary,\n.btn-outline-destructive": {
@@ -60,10 +60,10 @@
     "border": "var(--btn-border-width) var(--btn-border-style)\n    var(--btn-border-color)"
   },
   ".btn-outline:hover": {
-    "--btn-color": "var(--hover)"
+    "--btn-color": "var(--navy-hover)"
   },
   ".btn-outline:focus": {
-    "--btn-color": "var(--pressed)"
+    "--btn-color": "var(--navy-pressed)"
   },
   ".btn-flat,\n.btn-flat-secondary,\n.btn-flat-destructive": {
     "background": "transparent !important",
@@ -71,21 +71,21 @@
     "--btn-color": "var(--navy)"
   },
   ".btn-flat:hover": {
-    "--btn-color": "var(--hover)"
+    "--btn-color": "var(--navy-hover)"
   },
   ".btn-flat:focus": {
-    "--btn-color": "var(--pressed)"
+    "--btn-color": "var(--navy-pressed)"
   },
   ".btn-secondary": {
     "--btn-bg": "var(--grape)",
     "--btn-color": "var(--white)"
   },
   ".btn-secondary:hover": {
-    "--btn-bg": "var(--hover-alt)",
+    "--btn-bg": "var(--grape-hover)",
     "--btn-color": "var(--white)"
   },
   ".btn-secondary:focus": {
-    "--btn-bg": "var(--pressed-alt)",
+    "--btn-bg": "var(--grape-pressed)",
     "--btn-color": "var(--white)"
   },
   ".btn-tonal-secondary": {
@@ -96,38 +96,38 @@
     "--btn-color": "var(--grape)"
   },
   ".btn-outline-secondary:hover": {
-    "--btn-color": "var(--hover-alt)"
+    "--btn-color": "var(--grape-hover)"
   },
   ".btn-outline-secondary:focus": {
-    "--btn-color": "var(--pressed-alt)"
+    "--btn-color": "var(--grape-pressed)"
   },
   ".btn-flat-secondary": {
     "--btn-color": "var(--grape)"
   },
   ".btn-flat-secondary:hover": {
-    "--btn-color": "var(--hover-alt)"
+    "--btn-color": "var(--grape-hover)"
   },
   ".btn-flat-secondary:focus": {
-    "--btn-color": "var(--pressed-alt)"
+    "--btn-color": "var(--grape-pressed)"
   },
   ".btn-destructive": {
     "--btn-bg": "var(--error)",
     "--btn-color": "var(--white)"
   },
   ".btn-destructive:hover": {
-    "--btn-bg": "var(--hover-error)"
+    "--btn-bg": "var(--error-hover)"
   },
   ".btn-destructive:focus": {
-    "--btn-bg": "var(--pressed-error)"
+    "--btn-bg": "var(--error-pressed)"
   },
   ".btn-outline-destructive,\n.btn-flat-destructive": {
     "--btn-color": "var(--error)"
   },
   ".btn-outline-destructive:hover,\n.btn-flat-destructive:hover": {
-    "--btn-color": "var(--hover-error)"
+    "--btn-color": "var(--error-hover)"
   },
   ".btn-outline-destructive:focus,\n.btn-flat-destructive:focus": {
-    "--btn-color": "var(--pressed-error)"
+    "--btn-color": "var(--error-pressed)"
   },
   ".btn-sm": {
     "--btn-padding": "var(--space-1) var(--space-3)"
@@ -193,7 +193,7 @@
     "outlineOffset": "2px"
   },
   ".btn-secondary:focus,\n.btn-tonal-secondary:focus,\n.btn-flat-secondary:focus,\n.btn-outline-secondary:focus": {
-    "--btn-focus-color": "var(--pressed-alt)"
+    "--btn-focus-color": "var(--grape-pressed)"
   },
   ".btn-destructive:focus,\n.btn-outline-destructive:focus,\n.btn-flat-destructive:focus": {
     "--btn-focus-color": "var(--error)"

@@ -1,11 +1,11 @@
 {
-  ".citrus-light-bg": {
+  ".citrus-light-bg,\n.citrus-light-bg_hover:hover,\n.citrus-light-bg_active:active": {
     "backgroundColor": "var(--citrus-light)"
   },
-  ".citrus-bg": {
+  ".citrus-bg,\n.citrus-bg_hover:hover,\n.citrus-bg_active:active": {
     "backgroundColor": "var(--citrus)"
   },
-  ".citrus-dark-bg": {
+  ".citrus-dark-bg,\n.citrus-dark-bg_hover:hover,\n.citrus-dark-bg_active:active": {
     "backgroundColor": "var(--citrus-dark)"
   },
   "@media (min-width: 480px)": true,

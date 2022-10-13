@@ -1,11 +1,11 @@
 {
-  ".lime-light-bg": {
+  ".lime-light-bg,\n.lime-light-bg_hover:hover,\n.lime-light-bg_active:active": {
     "backgroundColor": "var(--lime-light)"
   },
-  ".lime-bg": {
+  ".lime-bg,\n.lime-bg_hover:hover,\n.lime-bg_active:active": {
     "backgroundColor": "var(--lime)"
   },
-  ".lime-dark-bg": {
+  ".lime-dark-bg,\n.lime-dark-bg_hover:hover,\n.lime-dark-bg_active:active": {
     "backgroundColor": "var(--lime-dark)"
   },
   "@media (min-width: 480px)": true,

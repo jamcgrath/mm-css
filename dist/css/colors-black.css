@@ -1,31 +1,51 @@
-.black {
+.black,
+.black_hover:hover,
+.black_active:active {
   color: var(--black);
 }
-.black-90 {
+.black-90,
+.black-90_hover:hover,
+.black-90_active:active {
   color: var(--black-90);
 }
-.black-80 {
+.black-80,
+.black-80_hover:hover,
+.black-80_active:active {
   color: var(--black-80);
 }
-.black-70 {
+.black-70,
+.black-70_hover:hover,
+.black-70_active:active {
   color: var(--black-70);
 }
-.black-60 {
+.black-60,
+.black-60_hover:hover,
+.black-60_active:active {
   color: var(--black-60);
 }
-.black-50 {
+.black-50,
+.black-50_hover:hover,
+.black-50_active:active {
   color: var(--black-50);
 }
-.black-40 {
+.black-40,
+.black-40_hover:hover,
+.black-40_active:active {
   color: var(--black-40);
 }
-.black-30 {
+.black-30,
+.black-30_hover:hover,
+.black-30_active:active {
   color: var(--black-30);
 }
-.black-20 {
+.black-20,
+.black-20_hover:hover,
+.black-20_active:active {
   color: var(--black-20);
 }
-.black-10 {
+.black-10,
+.black-10_hover:hover,
+.black-10_active:active {
   color: var(--black-10);
 }
 @media (min-width: 480px);

@@ -1,10 +1,16 @@
-.citrus-light-bg {
+.citrus-light-bg,
+.citrus-light-bg_hover:hover,
+.citrus-light-bg_active:active {
   background-color: var(--citrus-light);
 }
-.citrus-bg {
+.citrus-bg,
+.citrus-bg_hover:hover,
+.citrus-bg_active:active {
   background-color: var(--citrus);
 }
-.citrus-dark-bg {
+.citrus-dark-bg,
+.citrus-dark-bg_hover:hover,
+.citrus-dark-bg_active:active {
   background-color: var(--citrus-dark);
 }
 @media (min-width: 480px);

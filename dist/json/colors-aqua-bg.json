@@ -1,11 +1,11 @@
 {
-  ".aqua-light-bg": {
+  ".aqua-light-bg,\n.aqua-light-bg_hover:hover,\n.aqua-light-bg_active:active": {
     "backgroundColor": "var(--aqua-light)"
   },
-  ".aqua-bg": {
+  ".aqua-bg,\n.aqua-bg_hover:hover,\n.aqua-bg_active:active": {
     "backgroundColor": "var(--aqua)"
   },
-  ".aqua-dark-bg": {
+  ".aqua-dark-bg,\n.aqua-dark-bg_hover:hover,\n.aqua-dark-bg_active:active": {
     "backgroundColor": "var(--aqua-dark)"
   },
   "@media (min-width: 480px)": true,

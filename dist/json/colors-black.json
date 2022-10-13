@@ -1,32 +1,32 @@
 {
-  ".black": {
+  ".black,\n.black_hover:hover,\n.black_active:active": {
     "color": "var(--black)"
   },
-  ".black-90": {
+  ".black-90,\n.black-90_hover:hover,\n.black-90_active:active": {
     "color": "var(--black-90)"
   },
-  ".black-80": {
+  ".black-80,\n.black-80_hover:hover,\n.black-80_active:active": {
     "color": "var(--black-80)"
   },
-  ".black-70": {
+  ".black-70,\n.black-70_hover:hover,\n.black-70_active:active": {
     "color": "var(--black-70)"
   },
-  ".black-60": {
+  ".black-60,\n.black-60_hover:hover,\n.black-60_active:active": {
     "color": "var(--black-60)"
   },
-  ".black-50": {
+  ".black-50,\n.black-50_hover:hover,\n.black-50_active:active": {
     "color": "var(--black-50)"
   },
-  ".black-40": {
+  ".black-40,\n.black-40_hover:hover,\n.black-40_active:active": {
     "color": "var(--black-40)"
   },
-  ".black-30": {
+  ".black-30,\n.black-30_hover:hover,\n.black-30_active:active": {
     "color": "var(--black-30)"
   },
-  ".black-20": {
+  ".black-20,\n.black-20_hover:hover,\n.black-20_active:active": {
     "color": "var(--black-20)"
   },
-  ".black-10": {
+  ".black-10,\n.black-10_hover:hover,\n.black-10_active:active": {
     "color": "var(--black-10)"
   },
   "@media (min-width: 480px)": true,

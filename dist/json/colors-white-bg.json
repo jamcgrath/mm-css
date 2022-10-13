@@ -1,33 +1,33 @@
 {
-  ".white-bg": {
-    "color": "var(--white)"
+  ".white-bg,\n.white-bg_hover:hover,\n.white-bg_active:active": {
+    "backgroundColor": "var(--white)"
   },
-  ".white-90-bg": {
-    "color": "var(--white-90)"
+  ".white-90-bg,\n.white-90-bg_hover:hover,\n.white-90-bg_active:active": {
+    "backgroundColor": "var(--white-90)"
   },
-  ".white-80-bg": {
-    "color": "var(--white-80)"
+  ".white-80-bg,\n.white-80-bg_hover:hover,\n.white-80-bg_active:active": {
+    "backgroundColor": "var(--white-80)"
   },
-  ".white-70-bg": {
-    "color": "var(--white-70)"
+  ".white-70-bg,\n.white-70-bg_hover:hover,\n.white-70-bg_active:active": {
+    "backgroundColor": "var(--white-70)"
   },
-  ".white-60-bg": {
-    "color": "var(--white-60)"
+  ".white-60-bg,\n.white-60-bg_hover:hover,\n.white-60-bg_active:active": {
+    "backgroundColor": "var(--white-60)"
   },
-  ".white-50-bg": {
-    "color": "var(--white-50)"
+  ".white-50-bg,\n.white-50-bg_hover:hover,\n.white-50-bg_active:active": {
+    "backgroundColor": "var(--white-50)"
   },
-  ".white-40-bg": {
-    "color": "var(--white-40)"
+  ".white-40-bg,\n.white-40-bg_hover:hover,\n.white-40-bg_active:active": {
+    "backgroundColor": "var(--white-40)"
   },
-  ".white-30-bg": {
-    "color": "var(--white-30)"
+  ".white-30-bg,\n.white-30-bg_hover:hover,\n.white-30-bg_active:active": {
+    "backgroundColor": "var(--white-30)"
   },
-  ".white-20-bg": {
-    "color": "var(--white-20)"
+  ".white-20-bg,\n.white-20-bg_hover:hover,\n.white-20-bg_active:active": {
+    "backgroundColor": "var(--white-20)"
   },
-  ".white-10-bg": {
-    "color": "var(--white-10)"
+  ".white-10-bg,\n.white-10-bg_hover:hover,\n.white-10-bg_active:active": {
+    "backgroundColor": "var(--white-10)"
   },
   "@media (min-width: 480px)": true,
   "@media (min-width: 768px)": true,

@@ -1,11 +1,11 @@
 {
-  ".citrus-light": {
+  ".citrus-light,\n.citrus-light_hover:hover,\n.citrus-light_active:active": {
     "color": "var(--citrus-light)"
   },
-  ".citrus": {
+  ".citrus,\n.citrus_hover:hover,\n.citrus_active:active": {
     "color": "var(--citrus)"
   },
-  ".citrus-dark": {
+  ".citrus-dark,\n.citrus-dark_hover:hover,\n.citrus-dark_active:active": {
     "color": "var(--citrus-dark)"
   },
   "@media (min-width: 480px)": true,
