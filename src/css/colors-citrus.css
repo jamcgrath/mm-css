@@ -1,9 +1,15 @@
-.citrus-light {
+.citrus-light,
+.citrus-light_hover:hover,
+.citrus-light_active:active {
   color: var(--citrus-light);
 }
-.citrus {
+.citrus,
+.citrus_hover:hover,
+.citrus_active:active {
   color: var(--citrus);
 }
-.citrus-dark {
+.citrus-dark,
+.citrus-dark_hover:hover,
+.citrus-dark_active:active {
   color: var(--citrus-dark);
 }

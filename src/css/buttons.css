@@ -35,7 +35,7 @@ button,
   --btn-color: var(--white);
 }
 .btn-primary:hover {
-  --btn-bg: var(--hover);
+  --btn-bg: var(--navy-hover);
 }
 .btn-primary:focus {
   --btn-bg: var(--pressed);
@@ -45,10 +45,10 @@ button,
   --btn-color: var(--navy);
 }
 .btn-tonal:hover {
-  --btn-bg: var(--hover-navy-light);
+  --btn-bg: var(--navy-light-hover);
 }
 .btn-tonal:focus {
-  --btn-bg: var(--pressed-navy-light);
+  --btn-bg: var(--navy-light-pressed);
 }
 
 .btn-outline,
@@ -68,10 +68,10 @@ button,
     var(--btn-border-color);
 }
 .btn-outline:hover {
-  --btn-color: var(--hover);
+  --btn-color: var(--navy-hover);
 }
 .btn-outline:focus {
-  --btn-color: var(--pressed);
+  --btn-color: var(--navy-pressed);
 }
 .btn-flat,
 .btn-flat-secondary,
@@ -85,21 +85,21 @@ button,
   --btn-color: var(--navy);
 }
 .btn-flat:hover {
-  --btn-color: var(--hover);
+  --btn-color: var(--navy-hover);
 }
 .btn-flat:focus {
-  --btn-color: var(--pressed);
+  --btn-color: var(--navy-pressed);
 }
 .btn-secondary {
   --btn-bg: var(--grape);
   --btn-color: var(--white);
 }
 .btn-secondary:hover {
-  --btn-bg: var(--hover-alt);
+  --btn-bg: var(--grape-hover);
   --btn-color: var(--white);
 }
 .btn-secondary:focus {
-  --btn-bg: var(--pressed-alt);
+  --btn-bg: var(--grape-pressed);
   --btn-color: var(--white);
 }
 .btn-tonal-secondary {
@@ -110,29 +110,29 @@ button,
   --btn-color: var(--grape);
 }
 .btn-outline-secondary:hover {
-  --btn-color: var(--hover-alt);
+  --btn-color: var(--grape-hover);
 }
 .btn-outline-secondary:focus {
-  --btn-color: var(--pressed-alt);
+  --btn-color: var(--grape-pressed);
 }
 .btn-flat-secondary {
   --btn-color: var(--grape);
 }
 .btn-flat-secondary:hover {
-  --btn-color: var(--hover-alt);
+  --btn-color: var(--grape-hover);
 }
 .btn-flat-secondary:focus {
-  --btn-color: var(--pressed-alt);
+  --btn-color: var(--grape-pressed);
 }
 .btn-destructive {
   --btn-bg: var(--error);
   --btn-color: var(--white);
 }
 .btn-destructive:hover {
-  --btn-bg: var(--hover-error);
+  --btn-bg: var(--error-hover);
 }
 .btn-destructive:focus {
-  --btn-bg: var(--pressed-error);
+  --btn-bg: var(--error-pressed);
 }
 .btn-outline-destructive,
 .btn-flat-destructive {
@@ -140,11 +140,11 @@ button,
 }
 .btn-outline-destructive:hover,
 .btn-flat-destructive:hover {
-  --btn-color: var(--hover-error);
+  --btn-color: var(--error-hover);
 }
 .btn-outline-destructive:focus,
 .btn-flat-destructive:focus {
-  --btn-color: var(--pressed-error);
+  --btn-color: var(--error-pressed);
 }
 
 .btn-sm {
@@ -216,7 +216,7 @@ button,
 .btn-tonal-secondary:focus,
 .btn-flat-secondary:focus,
 .btn-outline-secondary:focus {
-  --btn-focus-color: var(--pressed-alt);
+  --btn-focus-color: var(--grape-pressed);
 }
 .btn-destructive:focus,
 .btn-outline-destructive:focus,

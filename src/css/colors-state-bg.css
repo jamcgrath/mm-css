@@ -1,12 +1,27 @@
-.hover-bg:hover {
-  background-color-bg: var(--hover);
+.navy-hover-bg:hover {
+  background-color: var(--hover-navy);
 }
-.pressed-bg:active {
-  background-color-bg: var(--pressed);
+.navy-light-hover-bg:hover {
+  background-color: var(--hover-navy-light);
 }
-.hover-alt-bg:hover {
-  background-color-bg: var(--hover-alt);
+.grape-bg:hover {
+  background-color: var(--hover-grape);
 }
-.pressed-alt-bg:active {
-  background-color-bg: var(--pressed-alt);
+.grape-light-hover-bg:hover {
+  background-color: var(--hover-grape-light);
+}
+.error-hover-bg:hover {
+  background-color: var(--hover-error);
+}
+.navy-pressed-bg:active {
+  background-color: var(--pressed-navy);
+}
+.navy-light-pressed-bg:active {
+  background-color: var(--pressed-navy-light);
+}
+.grape-light-pressed-bg:active {
+  background-color: var(--pressed-grape-light);
+}
+.error-pressed-bg:active {
+  background-color: var(--pressed-error);
 }

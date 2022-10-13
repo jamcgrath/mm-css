@@ -1,36 +1,60 @@
-.navy-light-bg {
+.navy-light-bg,
+.navy-light-bg_hover:hover,
+.navy-light-bg_active:active {
   background-color: var(--navy-light);
 }
-.navy-bg {
+.navy-bg,
+.navy-bg_hover:hover,
+.navy-bg_active:active {
   background-color: var(--navy);
 }
-.navy-dark-bg {
+.navy-dark-bg,
+.navy-dark-bg_hover:hover,
+.navy-dark-bg_active:active {
   background-color: var(--navy-dark);
 }
-.navy-90-bg {
+.navy-90-bg,
+.navy-90-bg_hover:hover,
+.navy-90-bg_active:active {
   background-color: var(--navy-90);
 }
-.navy-80-bg {
+.navy-80-bg,
+.navy-80-bg_hover:hover,
+.navy-80-bg_active:active {
   background-color: var(--navy-80);
 }
-.navy-70-bg {
+.navy-70-bg,
+.navy-70-bg_hover:hover,
+.navy-70-bg_active:active {
   background-color: var(--navy-70);
 }
-.navy-60-bg {
+.navy-60-bg,
+.navy-60-bg_hover:hover,
+.navy-60-bg_active:active {
   background-color: var(--navy-60);
 }
-.navy-50-bg {
+.navy-50-bg,
+.navy-50-bg_hover:hover,
+.navy-50-bg_active:active {
   background-color: var(--navy-50);
 }
-.navy-40-bg {
+.navy-40-bg,
+.navy-40-bg_hover:hover,
+.navy-40-bg_active:active {
   background-color: var(--navy-40);
 }
-.navy-30-bg {
+.navy-30-bg,
+.navy-30-bg_hover:hover,
+.navy-30-bg_active:active {
   background-color: var(--navy-30);
 }
-.navy-20-bg {
+.navy-20-bg,
+.navy-20-bg_hover:hover,
+.navy-20-bg_active:active {
   background-color: var(--navy-20);
 }
-.navy-10-bg {
+.navy-10-bg,
+.navy-10-bg_hover:hover,
+.navy-10-bg_active:active {
   background-color: var(--navy-10);
 }

@@ -1,9 +1,15 @@
-.aqua-light {
+.aqua-light,
+.aqua-light_hover:hover,
+.aqua-light_active:active {
   color: var(--aqua-light);
 }
-.aqua {
+.aqua,
+.aqua_hover:hover,
+.aqua_active:active {
   color: var(--aqua);
 }
-.aqua-dark {
+.aqua-dark,
+.aqua-dark_hover:hover,
+.aqua-dark_active:active {
   color: var(--aqua-dark);
 }

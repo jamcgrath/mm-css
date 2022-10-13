@@ -1,36 +1,60 @@
-.grape-light-bg {
+.grape-light-bg,
+.grape-light-bg_hover:hover,
+.grape-light-bg_active:active {
   background-color: var(--grape-light);
 }
-.grape-bg {
+.grape-bg,
+.grape-bg_hover:hover,
+.grape-bg_active:active {
   background-color: var(--grape);
 }
-.grape-dark-bg {
+.grape-dark-bg,
+.grape-dark-bg_hover:hover,
+.grape-dark-bg_active:active {
   background-color: var(--grape-dark);
 }
-.grape-90-bg {
+.grape-90-bg,
+.grape-90-bg_hover:hover,
+.grape-90-bg_active:active {
   background-color: var(--grape-90);
 }
-.grape-80-bg {
+.grape-80-bg,
+.grape-80-bg_hover:hover,
+.grape-80-bg_active:active {
   background-color: var(--grape-80);
 }
-.grape-70-bg {
+.grape-70-bg,
+.grape-70-bg_hover:hover,
+.grape-70-bg_active:active {
   background-color: var(--grape-70);
 }
-.grape-60-bg {
+.grape-60-bg,
+.grape-60-bg_hover:hover,
+.grape-60-bg_active:active {
   background-color: var(--grape-60);
 }
-.grape-50-bg {
+.grape-50-bg,
+.grape-50-bg_hover:hover,
+.grape-50-bg_active:active {
   background-color: var(--grape-50);
 }
-.grape-40-bg {
+.grape-40-bg,
+.grape-40-bg_hover:hover,
+.grape-40-bg_active:active {
   background-color: var(--grape-40);
 }
-.grape-30-bg {
+.grape-30-bg,
+.grape-30-bg_hover:hover,
+.grape-30-bg_active:active {
   background-color: var(--grape-30);
 }
-.grape-20-bg {
+.grape-20-bg,
+.grape-20-bg_hover:hover,
+.grape-20-bg_active:active {
   background-color: var(--grape-20);
 }
-.grape-10-bg {
+.grape-10-bg,
+.grape-10-bg_hover:hover,
+.grape-10-bg_active:active {
   background-color: var(--grape-10);
 }

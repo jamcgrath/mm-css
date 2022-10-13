@@ -1,9 +1,15 @@
-.coral-light {
+.coral-light,
+.coral-light_hover:hover,
+.coral-light_active:active {
   color: var(--coral-light);
 }
-.coral {
+.coral,
+.coral_hover:hover,
+.coral_active:active {
   color: var(--coral);
 }
-.coral-dark {
+.coral-dark,
+.coral-dark_hover:hover,
+.coral-dark_active:active {
   color: var(--coral-dark);
 }

@@ -1,12 +1,27 @@
-.hover:hover {
-	color: var(--hover);
+.navy-hover:hover {
+  color: var(--hover-navy);
 }
-.pressed:active {
-	color: var(--pressed);
+.navy-light-hover:hover {
+  color: var(--hover-navy-light);
 }
-.hover-light:hover {
-	color: var(--hover);
+.grape:hover {
+  color: var(--hover-grape);
 }
-.pressed-light:active {
-	color: var(--pressed);
+.grape-light-hover:hover {
+  color: var(--hover-grape-light);
+}
+.error-hover:hover {
+  color: var(--hover-error);
+}
+.navy-pressed:active {
+  color: var(--pressed-navy);
+}
+.navy-light-pressed:active {
+  color: var(--pressed-navy-light);
+}
+.grape-light-pressed:active {
+  color: var(--pressed-grape-light);
+}
+.error-pressed:active {
+  color: var(--pressed-error);
 }

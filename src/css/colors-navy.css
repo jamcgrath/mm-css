@@ -1,36 +1,60 @@
-.navy-light {
+.navy-light,
+.navy-light_hover:hover,
+.navy-light_active:active {
   color: var(--navy-light);
 }
-.navy {
+.navy,
+.navy_hover:hover,
+.navy_active:active {
   color: var(--navy);
 }
-.navy-dark {
+.navy-dark,
+.navy-dark_hover:hover,
+.navy-dark_active:active {
   color: var(--navy-dark);
 }
-.navy-90 {
+.navy-90,
+.navy-90_hover:hover,
+.navy-90_active:active {
   color: var(--navy-90);
 }
-.navy-80 {
+.navy-80,
+.navy-80_hover:hover,
+.navy-80_active:active {
   color: var(--navy-80);
 }
-.navy-70 {
+.navy-70,
+.navy-70_hover:hover,
+.navy-70_active:active {
   color: var(--navy-70);
 }
-.navy-60 {
+.navy-60,
+.navy-60_hover:hover,
+.navy-60_active:active {
   color: var(--navy-60);
 }
-.navy-50 {
+.navy-50,
+.navy-50_hover:hover,
+.navy-50_active:active {
   color: var(--navy-50);
 }
-.navy-40 {
+.navy-40,
+.navy-40_hover:hover,
+.navy-40_active:active {
   color: var(--navy-40);
 }
-.navy-30 {
+.navy-30,
+.navy-30_hover:hover,
+.navy-30_active:active {
   color: var(--navy-30);
 }
-.navy-20 {
+.navy-20,
+.navy-20_hover:hover,
+.navy-20_active:active {
   color: var(--navy-20);
 }
-.navy-10 {
+.navy-10,
+.navy-10_hover:hover,
+.navy-10_active:active {
   color: var(--navy-10);
 }
