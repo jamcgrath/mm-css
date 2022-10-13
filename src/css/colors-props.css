@@ -86,10 +86,10 @@
   --error-light: hsla(352, 100%, 95%, 1);
 
   --navy-hover: hsla(234, 80%, 41%, 1);
-  --navy-light-hover hsla(234, 34%, 88%, 1);
-  --grape-hover hsla(271, 100%, 76%, 1);
-  --grape-light-hover hsla(271, 100%, 95%, 1)
-  --error-hover hsla(351, 92%, 63%, 1);
+  --navy-light-hover: hsla(234, 34%, 88%, 1);
+  --grape-hover: hsla(271, 100%, 76%, 1);
+  --grape-light-hover: hsla(271, 100%, 95%, 1)
+  --error-hover: hsla(351, 92%, 63%, 1);
 
   --navy-pressed: hsla(234, 99%, 20%, 1);
   --navy-light-pressed :hsla(235, 33%, 78%, 1);
