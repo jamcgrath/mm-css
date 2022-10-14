@@ -1,29 +1,29 @@
 {
-  ".thin": {
+  ".thin,\n.fw-100": {
     "fontWeight": "var(--fw-1)"
   },
-  ".extra-light": {
+  ".extra-light,\n.fw-200": {
     "fontWeight": "var(--fw-2)"
   },
-  ".light": {
+  ".light,\n.fw-300": {
     "fontWeight": "var(--fw-3)"
   },
-  ".regular": {
+  ".regular. .fw-400": {
     "fontWeight": "var(--fw-4)"
   },
-  ".medium": {
+  ".medium,\n.fw-500": {
     "fontWeight": "var(--fw-5)"
   },
-  ".bold": {
+  ".bold,\n.fw-600": {
     "fontWeight": "var(--fw-6)"
   },
-  ".semi-bold": {
+  ".semi-bold .fw-700": {
     "fontWeight": "var(--fw-7)"
   },
-  ".extra-bold": {
+  ".extra-bold,\n.fw-800": {
     "fontWeight": "var(--fw-8)"
   },
-  ".black-bold": {
+  ".black-bold,\n.fw-900": {
     "fontWeight": "var(--fw-9)"
   },
   "@media (min-width: 480px)": true,

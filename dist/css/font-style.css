@@ -1,11 +1,11 @@
 .italic {
-	font-style: italic;
+  font-style: italic;
 }
-.no-fstyle {
-	font-style: normal;
+.normal {
+  font-style: normal;
 }
 .oblique {
-	font-style: oblique;
+  font-style: oblique;
 }
 @media (min-width: 480px);
 @media (min-width: 768px);
