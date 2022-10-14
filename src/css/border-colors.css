@@ -333,3 +333,15 @@
 .border-error-pressed_hover:hover {
   border-color: var(--error-pressed);
 }
+.border-transparent,
+.border-transparent_hover:hover {
+  border-color: transparent;
+}
+.border-currentcolor,
+.border-currentcolor_hover:hover {
+  border-color: currentColor;
+}
+.border-color-inherit,
+.border-color-inherit_hover:hover {
+  border-color: inherit;
+}

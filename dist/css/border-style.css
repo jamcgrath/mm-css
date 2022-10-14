@@ -10,6 +10,24 @@
 .border-double {
   border-style: double;
 }
+.border-groove {
+  border-style: groove;
+}
+.border-ridge {
+  border-style: ridge;
+}
+.border-inset {
+  border-style: inset;
+}
+.border-outset {
+  border-style: outset;
+}
+.border-none {
+  border-style: none;
+}
+.border-hidden {
+  border-style: hidden;
+}
 @media (min-width: 480px);
 @media (min-width: 768px);
 @media (min-width: 1024px);
