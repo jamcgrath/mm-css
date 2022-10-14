@@ -5,35 +5,21 @@
   .m-0 {
     margin: var(--space-0);
   }
-  .m-0_25 {
-    margin: var(--space-0-25);
-  }
+
   .m-0_5 {
     margin: var(--space-0-5);
   }
   .m-1 {
     margin: var(--space-1);
   }
-  .m-1_25 {
-    margin: var(--space-1-25);
-  }
   .m-1_5 {
     margin: var(--space-1-5);
-  }
-  .m-1_75 {
-    margin: var(--space-1-75);
   }
   .m-2 {
     margin: var(--space-2);
   }
   .m-2_5 {
     margin: var(--space-2-5);
-  }
-  .m-2_5 {
-    margin: var(--space-2-5);
-  }
-  .m-2_75 {
-    margin: var(--space-2-75);
   }
   .m-3 {
     margin: var(--space-3);
@@ -140,41 +126,21 @@
     margin-left: var(--space-0);
     margin-right: var(--space-0);
   }
-  .mx-0_25 {
-    margin-left: var(--space-0-25);
-    margin-right: var(--space-0-25);
-  }
   .mx-0_5 {
     margin-left: var(--space-0-5);
     margin-right: var(--space-0-5);
-  }
-  .mx-0_75 {
-    margin-left: var(--space-0-75);
-    margin-right: var(--space-0-75);
   }
   .mx-1 {
     margin-left: var(--space-1);
     margin-right: var(--space-1);
   }
-  .mx-1_25 {
-    margin-left: var(--space-1-25);
-    margin-right: var(--space-1-25);
-  }
   .mx-1_5 {
     margin-left: var(--space-1-5);
     margin-right: var(--space-1-5);
   }
-  .mx-1_75 {
-    margin-left: var(--space-1-75);
-    margin-right: var(--space-1-75);
-  }
   .mx-2 {
     margin-left: var(--space-2);
     margin-right: var(--space-2);
-  }
-  .mx-2_25 {
-    margin-left: var(--space-2-25);
-    margin-right: var(--space-2-25);
   }
   .mx-2_5 {
     margin-left: var(--space-2-5);
@@ -313,41 +279,22 @@
     margin-bottom: var(--space-0);
     margin-top: var(--space-0);
   }
-  .my-0_25 {
-    margin-bottom: var(--space-0-25);
-    margin-top: var(--space-0-25);
-  }
   .my-0_5 {
     margin-bottom: var(--space-0-5);
     margin-top: var(--space-0-5);
-  }
-  .my-0_75 {
-    margin-bottom: var(--space-0-75);
-    margin-top: var(--space-0-75);
   }
   .my-1 {
     margin-bottom: var(--space-1);
     margin-top: var(--space-1);
   }
-  .my-1_25 {
-    margin-bottom: var(--space-1-25);
-    margin-top: var(--space-1-25);
-  }
   .my-1_5 {
     margin-bottom: var(--space-1-5);
     margin-top: var(--space-1-5);
   }
-  .my-1_75 {
-    margin-bottom: var(--space-1-75);
-    margin-top: var(--space-1-75);
-  }
+
   .my-2 {
     margin-bottom: var(--space-2);
     margin-top: var(--space-2);
-  }
-  .my-2_25 {
-    margin-bottom: var(--space-2-25);
-    margin-top: var(--space-2-25);
   }
   .my-2_5 {
     margin-bottom: var(--space-2-5);
