@@ -1,37 +1,159 @@
 @responsive {
-	.relative {
-		position: relative;
-	}
-	.absolute {
-		position: absolute;
-	}
-	.fixed {
-		position: fixed;
-	}
-	.static {
-		position: static;
-	}
-	.sticky {
-		position: sticky;
-	}
+  .relative {
+    position: relative;
+  }
+  .absolute {
+    position: absolute;
+  }
+  .fixed {
+    position: fixed;
+  }
+  .static {
+    position: static;
+  }
+  .sticky {
+    position: sticky;
+  }
 }
 
 .inset-0 {
-	top: 0;
-	right: 0;
-	bottom: 0;
-	left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
 }
 
 .l-0 {
-	left: 0;
+  left: 0;
+}
+.l-1 {
+  left: 1px;
+}
+.l-2 {
+  left: 2px;
+}
+.l-3 {
+  left: 3px;
+}
+.l-4 {
+  left: 4px;
+}
+.l-5 {
+  left: 5px;
+}
+.l-6 {
+  left: 6px;
+}
+.l-7 {
+  left: 7px;
+}
+.l-8 {
+  left: 8px;
+}
+.l-9 {
+  left: 9px;
+}
+.l-10 {
+  left: 10px;
 }
 .r-0 {
-	right: 0;
+  right: 0;
 }
+.r-1 {
+  right: 1px;
+}
+.r-2 {
+  right: 2px;
+}
+.r-3 {
+  right: 3px;
+}
+.r-4 {
+  right: 4px;
+}
+.r-5 {
+  right: 5px;
+}
+.r-6 {
+  right: 6px;
+}
+.r-7 {
+  right: 7px;
+}
+.r-8 {
+  right: 8px;
+}
+.r-9 {
+  right: 9px;
+}
+.r-10 {
+  right: 10px;
+}
+
 .t-0 {
-	top: 0;
+  top: 0;
 }
+.t-1 {
+  top: 1px;
+}
+.t-2 {
+  top: 2px;
+}
+.t-3 {
+  top: 3px;
+}
+.t-4 {
+  top: 4px;
+}
+.t-5 {
+  top: 5px;
+}
+.t-6 {
+  top: 6px;
+}
+.t-7 {
+  top: 7px;
+}
+.t-8 {
+  top: 8px;
+}
+.t-9 {
+  top: 9px;
+}
+.t-10 {
+  top: 10px;
+}
+
 .b-0 {
-	bottom: 0;
+  bottom: 0;
+}
+.b-1 {
+  bottom: 1px;
+}
+.b-2 {
+  bottom: 2px;
+}
+.b-3 {
+  bottom: 3px;
+}
+.b-4 {
+  bottom: 4px;
+}
+.b-5 {
+  bottom: 5px;
+}
+.b-6 {
+  bottom: 6px;
+}
+.b-7 {
+  bottom: 7px;
+}
+.b-8 {
+  bottom: 8px;
+}
+.b-9 {
+  bottom: 9px;
+}
+.b-10 {
+  bottom: 10px;
 }
