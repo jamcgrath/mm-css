@@ -4,7 +4,7 @@
 .navy-light-hover-bg:hover {
   background-color: var(--hover-navy-light);
 }
-.grape-bg:hover {
+.grape-hover-bg:hover {
   background-color: var(--hover-grape);
 }
 .grape-light-hover-bg:hover {
