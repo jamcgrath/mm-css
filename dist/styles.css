@@ -355,9 +355,10 @@ ul {
 /* position icons */
 
 .mmi {
-  --icon-top: var(--space-1px, 0);
+  --icon-top: var(--space-1px);
   position: relative;
   top: var(--icon-top);
+  display: inline-block;
 }
 
 /* Set core root defaults */
@@ -7981,7 +7982,7 @@ html:focus-within {
     --badge-gap: var(--space-1);
     --badge-border-radius: var(--space-1);
     --badge-bg: var(--gray-3);
-    --bagdge-color: var(--gray-7);
+    --badge-color: var(--gray-7);
 
     background: var(--badge-bg);
     color: var(--badge-color);
@@ -7996,11 +7997,6 @@ html:focus-within {
     justify-content: center;
     text-transform: uppercase;
     letter-spacing: var(--space-1px);
-  }
-
-.mm-badge i {
-    position: relative;
-    top: 1px;
   }
 
 .mm-badge-sm {
@@ -11878,7 +11874,7 @@ button,
     --badge-gap: var(--space-1);
     --badge-border-radius: var(--space-1);
     --badge-bg: var(--gray-3);
-    --bagdge-color: var(--gray-7);
+    --badge-color: var(--gray-7);
 
     background: var(--badge-bg);
     color: var(--badge-color);
@@ -11893,10 +11889,6 @@ button,
     justify-content: center;
     text-transform: uppercase;
     letter-spacing: var(--space-1px);
-  }
-  .sm-mm-badge i {
-    position: relative;
-    top: 1px;
   }
   .sm-mm-badge-sm {
     --badge-fs: var(--overline-small);
@@ -15486,7 +15478,7 @@ button,
     --badge-gap: var(--space-1);
     --badge-border-radius: var(--space-1);
     --badge-bg: var(--gray-3);
-    --bagdge-color: var(--gray-7);
+    --badge-color: var(--gray-7);
 
     background: var(--badge-bg);
     color: var(--badge-color);
@@ -15501,10 +15493,6 @@ button,
     justify-content: center;
     text-transform: uppercase;
     letter-spacing: var(--space-1px);
-  }
-  .md-mm-badge i {
-    position: relative;
-    top: 1px;
   }
   .md-mm-badge-sm {
     --badge-fs: var(--overline-small);
@@ -19094,7 +19082,7 @@ button,
     --badge-gap: var(--space-1);
     --badge-border-radius: var(--space-1);
     --badge-bg: var(--gray-3);
-    --bagdge-color: var(--gray-7);
+    --badge-color: var(--gray-7);
 
     background: var(--badge-bg);
     color: var(--badge-color);
@@ -19109,10 +19097,6 @@ button,
     justify-content: center;
     text-transform: uppercase;
     letter-spacing: var(--space-1px);
-  }
-  .lg-mm-badge i {
-    position: relative;
-    top: 1px;
   }
   .lg-mm-badge-sm {
     --badge-fs: var(--overline-small);
@@ -22702,7 +22686,7 @@ button,
     --badge-gap: var(--space-1);
     --badge-border-radius: var(--space-1);
     --badge-bg: var(--gray-3);
-    --bagdge-color: var(--gray-7);
+    --badge-color: var(--gray-7);
 
     background: var(--badge-bg);
     color: var(--badge-color);
@@ -22717,10 +22701,6 @@ button,
     justify-content: center;
     text-transform: uppercase;
     letter-spacing: var(--space-1px);
-  }
-  .xl-mm-badge i {
-    position: relative;
-    top: 1px;
   }
   .xl-mm-badge-sm {
     --badge-fs: var(--overline-small);
@@ -26310,7 +26290,7 @@ button,
     --badge-gap: var(--space-1);
     --badge-border-radius: var(--space-1);
     --badge-bg: var(--gray-3);
-    --bagdge-color: var(--gray-7);
+    --badge-color: var(--gray-7);
 
     background: var(--badge-bg);
     color: var(--badge-color);
@@ -26325,10 +26305,6 @@ button,
     justify-content: center;
     text-transform: uppercase;
     letter-spacing: var(--space-1px);
-  }
-  .xxl-mm-badge i {
-    position: relative;
-    top: 1px;
   }
   .xxl-mm-badge-sm {
     --badge-fs: var(--overline-small);

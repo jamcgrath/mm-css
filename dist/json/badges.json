@@ -8,7 +8,7 @@
     "--badge-gap": "var(--space-1)",
     "--badge-border-radius": "var(--space-1)",
     "--badge-bg": "var(--gray-3)",
-    "--bagdge-color": "var(--gray-7)",
+    "--badge-color": "var(--gray-7)",
     "background": "var(--badge-bg)",
     "color": "var(--badge-color)",
     "padding": "var(--badge-padding)",
@@ -22,10 +22,6 @@
     "justifyContent": "center",
     "textTransform": "uppercase",
     "letterSpacing": "var(--space-1px)"
-  },
-  ".mm-badge i": {
-    "position": "relative",
-    "top": "1px"
   },
   ".mm-badge-sm": {
     "--badge-fs": "var(--overline-small)"
@@ -68,7 +64,7 @@
       "--badge-gap": "var(--space-1)",
       "--badge-border-radius": "var(--space-1)",
       "--badge-bg": "var(--gray-3)",
-      "--bagdge-color": "var(--gray-7)",
+      "--badge-color": "var(--gray-7)",
       "background": "var(--badge-bg)",
       "color": "var(--badge-color)",
       "padding": "var(--badge-padding)",
@@ -82,10 +78,6 @@
       "justifyContent": "center",
       "textTransform": "uppercase",
       "letterSpacing": "var(--space-1px)"
-    },
-    ".sm-mm-badge i": {
-      "position": "relative",
-      "top": "1px"
     },
     ".sm-mm-badge-sm": {
       "--badge-fs": "var(--overline-small)"
@@ -129,7 +121,7 @@
       "--badge-gap": "var(--space-1)",
       "--badge-border-radius": "var(--space-1)",
       "--badge-bg": "var(--gray-3)",
-      "--bagdge-color": "var(--gray-7)",
+      "--badge-color": "var(--gray-7)",
       "background": "var(--badge-bg)",
       "color": "var(--badge-color)",
       "padding": "var(--badge-padding)",
@@ -143,10 +135,6 @@
       "justifyContent": "center",
       "textTransform": "uppercase",
       "letterSpacing": "var(--space-1px)"
-    },
-    ".md-mm-badge i": {
-      "position": "relative",
-      "top": "1px"
     },
     ".md-mm-badge-sm": {
       "--badge-fs": "var(--overline-small)"
@@ -190,7 +178,7 @@
       "--badge-gap": "var(--space-1)",
       "--badge-border-radius": "var(--space-1)",
       "--badge-bg": "var(--gray-3)",
-      "--bagdge-color": "var(--gray-7)",
+      "--badge-color": "var(--gray-7)",
       "background": "var(--badge-bg)",
       "color": "var(--badge-color)",
       "padding": "var(--badge-padding)",
@@ -204,10 +192,6 @@
       "justifyContent": "center",
       "textTransform": "uppercase",
       "letterSpacing": "var(--space-1px)"
-    },
-    ".lg-mm-badge i": {
-      "position": "relative",
-      "top": "1px"
     },
     ".lg-mm-badge-sm": {
       "--badge-fs": "var(--overline-small)"
@@ -251,7 +235,7 @@
       "--badge-gap": "var(--space-1)",
       "--badge-border-radius": "var(--space-1)",
       "--badge-bg": "var(--gray-3)",
-      "--bagdge-color": "var(--gray-7)",
+      "--badge-color": "var(--gray-7)",
       "background": "var(--badge-bg)",
       "color": "var(--badge-color)",
       "padding": "var(--badge-padding)",
@@ -265,10 +249,6 @@
       "justifyContent": "center",
       "textTransform": "uppercase",
       "letterSpacing": "var(--space-1px)"
-    },
-    ".xl-mm-badge i": {
-      "position": "relative",
-      "top": "1px"
     },
     ".xl-mm-badge-sm": {
       "--badge-fs": "var(--overline-small)"
@@ -312,7 +292,7 @@
       "--badge-gap": "var(--space-1)",
       "--badge-border-radius": "var(--space-1)",
       "--badge-bg": "var(--gray-3)",
-      "--bagdge-color": "var(--gray-7)",
+      "--badge-color": "var(--gray-7)",
       "background": "var(--badge-bg)",
       "color": "var(--badge-color)",
       "padding": "var(--badge-padding)",
@@ -326,10 +306,6 @@
       "justifyContent": "center",
       "textTransform": "uppercase",
       "letterSpacing": "var(--space-1px)"
-    },
-    ".xxl-mm-badge i": {
-      "position": "relative",
-      "top": "1px"
     },
     ".xxl-mm-badge-sm": {
       "--badge-fs": "var(--overline-small)"
