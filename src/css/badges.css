@@ -2,13 +2,13 @@
   .mm-badge {
     --badge-padding: var(--space-0-5) var(--space-2);
     --badge-fs: var(--overline-small);
-    --badge-lh: 0;
+    --badge-lh: 1;
     --badge-fw: var(--fw-7);
     --badge-ls: var(--ls-1);
     --badge-gap: var(--space-1);
     --badge-border-radius: var(--space-1);
     --badge-bg: var(--gray-3);
-    --bagdge-color: var(--gray-7);
+    --badge-color: var(--gray-7);
 
     background: var(--badge-bg);
     color: var(--badge-color);
@@ -23,10 +23,6 @@
     justify-content: center;
     text-transform: uppercase;
     letter-spacing: var(--space-1px);
-  }
-  .mm-badge i {
-    position: relative;
-    top: 1px;
   }
   .mm-badge-sm {
     --badge-fs: var(--overline-small);

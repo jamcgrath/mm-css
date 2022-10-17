@@ -7975,7 +7975,7 @@ html:focus-within {
 .mm-badge {
     --badge-padding: var(--space-0-5) var(--space-2);
     --badge-fs: var(--overline-small);
-    --badge-lh: 0;
+    --badge-lh: 1;
     --badge-fw: var(--fw-7);
     --badge-ls: var(--ls-1);
     --badge-gap: var(--space-1);
@@ -11872,7 +11872,7 @@ button,
   .sm-mm-badge {
     --badge-padding: var(--space-0-5) var(--space-2);
     --badge-fs: var(--overline-small);
-    --badge-lh: 0;
+    --badge-lh: 1;
     --badge-fw: var(--fw-7);
     --badge-ls: var(--ls-1);
     --badge-gap: var(--space-1);
@@ -15480,7 +15480,7 @@ button,
   .md-mm-badge {
     --badge-padding: var(--space-0-5) var(--space-2);
     --badge-fs: var(--overline-small);
-    --badge-lh: 0;
+    --badge-lh: 1;
     --badge-fw: var(--fw-7);
     --badge-ls: var(--ls-1);
     --badge-gap: var(--space-1);
@@ -19088,7 +19088,7 @@ button,
   .lg-mm-badge {
     --badge-padding: var(--space-0-5) var(--space-2);
     --badge-fs: var(--overline-small);
-    --badge-lh: 0;
+    --badge-lh: 1;
     --badge-fw: var(--fw-7);
     --badge-ls: var(--ls-1);
     --badge-gap: var(--space-1);
@@ -22696,7 +22696,7 @@ button,
   .xl-mm-badge {
     --badge-padding: var(--space-0-5) var(--space-2);
     --badge-fs: var(--overline-small);
-    --badge-lh: 0;
+    --badge-lh: 1;
     --badge-fw: var(--fw-7);
     --badge-ls: var(--ls-1);
     --badge-gap: var(--space-1);
@@ -26304,7 +26304,7 @@ button,
   .xxl-mm-badge {
     --badge-padding: var(--space-0-5) var(--space-2);
     --badge-fs: var(--overline-small);
-    --badge-lh: 0;
+    --badge-lh: 1;
     --badge-fw: var(--fw-7);
     --badge-ls: var(--ls-1);
     --badge-gap: var(--space-1);
