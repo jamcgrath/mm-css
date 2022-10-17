@@ -352,6 +352,14 @@ ul {
   list-style: none;
 }
 
+/* position icons */
+
+.mmi {
+  --icon-top: var(--space-1px, 0);
+  position: relative;
+  top: var(--icon-top);
+}
+
 /* Set core root defaults */
 
 html:focus-within {

@@ -2,7 +2,7 @@
   .mm-badge {
     --badge-padding: var(--space-0-5) var(--space-2);
     --badge-fs: var(--overline-small);
-    --badge-lh: 1;
+    --badge-lh: 0;
     --badge-fw: var(--fw-7);
     --badge-ls: var(--ls-1);
     --badge-gap: var(--space-1);
@@ -22,6 +22,7 @@
     align-items: center;
     justify-content: center;
     text-transform: uppercase;
+    letter-spacing: var(--space-1px);
   }
 .mm-badge i {
     position: relative;
@@ -31,7 +32,7 @@
     --badge-fs: var(--overline-small);
   }
 .mm-badge-med {
-    --badge-fs: var(--overline-big);
+    --badge-fs: var(--overline-large);
     --badge-padding: var(--space-1) var(--space-2);
   }
 .mm-badge-success {
@@ -62,7 +63,7 @@
   .sm-mm-badge {
     --badge-padding: var(--space-0-5) var(--space-2);
     --badge-fs: var(--overline-small);
-    --badge-lh: 1;
+    --badge-lh: 0;
     --badge-fw: var(--fw-7);
     --badge-ls: var(--ls-1);
     --badge-gap: var(--space-1);
@@ -82,6 +83,7 @@
     align-items: center;
     justify-content: center;
     text-transform: uppercase;
+    letter-spacing: var(--space-1px);
   }
   .sm-mm-badge i {
     position: relative;
@@ -91,7 +93,7 @@
     --badge-fs: var(--overline-small);
   }
   .sm-mm-badge-med {
-    --badge-fs: var(--overline-big);
+    --badge-fs: var(--overline-large);
     --badge-padding: var(--space-1) var(--space-2);
   }
   .sm-mm-badge-success {
@@ -123,7 +125,7 @@
   .md-mm-badge {
     --badge-padding: var(--space-0-5) var(--space-2);
     --badge-fs: var(--overline-small);
-    --badge-lh: 1;
+    --badge-lh: 0;
     --badge-fw: var(--fw-7);
     --badge-ls: var(--ls-1);
     --badge-gap: var(--space-1);
@@ -143,6 +145,7 @@
     align-items: center;
     justify-content: center;
     text-transform: uppercase;
+    letter-spacing: var(--space-1px);
   }
   .md-mm-badge i {
     position: relative;
@@ -152,7 +155,7 @@
     --badge-fs: var(--overline-small);
   }
   .md-mm-badge-med {
-    --badge-fs: var(--overline-big);
+    --badge-fs: var(--overline-large);
     --badge-padding: var(--space-1) var(--space-2);
   }
   .md-mm-badge-success {
@@ -184,7 +187,7 @@
   .lg-mm-badge {
     --badge-padding: var(--space-0-5) var(--space-2);
     --badge-fs: var(--overline-small);
-    --badge-lh: 1;
+    --badge-lh: 0;
     --badge-fw: var(--fw-7);
     --badge-ls: var(--ls-1);
     --badge-gap: var(--space-1);
@@ -204,6 +207,7 @@
     align-items: center;
     justify-content: center;
     text-transform: uppercase;
+    letter-spacing: var(--space-1px);
   }
   .lg-mm-badge i {
     position: relative;
@@ -213,7 +217,7 @@
     --badge-fs: var(--overline-small);
   }
   .lg-mm-badge-med {
-    --badge-fs: var(--overline-big);
+    --badge-fs: var(--overline-large);
     --badge-padding: var(--space-1) var(--space-2);
   }
   .lg-mm-badge-success {
@@ -245,7 +249,7 @@
   .xl-mm-badge {
     --badge-padding: var(--space-0-5) var(--space-2);
     --badge-fs: var(--overline-small);
-    --badge-lh: 1;
+    --badge-lh: 0;
     --badge-fw: var(--fw-7);
     --badge-ls: var(--ls-1);
     --badge-gap: var(--space-1);
@@ -265,6 +269,7 @@
     align-items: center;
     justify-content: center;
     text-transform: uppercase;
+    letter-spacing: var(--space-1px);
   }
   .xl-mm-badge i {
     position: relative;
@@ -274,7 +279,7 @@
     --badge-fs: var(--overline-small);
   }
   .xl-mm-badge-med {
-    --badge-fs: var(--overline-big);
+    --badge-fs: var(--overline-large);
     --badge-padding: var(--space-1) var(--space-2);
   }
   .xl-mm-badge-success {
@@ -306,7 +311,7 @@
   .xxl-mm-badge {
     --badge-padding: var(--space-0-5) var(--space-2);
     --badge-fs: var(--overline-small);
-    --badge-lh: 1;
+    --badge-lh: 0;
     --badge-fw: var(--fw-7);
     --badge-ls: var(--ls-1);
     --badge-gap: var(--space-1);
@@ -326,6 +331,7 @@
     align-items: center;
     justify-content: center;
     text-transform: uppercase;
+    letter-spacing: var(--space-1px);
   }
   .xxl-mm-badge i {
     position: relative;
@@ -335,7 +341,7 @@
     --badge-fs: var(--overline-small);
   }
   .xxl-mm-badge-med {
-    --badge-fs: var(--overline-big);
+    --badge-fs: var(--overline-large);
     --badge-padding: var(--space-1) var(--space-2);
   }
   .xxl-mm-badge-success {
