@@ -1721,6 +1721,7 @@ html:focus-within {
     font-family: var(--sans);
     line-height: var(--lh-109);
     letter-spacing: var(--ls-1);
+    text-transform: uppercase;
   }
 
 .overline-small,
@@ -1732,6 +1733,7 @@ html:focus-within {
     font-family: var(--sans);
     line-height: var(--lh-133);
     letter-spacing: var(--ls-1);
+    text-transform: uppercase;
   }
 
 .copy_article,
@@ -8465,6 +8467,7 @@ button,
     font-family: var(--sans);
     line-height: var(--lh-109);
     letter-spacing: var(--ls-1);
+    text-transform: uppercase;
   }
 
   .sm-overline-small,
@@ -8476,6 +8479,7 @@ button,
     font-family: var(--sans);
     line-height: var(--lh-133);
     letter-spacing: var(--ls-1);
+    text-transform: uppercase;
   }
 
   .sm-copy_article,
@@ -12070,6 +12074,7 @@ button,
     font-family: var(--sans);
     line-height: var(--lh-109);
     letter-spacing: var(--ls-1);
+    text-transform: uppercase;
   }
 
   .md-overline-small,
@@ -12081,6 +12086,7 @@ button,
     font-family: var(--sans);
     line-height: var(--lh-133);
     letter-spacing: var(--ls-1);
+    text-transform: uppercase;
   }
 
   .md-copy_article,
@@ -15675,6 +15681,7 @@ button,
     font-family: var(--sans);
     line-height: var(--lh-109);
     letter-spacing: var(--ls-1);
+    text-transform: uppercase;
   }
 
   .lg-overline-small,
@@ -15686,6 +15693,7 @@ button,
     font-family: var(--sans);
     line-height: var(--lh-133);
     letter-spacing: var(--ls-1);
+    text-transform: uppercase;
   }
 
   .lg-copy_article,
@@ -19280,6 +19288,7 @@ button,
     font-family: var(--sans);
     line-height: var(--lh-109);
     letter-spacing: var(--ls-1);
+    text-transform: uppercase;
   }
 
   .xl-overline-small,
@@ -19291,6 +19300,7 @@ button,
     font-family: var(--sans);
     line-height: var(--lh-133);
     letter-spacing: var(--ls-1);
+    text-transform: uppercase;
   }
 
   .xl-copy_article,
@@ -22885,6 +22895,7 @@ button,
     font-family: var(--sans);
     line-height: var(--lh-109);
     letter-spacing: var(--ls-1);
+    text-transform: uppercase;
   }
 
   .xxl-overline-small,
@@ -22896,6 +22907,7 @@ button,
     font-family: var(--sans);
     line-height: var(--lh-133);
     letter-spacing: var(--ls-1);
+    text-transform: uppercase;
   }
 
   .xxl-copy_article,

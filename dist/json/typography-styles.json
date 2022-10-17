@@ -78,14 +78,16 @@
     "fontWeight": "var(--fw-7)",
     "fontFamily": "var(--sans)",
     "lineHeight": "var(--lh-109)",
-    "letterSpacing": "var(--ls-1)"
+    "letterSpacing": "var(--ls-1)",
+    "textTransform": "uppercase"
   },
   ".overline-small,\n  .overline-small_med,\n  .overline-small_semibold,\n  .overline-small_bold": {
     "fontSize": "var(--overline-small)",
     "fontWeight": "var(--fw-7)",
     "fontFamily": "var(--sans)",
     "lineHeight": "var(--lh-133)",
-    "letterSpacing": "var(--ls-1)"
+    "letterSpacing": "var(--ls-1)",
+    "textTransform": "uppercase"
   },
   ".copy_article,\n  .body_article,\n  .label_article,\n  .caption_article,\n  .small_article": {
     "fontFamily": "var(--serif)"
@@ -202,14 +204,16 @@
       "fontWeight": "var(--fw-7)",
       "fontFamily": "var(--sans)",
       "lineHeight": "var(--lh-109)",
-      "letterSpacing": "var(--ls-1)"
+      "letterSpacing": "var(--ls-1)",
+      "textTransform": "uppercase"
     },
     ".sm-overline-small,\n.sm-overline-small_med,\n.sm-overline-small_semibold,\n.sm-overline-small_bold": {
       "fontSize": "var(--overline-small)",
       "fontWeight": "var(--fw-7)",
       "fontFamily": "var(--sans)",
       "lineHeight": "var(--lh-133)",
-      "letterSpacing": "var(--ls-1)"
+      "letterSpacing": "var(--ls-1)",
+      "textTransform": "uppercase"
     },
     ".sm-copy_article,\n.sm-body_article,\n.sm-label_article,\n.sm-caption_article,\n.sm-small_article": {
       "fontFamily": "var(--serif)"
@@ -327,14 +331,16 @@
       "fontWeight": "var(--fw-7)",
       "fontFamily": "var(--sans)",
       "lineHeight": "var(--lh-109)",
-      "letterSpacing": "var(--ls-1)"
+      "letterSpacing": "var(--ls-1)",
+      "textTransform": "uppercase"
     },
     ".md-overline-small,\n.md-overline-small_med,\n.md-overline-small_semibold,\n.md-overline-small_bold": {
       "fontSize": "var(--overline-small)",
       "fontWeight": "var(--fw-7)",
       "fontFamily": "var(--sans)",
       "lineHeight": "var(--lh-133)",
-      "letterSpacing": "var(--ls-1)"
+      "letterSpacing": "var(--ls-1)",
+      "textTransform": "uppercase"
     },
     ".md-copy_article,\n.md-body_article,\n.md-label_article,\n.md-caption_article,\n.md-small_article": {
       "fontFamily": "var(--serif)"
@@ -452,14 +458,16 @@
       "fontWeight": "var(--fw-7)",
       "fontFamily": "var(--sans)",
       "lineHeight": "var(--lh-109)",
-      "letterSpacing": "var(--ls-1)"
+      "letterSpacing": "var(--ls-1)",
+      "textTransform": "uppercase"
     },
     ".lg-overline-small,\n.lg-overline-small_med,\n.lg-overline-small_semibold,\n.lg-overline-small_bold": {
       "fontSize": "var(--overline-small)",
       "fontWeight": "var(--fw-7)",
       "fontFamily": "var(--sans)",
       "lineHeight": "var(--lh-133)",
-      "letterSpacing": "var(--ls-1)"
+      "letterSpacing": "var(--ls-1)",
+      "textTransform": "uppercase"
     },
     ".lg-copy_article,\n.lg-body_article,\n.lg-label_article,\n.lg-caption_article,\n.lg-small_article": {
       "fontFamily": "var(--serif)"
@@ -577,14 +585,16 @@
       "fontWeight": "var(--fw-7)",
       "fontFamily": "var(--sans)",
       "lineHeight": "var(--lh-109)",
-      "letterSpacing": "var(--ls-1)"
+      "letterSpacing": "var(--ls-1)",
+      "textTransform": "uppercase"
     },
     ".xl-overline-small,\n.xl-overline-small_med,\n.xl-overline-small_semibold,\n.xl-overline-small_bold": {
       "fontSize": "var(--overline-small)",
       "fontWeight": "var(--fw-7)",
       "fontFamily": "var(--sans)",
       "lineHeight": "var(--lh-133)",
-      "letterSpacing": "var(--ls-1)"
+      "letterSpacing": "var(--ls-1)",
+      "textTransform": "uppercase"
     },
     ".xl-copy_article,\n.xl-body_article,\n.xl-label_article,\n.xl-caption_article,\n.xl-small_article": {
       "fontFamily": "var(--serif)"
@@ -702,14 +712,16 @@
       "fontWeight": "var(--fw-7)",
       "fontFamily": "var(--sans)",
       "lineHeight": "var(--lh-109)",
-      "letterSpacing": "var(--ls-1)"
+      "letterSpacing": "var(--ls-1)",
+      "textTransform": "uppercase"
     },
     ".xxl-overline-small,\n.xxl-overline-small_med,\n.xxl-overline-small_semibold,\n.xxl-overline-small_bold": {
       "fontSize": "var(--overline-small)",
       "fontWeight": "var(--fw-7)",
       "fontFamily": "var(--sans)",
       "lineHeight": "var(--lh-133)",
-      "letterSpacing": "var(--ls-1)"
+      "letterSpacing": "var(--ls-1)",
+      "textTransform": "uppercase"
     },
     ".xxl-copy_article,\n.xxl-body_article,\n.xxl-label_article,\n.xxl-caption_article,\n.xxl-small_article": {
       "fontFamily": "var(--serif)"

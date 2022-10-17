@@ -151,6 +151,7 @@
     font-family: var(--sans);
     line-height: var(--lh-109);
     letter-spacing: var(--ls-1);
+    text-transform: uppercase;
   }
 
   .overline-small,
@@ -162,6 +163,7 @@
     font-family: var(--sans);
     line-height: var(--lh-133);
     letter-spacing: var(--ls-1);
+    text-transform: uppercase;
   }
 
   .copy_article,
