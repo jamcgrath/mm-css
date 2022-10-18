@@ -348,9 +348,8 @@ ul {
 
 /* position icons */
 .mmi {
-  --icon-top: var(--space-1px);
   position: relative;
-  top: var(--icon-top);
+  line-height: 0;
   display: inline-block;
 }
 
