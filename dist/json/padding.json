@@ -2,26 +2,14 @@
   ".p-0": {
     "padding": "var(--space-0)"
   },
-  ".p-0_5": {
-    "padding": "var(--space-0-5)"
-  },
   ".p-1": {
     "padding": "var(--space-1)"
-  },
-  ".p-1_5": {
-    "padding": "var(--space-1-5)"
   },
   ".p-2": {
     "padding": "var(--space-2)"
   },
-  ".p-2_5": {
-    "padding": "var(--space-2-5)"
-  },
   ".p-3": {
     "padding": "var(--space-3)"
-  },
-  ".p-3_5": {
-    "padding": "var(--space-3-5)"
   },
   ".p-4": {
     "padding": "var(--space-4)"
@@ -117,33 +105,17 @@
     "paddingLeft": "var(--space-0)",
     "paddingRight": "var(--space-0)"
   },
-  ".px-0_5": {
-    "paddingLeft": "var(--space-0-5)",
-    "paddingRight": "var(--space-0-5)"
-  },
   ".px-1": {
     "paddingLeft": "var(--space-1)",
     "paddingRight": "var(--space-1)"
-  },
-  ".px-1_5": {
-    "paddingLeft": "var(--space-1-5)",
-    "paddingRight": "var(--space-1-5)"
   },
   ".px-2": {
     "paddingLeft": "var(--space-2)",
     "paddingRight": "var(--space-2)"
   },
-  ".px-2_5": {
-    "paddingLeft": "var(--space-2-5)",
-    "paddingRight": "var(--space-2-5)"
-  },
   ".px-3": {
     "paddingLeft": "var(--space-3)",
     "paddingRight": "var(--space-3)"
-  },
-  ".px-3_5": {
-    "paddingLeft": "var(--space-3-5)",
-    "paddingRight": "var(--space-3-5)"
   },
   ".px-4": {
     "paddingLeft": "var(--space-4)",
@@ -269,33 +241,17 @@
     "paddingBottom": "var(--space-0)",
     "paddingTop": "var(--space-0)"
   },
-  ".py-0_5": {
-    "paddingBottom": "var(--space-0-5)",
-    "paddingTop": "var(--space-0-5)"
-  },
   ".py-1": {
     "paddingBottom": "var(--space-1)",
     "paddingTop": "var(--space-1)"
-  },
-  ".py-1_5": {
-    "paddingBottom": "var(--space-1-5)",
-    "paddingTop": "var(--space-1-5)"
   },
   ".py-2": {
     "paddingBottom": "var(--space-2)",
     "paddingTop": "var(--space-2)"
   },
-  ".py-2_5": {
-    "paddingBottom": "var(--space-2-5)",
-    "paddingTop": "var(--space-2-5)"
-  },
   ".py-3": {
     "paddingBottom": "var(--space-3)",
     "paddingTop": "var(--space-3)"
-  },
-  ".py-3_5": {
-    "paddingBottom": "var(--space-3-5)",
-    "paddingTop": "var(--space-3-5)"
   },
   ".py-4": {
     "paddingBottom": "var(--space-4)",
@@ -420,26 +376,14 @@
   ".pt-0": {
     "paddingTop": "var(--space-0)"
   },
-  ".pt-0_5": {
-    "paddingTop": "var(--space-0-5)"
-  },
   ".pt-1": {
     "paddingTop": "var(--space-1)"
-  },
-  ".pt-1_5": {
-    "paddingTop": "var(--space-1-5)"
   },
   ".pt-2": {
     "paddingTop": "var(--space-2)"
   },
-  ".pt-2_5": {
-    "paddingTop": "var(--space-2-5)"
-  },
   ".pt-3": {
     "paddingTop": "var(--space-3)"
-  },
-  ".pt-3_5": {
-    "paddingTop": "var(--space-3-5)"
   },
   ".pt-4": {
     "paddingTop": "var(--space-4)"
@@ -534,26 +478,14 @@
   ".pb-0": {
     "paddingBottom": "var(--space-0)"
   },
-  ".pb-0_5": {
-    "paddingBottom": "var(--space-0-5)"
-  },
   ".pb-1": {
     "paddingBottom": "var(--space-1)"
-  },
-  ".pb-1_5": {
-    "paddingBottom": "var(--space-1-5)"
   },
   ".pb-2": {
     "paddingBottom": "var(--space-2)"
   },
-  ".pb-2_5": {
-    "paddingBottom": "var(--space-2-5)"
-  },
   ".pb-3": {
     "paddingBottom": "var(--space-3)"
-  },
-  ".pb-3_5": {
-    "paddingBottom": "var(--space-3-5)"
   },
   ".pb-4": {
     "paddingBottom": "var(--space-4)"
@@ -648,26 +580,14 @@
   ".pl-0": {
     "paddingLeft": "var(--space-0)"
   },
-  ".pl-0_5": {
-    "paddingLeft": "var(--space-0-5)"
-  },
   ".pl-1": {
     "paddingLeft": "var(--space-1)"
-  },
-  ".pl-1_5": {
-    "paddingLeft": "var(--space-1-5)"
   },
   ".pl-2": {
     "paddingLeft": "var(--space-2)"
   },
-  ".pl-2_5": {
-    "paddingLeft": "var(--space-2-5)"
-  },
   ".pl-3": {
     "paddingLeft": "var(--space-3)"
-  },
-  ".pl-3_5": {
-    "paddingLeft": "var(--space-3-5)"
   },
   ".pl-4": {
     "paddingLeft": "var(--space-4)"
@@ -762,26 +682,14 @@
   ".pr-0": {
     "paddingRight": "var(--space-0)"
   },
-  ".pr-0_5": {
-    "paddingRight": "var(--space-0-5)"
-  },
   ".pr-1": {
     "paddingRight": "var(--space-1)"
-  },
-  ".pr-1_5": {
-    "paddingRight": "var(--space-1-5)"
   },
   ".pr-2": {
     "paddingRight": "var(--space-2)"
   },
-  ".pr-2_5": {
-    "paddingRight": "var(--space-2-5)"
-  },
   ".pr-3": {
     "paddingRight": "var(--space-3)"
-  },
-  ".pr-3_5": {
-    "paddingRight": "var(--space-3-5)"
   },
   ".pr-4": {
     "paddingRight": "var(--space-4)"
@@ -877,26 +785,14 @@
     ".sm-p-0": {
       "padding": "var(--space-0)"
     },
-    ".sm-p-0_5": {
-      "padding": "var(--space-0-5)"
-    },
     ".sm-p-1": {
       "padding": "var(--space-1)"
-    },
-    ".sm-p-1_5": {
-      "padding": "var(--space-1-5)"
     },
     ".sm-p-2": {
       "padding": "var(--space-2)"
     },
-    ".sm-p-2_5": {
-      "padding": "var(--space-2-5)"
-    },
     ".sm-p-3": {
       "padding": "var(--space-3)"
-    },
-    ".sm-p-3_5": {
-      "padding": "var(--space-3-5)"
     },
     ".sm-p-4": {
       "padding": "var(--space-4)"
@@ -992,33 +888,17 @@
       "paddingLeft": "var(--space-0)",
       "paddingRight": "var(--space-0)"
     },
-    ".sm-px-0_5": {
-      "paddingLeft": "var(--space-0-5)",
-      "paddingRight": "var(--space-0-5)"
-    },
     ".sm-px-1": {
       "paddingLeft": "var(--space-1)",
       "paddingRight": "var(--space-1)"
-    },
-    ".sm-px-1_5": {
-      "paddingLeft": "var(--space-1-5)",
-      "paddingRight": "var(--space-1-5)"
     },
     ".sm-px-2": {
       "paddingLeft": "var(--space-2)",
       "paddingRight": "var(--space-2)"
     },
-    ".sm-px-2_5": {
-      "paddingLeft": "var(--space-2-5)",
-      "paddingRight": "var(--space-2-5)"
-    },
     ".sm-px-3": {
       "paddingLeft": "var(--space-3)",
       "paddingRight": "var(--space-3)"
-    },
-    ".sm-px-3_5": {
-      "paddingLeft": "var(--space-3-5)",
-      "paddingRight": "var(--space-3-5)"
     },
     ".sm-px-4": {
       "paddingLeft": "var(--space-4)",
@@ -1144,33 +1024,17 @@
       "paddingBottom": "var(--space-0)",
       "paddingTop": "var(--space-0)"
     },
-    ".sm-py-0_5": {
-      "paddingBottom": "var(--space-0-5)",
-      "paddingTop": "var(--space-0-5)"
-    },
     ".sm-py-1": {
       "paddingBottom": "var(--space-1)",
       "paddingTop": "var(--space-1)"
-    },
-    ".sm-py-1_5": {
-      "paddingBottom": "var(--space-1-5)",
-      "paddingTop": "var(--space-1-5)"
     },
     ".sm-py-2": {
       "paddingBottom": "var(--space-2)",
       "paddingTop": "var(--space-2)"
     },
-    ".sm-py-2_5": {
-      "paddingBottom": "var(--space-2-5)",
-      "paddingTop": "var(--space-2-5)"
-    },
     ".sm-py-3": {
       "paddingBottom": "var(--space-3)",
       "paddingTop": "var(--space-3)"
-    },
-    ".sm-py-3_5": {
-      "paddingBottom": "var(--space-3-5)",
-      "paddingTop": "var(--space-3-5)"
     },
     ".sm-py-4": {
       "paddingBottom": "var(--space-4)",
@@ -1295,26 +1159,14 @@
     ".sm-pt-0": {
       "paddingTop": "var(--space-0)"
     },
-    ".sm-pt-0_5": {
-      "paddingTop": "var(--space-0-5)"
-    },
     ".sm-pt-1": {
       "paddingTop": "var(--space-1)"
-    },
-    ".sm-pt-1_5": {
-      "paddingTop": "var(--space-1-5)"
     },
     ".sm-pt-2": {
       "paddingTop": "var(--space-2)"
     },
-    ".sm-pt-2_5": {
-      "paddingTop": "var(--space-2-5)"
-    },
     ".sm-pt-3": {
       "paddingTop": "var(--space-3)"
-    },
-    ".sm-pt-3_5": {
-      "paddingTop": "var(--space-3-5)"
     },
     ".sm-pt-4": {
       "paddingTop": "var(--space-4)"
@@ -1409,26 +1261,14 @@
     ".sm-pb-0": {
       "paddingBottom": "var(--space-0)"
     },
-    ".sm-pb-0_5": {
-      "paddingBottom": "var(--space-0-5)"
-    },
     ".sm-pb-1": {
       "paddingBottom": "var(--space-1)"
-    },
-    ".sm-pb-1_5": {
-      "paddingBottom": "var(--space-1-5)"
     },
     ".sm-pb-2": {
       "paddingBottom": "var(--space-2)"
     },
-    ".sm-pb-2_5": {
-      "paddingBottom": "var(--space-2-5)"
-    },
     ".sm-pb-3": {
       "paddingBottom": "var(--space-3)"
-    },
-    ".sm-pb-3_5": {
-      "paddingBottom": "var(--space-3-5)"
     },
     ".sm-pb-4": {
       "paddingBottom": "var(--space-4)"
@@ -1523,26 +1363,14 @@
     ".sm-pl-0": {
       "paddingLeft": "var(--space-0)"
     },
-    ".sm-pl-0_5": {
-      "paddingLeft": "var(--space-0-5)"
-    },
     ".sm-pl-1": {
       "paddingLeft": "var(--space-1)"
-    },
-    ".sm-pl-1_5": {
-      "paddingLeft": "var(--space-1-5)"
     },
     ".sm-pl-2": {
       "paddingLeft": "var(--space-2)"
     },
-    ".sm-pl-2_5": {
-      "paddingLeft": "var(--space-2-5)"
-    },
     ".sm-pl-3": {
       "paddingLeft": "var(--space-3)"
-    },
-    ".sm-pl-3_5": {
-      "paddingLeft": "var(--space-3-5)"
     },
     ".sm-pl-4": {
       "paddingLeft": "var(--space-4)"
@@ -1637,26 +1465,14 @@
     ".sm-pr-0": {
       "paddingRight": "var(--space-0)"
     },
-    ".sm-pr-0_5": {
-      "paddingRight": "var(--space-0-5)"
-    },
     ".sm-pr-1": {
       "paddingRight": "var(--space-1)"
-    },
-    ".sm-pr-1_5": {
-      "paddingRight": "var(--space-1-5)"
     },
     ".sm-pr-2": {
       "paddingRight": "var(--space-2)"
     },
-    ".sm-pr-2_5": {
-      "paddingRight": "var(--space-2-5)"
-    },
     ".sm-pr-3": {
       "paddingRight": "var(--space-3)"
-    },
-    ".sm-pr-3_5": {
-      "paddingRight": "var(--space-3-5)"
     },
     ".sm-pr-4": {
       "paddingRight": "var(--space-4)"
@@ -1753,26 +1569,14 @@
     ".md-p-0": {
       "padding": "var(--space-0)"
     },
-    ".md-p-0_5": {
-      "padding": "var(--space-0-5)"
-    },
     ".md-p-1": {
       "padding": "var(--space-1)"
-    },
-    ".md-p-1_5": {
-      "padding": "var(--space-1-5)"
     },
     ".md-p-2": {
       "padding": "var(--space-2)"
     },
-    ".md-p-2_5": {
-      "padding": "var(--space-2-5)"
-    },
     ".md-p-3": {
       "padding": "var(--space-3)"
-    },
-    ".md-p-3_5": {
-      "padding": "var(--space-3-5)"
     },
     ".md-p-4": {
       "padding": "var(--space-4)"
@@ -1868,33 +1672,17 @@
       "paddingLeft": "var(--space-0)",
       "paddingRight": "var(--space-0)"
     },
-    ".md-px-0_5": {
-      "paddingLeft": "var(--space-0-5)",
-      "paddingRight": "var(--space-0-5)"
-    },
     ".md-px-1": {
       "paddingLeft": "var(--space-1)",
       "paddingRight": "var(--space-1)"
-    },
-    ".md-px-1_5": {
-      "paddingLeft": "var(--space-1-5)",
-      "paddingRight": "var(--space-1-5)"
     },
     ".md-px-2": {
       "paddingLeft": "var(--space-2)",
       "paddingRight": "var(--space-2)"
     },
-    ".md-px-2_5": {
-      "paddingLeft": "var(--space-2-5)",
-      "paddingRight": "var(--space-2-5)"
-    },
     ".md-px-3": {
       "paddingLeft": "var(--space-3)",
       "paddingRight": "var(--space-3)"
-    },
-    ".md-px-3_5": {
-      "paddingLeft": "var(--space-3-5)",
-      "paddingRight": "var(--space-3-5)"
     },
     ".md-px-4": {
       "paddingLeft": "var(--space-4)",
@@ -2020,33 +1808,17 @@
       "paddingBottom": "var(--space-0)",
       "paddingTop": "var(--space-0)"
     },
-    ".md-py-0_5": {
-      "paddingBottom": "var(--space-0-5)",
-      "paddingTop": "var(--space-0-5)"
-    },
     ".md-py-1": {
       "paddingBottom": "var(--space-1)",
       "paddingTop": "var(--space-1)"
-    },
-    ".md-py-1_5": {
-      "paddingBottom": "var(--space-1-5)",
-      "paddingTop": "var(--space-1-5)"
     },
     ".md-py-2": {
       "paddingBottom": "var(--space-2)",
       "paddingTop": "var(--space-2)"
     },
-    ".md-py-2_5": {
-      "paddingBottom": "var(--space-2-5)",
-      "paddingTop": "var(--space-2-5)"
-    },
     ".md-py-3": {
       "paddingBottom": "var(--space-3)",
       "paddingTop": "var(--space-3)"
-    },
-    ".md-py-3_5": {
-      "paddingBottom": "var(--space-3-5)",
-      "paddingTop": "var(--space-3-5)"
     },
     ".md-py-4": {
       "paddingBottom": "var(--space-4)",
@@ -2171,26 +1943,14 @@
     ".md-pt-0": {
       "paddingTop": "var(--space-0)"
     },
-    ".md-pt-0_5": {
-      "paddingTop": "var(--space-0-5)"
-    },
     ".md-pt-1": {
       "paddingTop": "var(--space-1)"
-    },
-    ".md-pt-1_5": {
-      "paddingTop": "var(--space-1-5)"
     },
     ".md-pt-2": {
       "paddingTop": "var(--space-2)"
     },
-    ".md-pt-2_5": {
-      "paddingTop": "var(--space-2-5)"
-    },
     ".md-pt-3": {
       "paddingTop": "var(--space-3)"
-    },
-    ".md-pt-3_5": {
-      "paddingTop": "var(--space-3-5)"
     },
     ".md-pt-4": {
       "paddingTop": "var(--space-4)"
@@ -2285,26 +2045,14 @@
     ".md-pb-0": {
       "paddingBottom": "var(--space-0)"
     },
-    ".md-pb-0_5": {
-      "paddingBottom": "var(--space-0-5)"
-    },
     ".md-pb-1": {
       "paddingBottom": "var(--space-1)"
-    },
-    ".md-pb-1_5": {
-      "paddingBottom": "var(--space-1-5)"
     },
     ".md-pb-2": {
       "paddingBottom": "var(--space-2)"
     },
-    ".md-pb-2_5": {
-      "paddingBottom": "var(--space-2-5)"
-    },
     ".md-pb-3": {
       "paddingBottom": "var(--space-3)"
-    },
-    ".md-pb-3_5": {
-      "paddingBottom": "var(--space-3-5)"
     },
     ".md-pb-4": {
       "paddingBottom": "var(--space-4)"
@@ -2399,26 +2147,14 @@
     ".md-pl-0": {
       "paddingLeft": "var(--space-0)"
     },
-    ".md-pl-0_5": {
-      "paddingLeft": "var(--space-0-5)"
-    },
     ".md-pl-1": {
       "paddingLeft": "var(--space-1)"
-    },
-    ".md-pl-1_5": {
-      "paddingLeft": "var(--space-1-5)"
     },
     ".md-pl-2": {
       "paddingLeft": "var(--space-2)"
     },
-    ".md-pl-2_5": {
-      "paddingLeft": "var(--space-2-5)"
-    },
     ".md-pl-3": {
       "paddingLeft": "var(--space-3)"
-    },
-    ".md-pl-3_5": {
-      "paddingLeft": "var(--space-3-5)"
     },
     ".md-pl-4": {
       "paddingLeft": "var(--space-4)"
@@ -2513,26 +2249,14 @@
     ".md-pr-0": {
       "paddingRight": "var(--space-0)"
     },
-    ".md-pr-0_5": {
-      "paddingRight": "var(--space-0-5)"
-    },
     ".md-pr-1": {
       "paddingRight": "var(--space-1)"
-    },
-    ".md-pr-1_5": {
-      "paddingRight": "var(--space-1-5)"
     },
     ".md-pr-2": {
       "paddingRight": "var(--space-2)"
     },
-    ".md-pr-2_5": {
-      "paddingRight": "var(--space-2-5)"
-    },
     ".md-pr-3": {
       "paddingRight": "var(--space-3)"
-    },
-    ".md-pr-3_5": {
-      "paddingRight": "var(--space-3-5)"
     },
     ".md-pr-4": {
       "paddingRight": "var(--space-4)"
@@ -2629,26 +2353,14 @@
     ".lg-p-0": {
       "padding": "var(--space-0)"
     },
-    ".lg-p-0_5": {
-      "padding": "var(--space-0-5)"
-    },
     ".lg-p-1": {
       "padding": "var(--space-1)"
-    },
-    ".lg-p-1_5": {
-      "padding": "var(--space-1-5)"
     },
     ".lg-p-2": {
       "padding": "var(--space-2)"
     },
-    ".lg-p-2_5": {
-      "padding": "var(--space-2-5)"
-    },
     ".lg-p-3": {
       "padding": "var(--space-3)"
-    },
-    ".lg-p-3_5": {
-      "padding": "var(--space-3-5)"
     },
     ".lg-p-4": {
       "padding": "var(--space-4)"
@@ -2744,33 +2456,17 @@
       "paddingLeft": "var(--space-0)",
       "paddingRight": "var(--space-0)"
     },
-    ".lg-px-0_5": {
-      "paddingLeft": "var(--space-0-5)",
-      "paddingRight": "var(--space-0-5)"
-    },
     ".lg-px-1": {
       "paddingLeft": "var(--space-1)",
       "paddingRight": "var(--space-1)"
-    },
-    ".lg-px-1_5": {
-      "paddingLeft": "var(--space-1-5)",
-      "paddingRight": "var(--space-1-5)"
     },
     ".lg-px-2": {
       "paddingLeft": "var(--space-2)",
       "paddingRight": "var(--space-2)"
     },
-    ".lg-px-2_5": {
-      "paddingLeft": "var(--space-2-5)",
-      "paddingRight": "var(--space-2-5)"
-    },
     ".lg-px-3": {
       "paddingLeft": "var(--space-3)",
       "paddingRight": "var(--space-3)"
-    },
-    ".lg-px-3_5": {
-      "paddingLeft": "var(--space-3-5)",
-      "paddingRight": "var(--space-3-5)"
     },
     ".lg-px-4": {
       "paddingLeft": "var(--space-4)",
@@ -2896,33 +2592,17 @@
       "paddingBottom": "var(--space-0)",
       "paddingTop": "var(--space-0)"
     },
-    ".lg-py-0_5": {
-      "paddingBottom": "var(--space-0-5)",
-      "paddingTop": "var(--space-0-5)"
-    },
     ".lg-py-1": {
       "paddingBottom": "var(--space-1)",
       "paddingTop": "var(--space-1)"
-    },
-    ".lg-py-1_5": {
-      "paddingBottom": "var(--space-1-5)",
-      "paddingTop": "var(--space-1-5)"
     },
     ".lg-py-2": {
       "paddingBottom": "var(--space-2)",
       "paddingTop": "var(--space-2)"
     },
-    ".lg-py-2_5": {
-      "paddingBottom": "var(--space-2-5)",
-      "paddingTop": "var(--space-2-5)"
-    },
     ".lg-py-3": {
       "paddingBottom": "var(--space-3)",
       "paddingTop": "var(--space-3)"
-    },
-    ".lg-py-3_5": {
-      "paddingBottom": "var(--space-3-5)",
-      "paddingTop": "var(--space-3-5)"
     },
     ".lg-py-4": {
       "paddingBottom": "var(--space-4)",
@@ -3047,26 +2727,14 @@
     ".lg-pt-0": {
       "paddingTop": "var(--space-0)"
     },
-    ".lg-pt-0_5": {
-      "paddingTop": "var(--space-0-5)"
-    },
     ".lg-pt-1": {
       "paddingTop": "var(--space-1)"
-    },
-    ".lg-pt-1_5": {
-      "paddingTop": "var(--space-1-5)"
     },
     ".lg-pt-2": {
       "paddingTop": "var(--space-2)"
     },
-    ".lg-pt-2_5": {
-      "paddingTop": "var(--space-2-5)"
-    },
     ".lg-pt-3": {
       "paddingTop": "var(--space-3)"
-    },
-    ".lg-pt-3_5": {
-      "paddingTop": "var(--space-3-5)"
     },
     ".lg-pt-4": {
       "paddingTop": "var(--space-4)"
@@ -3161,26 +2829,14 @@
     ".lg-pb-0": {
       "paddingBottom": "var(--space-0)"
     },
-    ".lg-pb-0_5": {
-      "paddingBottom": "var(--space-0-5)"
-    },
     ".lg-pb-1": {
       "paddingBottom": "var(--space-1)"
-    },
-    ".lg-pb-1_5": {
-      "paddingBottom": "var(--space-1-5)"
     },
     ".lg-pb-2": {
       "paddingBottom": "var(--space-2)"
     },
-    ".lg-pb-2_5": {
-      "paddingBottom": "var(--space-2-5)"
-    },
     ".lg-pb-3": {
       "paddingBottom": "var(--space-3)"
-    },
-    ".lg-pb-3_5": {
-      "paddingBottom": "var(--space-3-5)"
     },
     ".lg-pb-4": {
       "paddingBottom": "var(--space-4)"
@@ -3275,26 +2931,14 @@
     ".lg-pl-0": {
       "paddingLeft": "var(--space-0)"
     },
-    ".lg-pl-0_5": {
-      "paddingLeft": "var(--space-0-5)"
-    },
     ".lg-pl-1": {
       "paddingLeft": "var(--space-1)"
-    },
-    ".lg-pl-1_5": {
-      "paddingLeft": "var(--space-1-5)"
     },
     ".lg-pl-2": {
       "paddingLeft": "var(--space-2)"
     },
-    ".lg-pl-2_5": {
-      "paddingLeft": "var(--space-2-5)"
-    },
     ".lg-pl-3": {
       "paddingLeft": "var(--space-3)"
-    },
-    ".lg-pl-3_5": {
-      "paddingLeft": "var(--space-3-5)"
     },
     ".lg-pl-4": {
       "paddingLeft": "var(--space-4)"
@@ -3389,26 +3033,14 @@
     ".lg-pr-0": {
       "paddingRight": "var(--space-0)"
     },
-    ".lg-pr-0_5": {
-      "paddingRight": "var(--space-0-5)"
-    },
     ".lg-pr-1": {
       "paddingRight": "var(--space-1)"
-    },
-    ".lg-pr-1_5": {
-      "paddingRight": "var(--space-1-5)"
     },
     ".lg-pr-2": {
       "paddingRight": "var(--space-2)"
     },
-    ".lg-pr-2_5": {
-      "paddingRight": "var(--space-2-5)"
-    },
     ".lg-pr-3": {
       "paddingRight": "var(--space-3)"
-    },
-    ".lg-pr-3_5": {
-      "paddingRight": "var(--space-3-5)"
     },
     ".lg-pr-4": {
       "paddingRight": "var(--space-4)"
@@ -3505,26 +3137,14 @@
     ".xl-p-0": {
       "padding": "var(--space-0)"
     },
-    ".xl-p-0_5": {
-      "padding": "var(--space-0-5)"
-    },
     ".xl-p-1": {
       "padding": "var(--space-1)"
-    },
-    ".xl-p-1_5": {
-      "padding": "var(--space-1-5)"
     },
     ".xl-p-2": {
       "padding": "var(--space-2)"
     },
-    ".xl-p-2_5": {
-      "padding": "var(--space-2-5)"
-    },
     ".xl-p-3": {
       "padding": "var(--space-3)"
-    },
-    ".xl-p-3_5": {
-      "padding": "var(--space-3-5)"
     },
     ".xl-p-4": {
       "padding": "var(--space-4)"
@@ -3620,33 +3240,17 @@
       "paddingLeft": "var(--space-0)",
       "paddingRight": "var(--space-0)"
     },
-    ".xl-px-0_5": {
-      "paddingLeft": "var(--space-0-5)",
-      "paddingRight": "var(--space-0-5)"
-    },
     ".xl-px-1": {
       "paddingLeft": "var(--space-1)",
       "paddingRight": "var(--space-1)"
-    },
-    ".xl-px-1_5": {
-      "paddingLeft": "var(--space-1-5)",
-      "paddingRight": "var(--space-1-5)"
     },
     ".xl-px-2": {
       "paddingLeft": "var(--space-2)",
       "paddingRight": "var(--space-2)"
     },
-    ".xl-px-2_5": {
-      "paddingLeft": "var(--space-2-5)",
-      "paddingRight": "var(--space-2-5)"
-    },
     ".xl-px-3": {
       "paddingLeft": "var(--space-3)",
       "paddingRight": "var(--space-3)"
-    },
-    ".xl-px-3_5": {
-      "paddingLeft": "var(--space-3-5)",
-      "paddingRight": "var(--space-3-5)"
     },
     ".xl-px-4": {
       "paddingLeft": "var(--space-4)",
@@ -3772,33 +3376,17 @@
       "paddingBottom": "var(--space-0)",
       "paddingTop": "var(--space-0)"
     },
-    ".xl-py-0_5": {
-      "paddingBottom": "var(--space-0-5)",
-      "paddingTop": "var(--space-0-5)"
-    },
     ".xl-py-1": {
       "paddingBottom": "var(--space-1)",
       "paddingTop": "var(--space-1)"
-    },
-    ".xl-py-1_5": {
-      "paddingBottom": "var(--space-1-5)",
-      "paddingTop": "var(--space-1-5)"
     },
     ".xl-py-2": {
       "paddingBottom": "var(--space-2)",
       "paddingTop": "var(--space-2)"
     },
-    ".xl-py-2_5": {
-      "paddingBottom": "var(--space-2-5)",
-      "paddingTop": "var(--space-2-5)"
-    },
     ".xl-py-3": {
       "paddingBottom": "var(--space-3)",
       "paddingTop": "var(--space-3)"
-    },
-    ".xl-py-3_5": {
-      "paddingBottom": "var(--space-3-5)",
-      "paddingTop": "var(--space-3-5)"
     },
     ".xl-py-4": {
       "paddingBottom": "var(--space-4)",
@@ -3923,26 +3511,14 @@
     ".xl-pt-0": {
       "paddingTop": "var(--space-0)"
     },
-    ".xl-pt-0_5": {
-      "paddingTop": "var(--space-0-5)"
-    },
     ".xl-pt-1": {
       "paddingTop": "var(--space-1)"
-    },
-    ".xl-pt-1_5": {
-      "paddingTop": "var(--space-1-5)"
     },
     ".xl-pt-2": {
       "paddingTop": "var(--space-2)"
     },
-    ".xl-pt-2_5": {
-      "paddingTop": "var(--space-2-5)"
-    },
     ".xl-pt-3": {
       "paddingTop": "var(--space-3)"
-    },
-    ".xl-pt-3_5": {
-      "paddingTop": "var(--space-3-5)"
     },
     ".xl-pt-4": {
       "paddingTop": "var(--space-4)"
@@ -4037,26 +3613,14 @@
     ".xl-pb-0": {
       "paddingBottom": "var(--space-0)"
     },
-    ".xl-pb-0_5": {
-      "paddingBottom": "var(--space-0-5)"
-    },
     ".xl-pb-1": {
       "paddingBottom": "var(--space-1)"
-    },
-    ".xl-pb-1_5": {
-      "paddingBottom": "var(--space-1-5)"
     },
     ".xl-pb-2": {
       "paddingBottom": "var(--space-2)"
     },
-    ".xl-pb-2_5": {
-      "paddingBottom": "var(--space-2-5)"
-    },
     ".xl-pb-3": {
       "paddingBottom": "var(--space-3)"
-    },
-    ".xl-pb-3_5": {
-      "paddingBottom": "var(--space-3-5)"
     },
     ".xl-pb-4": {
       "paddingBottom": "var(--space-4)"
@@ -4151,26 +3715,14 @@
     ".xl-pl-0": {
       "paddingLeft": "var(--space-0)"
     },
-    ".xl-pl-0_5": {
-      "paddingLeft": "var(--space-0-5)"
-    },
     ".xl-pl-1": {
       "paddingLeft": "var(--space-1)"
-    },
-    ".xl-pl-1_5": {
-      "paddingLeft": "var(--space-1-5)"
     },
     ".xl-pl-2": {
       "paddingLeft": "var(--space-2)"
     },
-    ".xl-pl-2_5": {
-      "paddingLeft": "var(--space-2-5)"
-    },
     ".xl-pl-3": {
       "paddingLeft": "var(--space-3)"
-    },
-    ".xl-pl-3_5": {
-      "paddingLeft": "var(--space-3-5)"
     },
     ".xl-pl-4": {
       "paddingLeft": "var(--space-4)"
@@ -4265,26 +3817,14 @@
     ".xl-pr-0": {
       "paddingRight": "var(--space-0)"
     },
-    ".xl-pr-0_5": {
-      "paddingRight": "var(--space-0-5)"
-    },
     ".xl-pr-1": {
       "paddingRight": "var(--space-1)"
-    },
-    ".xl-pr-1_5": {
-      "paddingRight": "var(--space-1-5)"
     },
     ".xl-pr-2": {
       "paddingRight": "var(--space-2)"
     },
-    ".xl-pr-2_5": {
-      "paddingRight": "var(--space-2-5)"
-    },
     ".xl-pr-3": {
       "paddingRight": "var(--space-3)"
-    },
-    ".xl-pr-3_5": {
-      "paddingRight": "var(--space-3-5)"
     },
     ".xl-pr-4": {
       "paddingRight": "var(--space-4)"
@@ -4381,26 +3921,14 @@
     ".xxl-p-0": {
       "padding": "var(--space-0)"
     },
-    ".xxl-p-0_5": {
-      "padding": "var(--space-0-5)"
-    },
     ".xxl-p-1": {
       "padding": "var(--space-1)"
-    },
-    ".xxl-p-1_5": {
-      "padding": "var(--space-1-5)"
     },
     ".xxl-p-2": {
       "padding": "var(--space-2)"
     },
-    ".xxl-p-2_5": {
-      "padding": "var(--space-2-5)"
-    },
     ".xxl-p-3": {
       "padding": "var(--space-3)"
-    },
-    ".xxl-p-3_5": {
-      "padding": "var(--space-3-5)"
     },
     ".xxl-p-4": {
       "padding": "var(--space-4)"
@@ -4496,33 +4024,17 @@
       "paddingLeft": "var(--space-0)",
       "paddingRight": "var(--space-0)"
     },
-    ".xxl-px-0_5": {
-      "paddingLeft": "var(--space-0-5)",
-      "paddingRight": "var(--space-0-5)"
-    },
     ".xxl-px-1": {
       "paddingLeft": "var(--space-1)",
       "paddingRight": "var(--space-1)"
-    },
-    ".xxl-px-1_5": {
-      "paddingLeft": "var(--space-1-5)",
-      "paddingRight": "var(--space-1-5)"
     },
     ".xxl-px-2": {
       "paddingLeft": "var(--space-2)",
       "paddingRight": "var(--space-2)"
     },
-    ".xxl-px-2_5": {
-      "paddingLeft": "var(--space-2-5)",
-      "paddingRight": "var(--space-2-5)"
-    },
     ".xxl-px-3": {
       "paddingLeft": "var(--space-3)",
       "paddingRight": "var(--space-3)"
-    },
-    ".xxl-px-3_5": {
-      "paddingLeft": "var(--space-3-5)",
-      "paddingRight": "var(--space-3-5)"
     },
     ".xxl-px-4": {
       "paddingLeft": "var(--space-4)",
@@ -4648,33 +4160,17 @@
       "paddingBottom": "var(--space-0)",
       "paddingTop": "var(--space-0)"
     },
-    ".xxl-py-0_5": {
-      "paddingBottom": "var(--space-0-5)",
-      "paddingTop": "var(--space-0-5)"
-    },
     ".xxl-py-1": {
       "paddingBottom": "var(--space-1)",
       "paddingTop": "var(--space-1)"
-    },
-    ".xxl-py-1_5": {
-      "paddingBottom": "var(--space-1-5)",
-      "paddingTop": "var(--space-1-5)"
     },
     ".xxl-py-2": {
       "paddingBottom": "var(--space-2)",
       "paddingTop": "var(--space-2)"
     },
-    ".xxl-py-2_5": {
-      "paddingBottom": "var(--space-2-5)",
-      "paddingTop": "var(--space-2-5)"
-    },
     ".xxl-py-3": {
       "paddingBottom": "var(--space-3)",
       "paddingTop": "var(--space-3)"
-    },
-    ".xxl-py-3_5": {
-      "paddingBottom": "var(--space-3-5)",
-      "paddingTop": "var(--space-3-5)"
     },
     ".xxl-py-4": {
       "paddingBottom": "var(--space-4)",
@@ -4799,26 +4295,14 @@
     ".xxl-pt-0": {
       "paddingTop": "var(--space-0)"
     },
-    ".xxl-pt-0_5": {
-      "paddingTop": "var(--space-0-5)"
-    },
     ".xxl-pt-1": {
       "paddingTop": "var(--space-1)"
-    },
-    ".xxl-pt-1_5": {
-      "paddingTop": "var(--space-1-5)"
     },
     ".xxl-pt-2": {
       "paddingTop": "var(--space-2)"
     },
-    ".xxl-pt-2_5": {
-      "paddingTop": "var(--space-2-5)"
-    },
     ".xxl-pt-3": {
       "paddingTop": "var(--space-3)"
-    },
-    ".xxl-pt-3_5": {
-      "paddingTop": "var(--space-3-5)"
     },
     ".xxl-pt-4": {
       "paddingTop": "var(--space-4)"
@@ -4913,26 +4397,14 @@
     ".xxl-pb-0": {
       "paddingBottom": "var(--space-0)"
     },
-    ".xxl-pb-0_5": {
-      "paddingBottom": "var(--space-0-5)"
-    },
     ".xxl-pb-1": {
       "paddingBottom": "var(--space-1)"
-    },
-    ".xxl-pb-1_5": {
-      "paddingBottom": "var(--space-1-5)"
     },
     ".xxl-pb-2": {
       "paddingBottom": "var(--space-2)"
     },
-    ".xxl-pb-2_5": {
-      "paddingBottom": "var(--space-2-5)"
-    },
     ".xxl-pb-3": {
       "paddingBottom": "var(--space-3)"
-    },
-    ".xxl-pb-3_5": {
-      "paddingBottom": "var(--space-3-5)"
     },
     ".xxl-pb-4": {
       "paddingBottom": "var(--space-4)"
@@ -5027,26 +4499,14 @@
     ".xxl-pl-0": {
       "paddingLeft": "var(--space-0)"
     },
-    ".xxl-pl-0_5": {
-      "paddingLeft": "var(--space-0-5)"
-    },
     ".xxl-pl-1": {
       "paddingLeft": "var(--space-1)"
-    },
-    ".xxl-pl-1_5": {
-      "paddingLeft": "var(--space-1-5)"
     },
     ".xxl-pl-2": {
       "paddingLeft": "var(--space-2)"
     },
-    ".xxl-pl-2_5": {
-      "paddingLeft": "var(--space-2-5)"
-    },
     ".xxl-pl-3": {
       "paddingLeft": "var(--space-3)"
-    },
-    ".xxl-pl-3_5": {
-      "paddingLeft": "var(--space-3-5)"
     },
     ".xxl-pl-4": {
       "paddingLeft": "var(--space-4)"
@@ -5141,26 +4601,14 @@
     ".xxl-pr-0": {
       "paddingRight": "var(--space-0)"
     },
-    ".xxl-pr-0_5": {
-      "paddingRight": "var(--space-0-5)"
-    },
     ".xxl-pr-1": {
       "paddingRight": "var(--space-1)"
-    },
-    ".xxl-pr-1_5": {
-      "paddingRight": "var(--space-1-5)"
     },
     ".xxl-pr-2": {
       "paddingRight": "var(--space-2)"
     },
-    ".xxl-pr-2_5": {
-      "paddingRight": "var(--space-2-5)"
-    },
     ".xxl-pr-3": {
       "paddingRight": "var(--space-3)"
-    },
-    ".xxl-pr-3_5": {
-      "paddingRight": "var(--space-3-5)"
     },
     ".xxl-pr-4": {
       "paddingRight": "var(--space-4)"
