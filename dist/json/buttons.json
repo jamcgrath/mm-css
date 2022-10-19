@@ -167,15 +167,6 @@
     "--btn-fs": "var(--body)",
     "--btn-circle-width": "56px"
   },
-  ".btn-circle.btn-sm i": {
-    "paddingTop": "3px"
-  },
-  ".btn-circle.btn-med i": {
-    "paddingTop": "5px"
-  },
-  ".btn-circle.btn-lg i": {
-    "paddingTop": "6px"
-  },
   ".btn-icon.btn-sm,\n.btn-icon.btn-med": {
     "--gap": "var(--space-1)"
   },

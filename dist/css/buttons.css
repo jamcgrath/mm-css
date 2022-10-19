@@ -187,15 +187,6 @@ button,
   --btn-fs: var(--body);
   --btn-circle-width: 56px;
 }
-.btn-circle.btn-sm i {
-  padding-top: 3px;
-}
-.btn-circle.btn-med i {
-  padding-top: 5px;
-}
-.btn-circle.btn-lg i {
-  padding-top: 6px;
-}
 .btn-icon.btn-sm,
 .btn-icon.btn-med {
   --gap: var(--space-1);
