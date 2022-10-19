@@ -1,6 +1,6 @@
 @responsive {
   .mm-badge {
-    --badge-padding: calc(var(--space-1) / 2) var(--space-2);
+    --badge-padding: var(--space-0-5) var(--space-2);
     --badge-fs: var(--overline-small);
     --badge-lh: 1;
     --badge-fw: var(--fw-7);
