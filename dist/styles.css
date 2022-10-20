@@ -478,15 +478,15 @@ html:focus-within {
   --black-20: hsla(0, 0%, 0%, 0.2);
   --black-10: hsla(0, 0%, 0%, 0.1);
 
-  --gray-1: hsla(0, 0%, 98%, 1);
-  --gray-2: hsla(0, 0%, 96%, 1);
+  --gray-9: hsla(235, 94%, 14%, 1);
+  --gray-8: hsla(0, 0%, 23%, 1);
+  --gray-7: hsla(0, 0%, 41%, 1);
+  --gray-6: hsla(0, 0%, 61%, 1);
+  --gray-5: hsla(0, 0%, 70%, 1);
   --gray-3: hsla(0, 0%, 92%, 1);
   --gray-4: hsla(0, 0%, 84%, 1);
-  --gray-5: hsla(0, 0%, 70%, 1);
-  --gray-6: hsla(0, 0%, 61%, 1);
-  --gray-7: hsla(0, 0%, 41%, 1);
-  --gray-8: hsla(0, 0%, 23%, 1);
-  --gray-9: hsla(235, 94%, 14%, 1);
+  --gray-2: hsla(0, 0%, 96%, 1);
+  --gray-1: hsla(0, 0%, 98%, 1);
 
   /* Product */
   --info: hsla(221, 89%, 65%, 1);
