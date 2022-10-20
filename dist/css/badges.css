@@ -1,6 +1,6 @@
 
   .mm-badge {
-    --badge-padding: calc(var(--space-1) / 2) var(--space-2);
+    --badge-padding: var(--space-0-5) var(--space-2);
     --badge-fs: var(--overline-small);
     --badge-lh: 1;
     --badge-fw: var(--fw-7);
@@ -57,7 +57,7 @@
   }
 @media (min-width: 480px) {
   .sm-mm-badge {
-    --badge-padding: calc(var(--space-1) / 2) var(--space-2);
+    --badge-padding: var(--space-0-5) var(--space-2);
     --badge-fs: var(--overline-small);
     --badge-lh: 1;
     --badge-fw: var(--fw-7);
@@ -115,7 +115,7 @@
 }
 @media (min-width: 768px) {
   .md-mm-badge {
-    --badge-padding: calc(var(--space-1) / 2) var(--space-2);
+    --badge-padding: var(--space-0-5) var(--space-2);
     --badge-fs: var(--overline-small);
     --badge-lh: 1;
     --badge-fw: var(--fw-7);
@@ -173,7 +173,7 @@
 }
 @media (min-width: 1024px) {
   .lg-mm-badge {
-    --badge-padding: calc(var(--space-1) / 2) var(--space-2);
+    --badge-padding: var(--space-0-5) var(--space-2);
     --badge-fs: var(--overline-small);
     --badge-lh: 1;
     --badge-fw: var(--fw-7);
@@ -231,7 +231,7 @@
 }
 @media (min-width: 1440px) {
   .xl-mm-badge {
-    --badge-padding: calc(var(--space-1) / 2) var(--space-2);
+    --badge-padding: var(--space-0-5) var(--space-2);
     --badge-fs: var(--overline-small);
     --badge-lh: 1;
     --badge-fw: var(--fw-7);
@@ -289,7 +289,7 @@
 }
 @media (min-width: 1920px) {
   .xxl-mm-badge {
-    --badge-padding: calc(var(--space-1) / 2) var(--space-2);
+    --badge-padding: var(--space-0-5) var(--space-2);
     --badge-fs: var(--overline-small);
     --badge-lh: 1;
     --badge-fw: var(--fw-7);

@@ -1,5 +1,6 @@
 :root {
   --space-0: 0; /* 0px */
+  --space-0-5: 0.0125rem; /* 2px */
   --space-1: 0.25rem; /* 4px */
   --space-2: 0.5rem; /* 8px */
   --space-3: 0.75rem; /* 12px */
@@ -6053,7 +6054,7 @@ ul[class*='list-check']:not([role='list']):after {
   z-index: var(--_z);
 }
 .mm-badge {
-    --badge-padding: calc(var(--space-1) / 2) var(--space-2);
+    --badge-padding: var(--space-0-5) var(--space-2);
     --badge-fs: var(--overline-small);
     --badge-lh: 1;
     --badge-fw: var(--fw-7);
@@ -9627,7 +9628,7 @@ button,
 		width: 100vw;
 	}
   .sm-mm-badge {
-    --badge-padding: calc(var(--space-1) / 2) var(--space-2);
+    --badge-padding: var(--space-0-5) var(--space-2);
     --badge-fs: var(--overline-small);
     --badge-lh: 1;
     --badge-fw: var(--fw-7);
@@ -12982,7 +12983,7 @@ button,
 		width: 100vw;
 	}
   .md-mm-badge {
-    --badge-padding: calc(var(--space-1) / 2) var(--space-2);
+    --badge-padding: var(--space-0-5) var(--space-2);
     --badge-fs: var(--overline-small);
     --badge-lh: 1;
     --badge-fw: var(--fw-7);
@@ -16337,7 +16338,7 @@ button,
 		width: 100vw;
 	}
   .lg-mm-badge {
-    --badge-padding: calc(var(--space-1) / 2) var(--space-2);
+    --badge-padding: var(--space-0-5) var(--space-2);
     --badge-fs: var(--overline-small);
     --badge-lh: 1;
     --badge-fw: var(--fw-7);
@@ -19692,7 +19693,7 @@ button,
 		width: 100vw;
 	}
   .xl-mm-badge {
-    --badge-padding: calc(var(--space-1) / 2) var(--space-2);
+    --badge-padding: var(--space-0-5) var(--space-2);
     --badge-fs: var(--overline-small);
     --badge-lh: 1;
     --badge-fw: var(--fw-7);
@@ -23047,7 +23048,7 @@ button,
 		width: 100vw;
 	}
   .xxl-mm-badge {
-    --badge-padding: calc(var(--space-1) / 2) var(--space-2);
+    --badge-padding: var(--space-0-5) var(--space-2);
     --badge-fs: var(--overline-small);
     --badge-lh: 1;
     --badge-fw: var(--fw-7);
