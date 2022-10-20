@@ -73,7 +73,7 @@ dd {
  */
 
 hr {
-  --hr-color: var(-gray-3);
+  --hr-color: var(--gray-3);
   --hr-margin-y: 0;
   --hr-margin-x: 1em;
   --hr-width: 1px;
