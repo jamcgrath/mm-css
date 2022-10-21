@@ -1,8 +1,7 @@
 @responsive {
-  .title-1,
+  .title-1 .title-1_article,
   .title-1_med,
   .title-1_semibold,
-  .title-1_display,
   .title-1_bold {
     font-size: var(--title-1);
     font-weight: var(--fw-4);
@@ -12,10 +11,10 @@
   }
 
   .title-2,
+  .title-2_article,
   .title-2_med,
   .title-2_semibold,
-  .title-2_bold,
-  .title-2_display {
+  .title-2_bold {
     font-size: var(--title-2);
     font-weight: var(--fw-4);
     font-family: var(--sans);
@@ -24,10 +23,10 @@
   }
 
   .title-3,
+  .title-3_article,
   .title-3_med,
   .title-3_semibold,
-  .title-3_bold,
-  .title-3_display {
+  .title-3_bold {
     font-size: var(--title-3);
     font-weight: var(--fw-4);
     font-family: var(--sans);
@@ -36,10 +35,10 @@
   }
 
   .title-4,
+  .title-4_article,
   .title-4_med,
   .title-4_semibold,
-  .title-4_bold,
-  .title-4_display {
+  .title-4_bold {
     font-size: var(--title-4);
     font-weight: var(--fw-4);
     font-family: var(--sans);
@@ -48,10 +47,10 @@
   }
 
   .title-5,
+  .title-5_article,
   .title-5_med,
   .title-5_semibold,
-  .title-5_bold,
-  .title-5_display {
+  .title-5_bold {
     font-size: var(--title-5);
     font-weight: var(--fw-4);
     font-family: var(--sans);
@@ -60,10 +59,10 @@
   }
 
   .title-6,
+  .title-6_article,
   .title-6_med,
   .title-6_semibold,
-  .title-6_bold,
-  .title-6_display {
+  .title-6_bold {
     font-size: var(--title-6);
     font-weight: var(--fw-4);
     font-family: var(--sans);
@@ -77,8 +76,7 @@
   .copy_semibold,
   .copy_bold,
   .copy_italic,
-  .copy_link,
-  .title-7_display {
+  .copy_link {
     font-size: var(--copy);
     font-weight: var(--fw-4);
     font-family: var(--serif);
@@ -92,8 +90,7 @@
   .body_semibold,
   .body_bold,
   .body_italic,
-  .body_link,
-  .title-8_display {
+  .body_link {
     font-size: var(--body);
     font-weight: var(--fw-4);
     font-family: var(--sans);
@@ -107,8 +104,7 @@
   .label_semibold,
   .label_bold,
   .label_italic,
-  .label_link,
-  .title-9_display {
+  .label_link {
     font-size: var(--label);
     font-weight: var(--fw-4);
     font-family: var(--sans);
@@ -121,8 +117,7 @@
   .caption_semibold,
   .caption_bold,
   .caption_italic,
-  .caption_link,
-  .title-10_display {
+  .caption_link {
     font-size: var(--caption);
     font-weight: var(--fw-4);
     font-family: var(--sans);
@@ -198,6 +193,12 @@
   .overline-small_med {
     font-weight: var(--fw-5);
   }
+  .title-1_article,
+  .title-2_article,
+  .title-3_article,
+  .title-4_article,
+  .title-5_article,
+  .title-6_article,
   .title-1_semibold,
   .title-2_semibold,
   .title-3_semibold,
@@ -214,16 +215,6 @@
     font-weight: var(--fw-6);
   }
 
-  .title-1_display,
-  .title-2_display,
-  .title-3_display,
-  .title-4_display,
-  .title-5_display,
-  .title-6_display,
-  .title-7_display,
-  .title-8_display,
-  .title-9_display,
-  .title-10_display,
   .title-1_bold,
   .title-2_bold,
   .title-3_bold,
@@ -243,8 +234,7 @@
   .copy_med,
   .copy_semibold,
   .copy_italic,
-  .copy_link,
-  .title-7_display {
+  .copy_link {
     font-family: var(--sans);
   }
 
