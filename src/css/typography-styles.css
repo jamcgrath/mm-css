@@ -1,5 +1,6 @@
 @responsive {
-  .title-1 .title-1_article,
+  .title-1,
+  .title-1_article,
   .title-1_med,
   .title-1_semibold,
   .title-1_bold {

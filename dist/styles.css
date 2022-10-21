@@ -1326,9 +1326,9 @@ html:focus-within {
   background-color: transparent;
 }
 .title-1,
+  .title-1_article,
   .title-1_med,
   .title-1_semibold,
-  .title-1_display,
   .title-1_bold {
     font-size: var(--title-1);
     font-weight: var(--fw-4);
@@ -1337,10 +1337,10 @@ html:focus-within {
     letter-spacing: var(--ls-02);
   }
 .title-2,
+  .title-2_article,
   .title-2_med,
   .title-2_semibold,
-  .title-2_bold,
-  .title-2_display {
+  .title-2_bold {
     font-size: var(--title-2);
     font-weight: var(--fw-4);
     font-family: var(--sans);
@@ -1348,10 +1348,10 @@ html:focus-within {
     letter-spacing: var(--ls-015);
   }
 .title-3,
+  .title-3_article,
   .title-3_med,
   .title-3_semibold,
-  .title-3_bold,
-  .title-3_display {
+  .title-3_bold {
     font-size: var(--title-3);
     font-weight: var(--fw-4);
     font-family: var(--sans);
@@ -1359,10 +1359,10 @@ html:focus-within {
     letter-spacing: var(--ls-125);
   }
 .title-4,
+  .title-4_article,
   .title-4_med,
   .title-4_semibold,
-  .title-4_bold,
-  .title-4_display {
+  .title-4_bold {
     font-size: var(--title-4);
     font-weight: var(--fw-4);
     font-family: var(--sans);
@@ -1370,10 +1370,10 @@ html:focus-within {
     letter-spacing: var(--ls-01);
   }
 .title-5,
+  .title-5_article,
   .title-5_med,
   .title-5_semibold,
-  .title-5_bold,
-  .title-5_display {
+  .title-5_bold {
     font-size: var(--title-5);
     font-weight: var(--fw-4);
     font-family: var(--sans);
@@ -1381,10 +1381,10 @@ html:focus-within {
     letter-spacing: var(--ls-075);
   }
 .title-6,
+  .title-6_article,
   .title-6_med,
   .title-6_semibold,
-  .title-6_bold,
-  .title-6_display {
+  .title-6_bold {
     font-size: var(--title-6);
     font-weight: var(--fw-4);
     font-family: var(--sans);
@@ -1397,8 +1397,7 @@ html:focus-within {
   .copy_semibold,
   .copy_bold,
   .copy_italic,
-  .copy_link,
-  .title-7_display {
+  .copy_link {
     font-size: var(--copy);
     font-weight: var(--fw-4);
     font-family: var(--serif);
@@ -1411,8 +1410,7 @@ html:focus-within {
   .body_semibold,
   .body_bold,
   .body_italic,
-  .body_link,
-  .title-8_display {
+  .body_link {
     font-size: var(--body);
     font-weight: var(--fw-4);
     font-family: var(--sans);
@@ -1425,8 +1423,7 @@ html:focus-within {
   .label_semibold,
   .label_bold,
   .label_italic,
-  .label_link,
-  .title-9_display {
+  .label_link {
     font-size: var(--label);
     font-weight: var(--fw-4);
     font-family: var(--sans);
@@ -1438,8 +1435,7 @@ html:focus-within {
   .caption_semibold,
   .caption_bold,
   .caption_italic,
-  .caption_link,
-  .title-10_display {
+  .caption_link {
     font-size: var(--caption);
     font-weight: var(--fw-4);
     font-family: var(--sans);
@@ -1511,7 +1507,13 @@ html:focus-within {
   .overline-small_med {
     font-weight: var(--fw-5);
   }
-.title-1_semibold,
+.title-1_article,
+  .title-2_article,
+  .title-3_article,
+  .title-4_article,
+  .title-5_article,
+  .title-6_article,
+  .title-1_semibold,
   .title-2_semibold,
   .title-3_semibold,
   .title-4_semibold,
@@ -1526,17 +1528,7 @@ html:focus-within {
   .overline-small_semibold {
     font-weight: var(--fw-6);
   }
-.title-1_display,
-  .title-2_display,
-  .title-3_display,
-  .title-4_display,
-  .title-5_display,
-  .title-6_display,
-  .title-7_display,
-  .title-8_display,
-  .title-9_display,
-  .title-10_display,
-  .title-1_bold,
+.title-1_bold,
   .title-2_bold,
   .title-3_bold,
   .title-4_bold,
@@ -1554,8 +1546,7 @@ html:focus-within {
 .copy_med,
   .copy_semibold,
   .copy_italic,
-  .copy_link,
-  .title-7_display {
+  .copy_link {
     font-family: var(--sans);
   }
 .copy_italic,
@@ -6331,9 +6322,9 @@ button,
 }
 @media (min-width: 480px) {
   .sm-title-1,
+.sm-title-1_article,
 .sm-title-1_med,
 .sm-title-1_semibold,
-.sm-title-1_display,
 .sm-title-1_bold {
     font-size: var(--title-1);
     font-weight: var(--fw-4);
@@ -6343,10 +6334,10 @@ button,
   }
 
   .sm-title-2,
+.sm-title-2_article,
 .sm-title-2_med,
 .sm-title-2_semibold,
-.sm-title-2_bold,
-.sm-title-2_display {
+.sm-title-2_bold {
     font-size: var(--title-2);
     font-weight: var(--fw-4);
     font-family: var(--sans);
@@ -6355,10 +6346,10 @@ button,
   }
 
   .sm-title-3,
+.sm-title-3_article,
 .sm-title-3_med,
 .sm-title-3_semibold,
-.sm-title-3_bold,
-.sm-title-3_display {
+.sm-title-3_bold {
     font-size: var(--title-3);
     font-weight: var(--fw-4);
     font-family: var(--sans);
@@ -6367,10 +6358,10 @@ button,
   }
 
   .sm-title-4,
+.sm-title-4_article,
 .sm-title-4_med,
 .sm-title-4_semibold,
-.sm-title-4_bold,
-.sm-title-4_display {
+.sm-title-4_bold {
     font-size: var(--title-4);
     font-weight: var(--fw-4);
     font-family: var(--sans);
@@ -6379,10 +6370,10 @@ button,
   }
 
   .sm-title-5,
+.sm-title-5_article,
 .sm-title-5_med,
 .sm-title-5_semibold,
-.sm-title-5_bold,
-.sm-title-5_display {
+.sm-title-5_bold {
     font-size: var(--title-5);
     font-weight: var(--fw-4);
     font-family: var(--sans);
@@ -6391,10 +6382,10 @@ button,
   }
 
   .sm-title-6,
+.sm-title-6_article,
 .sm-title-6_med,
 .sm-title-6_semibold,
-.sm-title-6_bold,
-.sm-title-6_display {
+.sm-title-6_bold {
     font-size: var(--title-6);
     font-weight: var(--fw-4);
     font-family: var(--sans);
@@ -6408,8 +6399,7 @@ button,
 .sm-copy_semibold,
 .sm-copy_bold,
 .sm-copy_italic,
-.sm-copy_link,
-.sm-title-7_display {
+.sm-copy_link {
     font-size: var(--copy);
     font-weight: var(--fw-4);
     font-family: var(--serif);
@@ -6423,8 +6413,7 @@ button,
 .sm-body_semibold,
 .sm-body_bold,
 .sm-body_italic,
-.sm-body_link,
-.sm-title-8_display {
+.sm-body_link {
     font-size: var(--body);
     font-weight: var(--fw-4);
     font-family: var(--sans);
@@ -6438,8 +6427,7 @@ button,
 .sm-label_semibold,
 .sm-label_bold,
 .sm-label_italic,
-.sm-label_link,
-.sm-title-9_display {
+.sm-label_link {
     font-size: var(--label);
     font-weight: var(--fw-4);
     font-family: var(--sans);
@@ -6452,8 +6440,7 @@ button,
 .sm-caption_semibold,
 .sm-caption_bold,
 .sm-caption_italic,
-.sm-caption_link,
-.sm-title-10_display {
+.sm-caption_link {
     font-size: var(--caption);
     font-weight: var(--fw-4);
     font-family: var(--sans);
@@ -6529,7 +6516,13 @@ button,
 .sm-overline-small_med {
     font-weight: var(--fw-5);
   }
-  .sm-title-1_semibold,
+  .sm-title-1_article,
+.sm-title-2_article,
+.sm-title-3_article,
+.sm-title-4_article,
+.sm-title-5_article,
+.sm-title-6_article,
+.sm-title-1_semibold,
 .sm-title-2_semibold,
 .sm-title-3_semibold,
 .sm-title-4_semibold,
@@ -6545,17 +6538,7 @@ button,
     font-weight: var(--fw-6);
   }
 
-  .sm-title-1_display,
-.sm-title-2_display,
-.sm-title-3_display,
-.sm-title-4_display,
-.sm-title-5_display,
-.sm-title-6_display,
-.sm-title-7_display,
-.sm-title-8_display,
-.sm-title-9_display,
-.sm-title-10_display,
-.sm-title-1_bold,
+  .sm-title-1_bold,
 .sm-title-2_bold,
 .sm-title-3_bold,
 .sm-title-4_bold,
@@ -6574,8 +6557,7 @@ button,
   .sm-copy_med,
 .sm-copy_semibold,
 .sm-copy_italic,
-.sm-copy_link,
-.sm-title-7_display {
+.sm-copy_link {
     font-family: var(--sans);
   }
 
@@ -9686,9 +9668,9 @@ button,
 }
 @media (min-width: 768px) {
   .md-title-1,
+.md-title-1_article,
 .md-title-1_med,
 .md-title-1_semibold,
-.md-title-1_display,
 .md-title-1_bold {
     font-size: var(--title-1);
     font-weight: var(--fw-4);
@@ -9698,10 +9680,10 @@ button,
   }
 
   .md-title-2,
+.md-title-2_article,
 .md-title-2_med,
 .md-title-2_semibold,
-.md-title-2_bold,
-.md-title-2_display {
+.md-title-2_bold {
     font-size: var(--title-2);
     font-weight: var(--fw-4);
     font-family: var(--sans);
@@ -9710,10 +9692,10 @@ button,
   }
 
   .md-title-3,
+.md-title-3_article,
 .md-title-3_med,
 .md-title-3_semibold,
-.md-title-3_bold,
-.md-title-3_display {
+.md-title-3_bold {
     font-size: var(--title-3);
     font-weight: var(--fw-4);
     font-family: var(--sans);
@@ -9722,10 +9704,10 @@ button,
   }
 
   .md-title-4,
+.md-title-4_article,
 .md-title-4_med,
 .md-title-4_semibold,
-.md-title-4_bold,
-.md-title-4_display {
+.md-title-4_bold {
     font-size: var(--title-4);
     font-weight: var(--fw-4);
     font-family: var(--sans);
@@ -9734,10 +9716,10 @@ button,
   }
 
   .md-title-5,
+.md-title-5_article,
 .md-title-5_med,
 .md-title-5_semibold,
-.md-title-5_bold,
-.md-title-5_display {
+.md-title-5_bold {
     font-size: var(--title-5);
     font-weight: var(--fw-4);
     font-family: var(--sans);
@@ -9746,10 +9728,10 @@ button,
   }
 
   .md-title-6,
+.md-title-6_article,
 .md-title-6_med,
 .md-title-6_semibold,
-.md-title-6_bold,
-.md-title-6_display {
+.md-title-6_bold {
     font-size: var(--title-6);
     font-weight: var(--fw-4);
     font-family: var(--sans);
@@ -9763,8 +9745,7 @@ button,
 .md-copy_semibold,
 .md-copy_bold,
 .md-copy_italic,
-.md-copy_link,
-.md-title-7_display {
+.md-copy_link {
     font-size: var(--copy);
     font-weight: var(--fw-4);
     font-family: var(--serif);
@@ -9778,8 +9759,7 @@ button,
 .md-body_semibold,
 .md-body_bold,
 .md-body_italic,
-.md-body_link,
-.md-title-8_display {
+.md-body_link {
     font-size: var(--body);
     font-weight: var(--fw-4);
     font-family: var(--sans);
@@ -9793,8 +9773,7 @@ button,
 .md-label_semibold,
 .md-label_bold,
 .md-label_italic,
-.md-label_link,
-.md-title-9_display {
+.md-label_link {
     font-size: var(--label);
     font-weight: var(--fw-4);
     font-family: var(--sans);
@@ -9807,8 +9786,7 @@ button,
 .md-caption_semibold,
 .md-caption_bold,
 .md-caption_italic,
-.md-caption_link,
-.md-title-10_display {
+.md-caption_link {
     font-size: var(--caption);
     font-weight: var(--fw-4);
     font-family: var(--sans);
@@ -9884,7 +9862,13 @@ button,
 .md-overline-small_med {
     font-weight: var(--fw-5);
   }
-  .md-title-1_semibold,
+  .md-title-1_article,
+.md-title-2_article,
+.md-title-3_article,
+.md-title-4_article,
+.md-title-5_article,
+.md-title-6_article,
+.md-title-1_semibold,
 .md-title-2_semibold,
 .md-title-3_semibold,
 .md-title-4_semibold,
@@ -9900,17 +9884,7 @@ button,
     font-weight: var(--fw-6);
   }
 
-  .md-title-1_display,
-.md-title-2_display,
-.md-title-3_display,
-.md-title-4_display,
-.md-title-5_display,
-.md-title-6_display,
-.md-title-7_display,
-.md-title-8_display,
-.md-title-9_display,
-.md-title-10_display,
-.md-title-1_bold,
+  .md-title-1_bold,
 .md-title-2_bold,
 .md-title-3_bold,
 .md-title-4_bold,
@@ -9929,8 +9903,7 @@ button,
   .md-copy_med,
 .md-copy_semibold,
 .md-copy_italic,
-.md-copy_link,
-.md-title-7_display {
+.md-copy_link {
     font-family: var(--sans);
   }
 
@@ -13041,9 +13014,9 @@ button,
 }
 @media (min-width: 1024px) {
   .lg-title-1,
+.lg-title-1_article,
 .lg-title-1_med,
 .lg-title-1_semibold,
-.lg-title-1_display,
 .lg-title-1_bold {
     font-size: var(--title-1);
     font-weight: var(--fw-4);
@@ -13053,10 +13026,10 @@ button,
   }
 
   .lg-title-2,
+.lg-title-2_article,
 .lg-title-2_med,
 .lg-title-2_semibold,
-.lg-title-2_bold,
-.lg-title-2_display {
+.lg-title-2_bold {
     font-size: var(--title-2);
     font-weight: var(--fw-4);
     font-family: var(--sans);
@@ -13065,10 +13038,10 @@ button,
   }
 
   .lg-title-3,
+.lg-title-3_article,
 .lg-title-3_med,
 .lg-title-3_semibold,
-.lg-title-3_bold,
-.lg-title-3_display {
+.lg-title-3_bold {
     font-size: var(--title-3);
     font-weight: var(--fw-4);
     font-family: var(--sans);
@@ -13077,10 +13050,10 @@ button,
   }
 
   .lg-title-4,
+.lg-title-4_article,
 .lg-title-4_med,
 .lg-title-4_semibold,
-.lg-title-4_bold,
-.lg-title-4_display {
+.lg-title-4_bold {
     font-size: var(--title-4);
     font-weight: var(--fw-4);
     font-family: var(--sans);
@@ -13089,10 +13062,10 @@ button,
   }
 
   .lg-title-5,
+.lg-title-5_article,
 .lg-title-5_med,
 .lg-title-5_semibold,
-.lg-title-5_bold,
-.lg-title-5_display {
+.lg-title-5_bold {
     font-size: var(--title-5);
     font-weight: var(--fw-4);
     font-family: var(--sans);
@@ -13101,10 +13074,10 @@ button,
   }
 
   .lg-title-6,
+.lg-title-6_article,
 .lg-title-6_med,
 .lg-title-6_semibold,
-.lg-title-6_bold,
-.lg-title-6_display {
+.lg-title-6_bold {
     font-size: var(--title-6);
     font-weight: var(--fw-4);
     font-family: var(--sans);
@@ -13118,8 +13091,7 @@ button,
 .lg-copy_semibold,
 .lg-copy_bold,
 .lg-copy_italic,
-.lg-copy_link,
-.lg-title-7_display {
+.lg-copy_link {
     font-size: var(--copy);
     font-weight: var(--fw-4);
     font-family: var(--serif);
@@ -13133,8 +13105,7 @@ button,
 .lg-body_semibold,
 .lg-body_bold,
 .lg-body_italic,
-.lg-body_link,
-.lg-title-8_display {
+.lg-body_link {
     font-size: var(--body);
     font-weight: var(--fw-4);
     font-family: var(--sans);
@@ -13148,8 +13119,7 @@ button,
 .lg-label_semibold,
 .lg-label_bold,
 .lg-label_italic,
-.lg-label_link,
-.lg-title-9_display {
+.lg-label_link {
     font-size: var(--label);
     font-weight: var(--fw-4);
     font-family: var(--sans);
@@ -13162,8 +13132,7 @@ button,
 .lg-caption_semibold,
 .lg-caption_bold,
 .lg-caption_italic,
-.lg-caption_link,
-.lg-title-10_display {
+.lg-caption_link {
     font-size: var(--caption);
     font-weight: var(--fw-4);
     font-family: var(--sans);
@@ -13239,7 +13208,13 @@ button,
 .lg-overline-small_med {
     font-weight: var(--fw-5);
   }
-  .lg-title-1_semibold,
+  .lg-title-1_article,
+.lg-title-2_article,
+.lg-title-3_article,
+.lg-title-4_article,
+.lg-title-5_article,
+.lg-title-6_article,
+.lg-title-1_semibold,
 .lg-title-2_semibold,
 .lg-title-3_semibold,
 .lg-title-4_semibold,
@@ -13255,17 +13230,7 @@ button,
     font-weight: var(--fw-6);
   }
 
-  .lg-title-1_display,
-.lg-title-2_display,
-.lg-title-3_display,
-.lg-title-4_display,
-.lg-title-5_display,
-.lg-title-6_display,
-.lg-title-7_display,
-.lg-title-8_display,
-.lg-title-9_display,
-.lg-title-10_display,
-.lg-title-1_bold,
+  .lg-title-1_bold,
 .lg-title-2_bold,
 .lg-title-3_bold,
 .lg-title-4_bold,
@@ -13284,8 +13249,7 @@ button,
   .lg-copy_med,
 .lg-copy_semibold,
 .lg-copy_italic,
-.lg-copy_link,
-.lg-title-7_display {
+.lg-copy_link {
     font-family: var(--sans);
   }
 
@@ -16396,9 +16360,9 @@ button,
 }
 @media (min-width: 1440px) {
   .xl-title-1,
+.xl-title-1_article,
 .xl-title-1_med,
 .xl-title-1_semibold,
-.xl-title-1_display,
 .xl-title-1_bold {
     font-size: var(--title-1);
     font-weight: var(--fw-4);
@@ -16408,10 +16372,10 @@ button,
   }
 
   .xl-title-2,
+.xl-title-2_article,
 .xl-title-2_med,
 .xl-title-2_semibold,
-.xl-title-2_bold,
-.xl-title-2_display {
+.xl-title-2_bold {
     font-size: var(--title-2);
     font-weight: var(--fw-4);
     font-family: var(--sans);
@@ -16420,10 +16384,10 @@ button,
   }
 
   .xl-title-3,
+.xl-title-3_article,
 .xl-title-3_med,
 .xl-title-3_semibold,
-.xl-title-3_bold,
-.xl-title-3_display {
+.xl-title-3_bold {
     font-size: var(--title-3);
     font-weight: var(--fw-4);
     font-family: var(--sans);
@@ -16432,10 +16396,10 @@ button,
   }
 
   .xl-title-4,
+.xl-title-4_article,
 .xl-title-4_med,
 .xl-title-4_semibold,
-.xl-title-4_bold,
-.xl-title-4_display {
+.xl-title-4_bold {
     font-size: var(--title-4);
     font-weight: var(--fw-4);
     font-family: var(--sans);
@@ -16444,10 +16408,10 @@ button,
   }
 
   .xl-title-5,
+.xl-title-5_article,
 .xl-title-5_med,
 .xl-title-5_semibold,
-.xl-title-5_bold,
-.xl-title-5_display {
+.xl-title-5_bold {
     font-size: var(--title-5);
     font-weight: var(--fw-4);
     font-family: var(--sans);
@@ -16456,10 +16420,10 @@ button,
   }
 
   .xl-title-6,
+.xl-title-6_article,
 .xl-title-6_med,
 .xl-title-6_semibold,
-.xl-title-6_bold,
-.xl-title-6_display {
+.xl-title-6_bold {
     font-size: var(--title-6);
     font-weight: var(--fw-4);
     font-family: var(--sans);
@@ -16473,8 +16437,7 @@ button,
 .xl-copy_semibold,
 .xl-copy_bold,
 .xl-copy_italic,
-.xl-copy_link,
-.xl-title-7_display {
+.xl-copy_link {
     font-size: var(--copy);
     font-weight: var(--fw-4);
     font-family: var(--serif);
@@ -16488,8 +16451,7 @@ button,
 .xl-body_semibold,
 .xl-body_bold,
 .xl-body_italic,
-.xl-body_link,
-.xl-title-8_display {
+.xl-body_link {
     font-size: var(--body);
     font-weight: var(--fw-4);
     font-family: var(--sans);
@@ -16503,8 +16465,7 @@ button,
 .xl-label_semibold,
 .xl-label_bold,
 .xl-label_italic,
-.xl-label_link,
-.xl-title-9_display {
+.xl-label_link {
     font-size: var(--label);
     font-weight: var(--fw-4);
     font-family: var(--sans);
@@ -16517,8 +16478,7 @@ button,
 .xl-caption_semibold,
 .xl-caption_bold,
 .xl-caption_italic,
-.xl-caption_link,
-.xl-title-10_display {
+.xl-caption_link {
     font-size: var(--caption);
     font-weight: var(--fw-4);
     font-family: var(--sans);
@@ -16594,7 +16554,13 @@ button,
 .xl-overline-small_med {
     font-weight: var(--fw-5);
   }
-  .xl-title-1_semibold,
+  .xl-title-1_article,
+.xl-title-2_article,
+.xl-title-3_article,
+.xl-title-4_article,
+.xl-title-5_article,
+.xl-title-6_article,
+.xl-title-1_semibold,
 .xl-title-2_semibold,
 .xl-title-3_semibold,
 .xl-title-4_semibold,
@@ -16610,17 +16576,7 @@ button,
     font-weight: var(--fw-6);
   }
 
-  .xl-title-1_display,
-.xl-title-2_display,
-.xl-title-3_display,
-.xl-title-4_display,
-.xl-title-5_display,
-.xl-title-6_display,
-.xl-title-7_display,
-.xl-title-8_display,
-.xl-title-9_display,
-.xl-title-10_display,
-.xl-title-1_bold,
+  .xl-title-1_bold,
 .xl-title-2_bold,
 .xl-title-3_bold,
 .xl-title-4_bold,
@@ -16639,8 +16595,7 @@ button,
   .xl-copy_med,
 .xl-copy_semibold,
 .xl-copy_italic,
-.xl-copy_link,
-.xl-title-7_display {
+.xl-copy_link {
     font-family: var(--sans);
   }
 
@@ -19751,9 +19706,9 @@ button,
 }
 @media (min-width: 1920px) {
   .xxl-title-1,
+.xxl-title-1_article,
 .xxl-title-1_med,
 .xxl-title-1_semibold,
-.xxl-title-1_display,
 .xxl-title-1_bold {
     font-size: var(--title-1);
     font-weight: var(--fw-4);
@@ -19763,10 +19718,10 @@ button,
   }
 
   .xxl-title-2,
+.xxl-title-2_article,
 .xxl-title-2_med,
 .xxl-title-2_semibold,
-.xxl-title-2_bold,
-.xxl-title-2_display {
+.xxl-title-2_bold {
     font-size: var(--title-2);
     font-weight: var(--fw-4);
     font-family: var(--sans);
@@ -19775,10 +19730,10 @@ button,
   }
 
   .xxl-title-3,
+.xxl-title-3_article,
 .xxl-title-3_med,
 .xxl-title-3_semibold,
-.xxl-title-3_bold,
-.xxl-title-3_display {
+.xxl-title-3_bold {
     font-size: var(--title-3);
     font-weight: var(--fw-4);
     font-family: var(--sans);
@@ -19787,10 +19742,10 @@ button,
   }
 
   .xxl-title-4,
+.xxl-title-4_article,
 .xxl-title-4_med,
 .xxl-title-4_semibold,
-.xxl-title-4_bold,
-.xxl-title-4_display {
+.xxl-title-4_bold {
     font-size: var(--title-4);
     font-weight: var(--fw-4);
     font-family: var(--sans);
@@ -19799,10 +19754,10 @@ button,
   }
 
   .xxl-title-5,
+.xxl-title-5_article,
 .xxl-title-5_med,
 .xxl-title-5_semibold,
-.xxl-title-5_bold,
-.xxl-title-5_display {
+.xxl-title-5_bold {
     font-size: var(--title-5);
     font-weight: var(--fw-4);
     font-family: var(--sans);
@@ -19811,10 +19766,10 @@ button,
   }
 
   .xxl-title-6,
+.xxl-title-6_article,
 .xxl-title-6_med,
 .xxl-title-6_semibold,
-.xxl-title-6_bold,
-.xxl-title-6_display {
+.xxl-title-6_bold {
     font-size: var(--title-6);
     font-weight: var(--fw-4);
     font-family: var(--sans);
@@ -19828,8 +19783,7 @@ button,
 .xxl-copy_semibold,
 .xxl-copy_bold,
 .xxl-copy_italic,
-.xxl-copy_link,
-.xxl-title-7_display {
+.xxl-copy_link {
     font-size: var(--copy);
     font-weight: var(--fw-4);
     font-family: var(--serif);
@@ -19843,8 +19797,7 @@ button,
 .xxl-body_semibold,
 .xxl-body_bold,
 .xxl-body_italic,
-.xxl-body_link,
-.xxl-title-8_display {
+.xxl-body_link {
     font-size: var(--body);
     font-weight: var(--fw-4);
     font-family: var(--sans);
@@ -19858,8 +19811,7 @@ button,
 .xxl-label_semibold,
 .xxl-label_bold,
 .xxl-label_italic,
-.xxl-label_link,
-.xxl-title-9_display {
+.xxl-label_link {
     font-size: var(--label);
     font-weight: var(--fw-4);
     font-family: var(--sans);
@@ -19872,8 +19824,7 @@ button,
 .xxl-caption_semibold,
 .xxl-caption_bold,
 .xxl-caption_italic,
-.xxl-caption_link,
-.xxl-title-10_display {
+.xxl-caption_link {
     font-size: var(--caption);
     font-weight: var(--fw-4);
     font-family: var(--sans);
@@ -19949,7 +19900,13 @@ button,
 .xxl-overline-small_med {
     font-weight: var(--fw-5);
   }
-  .xxl-title-1_semibold,
+  .xxl-title-1_article,
+.xxl-title-2_article,
+.xxl-title-3_article,
+.xxl-title-4_article,
+.xxl-title-5_article,
+.xxl-title-6_article,
+.xxl-title-1_semibold,
 .xxl-title-2_semibold,
 .xxl-title-3_semibold,
 .xxl-title-4_semibold,
@@ -19965,17 +19922,7 @@ button,
     font-weight: var(--fw-6);
   }
 
-  .xxl-title-1_display,
-.xxl-title-2_display,
-.xxl-title-3_display,
-.xxl-title-4_display,
-.xxl-title-5_display,
-.xxl-title-6_display,
-.xxl-title-7_display,
-.xxl-title-8_display,
-.xxl-title-9_display,
-.xxl-title-10_display,
-.xxl-title-1_bold,
+  .xxl-title-1_bold,
 .xxl-title-2_bold,
 .xxl-title-3_bold,
 .xxl-title-4_bold,
@@ -19994,8 +19941,7 @@ button,
   .xxl-copy_med,
 .xxl-copy_semibold,
 .xxl-copy_italic,
-.xxl-copy_link,
-.xxl-title-7_display {
+.xxl-copy_link {
     font-family: var(--sans);
   }
 
