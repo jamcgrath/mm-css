@@ -1,6 +1,6 @@
 {
   "button,\n.btn": {
-    "--btn-bg": "none",
+    "--btn-bg": "transparent",
     "--btn-color": "currentcolor",
     "--btn-border": "0",
     "--btn-padding": "0",
@@ -22,7 +22,7 @@
     "--btn-border-radius": "8px",
     "--btn-fs": "var(--label)",
     "--btn-fw": "var(--fw-6)",
-    "--btn-gap": "var(--btn-gap, 9px)",
+    "--btn-gap": "var(--btn-gap, var(--space-2))",
     "borderRadius": "var(--btn-border-radius)",
     "display": "inline-flex",
     "justifyContent": "center",
