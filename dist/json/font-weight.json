@@ -8,7 +8,7 @@
   ".light,\n.fw-300": {
     "fontWeight": "var(--fw-3)"
   },
-  ".regular. .fw-400": {
+  ".regular,\n.fw-400": {
     "fontWeight": "var(--fw-4)"
   },
   ".medium,\n.fw-500": {
@@ -17,7 +17,7 @@
   ".bold,\n.fw-600": {
     "fontWeight": "var(--fw-6)"
   },
-  ".semi-bold .fw-700": {
+  ".semi-bold,\n.fw-700": {
     "fontWeight": "var(--fw-7)"
   },
   ".extra-bold,\n.fw-800": {

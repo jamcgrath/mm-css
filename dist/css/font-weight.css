@@ -10,7 +10,8 @@
 .fw-300 {
   font-weight: var(--fw-3);
 }
-.regular. .fw-400 {
+.regular,
+.fw-400 {
   font-weight: var(--fw-4);
 }
 .medium,
@@ -21,7 +22,8 @@
 .fw-600 {
   font-weight: var(--fw-6);
 }
-.semi-bold .fw-700 {
+.semi-bold,
+.fw-700 {
   font-weight: var(--fw-7);
 }
 .extra-bold,
