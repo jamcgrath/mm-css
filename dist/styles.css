@@ -6124,10 +6124,10 @@ button,
   cursor: pointer;
 }
 .btn {
-  --btn-border-radius: 8px;
+  --btn-border-radius: var(--space-2);
   --btn-fs: var(--label);
   --btn-fw: var(--fw-6);
-  --btn-gap: var(--btn-gap, var(--space-2));
+  --btn-gap: var(--space-2);
   border-radius: var(--btn-border-radius);
   display: inline-flex;
   justify-content: center;
@@ -6278,7 +6278,7 @@ button,
   overflow: hidden;
 }
 .btn-circle.btn-sm {
-  --btn-padding: var(--spacing-1_5);
+  --btn-padding: 6px;
   --btn-circle-width: 24px;
 }
 .btn-circle.btn-med {
@@ -6290,6 +6290,11 @@ button,
   --btn-padding: var(--spacing-4);
   --btn-fs: var(--body);
   --btn-circle-width: 56px;
+}
+.btn-circle .mmi {
+  --btn-mmi-pos: 3px;
+  position: relative;
+  top: var(--btn-mmi-pos);
 }
 .btn-icon.btn-sm,
 .btn-icon.btn-med {
