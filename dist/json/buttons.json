@@ -8,6 +8,7 @@
     "--btn-fw": "var(--fw-4)",
     "--btn-lh": "var(--lh-125)",
     "--btn-text-align": "center",
+    "--btn-cursor": "pointer",
     "background": "var(--btn-bg)",
     "color": "var(--btn-color)",
     "border": "var(--btn-border)",
@@ -16,7 +17,7 @@
     "lineHeight": "var(--btn-lh)",
     "padding": "var(--btn-padding)",
     "textAlign": "center",
-    "cursor": "pointer"
+    "cursor": "var(--btn-cursor)"
   },
   ".btn": {
     "--btn-border-radius": "var(--space-2)",
@@ -140,7 +141,8 @@
   },
   ".btn[disabled]": {
     "--btn-bg": "var(--gray-3)",
-    "--btn-color": "var(--gray-6)"
+    "--btn-color": "var(--gray-6)",
+    "--btn-cursor": "not-allowed"
   },
   ".btn-flat[disabled],\n.btn-flat-secondary[disabled],\n.btn-flat-destructive[disabled]": {
     "background": "transparent !important"
@@ -169,7 +171,9 @@
   },
   ".btn .mmi": {
     "--btn-mmi-fs": "calc(var(--btn-fs) + var(--space-1))",
-    "fontSize": "var(--btn-mmi-fs)"
+    "--btn-events": "none",
+    "fontSize": "var(--btn-mmi-fs)",
+    "pointerEvents": "var(--btn-events)"
   },
   ".btn-circle .mmi": {
     "--btn-mmi-pos": "0",

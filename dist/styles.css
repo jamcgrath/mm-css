@@ -6148,6 +6148,7 @@ button,
   --btn-fw: var(--fw-4);
   --btn-lh: var(--lh-125);
   --btn-text-align: center;
+  --btn-cursor: pointer;
 
   background: var(--btn-bg);
   color: var(--btn-color);
@@ -6157,7 +6158,7 @@ button,
   line-height: var(--btn-lh);
   padding: var(--btn-padding);
   text-align: center;
-  cursor: pointer;
+  cursor: var(--btn-cursor);
 }
 .btn {
   --btn-border-radius: var(--space-2);
@@ -6297,6 +6298,7 @@ button,
 .btn[disabled] {
   --btn-bg: var(--gray-3);
   --btn-color: var(--gray-6);
+  --btn-cursor: not-allowed;
 }
 .btn-flat[disabled],
 .btn-flat-secondary[disabled],
@@ -6329,7 +6331,9 @@ button,
 }
 .btn .mmi {
   --btn-mmi-fs: calc(var(--btn-fs) + var(--space-1));
+  --btn-events: none;
   font-size: var(--btn-mmi-fs);
+  pointer-events: var(--btn-events);
 }
 .btn-circle .mmi {
   --btn-mmi-pos: 0;
