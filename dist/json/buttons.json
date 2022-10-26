@@ -30,6 +30,9 @@
     "alignItems": "center",
     "gap": "var(--btn-gap)"
   },
+  ".btn > *": {
+    "pointerEvents": "none"
+  },
   ".btn-primary": {
     "--btn-bg": "var(--navy)",
     "--btn-color": "var(--white)"
@@ -171,9 +174,7 @@
   },
   ".btn .mmi": {
     "--btn-mmi-fs": "calc(var(--btn-fs) + var(--space-1))",
-    "--btn-events": "none",
-    "fontSize": "var(--btn-mmi-fs)",
-    "pointerEvents": "var(--btn-events)"
+    "fontSize": "var(--btn-mmi-fs)"
   },
   ".btn-circle .mmi": {
     "--btn-mmi-pos": "0",
