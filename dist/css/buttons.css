@@ -204,12 +204,12 @@ button,
   --gap: var(--space-2);
 }
 .btn.focus-visible {
-  --btn-focus-color: var(--hover);
+  --btn-focus-color: var(--navy-hover);
   outline: 2px solid var(--btn-focus-color);
   outline-offset: 2px;
 }
 .btn:focus-visible {
-  --btn-focus-color: var(--hover);
+  --btn-focus-color: var(--navy-hover);
   outline: 2px solid var(--btn-focus-color);
   outline-offset: 2px;
 }
