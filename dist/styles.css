@@ -3409,34 +3409,34 @@ html:focus-within {
   border-left-width: 8px;
   border-right-width: 8px;
 }
-.border-solid {
+.solid {
   border-style: solid;
 }
-.border-dashed {
+.dashed {
   border-style: dashed;
 }
-.border-dotted {
+.dotted {
   border-style: dotted;
 }
-.border-double {
+.double {
   border-style: double;
 }
-.border-groove {
+.groove {
   border-style: groove;
 }
-.border-ridge {
+.ridge {
   border-style: ridge;
 }
-.border-inset {
+.inset {
   border-style: inset;
 }
-.border-outset {
+.outset {
   border-style: outset;
 }
-.border-none {
+.none {
   border-style: none;
 }
-.border-hidden {
+.hidden {
   border-style: hidden;
 }
 .border-grape-light,
