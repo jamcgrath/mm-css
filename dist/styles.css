@@ -505,8 +505,8 @@ html:focus-within {
   --grape-hover: hsla(271, 100%, 76%, 1);
   --grape-light-hover: hsla(271, 100%, 95%, 1);
   --error-hover: hsla(351, 92%, 63%, 1);
-
   --navy-pressed: hsla(234, 99%, 20%, 1);
+  --grape-pressed: hsla(271, 81%, 61%, 1);
   --navy-light-pressed: hsla(235, 33%, 78%, 1);
   --grape-light-pressed: hsla(271, 100%, 91%, 1);
   --error-pressed: hsla(351, 81%, 48%, 1);
@@ -6290,6 +6290,10 @@ button,
   --btn-padding: var(--spacing-4);
   --btn-fs: var(--body);
   --btn-circle-width: 56px;
+}
+.btn .mmi {
+  --btn-mmi-fs: calc(var(--btn-fs) + var(--space-1));
+  font-size: var(--btn-mmi-fs);
 }
 .btn-circle .mmi {
   --btn-mmi-pos: 0;

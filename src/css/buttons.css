@@ -188,6 +188,10 @@ button,
   --btn-fs: var(--body);
   --btn-circle-width: 56px;
 }
+.btn .mmi {
+  --btn-mmi-fs: calc(var(--btn-fs) + var(--space-1));
+  font-size: var(--btn-mmi-fs);
+}
 .btn-circle .mmi {
   --btn-mmi-pos: 0;
   position: relative;
