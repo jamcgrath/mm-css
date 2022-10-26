@@ -37,7 +37,7 @@
     "--btn-bg": "var(--navy-hover)"
   },
   ".btn-primary:focus": {
-    "--btn-bg": "var(--pressed)"
+    "--btn-bg": "var(--navy-pressed)"
   },
   ".btn-tonal": {
     "--btn-bg": "var(--navy-light)",
