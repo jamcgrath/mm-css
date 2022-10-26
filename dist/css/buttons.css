@@ -188,7 +188,7 @@ button,
   --btn-circle-width: 56px;
 }
 .btn-circle .mmi {
-  --btn-mmi-pos: 3px;
+  --btn-mmi-pos: 0;
   position: relative;
   top: var(--btn-mmi-pos);
 }
