@@ -3272,7 +3272,7 @@ html:focus-within {
     padding-right: var(--space-100);
   }
 .border-0 {
-  border: 0;
+  border-width: 0;
 }
 .border {
   border-width: 1px;
@@ -3290,122 +3290,158 @@ html:focus-within {
   border-width: 8px;
 }
 .border-t-0 {
+  border-width: 0;
   border-top-width: 0;
 }
 .border-t {
+  border-width: 0;
   border-top-width: 1px;
 }
 .border-t-2 {
+  border-width: 0;
   border-top-width: 2px;
 }
 .border-t-4 {
+  border-width: 0;
   border-top-width: 4px;
 }
 .border-t-6 {
+  border-width: 0;
   border-top-width: 6px;
 }
 .border-t-8 {
+  border-width: 0;
   border-top-width: 8px;
 }
 .border-r-0 {
+  border-width: 0;
   border-right-width: 0;
 }
 .border-r {
+  border-width: 0;
   border-right-width: 1px;
 }
 .border-r-2 {
+  border-width: 0;
   border-right-width: 2px;
 }
 .border-r-4 {
+  border-width: 0;
   border-right-width: 4px;
 }
 .border-r-6 {
+  border-width: 0;
   border-right-width: 6px;
 }
 .border-r-8 {
+  border-width: 0;
   border-right-width: 8px;
 }
 .border-b-0 {
+  border-width: 0;
   border-bottom-width: 1px;
 }
 .border-b {
+  border-width: 0;
   border-bottom-width: 1px;
 }
 .border-b-2 {
+  border-width: 0;
   border-bottom-width: 2px;
 }
 .border-b-4 {
+  border-width: 0;
   border-bottom-width: 4px;
 }
 .border-b-6 {
+  border-width: 0;
   border-bottom-width: 6px;
 }
 .border-b-8 {
+  border-width: 0;
   border-bottom-width: 8px;
 }
 .border-l-0 {
+  border-width: 0;
   border-left-width: 0;
 }
 .border-l {
+  border-width: 0;
   border-left-width: 1px;
 }
 .border-l-2 {
+  border-width: 0;
   border-left-width: 2px;
 }
 .border-l-4 {
+  border-width: 0;
   border-left-width: 4px;
 }
 .border-l-6 {
+  border-width: 0;
   border-left-width: 6px;
 }
 .border-l-8 {
+  border-width: 0;
   border-left-width: 8px;
 }
 .border-y-0 {
+  border-width: 0;
   border-top-width: 0;
   border-bottom-width: 0;
 }
 .border-y {
+  border-width: 0;
   border-top-width: 1px;
   border-bottom-width: 1px;
 }
 .border-y-2 {
+  border-width: 0;
   border-top-width: 2px;
   border-bottom-width: 2px;
 }
 .border-y-4 {
+  border-width: 0;
   border-top-width: 4px;
   border-bottom-width: 4px;
 }
 .border-y-6 {
+  border-width: 0;
   border-top-width: 6px;
   border-bottom-width: 6px;
 }
 .border-y-8 {
+  border-width: 0;
   border-top-width: 8px;
   border-bottom-width: 8px;
 }
 .border-x-0 {
+  border-width: 0;
   border-left-width: 0;
   border-right-width: 0;
 }
 .border-x {
+  border-width: 0;
   border-left-width: 1px;
   border-right-width: 1px;
 }
 .border-x-2 {
+  border-width: 0;
   border-left-width: 2px;
   border-right-width: 2px;
 }
 .border-x-4 {
+  border-width: 0;
   border-left-width: 4px;
   border-right-width: 4px;
 }
 .border-x-6 {
+  border-width: 0;
   border-left-width: 6px;
   border-right-width: 6px;
 }
 .border-x-8 {
+  border-width: 0;
   border-left-width: 8px;
   border-right-width: 8px;
 }

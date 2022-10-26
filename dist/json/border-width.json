@@ -1,6 +1,6 @@
 {
   ".border-0": {
-    "border": "0"
+    "borderWidth": "0"
   },
   ".border": {
     "borderWidth": "1px"
@@ -18,122 +18,158 @@
     "borderWidth": "8px"
   },
   ".border-t-0": {
+    "borderWidth": "0",
     "borderTopWidth": "0"
   },
   ".border-t": {
+    "borderWidth": "0",
     "borderTopWidth": "1px"
   },
   ".border-t-2": {
+    "borderWidth": "0",
     "borderTopWidth": "2px"
   },
   ".border-t-4": {
+    "borderWidth": "0",
     "borderTopWidth": "4px"
   },
   ".border-t-6": {
+    "borderWidth": "0",
     "borderTopWidth": "6px"
   },
   ".border-t-8": {
+    "borderWidth": "0",
     "borderTopWidth": "8px"
   },
   ".border-r-0": {
+    "borderWidth": "0",
     "borderRightWidth": "0"
   },
   ".border-r": {
+    "borderWidth": "0",
     "borderRightWidth": "1px"
   },
   ".border-r-2": {
+    "borderWidth": "0",
     "borderRightWidth": "2px"
   },
   ".border-r-4": {
+    "borderWidth": "0",
     "borderRightWidth": "4px"
   },
   ".border-r-6": {
+    "borderWidth": "0",
     "borderRightWidth": "6px"
   },
   ".border-r-8": {
+    "borderWidth": "0",
     "borderRightWidth": "8px"
   },
   ".border-b-0": {
+    "borderWidth": "0",
     "borderBottomWidth": "1px"
   },
   ".border-b": {
+    "borderWidth": "0",
     "borderBottomWidth": "1px"
   },
   ".border-b-2": {
+    "borderWidth": "0",
     "borderBottomWidth": "2px"
   },
   ".border-b-4": {
+    "borderWidth": "0",
     "borderBottomWidth": "4px"
   },
   ".border-b-6": {
+    "borderWidth": "0",
     "borderBottomWidth": "6px"
   },
   ".border-b-8": {
+    "borderWidth": "0",
     "borderBottomWidth": "8px"
   },
   ".border-l-0": {
+    "borderWidth": "0",
     "borderLeftWidth": "0"
   },
   ".border-l": {
+    "borderWidth": "0",
     "borderLeftWidth": "1px"
   },
   ".border-l-2": {
+    "borderWidth": "0",
     "borderLeftWidth": "2px"
   },
   ".border-l-4": {
+    "borderWidth": "0",
     "borderLeftWidth": "4px"
   },
   ".border-l-6": {
+    "borderWidth": "0",
     "borderLeftWidth": "6px"
   },
   ".border-l-8": {
+    "borderWidth": "0",
     "borderLeftWidth": "8px"
   },
   ".border-y-0": {
+    "borderWidth": "0",
     "borderTopWidth": "0",
     "borderBottomWidth": "0"
   },
   ".border-y": {
+    "borderWidth": "0",
     "borderTopWidth": "1px",
     "borderBottomWidth": "1px"
   },
   ".border-y-2": {
+    "borderWidth": "0",
     "borderTopWidth": "2px",
     "borderBottomWidth": "2px"
   },
   ".border-y-4": {
+    "borderWidth": "0",
     "borderTopWidth": "4px",
     "borderBottomWidth": "4px"
   },
   ".border-y-6": {
+    "borderWidth": "0",
     "borderTopWidth": "6px",
     "borderBottomWidth": "6px"
   },
   ".border-y-8": {
+    "borderWidth": "0",
     "borderTopWidth": "8px",
     "borderBottomWidth": "8px"
   },
   ".border-x-0": {
+    "borderWidth": "0",
     "borderLeftWidth": "0",
     "borderRightWidth": "0"
   },
   ".border-x": {
+    "borderWidth": "0",
     "borderLeftWidth": "1px",
     "borderRightWidth": "1px"
   },
   ".border-x-2": {
+    "borderWidth": "0",
     "borderLeftWidth": "2px",
     "borderRightWidth": "2px"
   },
   ".border-x-4": {
+    "borderWidth": "0",
     "borderLeftWidth": "4px",
     "borderRightWidth": "4px"
   },
   ".border-x-6": {
+    "borderWidth": "0",
     "borderLeftWidth": "6px",
     "borderRightWidth": "6px"
   },
   ".border-x-8": {
+    "borderWidth": "0",
     "borderLeftWidth": "8px",
     "borderRightWidth": "8px"
   },
