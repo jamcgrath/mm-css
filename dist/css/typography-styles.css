@@ -251,6 +251,9 @@
 .quote:after {
     content: close-quote;
   }
+.fs-inherit {
+    font-size: inherit;
+  }
 @media (min-width: 480px) {
   .sm-title-1,
 .sm-title-1_article,
@@ -520,6 +523,10 @@
   }
   .sm-quote:after {
     content: close-quote;
+  }
+
+  .sm-fs-inherit {
+    font-size: inherit;
   }
 }
 @media (min-width: 768px) {
@@ -792,6 +799,10 @@
   .md-quote:after {
     content: close-quote;
   }
+
+  .md-fs-inherit {
+    font-size: inherit;
+  }
 }
 @media (min-width: 1024px) {
   .lg-title-1,
@@ -1062,6 +1073,10 @@
   }
   .lg-quote:after {
     content: close-quote;
+  }
+
+  .lg-fs-inherit {
+    font-size: inherit;
   }
 }
 @media (min-width: 1440px) {
@@ -1334,6 +1349,10 @@
   .xl-quote:after {
     content: close-quote;
   }
+
+  .xl-fs-inherit {
+    font-size: inherit;
+  }
 }
 @media (min-width: 1920px) {
   .xxl-title-1,
@@ -1604,5 +1623,9 @@
   }
   .xxl-quote:after {
     content: close-quote;
+  }
+
+  .xxl-fs-inherit {
+    font-size: inherit;
   }
 }
