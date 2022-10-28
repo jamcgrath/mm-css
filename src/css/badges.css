@@ -1,5 +1,5 @@
 @responsive {
-  .mm-badge {
+  .badge {
     --badge-padding: var(--space-0-5) var(--space-2);
     --badge-fs: var(--overline-small);
     --badge-lh: 1;
@@ -24,34 +24,34 @@
     text-transform: uppercase;
     letter-spacing: var(--space-1px);
   }
-  .mm-badge-sm {
+  .badge-sm {
     --badge-fs: var(--overline-small);
   }
-  .mm-badge-med {
+  .badge-med {
     --badge-fs: var(--overline-large);
     --badge-padding: var(--space-1) var(--space-2);
   }
-  .mm-badge-success {
+  .badge-success {
     --badge-color: var(--success);
     --badge-bg: var(--success-light);
   }
-  .mm-badge-error {
+  .badge-error {
     --badge-color: var(--error);
     --badge-bg: var(--error-light);
   }
-  .mm-badge-alert {
+  .badge-alert {
     --badge-color: var(--alert);
     --badge-bg: var(--alert-light);
   }
-  .mm-badge-info {
+  .badge-info {
     --badge-color: var(--info);
     --badge-bg: var(--info-light);
   }
-  .mm-badge-warning {
+  .badge-warning {
     --badge-color: var(--warning);
     --badge-bg: var(--warning-light);
   }
-  .mm-badge-navy-dark {
+  .badge-navy-dark {
     --badge-color: var(--white);
     --badge-bg: var(--navy-dark);
   }
