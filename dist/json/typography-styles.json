@@ -124,9 +124,6 @@
   ".quote:after": {
     "content": "close-quote"
   },
-  ".fs-inherit": {
-    "fontSize": "inherit"
-  },
   "@media (min-width: 480px)": {
     ".sm-title-1,\n.sm-title-1_article,\n.sm-title-1_med,\n.sm-title-1_semibold,\n.sm-title-1_bold": {
       "fontSize": "var(--title-1)",
@@ -252,9 +249,6 @@
     },
     ".sm-quote:after": {
       "content": "close-quote"
-    },
-    ".sm-fs-inherit": {
-      "fontSize": "inherit"
     }
   },
   "@media (min-width: 768px)": {
@@ -382,9 +376,6 @@
     },
     ".md-quote:after": {
       "content": "close-quote"
-    },
-    ".md-fs-inherit": {
-      "fontSize": "inherit"
     }
   },
   "@media (min-width: 1024px)": {
@@ -512,9 +503,6 @@
     },
     ".lg-quote:after": {
       "content": "close-quote"
-    },
-    ".lg-fs-inherit": {
-      "fontSize": "inherit"
     }
   },
   "@media (min-width: 1440px)": {
@@ -642,9 +630,6 @@
     },
     ".xl-quote:after": {
       "content": "close-quote"
-    },
-    ".xl-fs-inherit": {
-      "fontSize": "inherit"
     }
   },
   "@media (min-width: 1920px)": {
@@ -772,9 +757,6 @@
     },
     ".xxl-quote:after": {
       "content": "close-quote"
-    },
-    ".xxl-fs-inherit": {
-      "fontSize": "inherit"
     }
   }
 }

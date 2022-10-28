@@ -268,8 +268,4 @@
   .quote:after {
     content: close-quote;
   }
-
-  .fs-inherit {
-    font-size: inherit;
-  }
 }

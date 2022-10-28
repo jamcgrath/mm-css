@@ -1580,9 +1580,6 @@ html:focus-within {
 .quote:after {
     content: close-quote;
   }
-.fs-inherit {
-    font-size: inherit;
-  }
 .m-auto {
     margin: auto;
   }
@@ -6648,10 +6645,6 @@ button,
   .sm-quote:after {
     content: close-quote;
   }
-
-  .sm-fs-inherit {
-    font-size: inherit;
-  }
   .sm-m-auto {
     margin: auto;
   }
@@ -9997,10 +9990,6 @@ button,
   }
   .md-quote:after {
     content: close-quote;
-  }
-
-  .md-fs-inherit {
-    font-size: inherit;
   }
   .md-m-auto {
     margin: auto;
@@ -13348,10 +13337,6 @@ button,
   .lg-quote:after {
     content: close-quote;
   }
-
-  .lg-fs-inherit {
-    font-size: inherit;
-  }
   .lg-m-auto {
     margin: auto;
   }
@@ -16698,10 +16683,6 @@ button,
   .xl-quote:after {
     content: close-quote;
   }
-
-  .xl-fs-inherit {
-    font-size: inherit;
-  }
   .xl-m-auto {
     margin: auto;
   }
@@ -20047,10 +20028,6 @@ button,
   }
   .xxl-quote:after {
     content: close-quote;
-  }
-
-  .xxl-fs-inherit {
-    font-size: inherit;
   }
   .xxl-m-auto {
     margin: auto;
