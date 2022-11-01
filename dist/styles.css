@@ -6375,6 +6375,24 @@ button,
 .btn-flat-destructive:focus {
   --btn-focus-color: var(--error);
 }
+.div-zigzag,
+.div-wavy,
+.div-dot {
+  --divider-bg: ;
+  --divider-width: 100%;
+  width: var(--divider-width);
+  height: 11px;
+  background-image: var(--divider-bg);
+}
+.div-zigzag {
+  --divider-bg: url('/lines/zig.svg');
+}
+.div-wavy {
+  --divider-bg: url('/lines/wavy.svg');
+}
+.div-dot {
+  --divider-bg: url('/lines/dot.svg');
+}
 @media (min-width: 480px) {
   .sm-title-1,
 .sm-title-1_article,
