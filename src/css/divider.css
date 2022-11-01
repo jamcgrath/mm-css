@@ -1,0 +1,30 @@
+.div-thin,
+.div-thick,
+.div-zigzag,
+.div-wavy,
+.div-dot {
+  --divider-bg: ;
+  --divider-width: 100%;
+  --divider-height: 11px;
+  width: var(--divider-width);
+  height: var(--divider-height);
+  background: var(--divider-bg);
+  background-repeat: repeat-x;
+}
+.div-thin {
+  --divider-bg: var(--gray-3);
+  --divider-height: 1px;
+}
+.div-thick {
+  --divider-bg: var(--gray-3);
+  --divider-height: 2px;
+}
+.div-zigzag {
+  --divider-bg: url('/lines/zig.svg');
+}
+.div-wavy {
+  --divider-bg: url('/lines/wavy.svg');
+}
+.div-dot {
+  --divider-bg: url('/lines/dot.svg');
+}
