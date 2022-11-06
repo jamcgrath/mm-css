@@ -100,6 +100,11 @@
   --sans: 'Poppins', sans-serif;
   --serif: Georgia, Times, 'Times New Roman', serif;
 }
+:root {
+	--shadow-sm: box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.04);
+	--shadow-med: box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.12);
+	--shadow-lg: box-shadow: 0px 12px 24px rgba(0, 0, 0, 0.24);
+}
 /*
 	normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css  &
 	select HTML5 Boilerplate css (H5BP)
@@ -5982,25 +5987,14 @@ ul[class*='list-check']:not([role='list']):after {
 .z-max {
   z-index: 2147483647;
 }
-.box-shadow-sm,
-.box-shadow-med,
-.box-shadow-lg {
-  --bs-x: 0;
-  --bs-y: 4px;
-  --bs-blur: 12px;
-  --bs-spread: 0;
-  --bs-color: rgba(0, 0, 0, 0.04);
-  box-shadow: var(--bs-x) var(--bs-y) var(--bs-blur) var(--bs-spread)
-    var(--bs-color);
+.box-shadow-sm {
+  box-shadow: var(--shadow-sm);
 }
 .box-shadow-med {
-  --bs-y: 6px;
-  --bs-color: rgba(0, 0, 0, 0.12);
+  box-shadow: var(--shadow-med);
 }
 .box-shadow-lg {
-  --bs-y: 12px;
-  --bs-blur: 24px;
-  --bs-color: rgba(0, 0, 0, 0.24);
+  box-shadow: var(--shadow-lg);
 }
 ._aspect {
   --_aspect: var(--aspect-ratio, auto);
