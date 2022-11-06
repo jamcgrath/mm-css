@@ -101,9 +101,9 @@
   --serif: Georgia, Times, 'Times New Roman', serif;
 }
 :root {
-	--shadow-sm: box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.04);
-	--shadow-med: box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.12);
-	--shadow-lg: box-shadow: 0px 12px 24px rgba(0, 0, 0, 0.24);
+  --shadow-sm: 0 var(--space-1) var(--space-3) rgba(0, 0, 0, 0.04);
+  --shadow-med: 0 var(--space-1) var(--space-3) rgba(0, 0, 0, 0.12);
+  --shadow-lg: 0 var(--space-3) var(--space-6) rgba(0, 0, 0, 0.24);
 }
 /*
 	normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css  &
