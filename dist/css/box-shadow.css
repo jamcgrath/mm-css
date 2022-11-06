@@ -1,13 +1,13 @@
 .box-shadow-sm,
 .box-shadow-med,
 .box-shadow-lg {
-  --_bs-x: var(--bs-x, 0);
-  --_bs-y: var(--bs-y, 4px);
-  --_bs-blur: var(--bs-blur, 12px);
-  --_bs-spread: var(--bs-spread, 0);
-  --_bs-color: var(--bs-color, rgba(0, 0, 0, 0.04));
-  box-shadow: var(--_bs-x) var(--_bs-y) var(--_bs-blur) var(--_bs-spread)
-    var(--_bs-color);
+  --bs-x: 0;
+  --bs-y: 4px;
+  --bs-blur: 12px;
+  --bs-spread: 0;
+  --bs-color: rgba(0, 0, 0, 0.04);
+  box-shadow: var(--bs-x) var(--bs-y) var(--bs-blur) var(--bs-spread)
+    var(--bs-color);
 }
 .box-shadow-med {
   --bs-y: 6px;
@@ -17,8 +17,6 @@
   --bs-y: 12px;
   --bs-blur: 24px;
   --bs-color: rgba(0, 0, 0, 0.24);
-  box-shadow: var(--_bs-x) var(--_bs-y) var(--_bs-blur) var(--_bs-spread)
-    var(--_bs-color);
 }
 @media (min-width: 480px);
 @media (min-width: 768px);

@@ -42,11 +42,19 @@
     "letterSpacing": "var(--ls-05)"
   },
   ".copy,\n  .copy_article,\n  .copy_med,\n  .copy_semibold,\n  .copy_bold,\n  .copy_italic,\n  .copy_link": {
+    "--lh": "var(--lh-125)",
+    "--ls": "0",
     "fontSize": "var(--copy)",
     "fontWeight": "var(--fw-4)",
     "fontFamily": "var(--serif)",
-    "lineHeight": "var(--lh-133)",
-    "letterSpacing": "var(--ls-025)"
+    "lineHeight": "var(--lh)",
+    "letterSpacing": "var(--ls)"
+  },
+  ".copy_article": {
+    "ls": "var(--ls-025)"
+  },
+  ".copy_semibold": {
+    "lh": "var(--lh-133)"
   },
   ".body,\n  .body_article,\n  .body_med,\n  .body_semibold,\n  .body_bold,\n  .body_italic,\n  .body_link": {
     "fontSize": "var(--body)",
@@ -168,11 +176,19 @@
       "letterSpacing": "var(--ls-05)"
     },
     ".sm-copy,\n.sm-copy_article,\n.sm-copy_med,\n.sm-copy_semibold,\n.sm-copy_bold,\n.sm-copy_italic,\n.sm-copy_link": {
+      "--lh": "var(--lh-125)",
+      "--ls": "0",
       "fontSize": "var(--copy)",
       "fontWeight": "var(--fw-4)",
       "fontFamily": "var(--serif)",
-      "lineHeight": "var(--lh-133)",
-      "letterSpacing": "var(--ls-025)"
+      "lineHeight": "var(--lh)",
+      "letterSpacing": "var(--ls)"
+    },
+    ".sm-copy_article": {
+      "ls": "var(--ls-025)"
+    },
+    ".sm-copy_semibold": {
+      "lh": "var(--lh-133)"
     },
     ".sm-body,\n.sm-body_article,\n.sm-body_med,\n.sm-body_semibold,\n.sm-body_bold,\n.sm-body_italic,\n.sm-body_link": {
       "fontSize": "var(--body)",
@@ -295,11 +311,19 @@
       "letterSpacing": "var(--ls-05)"
     },
     ".md-copy,\n.md-copy_article,\n.md-copy_med,\n.md-copy_semibold,\n.md-copy_bold,\n.md-copy_italic,\n.md-copy_link": {
+      "--lh": "var(--lh-125)",
+      "--ls": "0",
       "fontSize": "var(--copy)",
       "fontWeight": "var(--fw-4)",
       "fontFamily": "var(--serif)",
-      "lineHeight": "var(--lh-133)",
-      "letterSpacing": "var(--ls-025)"
+      "lineHeight": "var(--lh)",
+      "letterSpacing": "var(--ls)"
+    },
+    ".md-copy_article": {
+      "ls": "var(--ls-025)"
+    },
+    ".md-copy_semibold": {
+      "lh": "var(--lh-133)"
     },
     ".md-body,\n.md-body_article,\n.md-body_med,\n.md-body_semibold,\n.md-body_bold,\n.md-body_italic,\n.md-body_link": {
       "fontSize": "var(--body)",
@@ -422,11 +446,19 @@
       "letterSpacing": "var(--ls-05)"
     },
     ".lg-copy,\n.lg-copy_article,\n.lg-copy_med,\n.lg-copy_semibold,\n.lg-copy_bold,\n.lg-copy_italic,\n.lg-copy_link": {
+      "--lh": "var(--lh-125)",
+      "--ls": "0",
       "fontSize": "var(--copy)",
       "fontWeight": "var(--fw-4)",
       "fontFamily": "var(--serif)",
-      "lineHeight": "var(--lh-133)",
-      "letterSpacing": "var(--ls-025)"
+      "lineHeight": "var(--lh)",
+      "letterSpacing": "var(--ls)"
+    },
+    ".lg-copy_article": {
+      "ls": "var(--ls-025)"
+    },
+    ".lg-copy_semibold": {
+      "lh": "var(--lh-133)"
     },
     ".lg-body,\n.lg-body_article,\n.lg-body_med,\n.lg-body_semibold,\n.lg-body_bold,\n.lg-body_italic,\n.lg-body_link": {
       "fontSize": "var(--body)",
@@ -549,11 +581,19 @@
       "letterSpacing": "var(--ls-05)"
     },
     ".xl-copy,\n.xl-copy_article,\n.xl-copy_med,\n.xl-copy_semibold,\n.xl-copy_bold,\n.xl-copy_italic,\n.xl-copy_link": {
+      "--lh": "var(--lh-125)",
+      "--ls": "0",
       "fontSize": "var(--copy)",
       "fontWeight": "var(--fw-4)",
       "fontFamily": "var(--serif)",
-      "lineHeight": "var(--lh-133)",
-      "letterSpacing": "var(--ls-025)"
+      "lineHeight": "var(--lh)",
+      "letterSpacing": "var(--ls)"
+    },
+    ".xl-copy_article": {
+      "ls": "var(--ls-025)"
+    },
+    ".xl-copy_semibold": {
+      "lh": "var(--lh-133)"
     },
     ".xl-body,\n.xl-body_article,\n.xl-body_med,\n.xl-body_semibold,\n.xl-body_bold,\n.xl-body_italic,\n.xl-body_link": {
       "fontSize": "var(--body)",
@@ -676,11 +716,19 @@
       "letterSpacing": "var(--ls-05)"
     },
     ".xxl-copy,\n.xxl-copy_article,\n.xxl-copy_med,\n.xxl-copy_semibold,\n.xxl-copy_bold,\n.xxl-copy_italic,\n.xxl-copy_link": {
+      "--lh": "var(--lh-125)",
+      "--ls": "0",
       "fontSize": "var(--copy)",
       "fontWeight": "var(--fw-4)",
       "fontFamily": "var(--serif)",
-      "lineHeight": "var(--lh-133)",
-      "letterSpacing": "var(--ls-025)"
+      "lineHeight": "var(--lh)",
+      "letterSpacing": "var(--ls)"
+    },
+    ".xxl-copy_article": {
+      "ls": "var(--ls-025)"
+    },
+    ".xxl-copy_semibold": {
+      "lh": "var(--lh-133)"
     },
     ".xxl-body,\n.xxl-body_article,\n.xxl-body_med,\n.xxl-body_semibold,\n.xxl-body_bold,\n.xxl-body_italic,\n.xxl-body_link": {
       "fontSize": "var(--body)",

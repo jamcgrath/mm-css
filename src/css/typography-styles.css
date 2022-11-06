@@ -78,11 +78,19 @@
   .copy_bold,
   .copy_italic,
   .copy_link {
+    --lh: var(--lh-125);
+    --ls: 0;
     font-size: var(--copy);
     font-weight: var(--fw-4);
     font-family: var(--serif);
-    line-height: var(--lh-133);
-    letter-spacing: var(--ls-025);
+    line-height: var(--lh);
+    letter-spacing: var(--ls);
+  }
+  .copy_article {
+    ls: var(--ls-025);
+  }
+  .copy_semibold {
+    lh: var(--lh-133);
   }
 
   .body,
