@@ -5987,13 +5987,13 @@ ul[class*='list-check']:not([role='list']):after {
 .z-max {
   z-index: 2147483647;
 }
-.box-shadow-sm {
-  box-shadow: var(--shadow-sm);
+.shadow-sm {
+  shadow: var(--shadow-sm);
 }
-.box-shadow-med {
-  box-shadow: var(--shadow-med);
+.shadow-med {
+  shadow: var(--shadow-med);
 }
-.box-shadow-lg {
+.shadow-lg {
   box-shadow: var(--shadow-lg);
 }
 ._aspect {

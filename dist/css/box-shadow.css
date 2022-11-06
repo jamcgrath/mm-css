@@ -1,10 +1,10 @@
-.box-shadow-sm {
-  box-shadow: var(--shadow-sm);
+.shadow-sm {
+  shadow: var(--shadow-sm);
 }
-.box-shadow-med {
-  box-shadow: var(--shadow-med);
+.shadow-med {
+  shadow: var(--shadow-med);
 }
-.box-shadow-lg {
+.shadow-lg {
   box-shadow: var(--shadow-lg);
 }
 @media (min-width: 480px);
