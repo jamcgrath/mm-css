@@ -5988,10 +5988,10 @@ ul[class*='list-check']:not([role='list']):after {
   z-index: 2147483647;
 }
 .shadow-sm {
-  shadow: var(--shadow-sm);
+  box-shadow: var(--shadow-sm);
 }
 .shadow-med {
-  shadow: var(--shadow-med);
+  box-shadow: var(--shadow-med);
 }
 .shadow-lg {
   box-shadow: var(--shadow-lg);
