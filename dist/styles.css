@@ -393,12 +393,6 @@ picture {
 ul {
   list-style: none;
 }
-/* position icons */
-.mmi {
-  position: relative;
-  line-height: 0;
-  display: inline-block;
-}
 /* Set core root defaults */
 html:focus-within {
   scroll-behavior: smooth;
@@ -419,6 +413,18 @@ html:focus-within {
     animation-iteration-count: 1 !important;
     transition-duration: 0.01ms !important;
     scroll-behavior: auto !important;
+  }
+}
+/* position icons */
+.mmi {
+  position: relative;
+  line-height: 0;
+  display: inline-block;
+  top: var(--mmi-top);
+}
+@supports (selector(:nth-child(1 of x))) or (-webkit-touch-callout: none) {
+  .mmi {
+    --mmi-top: -2px;
   }
 }
 :root {
@@ -6336,13 +6342,8 @@ button,
   --btn-circle-width: 56px;
 }
 .btn .mmi {
-  --btn-mmi-fs: calc(var(--btn-fs) + var(--space-1));
+  --btn-mmi-fs: var(--btn-fs);
   font-size: var(--btn-mmi-fs);
-}
-.btn-circle .mmi {
-  --btn-mmi-pos: 0;
-  position: relative;
-  top: var(--btn-mmi-pos);
 }
 .btn-icon.btn-sm,
 .btn-icon.btn-med {

@@ -193,13 +193,8 @@ button,
   --btn-circle-width: 56px;
 }
 .btn .mmi {
-  --btn-mmi-fs: calc(var(--btn-fs) + var(--space-1));
+  --btn-mmi-fs: var(--btn-fs);
   font-size: var(--btn-mmi-fs);
-}
-.btn-circle .mmi {
-  --btn-mmi-pos: 0;
-  position: relative;
-  top: var(--btn-mmi-pos);
 }
 .btn-icon.btn-sm,
 .btn-icon.btn-med {

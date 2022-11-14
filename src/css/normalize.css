@@ -346,13 +346,6 @@ ul {
   list-style: none;
 }
 
-/* position icons */
-.mmi {
-  position: relative;
-  line-height: 0;
-  display: inline-block;
-}
-
 /* Set core root defaults */
 html:focus-within {
   scroll-behavior: smooth;
@@ -374,5 +367,22 @@ html:focus-within {
     animation-iteration-count: 1 !important;
     transition-duration: 0.01ms !important;
     scroll-behavior: auto !important;
+  }
+}
+
+/* position icons */
+.mmi {
+  position: relative;
+  line-height: 0;
+  display: inline-block;
+  top: var(--mmi-top);
+}
+
+/* target safari only */
+@supports (selector(:nth-child(1 of x))) or (-webkit-touch-callout: none) {
+  /* icons are 2px off in vertical alignment in safari */
+  .mmi {
+    --mmi-top-safari: -2px;
+    --mmi-top: var(--mmi-top-safari);
   }
 }
