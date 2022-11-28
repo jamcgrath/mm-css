@@ -32,11 +32,12 @@ html {
 
 /* Set core body defaults */
 body {
+  --body-color: var(--black);
   min-height: 100vh;
   text-rendering: optimizeSpeed;
   font-family: var(--sans);
   scrollbar-gutter: stable both-edges;
-  color: var(--black);
+  color: var(--body-color);
   overflow-y: scroll;
   overflow-x: hidden;
   scroll-behavior: smooth;

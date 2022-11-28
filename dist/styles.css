@@ -133,11 +133,12 @@ html {
    ========================================================================== */
 /* Set core body defaults */
 body {
+  --body-color: var(--black);
   min-height: 100vh;
   text-rendering: optimizeSpeed;
   font-family: var(--sans);
   scrollbar-gutter: stable both-edges;
-  color: var(--black);
+  color: var(--body-color);
   overflow-y: scroll;
   overflow-x: hidden;
   scroll-behavior: smooth;
@@ -422,9 +423,12 @@ html:focus-within {
   display: inline-block;
   top: var(--mmi-top);
 }
+/* target safari only */
 @supports (selector(:nth-child(1 of x))) or (-webkit-touch-callout: none) {
+  /* icons are 2px off in vertical alignment in safari */
   .mmi {
-    --mmi-top: -2px;
+    --mmi-top-safari: -2px;
+    --mmi-top: var(--mmi-top-safari);
   }
 }
 :root {
