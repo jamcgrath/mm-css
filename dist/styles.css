@@ -5782,7 +5782,16 @@ ul[class*='list-check']:not([role='list']):after {
 	text-transform: lowercase;
 }
 .tu-offset-auto {
-	text-underline-offset: auto;
+  text-underline-offset: auto;
+}
+.tu-offset-1px {
+  text-underline-offset: 1px;
+}
+.tu-offset-2px {
+  text-underline-offset: 2px;
+}
+.tu-offset-4px {
+  text-underline-offset: 4px;
 }
 .v-align-baseline {
 	vertical-align: baseline;
