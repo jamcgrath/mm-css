@@ -10,7 +10,8 @@
     line-height: var(--lh-125);
     letter-spacing: var(--ls-02);
   }
-.title-2,
+
+  .title-2,
   .title-2_article,
   .title-2_med,
   .title-2_semibold,
@@ -21,7 +22,8 @@
     line-height: var(--lh-116);
     letter-spacing: var(--ls-015);
   }
-.title-3,
+
+  .title-3,
   .title-3_article,
   .title-3_med,
   .title-3_semibold,
@@ -32,7 +34,8 @@
     line-height: var(--lh-120);
     letter-spacing: var(--ls-125);
   }
-.title-4,
+
+  .title-4,
   .title-4_article,
   .title-4_med,
   .title-4_semibold,
@@ -43,7 +46,8 @@
     line-height: var(--lh-125);
     letter-spacing: var(--ls-01);
   }
-.title-5,
+
+  .title-5,
   .title-5_article,
   .title-5_med,
   .title-5_semibold,
@@ -54,7 +58,8 @@
     line-height: var(--lh-133);
     letter-spacing: var(--ls-075);
   }
-.title-6,
+
+  .title-6,
   .title-6_article,
   .title-6_med,
   .title-6_semibold,
@@ -65,7 +70,8 @@
     line-height: var(--lh-160);
     letter-spacing: var(--ls-05);
   }
-.copy,
+
+  .copy,
   .copy_article,
   .copy_med,
   .copy_semibold,
@@ -80,13 +86,14 @@
     line-height: var(--lh);
     letter-spacing: var(--ls);
   }
-.copy_article {
+  .copy_article {
     ls: var(--ls-025);
   }
-.copy_semibold {
+  .copy_semibold {
     lh: var(--lh-133);
   }
-.body,
+
+  .body,
   .body_article,
   .body_med,
   .body_semibold,
@@ -99,7 +106,8 @@
     line-height: var(--lh-150);
     letter-spacing: var(--ls-025);
   }
-.label,
+
+  .label,
   .label_article,
   .label_med,
   .label_semibold,
@@ -111,7 +119,8 @@
     font-family: var(--sans);
     line-height: var(--lh-171);
   }
-.caption,
+
+  .caption,
   .caption_article,
   .caption_med,
   .caption_semibold,
@@ -123,7 +132,8 @@
     font-family: var(--sans);
     line-height: var(--lh-133);
   }
-.small,
+
+  .small,
   .small_article,
   .small_med,
   .small_semibold,
@@ -135,7 +145,8 @@
     font-family: var(--sans);
     line-height: var(--lh-120);
   }
-.overline-large,
+
+  .overline-large,
   .overline-large_med,
   .overline-large_semibold,
   .overline-large_bold {
@@ -146,7 +157,8 @@
     letter-spacing: var(--ls-1);
     text-transform: uppercase;
   }
-.overline-small,
+
+  .overline-small,
   .overline-small_med,
   .overline-small_semibold,
   .overline-small_bold {
@@ -157,14 +169,15 @@
     letter-spacing: var(--ls-1);
     text-transform: uppercase;
   }
-.copy_article,
+
+  .copy_article,
   .body_article,
   .label_article,
   .caption_article,
   .small_article {
     font-family: var(--serif);
   }
-.title-1_med,
+  .title-1_med,
   .title-2_med,
   .title-3_med,
   .title-4_med,
@@ -189,7 +202,7 @@
   .overline-small_med {
     font-weight: var(--fw-5);
   }
-.title-1_article,
+  .title-1_article,
   .title-2_article,
   .title-3_article,
   .title-4_article,
@@ -210,7 +223,8 @@
   .overline-small_semibold {
     font-weight: var(--fw-6);
   }
-.title-1_bold,
+
+  .title-1_bold,
   .title-2_bold,
   .title-3_bold,
   .title-4_bold,
@@ -225,27 +239,30 @@
   .overline-small_bold {
     font-weight: var(--fw-7);
   }
-.copy_med,
+
+  .copy_med,
   .copy_semibold,
   .copy_italic,
   .copy_link {
     font-family: var(--sans);
   }
-.copy_italic,
+
+  .copy_italic,
   .body_italic,
   .label_italic,
   .caption_italic,
   .small_italic {
     font-style: italic;
   }
-.copy_link,
+  .copy_link,
   .body_link,
   .label_link,
   .caption_link,
   .small_link {
     text-decoration: underline;
   }
-.quote {
+
+  .quote {
     font-size: var(--quote);
     font-weight: var(--fw-5);
     font-family: var(--serif);
@@ -253,12 +270,13 @@
     line-height: var(--lh-120);
     quotes: '“' '”' '‘' '’';
   }
-.quote:before {
+  .quote:before {
     content: open-quote;
   }
-.quote:after {
+  .quote:after {
     content: close-quote;
   }
+
 @media (min-width: 480px) {
   .sm-title-1,
 .sm-title-1_article,
@@ -538,6 +556,7 @@
     content: close-quote;
   }
 }
+
 @media (min-width: 768px) {
   .md-title-1,
 .md-title-1_article,
@@ -817,6 +836,7 @@
     content: close-quote;
   }
 }
+
 @media (min-width: 1024px) {
   .lg-title-1,
 .lg-title-1_article,
@@ -1096,6 +1116,7 @@
     content: close-quote;
   }
 }
+
 @media (min-width: 1440px) {
   .xl-title-1,
 .xl-title-1_article,
@@ -1375,6 +1396,7 @@
     content: close-quote;
   }
 }
+
 @media (min-width: 1920px) {
   .xxl-title-1,
 .xxl-title-1_article,

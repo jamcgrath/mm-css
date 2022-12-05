@@ -2,11 +2,11 @@
 	.grid-auto-col {
 		grid-auto-columns: auto;
 	}
-.grid-auto-col-min {
+	.grid-auto-col-min {
 		grid-auto-columns: -webkit-min-content;
 		grid-auto-columns: min-content;
 	}
-.grid-auto-col-max {
+	.grid-auto-col-max {
 		grid-auto-columns: -webkit-max-content;
 		grid-auto-columns: max-content;
 	}

@@ -106,13 +106,3 @@
   --_z: var(--z-index, auto);
   z-index: var(--_z);
 }
-
-@media (min-width: 480px);
-
-@media (min-width: 768px);
-
-@media (min-width: 1024px);
-
-@media (min-width: 1440px);
-
-@media (min-width: 1920px)

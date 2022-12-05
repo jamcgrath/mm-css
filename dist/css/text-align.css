@@ -2,25 +2,25 @@
 	.text-center {
 		text-align: center;
 	}
-.text-left {
+	.text-left {
 		text-align: left;
 	}
-.text-right {
+	.text-right {
 		text-align: right;
 	}
-[dir="ltr"] .text-start {
+	[dir="ltr"] .text-start {
 		text-align: left;
 }
-[dir="rtl"] .text-start {
+	[dir="rtl"] .text-start {
 		text-align: right;
 }
-[dir="ltr"] .text-end {
+	[dir="ltr"] .text-end {
 		text-align: right;
 }
-[dir="rtl"] .text-end {
+	[dir="rtl"] .text-end {
 		text-align: left;
 }
-.text-justify {
+	.text-justify {
 		text-align: justify;
 	}
 @media (min-width: 480px) {

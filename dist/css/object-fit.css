@@ -2,16 +2,16 @@
 	.of-contain {
 		of: contain;
 	}
-.of-cover {
+	.of-cover {
 		of: cover;
 	}
-.of-fill {
+	.of-fill {
 		of: fill;
 	}
-.of-none {
+	.of-none {
 		of: none;
 	}
-.of-scale-down {
+	.of-scale-down {
 		object-fit: scale-down;
 	}
 @media (min-width: 480px) {

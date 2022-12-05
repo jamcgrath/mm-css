@@ -2,31 +2,31 @@
 	.a-self-center {
 		align-self: center;
 	}
-.a-self-start {
+	.a-self-start {
 		align-self: start;
 	}
-.a-self-end {
+	.a-self-end {
 		align-self: end;
 	}
-.a-self-flex-start {
+	.a-self-flex-start {
 		align-self: flex-start;
 	}
-.a-self-flex-end {
+	.a-self-flex-end {
 		align-self: flex-end;
 	}
-.a-self-self-start {
+	.a-self-self-start {
 		align-self: self-start;
 	}
-.a-self-self-end {
+	.a-self-self-end {
 		align-self: self-end;
 	}
-.a-self-stretch {
+	.a-self-stretch {
 		align-self: stretch;
 	}
-.a-self-normal {
+	.a-self-normal {
 		align-self: normal;
 	}
-.a-self-auto {
+	.a-self-auto {
 		align-self: auto;
 	}
 @media (min-width: 480px) {

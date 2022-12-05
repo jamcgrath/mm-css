@@ -259,10 +259,5 @@
   },
   ".border-color-inherit,\n.border-color-inherit_hover:hover": {
     "borderColor": "inherit"
-  },
-  "@media (min-width: 480px)": true,
-  "@media (min-width: 768px)": true,
-  "@media (min-width: 1024px)": true,
-  "@media (min-width: 1440px)": true,
-  "@media (min-width: 1920px)": true
+  }
 }

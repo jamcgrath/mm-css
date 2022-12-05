@@ -2,22 +2,22 @@
   .br-0 {
     border-radius: 0;
   }
-.br-4 {
+  .br-4 {
     border-radius: 4px;
   }
-.br-8 {
+  .br-8 {
     border-radius: 8px;
   }
-.br-12 {
+  .br-12 {
     border-radius: 12px;
   }
-.br-96 {
+  .br-96 {
     border-radius: 96px;
   }
-.br-100 {
+  .br-100 {
     border-radius: 100px;
   }
-.circle {
+  .circle {
     border-radius: 50%;
   }
 @media (min-width: 480px) {

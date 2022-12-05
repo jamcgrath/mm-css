@@ -7,10 +7,5 @@
   },
   ".lime-dark-bg,\n.lime-dark-bg_hover:hover,\n.lime-dark-bg_active:active": {
     "backgroundColor": "var(--lime-dark)"
-  },
-  "@media (min-width: 480px)": true,
-  "@media (min-width: 768px)": true,
-  "@media (min-width: 1024px)": true,
-  "@media (min-width: 1440px)": true,
-  "@media (min-width: 1920px)": true
+  }
 }

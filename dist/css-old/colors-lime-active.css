@@ -16,8 +16,3 @@
 .lime-dark-bg_active {
   background-color: var(--lime-dark);
 }
-@media (min-width: 480px);
-@media (min-width: 768px);
-@media (min-width: 1024px);
-@media (min-width: 1440px);
-@media (min-width: 1920px)

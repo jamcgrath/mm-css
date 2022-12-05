@@ -2,37 +2,37 @@
 	.p-content-center {
 		place-content: center;
 	}
-.p-content-start {
+	.p-content-start {
 		place-content: start;
 	}
-.p-content-end {
+	.p-content-end {
 		place-content: end;
 	}
-.p-content-between {
+	.p-content-between {
 		place-content: between;
 	}
-.p-content-around {
+	.p-content-around {
 		place-content: around;
 	}
-.p-content-evenly {
+	.p-content-evenly {
 		place-content: evenly;
 	}
-.p-content-stretch {
+	.p-content-stretch {
 		place-content: stretch;
 	}
-.p-content-flex-start {
+	.p-content-flex-start {
 		place-content: flex-start;
 	}
-.p-content-flex-end {
+	.p-content-flex-end {
 		place-content: flex-end;
 	}
-.p-content-left {
+	.p-content-left {
 		place-content: left;
 	}
-.p-content-right {
+	.p-content-right {
 		place-content: right;
 	}
-.p-content-normal {
+	.p-content-normal {
 		place-content: normal;
 	}
 @media (min-width: 480px) {

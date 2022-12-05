@@ -1,0 +1,78 @@
+{
+  ".test1": {
+    "color": "blue",
+    "margin": "12px"
+  },
+  ".test-222": {
+    "color": "orange",
+    "margin": "32px"
+  },
+  ".test": {
+    "color": "red"
+  },
+  ".test.test-222": {
+    "color": "green",
+    "margin": "42px"
+  },
+  ".testxxx,\n\t.testyyy": {
+    "color": "yellow"
+  },
+  "@media (min-width: 480px)": {
+    ".sm-test": {
+      "color": "red"
+    },
+    ".sm-test.test-222": {
+      "color": "purple"
+    },
+    ".sm-testxxx,\n.sm-testyyy": {
+      "color": "yellow"
+    }
+  },
+  "@media (min-width: 768px)": {
+    ".testor": {
+      "color": "red"
+    },
+    ".md-test": {
+      "color": "red"
+    },
+    ".md-test.test-222": {
+      "color": "purple"
+    },
+    ".md-testxxx,\n.md-testyyy": {
+      "color": "yellow"
+    }
+  },
+  "@media (min-width: 1024px)": {
+    ".lg-test": {
+      "color": "red"
+    },
+    ".lg-test.test-222": {
+      "color": "purple"
+    },
+    ".lg-testxxx,\n.lg-testyyy": {
+      "color": "yellow"
+    }
+  },
+  "@media (min-width: 1440px)": {
+    ".xl-test": {
+      "color": "red"
+    },
+    ".xl-test.test-222": {
+      "color": "purple"
+    },
+    ".xl-testxxx,\n.xl-testyyy": {
+      "color": "yellow"
+    }
+  },
+  "@media (min-width: 1920px)": {
+    ".xxl-test": {
+      "color": "red"
+    },
+    ".xxl-test.test-222": {
+      "color": "purple"
+    },
+    ".xxl-testxxx,\n.xxl-testyyy": {
+      "color": "yellow"
+    }
+  }
+}

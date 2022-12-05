@@ -2,22 +2,22 @@
 	.a-items-flex-start {
 		align-items: flex-start;
 	}
-.a-items-flex-end {
+	.a-items-flex-end {
 		align-items: flex-end;
 	}
-.a-items-center {
+	.a-items-center {
 		align-items: center;
 	}
-.a-items-start {
+	.a-items-start {
 		align-items: start;
 	}
-.a-items-end {
+	.a-items-end {
 		align-items: end;
 	}
-.a-items-normal {
+	.a-items-normal {
 		align-items: normal;
 	}
-.a-items-stretch {
+	.a-items-stretch {
 		align-items: stretch;
 	}
 @media (min-width: 480px) {

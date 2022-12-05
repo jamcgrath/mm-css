@@ -2,10 +2,10 @@
 	.flex-wrap {
 		flex-wrap: wrap;
 	}
-.flex-nowrap {
+	.flex-nowrap {
 		flex-wrap: nowrap;
 	}
-.flex-wrap-reverse {
+	.flex-wrap-reverse {
 		flex-wrap: wrap-reverse;
 	}
 @media (min-width: 480px) {

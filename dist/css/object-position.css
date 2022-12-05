@@ -2,28 +2,28 @@
   .op-t {
     object-position: top;
   }
-.op-l {
+  .op-l {
     object-position: left;
   }
-.op-r {
+  .op-r {
     object-position: right;
   }
-.op-b {
+  .op-b {
     object-position: bottom;
   }
-.op-c {
+  .op-c {
     object-position: center;
   }
-.op-tl {
+  .op-tl {
     object-position: top left;
   }
-.op-tr {
+  .op-tr {
     object-position: top right;
   }
-.op-bl {
+  .op-bl {
     object-position: bottom left;
   }
-.op-br {
+  .op-br {
     object-position: bottom right;
   }
 @media (min-width: 480px) {

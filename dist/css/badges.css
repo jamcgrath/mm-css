@@ -24,34 +24,34 @@
     text-transform: uppercase;
     letter-spacing: var(--space-1px);
   }
-.badge-sm {
+  .badge-sm {
     --badge-fs: var(--overline-small);
   }
-.badge-med {
+  .badge-med {
     --badge-fs: var(--overline-large);
     --badge-padding: var(--space-1) var(--space-2);
   }
-.badge-success {
+  .badge-success {
     --badge-color: var(--success);
     --badge-bg: var(--success-light);
   }
-.badge-error {
+  .badge-error {
     --badge-color: var(--error);
     --badge-bg: var(--error-light);
   }
-.badge-alert {
+  .badge-alert {
     --badge-color: var(--alert);
     --badge-bg: var(--alert-light);
   }
-.badge-info {
+  .badge-info {
     --badge-color: var(--info);
     --badge-bg: var(--info-light);
   }
-.badge-warning {
+  .badge-warning {
     --badge-color: var(--warning);
     --badge-bg: var(--warning-light);
   }
-.badge-navy-dark {
+  .badge-navy-dark {
     --badge-color: var(--white);
     --badge-bg: var(--navy-dark);
   }

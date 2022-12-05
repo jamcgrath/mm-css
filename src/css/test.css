@@ -1,0 +1,33 @@
+.test1 {
+	color: blue;
+	margin: 12px;
+}
+
+.test-222 {
+	color: orange;
+	margin: 32px;
+}
+
+@responsive {
+	.test {
+		color: red;
+	}
+	.test.test-222 {
+		color: purple;
+	}
+	.testxxx,
+	.testyyy {
+		color: yellow;
+	}
+}
+
+.test.test-222 {
+	color: green;
+	margin: 42px;
+}
+
+@media (min-width: 768px) {
+	.testor {
+		color: red;
+	}
+}

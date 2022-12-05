@@ -345,8 +345,3 @@
 .border-color-inherit_hover:hover {
   border-color: inherit;
 }
-@media (min-width: 480px);
-@media (min-width: 768px);
-@media (min-width: 1024px);
-@media (min-width: 1440px);
-@media (min-width: 1920px)

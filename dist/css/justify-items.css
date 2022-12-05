@@ -2,37 +2,37 @@
 	.j-items-flex-start {
 		justify-items: flex-start;
 	}
-.j-items-flex-end {
+	.j-items-flex-end {
 		justify-items: flex-end;
 	}
-.j-items-center {
+	.j-items-center {
 		justify-items: center;
 	}
-.j-items-start {
+	.j-items-start {
 		justify-items: start;
 	}
-.j-items-end {
+	.j-items-end {
 		justify-items: end;
 	}
-.j-items-stretch {
+	.j-items-stretch {
 		justify-items: stretch;
 	}
-.j-items-self-start {
+	.j-items-self-start {
 		justify-items: self-start;
 	}
-.j-items-self-end {
+	.j-items-self-end {
 		justify-items: self-end;
 	}
-.j-items-left {
+	.j-items-left {
 		justify-items: left;
 	}
-.j-items-right {
+	.j-items-right {
 		justify-items: right;
 	}
-.j-items-normal {
+	.j-items-normal {
 		justify-items: normal;
 	}
-.j-items-stretch {
+	.j-items-stretch {
 		justify-items: stretch;
 	}
 @media (min-width: 480px) {

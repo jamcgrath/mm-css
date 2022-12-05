@@ -2,37 +2,37 @@
   .j-content-start {
     justify-content: start;
   }
-.j-content-flex-start {
+  .j-content-flex-start {
     justify-content: flex-start;
   }
-.j-content-center {
+  .j-content-center {
     justify-content: center;
   }
-.j-content-end {
+  .j-content-end {
     justify-content: end;
   }
-.j-content-flex-end {
+  .j-content-flex-end {
     justify-content: flex-end;
   }
-.j-content-flex-left {
+  .j-content-flex-left {
     justify-content: left;
   }
-.j-content-flex-right {
+  .j-content-flex-right {
     justify-content: right;
   }
-.j-content-between {
+  .j-content-between {
     justify-content: space-between;
   }
-.j-content-around {
+  .j-content-around {
     justify-content: space-around;
   }
-.j-content-evenly {
+  .j-content-evenly {
     justify-content: space-evenly;
   }
-.j-content-stretch {
+  .j-content-stretch {
     justify-content: stretch;
   }
-.j-content-normal {
+  .j-content-normal {
     justify-content: normal;
   }
 @media (min-width: 480px) {
