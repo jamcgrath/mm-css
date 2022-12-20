@@ -1,32 +1,32 @@
 {
-  ".solid": {
+  ".border-solid": {
     "borderStyle": "solid"
   },
-  ".dashed": {
+  ".border-dashed": {
     "borderStyle": "dashed"
   },
-  ".dotted": {
+  ".border-dotted": {
     "borderStyle": "dotted"
   },
-  ".double": {
+  ".border-double": {
     "borderStyle": "double"
   },
-  ".groove": {
+  ".border-groove": {
     "borderStyle": "groove"
   },
-  ".ridge": {
+  ".border-ridge": {
     "borderStyle": "ridge"
   },
-  ".inset": {
+  ".border-inset": {
     "borderStyle": "inset"
   },
-  ".outset": {
+  ".border-outset": {
     "borderStyle": "outset"
   },
-  ".none": {
+  ".border-none": {
     "borderStyle": "none"
   },
-  ".hidden": {
+  ".border-hidden": {
     "borderStyle": "hidden"
   }
 }

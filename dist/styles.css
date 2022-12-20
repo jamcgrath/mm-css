@@ -3425,34 +3425,34 @@ html:focus-within {
 .border-x-8 {
   border-width: 0 8px;
 }
-.solid {
+.border-solid {
   border-style: solid;
 }
-.dashed {
+.border-dashed {
   border-style: dashed;
 }
-.dotted {
+.border-dotted {
   border-style: dotted;
 }
-.double {
+.border-double {
   border-style: double;
 }
-.groove {
+.border-groove {
   border-style: groove;
 }
-.ridge {
+.border-ridge {
   border-style: ridge;
 }
-.inset {
+.border-inset {
   border-style: inset;
 }
-.outset {
+.border-outset {
   border-style: outset;
 }
-.none {
+.border-none {
   border-style: none;
 }
-.hidden {
+.border-hidden {
   border-style: hidden;
 }
 .border-grape-light,
