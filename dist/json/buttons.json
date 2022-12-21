@@ -5,7 +5,7 @@
     "--btn-border": "0",
     "--btn-padding": "0",
     "--btn-fs": "var(--label)",
-    "--btn-fw": "var(--fw-4)",
+    "--btn-fw": "var(--fw-400)",
     "--btn-lh": "var(--lh-125)",
     "--btn-text-align": "center",
     "--btn-cursor": "pointer",
@@ -22,7 +22,7 @@
   ".btn": {
     "--btn-border-radius": "var(--space-2)",
     "--btn-fs": "var(--label)",
-    "--btn-fw": "var(--fw-6)",
+    "--btn-fw": "var(--fw-600)",
     "--btn-gap": "var(--space-2)",
     "borderRadius": "var(--btn-border-radius)",
     "display": "inline-flex",

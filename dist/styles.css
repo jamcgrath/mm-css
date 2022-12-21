@@ -64,15 +64,15 @@
   --quote: calc(2.5 * var(--base-fs));
 
   /* font-weight */
-  --fw-9: 900;
-  --fw-8: 800;
-  --fw-7: 700;
-  --fw-6: 600;
-  --fw-5: 500;
-  --fw-4: 400;
-  --fw-3: 300;
-  --fw-2: 200;
-  --fw-1: 100;
+  --fw-900: 900;
+  --fw-800: 800;
+  --fw-700: 700;
+  --fw-600: 600;
+  --fw-500: 500;
+  --fw-400: 400;
+  --fw-300: 300;
+  --fw-200: 200;
+  --fw-100: 100;
 
   /* line-height */
   --lh-1: 1;
@@ -1349,7 +1349,7 @@ html:focus-within {
   .title-1_semibold,
   .title-1_bold {
     font-size: var(--title-1);
-    font-weight: var(--fw-4);
+    font-weight: var(--fw-400);
     font-family: var(--sans);
     line-height: var(--lh-125);
     letter-spacing: var(--ls-02);
@@ -1360,7 +1360,7 @@ html:focus-within {
   .title-2_semibold,
   .title-2_bold {
     font-size: var(--title-2);
-    font-weight: var(--fw-4);
+    font-weight: var(--fw-400);
     font-family: var(--sans);
     line-height: var(--lh-116);
     letter-spacing: var(--ls-015);
@@ -1371,7 +1371,7 @@ html:focus-within {
   .title-3_semibold,
   .title-3_bold {
     font-size: var(--title-3);
-    font-weight: var(--fw-4);
+    font-weight: var(--fw-400);
     font-family: var(--sans);
     line-height: var(--lh-120);
     letter-spacing: var(--ls-125);
@@ -1382,7 +1382,7 @@ html:focus-within {
   .title-4_semibold,
   .title-4_bold {
     font-size: var(--title-4);
-    font-weight: var(--fw-4);
+    font-weight: var(--fw-400);
     font-family: var(--sans);
     line-height: var(--lh-125);
     letter-spacing: var(--ls-01);
@@ -1393,7 +1393,7 @@ html:focus-within {
   .title-5_semibold,
   .title-5_bold {
     font-size: var(--title-5);
-    font-weight: var(--fw-4);
+    font-weight: var(--fw-400);
     font-family: var(--sans);
     line-height: var(--lh-133);
     letter-spacing: var(--ls-075);
@@ -1404,7 +1404,7 @@ html:focus-within {
   .title-6_semibold,
   .title-6_bold {
     font-size: var(--title-6);
-    font-weight: var(--fw-4);
+    font-weight: var(--fw-400);
     font-family: var(--sans);
     line-height: var(--lh-160);
     letter-spacing: var(--ls-05);
@@ -1419,7 +1419,7 @@ html:focus-within {
     --lh: var(--lh-125);
     --ls: 0;
     font-size: var(--copy);
-    font-weight: var(--fw-4);
+    font-weight: var(--fw-400);
     font-family: var(--serif);
     line-height: var(--lh);
     letter-spacing: var(--ls);
@@ -1438,7 +1438,7 @@ html:focus-within {
   .body_italic,
   .body_link {
     font-size: var(--body);
-    font-weight: var(--fw-4);
+    font-weight: var(--fw-400);
     font-family: var(--sans);
     line-height: var(--lh-150);
     letter-spacing: var(--ls-025);
@@ -1451,7 +1451,7 @@ html:focus-within {
   .label_italic,
   .label_link {
     font-size: var(--label);
-    font-weight: var(--fw-4);
+    font-weight: var(--fw-400);
     font-family: var(--sans);
     line-height: var(--lh-171);
   }
@@ -1463,7 +1463,7 @@ html:focus-within {
   .caption_italic,
   .caption_link {
     font-size: var(--caption);
-    font-weight: var(--fw-4);
+    font-weight: var(--fw-400);
     font-family: var(--sans);
     line-height: var(--lh-133);
   }
@@ -1475,7 +1475,7 @@ html:focus-within {
   .small_italic,
   .small_link {
     font-size: var(--small);
-    font-weight: var(--fw-4);
+    font-weight: var(--fw-400);
     font-family: var(--sans);
     line-height: var(--lh-120);
   }
@@ -1484,7 +1484,7 @@ html:focus-within {
   .overline-large_semibold,
   .overline-large_bold {
     font-size: var(--overline-large);
-    font-weight: var(--fw-7);
+    font-weight: var(--fw-700);
     font-family: var(--sans);
     line-height: var(--lh-109);
     letter-spacing: var(--ls-1);
@@ -1495,7 +1495,7 @@ html:focus-within {
   .overline-small_semibold,
   .overline-small_bold {
     font-size: var(--overline-small);
-    font-weight: var(--fw-7);
+    font-weight: var(--fw-700);
     font-family: var(--sans);
     line-height: var(--lh-133);
     letter-spacing: var(--ls-1);
@@ -1531,7 +1531,7 @@ html:focus-within {
   .small_link,
   .overline-large_med,
   .overline-small_med {
-    font-weight: var(--fw-5);
+    font-weight: var(--fw-500);
   }
 .title-1_article,
   .title-2_article,
@@ -1552,7 +1552,7 @@ html:focus-within {
   .small_semibold,
   .overline-large_semibold,
   .overline-small_semibold {
-    font-weight: var(--fw-6);
+    font-weight: var(--fw-600);
   }
 .title-1_bold,
   .title-2_bold,
@@ -1567,7 +1567,7 @@ html:focus-within {
   .small_bold,
   .overline-large_bold,
   .overline-small_bold {
-    font-weight: var(--fw-7);
+    font-weight: var(--fw-700);
   }
 .copy_med,
   .copy_semibold,
@@ -1591,7 +1591,7 @@ html:focus-within {
   }
 .quote {
     font-size: var(--quote);
-    font-weight: var(--fw-5);
+    font-weight: var(--fw-500);
     font-family: var(--serif);
     font-style: italic;
     line-height: var(--lh-120);
@@ -4913,39 +4913,39 @@ html:focus-within {
 }
 .thin,
 .fw-100 {
-  font-weight: var(--fw-1);
+  font-weight: var(--fw-100);
 }
 .extra-light,
 .fw-200 {
-  font-weight: var(--fw-2);
+  font-weight: var(--fw-200);
 }
 .light,
 .fw-300 {
-  font-weight: var(--fw-3);
+  font-weight: var(--fw-300);
 }
 .regular,
 .fw-400 {
-  font-weight: var(--fw-4);
+  font-weight: var(--fw-400);
 }
 .medium,
 .fw-500 {
-  font-weight: var(--fw-5);
+  font-weight: var(--fw-500);
 }
 .bold,
 .fw-600 {
-  font-weight: var(--fw-6);
+  font-weight: var(--fw-600);
 }
 .semi-bold,
 .fw-700 {
-  font-weight: var(--fw-7);
+  font-weight: var(--fw-700);
 }
 .extra-bold,
 .fw-800 {
-  font-weight: var(--fw-8);
+  font-weight: var(--fw-800);
 }
 .black-bold,
 .fw-900 {
-  font-weight: var(--fw-9);
+  font-weight: var(--fw-900);
 }
 .thin_hover:hover {
   font-weight: var(--fw-1);
@@ -6059,60 +6059,60 @@ ul[class*='list-check']:not([role='list']):after {
   z-index: var(--_z);
 }
 .badge {
-	--badge-padding: var(--space-0-5) var(--space-2);
-	--badge-fs: var(--overline-small);
-	--badge-lh: 1;
-	--badge-fw: var(--fw-7);
-	--badge-ls: var(--ls-1);
-	--badge-gap: var(--space-1);
-	--badge-border-radius: var(--space-1);
-	--badge-bg: var(--gray-3);
-	--badge-color: var(--gray-7);
+  --badge-padding: var(--space-0-5) var(--space-2);
+  --badge-fs: var(--overline-small);
+  --badge-lh: 1;
+  --badge-fw: var(--fw-700);
+  --badge-ls: var(--ls-1);
+  --badge-gap: var(--space-1);
+  --badge-border-radius: var(--space-1);
+  --badge-bg: var(--gray-3);
+  --badge-color: var(--gray-7);
 
-	background: var(--badge-bg);
-	color: var(--badge-color);
-	padding: var(--badge-padding);
-	font-size: var(--badge-fs);
-	line-height: var(--badge-lh);
-	font-weight: var(--badge-fw);
-	gap: var(--badge-gap);
-	border-radius: var(--badge-border-radius);
-	display: inline-flex;
-	align-items: center;
-	justify-content: center;
-	text-transform: uppercase;
-	letter-spacing: var(--space-1px);
+  background: var(--badge-bg);
+  color: var(--badge-color);
+  padding: var(--badge-padding);
+  font-size: var(--badge-fs);
+  line-height: var(--badge-lh);
+  font-weight: var(--badge-fw);
+  gap: var(--badge-gap);
+  border-radius: var(--badge-border-radius);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  letter-spacing: var(--space-1px);
 }
 .badge-sm {
-	--badge-fs: var(--overline-small);
+  --badge-fs: var(--overline-small);
 }
 .badge-med {
-	--badge-fs: var(--overline-large);
-	--badge-padding: var(--space-1) var(--space-2);
+  --badge-fs: var(--overline-large);
+  --badge-padding: var(--space-1) var(--space-2);
 }
 .badge-success {
-	--badge-color: var(--success);
-	--badge-bg: var(--success-light);
+  --badge-color: var(--success);
+  --badge-bg: var(--success-light);
 }
 .badge-error {
-	--badge-color: var(--error);
-	--badge-bg: var(--error-light);
+  --badge-color: var(--error);
+  --badge-bg: var(--error-light);
 }
 .badge-alert {
-	--badge-color: var(--alert);
-	--badge-bg: var(--alert-light);
+  --badge-color: var(--alert);
+  --badge-bg: var(--alert-light);
 }
 .badge-info {
-	--badge-color: var(--info);
-	--badge-bg: var(--info-light);
+  --badge-color: var(--info);
+  --badge-bg: var(--info-light);
 }
 .badge-warning {
-	--badge-color: var(--warning);
-	--badge-bg: var(--warning-light);
+  --badge-color: var(--warning);
+  --badge-bg: var(--warning-light);
 }
 .badge-navy-dark {
-	--badge-color: var(--white);
-	--badge-bg: var(--navy-dark);
+  --badge-color: var(--white);
+  --badge-bg: var(--navy-dark);
 }
 button,
 .btn {
@@ -6121,7 +6121,7 @@ button,
   --btn-border: 0;
   --btn-padding: 0;
   --btn-fs: var(--label);
-  --btn-fw: var(--fw-4);
+  --btn-fw: var(--fw-400);
   --btn-lh: var(--lh-125);
   --btn-text-align: center;
   --btn-cursor: pointer;
@@ -6139,7 +6139,7 @@ button,
 .btn {
   --btn-border-radius: var(--space-2);
   --btn-fs: var(--label);
-  --btn-fw: var(--fw-6);
+  --btn-fw: var(--fw-600);
   --btn-gap: var(--space-2);
   border-radius: var(--btn-border-radius);
   display: inline-flex;
@@ -6380,7 +6380,7 @@ button,
 .sm-title-1_semibold,
 .sm-title-1_bold {
     font-size: var(--title-1);
-    font-weight: var(--fw-4);
+    font-weight: var(--fw-400);
     font-family: var(--sans);
     line-height: var(--lh-125);
     letter-spacing: var(--ls-02);
@@ -6392,7 +6392,7 @@ button,
 .sm-title-2_semibold,
 .sm-title-2_bold {
     font-size: var(--title-2);
-    font-weight: var(--fw-4);
+    font-weight: var(--fw-400);
     font-family: var(--sans);
     line-height: var(--lh-116);
     letter-spacing: var(--ls-015);
@@ -6404,7 +6404,7 @@ button,
 .sm-title-3_semibold,
 .sm-title-3_bold {
     font-size: var(--title-3);
-    font-weight: var(--fw-4);
+    font-weight: var(--fw-400);
     font-family: var(--sans);
     line-height: var(--lh-120);
     letter-spacing: var(--ls-125);
@@ -6416,7 +6416,7 @@ button,
 .sm-title-4_semibold,
 .sm-title-4_bold {
     font-size: var(--title-4);
-    font-weight: var(--fw-4);
+    font-weight: var(--fw-400);
     font-family: var(--sans);
     line-height: var(--lh-125);
     letter-spacing: var(--ls-01);
@@ -6428,7 +6428,7 @@ button,
 .sm-title-5_semibold,
 .sm-title-5_bold {
     font-size: var(--title-5);
-    font-weight: var(--fw-4);
+    font-weight: var(--fw-400);
     font-family: var(--sans);
     line-height: var(--lh-133);
     letter-spacing: var(--ls-075);
@@ -6440,7 +6440,7 @@ button,
 .sm-title-6_semibold,
 .sm-title-6_bold {
     font-size: var(--title-6);
-    font-weight: var(--fw-4);
+    font-weight: var(--fw-400);
     font-family: var(--sans);
     line-height: var(--lh-160);
     letter-spacing: var(--ls-05);
@@ -6456,7 +6456,7 @@ button,
     --lh: var(--lh-125);
     --ls: 0;
     font-size: var(--copy);
-    font-weight: var(--fw-4);
+    font-weight: var(--fw-400);
     font-family: var(--serif);
     line-height: var(--lh);
     letter-spacing: var(--ls);
@@ -6476,7 +6476,7 @@ button,
 .sm-body_italic,
 .sm-body_link {
     font-size: var(--body);
-    font-weight: var(--fw-4);
+    font-weight: var(--fw-400);
     font-family: var(--sans);
     line-height: var(--lh-150);
     letter-spacing: var(--ls-025);
@@ -6490,7 +6490,7 @@ button,
 .sm-label_italic,
 .sm-label_link {
     font-size: var(--label);
-    font-weight: var(--fw-4);
+    font-weight: var(--fw-400);
     font-family: var(--sans);
     line-height: var(--lh-171);
   }
@@ -6503,7 +6503,7 @@ button,
 .sm-caption_italic,
 .sm-caption_link {
     font-size: var(--caption);
-    font-weight: var(--fw-4);
+    font-weight: var(--fw-400);
     font-family: var(--sans);
     line-height: var(--lh-133);
   }
@@ -6516,7 +6516,7 @@ button,
 .sm-small_italic,
 .sm-small_link {
     font-size: var(--small);
-    font-weight: var(--fw-4);
+    font-weight: var(--fw-400);
     font-family: var(--sans);
     line-height: var(--lh-120);
   }
@@ -6526,7 +6526,7 @@ button,
 .sm-overline-large_semibold,
 .sm-overline-large_bold {
     font-size: var(--overline-large);
-    font-weight: var(--fw-7);
+    font-weight: var(--fw-700);
     font-family: var(--sans);
     line-height: var(--lh-109);
     letter-spacing: var(--ls-1);
@@ -6538,7 +6538,7 @@ button,
 .sm-overline-small_semibold,
 .sm-overline-small_bold {
     font-size: var(--overline-small);
-    font-weight: var(--fw-7);
+    font-weight: var(--fw-700);
     font-family: var(--sans);
     line-height: var(--lh-133);
     letter-spacing: var(--ls-1);
@@ -6575,7 +6575,7 @@ button,
 .sm-small_link,
 .sm-overline-large_med,
 .sm-overline-small_med {
-    font-weight: var(--fw-5);
+    font-weight: var(--fw-500);
   }
   .sm-title-1_article,
 .sm-title-2_article,
@@ -6596,7 +6596,7 @@ button,
 .sm-small_semibold,
 .sm-overline-large_semibold,
 .sm-overline-small_semibold {
-    font-weight: var(--fw-6);
+    font-weight: var(--fw-600);
   }
 
   .sm-title-1_bold,
@@ -6612,7 +6612,7 @@ button,
 .sm-small_bold,
 .sm-overline-large_bold,
 .sm-overline-small_bold {
-    font-weight: var(--fw-7);
+    font-weight: var(--fw-700);
   }
 
   .sm-copy_med,
@@ -6639,7 +6639,7 @@ button,
 
   .sm-quote {
     font-size: var(--quote);
-    font-weight: var(--fw-5);
+    font-weight: var(--fw-500);
     font-family: var(--serif);
     font-style: italic;
     line-height: var(--lh-120);
@@ -9678,7 +9678,7 @@ button,
 .md-title-1_semibold,
 .md-title-1_bold {
     font-size: var(--title-1);
-    font-weight: var(--fw-4);
+    font-weight: var(--fw-400);
     font-family: var(--sans);
     line-height: var(--lh-125);
     letter-spacing: var(--ls-02);
@@ -9690,7 +9690,7 @@ button,
 .md-title-2_semibold,
 .md-title-2_bold {
     font-size: var(--title-2);
-    font-weight: var(--fw-4);
+    font-weight: var(--fw-400);
     font-family: var(--sans);
     line-height: var(--lh-116);
     letter-spacing: var(--ls-015);
@@ -9702,7 +9702,7 @@ button,
 .md-title-3_semibold,
 .md-title-3_bold {
     font-size: var(--title-3);
-    font-weight: var(--fw-4);
+    font-weight: var(--fw-400);
     font-family: var(--sans);
     line-height: var(--lh-120);
     letter-spacing: var(--ls-125);
@@ -9714,7 +9714,7 @@ button,
 .md-title-4_semibold,
 .md-title-4_bold {
     font-size: var(--title-4);
-    font-weight: var(--fw-4);
+    font-weight: var(--fw-400);
     font-family: var(--sans);
     line-height: var(--lh-125);
     letter-spacing: var(--ls-01);
@@ -9726,7 +9726,7 @@ button,
 .md-title-5_semibold,
 .md-title-5_bold {
     font-size: var(--title-5);
-    font-weight: var(--fw-4);
+    font-weight: var(--fw-400);
     font-family: var(--sans);
     line-height: var(--lh-133);
     letter-spacing: var(--ls-075);
@@ -9738,7 +9738,7 @@ button,
 .md-title-6_semibold,
 .md-title-6_bold {
     font-size: var(--title-6);
-    font-weight: var(--fw-4);
+    font-weight: var(--fw-400);
     font-family: var(--sans);
     line-height: var(--lh-160);
     letter-spacing: var(--ls-05);
@@ -9754,7 +9754,7 @@ button,
     --lh: var(--lh-125);
     --ls: 0;
     font-size: var(--copy);
-    font-weight: var(--fw-4);
+    font-weight: var(--fw-400);
     font-family: var(--serif);
     line-height: var(--lh);
     letter-spacing: var(--ls);
@@ -9774,7 +9774,7 @@ button,
 .md-body_italic,
 .md-body_link {
     font-size: var(--body);
-    font-weight: var(--fw-4);
+    font-weight: var(--fw-400);
     font-family: var(--sans);
     line-height: var(--lh-150);
     letter-spacing: var(--ls-025);
@@ -9788,7 +9788,7 @@ button,
 .md-label_italic,
 .md-label_link {
     font-size: var(--label);
-    font-weight: var(--fw-4);
+    font-weight: var(--fw-400);
     font-family: var(--sans);
     line-height: var(--lh-171);
   }
@@ -9801,7 +9801,7 @@ button,
 .md-caption_italic,
 .md-caption_link {
     font-size: var(--caption);
-    font-weight: var(--fw-4);
+    font-weight: var(--fw-400);
     font-family: var(--sans);
     line-height: var(--lh-133);
   }
@@ -9814,7 +9814,7 @@ button,
 .md-small_italic,
 .md-small_link {
     font-size: var(--small);
-    font-weight: var(--fw-4);
+    font-weight: var(--fw-400);
     font-family: var(--sans);
     line-height: var(--lh-120);
   }
@@ -9824,7 +9824,7 @@ button,
 .md-overline-large_semibold,
 .md-overline-large_bold {
     font-size: var(--overline-large);
-    font-weight: var(--fw-7);
+    font-weight: var(--fw-700);
     font-family: var(--sans);
     line-height: var(--lh-109);
     letter-spacing: var(--ls-1);
@@ -9836,7 +9836,7 @@ button,
 .md-overline-small_semibold,
 .md-overline-small_bold {
     font-size: var(--overline-small);
-    font-weight: var(--fw-7);
+    font-weight: var(--fw-700);
     font-family: var(--sans);
     line-height: var(--lh-133);
     letter-spacing: var(--ls-1);
@@ -9873,7 +9873,7 @@ button,
 .md-small_link,
 .md-overline-large_med,
 .md-overline-small_med {
-    font-weight: var(--fw-5);
+    font-weight: var(--fw-500);
   }
   .md-title-1_article,
 .md-title-2_article,
@@ -9894,7 +9894,7 @@ button,
 .md-small_semibold,
 .md-overline-large_semibold,
 .md-overline-small_semibold {
-    font-weight: var(--fw-6);
+    font-weight: var(--fw-600);
   }
 
   .md-title-1_bold,
@@ -9910,7 +9910,7 @@ button,
 .md-small_bold,
 .md-overline-large_bold,
 .md-overline-small_bold {
-    font-weight: var(--fw-7);
+    font-weight: var(--fw-700);
   }
 
   .md-copy_med,
@@ -9937,7 +9937,7 @@ button,
 
   .md-quote {
     font-size: var(--quote);
-    font-weight: var(--fw-5);
+    font-weight: var(--fw-500);
     font-family: var(--serif);
     font-style: italic;
     line-height: var(--lh-120);
@@ -12976,7 +12976,7 @@ button,
 .lg-title-1_semibold,
 .lg-title-1_bold {
     font-size: var(--title-1);
-    font-weight: var(--fw-4);
+    font-weight: var(--fw-400);
     font-family: var(--sans);
     line-height: var(--lh-125);
     letter-spacing: var(--ls-02);
@@ -12988,7 +12988,7 @@ button,
 .lg-title-2_semibold,
 .lg-title-2_bold {
     font-size: var(--title-2);
-    font-weight: var(--fw-4);
+    font-weight: var(--fw-400);
     font-family: var(--sans);
     line-height: var(--lh-116);
     letter-spacing: var(--ls-015);
@@ -13000,7 +13000,7 @@ button,
 .lg-title-3_semibold,
 .lg-title-3_bold {
     font-size: var(--title-3);
-    font-weight: var(--fw-4);
+    font-weight: var(--fw-400);
     font-family: var(--sans);
     line-height: var(--lh-120);
     letter-spacing: var(--ls-125);
@@ -13012,7 +13012,7 @@ button,
 .lg-title-4_semibold,
 .lg-title-4_bold {
     font-size: var(--title-4);
-    font-weight: var(--fw-4);
+    font-weight: var(--fw-400);
     font-family: var(--sans);
     line-height: var(--lh-125);
     letter-spacing: var(--ls-01);
@@ -13024,7 +13024,7 @@ button,
 .lg-title-5_semibold,
 .lg-title-5_bold {
     font-size: var(--title-5);
-    font-weight: var(--fw-4);
+    font-weight: var(--fw-400);
     font-family: var(--sans);
     line-height: var(--lh-133);
     letter-spacing: var(--ls-075);
@@ -13036,7 +13036,7 @@ button,
 .lg-title-6_semibold,
 .lg-title-6_bold {
     font-size: var(--title-6);
-    font-weight: var(--fw-4);
+    font-weight: var(--fw-400);
     font-family: var(--sans);
     line-height: var(--lh-160);
     letter-spacing: var(--ls-05);
@@ -13052,7 +13052,7 @@ button,
     --lh: var(--lh-125);
     --ls: 0;
     font-size: var(--copy);
-    font-weight: var(--fw-4);
+    font-weight: var(--fw-400);
     font-family: var(--serif);
     line-height: var(--lh);
     letter-spacing: var(--ls);
@@ -13072,7 +13072,7 @@ button,
 .lg-body_italic,
 .lg-body_link {
     font-size: var(--body);
-    font-weight: var(--fw-4);
+    font-weight: var(--fw-400);
     font-family: var(--sans);
     line-height: var(--lh-150);
     letter-spacing: var(--ls-025);
@@ -13086,7 +13086,7 @@ button,
 .lg-label_italic,
 .lg-label_link {
     font-size: var(--label);
-    font-weight: var(--fw-4);
+    font-weight: var(--fw-400);
     font-family: var(--sans);
     line-height: var(--lh-171);
   }
@@ -13099,7 +13099,7 @@ button,
 .lg-caption_italic,
 .lg-caption_link {
     font-size: var(--caption);
-    font-weight: var(--fw-4);
+    font-weight: var(--fw-400);
     font-family: var(--sans);
     line-height: var(--lh-133);
   }
@@ -13112,7 +13112,7 @@ button,
 .lg-small_italic,
 .lg-small_link {
     font-size: var(--small);
-    font-weight: var(--fw-4);
+    font-weight: var(--fw-400);
     font-family: var(--sans);
     line-height: var(--lh-120);
   }
@@ -13122,7 +13122,7 @@ button,
 .lg-overline-large_semibold,
 .lg-overline-large_bold {
     font-size: var(--overline-large);
-    font-weight: var(--fw-7);
+    font-weight: var(--fw-700);
     font-family: var(--sans);
     line-height: var(--lh-109);
     letter-spacing: var(--ls-1);
@@ -13134,7 +13134,7 @@ button,
 .lg-overline-small_semibold,
 .lg-overline-small_bold {
     font-size: var(--overline-small);
-    font-weight: var(--fw-7);
+    font-weight: var(--fw-700);
     font-family: var(--sans);
     line-height: var(--lh-133);
     letter-spacing: var(--ls-1);
@@ -13171,7 +13171,7 @@ button,
 .lg-small_link,
 .lg-overline-large_med,
 .lg-overline-small_med {
-    font-weight: var(--fw-5);
+    font-weight: var(--fw-500);
   }
   .lg-title-1_article,
 .lg-title-2_article,
@@ -13192,7 +13192,7 @@ button,
 .lg-small_semibold,
 .lg-overline-large_semibold,
 .lg-overline-small_semibold {
-    font-weight: var(--fw-6);
+    font-weight: var(--fw-600);
   }
 
   .lg-title-1_bold,
@@ -13208,7 +13208,7 @@ button,
 .lg-small_bold,
 .lg-overline-large_bold,
 .lg-overline-small_bold {
-    font-weight: var(--fw-7);
+    font-weight: var(--fw-700);
   }
 
   .lg-copy_med,
@@ -13235,7 +13235,7 @@ button,
 
   .lg-quote {
     font-size: var(--quote);
-    font-weight: var(--fw-5);
+    font-weight: var(--fw-500);
     font-family: var(--serif);
     font-style: italic;
     line-height: var(--lh-120);
@@ -16274,7 +16274,7 @@ button,
 .xl-title-1_semibold,
 .xl-title-1_bold {
     font-size: var(--title-1);
-    font-weight: var(--fw-4);
+    font-weight: var(--fw-400);
     font-family: var(--sans);
     line-height: var(--lh-125);
     letter-spacing: var(--ls-02);
@@ -16286,7 +16286,7 @@ button,
 .xl-title-2_semibold,
 .xl-title-2_bold {
     font-size: var(--title-2);
-    font-weight: var(--fw-4);
+    font-weight: var(--fw-400);
     font-family: var(--sans);
     line-height: var(--lh-116);
     letter-spacing: var(--ls-015);
@@ -16298,7 +16298,7 @@ button,
 .xl-title-3_semibold,
 .xl-title-3_bold {
     font-size: var(--title-3);
-    font-weight: var(--fw-4);
+    font-weight: var(--fw-400);
     font-family: var(--sans);
     line-height: var(--lh-120);
     letter-spacing: var(--ls-125);
@@ -16310,7 +16310,7 @@ button,
 .xl-title-4_semibold,
 .xl-title-4_bold {
     font-size: var(--title-4);
-    font-weight: var(--fw-4);
+    font-weight: var(--fw-400);
     font-family: var(--sans);
     line-height: var(--lh-125);
     letter-spacing: var(--ls-01);
@@ -16322,7 +16322,7 @@ button,
 .xl-title-5_semibold,
 .xl-title-5_bold {
     font-size: var(--title-5);
-    font-weight: var(--fw-4);
+    font-weight: var(--fw-400);
     font-family: var(--sans);
     line-height: var(--lh-133);
     letter-spacing: var(--ls-075);
@@ -16334,7 +16334,7 @@ button,
 .xl-title-6_semibold,
 .xl-title-6_bold {
     font-size: var(--title-6);
-    font-weight: var(--fw-4);
+    font-weight: var(--fw-400);
     font-family: var(--sans);
     line-height: var(--lh-160);
     letter-spacing: var(--ls-05);
@@ -16350,7 +16350,7 @@ button,
     --lh: var(--lh-125);
     --ls: 0;
     font-size: var(--copy);
-    font-weight: var(--fw-4);
+    font-weight: var(--fw-400);
     font-family: var(--serif);
     line-height: var(--lh);
     letter-spacing: var(--ls);
@@ -16370,7 +16370,7 @@ button,
 .xl-body_italic,
 .xl-body_link {
     font-size: var(--body);
-    font-weight: var(--fw-4);
+    font-weight: var(--fw-400);
     font-family: var(--sans);
     line-height: var(--lh-150);
     letter-spacing: var(--ls-025);
@@ -16384,7 +16384,7 @@ button,
 .xl-label_italic,
 .xl-label_link {
     font-size: var(--label);
-    font-weight: var(--fw-4);
+    font-weight: var(--fw-400);
     font-family: var(--sans);
     line-height: var(--lh-171);
   }
@@ -16397,7 +16397,7 @@ button,
 .xl-caption_italic,
 .xl-caption_link {
     font-size: var(--caption);
-    font-weight: var(--fw-4);
+    font-weight: var(--fw-400);
     font-family: var(--sans);
     line-height: var(--lh-133);
   }
@@ -16410,7 +16410,7 @@ button,
 .xl-small_italic,
 .xl-small_link {
     font-size: var(--small);
-    font-weight: var(--fw-4);
+    font-weight: var(--fw-400);
     font-family: var(--sans);
     line-height: var(--lh-120);
   }
@@ -16420,7 +16420,7 @@ button,
 .xl-overline-large_semibold,
 .xl-overline-large_bold {
     font-size: var(--overline-large);
-    font-weight: var(--fw-7);
+    font-weight: var(--fw-700);
     font-family: var(--sans);
     line-height: var(--lh-109);
     letter-spacing: var(--ls-1);
@@ -16432,7 +16432,7 @@ button,
 .xl-overline-small_semibold,
 .xl-overline-small_bold {
     font-size: var(--overline-small);
-    font-weight: var(--fw-7);
+    font-weight: var(--fw-700);
     font-family: var(--sans);
     line-height: var(--lh-133);
     letter-spacing: var(--ls-1);
@@ -16469,7 +16469,7 @@ button,
 .xl-small_link,
 .xl-overline-large_med,
 .xl-overline-small_med {
-    font-weight: var(--fw-5);
+    font-weight: var(--fw-500);
   }
   .xl-title-1_article,
 .xl-title-2_article,
@@ -16490,7 +16490,7 @@ button,
 .xl-small_semibold,
 .xl-overline-large_semibold,
 .xl-overline-small_semibold {
-    font-weight: var(--fw-6);
+    font-weight: var(--fw-600);
   }
 
   .xl-title-1_bold,
@@ -16506,7 +16506,7 @@ button,
 .xl-small_bold,
 .xl-overline-large_bold,
 .xl-overline-small_bold {
-    font-weight: var(--fw-7);
+    font-weight: var(--fw-700);
   }
 
   .xl-copy_med,
@@ -16533,7 +16533,7 @@ button,
 
   .xl-quote {
     font-size: var(--quote);
-    font-weight: var(--fw-5);
+    font-weight: var(--fw-500);
     font-family: var(--serif);
     font-style: italic;
     line-height: var(--lh-120);
@@ -19572,7 +19572,7 @@ button,
 .xxl-title-1_semibold,
 .xxl-title-1_bold {
     font-size: var(--title-1);
-    font-weight: var(--fw-4);
+    font-weight: var(--fw-400);
     font-family: var(--sans);
     line-height: var(--lh-125);
     letter-spacing: var(--ls-02);
@@ -19584,7 +19584,7 @@ button,
 .xxl-title-2_semibold,
 .xxl-title-2_bold {
     font-size: var(--title-2);
-    font-weight: var(--fw-4);
+    font-weight: var(--fw-400);
     font-family: var(--sans);
     line-height: var(--lh-116);
     letter-spacing: var(--ls-015);
@@ -19596,7 +19596,7 @@ button,
 .xxl-title-3_semibold,
 .xxl-title-3_bold {
     font-size: var(--title-3);
-    font-weight: var(--fw-4);
+    font-weight: var(--fw-400);
     font-family: var(--sans);
     line-height: var(--lh-120);
     letter-spacing: var(--ls-125);
@@ -19608,7 +19608,7 @@ button,
 .xxl-title-4_semibold,
 .xxl-title-4_bold {
     font-size: var(--title-4);
-    font-weight: var(--fw-4);
+    font-weight: var(--fw-400);
     font-family: var(--sans);
     line-height: var(--lh-125);
     letter-spacing: var(--ls-01);
@@ -19620,7 +19620,7 @@ button,
 .xxl-title-5_semibold,
 .xxl-title-5_bold {
     font-size: var(--title-5);
-    font-weight: var(--fw-4);
+    font-weight: var(--fw-400);
     font-family: var(--sans);
     line-height: var(--lh-133);
     letter-spacing: var(--ls-075);
@@ -19632,7 +19632,7 @@ button,
 .xxl-title-6_semibold,
 .xxl-title-6_bold {
     font-size: var(--title-6);
-    font-weight: var(--fw-4);
+    font-weight: var(--fw-400);
     font-family: var(--sans);
     line-height: var(--lh-160);
     letter-spacing: var(--ls-05);
@@ -19648,7 +19648,7 @@ button,
     --lh: var(--lh-125);
     --ls: 0;
     font-size: var(--copy);
-    font-weight: var(--fw-4);
+    font-weight: var(--fw-400);
     font-family: var(--serif);
     line-height: var(--lh);
     letter-spacing: var(--ls);
@@ -19668,7 +19668,7 @@ button,
 .xxl-body_italic,
 .xxl-body_link {
     font-size: var(--body);
-    font-weight: var(--fw-4);
+    font-weight: var(--fw-400);
     font-family: var(--sans);
     line-height: var(--lh-150);
     letter-spacing: var(--ls-025);
@@ -19682,7 +19682,7 @@ button,
 .xxl-label_italic,
 .xxl-label_link {
     font-size: var(--label);
-    font-weight: var(--fw-4);
+    font-weight: var(--fw-400);
     font-family: var(--sans);
     line-height: var(--lh-171);
   }
@@ -19695,7 +19695,7 @@ button,
 .xxl-caption_italic,
 .xxl-caption_link {
     font-size: var(--caption);
-    font-weight: var(--fw-4);
+    font-weight: var(--fw-400);
     font-family: var(--sans);
     line-height: var(--lh-133);
   }
@@ -19708,7 +19708,7 @@ button,
 .xxl-small_italic,
 .xxl-small_link {
     font-size: var(--small);
-    font-weight: var(--fw-4);
+    font-weight: var(--fw-400);
     font-family: var(--sans);
     line-height: var(--lh-120);
   }
@@ -19718,7 +19718,7 @@ button,
 .xxl-overline-large_semibold,
 .xxl-overline-large_bold {
     font-size: var(--overline-large);
-    font-weight: var(--fw-7);
+    font-weight: var(--fw-700);
     font-family: var(--sans);
     line-height: var(--lh-109);
     letter-spacing: var(--ls-1);
@@ -19730,7 +19730,7 @@ button,
 .xxl-overline-small_semibold,
 .xxl-overline-small_bold {
     font-size: var(--overline-small);
-    font-weight: var(--fw-7);
+    font-weight: var(--fw-700);
     font-family: var(--sans);
     line-height: var(--lh-133);
     letter-spacing: var(--ls-1);
@@ -19767,7 +19767,7 @@ button,
 .xxl-small_link,
 .xxl-overline-large_med,
 .xxl-overline-small_med {
-    font-weight: var(--fw-5);
+    font-weight: var(--fw-500);
   }
   .xxl-title-1_article,
 .xxl-title-2_article,
@@ -19788,7 +19788,7 @@ button,
 .xxl-small_semibold,
 .xxl-overline-large_semibold,
 .xxl-overline-small_semibold {
-    font-weight: var(--fw-6);
+    font-weight: var(--fw-600);
   }
 
   .xxl-title-1_bold,
@@ -19804,7 +19804,7 @@ button,
 .xxl-small_bold,
 .xxl-overline-large_bold,
 .xxl-overline-small_bold {
-    font-weight: var(--fw-7);
+    font-weight: var(--fw-700);
   }
 
   .xxl-copy_med,
@@ -19831,7 +19831,7 @@ button,
 
   .xxl-quote {
     font-size: var(--quote);
-    font-weight: var(--fw-5);
+    font-weight: var(--fw-500);
     font-family: var(--serif);
     font-style: italic;
     line-height: var(--lh-120);

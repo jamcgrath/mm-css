@@ -3,7 +3,7 @@
     "--badge-padding": "var(--space-0-5) var(--space-2)",
     "--badge-fs": "var(--overline-small)",
     "--badge-lh": "1",
-    "--badge-fw": "var(--fw-7)",
+    "--badge-fw": "var(--fw-700)",
     "--badge-ls": "var(--ls-1)",
     "--badge-gap": "var(--space-1)",
     "--badge-border-radius": "var(--space-1)",

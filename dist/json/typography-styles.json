@@ -1,42 +1,42 @@
 {
   ".title-1,\n  .title-1_article,\n  .title-1_med,\n  .title-1_semibold,\n  .title-1_bold": {
     "fontSize": "var(--title-1)",
-    "fontWeight": "var(--fw-4)",
+    "fontWeight": "var(--fw-400)",
     "fontFamily": "var(--sans)",
     "lineHeight": "var(--lh-125)",
     "letterSpacing": "var(--ls-02)"
   },
   ".title-2,\n  .title-2_article,\n  .title-2_med,\n  .title-2_semibold,\n  .title-2_bold": {
     "fontSize": "var(--title-2)",
-    "fontWeight": "var(--fw-4)",
+    "fontWeight": "var(--fw-400)",
     "fontFamily": "var(--sans)",
     "lineHeight": "var(--lh-116)",
     "letterSpacing": "var(--ls-015)"
   },
   ".title-3,\n  .title-3_article,\n  .title-3_med,\n  .title-3_semibold,\n  .title-3_bold": {
     "fontSize": "var(--title-3)",
-    "fontWeight": "var(--fw-4)",
+    "fontWeight": "var(--fw-400)",
     "fontFamily": "var(--sans)",
     "lineHeight": "var(--lh-120)",
     "letterSpacing": "var(--ls-125)"
   },
   ".title-4,\n  .title-4_article,\n  .title-4_med,\n  .title-4_semibold,\n  .title-4_bold": {
     "fontSize": "var(--title-4)",
-    "fontWeight": "var(--fw-4)",
+    "fontWeight": "var(--fw-400)",
     "fontFamily": "var(--sans)",
     "lineHeight": "var(--lh-125)",
     "letterSpacing": "var(--ls-01)"
   },
   ".title-5,\n  .title-5_article,\n  .title-5_med,\n  .title-5_semibold,\n  .title-5_bold": {
     "fontSize": "var(--title-5)",
-    "fontWeight": "var(--fw-4)",
+    "fontWeight": "var(--fw-400)",
     "fontFamily": "var(--sans)",
     "lineHeight": "var(--lh-133)",
     "letterSpacing": "var(--ls-075)"
   },
   ".title-6,\n  .title-6_article,\n  .title-6_med,\n  .title-6_semibold,\n  .title-6_bold": {
     "fontSize": "var(--title-6)",
-    "fontWeight": "var(--fw-4)",
+    "fontWeight": "var(--fw-400)",
     "fontFamily": "var(--sans)",
     "lineHeight": "var(--lh-160)",
     "letterSpacing": "var(--ls-05)"
@@ -45,7 +45,7 @@
     "--lh": "var(--lh-125)",
     "--ls": "0",
     "fontSize": "var(--copy)",
-    "fontWeight": "var(--fw-4)",
+    "fontWeight": "var(--fw-400)",
     "fontFamily": "var(--serif)",
     "lineHeight": "var(--lh)",
     "letterSpacing": "var(--ls)"
@@ -58,32 +58,32 @@
   },
   ".body,\n  .body_article,\n  .body_med,\n  .body_semibold,\n  .body_bold,\n  .body_italic,\n  .body_link": {
     "fontSize": "var(--body)",
-    "fontWeight": "var(--fw-4)",
+    "fontWeight": "var(--fw-400)",
     "fontFamily": "var(--sans)",
     "lineHeight": "var(--lh-150)",
     "letterSpacing": "var(--ls-025)"
   },
   ".label,\n  .label_article,\n  .label_med,\n  .label_semibold,\n  .label_bold,\n  .label_italic,\n  .label_link": {
     "fontSize": "var(--label)",
-    "fontWeight": "var(--fw-4)",
+    "fontWeight": "var(--fw-400)",
     "fontFamily": "var(--sans)",
     "lineHeight": "var(--lh-171)"
   },
   ".caption,\n  .caption_article,\n  .caption_med,\n  .caption_semibold,\n  .caption_bold,\n  .caption_italic,\n  .caption_link": {
     "fontSize": "var(--caption)",
-    "fontWeight": "var(--fw-4)",
+    "fontWeight": "var(--fw-400)",
     "fontFamily": "var(--sans)",
     "lineHeight": "var(--lh-133)"
   },
   ".small,\n  .small_article,\n  .small_med,\n  .small_semibold,\n  .small_bold,\n  .small_italic,\n  .small_link": {
     "fontSize": "var(--small)",
-    "fontWeight": "var(--fw-4)",
+    "fontWeight": "var(--fw-400)",
     "fontFamily": "var(--sans)",
     "lineHeight": "var(--lh-120)"
   },
   ".overline-large,\n  .overline-large_med,\n  .overline-large_semibold,\n  .overline-large_bold": {
     "fontSize": "var(--overline-large)",
-    "fontWeight": "var(--fw-7)",
+    "fontWeight": "var(--fw-700)",
     "fontFamily": "var(--sans)",
     "lineHeight": "var(--lh-109)",
     "letterSpacing": "var(--ls-1)",
@@ -91,7 +91,7 @@
   },
   ".overline-small,\n  .overline-small_med,\n  .overline-small_semibold,\n  .overline-small_bold": {
     "fontSize": "var(--overline-small)",
-    "fontWeight": "var(--fw-7)",
+    "fontWeight": "var(--fw-700)",
     "fontFamily": "var(--sans)",
     "lineHeight": "var(--lh-133)",
     "letterSpacing": "var(--ls-1)",
@@ -101,13 +101,13 @@
     "fontFamily": "var(--serif)"
   },
   ".title-1_med,\n  .title-2_med,\n  .title-3_med,\n  .title-4_med,\n  .title-5_med,\n  .title-6_med,\n  .copy_med,\n  .body_med,\n  .label_med,\n  .caption_med,\n  .small_med,\n  .copy_italic,\n  .body_italic,\n  .label_italic,\n  .caption_italic,\n  .small_italic,\n  .copy_link,\n  .body_link,\n  .label_link,\n  .caption_link,\n  .small_link,\n  .overline-large_med,\n  .overline-small_med": {
-    "fontWeight": "var(--fw-5)"
+    "fontWeight": "var(--fw-500)"
   },
   ".title-1_article,\n  .title-2_article,\n  .title-3_article,\n  .title-4_article,\n  .title-5_article,\n  .title-6_article,\n  .title-1_semibold,\n  .title-2_semibold,\n  .title-3_semibold,\n  .title-4_semibold,\n  .title-5_semibold,\n  .title-6_semibold,\n  .copy_semibold,\n  .body_semibold,\n  .label_semibold,\n  .caption_semibold,\n  .small_semibold,\n  .overline-large_semibold,\n  .overline-small_semibold": {
-    "fontWeight": "var(--fw-6)"
+    "fontWeight": "var(--fw-600)"
   },
   ".title-1_bold,\n  .title-2_bold,\n  .title-3_bold,\n  .title-4_bold,\n  .title-5_bold,\n  .title-6_bold,\n  .copy_bold,\n  .body_bold,\n  .label_bold,\n  .caption_bold,\n  .small_bold,\n  .overline-large_bold,\n  .overline-small_bold": {
-    "fontWeight": "var(--fw-7)"
+    "fontWeight": "var(--fw-700)"
   },
   ".copy_med,\n  .copy_semibold,\n  .copy_italic,\n  .copy_link": {
     "fontFamily": "var(--sans)"
@@ -120,7 +120,7 @@
   },
   ".quote": {
     "fontSize": "var(--quote)",
-    "fontWeight": "var(--fw-5)",
+    "fontWeight": "var(--fw-500)",
     "fontFamily": "var(--serif)",
     "fontStyle": "italic",
     "lineHeight": "var(--lh-120)",
@@ -135,42 +135,42 @@
   "@media (min-width: 480px)": {
     ".sm-title-1,\n.sm-title-1_article,\n.sm-title-1_med,\n.sm-title-1_semibold,\n.sm-title-1_bold": {
       "fontSize": "var(--title-1)",
-      "fontWeight": "var(--fw-4)",
+      "fontWeight": "var(--fw-400)",
       "fontFamily": "var(--sans)",
       "lineHeight": "var(--lh-125)",
       "letterSpacing": "var(--ls-02)"
     },
     ".sm-title-2,\n.sm-title-2_article,\n.sm-title-2_med,\n.sm-title-2_semibold,\n.sm-title-2_bold": {
       "fontSize": "var(--title-2)",
-      "fontWeight": "var(--fw-4)",
+      "fontWeight": "var(--fw-400)",
       "fontFamily": "var(--sans)",
       "lineHeight": "var(--lh-116)",
       "letterSpacing": "var(--ls-015)"
     },
     ".sm-title-3,\n.sm-title-3_article,\n.sm-title-3_med,\n.sm-title-3_semibold,\n.sm-title-3_bold": {
       "fontSize": "var(--title-3)",
-      "fontWeight": "var(--fw-4)",
+      "fontWeight": "var(--fw-400)",
       "fontFamily": "var(--sans)",
       "lineHeight": "var(--lh-120)",
       "letterSpacing": "var(--ls-125)"
     },
     ".sm-title-4,\n.sm-title-4_article,\n.sm-title-4_med,\n.sm-title-4_semibold,\n.sm-title-4_bold": {
       "fontSize": "var(--title-4)",
-      "fontWeight": "var(--fw-4)",
+      "fontWeight": "var(--fw-400)",
       "fontFamily": "var(--sans)",
       "lineHeight": "var(--lh-125)",
       "letterSpacing": "var(--ls-01)"
     },
     ".sm-title-5,\n.sm-title-5_article,\n.sm-title-5_med,\n.sm-title-5_semibold,\n.sm-title-5_bold": {
       "fontSize": "var(--title-5)",
-      "fontWeight": "var(--fw-4)",
+      "fontWeight": "var(--fw-400)",
       "fontFamily": "var(--sans)",
       "lineHeight": "var(--lh-133)",
       "letterSpacing": "var(--ls-075)"
     },
     ".sm-title-6,\n.sm-title-6_article,\n.sm-title-6_med,\n.sm-title-6_semibold,\n.sm-title-6_bold": {
       "fontSize": "var(--title-6)",
-      "fontWeight": "var(--fw-4)",
+      "fontWeight": "var(--fw-400)",
       "fontFamily": "var(--sans)",
       "lineHeight": "var(--lh-160)",
       "letterSpacing": "var(--ls-05)"
@@ -179,7 +179,7 @@
       "--lh": "var(--lh-125)",
       "--ls": "0",
       "fontSize": "var(--copy)",
-      "fontWeight": "var(--fw-4)",
+      "fontWeight": "var(--fw-400)",
       "fontFamily": "var(--serif)",
       "lineHeight": "var(--lh)",
       "letterSpacing": "var(--ls)"
@@ -192,32 +192,32 @@
     },
     ".sm-body,\n.sm-body_article,\n.sm-body_med,\n.sm-body_semibold,\n.sm-body_bold,\n.sm-body_italic,\n.sm-body_link": {
       "fontSize": "var(--body)",
-      "fontWeight": "var(--fw-4)",
+      "fontWeight": "var(--fw-400)",
       "fontFamily": "var(--sans)",
       "lineHeight": "var(--lh-150)",
       "letterSpacing": "var(--ls-025)"
     },
     ".sm-label,\n.sm-label_article,\n.sm-label_med,\n.sm-label_semibold,\n.sm-label_bold,\n.sm-label_italic,\n.sm-label_link": {
       "fontSize": "var(--label)",
-      "fontWeight": "var(--fw-4)",
+      "fontWeight": "var(--fw-400)",
       "fontFamily": "var(--sans)",
       "lineHeight": "var(--lh-171)"
     },
     ".sm-caption,\n.sm-caption_article,\n.sm-caption_med,\n.sm-caption_semibold,\n.sm-caption_bold,\n.sm-caption_italic,\n.sm-caption_link": {
       "fontSize": "var(--caption)",
-      "fontWeight": "var(--fw-4)",
+      "fontWeight": "var(--fw-400)",
       "fontFamily": "var(--sans)",
       "lineHeight": "var(--lh-133)"
     },
     ".sm-small,\n.sm-small_article,\n.sm-small_med,\n.sm-small_semibold,\n.sm-small_bold,\n.sm-small_italic,\n.sm-small_link": {
       "fontSize": "var(--small)",
-      "fontWeight": "var(--fw-4)",
+      "fontWeight": "var(--fw-400)",
       "fontFamily": "var(--sans)",
       "lineHeight": "var(--lh-120)"
     },
     ".sm-overline-large,\n.sm-overline-large_med,\n.sm-overline-large_semibold,\n.sm-overline-large_bold": {
       "fontSize": "var(--overline-large)",
-      "fontWeight": "var(--fw-7)",
+      "fontWeight": "var(--fw-700)",
       "fontFamily": "var(--sans)",
       "lineHeight": "var(--lh-109)",
       "letterSpacing": "var(--ls-1)",
@@ -225,7 +225,7 @@
     },
     ".sm-overline-small,\n.sm-overline-small_med,\n.sm-overline-small_semibold,\n.sm-overline-small_bold": {
       "fontSize": "var(--overline-small)",
-      "fontWeight": "var(--fw-7)",
+      "fontWeight": "var(--fw-700)",
       "fontFamily": "var(--sans)",
       "lineHeight": "var(--lh-133)",
       "letterSpacing": "var(--ls-1)",
@@ -235,13 +235,13 @@
       "fontFamily": "var(--serif)"
     },
     ".sm-title-1_med,\n.sm-title-2_med,\n.sm-title-3_med,\n.sm-title-4_med,\n.sm-title-5_med,\n.sm-title-6_med,\n.sm-copy_med,\n.sm-body_med,\n.sm-label_med,\n.sm-caption_med,\n.sm-small_med,\n.sm-copy_italic,\n.sm-body_italic,\n.sm-label_italic,\n.sm-caption_italic,\n.sm-small_italic,\n.sm-copy_link,\n.sm-body_link,\n.sm-label_link,\n.sm-caption_link,\n.sm-small_link,\n.sm-overline-large_med,\n.sm-overline-small_med": {
-      "fontWeight": "var(--fw-5)"
+      "fontWeight": "var(--fw-500)"
     },
     ".sm-title-1_article,\n.sm-title-2_article,\n.sm-title-3_article,\n.sm-title-4_article,\n.sm-title-5_article,\n.sm-title-6_article,\n.sm-title-1_semibold,\n.sm-title-2_semibold,\n.sm-title-3_semibold,\n.sm-title-4_semibold,\n.sm-title-5_semibold,\n.sm-title-6_semibold,\n.sm-copy_semibold,\n.sm-body_semibold,\n.sm-label_semibold,\n.sm-caption_semibold,\n.sm-small_semibold,\n.sm-overline-large_semibold,\n.sm-overline-small_semibold": {
-      "fontWeight": "var(--fw-6)"
+      "fontWeight": "var(--fw-600)"
     },
     ".sm-title-1_bold,\n.sm-title-2_bold,\n.sm-title-3_bold,\n.sm-title-4_bold,\n.sm-title-5_bold,\n.sm-title-6_bold,\n.sm-copy_bold,\n.sm-body_bold,\n.sm-label_bold,\n.sm-caption_bold,\n.sm-small_bold,\n.sm-overline-large_bold,\n.sm-overline-small_bold": {
-      "fontWeight": "var(--fw-7)"
+      "fontWeight": "var(--fw-700)"
     },
     ".sm-copy_med,\n.sm-copy_semibold,\n.sm-copy_italic,\n.sm-copy_link": {
       "fontFamily": "var(--sans)"
@@ -254,7 +254,7 @@
     },
     ".sm-quote": {
       "fontSize": "var(--quote)",
-      "fontWeight": "var(--fw-5)",
+      "fontWeight": "var(--fw-500)",
       "fontFamily": "var(--serif)",
       "fontStyle": "italic",
       "lineHeight": "var(--lh-120)",
@@ -270,42 +270,42 @@
   "@media (min-width: 768px)": {
     ".md-title-1,\n.md-title-1_article,\n.md-title-1_med,\n.md-title-1_semibold,\n.md-title-1_bold": {
       "fontSize": "var(--title-1)",
-      "fontWeight": "var(--fw-4)",
+      "fontWeight": "var(--fw-400)",
       "fontFamily": "var(--sans)",
       "lineHeight": "var(--lh-125)",
       "letterSpacing": "var(--ls-02)"
     },
     ".md-title-2,\n.md-title-2_article,\n.md-title-2_med,\n.md-title-2_semibold,\n.md-title-2_bold": {
       "fontSize": "var(--title-2)",
-      "fontWeight": "var(--fw-4)",
+      "fontWeight": "var(--fw-400)",
       "fontFamily": "var(--sans)",
       "lineHeight": "var(--lh-116)",
       "letterSpacing": "var(--ls-015)"
     },
     ".md-title-3,\n.md-title-3_article,\n.md-title-3_med,\n.md-title-3_semibold,\n.md-title-3_bold": {
       "fontSize": "var(--title-3)",
-      "fontWeight": "var(--fw-4)",
+      "fontWeight": "var(--fw-400)",
       "fontFamily": "var(--sans)",
       "lineHeight": "var(--lh-120)",
       "letterSpacing": "var(--ls-125)"
     },
     ".md-title-4,\n.md-title-4_article,\n.md-title-4_med,\n.md-title-4_semibold,\n.md-title-4_bold": {
       "fontSize": "var(--title-4)",
-      "fontWeight": "var(--fw-4)",
+      "fontWeight": "var(--fw-400)",
       "fontFamily": "var(--sans)",
       "lineHeight": "var(--lh-125)",
       "letterSpacing": "var(--ls-01)"
     },
     ".md-title-5,\n.md-title-5_article,\n.md-title-5_med,\n.md-title-5_semibold,\n.md-title-5_bold": {
       "fontSize": "var(--title-5)",
-      "fontWeight": "var(--fw-4)",
+      "fontWeight": "var(--fw-400)",
       "fontFamily": "var(--sans)",
       "lineHeight": "var(--lh-133)",
       "letterSpacing": "var(--ls-075)"
     },
     ".md-title-6,\n.md-title-6_article,\n.md-title-6_med,\n.md-title-6_semibold,\n.md-title-6_bold": {
       "fontSize": "var(--title-6)",
-      "fontWeight": "var(--fw-4)",
+      "fontWeight": "var(--fw-400)",
       "fontFamily": "var(--sans)",
       "lineHeight": "var(--lh-160)",
       "letterSpacing": "var(--ls-05)"
@@ -314,7 +314,7 @@
       "--lh": "var(--lh-125)",
       "--ls": "0",
       "fontSize": "var(--copy)",
-      "fontWeight": "var(--fw-4)",
+      "fontWeight": "var(--fw-400)",
       "fontFamily": "var(--serif)",
       "lineHeight": "var(--lh)",
       "letterSpacing": "var(--ls)"
@@ -327,32 +327,32 @@
     },
     ".md-body,\n.md-body_article,\n.md-body_med,\n.md-body_semibold,\n.md-body_bold,\n.md-body_italic,\n.md-body_link": {
       "fontSize": "var(--body)",
-      "fontWeight": "var(--fw-4)",
+      "fontWeight": "var(--fw-400)",
       "fontFamily": "var(--sans)",
       "lineHeight": "var(--lh-150)",
       "letterSpacing": "var(--ls-025)"
     },
     ".md-label,\n.md-label_article,\n.md-label_med,\n.md-label_semibold,\n.md-label_bold,\n.md-label_italic,\n.md-label_link": {
       "fontSize": "var(--label)",
-      "fontWeight": "var(--fw-4)",
+      "fontWeight": "var(--fw-400)",
       "fontFamily": "var(--sans)",
       "lineHeight": "var(--lh-171)"
     },
     ".md-caption,\n.md-caption_article,\n.md-caption_med,\n.md-caption_semibold,\n.md-caption_bold,\n.md-caption_italic,\n.md-caption_link": {
       "fontSize": "var(--caption)",
-      "fontWeight": "var(--fw-4)",
+      "fontWeight": "var(--fw-400)",
       "fontFamily": "var(--sans)",
       "lineHeight": "var(--lh-133)"
     },
     ".md-small,\n.md-small_article,\n.md-small_med,\n.md-small_semibold,\n.md-small_bold,\n.md-small_italic,\n.md-small_link": {
       "fontSize": "var(--small)",
-      "fontWeight": "var(--fw-4)",
+      "fontWeight": "var(--fw-400)",
       "fontFamily": "var(--sans)",
       "lineHeight": "var(--lh-120)"
     },
     ".md-overline-large,\n.md-overline-large_med,\n.md-overline-large_semibold,\n.md-overline-large_bold": {
       "fontSize": "var(--overline-large)",
-      "fontWeight": "var(--fw-7)",
+      "fontWeight": "var(--fw-700)",
       "fontFamily": "var(--sans)",
       "lineHeight": "var(--lh-109)",
       "letterSpacing": "var(--ls-1)",
@@ -360,7 +360,7 @@
     },
     ".md-overline-small,\n.md-overline-small_med,\n.md-overline-small_semibold,\n.md-overline-small_bold": {
       "fontSize": "var(--overline-small)",
-      "fontWeight": "var(--fw-7)",
+      "fontWeight": "var(--fw-700)",
       "fontFamily": "var(--sans)",
       "lineHeight": "var(--lh-133)",
       "letterSpacing": "var(--ls-1)",
@@ -370,13 +370,13 @@
       "fontFamily": "var(--serif)"
     },
     ".md-title-1_med,\n.md-title-2_med,\n.md-title-3_med,\n.md-title-4_med,\n.md-title-5_med,\n.md-title-6_med,\n.md-copy_med,\n.md-body_med,\n.md-label_med,\n.md-caption_med,\n.md-small_med,\n.md-copy_italic,\n.md-body_italic,\n.md-label_italic,\n.md-caption_italic,\n.md-small_italic,\n.md-copy_link,\n.md-body_link,\n.md-label_link,\n.md-caption_link,\n.md-small_link,\n.md-overline-large_med,\n.md-overline-small_med": {
-      "fontWeight": "var(--fw-5)"
+      "fontWeight": "var(--fw-500)"
     },
     ".md-title-1_article,\n.md-title-2_article,\n.md-title-3_article,\n.md-title-4_article,\n.md-title-5_article,\n.md-title-6_article,\n.md-title-1_semibold,\n.md-title-2_semibold,\n.md-title-3_semibold,\n.md-title-4_semibold,\n.md-title-5_semibold,\n.md-title-6_semibold,\n.md-copy_semibold,\n.md-body_semibold,\n.md-label_semibold,\n.md-caption_semibold,\n.md-small_semibold,\n.md-overline-large_semibold,\n.md-overline-small_semibold": {
-      "fontWeight": "var(--fw-6)"
+      "fontWeight": "var(--fw-600)"
     },
     ".md-title-1_bold,\n.md-title-2_bold,\n.md-title-3_bold,\n.md-title-4_bold,\n.md-title-5_bold,\n.md-title-6_bold,\n.md-copy_bold,\n.md-body_bold,\n.md-label_bold,\n.md-caption_bold,\n.md-small_bold,\n.md-overline-large_bold,\n.md-overline-small_bold": {
-      "fontWeight": "var(--fw-7)"
+      "fontWeight": "var(--fw-700)"
     },
     ".md-copy_med,\n.md-copy_semibold,\n.md-copy_italic,\n.md-copy_link": {
       "fontFamily": "var(--sans)"
@@ -389,7 +389,7 @@
     },
     ".md-quote": {
       "fontSize": "var(--quote)",
-      "fontWeight": "var(--fw-5)",
+      "fontWeight": "var(--fw-500)",
       "fontFamily": "var(--serif)",
       "fontStyle": "italic",
       "lineHeight": "var(--lh-120)",
@@ -405,42 +405,42 @@
   "@media (min-width: 1024px)": {
     ".lg-title-1,\n.lg-title-1_article,\n.lg-title-1_med,\n.lg-title-1_semibold,\n.lg-title-1_bold": {
       "fontSize": "var(--title-1)",
-      "fontWeight": "var(--fw-4)",
+      "fontWeight": "var(--fw-400)",
       "fontFamily": "var(--sans)",
       "lineHeight": "var(--lh-125)",
       "letterSpacing": "var(--ls-02)"
     },
     ".lg-title-2,\n.lg-title-2_article,\n.lg-title-2_med,\n.lg-title-2_semibold,\n.lg-title-2_bold": {
       "fontSize": "var(--title-2)",
-      "fontWeight": "var(--fw-4)",
+      "fontWeight": "var(--fw-400)",
       "fontFamily": "var(--sans)",
       "lineHeight": "var(--lh-116)",
       "letterSpacing": "var(--ls-015)"
     },
     ".lg-title-3,\n.lg-title-3_article,\n.lg-title-3_med,\n.lg-title-3_semibold,\n.lg-title-3_bold": {
       "fontSize": "var(--title-3)",
-      "fontWeight": "var(--fw-4)",
+      "fontWeight": "var(--fw-400)",
       "fontFamily": "var(--sans)",
       "lineHeight": "var(--lh-120)",
       "letterSpacing": "var(--ls-125)"
     },
     ".lg-title-4,\n.lg-title-4_article,\n.lg-title-4_med,\n.lg-title-4_semibold,\n.lg-title-4_bold": {
       "fontSize": "var(--title-4)",
-      "fontWeight": "var(--fw-4)",
+      "fontWeight": "var(--fw-400)",
       "fontFamily": "var(--sans)",
       "lineHeight": "var(--lh-125)",
       "letterSpacing": "var(--ls-01)"
     },
     ".lg-title-5,\n.lg-title-5_article,\n.lg-title-5_med,\n.lg-title-5_semibold,\n.lg-title-5_bold": {
       "fontSize": "var(--title-5)",
-      "fontWeight": "var(--fw-4)",
+      "fontWeight": "var(--fw-400)",
       "fontFamily": "var(--sans)",
       "lineHeight": "var(--lh-133)",
       "letterSpacing": "var(--ls-075)"
     },
     ".lg-title-6,\n.lg-title-6_article,\n.lg-title-6_med,\n.lg-title-6_semibold,\n.lg-title-6_bold": {
       "fontSize": "var(--title-6)",
-      "fontWeight": "var(--fw-4)",
+      "fontWeight": "var(--fw-400)",
       "fontFamily": "var(--sans)",
       "lineHeight": "var(--lh-160)",
       "letterSpacing": "var(--ls-05)"
@@ -449,7 +449,7 @@
       "--lh": "var(--lh-125)",
       "--ls": "0",
       "fontSize": "var(--copy)",
-      "fontWeight": "var(--fw-4)",
+      "fontWeight": "var(--fw-400)",
       "fontFamily": "var(--serif)",
       "lineHeight": "var(--lh)",
       "letterSpacing": "var(--ls)"
@@ -462,32 +462,32 @@
     },
     ".lg-body,\n.lg-body_article,\n.lg-body_med,\n.lg-body_semibold,\n.lg-body_bold,\n.lg-body_italic,\n.lg-body_link": {
       "fontSize": "var(--body)",
-      "fontWeight": "var(--fw-4)",
+      "fontWeight": "var(--fw-400)",
       "fontFamily": "var(--sans)",
       "lineHeight": "var(--lh-150)",
       "letterSpacing": "var(--ls-025)"
     },
     ".lg-label,\n.lg-label_article,\n.lg-label_med,\n.lg-label_semibold,\n.lg-label_bold,\n.lg-label_italic,\n.lg-label_link": {
       "fontSize": "var(--label)",
-      "fontWeight": "var(--fw-4)",
+      "fontWeight": "var(--fw-400)",
       "fontFamily": "var(--sans)",
       "lineHeight": "var(--lh-171)"
     },
     ".lg-caption,\n.lg-caption_article,\n.lg-caption_med,\n.lg-caption_semibold,\n.lg-caption_bold,\n.lg-caption_italic,\n.lg-caption_link": {
       "fontSize": "var(--caption)",
-      "fontWeight": "var(--fw-4)",
+      "fontWeight": "var(--fw-400)",
       "fontFamily": "var(--sans)",
       "lineHeight": "var(--lh-133)"
     },
     ".lg-small,\n.lg-small_article,\n.lg-small_med,\n.lg-small_semibold,\n.lg-small_bold,\n.lg-small_italic,\n.lg-small_link": {
       "fontSize": "var(--small)",
-      "fontWeight": "var(--fw-4)",
+      "fontWeight": "var(--fw-400)",
       "fontFamily": "var(--sans)",
       "lineHeight": "var(--lh-120)"
     },
     ".lg-overline-large,\n.lg-overline-large_med,\n.lg-overline-large_semibold,\n.lg-overline-large_bold": {
       "fontSize": "var(--overline-large)",
-      "fontWeight": "var(--fw-7)",
+      "fontWeight": "var(--fw-700)",
       "fontFamily": "var(--sans)",
       "lineHeight": "var(--lh-109)",
       "letterSpacing": "var(--ls-1)",
@@ -495,7 +495,7 @@
     },
     ".lg-overline-small,\n.lg-overline-small_med,\n.lg-overline-small_semibold,\n.lg-overline-small_bold": {
       "fontSize": "var(--overline-small)",
-      "fontWeight": "var(--fw-7)",
+      "fontWeight": "var(--fw-700)",
       "fontFamily": "var(--sans)",
       "lineHeight": "var(--lh-133)",
       "letterSpacing": "var(--ls-1)",
@@ -505,13 +505,13 @@
       "fontFamily": "var(--serif)"
     },
     ".lg-title-1_med,\n.lg-title-2_med,\n.lg-title-3_med,\n.lg-title-4_med,\n.lg-title-5_med,\n.lg-title-6_med,\n.lg-copy_med,\n.lg-body_med,\n.lg-label_med,\n.lg-caption_med,\n.lg-small_med,\n.lg-copy_italic,\n.lg-body_italic,\n.lg-label_italic,\n.lg-caption_italic,\n.lg-small_italic,\n.lg-copy_link,\n.lg-body_link,\n.lg-label_link,\n.lg-caption_link,\n.lg-small_link,\n.lg-overline-large_med,\n.lg-overline-small_med": {
-      "fontWeight": "var(--fw-5)"
+      "fontWeight": "var(--fw-500)"
     },
     ".lg-title-1_article,\n.lg-title-2_article,\n.lg-title-3_article,\n.lg-title-4_article,\n.lg-title-5_article,\n.lg-title-6_article,\n.lg-title-1_semibold,\n.lg-title-2_semibold,\n.lg-title-3_semibold,\n.lg-title-4_semibold,\n.lg-title-5_semibold,\n.lg-title-6_semibold,\n.lg-copy_semibold,\n.lg-body_semibold,\n.lg-label_semibold,\n.lg-caption_semibold,\n.lg-small_semibold,\n.lg-overline-large_semibold,\n.lg-overline-small_semibold": {
-      "fontWeight": "var(--fw-6)"
+      "fontWeight": "var(--fw-600)"
     },
     ".lg-title-1_bold,\n.lg-title-2_bold,\n.lg-title-3_bold,\n.lg-title-4_bold,\n.lg-title-5_bold,\n.lg-title-6_bold,\n.lg-copy_bold,\n.lg-body_bold,\n.lg-label_bold,\n.lg-caption_bold,\n.lg-small_bold,\n.lg-overline-large_bold,\n.lg-overline-small_bold": {
-      "fontWeight": "var(--fw-7)"
+      "fontWeight": "var(--fw-700)"
     },
     ".lg-copy_med,\n.lg-copy_semibold,\n.lg-copy_italic,\n.lg-copy_link": {
       "fontFamily": "var(--sans)"
@@ -524,7 +524,7 @@
     },
     ".lg-quote": {
       "fontSize": "var(--quote)",
-      "fontWeight": "var(--fw-5)",
+      "fontWeight": "var(--fw-500)",
       "fontFamily": "var(--serif)",
       "fontStyle": "italic",
       "lineHeight": "var(--lh-120)",
@@ -540,42 +540,42 @@
   "@media (min-width: 1440px)": {
     ".xl-title-1,\n.xl-title-1_article,\n.xl-title-1_med,\n.xl-title-1_semibold,\n.xl-title-1_bold": {
       "fontSize": "var(--title-1)",
-      "fontWeight": "var(--fw-4)",
+      "fontWeight": "var(--fw-400)",
       "fontFamily": "var(--sans)",
       "lineHeight": "var(--lh-125)",
       "letterSpacing": "var(--ls-02)"
     },
     ".xl-title-2,\n.xl-title-2_article,\n.xl-title-2_med,\n.xl-title-2_semibold,\n.xl-title-2_bold": {
       "fontSize": "var(--title-2)",
-      "fontWeight": "var(--fw-4)",
+      "fontWeight": "var(--fw-400)",
       "fontFamily": "var(--sans)",
       "lineHeight": "var(--lh-116)",
       "letterSpacing": "var(--ls-015)"
     },
     ".xl-title-3,\n.xl-title-3_article,\n.xl-title-3_med,\n.xl-title-3_semibold,\n.xl-title-3_bold": {
       "fontSize": "var(--title-3)",
-      "fontWeight": "var(--fw-4)",
+      "fontWeight": "var(--fw-400)",
       "fontFamily": "var(--sans)",
       "lineHeight": "var(--lh-120)",
       "letterSpacing": "var(--ls-125)"
     },
     ".xl-title-4,\n.xl-title-4_article,\n.xl-title-4_med,\n.xl-title-4_semibold,\n.xl-title-4_bold": {
       "fontSize": "var(--title-4)",
-      "fontWeight": "var(--fw-4)",
+      "fontWeight": "var(--fw-400)",
       "fontFamily": "var(--sans)",
       "lineHeight": "var(--lh-125)",
       "letterSpacing": "var(--ls-01)"
     },
     ".xl-title-5,\n.xl-title-5_article,\n.xl-title-5_med,\n.xl-title-5_semibold,\n.xl-title-5_bold": {
       "fontSize": "var(--title-5)",
-      "fontWeight": "var(--fw-4)",
+      "fontWeight": "var(--fw-400)",
       "fontFamily": "var(--sans)",
       "lineHeight": "var(--lh-133)",
       "letterSpacing": "var(--ls-075)"
     },
     ".xl-title-6,\n.xl-title-6_article,\n.xl-title-6_med,\n.xl-title-6_semibold,\n.xl-title-6_bold": {
       "fontSize": "var(--title-6)",
-      "fontWeight": "var(--fw-4)",
+      "fontWeight": "var(--fw-400)",
       "fontFamily": "var(--sans)",
       "lineHeight": "var(--lh-160)",
       "letterSpacing": "var(--ls-05)"
@@ -584,7 +584,7 @@
       "--lh": "var(--lh-125)",
       "--ls": "0",
       "fontSize": "var(--copy)",
-      "fontWeight": "var(--fw-4)",
+      "fontWeight": "var(--fw-400)",
       "fontFamily": "var(--serif)",
       "lineHeight": "var(--lh)",
       "letterSpacing": "var(--ls)"
@@ -597,32 +597,32 @@
     },
     ".xl-body,\n.xl-body_article,\n.xl-body_med,\n.xl-body_semibold,\n.xl-body_bold,\n.xl-body_italic,\n.xl-body_link": {
       "fontSize": "var(--body)",
-      "fontWeight": "var(--fw-4)",
+      "fontWeight": "var(--fw-400)",
       "fontFamily": "var(--sans)",
       "lineHeight": "var(--lh-150)",
       "letterSpacing": "var(--ls-025)"
     },
     ".xl-label,\n.xl-label_article,\n.xl-label_med,\n.xl-label_semibold,\n.xl-label_bold,\n.xl-label_italic,\n.xl-label_link": {
       "fontSize": "var(--label)",
-      "fontWeight": "var(--fw-4)",
+      "fontWeight": "var(--fw-400)",
       "fontFamily": "var(--sans)",
       "lineHeight": "var(--lh-171)"
     },
     ".xl-caption,\n.xl-caption_article,\n.xl-caption_med,\n.xl-caption_semibold,\n.xl-caption_bold,\n.xl-caption_italic,\n.xl-caption_link": {
       "fontSize": "var(--caption)",
-      "fontWeight": "var(--fw-4)",
+      "fontWeight": "var(--fw-400)",
       "fontFamily": "var(--sans)",
       "lineHeight": "var(--lh-133)"
     },
     ".xl-small,\n.xl-small_article,\n.xl-small_med,\n.xl-small_semibold,\n.xl-small_bold,\n.xl-small_italic,\n.xl-small_link": {
       "fontSize": "var(--small)",
-      "fontWeight": "var(--fw-4)",
+      "fontWeight": "var(--fw-400)",
       "fontFamily": "var(--sans)",
       "lineHeight": "var(--lh-120)"
     },
     ".xl-overline-large,\n.xl-overline-large_med,\n.xl-overline-large_semibold,\n.xl-overline-large_bold": {
       "fontSize": "var(--overline-large)",
-      "fontWeight": "var(--fw-7)",
+      "fontWeight": "var(--fw-700)",
       "fontFamily": "var(--sans)",
       "lineHeight": "var(--lh-109)",
       "letterSpacing": "var(--ls-1)",
@@ -630,7 +630,7 @@
     },
     ".xl-overline-small,\n.xl-overline-small_med,\n.xl-overline-small_semibold,\n.xl-overline-small_bold": {
       "fontSize": "var(--overline-small)",
-      "fontWeight": "var(--fw-7)",
+      "fontWeight": "var(--fw-700)",
       "fontFamily": "var(--sans)",
       "lineHeight": "var(--lh-133)",
       "letterSpacing": "var(--ls-1)",
@@ -640,13 +640,13 @@
       "fontFamily": "var(--serif)"
     },
     ".xl-title-1_med,\n.xl-title-2_med,\n.xl-title-3_med,\n.xl-title-4_med,\n.xl-title-5_med,\n.xl-title-6_med,\n.xl-copy_med,\n.xl-body_med,\n.xl-label_med,\n.xl-caption_med,\n.xl-small_med,\n.xl-copy_italic,\n.xl-body_italic,\n.xl-label_italic,\n.xl-caption_italic,\n.xl-small_italic,\n.xl-copy_link,\n.xl-body_link,\n.xl-label_link,\n.xl-caption_link,\n.xl-small_link,\n.xl-overline-large_med,\n.xl-overline-small_med": {
-      "fontWeight": "var(--fw-5)"
+      "fontWeight": "var(--fw-500)"
     },
     ".xl-title-1_article,\n.xl-title-2_article,\n.xl-title-3_article,\n.xl-title-4_article,\n.xl-title-5_article,\n.xl-title-6_article,\n.xl-title-1_semibold,\n.xl-title-2_semibold,\n.xl-title-3_semibold,\n.xl-title-4_semibold,\n.xl-title-5_semibold,\n.xl-title-6_semibold,\n.xl-copy_semibold,\n.xl-body_semibold,\n.xl-label_semibold,\n.xl-caption_semibold,\n.xl-small_semibold,\n.xl-overline-large_semibold,\n.xl-overline-small_semibold": {
-      "fontWeight": "var(--fw-6)"
+      "fontWeight": "var(--fw-600)"
     },
     ".xl-title-1_bold,\n.xl-title-2_bold,\n.xl-title-3_bold,\n.xl-title-4_bold,\n.xl-title-5_bold,\n.xl-title-6_bold,\n.xl-copy_bold,\n.xl-body_bold,\n.xl-label_bold,\n.xl-caption_bold,\n.xl-small_bold,\n.xl-overline-large_bold,\n.xl-overline-small_bold": {
-      "fontWeight": "var(--fw-7)"
+      "fontWeight": "var(--fw-700)"
     },
     ".xl-copy_med,\n.xl-copy_semibold,\n.xl-copy_italic,\n.xl-copy_link": {
       "fontFamily": "var(--sans)"
@@ -659,7 +659,7 @@
     },
     ".xl-quote": {
       "fontSize": "var(--quote)",
-      "fontWeight": "var(--fw-5)",
+      "fontWeight": "var(--fw-500)",
       "fontFamily": "var(--serif)",
       "fontStyle": "italic",
       "lineHeight": "var(--lh-120)",
@@ -675,42 +675,42 @@
   "@media (min-width: 1920px)": {
     ".xxl-title-1,\n.xxl-title-1_article,\n.xxl-title-1_med,\n.xxl-title-1_semibold,\n.xxl-title-1_bold": {
       "fontSize": "var(--title-1)",
-      "fontWeight": "var(--fw-4)",
+      "fontWeight": "var(--fw-400)",
       "fontFamily": "var(--sans)",
       "lineHeight": "var(--lh-125)",
       "letterSpacing": "var(--ls-02)"
     },
     ".xxl-title-2,\n.xxl-title-2_article,\n.xxl-title-2_med,\n.xxl-title-2_semibold,\n.xxl-title-2_bold": {
       "fontSize": "var(--title-2)",
-      "fontWeight": "var(--fw-4)",
+      "fontWeight": "var(--fw-400)",
       "fontFamily": "var(--sans)",
       "lineHeight": "var(--lh-116)",
       "letterSpacing": "var(--ls-015)"
     },
     ".xxl-title-3,\n.xxl-title-3_article,\n.xxl-title-3_med,\n.xxl-title-3_semibold,\n.xxl-title-3_bold": {
       "fontSize": "var(--title-3)",
-      "fontWeight": "var(--fw-4)",
+      "fontWeight": "var(--fw-400)",
       "fontFamily": "var(--sans)",
       "lineHeight": "var(--lh-120)",
       "letterSpacing": "var(--ls-125)"
     },
     ".xxl-title-4,\n.xxl-title-4_article,\n.xxl-title-4_med,\n.xxl-title-4_semibold,\n.xxl-title-4_bold": {
       "fontSize": "var(--title-4)",
-      "fontWeight": "var(--fw-4)",
+      "fontWeight": "var(--fw-400)",
       "fontFamily": "var(--sans)",
       "lineHeight": "var(--lh-125)",
       "letterSpacing": "var(--ls-01)"
     },
     ".xxl-title-5,\n.xxl-title-5_article,\n.xxl-title-5_med,\n.xxl-title-5_semibold,\n.xxl-title-5_bold": {
       "fontSize": "var(--title-5)",
-      "fontWeight": "var(--fw-4)",
+      "fontWeight": "var(--fw-400)",
       "fontFamily": "var(--sans)",
       "lineHeight": "var(--lh-133)",
       "letterSpacing": "var(--ls-075)"
     },
     ".xxl-title-6,\n.xxl-title-6_article,\n.xxl-title-6_med,\n.xxl-title-6_semibold,\n.xxl-title-6_bold": {
       "fontSize": "var(--title-6)",
-      "fontWeight": "var(--fw-4)",
+      "fontWeight": "var(--fw-400)",
       "fontFamily": "var(--sans)",
       "lineHeight": "var(--lh-160)",
       "letterSpacing": "var(--ls-05)"
@@ -719,7 +719,7 @@
       "--lh": "var(--lh-125)",
       "--ls": "0",
       "fontSize": "var(--copy)",
-      "fontWeight": "var(--fw-4)",
+      "fontWeight": "var(--fw-400)",
       "fontFamily": "var(--serif)",
       "lineHeight": "var(--lh)",
       "letterSpacing": "var(--ls)"
@@ -732,32 +732,32 @@
     },
     ".xxl-body,\n.xxl-body_article,\n.xxl-body_med,\n.xxl-body_semibold,\n.xxl-body_bold,\n.xxl-body_italic,\n.xxl-body_link": {
       "fontSize": "var(--body)",
-      "fontWeight": "var(--fw-4)",
+      "fontWeight": "var(--fw-400)",
       "fontFamily": "var(--sans)",
       "lineHeight": "var(--lh-150)",
       "letterSpacing": "var(--ls-025)"
     },
     ".xxl-label,\n.xxl-label_article,\n.xxl-label_med,\n.xxl-label_semibold,\n.xxl-label_bold,\n.xxl-label_italic,\n.xxl-label_link": {
       "fontSize": "var(--label)",
-      "fontWeight": "var(--fw-4)",
+      "fontWeight": "var(--fw-400)",
       "fontFamily": "var(--sans)",
       "lineHeight": "var(--lh-171)"
     },
     ".xxl-caption,\n.xxl-caption_article,\n.xxl-caption_med,\n.xxl-caption_semibold,\n.xxl-caption_bold,\n.xxl-caption_italic,\n.xxl-caption_link": {
       "fontSize": "var(--caption)",
-      "fontWeight": "var(--fw-4)",
+      "fontWeight": "var(--fw-400)",
       "fontFamily": "var(--sans)",
       "lineHeight": "var(--lh-133)"
     },
     ".xxl-small,\n.xxl-small_article,\n.xxl-small_med,\n.xxl-small_semibold,\n.xxl-small_bold,\n.xxl-small_italic,\n.xxl-small_link": {
       "fontSize": "var(--small)",
-      "fontWeight": "var(--fw-4)",
+      "fontWeight": "var(--fw-400)",
       "fontFamily": "var(--sans)",
       "lineHeight": "var(--lh-120)"
     },
     ".xxl-overline-large,\n.xxl-overline-large_med,\n.xxl-overline-large_semibold,\n.xxl-overline-large_bold": {
       "fontSize": "var(--overline-large)",
-      "fontWeight": "var(--fw-7)",
+      "fontWeight": "var(--fw-700)",
       "fontFamily": "var(--sans)",
       "lineHeight": "var(--lh-109)",
       "letterSpacing": "var(--ls-1)",
@@ -765,7 +765,7 @@
     },
     ".xxl-overline-small,\n.xxl-overline-small_med,\n.xxl-overline-small_semibold,\n.xxl-overline-small_bold": {
       "fontSize": "var(--overline-small)",
-      "fontWeight": "var(--fw-7)",
+      "fontWeight": "var(--fw-700)",
       "fontFamily": "var(--sans)",
       "lineHeight": "var(--lh-133)",
       "letterSpacing": "var(--ls-1)",
@@ -775,13 +775,13 @@
       "fontFamily": "var(--serif)"
     },
     ".xxl-title-1_med,\n.xxl-title-2_med,\n.xxl-title-3_med,\n.xxl-title-4_med,\n.xxl-title-5_med,\n.xxl-title-6_med,\n.xxl-copy_med,\n.xxl-body_med,\n.xxl-label_med,\n.xxl-caption_med,\n.xxl-small_med,\n.xxl-copy_italic,\n.xxl-body_italic,\n.xxl-label_italic,\n.xxl-caption_italic,\n.xxl-small_italic,\n.xxl-copy_link,\n.xxl-body_link,\n.xxl-label_link,\n.xxl-caption_link,\n.xxl-small_link,\n.xxl-overline-large_med,\n.xxl-overline-small_med": {
-      "fontWeight": "var(--fw-5)"
+      "fontWeight": "var(--fw-500)"
     },
     ".xxl-title-1_article,\n.xxl-title-2_article,\n.xxl-title-3_article,\n.xxl-title-4_article,\n.xxl-title-5_article,\n.xxl-title-6_article,\n.xxl-title-1_semibold,\n.xxl-title-2_semibold,\n.xxl-title-3_semibold,\n.xxl-title-4_semibold,\n.xxl-title-5_semibold,\n.xxl-title-6_semibold,\n.xxl-copy_semibold,\n.xxl-body_semibold,\n.xxl-label_semibold,\n.xxl-caption_semibold,\n.xxl-small_semibold,\n.xxl-overline-large_semibold,\n.xxl-overline-small_semibold": {
-      "fontWeight": "var(--fw-6)"
+      "fontWeight": "var(--fw-600)"
     },
     ".xxl-title-1_bold,\n.xxl-title-2_bold,\n.xxl-title-3_bold,\n.xxl-title-4_bold,\n.xxl-title-5_bold,\n.xxl-title-6_bold,\n.xxl-copy_bold,\n.xxl-body_bold,\n.xxl-label_bold,\n.xxl-caption_bold,\n.xxl-small_bold,\n.xxl-overline-large_bold,\n.xxl-overline-small_bold": {
-      "fontWeight": "var(--fw-7)"
+      "fontWeight": "var(--fw-700)"
     },
     ".xxl-copy_med,\n.xxl-copy_semibold,\n.xxl-copy_italic,\n.xxl-copy_link": {
       "fontFamily": "var(--sans)"
@@ -794,7 +794,7 @@
     },
     ".xxl-quote": {
       "fontSize": "var(--quote)",
-      "fontWeight": "var(--fw-5)",
+      "fontWeight": "var(--fw-500)",
       "fontFamily": "var(--serif)",
       "fontStyle": "italic",
       "lineHeight": "var(--lh-120)",

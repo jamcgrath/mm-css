@@ -1,29 +1,29 @@
 {
   ".thin,\n.fw-100": {
-    "fontWeight": "var(--fw-1)"
+    "fontWeight": "var(--fw-100)"
   },
   ".extra-light,\n.fw-200": {
-    "fontWeight": "var(--fw-2)"
+    "fontWeight": "var(--fw-200)"
   },
   ".light,\n.fw-300": {
-    "fontWeight": "var(--fw-3)"
+    "fontWeight": "var(--fw-300)"
   },
   ".regular,\n.fw-400": {
-    "fontWeight": "var(--fw-4)"
+    "fontWeight": "var(--fw-400)"
   },
   ".medium,\n.fw-500": {
-    "fontWeight": "var(--fw-5)"
+    "fontWeight": "var(--fw-500)"
   },
   ".bold,\n.fw-600": {
-    "fontWeight": "var(--fw-6)"
+    "fontWeight": "var(--fw-600)"
   },
   ".semi-bold,\n.fw-700": {
-    "fontWeight": "var(--fw-7)"
+    "fontWeight": "var(--fw-700)"
   },
   ".extra-bold,\n.fw-800": {
-    "fontWeight": "var(--fw-8)"
+    "fontWeight": "var(--fw-800)"
   },
   ".black-bold,\n.fw-900": {
-    "fontWeight": "var(--fw-9)"
+    "fontWeight": "var(--fw-900)"
   }
 }

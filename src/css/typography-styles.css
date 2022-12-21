@@ -5,7 +5,7 @@
   .title-1_semibold,
   .title-1_bold {
     font-size: var(--title-1);
-    font-weight: var(--fw-4);
+    font-weight: var(--fw-400);
     font-family: var(--sans);
     line-height: var(--lh-125);
     letter-spacing: var(--ls-02);
@@ -17,7 +17,7 @@
   .title-2_semibold,
   .title-2_bold {
     font-size: var(--title-2);
-    font-weight: var(--fw-4);
+    font-weight: var(--fw-400);
     font-family: var(--sans);
     line-height: var(--lh-116);
     letter-spacing: var(--ls-015);
@@ -29,7 +29,7 @@
   .title-3_semibold,
   .title-3_bold {
     font-size: var(--title-3);
-    font-weight: var(--fw-4);
+    font-weight: var(--fw-400);
     font-family: var(--sans);
     line-height: var(--lh-120);
     letter-spacing: var(--ls-125);
@@ -41,7 +41,7 @@
   .title-4_semibold,
   .title-4_bold {
     font-size: var(--title-4);
-    font-weight: var(--fw-4);
+    font-weight: var(--fw-400);
     font-family: var(--sans);
     line-height: var(--lh-125);
     letter-spacing: var(--ls-01);
@@ -53,7 +53,7 @@
   .title-5_semibold,
   .title-5_bold {
     font-size: var(--title-5);
-    font-weight: var(--fw-4);
+    font-weight: var(--fw-400);
     font-family: var(--sans);
     line-height: var(--lh-133);
     letter-spacing: var(--ls-075);
@@ -65,7 +65,7 @@
   .title-6_semibold,
   .title-6_bold {
     font-size: var(--title-6);
-    font-weight: var(--fw-4);
+    font-weight: var(--fw-400);
     font-family: var(--sans);
     line-height: var(--lh-160);
     letter-spacing: var(--ls-05);
@@ -81,7 +81,7 @@
     --lh: var(--lh-125);
     --ls: 0;
     font-size: var(--copy);
-    font-weight: var(--fw-4);
+    font-weight: var(--fw-400);
     font-family: var(--serif);
     line-height: var(--lh);
     letter-spacing: var(--ls);
@@ -101,7 +101,7 @@
   .body_italic,
   .body_link {
     font-size: var(--body);
-    font-weight: var(--fw-4);
+    font-weight: var(--fw-400);
     font-family: var(--sans);
     line-height: var(--lh-150);
     letter-spacing: var(--ls-025);
@@ -115,7 +115,7 @@
   .label_italic,
   .label_link {
     font-size: var(--label);
-    font-weight: var(--fw-4);
+    font-weight: var(--fw-400);
     font-family: var(--sans);
     line-height: var(--lh-171);
   }
@@ -128,7 +128,7 @@
   .caption_italic,
   .caption_link {
     font-size: var(--caption);
-    font-weight: var(--fw-4);
+    font-weight: var(--fw-400);
     font-family: var(--sans);
     line-height: var(--lh-133);
   }
@@ -141,7 +141,7 @@
   .small_italic,
   .small_link {
     font-size: var(--small);
-    font-weight: var(--fw-4);
+    font-weight: var(--fw-400);
     font-family: var(--sans);
     line-height: var(--lh-120);
   }
@@ -151,7 +151,7 @@
   .overline-large_semibold,
   .overline-large_bold {
     font-size: var(--overline-large);
-    font-weight: var(--fw-7);
+    font-weight: var(--fw-700);
     font-family: var(--sans);
     line-height: var(--lh-109);
     letter-spacing: var(--ls-1);
@@ -163,7 +163,7 @@
   .overline-small_semibold,
   .overline-small_bold {
     font-size: var(--overline-small);
-    font-weight: var(--fw-7);
+    font-weight: var(--fw-700);
     font-family: var(--sans);
     line-height: var(--lh-133);
     letter-spacing: var(--ls-1);
@@ -200,7 +200,7 @@
   .small_link,
   .overline-large_med,
   .overline-small_med {
-    font-weight: var(--fw-5);
+    font-weight: var(--fw-500);
   }
   .title-1_article,
   .title-2_article,
@@ -221,7 +221,7 @@
   .small_semibold,
   .overline-large_semibold,
   .overline-small_semibold {
-    font-weight: var(--fw-6);
+    font-weight: var(--fw-600);
   }
 
   .title-1_bold,
@@ -237,7 +237,7 @@
   .small_bold,
   .overline-large_bold,
   .overline-small_bold {
-    font-weight: var(--fw-7);
+    font-weight: var(--fw-700);
   }
 
   .copy_med,
@@ -264,7 +264,7 @@
 
   .quote {
     font-size: var(--quote);
-    font-weight: var(--fw-5);
+    font-weight: var(--fw-500);
     font-family: var(--serif);
     font-style: italic;
     line-height: var(--lh-120);
