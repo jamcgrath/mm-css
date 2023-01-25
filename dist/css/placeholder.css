@@ -1,0 +1,5 @@
+input::placeholder,
+textarea::placeholder {
+  --placeholder-color: var(--gray-5);
+  color: var(--placeholder-color);
+}

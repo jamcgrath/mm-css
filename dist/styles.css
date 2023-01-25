@@ -4974,6 +4974,11 @@ html:focus-within {
 .black-bold_hover:hover {
   font-weight: var(--fw-9);
 }
+input::placeholder,
+textarea::placeholder {
+  --placeholder-color: var(--gray-5);
+  color: var(--placeholder-color);
+}
 .h-100 {
 		height: 100%;
 	}
