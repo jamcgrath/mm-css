@@ -17,7 +17,12 @@
   ".xxl-container": {
     "maxWidth": "1920px"
   },
-  ".xxxl-container": {
-    "maxWidth": "1920000px"
+  ".fullwidth": {
+    "width": "100vw",
+    "position": "relative",
+    "left": "50%",
+    "right": "50%",
+    "marginLeft": "-50vw",
+    "marginRight": "-50vw"
   }
 }

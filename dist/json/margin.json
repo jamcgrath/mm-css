@@ -587,6 +587,9 @@
   ".mb-100": {
     "marginBottom": "var(--space-100)"
   },
+  ".ml-auto": {
+    "marginLeft": "auto"
+  },
   ".ml-0": {
     "marginLeft": "var(--space-0)"
   },
@@ -688,6 +691,9 @@
   },
   ".ml-100": {
     "marginLeft": "var(--space-100)"
+  },
+  ".mr-auto": {
+    "marginRight": "auto"
   },
   ".mr-0": {
     "marginRight": "var(--space-0)"
@@ -1500,6 +1506,9 @@
     ".sm-mb-100": {
       "marginBottom": "var(--space-100)"
     },
+    ".sm-ml-auto": {
+      "marginLeft": "auto"
+    },
     ".sm-ml-0": {
       "marginLeft": "var(--space-0)"
     },
@@ -1601,6 +1610,9 @@
     },
     ".sm-ml-100": {
       "marginLeft": "var(--space-100)"
+    },
+    ".sm-mr-auto": {
+      "marginRight": "auto"
     },
     ".sm-mr-0": {
       "marginRight": "var(--space-0)"
@@ -2414,6 +2426,9 @@
     ".md-mb-100": {
       "marginBottom": "var(--space-100)"
     },
+    ".md-ml-auto": {
+      "marginLeft": "auto"
+    },
     ".md-ml-0": {
       "marginLeft": "var(--space-0)"
     },
@@ -2515,6 +2530,9 @@
     },
     ".md-ml-100": {
       "marginLeft": "var(--space-100)"
+    },
+    ".md-mr-auto": {
+      "marginRight": "auto"
     },
     ".md-mr-0": {
       "marginRight": "var(--space-0)"
@@ -3328,6 +3346,9 @@
     ".lg-mb-100": {
       "marginBottom": "var(--space-100)"
     },
+    ".lg-ml-auto": {
+      "marginLeft": "auto"
+    },
     ".lg-ml-0": {
       "marginLeft": "var(--space-0)"
     },
@@ -3429,6 +3450,9 @@
     },
     ".lg-ml-100": {
       "marginLeft": "var(--space-100)"
+    },
+    ".lg-mr-auto": {
+      "marginRight": "auto"
     },
     ".lg-mr-0": {
       "marginRight": "var(--space-0)"
@@ -4242,6 +4266,9 @@
     ".xl-mb-100": {
       "marginBottom": "var(--space-100)"
     },
+    ".xl-ml-auto": {
+      "marginLeft": "auto"
+    },
     ".xl-ml-0": {
       "marginLeft": "var(--space-0)"
     },
@@ -4343,6 +4370,9 @@
     },
     ".xl-ml-100": {
       "marginLeft": "var(--space-100)"
+    },
+    ".xl-mr-auto": {
+      "marginRight": "auto"
     },
     ".xl-mr-0": {
       "marginRight": "var(--space-0)"
@@ -5156,6 +5186,9 @@
     ".xxl-mb-100": {
       "marginBottom": "var(--space-100)"
     },
+    ".xxl-ml-auto": {
+      "marginLeft": "auto"
+    },
     ".xxl-ml-0": {
       "marginLeft": "var(--space-0)"
     },
@@ -5257,6 +5290,9 @@
     },
     ".xxl-ml-100": {
       "marginLeft": "var(--space-100)"
+    },
+    ".xxl-mr-auto": {
+      "marginRight": "auto"
     },
     ".xxl-mr-0": {
       "marginRight": "var(--space-0)"

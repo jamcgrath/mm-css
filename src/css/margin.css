@@ -594,23 +594,21 @@
   .mb-100 {
     margin-bottom: var(--space-100);
   }
-
+  .ml-auto {
+    margin-left: auto;
+  }
   .ml-0 {
     margin-left: var(--space-0);
   }
-
   .ml-1 {
     margin-left: var(--space-1);
   }
-
   .ml-2 {
     margin-left: var(--space-2);
   }
-
   .ml-3 {
     margin-left: var(--space-3);
   }
-
   .ml-4 {
     margin-left: var(--space-4);
   }
@@ -702,6 +700,9 @@
     margin-left: var(--space-100);
   }
 
+  .mr-auto {
+    margin-right: auto;
+  }
   .mr-0 {
     margin-right: var(--space-0);
   }
