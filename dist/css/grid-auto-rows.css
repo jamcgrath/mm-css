@@ -10,32 +10,6 @@
 		grid-auto-rows: -webkit-max-content;
 		grid-auto-rows: max-content;
 	}
-@media (min-width: 480px) {
-	.sm-grid-auto-row {
-		grid-auto-rows: auto;
-	}
-	.sm-grid-auto-row-min {
-		grid-auto-rows: -webkit-min-content;
-		grid-auto-rows: min-content;
-	}
-	.sm-grid-auto-row-max {
-		grid-auto-rows: -webkit-max-content;
-		grid-auto-rows: max-content;
-	}
-}
-@media (min-width: 768px) {
-	.md-grid-auto-row {
-		grid-auto-rows: auto;
-	}
-	.md-grid-auto-row-min {
-		grid-auto-rows: -webkit-min-content;
-		grid-auto-rows: min-content;
-	}
-	.md-grid-auto-row-max {
-		grid-auto-rows: -webkit-max-content;
-		grid-auto-rows: max-content;
-	}
-}
 @media (min-width: 1024px) {
 	.lg-grid-auto-row {
 		grid-auto-rows: auto;
@@ -45,32 +19,6 @@
 		grid-auto-rows: min-content;
 	}
 	.lg-grid-auto-row-max {
-		grid-auto-rows: -webkit-max-content;
-		grid-auto-rows: max-content;
-	}
-}
-@media (min-width: 1440px) {
-	.xl-grid-auto-row {
-		grid-auto-rows: auto;
-	}
-	.xl-grid-auto-row-min {
-		grid-auto-rows: -webkit-min-content;
-		grid-auto-rows: min-content;
-	}
-	.xl-grid-auto-row-max {
-		grid-auto-rows: -webkit-max-content;
-		grid-auto-rows: max-content;
-	}
-}
-@media (min-width: 1920px) {
-	.xxl-grid-auto-row {
-		grid-auto-rows: auto;
-	}
-	.xxl-grid-auto-row-min {
-		grid-auto-rows: -webkit-min-content;
-		grid-auto-rows: min-content;
-	}
-	.xxl-grid-auto-row-max {
 		grid-auto-rows: -webkit-max-content;
 		grid-auto-rows: max-content;
 	}

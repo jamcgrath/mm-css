@@ -13,7 +13,7 @@
   --small: calc(0.625 * var(--base-fs));
   --overline-large: calc(0.75 * var(--base-fs));
   --overline-small: calc(0.5625 * var(--base-fs));
-  --quote: calc(2.5 * var(--base-fs));
+  --quote: calc(1.5 * var(--base-fs));
 
   /* font-weight */
   --fw-900: 900;
@@ -28,27 +28,13 @@
 
   /* line-height */
   --lh-1: 1;
-  --lh-109: 1.09;
-  --lh-112: 1.125;
-  --lh-116: 1.16;
-  --lh-120: 1.2;
   --lh-125: 1.25;
-  --lh-133: 1.33;
-  --lh-150: 1.5;
-  --lh-160: 1.6;
-  --lh-171: 1.714;
 
   /* letter-spacing */
   --ls-1: 1px;
   --ls-025: -0.25px;
-  --ls-05: -0.5px;
-  --ls-075: -0.75px;
-  --ls-01: -1px;
-  --ld-0125: -1.25px;
-  --ls-015: -1.5px;
-  --ls-02: -2px;
 
   /* font family */
-  --sans: 'Poppins', sans-serif;
-  --serif: Georgia, Times, 'Times New Roman', serif;
+  --sans: "Poppins", sans-serif;
+  --serif: Georgia, Times, "Times New Roman", serif;
 }

@@ -1,9 +1,7 @@
 const breakpoints = [
-	{ prefix: "sm-", mediaQuery: "(min-width: 480px)" },
-	{ prefix: "md-", mediaQuery: "(min-width: 768px)" },
+	
 	{ prefix: "lg-", mediaQuery: "(min-width: 1024px)" },
-	{ prefix: "xl-", mediaQuery: "(min-width: 1440px)" },
-	{ prefix: "xxl-", mediaQuery: "(min-width: 1920px)" },
+	
 ];
 
 const responsifyOptions = {
@@ -24,3 +22,4 @@ module.exports = {
 		}),
 	],
 };
+// 

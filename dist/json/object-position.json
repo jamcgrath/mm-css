@@ -26,64 +26,6 @@
   ".op-br": {
     "objectPosition": "bottom right"
   },
-  "@media (min-width: 480px)": {
-    ".sm-op-t": {
-      "objectPosition": "top"
-    },
-    ".sm-op-l": {
-      "objectPosition": "left"
-    },
-    ".sm-op-r": {
-      "objectPosition": "right"
-    },
-    ".sm-op-b": {
-      "objectPosition": "bottom"
-    },
-    ".sm-op-c": {
-      "objectPosition": "center"
-    },
-    ".sm-op-tl": {
-      "objectPosition": "top left"
-    },
-    ".sm-op-tr": {
-      "objectPosition": "top right"
-    },
-    ".sm-op-bl": {
-      "objectPosition": "bottom left"
-    },
-    ".sm-op-br": {
-      "objectPosition": "bottom right"
-    }
-  },
-  "@media (min-width: 768px)": {
-    ".md-op-t": {
-      "objectPosition": "top"
-    },
-    ".md-op-l": {
-      "objectPosition": "left"
-    },
-    ".md-op-r": {
-      "objectPosition": "right"
-    },
-    ".md-op-b": {
-      "objectPosition": "bottom"
-    },
-    ".md-op-c": {
-      "objectPosition": "center"
-    },
-    ".md-op-tl": {
-      "objectPosition": "top left"
-    },
-    ".md-op-tr": {
-      "objectPosition": "top right"
-    },
-    ".md-op-bl": {
-      "objectPosition": "bottom left"
-    },
-    ".md-op-br": {
-      "objectPosition": "bottom right"
-    }
-  },
   "@media (min-width: 1024px)": {
     ".lg-op-t": {
       "objectPosition": "top"
@@ -110,64 +52,6 @@
       "objectPosition": "bottom left"
     },
     ".lg-op-br": {
-      "objectPosition": "bottom right"
-    }
-  },
-  "@media (min-width: 1440px)": {
-    ".xl-op-t": {
-      "objectPosition": "top"
-    },
-    ".xl-op-l": {
-      "objectPosition": "left"
-    },
-    ".xl-op-r": {
-      "objectPosition": "right"
-    },
-    ".xl-op-b": {
-      "objectPosition": "bottom"
-    },
-    ".xl-op-c": {
-      "objectPosition": "center"
-    },
-    ".xl-op-tl": {
-      "objectPosition": "top left"
-    },
-    ".xl-op-tr": {
-      "objectPosition": "top right"
-    },
-    ".xl-op-bl": {
-      "objectPosition": "bottom left"
-    },
-    ".xl-op-br": {
-      "objectPosition": "bottom right"
-    }
-  },
-  "@media (min-width: 1920px)": {
-    ".xxl-op-t": {
-      "objectPosition": "top"
-    },
-    ".xxl-op-l": {
-      "objectPosition": "left"
-    },
-    ".xxl-op-r": {
-      "objectPosition": "right"
-    },
-    ".xxl-op-b": {
-      "objectPosition": "bottom"
-    },
-    ".xxl-op-c": {
-      "objectPosition": "center"
-    },
-    ".xxl-op-tl": {
-      "objectPosition": "top left"
-    },
-    ".xxl-op-tr": {
-      "objectPosition": "top right"
-    },
-    ".xxl-op-bl": {
-      "objectPosition": "bottom left"
-    },
-    ".xxl-op-br": {
       "objectPosition": "bottom right"
     }
   }

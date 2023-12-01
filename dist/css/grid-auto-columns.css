@@ -10,32 +10,6 @@
 		grid-auto-columns: -webkit-max-content;
 		grid-auto-columns: max-content;
 	}
-@media (min-width: 480px) {
-	.sm-grid-auto-col {
-		grid-auto-columns: auto;
-	}
-	.sm-grid-auto-col-min {
-		grid-auto-columns: -webkit-min-content;
-		grid-auto-columns: min-content;
-	}
-	.sm-grid-auto-col-max {
-		grid-auto-columns: -webkit-max-content;
-		grid-auto-columns: max-content;
-	}
-}
-@media (min-width: 768px) {
-	.md-grid-auto-col {
-		grid-auto-columns: auto;
-	}
-	.md-grid-auto-col-min {
-		grid-auto-columns: -webkit-min-content;
-		grid-auto-columns: min-content;
-	}
-	.md-grid-auto-col-max {
-		grid-auto-columns: -webkit-max-content;
-		grid-auto-columns: max-content;
-	}
-}
 @media (min-width: 1024px) {
 	.lg-grid-auto-col {
 		grid-auto-columns: auto;
@@ -45,32 +19,6 @@
 		grid-auto-columns: min-content;
 	}
 	.lg-grid-auto-col-max {
-		grid-auto-columns: -webkit-max-content;
-		grid-auto-columns: max-content;
-	}
-}
-@media (min-width: 1440px) {
-	.xl-grid-auto-col {
-		grid-auto-columns: auto;
-	}
-	.xl-grid-auto-col-min {
-		grid-auto-columns: -webkit-min-content;
-		grid-auto-columns: min-content;
-	}
-	.xl-grid-auto-col-max {
-		grid-auto-columns: -webkit-max-content;
-		grid-auto-columns: max-content;
-	}
-}
-@media (min-width: 1920px) {
-	.xxl-grid-auto-col {
-		grid-auto-columns: auto;
-	}
-	.xxl-grid-auto-col-min {
-		grid-auto-columns: -webkit-min-content;
-		grid-auto-columns: min-content;
-	}
-	.xxl-grid-auto-col-max {
 		grid-auto-columns: -webkit-max-content;
 		grid-auto-columns: max-content;
 	}

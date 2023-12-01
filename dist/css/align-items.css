@@ -20,52 +20,6 @@
 	.a-items-stretch {
 		align-items: stretch;
 	}
-@media (min-width: 480px) {
-	.sm-a-items-flex-start {
-		align-items: flex-start;
-	}
-	.sm-a-items-flex-end {
-		align-items: flex-end;
-	}
-	.sm-a-items-center {
-		align-items: center;
-	}
-	.sm-a-items-start {
-		align-items: start;
-	}
-	.sm-a-items-end {
-		align-items: end;
-	}
-	.sm-a-items-normal {
-		align-items: normal;
-	}
-	.sm-a-items-stretch {
-		align-items: stretch;
-	}
-}
-@media (min-width: 768px) {
-	.md-a-items-flex-start {
-		align-items: flex-start;
-	}
-	.md-a-items-flex-end {
-		align-items: flex-end;
-	}
-	.md-a-items-center {
-		align-items: center;
-	}
-	.md-a-items-start {
-		align-items: start;
-	}
-	.md-a-items-end {
-		align-items: end;
-	}
-	.md-a-items-normal {
-		align-items: normal;
-	}
-	.md-a-items-stretch {
-		align-items: stretch;
-	}
-}
 @media (min-width: 1024px) {
 	.lg-a-items-flex-start {
 		align-items: flex-start;
@@ -86,52 +40,6 @@
 		align-items: normal;
 	}
 	.lg-a-items-stretch {
-		align-items: stretch;
-	}
-}
-@media (min-width: 1440px) {
-	.xl-a-items-flex-start {
-		align-items: flex-start;
-	}
-	.xl-a-items-flex-end {
-		align-items: flex-end;
-	}
-	.xl-a-items-center {
-		align-items: center;
-	}
-	.xl-a-items-start {
-		align-items: start;
-	}
-	.xl-a-items-end {
-		align-items: end;
-	}
-	.xl-a-items-normal {
-		align-items: normal;
-	}
-	.xl-a-items-stretch {
-		align-items: stretch;
-	}
-}
-@media (min-width: 1920px) {
-	.xxl-a-items-flex-start {
-		align-items: flex-start;
-	}
-	.xxl-a-items-flex-end {
-		align-items: flex-end;
-	}
-	.xxl-a-items-center {
-		align-items: center;
-	}
-	.xxl-a-items-start {
-		align-items: start;
-	}
-	.xxl-a-items-end {
-		align-items: end;
-	}
-	.xxl-a-items-normal {
-		align-items: normal;
-	}
-	.xxl-a-items-stretch {
 		align-items: stretch;
 	}
 }

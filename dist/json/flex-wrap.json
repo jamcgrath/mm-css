@@ -8,28 +8,6 @@
   ".flex-wrap-reverse": {
     "flexWrap": "wrap-reverse"
   },
-  "@media (min-width: 480px)": {
-    ".sm-flex-wrap": {
-      "flexWrap": "wrap"
-    },
-    ".sm-flex-nowrap": {
-      "flexWrap": "nowrap"
-    },
-    ".sm-flex-wrap-reverse": {
-      "flexWrap": "wrap-reverse"
-    }
-  },
-  "@media (min-width: 768px)": {
-    ".md-flex-wrap": {
-      "flexWrap": "wrap"
-    },
-    ".md-flex-nowrap": {
-      "flexWrap": "nowrap"
-    },
-    ".md-flex-wrap-reverse": {
-      "flexWrap": "wrap-reverse"
-    }
-  },
   "@media (min-width: 1024px)": {
     ".lg-flex-wrap": {
       "flexWrap": "wrap"
@@ -38,28 +16,6 @@
       "flexWrap": "nowrap"
     },
     ".lg-flex-wrap-reverse": {
-      "flexWrap": "wrap-reverse"
-    }
-  },
-  "@media (min-width: 1440px)": {
-    ".xl-flex-wrap": {
-      "flexWrap": "wrap"
-    },
-    ".xl-flex-nowrap": {
-      "flexWrap": "nowrap"
-    },
-    ".xl-flex-wrap-reverse": {
-      "flexWrap": "wrap-reverse"
-    }
-  },
-  "@media (min-width: 1920px)": {
-    ".xxl-flex-wrap": {
-      "flexWrap": "wrap"
-    },
-    ".xxl-flex-nowrap": {
-      "flexWrap": "nowrap"
-    },
-    ".xxl-flex-wrap-reverse": {
       "flexWrap": "wrap-reverse"
     }
   }

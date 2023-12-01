@@ -8,28 +8,6 @@
   ".float-none": {
     "cssFloat": "none"
   },
-  "@media (min-width: 480px)": {
-    ".sm-float-left": {
-      "cssFloat": "left"
-    },
-    ".sm-float-right": {
-      "cssFloat": "right"
-    },
-    ".sm-float-none": {
-      "cssFloat": "none"
-    }
-  },
-  "@media (min-width: 768px)": {
-    ".md-float-left": {
-      "cssFloat": "left"
-    },
-    ".md-float-right": {
-      "cssFloat": "right"
-    },
-    ".md-float-none": {
-      "cssFloat": "none"
-    }
-  },
   "@media (min-width: 1024px)": {
     ".lg-float-left": {
       "cssFloat": "left"
@@ -38,28 +16,6 @@
       "cssFloat": "right"
     },
     ".lg-float-none": {
-      "cssFloat": "none"
-    }
-  },
-  "@media (min-width: 1440px)": {
-    ".xl-float-left": {
-      "cssFloat": "left"
-    },
-    ".xl-float-right": {
-      "cssFloat": "right"
-    },
-    ".xl-float-none": {
-      "cssFloat": "none"
-    }
-  },
-  "@media (min-width: 1920px)": {
-    ".xxl-float-left": {
-      "cssFloat": "left"
-    },
-    ".xxl-float-right": {
-      "cssFloat": "right"
-    },
-    ".xxl-float-none": {
       "cssFloat": "none"
     }
   }

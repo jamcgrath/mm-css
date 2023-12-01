@@ -26,32 +26,9 @@
 	margin: 42px;
 }
 
-@media (min-width: 480px) {
-	.sm-test {
-		color: red;
-	}
-	.sm-test.test-222 {
-		color: purple;
-	}
-	.sm-testxxx,
-.sm-testyyy {
-		color: yellow;
-	}
-}
-
 @media (min-width: 768px) {
 	.testor {
 		color: red;
-	}
-	.md-test {
-		color: red;
-	}
-	.md-test.test-222 {
-		color: purple;
-	}
-	.md-testxxx,
-.md-testyyy {
-		color: yellow;
 	}
 }
 
@@ -64,32 +41,6 @@
 	}
 	.lg-testxxx,
 .lg-testyyy {
-		color: yellow;
-	}
-}
-
-@media (min-width: 1440px) {
-	.xl-test {
-		color: red;
-	}
-	.xl-test.test-222 {
-		color: purple;
-	}
-	.xl-testxxx,
-.xl-testyyy {
-		color: yellow;
-	}
-}
-
-@media (min-width: 1920px) {
-	.xxl-test {
-		color: red;
-	}
-	.xxl-test.test-222 {
-		color: purple;
-	}
-	.xxl-testxxx,
-.xxl-testyyy {
 		color: yellow;
 	}
 }

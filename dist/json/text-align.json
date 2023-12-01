@@ -23,58 +23,6 @@
   ".text-justify": {
     "textAlign": "justify"
   },
-  "@media (min-width: 480px)": {
-    ".sm-text-center": {
-      "textAlign": "center"
-    },
-    ".sm-text-left": {
-      "textAlign": "left"
-    },
-    ".sm-text-right": {
-      "textAlign": "right"
-    },
-    "[dir=\"ltr\"] .sm-text-start": {
-      "textAlign": "left"
-    },
-    "[dir=\"rtl\"] .sm-text-start": {
-      "textAlign": "right"
-    },
-    "[dir=\"ltr\"] .sm-text-end": {
-      "textAlign": "right"
-    },
-    "[dir=\"rtl\"] .sm-text-end": {
-      "textAlign": "left"
-    },
-    ".sm-text-justify": {
-      "textAlign": "justify"
-    }
-  },
-  "@media (min-width: 768px)": {
-    ".md-text-center": {
-      "textAlign": "center"
-    },
-    ".md-text-left": {
-      "textAlign": "left"
-    },
-    ".md-text-right": {
-      "textAlign": "right"
-    },
-    "[dir=\"ltr\"] .md-text-start": {
-      "textAlign": "left"
-    },
-    "[dir=\"rtl\"] .md-text-start": {
-      "textAlign": "right"
-    },
-    "[dir=\"ltr\"] .md-text-end": {
-      "textAlign": "right"
-    },
-    "[dir=\"rtl\"] .md-text-end": {
-      "textAlign": "left"
-    },
-    ".md-text-justify": {
-      "textAlign": "justify"
-    }
-  },
   "@media (min-width: 1024px)": {
     ".lg-text-center": {
       "textAlign": "center"
@@ -98,58 +46,6 @@
       "textAlign": "left"
     },
     ".lg-text-justify": {
-      "textAlign": "justify"
-    }
-  },
-  "@media (min-width: 1440px)": {
-    ".xl-text-center": {
-      "textAlign": "center"
-    },
-    ".xl-text-left": {
-      "textAlign": "left"
-    },
-    ".xl-text-right": {
-      "textAlign": "right"
-    },
-    "[dir=\"ltr\"] .xl-text-start": {
-      "textAlign": "left"
-    },
-    "[dir=\"rtl\"] .xl-text-start": {
-      "textAlign": "right"
-    },
-    "[dir=\"ltr\"] .xl-text-end": {
-      "textAlign": "right"
-    },
-    "[dir=\"rtl\"] .xl-text-end": {
-      "textAlign": "left"
-    },
-    ".xl-text-justify": {
-      "textAlign": "justify"
-    }
-  },
-  "@media (min-width: 1920px)": {
-    ".xxl-text-center": {
-      "textAlign": "center"
-    },
-    ".xxl-text-left": {
-      "textAlign": "left"
-    },
-    ".xxl-text-right": {
-      "textAlign": "right"
-    },
-    "[dir=\"ltr\"] .xxl-text-start": {
-      "textAlign": "left"
-    },
-    "[dir=\"rtl\"] .xxl-text-start": {
-      "textAlign": "right"
-    },
-    "[dir=\"ltr\"] .xxl-text-end": {
-      "textAlign": "right"
-    },
-    "[dir=\"rtl\"] .xxl-text-end": {
-      "textAlign": "left"
-    },
-    ".xxl-text-justify": {
       "textAlign": "justify"
     }
   }

@@ -14,40 +14,6 @@
   ".grid-flow-column-dense": {
     "gridAutoFlow": "column dense"
   },
-  "@media (min-width: 480px)": {
-    ".sm-grid-flow-row": {
-      "gridAutoFlow": "row"
-    },
-    ".sm-grid-flow-column": {
-      "gridAutoFlow": "column"
-    },
-    ".sm-grid-flow-dense": {
-      "gridAutoFlow": "dense"
-    },
-    ".sm-grid-flow-row-dense": {
-      "gridAutoFlow": "row dense"
-    },
-    ".sm-grid-flow-column-dense": {
-      "gridAutoFlow": "column dense"
-    }
-  },
-  "@media (min-width: 768px)": {
-    ".md-grid-flow-row": {
-      "gridAutoFlow": "row"
-    },
-    ".md-grid-flow-column": {
-      "gridAutoFlow": "column"
-    },
-    ".md-grid-flow-dense": {
-      "gridAutoFlow": "dense"
-    },
-    ".md-grid-flow-row-dense": {
-      "gridAutoFlow": "row dense"
-    },
-    ".md-grid-flow-column-dense": {
-      "gridAutoFlow": "column dense"
-    }
-  },
   "@media (min-width: 1024px)": {
     ".lg-grid-flow-row": {
       "gridAutoFlow": "row"
@@ -62,40 +28,6 @@
       "gridAutoFlow": "row dense"
     },
     ".lg-grid-flow-column-dense": {
-      "gridAutoFlow": "column dense"
-    }
-  },
-  "@media (min-width: 1440px)": {
-    ".xl-grid-flow-row": {
-      "gridAutoFlow": "row"
-    },
-    ".xl-grid-flow-column": {
-      "gridAutoFlow": "column"
-    },
-    ".xl-grid-flow-dense": {
-      "gridAutoFlow": "dense"
-    },
-    ".xl-grid-flow-row-dense": {
-      "gridAutoFlow": "row dense"
-    },
-    ".xl-grid-flow-column-dense": {
-      "gridAutoFlow": "column dense"
-    }
-  },
-  "@media (min-width: 1920px)": {
-    ".xxl-grid-flow-row": {
-      "gridAutoFlow": "row"
-    },
-    ".xxl-grid-flow-column": {
-      "gridAutoFlow": "column"
-    },
-    ".xxl-grid-flow-dense": {
-      "gridAutoFlow": "dense"
-    },
-    ".xxl-grid-flow-row-dense": {
-      "gridAutoFlow": "row dense"
-    },
-    ".xxl-grid-flow-column-dense": {
       "gridAutoFlow": "column dense"
     }
   }

@@ -11,34 +11,6 @@
   ".flex-col-reverse": {
     "flexDirection": "column-reverse"
   },
-  "@media (min-width: 480px)": {
-    ".sm-flex-row": {
-      "flexDirection": "row"
-    },
-    ".sm-flex-reverse": {
-      "flexDirection": "row-reverse"
-    },
-    ".sm-flex-col": {
-      "flexDirection": "column"
-    },
-    ".sm-flex-col-reverse": {
-      "flexDirection": "column-reverse"
-    }
-  },
-  "@media (min-width: 768px)": {
-    ".md-flex-row": {
-      "flexDirection": "row"
-    },
-    ".md-flex-reverse": {
-      "flexDirection": "row-reverse"
-    },
-    ".md-flex-col": {
-      "flexDirection": "column"
-    },
-    ".md-flex-col-reverse": {
-      "flexDirection": "column-reverse"
-    }
-  },
   "@media (min-width: 1024px)": {
     ".lg-flex-row": {
       "flexDirection": "row"
@@ -50,34 +22,6 @@
       "flexDirection": "column"
     },
     ".lg-flex-col-reverse": {
-      "flexDirection": "column-reverse"
-    }
-  },
-  "@media (min-width: 1440px)": {
-    ".xl-flex-row": {
-      "flexDirection": "row"
-    },
-    ".xl-flex-reverse": {
-      "flexDirection": "row-reverse"
-    },
-    ".xl-flex-col": {
-      "flexDirection": "column"
-    },
-    ".xl-flex-col-reverse": {
-      "flexDirection": "column-reverse"
-    }
-  },
-  "@media (min-width: 1920px)": {
-    ".xxl-flex-row": {
-      "flexDirection": "row"
-    },
-    ".xxl-flex-reverse": {
-      "flexDirection": "row-reverse"
-    },
-    ".xxl-flex-col": {
-      "flexDirection": "column"
-    },
-    ".xxl-flex-col-reverse": {
       "flexDirection": "column-reverse"
     }
   }

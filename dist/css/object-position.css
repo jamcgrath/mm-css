@@ -26,64 +26,6 @@
   .op-br {
     object-position: bottom right;
   }
-@media (min-width: 480px) {
-  .sm-op-t {
-    object-position: top;
-  }
-  .sm-op-l {
-    object-position: left;
-  }
-  .sm-op-r {
-    object-position: right;
-  }
-  .sm-op-b {
-    object-position: bottom;
-  }
-  .sm-op-c {
-    object-position: center;
-  }
-  .sm-op-tl {
-    object-position: top left;
-  }
-  .sm-op-tr {
-    object-position: top right;
-  }
-  .sm-op-bl {
-    object-position: bottom left;
-  }
-  .sm-op-br {
-    object-position: bottom right;
-  }
-}
-@media (min-width: 768px) {
-  .md-op-t {
-    object-position: top;
-  }
-  .md-op-l {
-    object-position: left;
-  }
-  .md-op-r {
-    object-position: right;
-  }
-  .md-op-b {
-    object-position: bottom;
-  }
-  .md-op-c {
-    object-position: center;
-  }
-  .md-op-tl {
-    object-position: top left;
-  }
-  .md-op-tr {
-    object-position: top right;
-  }
-  .md-op-bl {
-    object-position: bottom left;
-  }
-  .md-op-br {
-    object-position: bottom right;
-  }
-}
 @media (min-width: 1024px) {
   .lg-op-t {
     object-position: top;
@@ -110,64 +52,6 @@
     object-position: bottom left;
   }
   .lg-op-br {
-    object-position: bottom right;
-  }
-}
-@media (min-width: 1440px) {
-  .xl-op-t {
-    object-position: top;
-  }
-  .xl-op-l {
-    object-position: left;
-  }
-  .xl-op-r {
-    object-position: right;
-  }
-  .xl-op-b {
-    object-position: bottom;
-  }
-  .xl-op-c {
-    object-position: center;
-  }
-  .xl-op-tl {
-    object-position: top left;
-  }
-  .xl-op-tr {
-    object-position: top right;
-  }
-  .xl-op-bl {
-    object-position: bottom left;
-  }
-  .xl-op-br {
-    object-position: bottom right;
-  }
-}
-@media (min-width: 1920px) {
-  .xxl-op-t {
-    object-position: top;
-  }
-  .xxl-op-l {
-    object-position: left;
-  }
-  .xxl-op-r {
-    object-position: right;
-  }
-  .xxl-op-b {
-    object-position: bottom;
-  }
-  .xxl-op-c {
-    object-position: center;
-  }
-  .xxl-op-tl {
-    object-position: top left;
-  }
-  .xxl-op-tr {
-    object-position: top right;
-  }
-  .xxl-op-bl {
-    object-position: bottom left;
-  }
-  .xxl-op-br {
     object-position: bottom right;
   }
 }
