@@ -34,3 +34,6 @@
 .z-max {
   z-index: 2147483647;
 }
+.z-auto {
+  z-index: auto;
+}
