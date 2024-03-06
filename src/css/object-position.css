@@ -1,29 +1,29 @@
 @responsive {
-  .op-t {
+  .object-t {
     object-position: top;
   }
-  .op-l {
+  .object-l {
     object-position: left;
   }
-  .op-r {
+  .object-r {
     object-position: right;
   }
-  .op-b {
+  .object-b {
     object-position: bottom;
   }
-  .op-c {
+  .object-c {
     object-position: center;
   }
-  .op-tl {
+  .object-tl {
     object-position: top left;
   }
-  .op-tr {
+  .object-tr {
     object-position: top right;
   }
-  .op-bl {
+  .object-bl {
     object-position: bottom left;
   }
-  .op-br {
+  .object-br {
     object-position: bottom right;
   }
 }
