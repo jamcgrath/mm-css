@@ -1,35 +1,21 @@
 button,
 .btn {
-  --btn-bg: transparent;
-  --btn-color: currentcolor;
-  --btn-border: 0;
-  --btn-padding: 0;
-  --btn-fs: var(--label);
-  --btn-fw: var(--fw-400);
-  --btn-lh: var(--lh-125);
-  --btn-text-align: center;
-  --btn-cursor: pointer;
-
-  background: var(--btn-bg);
-  color: var(--btn-color);
-  border: var(--btn-border);
-  font-size: var(--btn-fs);
-  font-weight: var(--btn-fw);
-  line-height: var(--btn-lh);
-  padding: var(--btn-padding);
-  text-align: center;
-  cursor: var(--btn-cursor);
+  background: var(--btn-bg, transparent);
+  color: var(--btn-color, currentcolor);
+  border: none;
+  font-size: var(--btn-fs, var(--label));
+  font-weight: var(--btn-fw, var(--fw-400));
+  line-height: var(--btn-lh, var(--lh-125));
+  padding: var(--btn-paddin, 0);
+  text-align: var(--btn-text-align, center);
+  cursor: var(--btn-cursor, pointer);
 }
 .btn {
-  --btn-border-radius: var(--space-2);
-  --btn-fs: var(--label);
-  --btn-fw: var(--fw-600);
-  --btn-gap: var(--space-2);
-  border-radius: var(--btn-border-radius);
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-  gap: var(--btn-gap);
+  border-radius: var(--btn-border-radius, var(--space-2));
+  display: var(--btn-display, inline-flex);
+  justify-content: var(--btn-justify, center);
+  align-items: var(--btn-align, center)
+  gap: var(--btn-gap, 0);
 }
 .btn > * {
   pointer-events: none;
@@ -59,16 +45,12 @@ button,
 .btn-outline,
 .btn-outline-secondary,
 .btn-outline-destructive {
-  background-color: var(--btn-bg) !important;
-}
-.btn-outline,
-.btn-outline-secondary,
-.btn-outline-destructive {
   --btn-bg: transparent;
   --btn-border-color: currentcolor;
   --btn-border-style: solid;
   --btn-border-width: var(--space-1px);
   --btn-color: var(--navy);
+  background-color: var(--btn-bg) !important;
   border: var(--btn-border-width) var(--btn-border-style)
     var(--btn-border-color);
 }
@@ -81,14 +63,11 @@ button,
 .btn-flat,
 .btn-flat-secondary,
 .btn-flat-destructive {
+  --btn-color: var(--navy);
   background: transparent !important;
   border: 0 !important;
 }
-.btn-flat,
-.btn-flat-secondary,
-.btn-flat-destructive {
-  --btn-color: var(--navy);
-}
+
 .btn-flat:hover {
   --btn-color: var(--navy-hover);
 }

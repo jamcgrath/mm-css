@@ -1,27 +1,19 @@
 .badge {
   --badge-padding: var(--space-0-5) var(--space-2);
-  --badge-fs: var(--overline-small);
-  --badge-lh: 1;
-  --badge-fw: var(--fw-700);
-  --badge-ls: var(--ls-1);
-  --badge-gap: var(--space-1);
-  --badge-border-radius: var(--space-1);
-  --badge-bg: var(--gray-3);
-  --badge-color: var(--gray-7);
 
-  background: var(--badge-bg);
-  color: var(--badge-color);
+  background: var(--badge-bg, var(--gray-3));
+  color: var(--badge-color, var(--gray-7));
   padding: var(--badge-padding);
-  font-size: var(--badge-fs);
-  line-height: var(--badge-lh);
-  font-weight: var(--badge-fw);
-  gap: var(--badge-gap);
-  border-radius: var(--badge-border-radius);
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  text-transform: uppercase;
-  letter-spacing: var(--space-1px);
+  font-size: var(--badge-fs, var(--overline-small));
+  line-height: var(--badge-lh, 1);
+  font-weight: var(--badge-fw, var(--fw-700));
+  gap: var(--badge-gap, 0);
+  border-radius: var(--badge-border-radius, var(--space-1));
+  display: var(--badge-display, inline-flex);
+  align-items: var(--badge-align, center);
+  justify-content: var(--badge-justify, center);
+  text-transform: var(--badge-text-transform. uppercase);
+  letter-spacing: var(--badge-ls, var(--ls-1));
 }
 .badge-sm {
   --badge-fs: var(--overline-small);
