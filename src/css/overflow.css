@@ -1,45 +1,47 @@
-.overflow-auto {
-  overflow: auto;
-}
-.overflow-x-auto {
-  overflow-x: auto;
-}
-.overflow-y-auto {
-  overflow-y: auto;
-}
-.overflow-scroll {
-  overflow: scroll;
-}
-.overflow-x-scroll {
-  overflow-x: scroll;
-}
-.overflow-y-scroll {
-  overflow-y: scroll;
-}
-.overflow-hidden {
-  overflow: hidden;
-}
-.overflow-x-hidden {
-  overflow-x: hidden;
-}
-.overflow-y-hidden {
-  overflow-y: hidden;
-}
-.overflow-visible {
-  overflow: visible;
-}
-.overflow-x-visible {
-  overflow-x: visible;
-}
-.overflow-y-visible {
-  overflow-y: visible;
-}
-.overflow-clip {
-  overflow: clip;
-}
-.overflow-x-clip {
-  overflow-x: clip;
-}
-.overflow-y-clip {
-  overflow-y: clip;
+@responsive {
+  .overflow-auto {
+    overflow: auto;
+  }
+  .overflow-x-auto {
+    overflow-x: auto;
+  }
+  .overflow-y-auto {
+    overflow-y: auto;
+  }
+  .overflow-scroll {
+    overflow: scroll;
+  }
+  .overflow-x-scroll {
+    overflow-x: scroll;
+  }
+  .overflow-y-scroll {
+    overflow-y: scroll;
+  }
+  .overflow-hidden {
+    overflow: hidden;
+  }
+  .overflow-x-hidden {
+    overflow-x: hidden;
+  }
+  .overflow-y-hidden {
+    overflow-y: hidden;
+  }
+  .overflow-visible {
+    overflow: visible;
+  }
+  .overflow-x-visible {
+    overflow-x: visible;
+  }
+  .overflow-y-visible {
+    overflow-y: visible;
+  }
+  .overflow-clip {
+    overflow: clip;
+  }
+  .overflow-x-clip {
+    overflow-x: clip;
+  }
+  .overflow-y-clip {
+    overflow-y: clip;
+  }
 }
