@@ -1,0 +1,5 @@
+:root {
+  --shadow-sm: 0 var(--space-1) var(--space-3) 0 rgba(0, 0, 0, 0.04);
+  --shadow-med: 0 var(--space-1) var(--space-3) rgba(0, 0, 0, 0.12);
+  --shadow-lg: 0 var(--space-3) var(--space-6) rgba(0, 0, 0, 0.16);
+}
