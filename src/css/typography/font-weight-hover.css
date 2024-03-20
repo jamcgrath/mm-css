@@ -1,27 +1,35 @@
 .thin_hover:hover {
-  font-weight: var(--fw-1);
+  --font-weight: var(--fw-100);
+  font-weight: var(--font-weight);
 }
 .extra-light_hover:hover {
-  font-weight: var(--fw-2);
+  --font-weight: var(--fw-200);
+  font-weight: var(--font-weight);
 }
 .light_hover:hover {
-  font-weight: var(--fw-3);
+  --font-weight: var(--light);
+  font-weight: var(--font-weight);
 }
 .regular_hover:hover {
-  font-weight: var(--fw-4);
+  --font-weight: var(--regular);
+  font-weight: var(--font-weight);
 }
 .medium_hover:hover {
-  font-weight: var(--fw-5);
-}
-.bold_hover:hover {
-  font-weight: var(--fw-6);
+  --font-weight: var(--medium);
+  font-weight: var(--font-weight);
 }
 .semi-bold_hover:hover {
-  font-weight: var(--fw-7);
+  --font-weight: var(--semibold);
+  font-weight: var(--font-weight);
+}
+.bold_hover:hover {
+  --font-weight: var(--bold);
+  font-weight: var(--font-weight);
 }
 .extra-bold_hover:hover {
-  font-weight: var(--fw-8);
+  --font-weight: var(--fw-800);
+  font-weight: var(--font-weight);
 }
 .black-bold_hover:hover {
-  font-weight: var(--fw-9);
+  --font-weight: var(--fw-900);
 }

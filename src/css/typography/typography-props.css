@@ -1,21 +1,18 @@
 :root {
-  --base-fs: 1rem;
-  --title-1: calc(4 * var(--base-fs));
-  --title-2: calc(3 * var(--base-fs));
-  --title-3: calc(2.5 * var(--base-fs));
-  --title-4: calc(2 * var(--base-fs));
-  --title-5: calc(1.5 * var(--base-fs));
-  --title-6: calc(1.25 * var(--base-fs));
-  --copy: calc(1.125 * var(--base-fs));
-  --body: calc(1 * var(--base-fs));
-  --label: calc(0.875 * var(--base-fs));
-  --caption: calc(0.75 * var(--base-fs));
-  --small: calc(0.625 * var(--base-fs));
-  --overline-large: calc(0.75 * var(--base-fs));
-  --overline-small: calc(0.5625 * var(--base-fs));
-  --quote: calc(1.5 * var(--base-fs));
+  --title-1: 4rem; //64px
+  --title-2: 3rem; // 48px
+  --title-3: 2.5rem; // 40px
+  --title-4: 2rem; // 32px
+  --title-5: 1.5rem; // 24px
+  --title-6: 1.25rem; // 20px
+  --lead: 1.125rem; // 18px
+  --body: 1rem; // 16px
+  --label: 0.875rem; // 14px
+  --caption: 0.75rem; // 12px
+  --overline-lg: 0.75rem; // 12px
+  --small: 0.625rem; // 10px
+  --overline-sm: 0.5625rem; // 9px
 
-  /* font-weight */
   --fw-900: 900;
   --fw-800: 800;
   --fw-700: 700;
@@ -26,15 +23,15 @@
   --fw-200: 200;
   --fw-100: 100;
 
-  /* line-height */
-  --lh-1: 1;
-  --lh-125: 1.25;
+  --light: 300;
+  --regular: 400;
+  --medium: 500;
+  --semibold: 600;
+  --bold: 700;
 
-  /* letter-spacing */
-  --ls-1: 1px;
-  --ls-025: -0.25px;
+  --poppins: "Poppins", sans-serif;
+  --georgia: Georgia, Times, "Times New Roman", serif;
 
-  /* font family */
-  --sans: "Poppins", sans-serif;
-  --serif: Georgia, Times, "Times New Roman", serif;
+  --sans-serif: var(--poppins);
+  --serif: var(--georgia);
 }
