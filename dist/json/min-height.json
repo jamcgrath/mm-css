@@ -8,21 +8,32 @@
   ".min-h-100vh": {
     "minHeight": "100vh"
   },
-  ".min-h-min": {
+  ".min-h-100svh": {
     "minHeight": [
-      "-webkit-min-content",
-      "min-content"
+      "100vh",
+      "100svh"
     ]
   },
-  ".min-h-max": {
+  ".min-h-100lvh": {
     "minHeight": [
-      "-webkit-max-content",
-      "max-content"
+      "100vh",
+      "100lvh"
     ]
+  },
+  ".min-h-100dvh": {
+    "minHeight": [
+      "100vh",
+      "100dvh"
+    ]
+  },
+  ".min-h-min": {
+    "minHeight": "min-content"
+  },
+  ".min-h-max": {
+    "minHeight": "max-content"
   },
   ".min-h-fit": {
     "minHeight": [
-      "-webkit-fit-content",
       "-moz-fit-content",
       "fit-content"
     ]

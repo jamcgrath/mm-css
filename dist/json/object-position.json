@@ -1,57 +1,57 @@
 {
-  ".op-t": {
+  ".object-t": {
     "objectPosition": "top"
   },
-  ".op-l": {
+  ".object-l": {
     "objectPosition": "left"
   },
-  ".op-r": {
+  ".object-r": {
     "objectPosition": "right"
   },
-  ".op-b": {
+  ".object-b": {
     "objectPosition": "bottom"
   },
-  ".op-c": {
+  ".object-c": {
     "objectPosition": "center"
   },
-  ".op-tl": {
+  ".object-tl": {
     "objectPosition": "top left"
   },
-  ".op-tr": {
+  ".object-tr": {
     "objectPosition": "top right"
   },
-  ".op-bl": {
+  ".object-bl": {
     "objectPosition": "bottom left"
   },
-  ".op-br": {
+  ".object-br": {
     "objectPosition": "bottom right"
   },
   "@media (min-width: 1024px)": {
-    ".lg-op-t": {
+    ".lg-object-t": {
       "objectPosition": "top"
     },
-    ".lg-op-l": {
+    ".lg-object-l": {
       "objectPosition": "left"
     },
-    ".lg-op-r": {
+    ".lg-object-r": {
       "objectPosition": "right"
     },
-    ".lg-op-b": {
+    ".lg-object-b": {
       "objectPosition": "bottom"
     },
-    ".lg-op-c": {
+    ".lg-object-c": {
       "objectPosition": "center"
     },
-    ".lg-op-tl": {
+    ".lg-object-tl": {
       "objectPosition": "top left"
     },
-    ".lg-op-tr": {
+    ".lg-object-tr": {
       "objectPosition": "top right"
     },
-    ".lg-op-bl": {
+    ".lg-object-bl": {
       "objectPosition": "bottom left"
     },
-    ".lg-op-br": {
+    ".lg-object-br": {
       "objectPosition": "bottom right"
     }
   }

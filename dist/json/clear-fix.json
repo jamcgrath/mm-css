@@ -5,5 +5,29 @@
   },
   ".clearfix::after": {
     "clear": "both"
+  },
+  "[dir=\"ltr\"] .clear-start": {
+    "clear": "left"
+  },
+  "[dir=\"rtl\"] .clear-start": {
+    "clear": "right"
+  },
+  "[dir=\"ltr\"] .clear-end": {
+    "clear": "right"
+  },
+  "[dir=\"rtl\"] .clear-end": {
+    "clear": "left"
+  },
+  ".clear-left": {
+    "clear": "left"
+  },
+  ".clear-right": {
+    "clear": "right"
+  },
+  ".clear-both": {
+    "clear": "both"
+  },
+  ".clear-none": {
+    "clear": "none"
   }
 }

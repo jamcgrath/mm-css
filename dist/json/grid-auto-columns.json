@@ -1,34 +1,28 @@
 {
-  ".grid-auto-col": {
+  ".auto-col": {
     "gridAutoColumns": "auto"
   },
-  ".grid-auto-col-min": {
-    "gridAutoColumns": [
-      "-webkit-min-content",
-      "min-content"
-    ]
+  ".auto-col-min": {
+    "gridAutoColumns": "min-content"
   },
-  ".grid-auto-col-max": {
-    "gridAutoColumns": [
-      "-webkit-max-content",
-      "max-content"
-    ]
+  ".auto-col-max": {
+    "gridAutoColumns": "max-content"
+  },
+  ".auto-col-fr": {
+    "gridAutoColumns": "minmax(0, 1fr)"
   },
   "@media (min-width: 1024px)": {
-    ".lg-grid-auto-col": {
+    ".lg-auto-col": {
       "gridAutoColumns": "auto"
     },
-    ".lg-grid-auto-col-min": {
-      "gridAutoColumns": [
-        "-webkit-min-content",
-        "min-content"
-      ]
+    ".lg-auto-col-min": {
+      "gridAutoColumns": "min-content"
     },
-    ".lg-grid-auto-col-max": {
-      "gridAutoColumns": [
-        "-webkit-max-content",
-        "max-content"
-      ]
+    ".lg-auto-col-max": {
+      "gridAutoColumns": "max-content"
+    },
+    ".lg-auto-col-fr": {
+      "gridAutoColumns": "minmax(0, 1fr)"
     }
   }
 }

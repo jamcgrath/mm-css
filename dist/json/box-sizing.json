@@ -4,8 +4,5 @@
   },
   ".box-content": {
     "boxSizing": "content-box"
-  },
-  ".box-padding": {
-    "boxSizing": "padding-box"
   }
 }

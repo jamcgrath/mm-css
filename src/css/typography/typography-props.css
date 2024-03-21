@@ -1,17 +1,17 @@
 :root {
-  --title-1: 4rem; //64px
-  --title-2: 3rem; // 48px
-  --title-3: 2.5rem; // 40px
-  --title-4: 2rem; // 32px
-  --title-5: 1.5rem; // 24px
-  --title-6: 1.25rem; // 20px
-  --lead: 1.125rem; // 18px
-  --body: 1rem; // 16px
-  --label: 0.875rem; // 14px
-  --caption: 0.75rem; // 12px
-  --overline-lg: 0.75rem; // 12px
-  --small: 0.625rem; // 10px
-  --overline-sm: 0.5625rem; // 9px
+  --title-1: 4rem; /* 64px */
+  --title-2: 3rem; /* 48px */
+  --title-3: 2.5rem; /* 40px */
+  --title-4: 2rem; /* 32px */
+  --title-5: 1.5rem; /* 24px */
+  --title-6: 1.25rem; /* 20px */
+  --lead: 1.125rem; /* 18px */
+  --body: 1rem; /* 16px */
+  --label: 0.875rem; /* 14px */
+  --caption: 0.75rem; /* 12px */
+  --overline-lg: 0.75rem; /* 12px */
+  --small: 0.625rem; /* 10px */
+  --overline-sm: 0.5625rem; /* 9px */
 
   --fw-900: 900;
   --fw-800: 800;

@@ -5,21 +5,32 @@
   ".h-100vh": {
     "height": "100vh"
   },
-  ".h-min": {
+  ".h-100svh": {
     "height": [
-      "-webkit-min-content",
-      "min-content"
+      "100vh",
+      "100svh"
     ]
   },
-  ".h-max": {
+  ".h-100lvh": {
     "height": [
-      "-webkit-max-content",
-      "max-content"
+      "100vh",
+      "100lvh"
     ]
+  },
+  ".h-100dvh": {
+    "height": [
+      "100vh",
+      "100dvh"
+    ]
+  },
+  ".h-min": {
+    "height": "min-content"
+  },
+  ".h-max": {
+    "height": "max-content"
   },
   ".h-fit": {
     "height": [
-      "-webkit-fit-content",
       "-moz-fit-content",
       "fit-content"
     ]
@@ -34,21 +45,32 @@
     ".lg-h-100vh": {
       "height": "100vh"
     },
-    ".lg-h-min": {
+    ".lg-h-100svh": {
       "height": [
-        "-webkit-min-content",
-        "min-content"
+        "100vh",
+        "100svh"
       ]
     },
-    ".lg-h-max": {
+    ".lg-h-100lvh": {
       "height": [
-        "-webkit-max-content",
-        "max-content"
+        "100vh",
+        "100lvh"
       ]
+    },
+    ".lg-h-100dvh": {
+      "height": [
+        "100vh",
+        "100dvh"
+      ]
+    },
+    ".lg-h-min": {
+      "height": "min-content"
+    },
+    ".lg-h-max": {
+      "height": "max-content"
     },
     ".lg-h-fit": {
       "height": [
-        "-webkit-fit-content",
         "-moz-fit-content",
         "fit-content"
       ]

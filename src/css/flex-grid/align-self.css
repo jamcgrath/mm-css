@@ -7,7 +7,8 @@
   .self-start {
     align-self: start;
   }
-  .a-self-end .self-end {
+  .a-self-end,
+  .self-end {
     align-self: end;
   }
   .a-self-flex-start,

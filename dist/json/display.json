@@ -2,11 +2,11 @@
   ".block": {
     "display": "block"
   },
-  ".inline-block": {
-    "display": "inline-block"
-  },
   ".inline": {
     "display": "inline"
+  },
+  ".inline-block": {
+    "display": "inline-block"
   },
   ".flex": {
     "display": "flex"
@@ -20,6 +20,9 @@
   ".inline-grid": {
     "display": "inline-grid"
   },
+  ".flow-root": {
+    "display": "flow-root"
+  },
   ".hidden": {
     "display": "none"
   },
@@ -27,11 +30,11 @@
     ".lg-block": {
       "display": "block"
     },
-    ".lg-inline-block": {
-      "display": "inline-block"
-    },
     ".lg-inline": {
       "display": "inline"
+    },
+    ".lg-inline-block": {
+      "display": "inline-block"
     },
     ".lg-flex": {
       "display": "flex"
@@ -44,6 +47,9 @@
     },
     ".lg-inline-grid": {
       "display": "inline-grid"
+    },
+    ".lg-flow-root": {
+      "display": "flow-root"
     },
     ".lg-hidden": {
       "display": "none"

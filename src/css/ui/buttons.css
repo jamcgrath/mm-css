@@ -14,7 +14,7 @@ button,
   border-radius: var(--btn-border-radius, var(--space-2));
   display: var(--btn-display, inline-flex);
   justify-content: var(--btn-justify, center);
-  align-items: var(--btn-align, center)
+  align-items: var(--btn-align, center);
   gap: var(--btn-gap, 0);
 }
 .btn > * {

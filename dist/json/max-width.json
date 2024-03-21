@@ -62,22 +62,22 @@
   ".max-w-95": {
     "maxWidth": "95%"
   },
-  ".max-w-100": {
+  ".max-w-100,\n  .max-w-full": {
     "maxWidth": "100%"
   },
   ".max-w-none": {
     "maxWidth": "none"
   },
   ".max-w-max": {
-    "maxWidth": [
-      "-webkit-max-content",
-      "max-content"
-    ]
+    "maxWidth": "max-content"
   },
   ".max-w-min": {
+    "maxWidth": "min-content"
+  },
+  ".max-w-fit": {
     "maxWidth": [
-      "-webkit-min-content",
-      "min-content"
+      "-moz-fit-content",
+      "fit-content"
     ]
   },
   "@media (min-width: 1024px)": {
@@ -144,22 +144,22 @@
     ".lg-max-w-95": {
       "maxWidth": "95%"
     },
-    ".lg-max-w-100": {
+    ".lg-max-w-100,\n.lg-max-w-full": {
       "maxWidth": "100%"
     },
     ".lg-max-w-none": {
       "maxWidth": "none"
     },
     ".lg-max-w-max": {
-      "maxWidth": [
-        "-webkit-max-content",
-        "max-content"
-      ]
+      "maxWidth": "max-content"
     },
     ".lg-max-w-min": {
+      "maxWidth": "min-content"
+    },
+    ".lg-max-w-fit": {
       "maxWidth": [
-        "-webkit-min-content",
-        "min-content"
+        "-moz-fit-content",
+        "fit-content"
       ]
     }
   }

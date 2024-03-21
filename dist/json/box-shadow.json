@@ -1,11 +1,11 @@
 {
   ".shadow-sm": {
-    "boxShadow": "var(--shadow-sm)"
+    "boxShadow": "0 var(--space-1) var(--space-3) 0 rgba(0, 0, 0, 0.04)"
   },
   ".shadow-med": {
-    "boxShadow": "var(--shadow-med)"
+    "boxShadow": "0 var(--space-1) var(--space-3) rgba(0, 0, 0, 0.12)"
   },
   ".shadow-lg": {
-    "boxShadow": "var(--shadow-lg)"
+    "boxShadow": "0 var(--space-3) var(--space-6) rgba(0, 0, 0, 0.16)"
   }
 }
