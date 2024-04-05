@@ -57,6 +57,7 @@ button[disabled] {
   border: var(--button-border) !important;
   cursor: not-allowed;
 }
+
 .btn-sm {
   --button-padding: var(--space-1) var(--space-3);
 }
@@ -95,7 +96,6 @@ button[disabled] {
   --button-color: var(--grape);
   --button-focus-outline-color: var(--grape-light-hover);
 }
-
 .btn-primary-outline {
   --button-bg: transparent;
   --button-border: 1px solid var(--grape);
@@ -111,7 +111,6 @@ button[disabled] {
   --button-border: 1px solid var(--gray-6);
   --button-bg: transparent;
 }
-
 .btn-primary-ghost {
   --button-bg: transparent;
   --button-bg-hover: var(--dove);
