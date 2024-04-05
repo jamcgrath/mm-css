@@ -1,48 +1,41 @@
 .badge {
-  --badge-padding: var(--space-0-5) var(--space-2);
-
-  background: var(--badge-bg, var(--gray-3));
+  --badge-color: var(--color, var(--gray-7));
+  --badge-bg: var(--bg-color, var(--gray-3));
+  padding: var(--badge-padding, var(--space-1) var(--space-2));
+  border-radius: var(--badge-border-radius, 36px);
+  font-size: var(--badge-font-size, var(--caption));
+  font-weight: var(--badge-font-weight, var(--medium));
+  line-height: var(--badge-line-height, 1.25);
   color: var(--badge-color, var(--gray-7));
-  padding: var(--badge-padding);
-  font-size: var(--badge-fs, var(--overline-small));
-  line-height: var(--badge-lh, 1);
-  font-weight: var(--badge-fw, var(--fw-700));
-  gap: var(--badge-gap, 0);
-  border-radius: var(--badge-border-radius, var(--space-1));
-  display: var(--badge-display, inline-flex);
-  align-items: var(--badge-align, center);
-  justify-content: var(--badge-justify, center);
-  text-transform: var(--badge-text-transform. uppercase);
-  letter-spacing: var(--badge-ls, var(--ls-1));
+  background-color: var(--badge-bg, var(--gray-3));
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
 }
-.badge-sm {
-  --badge-fs: var(--overline-small);
-}
-.badge-med {
-  --badge-fs: var(--overline-large);
-  --badge-padding: var(--space-1) var(--space-2);
+.badge-icon {
+  gap: var(--badge-gap, var(--space-1));
 }
 .badge-success {
-  --badge-color: var(--success);
-  --badge-bg: var(--success-light);
+  --badge-color: var(--success-1);
+  --badge-bg: var(--success-2);
 }
 .badge-error {
-  --badge-color: var(--error);
-  --badge-bg: var(--error-light);
+  --badge-color: var(--error-1);
+  --badge-bg: var(--error-2);
 }
 .badge-alert {
-  --badge-color: var(--alert);
-  --badge-bg: var(--alert-light);
-}
-.badge-info {
-  --badge-color: var(--info);
-  --badge-bg: var(--info-light);
+  --badge-color: var(--alert-1);
+  --badge-bg: var(--alert-2);
 }
 .badge-warning {
-  --badge-color: var(--warning);
-  --badge-bg: var(--warning-light);
+  --badge-color: var(--warning-1);
+  --badge-bg: var(--warning-2);
 }
-.badge-navy-dark {
+.badge-info {
+  --badge-color: var(--info-1);
+  --badge-bg: var(--info-2);
+}
+.badge-reverse {
   --badge-color: var(--white);
-  --badge-bg: var(--navy-dark);
+  --badge-bg: var(--black);
 }
