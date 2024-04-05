@@ -1,13 +1,11 @@
 .badge {
-  --badge-color: var(--color, var(--gray-7));
-  --badge-bg: var(--bg-color, var(--gray-3));
   padding: var(--badge-padding, var(--space-1) var(--space-2));
   border-radius: var(--badge-border-radius, 36px);
   font-size: var(--badge-font-size, var(--caption));
   font-weight: var(--badge-font-weight, var(--medium));
   line-height: var(--badge-line-height, 1.25);
-  color: var(--badge-color, var(--gray-7));
-  background-color: var(--badge-bg, var(--gray-3));
+  color: var(--badge-color, var(--color, var(--gray-7)));
+  background-color: var(--badge-bg, var(--bg-color, var(--gray-3)));
   display: inline-flex;
   justify-content: center;
   align-items: center;
