@@ -11,8 +11,9 @@ button {
   display: var(--button-display, inline-block);
   text-align: var(--button-text-, center);
   min-width: var(--button-min-width, auto);
-  button-height: var(--button-height, auto);
   button-width: var(--button-width, auto);
+  button-height: var(--button-height, auto);
+  button-min-height: var(--button-min-height, auto);
   cursor: var(--button-cursor, pointer);
 }
 button:hover {
@@ -186,4 +187,16 @@ button[disabled] {
 .btn-circle {
   --button-border-radius: 50%;
   aspect-ratio: 1/1;
+}
+.btn-circle.btn-sm {
+  --button-width: 24px;
+  --button-height: 24px;
+}
+.btn-circle.btn-med {
+  --button-width: 40px;
+  --button-height: 40px;
+}
+.btn-circle.btn-lg {
+  --button-width: 56px;
+  --button-height: 56px;
 }
