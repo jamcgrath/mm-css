@@ -10,10 +10,10 @@ button {
   line-height: var(--button-line-height, 1.285);
   display: var(--button-display, inline-block);
   text-align: var(--button-text-, center);
+  width: var(--button-width, auto);
+  height: var(--button-height, auto);
   min-width: var(--button-min-width, auto);
-  button-width: var(--button-width, auto);
-  button-height: var(--button-height, auto);
-  button-min-height: var(--button-min-height, auto);
+  min-height: var(--button-min-height, auto);
   cursor: var(--button-cursor, pointer);
 }
 button:hover {
