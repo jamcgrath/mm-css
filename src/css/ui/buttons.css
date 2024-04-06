@@ -48,14 +48,15 @@ button:focus {
     outline-offset: var(--button-focus-outline-offset, 2px);
   }
 }
-button[disabled] {
+button[disabled],
+button[aria-disabled="true"],
+button.btn-disabled {
   --button-bg: var(--gray-3);
   --button-color: var(--gray-6);
   --button-border: none;
   background-color: var(--button-bg) !important;
   color: var(--gray-6) !important;
   border: var(--button-border) !important;
-  cursor: not-allowed;
 }
 
 .btn-sm {
@@ -107,7 +108,11 @@ button[disabled] {
   --button-focus-outline-color: var(--grape-hover);
 }
 .btn-primary-outline[disabled],
-.btn-secondary-outline[disabled] {
+.btn-primary-outline[aria-disabled="true"],
+.btn-primary-outline.btn-disabled,
+.btn-secondary-outline[disabled],
+.btn-secondary-outline[aria-disabled="true"],
+.btn-secondary-outline.btn-disabled {
   --button-border: 1px solid var(--gray-6);
   --button-bg: transparent;
 }
@@ -120,7 +125,11 @@ button[disabled] {
   --button-focus-outline-color: var(--grape-hover);
 }
 .btn-primary-ghost[disabled],
-.btn-secondary-ghost[disabled] {
+.btn-primary-ghost[aria-disabled="true"],
+.btn-primary-ghost.btn-disabled,
+.btn-secondary-ghost[disabled],
+.btn-secondary-ghost[aria-disabled="true"],
+.btn-secondary-ghost.btn-disabled {
   --button-bg: transparent;
 }
 
