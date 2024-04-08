@@ -1,20 +1,20 @@
 {
-  ".ws-normal": {
+  ".ws-normal,\n.whitwspace-normal": {
     "whiteSpace": "normal"
   },
-  ".ws-nowrap": {
+  ".ws-nowrap,\n.whitespace-nowrap": {
     "whiteSpace": "nowrap"
   },
-  ".ws-pre": {
+  ".ws-pre,\n.whitespace-pre": {
     "whiteSpace": "pre"
   },
-  ".ws-pre-wrap": {
+  ".ws-pre-wrap,\n.whitespace-pre-wrap": {
     "whiteSpace": "pre-wrap"
   },
-  ".ws-pre-line": {
+  ".ws-pre-line,\n.whitespace-pre-line": {
     "whiteSpace": "pre-line"
   },
-  ".ws-break": {
+  ".ws-break,\n.whitespace-break": {
     "whiteSpace": "break-spaces"
   }
 }

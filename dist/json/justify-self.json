@@ -1,75 +1,75 @@
 {
-  ".j-self-center": {
+  ".j-self-center,\n  .justify-self-center": {
     "justifySelf": "center"
   },
-  ".j-self-start": {
+  ".j-self-start,\n  .justify-self-start": {
     "justifySelf": "start"
   },
-  ".j-self-end": {
+  ".j-self-end,\n  .justify-self-end": {
     "justifySelf": "end"
   },
-  ".j-self-flex-start": {
+  ".j-self-flex-start,\n  .justify-self-flex-start": {
     "justifySelf": "flex-start"
   },
-  ".j-self-flex-end": {
+  ".j-self-flex-end,\n  .justify-self-flex-end": {
     "justifySelf": "flex-end"
   },
-  ".j-self-self-start": {
+  ".j-self-self-start,\n  .justify-self-self-start": {
     "justifySelf": "self-start"
   },
-  ".j-self-self-end": {
+  ".j-self-self-end,\n  .justify-self-self-end": {
     "justifySelf": "self-end"
   },
-  ".j-self-right": {
+  ".j-self-right,\n  .justify-self-right": {
     "justifySelf": "right"
   },
-  ".j-self-left": {
+  ".j-self-left,\n  .justify-self-left": {
     "justifySelf": "left"
   },
-  ".j-self-stretch": {
+  ".j-self-stretch,\n  .justify-self-stretch": {
     "justifySelf": "stretch"
   },
-  ".j-self-normal": {
+  ".j-self-normal,\n  .justify-self-normal": {
     "justifySelf": "normal"
   },
-  ".j-self-auto": {
+  ".j-self-auto,\n  .justify-self-auto": {
     "justifySelf": "auto"
   },
   "@media (min-width: 1024px)": {
-    ".lg-j-self-center": {
+    ".lg-j-self-center,\n.lg-justify-self-center": {
       "justifySelf": "center"
     },
-    ".lg-j-self-start": {
+    ".lg-j-self-start,\n.lg-justify-self-start": {
       "justifySelf": "start"
     },
-    ".lg-j-self-end": {
+    ".lg-j-self-end,\n.lg-justify-self-end": {
       "justifySelf": "end"
     },
-    ".lg-j-self-flex-start": {
+    ".lg-j-self-flex-start,\n.lg-justify-self-flex-start": {
       "justifySelf": "flex-start"
     },
-    ".lg-j-self-flex-end": {
+    ".lg-j-self-flex-end,\n.lg-justify-self-flex-end": {
       "justifySelf": "flex-end"
     },
-    ".lg-j-self-self-start": {
+    ".lg-j-self-self-start,\n.lg-justify-self-self-start": {
       "justifySelf": "self-start"
     },
-    ".lg-j-self-self-end": {
+    ".lg-j-self-self-end,\n.lg-justify-self-self-end": {
       "justifySelf": "self-end"
     },
-    ".lg-j-self-right": {
+    ".lg-j-self-right,\n.lg-justify-self-right": {
       "justifySelf": "right"
     },
-    ".lg-j-self-left": {
+    ".lg-j-self-left,\n.lg-justify-self-left": {
       "justifySelf": "left"
     },
-    ".lg-j-self-stretch": {
+    ".lg-j-self-stretch,\n.lg-justify-self-stretch": {
       "justifySelf": "stretch"
     },
-    ".lg-j-self-normal": {
+    ".lg-j-self-normal,\n.lg-justify-self-normal": {
       "justifySelf": "normal"
     },
-    ".lg-j-self-auto": {
+    ".lg-j-self-auto,\n.lg-justify-self-auto": {
       "justifySelf": "auto"
     }
   }

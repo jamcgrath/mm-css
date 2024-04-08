@@ -17,9 +17,7 @@ module.exports = {
 			autoprefixer: { flexbox: false },
 			postcssCustomProperties: {
 				preserve: true,
-				importFrom: "./src/css/media-queries-props.css",
 			},
 		}),
 	],
 };
-// 

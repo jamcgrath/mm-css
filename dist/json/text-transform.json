@@ -1,14 +1,18 @@
 {
   ".text-transform-none": {
-    "textTransform": "none"
+    "--text-transform": "none",
+    "textTransform": "var(--text-transform)"
   },
   ".capitalize": {
-    "textTransform": "capitalize"
+    "--text-transform": "capitalize",
+    "textTransform": "var(--text-transform)"
   },
   ".uppercase": {
-    "textTransform": "uppercase"
+    "--text-transform": "uppercase",
+    "textTransform": "var(--text-transform)"
   },
   ".lowercase": {
-    "textTransform": "lowercase"
+    "--text-transform": "lowercase",
+    "textTransform": "var(--text-transform)"
   }
 }

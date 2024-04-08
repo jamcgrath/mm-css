@@ -1,0 +1,42 @@
+@responsive {
+  .a-self-center,
+  .self {
+    align-self: center;
+  }
+  .a-self-start,
+  .self-start {
+    align-self: start;
+  }
+  .a-self-end,
+  .self-end {
+    align-self: end;
+  }
+  .a-self-flex-start,
+  .self-flex-start {
+    align-self: flex-start;
+  }
+  .a-self-flex-end,
+  .self-flex-end {
+    align-self: flex-end;
+  }
+  .a-self-self-start,
+  .self-self-start {
+    align-self: self-start;
+  }
+  .a-self-self-end,
+  .self-self-end {
+    align-self: self-end;
+  }
+  .a-self-stretch,
+  .self-stretch {
+    align-self: stretch;
+  }
+  .a-self-normal,
+  .self-normal {
+    align-self: normal;
+  }
+  .a-self-auto,
+  .self-auto {
+    align-self: auto;
+  }
+}

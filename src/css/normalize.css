@@ -13,6 +13,7 @@
  */
 
 html {
+  --base-fs: 1rem;
   line-height: 1.25; /* 1 */
   font-size: var(--base-fs);
   -webkit-text-size-adjust: 100%; /* 2 */
@@ -43,7 +44,11 @@ body {
   scroll-behavior: smooth;
   -webkit-overflow-scrolling: touch;
 }
-
+@supports (height: 1dvh) {
+  body {
+    min-height: 100dvh;
+  }
+}
 /**
  * Remove all the margin in all browsers.
  */
@@ -107,7 +112,7 @@ abbr[title] {
 
 b,
 strong {
-  font-weight: bolder;
+  font-weight: var(--bold);
 }
 
 /**
@@ -185,9 +190,9 @@ select {
  */
 
 button,
-[type='button'],
-[type='reset'],
-[type='submit'] {
+[type="button"],
+[type="reset"],
+[type="submit"] {
   -webkit-appearance: button;
 }
 
@@ -196,9 +201,9 @@ button,
  */
 
 button::-moz-focus-inner,
-[type='button']::-moz-focus-inner,
-[type='reset']::-moz-focus-inner,
-[type='submit']::-moz-focus-inner {
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
   border-style: none;
   padding: 0;
 }
@@ -208,9 +213,9 @@ button::-moz-focus-inner,
  */
 
 button:-moz-focusring,
-[type='button']:-moz-focusring,
-[type='reset']:-moz-focusring,
-[type='submit']:-moz-focusring {
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
   outline: 1px dotted ButtonText;
 }
 
@@ -263,8 +268,8 @@ textarea {
  * Correct the cursor style of increment and decrement buttons in Chrome.
  */
 
-[type='number']::-webkit-inner-spin-button,
-[type='number']::-webkit-outer-spin-button {
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
   height: auto;
 }
 
@@ -273,7 +278,7 @@ textarea {
  * 2. Correct the outline style in Safari.
  */
 
-[type='search'] {
+[type="search"] {
   -webkit-appearance: textfield; /* 1 */
   outline-offset: -2px; /* 2 */
 }
@@ -282,7 +287,7 @@ textarea {
  * Remove the inner padding in Chrome and Safari on macOS.
  */
 
-[type='search']::-webkit-search-decoration {
+[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
 }
 
@@ -331,8 +336,7 @@ video {
 }
 
 a {
-  --text-decoration: none;
-  text-decoration: var(--text-decoration);
+  text-decoration: var(--text-decoration, none);
 }
 
 /* Make images easier to work with */
@@ -358,32 +362,12 @@ html:focus-within {
     scroll-behavior: auto;
   }
 
-  [data-reduce-animation],
-  [data-reduce-animation]::before,
-  [data-reduce-animation]::after,
-  [data-reduce-animation] *,
-  [data-reduce-animation] *::before,
-  [data-reduce-animation] *::after {
+  *,
+  *::before,
+  *::after {
     animation-duration: 0.01ms !important;
     animation-iteration-count: 1 !important;
     transition-duration: 0.01ms !important;
     scroll-behavior: auto !important;
-  }
-}
-
-/* position icons */
-.mmi {
-  position: relative;
-  line-height: 0;
-  display: inline-block;
-  top: var(--mmi-top);
-}
-
-/* target safari only */
-@supports (selector(:nth-child(1 of x))) or (-webkit-touch-callout: none) {
-  /* icons are 2px off in vertical alignment in safari */
-  .mmi {
-    --mmi-top-safari: -2px;
-    --mmi-top: var(--mmi-top-safari);
   }
 }

@@ -1,0 +1,66 @@
+:root {
+  --grape: rgba(180, 102, 255, 1);
+  --grape-20: rgba(180, 102, 255, 0.2);
+  --grape-40: rgba(180, 102, 255, 0.4);
+  --grape-60: rgba(180, 102, 255, 0.6);
+  --grape-80: rgba(180, 102, 255, 0.8);
+
+  --grape-hover: rgba(195, 132, 255, 1);
+  --grape-pressed: rgba(157, 75, 236, 1);
+  --grape-light-hover: rgba(243, 230, 255, 1);
+  --grape-light-pressed: rgba(233, 209, 255, 1);
+
+  --white: rgba(255, 255, 255, 1);
+  --white-20: rgba(255, 255, 255, 0.2);
+  --white-40: rgba(255, 255, 255, 0.4);
+  --white-60: rgba(255, 255, 255, 0.6);
+  --white-80: rgba(255, 255, 255, 0.8);
+
+  --black: rgba(9, 9, 9, 1);
+  --black-20: rgba(0, 0, 0, 0.2);
+  --black-40: rgba(0, 0, 0, 0.4);
+  --black-60: rgba(0, 0, 0, 0.6);
+  --black-80: rgba(0, 0, 0, 0.8);
+
+  --violet: rgba(227, 199, 255, 1);
+  --lavender: rgba(229, 223, 230, 1);
+  --greige: rgba(241, 237, 231, 1);
+  --dove: rgba(245, 245, 245, 1);
+  --storm: rgba(131, 132, 146, 1);
+
+  --peach: rgba(255, 180, 157, 1);
+  --sky: rgba(109, 199, 255, 1);
+  --sea-green: rgba(103, 227, 222, 1);
+  --emerald: rgba(0, 196, 148, 1);
+  --denim: rgba(7, 17, 112, 1);
+  --cheeks: rgba(255, 225, 217, 1);
+  --lagoon: rgba(190, 230, 255, 1);
+  --sea-foam: rgba(191, 243, 239, 1);
+  --sage: rgba(187, 231, 216, 1);
+  --blueberry: rgba(161, 154, 255, 1);
+
+  --info-1: rgba(84, 135, 245, 1);
+  --success-1: rgba(0, 196, 140, 1);
+  --alert-1: rgba(241, 180, 34, 1)
+  --warning-1: rgba(255, 162, 107, 1);
+  --error-1: rgba(245, 26, 60, 1);
+
+  --error-hover: rgba(247, 72, 99, 1);
+  --error-pressed: rgba(221, 23, 54, 1);
+
+  --info-2: rgba(229, 237, 254, 1);
+  --success-2: rgba(217, 246, 238, 1);
+  --alert-2: rgba(255, 248, 231, 1);
+  --warning-2: rgba(255, 241, 233, 1);
+  --error-2: rgba(255, 232, 235, 1);
+
+  --gray-2: rgba(250, 250, 250, 1);
+  --gray-3: rgba(235, 235, 235, 1);
+  --gray-4: rgba(215, 215, 215, 1);
+  --gray-5: rgba(180, 180, 180, 1);
+  --gray-6: rgba(155, 155, 155, 1);
+  --gray-7: rgba(105, 105, 105, 1);
+  --gray-8: rgba(58, 58, 58, 1);
+
+  --skeleton: linear-gradient(90deg, #e7ebfb 0%, #f5f7ff 100%);
+}

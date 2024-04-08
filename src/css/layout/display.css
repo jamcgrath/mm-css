@@ -1,0 +1,29 @@
+@responsive {
+  .block {
+    display: block;
+  }
+  .inline {
+    display: inline;
+  }
+  .inline-block {
+    display: inline-block;
+  }
+  .flex {
+    display: flex;
+  }
+  .inline-flex {
+    display: inline-flex;
+  }
+  .grid {
+    display: grid;
+  }
+  .inline-grid {
+    display: inline-grid;
+  }
+  .flow-root {
+    display: flow-root;
+  }
+  .hidden {
+    display: none;
+  }
+}

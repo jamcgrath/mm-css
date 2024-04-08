@@ -1,69 +1,69 @@
 {
-  ".j-items-flex-start": {
+  ".j-items-flex-start,\n  .justify-items-flex-start": {
     "justifyItems": "flex-start"
   },
-  ".j-items-flex-end": {
+  ".j-items-flex-end,\n  .justify-items-flex-end": {
     "justifyItems": "flex-end"
   },
-  ".j-items-center": {
+  ".j-items-center,\n  .justify-items-center": {
     "justifyItems": "center"
   },
-  ".j-items-start": {
+  ".j-items-start,\n  .justify-items-start": {
     "justifyItems": "start"
   },
-  ".j-items-end": {
+  ".j-items-end,\n  .justify-items-end": {
     "justifyItems": "end"
   },
-  ".j-items-stretch": {
+  ".j-items-stretch,\n  .justify-items-stretch": {
     "justifyItems": "stretch"
   },
-  ".j-items-self-start": {
+  ".j-items-self-start,\n  .justify-items-self-start": {
     "justifyItems": "self-start"
   },
-  ".j-items-self-end": {
+  ".j-items-self-end,\n  .justify-items-self-end": {
     "justifyItems": "self-end"
   },
-  ".j-items-left": {
+  ".j-items-left,\n  .justify-items-left": {
     "justifyItems": "left"
   },
-  ".j-items-right": {
+  ".j-items-right,\n  .justify-items-right": {
     "justifyItems": "right"
   },
-  ".j-items-normal": {
+  ".j-items-normal,\n  .justify-items-normal": {
     "justifyItems": "normal"
   },
   "@media (min-width: 1024px)": {
-    ".lg-j-items-flex-start": {
+    ".lg-j-items-flex-start,\n.lg-justify-items-flex-start": {
       "justifyItems": "flex-start"
     },
-    ".lg-j-items-flex-end": {
+    ".lg-j-items-flex-end,\n.lg-justify-items-flex-end": {
       "justifyItems": "flex-end"
     },
-    ".lg-j-items-center": {
+    ".lg-j-items-center,\n.lg-justify-items-center": {
       "justifyItems": "center"
     },
-    ".lg-j-items-start": {
+    ".lg-j-items-start,\n.lg-justify-items-start": {
       "justifyItems": "start"
     },
-    ".lg-j-items-end": {
+    ".lg-j-items-end,\n.lg-justify-items-end": {
       "justifyItems": "end"
     },
-    ".lg-j-items-stretch": {
+    ".lg-j-items-stretch,\n.lg-justify-items-stretch": {
       "justifyItems": "stretch"
     },
-    ".lg-j-items-self-start": {
+    ".lg-j-items-self-start,\n.lg-justify-items-self-start": {
       "justifyItems": "self-start"
     },
-    ".lg-j-items-self-end": {
+    ".lg-j-items-self-end,\n.lg-justify-items-self-end": {
       "justifyItems": "self-end"
     },
-    ".lg-j-items-left": {
+    ".lg-j-items-left,\n.lg-justify-items-left": {
       "justifyItems": "left"
     },
-    ".lg-j-items-right": {
+    ".lg-j-items-right,\n.lg-justify-items-right": {
       "justifyItems": "right"
     },
-    ".lg-j-items-normal": {
+    ".lg-j-items-normal,\n.lg-justify-items-normal": {
       "justifyItems": "normal"
     }
   }

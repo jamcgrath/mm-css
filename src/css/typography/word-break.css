@@ -1,0 +1,12 @@
+.break-normal {
+  word-break: normal;
+}
+.break-all {
+  word-break: break-all;
+}
+.break-keep {
+  word-break: keep-all;
+}
+.break-word {
+  word-break: break-word;
+}

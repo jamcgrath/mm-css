@@ -1,45 +1,57 @@
 {
-  ".a-items-flex-start": {
+  ".a-items-flex-start,\n  .items-flex-start": {
     "alignItems": "flex-start"
   },
-  ".a-items-flex-end": {
+  ".a-items-flex-end,\n  .items-flex-end": {
     "alignItems": "flex-end"
   },
-  ".a-items-center": {
+  ".a-items-center,\n  .items-center": {
     "alignItems": "center"
   },
-  ".a-items-start": {
+  ".a-items-start,\n  .items-start": {
     "alignItems": "start"
   },
-  ".a-items-end": {
+  ".a-items-end,\n  .items-end": {
     "alignItems": "end"
   },
-  ".a-items-normal": {
+  ".a-items-self-start,\n  .items-self-start": {
+    "alignItems": "self-start"
+  },
+  ".a-items-self-end,\n  .items-self-end": {
+    "alignItems": "self-end"
+  },
+  ".a-items-normal,\n  .items-normal": {
     "alignItems": "normal"
   },
-  ".a-items-stretch": {
+  ".a-items-stretch,\n  .items-stretch": {
     "alignItems": "stretch"
   },
   "@media (min-width: 1024px)": {
-    ".lg-a-items-flex-start": {
+    ".lg-a-items-flex-start,\n.lg-items-flex-start": {
       "alignItems": "flex-start"
     },
-    ".lg-a-items-flex-end": {
+    ".lg-a-items-flex-end,\n.lg-items-flex-end": {
       "alignItems": "flex-end"
     },
-    ".lg-a-items-center": {
+    ".lg-a-items-center,\n.lg-items-center": {
       "alignItems": "center"
     },
-    ".lg-a-items-start": {
+    ".lg-a-items-start,\n.lg-items-start": {
       "alignItems": "start"
     },
-    ".lg-a-items-end": {
+    ".lg-a-items-end,\n.lg-items-end": {
       "alignItems": "end"
     },
-    ".lg-a-items-normal": {
+    ".lg-a-items-self-start,\n.lg-items-self-start": {
+      "alignItems": "self-start"
+    },
+    ".lg-a-items-self-end,\n.lg-items-self-end": {
+      "alignItems": "self-end"
+    },
+    ".lg-a-items-normal,\n.lg-items-normal": {
       "alignItems": "normal"
     },
-    ".lg-a-items-stretch": {
+    ".lg-a-items-stretch,\n.lg-items-stretch": {
       "alignItems": "stretch"
     }
   }

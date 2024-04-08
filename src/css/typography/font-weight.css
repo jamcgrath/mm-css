@@ -1,0 +1,45 @@
+.thin,
+.fw-100 {
+  --font-weight: var(--fw-100);
+  font-weight: var(--font-weight);
+}
+.extra-light,
+.fw-200 {
+  --font-weight: var(--fw-200);
+  font-weight: var(--font-weight);
+}
+.light,
+.fw-300 {
+  --font-weight: var(--light);
+  font-weight: var(--font-weight);
+}
+.regular,
+.fw-400 {
+  --font-weight: var(--regular);
+  font-weight: var(--font-weight);
+}
+.medium,
+.fw-500 {
+  --font-weight: var(--medium);
+  font-weight: var(--font-weight);
+}
+.bold,
+.fw-600 {
+  --font-weight: var(--semi-bold);
+  font-weight: var(--font-weight);
+}
+.semi-bold,
+.fw-700 {
+  --font-weight: var(--bold);
+  font-weight: var(--font-weight);
+}
+.extra-bold,
+.fw-800 {
+  --font-weight: var(--fw-800);
+  font-weight: var(--font-weight);
+}
+.black-bold,
+.fw-900 {
+  --font-weight: var(--fw-900);
+  font-weight: var(--font-weight);
+}

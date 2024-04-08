@@ -1,34 +1,34 @@
 {
-  ".of-contain": {
-    "of": "contain"
+  ".object-contain": {
+    "objectFit": "contain"
   },
-  ".of-cover": {
-    "of": "cover"
+  ".object-cover": {
+    "objectFit": "cover"
   },
-  ".of-fill": {
-    "of": "fill"
+  ".object-fill": {
+    "objectFit": "fill"
   },
-  ".of-none": {
-    "of": "none"
-  },
-  ".of-scale-down": {
+  ".object-scale-down": {
     "objectFit": "scale-down"
   },
+  ".object-none": {
+    "objectFit": "none"
+  },
   "@media (min-width: 1024px)": {
-    ".lg-of-contain": {
-      "of": "contain"
+    ".lg-object-contain": {
+      "objectFit": "contain"
     },
-    ".lg-of-cover": {
-      "of": "cover"
+    ".lg-object-cover": {
+      "objectFit": "cover"
     },
-    ".lg-of-fill": {
-      "of": "fill"
+    ".lg-object-fill": {
+      "objectFit": "fill"
     },
-    ".lg-of-none": {
-      "of": "none"
-    },
-    ".lg-of-scale-down": {
+    ".lg-object-scale-down": {
       "objectFit": "scale-down"
+    },
+    ".lg-object-none": {
+      "objectFit": "none"
     }
   }
 }

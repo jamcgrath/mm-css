@@ -65,11 +65,29 @@
   ".w-95": {
     "width": "95%"
   },
-  ".w-100": {
+  ".w-100,\n  .w-full": {
     "width": "100%"
   },
-  ".w-100vw": {
+  ".w-100vw,\n  .w-screen": {
     "width": "100vw"
+  },
+  ".w-svw": {
+    "width": "100svw"
+  },
+  ".w-dvw": {
+    "width": "100dvw"
+  },
+  ".w-min": {
+    "width": "min-content"
+  },
+  ".w-max": {
+    "width": "max-content"
+  },
+  ".w-fit": {
+    "width": [
+      "-moz-fit-content",
+      "fit-content"
+    ]
   },
   "@media (min-width: 1024px)": {
     ".lg-w-auto": {
@@ -138,11 +156,29 @@
     ".lg-w-95": {
       "width": "95%"
     },
-    ".lg-w-100": {
+    ".lg-w-100,\n.lg-w-full": {
       "width": "100%"
     },
-    ".lg-w-100vw": {
+    ".lg-w-100vw,\n.lg-w-screen": {
       "width": "100vw"
+    },
+    ".lg-w-svw": {
+      "width": "100svw"
+    },
+    ".lg-w-dvw": {
+      "width": "100dvw"
+    },
+    ".lg-w-min": {
+      "width": "min-content"
+    },
+    ".lg-w-max": {
+      "width": "max-content"
+    },
+    ".lg-w-fit": {
+      "width": [
+        "-moz-fit-content",
+        "fit-content"
+      ]
     }
   }
 }

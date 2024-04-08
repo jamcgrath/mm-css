@@ -1,9 +1,0 @@
-.black-bg_hover:hover {
-  background-color: var(--black);
-}
-.white-bg_hover:hover {
-  background-color: var(--white);
-}
-.transparent-bg_hover:hover {
-  background-color: transparent;
-}

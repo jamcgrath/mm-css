@@ -5,6 +5,18 @@
   ".float-right": {
     "cssFloat": "right"
   },
+  "[dir=\"ltr\"] .float-start": {
+    "cssFloat": "left"
+  },
+  "[dir=\"rtl\"] .float-start": {
+    "cssFloat": "right"
+  },
+  "[dir=\"ltr\"] .float-end": {
+    "cssFloat": "right"
+  },
+  "[dir=\"rtl\"] .float-end": {
+    "cssFloat": "left"
+  },
   ".float-none": {
     "cssFloat": "none"
   },
@@ -14,6 +26,18 @@
     },
     ".lg-float-right": {
       "cssFloat": "right"
+    },
+    "[dir=\"ltr\"] .lg-float-start": {
+      "cssFloat": "left"
+    },
+    "[dir=\"rtl\"] .lg-float-start": {
+      "cssFloat": "right"
+    },
+    "[dir=\"ltr\"] .lg-float-end": {
+      "cssFloat": "right"
+    },
+    "[dir=\"rtl\"] .lg-float-end": {
+      "cssFloat": "left"
     },
     ".lg-float-none": {
       "cssFloat": "none"

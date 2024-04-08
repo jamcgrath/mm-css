@@ -3,19 +3,16 @@
     "borderRadius": "0"
   },
   ".br-4": {
-    "borderRadius": "4px"
+    "borderRadius": "var(--space-1)"
   },
   ".br-8": {
-    "borderRadius": "8px"
+    "borderRadius": "var(--space-2)"
   },
   ".br-12": {
-    "borderRadius": "12px"
+    "borderRadius": "var(--space-3)"
   },
-  ".br-96": {
-    "borderRadius": "96px"
-  },
-  ".br-100": {
-    "borderRadius": "100px"
+  ".br-16": {
+    "borderRadius": "var(--space-4)"
   },
   ".circle": {
     "borderRadius": "50%"
@@ -25,19 +22,16 @@
       "borderRadius": "0"
     },
     ".lg-br-4": {
-      "borderRadius": "4px"
+      "borderRadius": "var(--space-1)"
     },
     ".lg-br-8": {
-      "borderRadius": "8px"
+      "borderRadius": "var(--space-2)"
     },
     ".lg-br-12": {
-      "borderRadius": "12px"
+      "borderRadius": "var(--space-3)"
     },
-    ".lg-br-96": {
-      "borderRadius": "96px"
-    },
-    ".lg-br-100": {
-      "borderRadius": "100px"
+    ".lg-br-16": {
+      "borderRadius": "var(--space-4)"
     },
     ".lg-circle": {
       "borderRadius": "50%"

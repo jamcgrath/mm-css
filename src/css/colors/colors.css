@@ -1,0 +1,226 @@
+.grape {
+  --color: var(--grape);
+  color: var(--color);
+}
+.grape-20 {
+  --color: var(--grape-20);
+  color: var(--color);
+}
+.grape-40 {
+  --color: var(--grape-40);
+  color: var(--color);
+}
+.grape-60 {
+  --color: var(--grape-60);
+  color: var(--color);
+}
+.grape-80 {
+  --color: var(--grape-80);
+  color: var(--color);
+}
+
+.grape-hover:hover,
+.grape:hover {
+  --color: var(--grape-hover);
+  color: var(--color);
+}
+.grape-pressed:active,
+.grape:active {
+  --color: var(--grape-pressed);
+  color: var(--color);
+}
+.grape-light-hover:hover,
+.grape-light:hover {
+  --color: var(--grape-light-hover);
+  color: var(--color);
+}
+.grape-light-pressed:active,
+.grape-light:active {
+  --color: var(--grape-light-pressed);
+  color: var(--color);
+}
+
+.white {
+  --color: var(--white);
+  color: var(--color);
+}
+.white-20 {
+  --color: var(--white-20);
+  color: var(--color);
+}
+.white-40 {
+  --color: var(--white-40);
+  color: var(--color);
+}
+.white-60 {
+  --color: var(--white-60);
+  color: var(--color);
+}
+.white-80 {
+  --color: var(--white-80);
+  color: var(--color);
+}
+
+.black {
+  --color: var(--black);
+  color: var(--color);
+}
+.black-20 {
+  --color: var(--black-20);
+  color: var(--color);
+}
+.black-40 {
+  --color: var(--black-40);
+  color: var(--color);
+}
+.black-60 {
+  --color: var(--black-60);
+  color: var(--color);
+}
+.black-80 {
+  --color: var(--black-80);
+  color: var(--color);
+}
+
+.violet {
+  --color: var(--violet);
+  color: var(--color);
+}
+.lavendar {
+  --color: var(--lavendar);
+  color: var(--color);
+}
+.greige {
+  --color: var(--greige);
+  color: var(--color);
+}
+.dove {
+  --color: var(--dove);
+  color: var(--color);
+}
+.storm {
+  --color: var(--storm);
+  color: var(--color);
+}
+
+.peach {
+  --color: var(--peach);
+  color: var(--color);
+}
+.sky {
+  --color: var(--sky);
+  color: var(--color);
+}
+.sea-green {
+  --color: var(--sea-green);
+  color: var(--color);
+}
+.emerald {
+  --color: var(--emerald);
+  color: var(--color);
+}
+.denim {
+  --color: var(--denim);
+  color: var(--color);
+}
+.cheeks {
+  --color: var(--cheeks);
+  color: var(--color);
+}
+.lagoon {
+  --color: var(--lagoon);
+  color: var(--color);
+}
+.sea-foam {
+  --color: var(--sea-foam);
+  color: var(--color);
+}
+.sage {
+  --color: var(--sage);
+  color: var(--color);
+}
+.blueberry {
+  --color: var(--blueberry);
+  color: var(--color);
+}
+
+.info-1 {
+  --color: var(--info-1);
+  color: var(--color);
+}
+.success-1 {
+  --color: var(--success-1);
+  color: var(--color);
+}
+.alert-1 {
+  --color: var(--alert-1);
+  color: var(--color);
+}
+.warning-1 {
+  --color: var(--warning-1);
+  color: var(--color);
+}
+.error-1 {
+  --color: var(--error-1);
+  color: var(--color);
+}
+.error-hover:hover,
+.error-1:hover {
+  --color: var(--error-hover);
+  color: var(--color);
+}
+.error-pressed:active,
+.error-1:active {
+  --color: var(--error-pressed);
+  color: var(--color);
+}
+
+.info-2 {
+  --color: var(--info-2);
+  color: var(--color);
+}
+.success-2 {
+  --color: var(--success-2);
+  color: var(--color);
+}
+.alert-2 {
+  --color: var(--alert-2);
+  color: var(--color);
+}
+.warning-2 {
+  --color: var(--warning-2);
+  color: var(--color);
+}
+.error-2 {
+  --color: var(--error-2);
+  color: var(--color);
+}
+
+.gray-2 {
+  --color: var(--gray-2);
+  color: var(--color);
+}
+.gray-3 {
+  --color: var(--gray-3);
+  color: var(--color);
+}
+.gray-4 {
+  --color: var(--gray-4);
+  color: var(--color);
+}
+.gray-5 {
+  --color: var(--gray-5);
+  color: var(--color);
+}
+.gray-6 {
+  --color: var(--gray-6);
+  color: var(--color);
+}
+.gray-7 {
+  --color: var(--gray-7);
+  color: var(--color);
+}
+.gray-8 {
+  --color: var(--gray-8);
+  color: var(--color);
+}

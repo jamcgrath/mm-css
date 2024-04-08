@@ -34,10 +34,7 @@
     "fontWeight": 400,
     "lineHeight": "var(--lh-125)",
     "color": "var(--gray-6)",
-    "width": [
-      "-webkit-max-content",
-      "max-content"
-    ]
+    "width": "max-content"
   },
   ".list-check-sm": {
     "--list-fs": "var(--caption)"
@@ -90,10 +87,7 @@
       "fontWeight": 400,
       "lineHeight": "var(--lh-125)",
       "color": "var(--gray-6)",
-      "width": [
-        "-webkit-max-content",
-        "max-content"
-      ]
+      "width": "max-content"
     },
     ".lg-list-check-sm": {
       "--list-fs": "var(--caption)"

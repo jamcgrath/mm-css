@@ -1,23 +1,42 @@
 {
+  ":root": {
+    "--mq-sm": "480px",
+    "--mq-md": "768px",
+    "--mq-lg": "1024px",
+    "--mq-xl": "1280px",
+    "--mq-2xl": "1920px"
+  },
   ".container,\n.sm-container,\n.md-container,\n.lg-container,\n.xl-container,\n.xxl-container": {
-    "width": "100%"
+    "--container-max-width": "none",
+    "width": "100%",
+    "maxWidth": "var(--container-max-width)"
   },
-  ".sm-container": {
-    "maxWidth": "480px"
+  "@media (min-width: 480px)": {
+    ".sm-container": {
+      "--container-max-width": "var(--mq-sm)"
+    }
   },
-  ".md-container": {
-    "maxWidth": "768px"
+  "@media (min-width: 768px)": {
+    ".md-container": {
+      "--container-max-width": "var(--mq-md)"
+    }
   },
-  ".lg-container": {
-    "maxWidth": "1024px"
+  "@media (min-width: 1024px)": {
+    ".lg-container": {
+      "--container-max-width": "var(--mq-lg)"
+    }
   },
-  ".xl-container": {
-    "maxWidth": "1280px"
+  "@media (min-width: 1280px)": {
+    ".xl-container": {
+      "--container-max-width": "var(--mq-xl)"
+    }
   },
-  ".xxl-container": {
-    "maxWidth": "1920px"
+  "@media (min-width: 1920px)": {
+    ".xxl-container": {
+      "--container-max-width": "var(--mq-2xl)"
+    }
   },
-  ".fullwidth": {
+  ".fullwidth,\n.full-width": {
     "width": "100vw",
     "position": "relative",
     "left": "50%",
