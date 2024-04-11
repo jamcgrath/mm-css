@@ -1,5 +1,5 @@
 {
-  ".ws-normal,\n.whitwspace-normal": {
+  ".ws-normal,\n.whitespace-normal": {
     "whiteSpace": "normal"
   },
   ".ws-nowrap,\n.whitespace-nowrap": {
