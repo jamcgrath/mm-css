@@ -17,8 +17,8 @@ html {
   line-height: 1.25; /* 1 */
   font-size: var(--base-fs);
   -webkit-text-size-adjust: 100%; /* 2 */
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: auto;
+  -moz-osx-font-smoothing: auto;
 }
 
 /* Box sizing */
@@ -37,11 +37,11 @@ body {
   min-height: 100vh;
   text-rendering: optimizeSpeed;
   font-family: var(--sans);
-  scrollbar-gutter: stable both-edges;
+  /* scrollbar-gutter: stable; */
   color: var(--body-color);
   overflow-y: scroll;
   overflow-x: hidden;
-  scroll-behavior: smooth;
+  scroll-behavior: var(--scroll-behaviour, smooth);
   -webkit-overflow-scrolling: touch;
 }
 @supports (height: 1dvh) {

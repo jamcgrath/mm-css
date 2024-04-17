@@ -1,6 +1,6 @@
 @responsive {
   .a-self-center,
-  .self {
+  .self-center {
     align-self: center;
   }
   .a-self-start,
