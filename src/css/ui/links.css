@@ -28,7 +28,7 @@
     var(--black)
   );
 }
-.link:focus {
+.link:focus-visible {
   --link-color: var(--link-focus-color, var(--black));
   --link-text-decoration-color: var(
     --link-text-decoration-color-focus,
