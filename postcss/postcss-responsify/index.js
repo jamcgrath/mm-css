@@ -4,19 +4,19 @@
 const defaultBreakpoints = [
 	{
 		prefix: "xs-",
-		mediaQuery: "(max-width: 40em)",
+		mediaQuery: "(max-width: 640px)",
 	},
 	{
 		prefix: "sm-",
-		mediaQuery: "(min-width: 40em)",
+		mediaQuery: "(min-width: 640px)",
 	},
 	{
 		prefix: "md-",
-		mediaQuery: "(min-width: 52em)",
+		mediaQuery: "(min-width: 768px)",
 	},
 	{
 		prefix: "lg-",
-		mediaQuery: "(min-width: 64em)",
+		mediaQuery: "(min-width: 1024px)",
 	},
 ];
 
