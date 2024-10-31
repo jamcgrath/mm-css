@@ -46,7 +46,6 @@
     "fontFamily": "var(--font-family, var(--sans-serif))",
     "fontWeight": "var(--font-weight, var(--regular))",
     "fontStyle": "var(--font-style, normal)",
-    "WebkitTextDecorationLine": "var(--text-decoration-line, none)",
     "textDecorationLine": "var(--text-decoration-line, none)",
     "lineHeight": "var(--line-height, 1.5)",
     "color": "var(--color, var(--black))"
@@ -56,7 +55,6 @@
     "fontFamily": "var(--font-family, var(--sans-serif))",
     "fontWeight": "var(--font-weight, var(--regular))",
     "fontStyle": "var(--font-style, normal)",
-    "WebkitTextDecorationLine": "var(--text-decoration-line, none)",
     "textDecorationLine": "var(--text-decoration-line, none)",
     "lineHeight": "var(--line-height, 1.5)",
     "color": "var(--color, var(--black))"
@@ -66,7 +64,6 @@
     "fontFamily": "var(--font-family, var(--sans-serif))",
     "fontWeight": "var(--font-weight, var(--regular))",
     "fontStyle": "var(--font-style, normal)",
-    "WebkitTextDecorationLine": "var(--text-decoration-line, none)",
     "textDecorationLine": "var(--text-decoration-line, none)",
     "lineHeight": "var(--line-height, 1.2857)",
     "color": "var(--color, var(--black))"
@@ -76,7 +73,6 @@
     "fontFamily": "var(--font-family, var(--sans-serif))",
     "fontWeight": "var(--font-weight, var(--regular))",
     "fontStyle": "var(--font-style, normal)",
-    "WebkitTextDecorationLine": "var(--text-decoration-line, none)",
     "textDecorationLine": "var(--text-decoration-line, none)",
     "lineHeight": "var(--line-height, 1.25)",
     "color": "var(--color, var(--black))"

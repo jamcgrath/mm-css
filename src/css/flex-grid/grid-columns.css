@@ -36,13 +36,3 @@
     grid-template-columns: repeat(12, minmax(0, 1fr));
   }
 }
-
-@supports (width: min(250px, 100%)) {
-  .grid-fluid {
-    --_grid-min: var(--col-width, 250px);
-    grid-template-columns: repeat(
-      auto-fit,
-      minmax(min(var(--_grid-min), 100%), 1fr)
-    );
-  }
-}

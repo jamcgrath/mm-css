@@ -1,14 +1,14 @@
 {
-  ".tu-offset-auto": {
+  ".underline-offset-auto": {
     "textUnderlineOffset": "auto"
   },
-  ".tu-offset-1px": {
+  ".underline-offset-1px": {
     "textUnderlineOffset": "1px"
   },
-  ".tu-offset-2px": {
+  ".underline-offset-2px": {
     "textUnderlineOffset": "2px"
   },
-  ".tu-offset-4px": {
+  ".underline-offset-4px": {
     "textUnderlineOffset": "4px"
   }
 }

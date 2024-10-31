@@ -7,7 +7,6 @@
  *    https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe
  */
 
-.visually-hidden,
 .sr-only {
   border: 0;
   clip: rect(0, 0, 0, 0);
@@ -29,8 +28,6 @@
  * To use, add the class .visually-hidden.focusable to an element.
  */
 
-.visually-hidden.focusable:active,
-.visually-hidden.focusable:focus,
 .sr-only.focusable:active,
 .sr-only.focusable:focus {
   clip: auto;
@@ -50,7 +47,6 @@
     visibility: hidden;
   }
 
-  .reset-visually-hidden,
   .reset-sr-only {
     position: static;
     width: auto;

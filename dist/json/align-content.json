@@ -1,69 +1,57 @@
 {
-  ".a-content-center,\n  .content-center": {
+  ".content-center": {
     "alignContent": "center"
   },
-  ".a-content-start,\n  .content-start": {
-    "alignContent": "start"
-  },
-  ".a-content-end,\n  .content-end": {
-    "alignContent": "end"
-  },
-  ".a-content-flex-start,\n  .content-flex-start": {
+  ".content-start": {
     "alignContent": "flex-start"
   },
-  ".a-content-flex-end,\n  .content-flex-end": {
+  ".content-end": {
     "alignContent": "flex-end"
   },
-  ".a-content-between,\n  .content-between": {
+  ".content-between": {
     "alignContent": "space-between"
   },
-  ".a-content-around,\n  .content-around": {
+  ".content-around": {
     "alignContent": "space-around"
   },
-  ".a-content-evenly,\n  .content-evenly": {
+  ".content-evenly": {
     "alignContent": "space-evenly"
   },
-  ".a-content-stretch,\n  .content-stretch": {
+  ".content-stretch": {
     "alignContent": "stretch"
   },
-  ".a-content-baseline,\n  .content-baseline": {
+  ".content-baseline": {
     "alignContent": "baseline"
   },
-  ".a-content-normal,\n  .content-normal": {
+  ".content-normal": {
     "alignContent": "normal"
   },
   "@media (min-width: 1024px)": {
-    ".lg-a-content-center,\n.lg-content-center": {
+    ".lg-content-center": {
       "alignContent": "center"
     },
-    ".lg-a-content-start,\n.lg-content-start": {
-      "alignContent": "start"
-    },
-    ".lg-a-content-end,\n.lg-content-end": {
-      "alignContent": "end"
-    },
-    ".lg-a-content-flex-start,\n.lg-content-flex-start": {
+    ".lg-content-start": {
       "alignContent": "flex-start"
     },
-    ".lg-a-content-flex-end,\n.lg-content-flex-end": {
+    ".lg-content-end": {
       "alignContent": "flex-end"
     },
-    ".lg-a-content-between,\n.lg-content-between": {
+    ".lg-content-between": {
       "alignContent": "space-between"
     },
-    ".lg-a-content-around,\n.lg-content-around": {
+    ".lg-content-around": {
       "alignContent": "space-around"
     },
-    ".lg-a-content-evenly,\n.lg-content-evenly": {
+    ".lg-content-evenly": {
       "alignContent": "space-evenly"
     },
-    ".lg-a-content-stretch,\n.lg-content-stretch": {
+    ".lg-content-stretch": {
       "alignContent": "stretch"
     },
-    ".lg-a-content-baseline,\n.lg-content-baseline": {
+    ".lg-content-baseline": {
       "alignContent": "baseline"
     },
-    ".lg-a-content-normal,\n.lg-content-normal": {
+    ".lg-content-normal": {
       "alignContent": "normal"
     }
   }

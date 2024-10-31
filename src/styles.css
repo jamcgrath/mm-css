@@ -1,16 +1,7 @@
 @import "./css/typography/typography-props.css";
-@import "./css/spacing/spacing-props.css";
-@import "./css/colors/colors-props.css";
 @import "./css/normalize.css";
-@import "./css/borders/border-color.css";
-@import "./css/borders/border-radius.css";
 @import "./css/borders/border-style.css";
 @import "./css/borders/borders.css";
-@import "./css/colors/colors-bg.css";
-@import "./css/colors/colors.css";
-@import "./css/colors/skeleton.css";
-@import "./css/effects/blur.css";
-@import "./css/effects/box-shadow.css";
 @import "./css/effects/opacity.css";
 @import "./css/flex-grid/align-content.css";
 @import "./css/flex-grid/align-items.css";
@@ -19,7 +10,6 @@
 @import "./css/flex-grid/flex-direction.css";
 @import "./css/flex-grid/flex-wrap.css";
 @import "./css/flex-grid/flex.css";
-@import "./css/flex-grid/gap.css";
 @import "./css/flex-grid/grid-auto-columns.css";
 @import "./css/flex-grid/grid-auto-flow.css";
 @import "./css/flex-grid/grid-auto-rows.css";
@@ -41,8 +31,6 @@
 @import "./css/interactivity/pointer-events.css";
 @import "./css/interactivity/resize.css";
 @import "./css/interactivity/scroll-behaviour.css";
-@import "./css/interactivity/scroll-margin.css";
-@import "./css/interactivity/scroll-padding.css";
 @import "./css/interactivity/scroll-snap.css";
 @import "./css/interactivity/touch-action.css";
 @import "./css/interactivity/user-select.css";
@@ -68,21 +56,17 @@
 @import "./css/sizing/min-height.css";
 @import "./css/sizing/min-width.css";
 @import "./css/sizing/width.css";
-@import "./css/spacing/margin.css";
-@import "./css/spacing/padding.css";
 @import "./css/table/table.css";
 @import "./css/transform/rotate.css";
 @import "./css/transform/scale.css";
 @import "./css/typography/font-smoothing.css";
 @import "./css/typography/font-style.css";
 @import "./css/typography/font-variant-numeric.css";
-@import "./css/typography/font-weight-hover.css";
 @import "./css/typography/font-weight.css";
 @import "./css/typography/hyphens.css";
 @import "./css/typography/list.css";
 @import "./css/typography/text-align.css";
 @import "./css/typography/text-decoration-line.css";
-@import "./css/typography/text-decoration-color.css";
 @import "./css/typography/text-decoration-skip-ink.css";
 @import "./css/typography/text-decoration-style.css";
 @import "./css/typography/text-decoration-thickness.css";
@@ -94,7 +78,7 @@
 @import "./css/typography/white-space-collapse.css";
 @import "./css/typography/white-space.css";
 @import "./css/typography/word-break.css";
-@import "./css/ui/badges.css";
+/* @import "./css/ui/badges.css";
 @import "./css/ui/breadcrumb.css";
 @import "./css/ui/buttons.css";
-@import "./css/ui/links.css";
+@import "./css/ui/links.css"; */

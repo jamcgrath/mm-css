@@ -30,10 +30,7 @@
     "height": "max-content"
   },
   ".h-fit": {
-    "height": [
-      "-moz-fit-content",
-      "fit-content"
-    ]
+    "height": "fit-content"
   },
   ".h-auto": {
     "height": "auto"
@@ -70,10 +67,7 @@
       "height": "max-content"
     },
     ".lg-h-fit": {
-      "height": [
-        "-moz-fit-content",
-        "fit-content"
-      ]
+      "height": "fit-content"
     },
     ".lg-h-auto": {
       "height": "auto"

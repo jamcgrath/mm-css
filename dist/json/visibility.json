@@ -1,5 +1,5 @@
 {
-  ".visually-hidden,\n.sr-only": {
+  ".sr-only": {
     "border": "0",
     "clip": "rect(0, 0, 0, 0)",
     "height": "1px",
@@ -10,7 +10,7 @@
     "whiteSpace": "nowrap",
     "width": "1px"
   },
-  ".visually-hidden.focusable:active,\n.visually-hidden.focusable:focus,\n.sr-only.focusable:active,\n.sr-only.focusable:focus": {
+  ".sr-only.focusable:active,\n.sr-only.focusable:focus": {
     "clip": "auto",
     "height": "auto",
     "margin": "0",
@@ -22,7 +22,7 @@
   ".invisible": {
     "visibility": "hidden"
   },
-  ".reset-visually-hidden,\n  .reset-sr-only": {
+  ".reset-sr-only": {
     "position": "static",
     "width": "auto",
     "height": "auto",
@@ -36,7 +36,7 @@
     ".lg-invisible": {
       "visibility": "hidden"
     },
-    ".lg-reset-visually-hidden,\n.lg-reset-sr-only": {
+    ".lg-reset-sr-only": {
       "position": "static",
       "width": "auto",
       "height": "auto",

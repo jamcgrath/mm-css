@@ -84,10 +84,7 @@
     "width": "max-content"
   },
   ".w-fit": {
-    "width": [
-      "-moz-fit-content",
-      "fit-content"
-    ]
+    "width": "fit-content"
   },
   "@media (min-width: 1024px)": {
     ".lg-w-auto": {
@@ -175,10 +172,7 @@
       "width": "max-content"
     },
     ".lg-w-fit": {
-      "width": [
-        "-moz-fit-content",
-        "fit-content"
-      ]
+      "width": "fit-content"
     }
   }
 }

@@ -1,37 +1,22 @@
 @responsive {
-  .a-items-flex-start,
-  .items-flex-start {
-    align-items: flex-start;
-  }
-  .a-items-flex-end,
-  .items-flex-end {
-    align-items: flex-end;
-  }
-  .a-items-center,
   .items-center {
     align-items: center;
   }
-  .a-items-start,
   .items-start {
-    align-items: start;
+    align-items: flex-start;
   }
-  .a-items-end,
   .items-end {
-    align-items: end;
+    align-items: flex-end;
   }
-  .a-items-self-start,
   .items-self-start {
     align-items: self-start;
   }
-  .a-items-self-end,
   .items-self-end {
     align-items: self-end;
   }
-  .a-items-normal,
   .items-normal {
     align-items: normal;
   }
-  .a-items-stretch,
   .items-stretch {
     align-items: stretch;
   }

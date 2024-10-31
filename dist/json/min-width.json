@@ -9,9 +9,6 @@
     "minWidth": "min-content"
   },
   ".min-w-fit": {
-    "minWidth": [
-      "-moz-fit-content",
-      "fit-content"
-    ]
+    "minWidth": "fit-content"
   }
 }

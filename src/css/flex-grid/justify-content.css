@@ -1,49 +1,37 @@
 @responsive {
-  .j-content-start,
   .content-start {
     justify-content: start;
   }
-  .j-content-flex-start,
   .content-flex-start {
     justify-content: flex-start;
   }
-  .j-content-center,
   .content-center {
     justify-content: center;
   }
-  .j-content-end,
   .content-end {
     justify-content: end;
   }
-  .j-content-flex-end,
   .content-flex-end {
     justify-content: flex-end;
   }
-  .j-content-flex-left,
   .content-flex-left {
     justify-content: left;
   }
-  .j-content-flex-right,
   .content-flex-right {
     justify-content: right;
   }
-  .j-content-between,
   .content-between {
     justify-content: space-between;
   }
-  .j-content-around,
   .content-around {
     justify-content: space-around;
   }
-  .j-content-evenly,
   .content-evenly {
     justify-content: space-evenly;
   }
-  .j-content-stretch,
   .content-stretch {
     justify-content: stretch;
   }
-  .j-content-normal,
   .content-normal {
     justify-content: normal;
   }

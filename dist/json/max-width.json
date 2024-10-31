@@ -75,10 +75,7 @@
     "maxWidth": "min-content"
   },
   ".max-w-fit": {
-    "maxWidth": [
-      "-moz-fit-content",
-      "fit-content"
-    ]
+    "maxWidth": "fit-content"
   },
   "@media (min-width: 1024px)": {
     ".lg-max-w-5": {
@@ -157,10 +154,7 @@
       "maxWidth": "min-content"
     },
     ".lg-max-w-fit": {
-      "maxWidth": [
-        "-moz-fit-content",
-        "fit-content"
-      ]
+      "maxWidth": "fit-content"
     }
   }
 }

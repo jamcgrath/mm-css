@@ -1,63 +1,51 @@
 {
-  ".a-self-center,\n  .self-center": {
+  ".self-center": {
     "alignSelf": "center"
   },
-  ".a-self-start,\n  .self-start": {
-    "alignSelf": "start"
-  },
-  ".a-self-end,\n  .self-end": {
-    "alignSelf": "end"
-  },
-  ".a-self-flex-start,\n  .self-flex-start": {
+  ".self-start": {
     "alignSelf": "flex-start"
   },
-  ".a-self-flex-end,\n  .self-flex-end": {
+  ".self-end": {
     "alignSelf": "flex-end"
   },
-  ".a-self-self-start,\n  .self-self-start": {
+  ".self-self-start": {
     "alignSelf": "self-start"
   },
-  ".a-self-self-end,\n  .self-self-end": {
+  ".self-self-end": {
     "alignSelf": "self-end"
   },
-  ".a-self-stretch,\n  .self-stretch": {
+  ".self-stretch": {
     "alignSelf": "stretch"
   },
-  ".a-self-normal,\n  .self-normal": {
+  ".self-normal": {
     "alignSelf": "normal"
   },
-  ".a-self-auto,\n  .self-auto": {
+  ".self-auto": {
     "alignSelf": "auto"
   },
   "@media (min-width: 1024px)": {
-    ".lg-a-self-center,\n.lg-self-center": {
+    ".lg-self-center": {
       "alignSelf": "center"
     },
-    ".lg-a-self-start,\n.lg-self-start": {
-      "alignSelf": "start"
-    },
-    ".lg-a-self-end,\n.lg-self-end": {
-      "alignSelf": "end"
-    },
-    ".lg-a-self-flex-start,\n.lg-self-flex-start": {
+    ".lg-self-start": {
       "alignSelf": "flex-start"
     },
-    ".lg-a-self-flex-end,\n.lg-self-flex-end": {
+    ".lg-self-end": {
       "alignSelf": "flex-end"
     },
-    ".lg-a-self-self-start,\n.lg-self-self-start": {
+    ".lg-self-self-start": {
       "alignSelf": "self-start"
     },
-    ".lg-a-self-self-end,\n.lg-self-self-end": {
+    ".lg-self-self-end": {
       "alignSelf": "self-end"
     },
-    ".lg-a-self-stretch,\n.lg-self-stretch": {
+    ".lg-self-stretch": {
       "alignSelf": "stretch"
     },
-    ".lg-a-self-normal,\n.lg-self-normal": {
+    ".lg-self-normal": {
       "alignSelf": "normal"
     },
-    ".lg-a-self-auto,\n.lg-self-auto": {
+    ".lg-self-auto": {
       "alignSelf": "auto"
     }
   }

@@ -1,58 +1,46 @@
 {
-  ".object-t": {
+  ".object-top": {
     "objectPosition": "top"
   },
-  ".object-l": {
+  ".object-left": {
     "objectPosition": "left"
   },
-  ".object-r": {
-    "objectPosition": "right"
+  ".object-right": {
+    "objectPosition": "right bottom"
   },
-  ".object-b": {
+  ".object-bottom": {
     "objectPosition": "bottom"
   },
-  ".object-c": {
+  ".object-center": {
     "objectPosition": "center"
   },
-  ".object-tl": {
-    "objectPosition": "top left"
+  ".object-left-top": {
+    "objectPosition": "left top"
   },
-  ".object-tr": {
-    "objectPosition": "top right"
-  },
-  ".object-bl": {
-    "objectPosition": "bottom left"
-  },
-  ".object-br": {
-    "objectPosition": "bottom right"
+  ".object-left-bottom": {
+    "objectPosition": "left bottom"
   },
   "@media (min-width: 1024px)": {
-    ".lg-object-t": {
+    ".lg-object-top": {
       "objectPosition": "top"
     },
-    ".lg-object-l": {
+    ".lg-object-left": {
       "objectPosition": "left"
     },
-    ".lg-object-r": {
-      "objectPosition": "right"
+    ".lg-object-right": {
+      "objectPosition": "right bottom"
     },
-    ".lg-object-b": {
+    ".lg-object-bottom": {
       "objectPosition": "bottom"
     },
-    ".lg-object-c": {
+    ".lg-object-center": {
       "objectPosition": "center"
     },
-    ".lg-object-tl": {
-      "objectPosition": "top left"
+    ".lg-object-left-top": {
+      "objectPosition": "left top"
     },
-    ".lg-object-tr": {
-      "objectPosition": "top right"
-    },
-    ".lg-object-bl": {
-      "objectPosition": "bottom left"
-    },
-    ".lg-object-br": {
-      "objectPosition": "bottom right"
+    ".lg-object-left-bottom": {
+      "objectPosition": "left bottom"
     }
   }
 }

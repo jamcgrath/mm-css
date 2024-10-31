@@ -1,37 +1,25 @@
 {
   ".flex-1": {
-    "flex": 1
-  },
-  ".flex-2": {
-    "flex": 2
-  },
-  ".flex-3": {
-    "flex": 3
-  },
-  ".flex-4": {
-    "flex": 4
+    "flex": "1 1 0%"
   },
   ".flex-auto": {
-    "flex": "auto"
+    "flex": "1 1 auto"
+  },
+  ".flex-initial": {
+    "flex": "0 1 auto"
   },
   ".flex-none": {
     "flex": "none"
   },
   "@media (min-width: 1024px)": {
     ".lg-flex-1": {
-      "flex": 1
-    },
-    ".lg-flex-2": {
-      "flex": 2
-    },
-    ".lg-flex-3": {
-      "flex": 3
-    },
-    ".lg-flex-4": {
-      "flex": 4
+      "flex": "1 1 0%"
     },
     ".lg-flex-auto": {
-      "flex": "auto"
+      "flex": "1 1 auto"
+    },
+    ".lg-flex-initial": {
+      "flex": "0 1 auto"
     },
     ".lg-flex-none": {
       "flex": "none"

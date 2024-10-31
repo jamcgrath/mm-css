@@ -1,24 +1,18 @@
-.ws-normal,
 .whitespace-normal {
   white-space: normal;
 }
-.ws-nowrap,
 .whitespace-nowrap {
   white-space: nowrap;
 }
-.ws-pre,
 .whitespace-pre {
   white-space: pre;
 }
-.ws-pre-wrap,
 .whitespace-pre-wrap {
   white-space: pre-wrap;
 }
-.ws-pre-line,
 .whitespace-pre-line {
   white-space: pre-line;
 }
-.ws-break,
 .whitespace-break {
   white-space: break-spaces;
 }

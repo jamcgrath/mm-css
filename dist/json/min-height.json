@@ -33,9 +33,6 @@
     "minHeight": "max-content"
   },
   ".min-h-fit": {
-    "minHeight": [
-      "-moz-fit-content",
-      "fit-content"
-    ]
+    "minHeight": "fit-content"
   }
 }

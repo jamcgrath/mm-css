@@ -1,5 +1,4 @@
 @responsive {
-  .order-0,
   .order-none {
     order: 0;
   }

@@ -1,37 +1,37 @@
 {
-  ".thin,\n.fw-100": {
+  ".font-thin": {
     "--font-weight": "var(--fw-100)",
     "fontWeight": "var(--font-weight)"
   },
-  ".extra-light,\n.fw-200": {
+  ".font-extralight": {
     "--font-weight": "var(--fw-200)",
     "fontWeight": "var(--font-weight)"
   },
-  ".light,\n.fw-300": {
+  ".font-light": {
     "--font-weight": "var(--light)",
     "fontWeight": "var(--font-weight)"
   },
-  ".regular,\n.fw-400": {
+  ".font-regular": {
     "--font-weight": "var(--regular)",
     "fontWeight": "var(--font-weight)"
   },
-  ".medium,\n.fw-500": {
+  ".font-medium": {
     "--font-weight": "var(--medium)",
     "fontWeight": "var(--font-weight)"
   },
-  ".bold,\n.fw-600": {
+  ".font-bold": {
     "--font-weight": "var(--semi-bold)",
     "fontWeight": "var(--font-weight)"
   },
-  ".semi-bold,\n.fw-700": {
+  ".font-semibold": {
     "--font-weight": "var(--bold)",
     "fontWeight": "var(--font-weight)"
   },
-  ".extra-bold,\n.fw-800": {
+  ".font-extrabold": {
     "--font-weight": "var(--fw-800)",
     "fontWeight": "var(--font-weight)"
   },
-  ".black-bold,\n.fw-900": {
+  ".font-black": {
     "--font-weight": "var(--fw-900)",
     "fontWeight": "var(--font-weight)"
   }

@@ -1,45 +1,28 @@
 @responsive {
-  .a-content-center,
   .content-center {
     align-content: center;
   }
-  .a-content-start,
   .content-start {
-    align-content: start;
-  }
-  .a-content-end,
-  .content-end {
-    align-content: end;
-  }
-  .a-content-flex-start,
-  .content-flex-start {
     align-content: flex-start;
   }
-  .a-content-flex-end,
-  .content-flex-end {
+  .content-end {
     align-content: flex-end;
   }
-  .a-content-between,
   .content-between {
     align-content: space-between;
   }
-  .a-content-around,
   .content-around {
     align-content: space-around;
   }
-  .a-content-evenly,
   .content-evenly {
     align-content: space-evenly;
   }
-  .a-content-stretch,
   .content-stretch {
     align-content: stretch;
   }
-  .a-content-baseline,
   .content-baseline {
     align-content: baseline;
   }
-  .a-content-normal,
   .content-normal {
     align-content: normal;
   }
