@@ -1,23 +1,19 @@
-const breakpoints = [
-	
-	{ prefix: "lg-", mediaQuery: "(min-width: 1024px)" },
-	
-];
+const breakpoints = [{ prefix: "lg-", mediaQuery: "(min-width: 1024px)" }];
 
 const responsifyOptions = {
-	breakpoints,
+  breakpoints,
 };
 
 module.exports = {
-	plugins: [
-		require("postcss-import"),
-		require("./postcss/postcss-responsify/index.js")(responsifyOptions),
-		require("postcss-preset-env")({
-			stage: 2,
-			autoprefixer: { flexbox: false },
-			postcssCustomProperties: {
-				preserve: true,
-			},
-		}),
-	],
+  plugins: [
+    require("postcss-import"),
+    require("./postcss-plugins/postcss-responsify/index.js")(responsifyOptions),
+    require("postcss-preset-env")({
+      stage: 2,
+      autoprefixer: { flexbox: false },
+      postcssCustomProperties: {
+        preserve: true,
+      },
+    }),
+  ],
 };
