@@ -1,23 +1,23 @@
 {
-  ".items-center": {
+  "items-center": {
     "alignItems": "center"
   },
-  ".items-start": {
+  "items-start": {
     "alignItems": "flex-start"
   },
-  ".items-end": {
+  "items-end": {
     "alignItems": "flex-end"
   },
-  ".items-self-start": {
+  "items-self-start": {
     "alignItems": "self-start"
   },
-  ".items-self-end": {
+  "items-self-end": {
     "alignItems": "self-end"
   },
-  ".items-normal": {
+  "items-normal": {
     "alignItems": "normal"
   },
-  ".items-stretch": {
+  "items-stretch": {
     "alignItems": "stretch"
   }
 }

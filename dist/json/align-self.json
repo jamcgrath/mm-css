@@ -1,26 +1,26 @@
 {
-  ".self-center": {
+  "self-center": {
     "alignSelf": "center"
   },
-  ".self-start": {
+  "self-start": {
     "alignSelf": "flex-start"
   },
-  ".self-end": {
+  "self-end": {
     "alignSelf": "flex-end"
   },
-  ".self-self-start": {
+  "self-self-start": {
     "alignSelf": "self-start"
   },
-  ".self-self-end": {
+  "self-self-end": {
     "alignSelf": "self-end"
   },
-  ".self-stretch": {
+  "self-stretch": {
     "alignSelf": "stretch"
   },
-  ".self-normal": {
+  "self-normal": {
     "alignSelf": "normal"
   },
-  ".self-auto": {
+  "self-auto": {
     "alignSelf": "auto"
   }
 }

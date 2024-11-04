@@ -1,5 +1,5 @@
 {
-  ".breadcrumb": {
+  "breadcrumb": {
     "fontSize": "var(--body)",
     "fontWeight": "var(--regular)",
     "listStyle": "1.5",
@@ -13,14 +13,14 @@
     "borderRadius": "8px",
     "textDecoration": "none"
   },
-  ".breadcrumb:hover": {
+  "breadcrumb:hover": {
     "--breadcrumb-color": "var(--grape-hover)"
   },
-  ".bread-crumb:focus,\n.bread-crumb:active,\n.bread-crumb.current": {
+  "bread-crumb:focus,\nbread-crumb:active,\nbread-crumbcurrent": {
     "--breadcrumb-color": "var(--white)",
     "--breadcrumb-bg": "var(--grape)"
   },
-  ".breadcrumb.disabled,\n.breadcrumb[aria-disabled=\"true\"],\n.breadcrumb.disabled:hover,\n.breadcrumb[aria-disabled=\"true\"]:hover": {
+  "breadcrumbdisabled,\nbreadcrumb[aria-disabled=\"true\"],\nbreadcrumbdisabled:hover,\nbreadcrumb[aria-disabled=\"true\"]:hover": {
     "--breadcrumb-color": "var(--gray-5)",
     "--breadcrumb-bg": "var(--gray-3)",
     "pointerEvents": "none"

@@ -1,38 +1,38 @@
 {
-  ".h-100": {
+  "h-100": {
     "height": "100%"
   },
-  ".h-100vh": {
+  "h-100vh": {
     "height": "100vh"
   },
-  ".h-100svh": {
+  "h-100svh": {
     "height": [
       "100vh",
       "100svh"
     ]
   },
-  ".h-100lvh": {
+  "h-100lvh": {
     "height": [
       "100vh",
       "100lvh"
     ]
   },
-  ".h-100dvh": {
+  "h-100dvh": {
     "height": [
       "100vh",
       "100dvh"
     ]
   },
-  ".h-min": {
+  "h-min": {
     "height": "min-content"
   },
-  ".h-max": {
+  "h-max": {
     "height": "max-content"
   },
-  ".h-fit": {
+  "h-fit": {
     "height": "fit-content"
   },
-  ".h-auto": {
+  "h-auto": {
     "height": "auto"
   }
 }

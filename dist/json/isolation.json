@@ -1,8 +1,8 @@
 {
-  ".isolate": {
+  "isolate": {
     "isolation": "isolate"
   },
-  ".isolate-auto": {
+  "isolate-auto": {
     "isolation": "auto"
   }
 }

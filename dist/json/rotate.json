@@ -1,77 +1,77 @@
 {
-  ".rotate-0": {
+  "rotate-0": {
     "transform": "rotate(0deg)"
   },
-  ".rotate-15": {
+  "rotate-15": {
     "transform": "rotate(15deg)"
   },
-  ".rotate-30": {
+  "rotate-30": {
     "transform": "rotate(30deg)"
   },
-  ".rotate-45": {
+  "rotate-45": {
     "transform": "rotate(45deg)"
   },
-  ".rotate-60": {
+  "rotate-60": {
     "transform": "rotate(60deg)"
   },
-  ".rotate-75": {
+  "rotate-75": {
     "transform": "rotate(75deg)"
   },
-  ".rotate-90": {
+  "rotate-90": {
     "transform": "rotate(90deg)"
   },
-  ".rotate-105": {
+  "rotate-105": {
     "transform": "rotate(105deg)"
   },
-  ".rotate-120": {
+  "rotate-120": {
     "transform": "rotate(120deg)"
   },
-  ".rotate-135": {
+  "rotate-135": {
     "transform": "rotate(135deg)"
   },
-  ".rotate-150": {
+  "rotate-150": {
     "transform": "rotate(150deg)"
   },
-  ".rotate-165": {
+  "rotate-165": {
     "transform": "rotate(165deg)"
   },
-  ".rotate-180": {
+  "rotate-180": {
     "transform": "rotate(180deg)"
   },
-  ".rotate-195": {
+  "rotate-195": {
     "transform": "rotate(195deg)"
   },
-  ".rotate-210": {
+  "rotate-210": {
     "transform": "rotate(210deg)"
   },
-  ".rotate-225": {
+  "rotate-225": {
     "transform": "rotate(225deg)"
   },
-  ".rotate-240": {
+  "rotate-240": {
     "transform": "rotate(240deg)"
   },
-  ".rotate-255": {
+  "rotate-255": {
     "transform": "rotate(255deg)"
   },
-  ".rotate-270": {
+  "rotate-270": {
     "transform": "rotate(270deg)"
   },
-  ".rotate-285": {
+  "rotate-285": {
     "transform": "rotate(285deg)"
   },
-  ".rotate-300": {
+  "rotate-300": {
     "transform": "rotate(300deg)"
   },
-  ".rotate-315": {
+  "rotate-315": {
     "transform": "rotate(315deg)"
   },
-  ".rotate-330": {
+  "rotate-330": {
     "transform": "rotate(330deg)"
   },
-  ".rotate-345": {
+  "rotate-345": {
     "transform": "rotate(345deg)"
   },
-  ".rotate-360": {
+  "rotate-360": {
     "transform": "rotate(360deg)"
   }
 }

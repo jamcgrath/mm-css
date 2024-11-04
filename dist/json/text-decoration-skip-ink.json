@@ -1,11 +1,11 @@
 {
-  ".skip-ink-none": {
+  "skip-ink-none": {
     "--text-decoration-skip-ink": "none"
   },
-  ".skip-ink-auto": {
+  "skip-ink-auto": {
     "--text-decoration-skip-ink": "auto"
   },
-  ".skip-ink-all": {
+  "skip-ink-all": {
     "--text-decoration-skip-ink": "all"
   }
 }

@@ -1,14 +1,14 @@
 {
-  ".flex-row": {
+  "flex-row": {
     "flexDirection": "row"
   },
-  ".flex-reverse": {
+  "flex-reverse": {
     "flexDirection": "row-reverse"
   },
-  ".flex-col": {
+  "flex-col": {
     "flexDirection": "column"
   },
-  ".flex-col-reverse": {
+  "flex-col-reverse": {
     "flexDirection": "column-reverse"
   }
 }

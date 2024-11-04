@@ -8,18 +8,12 @@
 	.text-right {
 		text-align: right;
 	}
-	[dir="ltr"] .text-start {
+	.text-start {
 		text-align: left;
-}
-	[dir="rtl"] .text-start {
+	}
+	.text-end {
 		text-align: right;
-}
-	[dir="ltr"] .text-end {
-		text-align: right;
-}
-	[dir="rtl"] .text-end {
-		text-align: left;
-}
+	}
 	.text-justify {
 		text-align: justify;
 	}
@@ -33,18 +27,12 @@
 	.lg-text-right {
 		text-align: right;
 	}
-	[dir="ltr"] .lg-text-start {
+	.lg-text-start {
 		text-align: left;
-		}
-	[dir="rtl"] .lg-text-start {
+	}
+	.lg-text-end {
 		text-align: right;
-		}
-	[dir="ltr"] .lg-text-end {
-		text-align: right;
-		}
-	[dir="rtl"] .lg-text-end {
-		text-align: left;
-		}
+	}
 	.lg-text-justify {
 		text-align: justify;
 	}

@@ -1,14 +1,14 @@
 {
-  ".resize-none": {
+  "resize-none": {
     "resize": "none"
   },
-  ".resize-x": {
+  "resize-x": {
     "resize": "horizontal"
   },
-  ".resize-y": {
+  "resize-y": {
     "resize": "vertical"
   },
-  ".resize-both": {
+  "resize-both": {
     "resize": "both"
   }
 }

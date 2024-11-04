@@ -1,8 +1,8 @@
 {
-  ".box-border": {
+  "box-border": {
     "boxSizing": "border-box"
   },
-  ".box-content": {
+  "box-content": {
     "boxSizing": "content-box"
   }
 }

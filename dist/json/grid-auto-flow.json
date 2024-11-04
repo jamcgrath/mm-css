@@ -1,17 +1,17 @@
 {
-  ".grid-flow-row": {
+  "grid-flow-row": {
     "gridAutoFlow": "row"
   },
-  ".grid-flow-column": {
+  "grid-flow-column": {
     "gridAutoFlow": "column"
   },
-  ".grid-flow-dense": {
+  "grid-flow-dense": {
     "gridAutoFlow": "dense"
   },
-  ".grid-flow-row-dense": {
+  "grid-flow-row-dense": {
     "gridAutoFlow": "row dense"
   },
-  ".grid-flow-column-dense": {
+  "grid-flow-column-dense": {
     "gridAutoFlow": "column dense"
   }
 }

@@ -1,17 +1,17 @@
 {
-  ".solid": {
+  "solid": {
     "--text-decoration-style": "solid"
   },
-  ".double": {
+  "double": {
     "--text-decoration-style": "double"
   },
-  ".dotted": {
+  "dotted": {
     "--text-decoration-style": "dotted"
   },
-  ".dashed": {
+  "dashed": {
     "--text-decoration-style": "dashed"
   },
-  ".wavy": {
+  "wavy": {
     "--text-decoration-style": "wavy"
   }
 }

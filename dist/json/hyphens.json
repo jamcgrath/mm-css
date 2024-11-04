@@ -1,14 +1,11 @@
 {
-  ".hyphens-none": {
-    "WebkitHyphens": "none",
+  "hyphens-none": {
     "hyphens": "none"
   },
-  ".hyphens-manual": {
-    "WebkitHyphens": "manual",
+  "hyphens-manual": {
     "hyphens": "manual"
   },
-  ".hyphens-auto": {
-    "WebkitHyphens": "auto",
+  "hyphens-auto": {
     "hyphens": "auto"
   }
 }

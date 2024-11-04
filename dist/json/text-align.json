@@ -1,51 +1,21 @@
 {
-  ".text-center": {
-    "textAlign": "center"
-  },
-  ".text-left": {
-    "textAlign": "left"
-  },
-  ".text-right": {
-    "textAlign": "right"
-  },
-  "[dir=\"ltr\"] .text-start": {
-    "textAlign": "left"
-  },
-  "[dir=\"rtl\"] .text-start": {
-    "textAlign": "right"
-  },
-  "[dir=\"ltr\"] .text-end": {
-    "textAlign": "right"
-  },
-  "[dir=\"rtl\"] .text-end": {
-    "textAlign": "left"
-  },
-  ".text-justify": {
-    "textAlign": "justify"
-  },
-  "@media (min-width: 1024px)": {
-    ".lg-text-center": {
+  "@responsive": {
+    ".text-center": {
       "textAlign": "center"
     },
-    ".lg-text-left": {
+    ".text-left": {
       "textAlign": "left"
     },
-    ".lg-text-right": {
+    ".text-right": {
       "textAlign": "right"
     },
-    "[dir=\"ltr\"] .lg-text-start": {
-      "textAlign": "left"
+    ".text-start": {
+      "textAlign": "start"
     },
-    "[dir=\"rtl\"] .lg-text-start": {
-      "textAlign": "right"
+    ".text-end": {
+      "textAlign": "end"
     },
-    "[dir=\"ltr\"] .lg-text-end": {
-      "textAlign": "right"
-    },
-    "[dir=\"rtl\"] .lg-text-end": {
-      "textAlign": "left"
-    },
-    ".lg-text-justify": {
+    ".text-justify": {
       "textAlign": "justify"
     }
   }

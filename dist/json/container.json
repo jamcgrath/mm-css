@@ -6,7 +6,7 @@
     "--mq-xl": "1280px",
     "--mq-2xl": "1920px"
   },
-  ".container,\n.sm-container,\n.md-container,\n.lg-container,\n.xl-container,\n.xxl-container": {
+  "container,\nsm-container,\nmd-container,\nlg-container,\nxl-container,\nxxl-container": {
     "--container-max-width": "none",
     "width": "100%",
     "maxWidth": "var(--container-max-width)"
@@ -36,7 +36,7 @@
       "--container-max-width": "var(--mq-2xl)"
     }
   },
-  ".fullwidth,\n.full-width": {
+  "fullwidth,\nfull-width": {
     "width": "100vw",
     "position": "relative",
     "left": "50%",

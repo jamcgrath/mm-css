@@ -54,14 +54,12 @@ ul[class*='list-check'] li {
     gap: 0 var(--list-gap);
   }
 ul[class*='list-check'] li:before {
-    font-family: mm-icons !important;
-    font-weight: normal !important;
-  }
-ul[class*='list-check'] li:before {
     font-size: inherit;
     content: '\f22d';
     color: var(--grape);
+    font-family: mm-icons !important;
     font-style: normal;
+    font-weight: normal !important;
     font-feature-settings: normal;
     font-variant: normal;
     text-transform: none;

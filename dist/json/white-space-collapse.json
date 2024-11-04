@@ -1,11 +1,11 @@
 {
-  ".white-space-collapse": {
+  "white-space-collapse": {
     "whiteSpaceCollapse": "collapse"
   },
-  ".white-space-preserve": {
+  "white-space-preserve": {
     "whiteSpaceCollapse": "preserve"
   },
-  ".white-space-preserve-breaks": {
+  "white-space-preserve-breaks": {
     "whiteSpaceCollapse": "preserve-breaks"
   }
 }

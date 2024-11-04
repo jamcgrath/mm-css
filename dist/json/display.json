@@ -1,29 +1,29 @@
 {
-  ".block": {
+  "block": {
     "display": "block"
   },
-  ".inline": {
+  "inline": {
     "display": "inline"
   },
-  ".inline-block": {
+  "inline-block": {
     "display": "inline-block"
   },
-  ".flex": {
+  "flex": {
     "display": "flex"
   },
-  ".inline-flex": {
+  "inline-flex": {
     "display": "inline-flex"
   },
-  ".grid": {
+  "grid": {
     "display": "grid"
   },
-  ".inline-grid": {
+  "inline-grid": {
     "display": "inline-grid"
   },
-  ".flow-root": {
+  "flow-root": {
     "display": "flow-root"
   },
-  ".hidden": {
+  "hidden": {
     "display": "none"
   }
 }

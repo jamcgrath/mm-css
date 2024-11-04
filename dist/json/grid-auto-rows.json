@@ -1,14 +1,14 @@
 {
-  ".auto-row": {
+  "auto-row": {
     "gridAutoRows": "auto"
   },
-  ".auto-row-min": {
+  "auto-row-min": {
     "gridAutoRows": "min-content"
   },
-  ".auto-row-max": {
+  "auto-row-max": {
     "gridAutoRows": "max-content"
   },
-  ".auto-row-fr": {
+  "auto-row-fr": {
     "gridAutoRows": "minmax(0, 1fr)"
   }
 }

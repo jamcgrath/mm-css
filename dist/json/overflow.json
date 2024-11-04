@@ -1,47 +1,47 @@
 {
-  ".overflow-auto": {
+  "overflow-auto": {
     "overflow": "auto"
   },
-  ".overflow-x-auto": {
+  "overflow-x-auto": {
     "overflowX": "auto"
   },
-  ".overflow-y-auto": {
+  "overflow-y-auto": {
     "overflowY": "auto"
   },
-  ".overflow-scroll": {
+  "overflow-scroll": {
     "overflow": "scroll"
   },
-  ".overflow-x-scroll": {
+  "overflow-x-scroll": {
     "overflowX": "scroll"
   },
-  ".overflow-y-scroll": {
+  "overflow-y-scroll": {
     "overflowY": "scroll"
   },
-  ".overflow-hidden": {
+  "overflow-hidden": {
     "overflow": "hidden"
   },
-  ".overflow-x-hidden": {
+  "overflow-x-hidden": {
     "overflowX": "hidden"
   },
-  ".overflow-y-hidden": {
+  "overflow-y-hidden": {
     "overflowY": "hidden"
   },
-  ".overflow-visible": {
+  "overflow-visible": {
     "overflow": "visible"
   },
-  ".overflow-x-visible": {
+  "overflow-x-visible": {
     "overflowX": "visible"
   },
-  ".overflow-y-visible": {
+  "overflow-y-visible": {
     "overflowY": "visible"
   },
-  ".overflow-clip": {
+  "overflow-clip": {
     "overflow": "clip"
   },
-  ".overflow-x-clip": {
+  "overflow-x-clip": {
     "overflowX": "clip"
   },
-  ".overflow-y-clip": {
+  "overflow-y-clip": {
     "overflowY": "clip"
   }
 }

@@ -1,14 +1,14 @@
 {
-  ".place-self-start": {
+  "place-self-start": {
     "placeSelf": "start"
   },
-  ".place-self-end": {
+  "place-self-end": {
     "placeSelf": "end"
   },
-  ".place-self-center": {
+  "place-self-center": {
     "placeSelf": "center"
   },
-  ".place-self-stretch": {
+  "place-self-stretch": {
     "placeSelf": "stretch"
   }
 }

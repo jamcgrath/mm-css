@@ -1,38 +1,38 @@
 {
-  ".justify-self-center": {
+  "justify-self-center": {
     "justifySelf": "center"
   },
-  ".justify-self-start": {
+  "justify-self-start": {
     "justifySelf": "start"
   },
-  ".justify-self-end": {
+  "justify-self-end": {
     "justifySelf": "end"
   },
-  ".justify-self-flex-start": {
+  "justify-self-flex-start": {
     "justifySelf": "flex-start"
   },
-  ".justify-self-flex-end": {
+  "justify-self-flex-end": {
     "justifySelf": "flex-end"
   },
-  ".justify-self-self-start": {
+  "justify-self-self-start": {
     "justifySelf": "self-start"
   },
-  ".justify-self-self-end": {
+  "justify-self-self-end": {
     "justifySelf": "self-end"
   },
-  ".justify-self-right": {
+  "justify-self-right": {
     "justifySelf": "right"
   },
-  ".justify-self-left": {
+  "justify-self-left": {
     "justifySelf": "left"
   },
-  ".justify-self-stretch": {
+  "justify-self-stretch": {
     "justifySelf": "stretch"
   },
-  ".justify-self-normal": {
+  "justify-self-normal": {
     "justifySelf": "normal"
   },
-  ".justify-self-auto": {
+  "justify-self-auto": {
     "justifySelf": "auto"
   }
 }

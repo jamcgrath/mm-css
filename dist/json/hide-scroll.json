@@ -1,9 +1,9 @@
 {
-  ".hide-scroll": {
+  "hide-scroll": {
     "msOverflowStyle": "none",
     "scrollbarWidth": "none"
   },
-  ".hide-scroll::-webkit-scrollbar": {
+  "hide-scroll::-webkit-scrollbar": {
     "display": "none"
   }
 }

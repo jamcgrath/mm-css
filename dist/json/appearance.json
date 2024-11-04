@@ -1,6 +1,5 @@
 {
-  ".appearance-none": {
-    "WebkitAppearance": "none",
+  "appearance-none": {
     "appearance": "none"
   }
 }

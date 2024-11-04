@@ -1,29 +1,29 @@
 {
-  ".overscroll-auto": {
+  "overscroll-auto": {
     "overscrollBehavior": "auto"
   },
-  ".overscroll-contain": {
+  "overscroll-contain": {
     "overscrollBehavior": "contain"
   },
-  ".overscroll-none": {
+  "overscroll-none": {
     "overscrollBehavior": "none"
   },
-  ".overscroll-x-auto": {
+  "overscroll-x-auto": {
     "overscrollBehaviorX": "auto"
   },
-  ".overscroll-x-contain": {
+  "overscroll-x-contain": {
     "overscrollBehaviorX": "contain"
   },
-  ".overscroll-x-none": {
+  "overscroll-x-none": {
     "overscrollBehaviorX": "none"
   },
-  ".overscroll-y-auto": {
+  "overscroll-y-auto": {
     "overscrollBehaviorY": "auto"
   },
-  ".overscroll-y-contain": {
+  "overscroll-y-contain": {
     "overscrollBehaviorY": "contain"
   },
-  ".overscroll-y-none": {
+  "overscroll-y-none": {
     "overscrollBehaviorY": "none"
   }
 }

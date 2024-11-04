@@ -1,29 +1,29 @@
 {
-  ".content-center": {
+  "content-center": {
     "alignContent": "center"
   },
-  ".content-start": {
+  "content-start": {
     "alignContent": "flex-start"
   },
-  ".content-end": {
+  "content-end": {
     "alignContent": "flex-end"
   },
-  ".content-between": {
+  "content-between": {
     "alignContent": "space-between"
   },
-  ".content-around": {
+  "content-around": {
     "alignContent": "space-around"
   },
-  ".content-evenly": {
+  "content-evenly": {
     "alignContent": "space-evenly"
   },
-  ".content-stretch": {
+  "content-stretch": {
     "alignContent": "stretch"
   },
-  ".content-baseline": {
+  "content-baseline": {
     "alignContent": "baseline"
   },
-  ".content-normal": {
+  "content-normal": {
     "alignContent": "normal"
   }
 }
