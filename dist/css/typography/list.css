@@ -1,0 +1,107 @@
+.list-reset {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.list-style-none {
+  list-style: none;
+}
+.list-style-square {
+  list-style: square;
+}
+.list-style-circle {
+  list-style: circle;
+}
+.list-style-disc {
+  list-style: disc;
+}
+.list-style-decimal {
+  list-style: decimal;
+}
+.list-in {
+  list-style-position: inside;
+}
+.list-out {
+  list-style-position: outside;
+}
+.list-check-sm,
+  .list-check-med,
+  .list-check-lg {
+    --_list-fs: var(--list-fs, inherit);
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: var(--_list-fs);
+    font-weight: 400;
+    line-height: var(--lh-125);
+    color: var(--gray-6);
+    width: max-content;
+  }
+.list-check-sm {
+    --list-fs: var(--caption);
+  }
+.list-check-med {
+    --list-fs: var(--body);
+  }
+.list-check-lg {
+    --list-fs: var(--title-6);
+  }
+ul[class*='list-check'] li {
+    --list-gap: calc(var(--list-fs) + var(--space-2));
+    display: grid;
+    grid-template-columns: 0 1fr;
+    align-items: center;
+    gap: 0 var(--list-gap);
+  }
+ul[class*='list-check'] li:before {
+    font-family: mm-icons !important;
+    font-weight: normal !important;
+  }
+ul[class*='list-check'] li:before {
+    font-size: inherit;
+    content: '\f22d';
+    color: var(--grape);
+    font-style: normal;
+    font-feature-settings: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+ul[class*='list-check'] > li > ul[class*='list-check'] {
+    padding: 0 var(--list-gap);
+  }
+ul[class*='list-check']:not([role='list']) {
+    outline: 1px solid var(--error);
+  }
+ul[class*='list-check']:not([role='list']):after {
+    content: 'ul needs role=list';
+    color: var(--error);
+    display: block;
+  }
+@media (min-width: 1024px) {
+  .lg-list-check-sm,
+.lg-list-check-med,
+.lg-list-check-lg {
+    --_list-fs: var(--list-fs, inherit);
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: var(--_list-fs);
+    font-weight: 400;
+    line-height: var(--lh-125);
+    color: var(--gray-6);
+    width: max-content;
+  }
+
+  .lg-list-check-sm {
+    --list-fs: var(--caption);
+  }
+  .lg-list-check-med {
+    --list-fs: var(--body);
+  }
+  .lg-list-check-lg {
+    --list-fs: var(--title-6);
+  }
+}

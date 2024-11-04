@@ -31,40 +31,5 @@
   },
   ".justify-items-normal": {
     "justifyItems": "normal"
-  },
-  "@media (min-width: 1024px)": {
-    ".lg-justify-items-flex-start": {
-      "justifyItems": "flex-start"
-    },
-    ".lg-justify-items-flex-end": {
-      "justifyItems": "flex-end"
-    },
-    ".lg-justify-items-center": {
-      "justifyItems": "center"
-    },
-    ".lg-justify-items-start": {
-      "justifyItems": "start"
-    },
-    ".lg-justify-items-end": {
-      "justifyItems": "end"
-    },
-    ".lg-justify-items-stretch": {
-      "justifyItems": "stretch"
-    },
-    ".lg-justify-items-self-start": {
-      "justifyItems": "self-start"
-    },
-    ".lg-justify-items-self-end": {
-      "justifyItems": "self-end"
-    },
-    ".lg-justify-items-left": {
-      "justifyItems": "left"
-    },
-    ".lg-justify-items-right": {
-      "justifyItems": "right"
-    },
-    ".lg-justify-items-normal": {
-      "justifyItems": "normal"
-    }
   }
 }

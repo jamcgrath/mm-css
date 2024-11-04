@@ -7,16 +7,5 @@
   },
   ".flex-wrap-reverse": {
     "flexWrap": "wrap-reverse"
-  },
-  "@media (min-width: 1024px)": {
-    ".lg-flex-wrap": {
-      "flexWrap": "wrap"
-    },
-    ".lg-flex-nowrap": {
-      "flexWrap": "nowrap"
-    },
-    ".lg-flex-wrap-reverse": {
-      "flexWrap": "wrap-reverse"
-    }
   }
 }

@@ -65,10 +65,10 @@
   ".w-95": {
     "width": "95%"
   },
-  ".w-100,\n  .w-full": {
+  ".w-100,\n.w-full": {
     "width": "100%"
   },
-  ".w-100vw,\n  .w-screen": {
+  ".w-100vw,\n.w-screen": {
     "width": "100vw"
   },
   ".w-svw": {
@@ -85,94 +85,5 @@
   },
   ".w-fit": {
     "width": "fit-content"
-  },
-  "@media (min-width: 1024px)": {
-    ".lg-w-auto": {
-      "width": "auto"
-    },
-    ".lg-w-5": {
-      "width": "5%"
-    },
-    ".lg-w-10": {
-      "width": "10%"
-    },
-    ".lg-w-15": {
-      "width": "15%"
-    },
-    ".lg-w-20": {
-      "width": "20%"
-    },
-    ".lg-w-25": {
-      "width": "25%"
-    },
-    ".lg-w-30": {
-      "width": "30%"
-    },
-    ".lg-w-33": {
-      "width": "calc(100% / 3)"
-    },
-    ".lg-w-35": {
-      "width": "35%"
-    },
-    ".lg-w-40": {
-      "width": "40%"
-    },
-    ".lg-w-45": {
-      "width": "45%"
-    },
-    ".lg-w-50": {
-      "width": "50%"
-    },
-    ".lg-w-55": {
-      "width": "55%"
-    },
-    ".lg-w-60": {
-      "width": "60%"
-    },
-    ".lg-w-65": {
-      "width": "65%"
-    },
-    ".lg-w-66": {
-      "width": "calc((100% / 3) * 2)"
-    },
-    ".lg-w-70": {
-      "width": "70%"
-    },
-    ".lg-w-75": {
-      "width": "75%"
-    },
-    ".lg-w-80": {
-      "width": "80%"
-    },
-    ".lg-w-85": {
-      "width": "85%"
-    },
-    ".lg-w-90": {
-      "width": "90%"
-    },
-    ".lg-w-95": {
-      "width": "95%"
-    },
-    ".lg-w-100,\n.lg-w-full": {
-      "width": "100%"
-    },
-    ".lg-w-100vw,\n.lg-w-screen": {
-      "width": "100vw"
-    },
-    ".lg-w-svw": {
-      "width": "100svw"
-    },
-    ".lg-w-dvw": {
-      "width": "100dvw"
-    },
-    ".lg-w-min": {
-      "width": "min-content"
-    },
-    ".lg-w-max": {
-      "width": "max-content"
-    },
-    ".lg-w-fit": {
-      "width": "fit-content"
-    }
   }
 }

@@ -1,0 +1,34 @@
+{
+  ".link": {
+    "WebkitTextDecoration": "var(--link-text-decoration, underline)",
+    "textDecoration": "var(--link-text-decoration, underline)",
+    "textDecorationColor": "var(--link-text-decoration-color, var(--grape))",
+    "textDecorationThickness": "var(--link-text-decoration-thickness, 2px)",
+    "underlineOffset": "var(--link-underline-offset, 2px)",
+    "color": "var(--link-color, var(--color, var(--black)))"
+  },
+  ".link:hover,\n.link:visited:hover": {
+    "--link-color": "var(--link-hover-color, var(--grape-hover))",
+    "--link-text-decoration-color": "var(\n    --link-text-decoration-color-hover,\n    var(--grape-hover)\n  )"
+  },
+  ".link:active": {
+    "--link-color": "var(--link-color-active, var(--grape-pressed))",
+    "--link-text-decoration-color": "var(\n    --link-text-decoration-color-active,\n    var(--grape-pressed)\n  )"
+  },
+  ".link:visited": {
+    "--link-color": "var(--link-visited-color, var(--black))",
+    "--link-text-decoration-color": "var(\n    --link-text-decoration-color-visited,\n    var(--black)\n  )"
+  },
+  ".link.focus-visible": {
+    "--link-color": "var(--link-focus-color, var(--black))",
+    "--link-text-decoration-color": "var(\n    --link-text-decoration-color-focus,\n    var(--grape)\n  )",
+    "outline": "var(--link-focus-outline-width, 1px) solid\n    var(--link-focus-outline-color, var(--grape))",
+    "boxShadow": "0px 0px 4px 0px var(--link-focus-shadow-color, var(--grape))"
+  },
+  ".link:focus-visible": {
+    "--link-color": "var(--link-focus-color, var(--black))",
+    "--link-text-decoration-color": "var(\n    --link-text-decoration-color-focus,\n    var(--grape)\n  )",
+    "outline": "var(--link-focus-outline-width, 1px) solid\n    var(--link-focus-outline-color, var(--grape))",
+    "boxShadow": "0px 0px 4px 0px var(--link-focus-shadow-color, var(--grape))"
+  }
+}

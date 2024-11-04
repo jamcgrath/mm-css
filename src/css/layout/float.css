@@ -1,17 +1,15 @@
-@responsive {
-  .float-left {
-    float: left;
-  }
-  .float-right {
-    float: right;
-  }
-  .float-start {
-    float: inline-start;
-  }
-  .float-end {
-    float: inline-end;
-  }
-  .float-none {
-    float: none;
-  }
+.float-left {
+  float: left;
+}
+.float-right {
+  float: right;
+}
+.float-start {
+  float: inline-start;
+}
+.float-end {
+  float: inline-end;
+}
+.float-none {
+  float: none;
 }

@@ -1,0 +1,14 @@
+{
+  ".grow": {
+    "flexGrow": 1
+  },
+  ".grow-0": {
+    "flexGrow": 0
+  },
+  ".shrink": {
+    "flexShrink": 1
+  },
+  ".shrink-0": {
+    "flexShrink": 0
+  }
+}

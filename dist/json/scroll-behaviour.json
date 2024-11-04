@@ -1,0 +1,8 @@
+{
+  ".scroll-auto": {
+    "scrollBehaviour": "auto"
+  },
+  ".scroll-smooth": {
+    "scrollBehaviour": "smooth"
+  }
+}

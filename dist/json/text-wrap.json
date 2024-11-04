@@ -1,0 +1,11 @@
+{
+  ".text-wrap": {
+    "textWrap": "wrap"
+  },
+  ".text-nowrap": {
+    "textWrap": "nowrap"
+  },
+  ".text-balance": {
+    "textWrap": "balance"
+  }
+}

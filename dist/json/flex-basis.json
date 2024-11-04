@@ -1,0 +1,20 @@
+{
+  ".basis_25": {
+    "flexBasis": "25%"
+  },
+  ".basis_33": {
+    "flexBasis": "33.333333%"
+  },
+  ".basis_50": {
+    "flexBasis": "50%"
+  },
+  ".basis_66": {
+    "flexBasis": "66.666666%"
+  },
+  ".basis_75": {
+    "flexBasis": "75%"
+  },
+  ".basis_100": {
+    "flexBasis": "100%"
+  }
+}

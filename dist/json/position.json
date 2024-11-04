@@ -13,22 +13,5 @@
   },
   ".sticky": {
     "position": "sticky"
-  },
-  "@media (min-width: 1024px)": {
-    ".lg-relative": {
-      "position": "relative"
-    },
-    ".lg-absolute": {
-      "position": "absolute"
-    },
-    ".lg-fixed": {
-      "position": "fixed"
-    },
-    ".lg-static": {
-      "position": "static"
-    },
-    ".lg-sticky": {
-      "position": "sticky"
-    }
   }
 }

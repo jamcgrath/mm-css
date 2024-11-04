@@ -34,43 +34,5 @@
   },
   ".content-normal": {
     "justifyContent": "normal"
-  },
-  "@media (min-width: 1024px)": {
-    ".lg-content-start": {
-      "justifyContent": "start"
-    },
-    ".lg-content-flex-start": {
-      "justifyContent": "flex-start"
-    },
-    ".lg-content-center": {
-      "justifyContent": "center"
-    },
-    ".lg-content-end": {
-      "justifyContent": "end"
-    },
-    ".lg-content-flex-end": {
-      "justifyContent": "flex-end"
-    },
-    ".lg-content-flex-left": {
-      "justifyContent": "left"
-    },
-    ".lg-content-flex-right": {
-      "justifyContent": "right"
-    },
-    ".lg-content-between": {
-      "justifyContent": "space-between"
-    },
-    ".lg-content-around": {
-      "justifyContent": "space-around"
-    },
-    ".lg-content-evenly": {
-      "justifyContent": "space-evenly"
-    },
-    ".lg-content-stretch": {
-      "justifyContent": "stretch"
-    },
-    ".lg-content-normal": {
-      "justifyContent": "normal"
-    }
   }
 }

@@ -25,34 +25,5 @@
   },
   ".overscroll-y-none": {
     "overscrollBehaviorY": "none"
-  },
-  "@media (min-width: 1024px)": {
-    ".lg-overscroll-auto": {
-      "overscrollBehavior": "auto"
-    },
-    ".lg-overscroll-contain": {
-      "overscrollBehavior": "contain"
-    },
-    ".lg-overscroll-none": {
-      "overscrollBehavior": "none"
-    },
-    ".lg-overscroll-x-auto": {
-      "overscrollBehaviorX": "auto"
-    },
-    ".lg-overscroll-x-contain": {
-      "overscrollBehaviorX": "contain"
-    },
-    ".lg-overscroll-x-none": {
-      "overscrollBehaviorX": "none"
-    },
-    ".lg-overscroll-y-auto": {
-      "overscrollBehaviorY": "auto"
-    },
-    ".lg-overscroll-y-contain": {
-      "overscrollBehaviorY": "contain"
-    },
-    ".lg-overscroll-y-none": {
-      "overscrollBehaviorY": "none"
-    }
   }
 }

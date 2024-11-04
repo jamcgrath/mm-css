@@ -34,43 +34,5 @@
   },
   ".grid-col-12": {
     "gridTemplateColumns": "repeat(12, minmax(0, 1fr))"
-  },
-  "@media (min-width: 1024px)": {
-    ".lg-grid-col-1": {
-      "gridTemplateColumns": "repeat(1, minmax(0, 1fr))"
-    },
-    ".lg-grid-col-2": {
-      "gridTemplateColumns": "repeat(2, minmax(0, 1fr))"
-    },
-    ".lg-grid-col-3": {
-      "gridTemplateColumns": "repeat(3, minmax(0, 1fr))"
-    },
-    ".lg-grid-col-4": {
-      "gridTemplateColumns": "repeat(4, minmax(0, 1fr))"
-    },
-    ".lg-grid-col-5": {
-      "gridTemplateColumns": "repeat(5, minmax(0, 1fr))"
-    },
-    ".lg-grid-col-6": {
-      "gridTemplateColumns": "repeat(6, minmax(0, 1fr))"
-    },
-    ".lg-grid-col-7": {
-      "gridTemplateColumns": "repeat(7, minmax(0, 1fr))"
-    },
-    ".lg-grid-col-8": {
-      "gridTemplateColumns": "repeat(8, minmax(0, 1fr))"
-    },
-    ".lg-grid-col-9": {
-      "gridTemplateColumns": "repeat(9, minmax(0, 1fr))"
-    },
-    ".lg-grid-col-10": {
-      "gridTemplateColumns": "repeat(10, minmax(0, 1fr))"
-    },
-    ".lg-grid-col-11": {
-      "gridTemplateColumns": "repeat(11, minmax(0, 1fr))"
-    },
-    ".lg-grid-col-12": {
-      "gridTemplateColumns": "repeat(12, minmax(0, 1fr))"
-    }
   }
 }

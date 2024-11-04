@@ -10,19 +10,5 @@
   },
   ".flex-col-reverse": {
     "flexDirection": "column-reverse"
-  },
-  "@media (min-width: 1024px)": {
-    ".lg-flex-row": {
-      "flexDirection": "row"
-    },
-    ".lg-flex-reverse": {
-      "flexDirection": "row-reverse"
-    },
-    ".lg-flex-col": {
-      "flexDirection": "column"
-    },
-    ".lg-flex-col-reverse": {
-      "flexDirection": "column-reverse"
-    }
   }
 }

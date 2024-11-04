@@ -34,43 +34,5 @@
   },
   ".justify-self-auto": {
     "justifySelf": "auto"
-  },
-  "@media (min-width: 1024px)": {
-    ".lg-justify-self-center": {
-      "justifySelf": "center"
-    },
-    ".lg-justify-self-start": {
-      "justifySelf": "start"
-    },
-    ".lg-justify-self-end": {
-      "justifySelf": "end"
-    },
-    ".lg-justify-self-flex-start": {
-      "justifySelf": "flex-start"
-    },
-    ".lg-justify-self-flex-end": {
-      "justifySelf": "flex-end"
-    },
-    ".lg-justify-self-self-start": {
-      "justifySelf": "self-start"
-    },
-    ".lg-justify-self-self-end": {
-      "justifySelf": "self-end"
-    },
-    ".lg-justify-self-right": {
-      "justifySelf": "right"
-    },
-    ".lg-justify-self-left": {
-      "justifySelf": "left"
-    },
-    ".lg-justify-self-stretch": {
-      "justifySelf": "stretch"
-    },
-    ".lg-justify-self-normal": {
-      "justifySelf": "normal"
-    },
-    ".lg-justify-self-auto": {
-      "justifySelf": "auto"
-    }
   }
 }

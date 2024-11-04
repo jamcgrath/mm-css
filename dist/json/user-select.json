@@ -1,0 +1,18 @@
+{
+  ".select-none": {
+    "WebkitUserSelect": "none",
+    "userSelect": "none"
+  },
+  ".select-text": {
+    "WebkitUserSelect": "text",
+    "userSelect": "text"
+  },
+  ".select-all": {
+    "WebkitUserSelect": "all",
+    "userSelect": "all"
+  },
+  ".select-auto": {
+    "WebkitUserSelect": "auto",
+    "userSelect": "auto"
+  }
+}

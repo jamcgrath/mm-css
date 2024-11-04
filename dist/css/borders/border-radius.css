@@ -1,0 +1,39 @@
+
+  .br-0 {
+    border-radius: 0;
+  }
+  .br-4 {
+    border-radius: var(--space-1);
+  }
+  .br-8 {
+    border-radius: var(--space-2);
+  }
+  .br-12 {
+    border-radius: var(--space-3);
+  }
+  .br-16 {
+    border-radius: var(--space-4);
+  }
+  .circle {
+    border-radius: 50%;
+  }
+@media (min-width: 1024px) {
+  .lg-br-0 {
+    border-radius: 0;
+  }
+  .lg-br-4 {
+    border-radius: var(--space-1);
+  }
+  .lg-br-8 {
+    border-radius: var(--space-2);
+  }
+  .lg-br-12 {
+    border-radius: var(--space-3);
+  }
+  .lg-br-16 {
+    border-radius: var(--space-4);
+  }
+  .lg-circle {
+    border-radius: 50%;
+  }
+}

@@ -19,28 +19,5 @@
   },
   ".object-left-bottom": {
     "objectPosition": "left bottom"
-  },
-  "@media (min-width: 1024px)": {
-    ".lg-object-top": {
-      "objectPosition": "top"
-    },
-    ".lg-object-left": {
-      "objectPosition": "left"
-    },
-    ".lg-object-right": {
-      "objectPosition": "right bottom"
-    },
-    ".lg-object-bottom": {
-      "objectPosition": "bottom"
-    },
-    ".lg-object-center": {
-      "objectPosition": "center"
-    },
-    ".lg-object-left-top": {
-      "objectPosition": "left top"
-    },
-    ".lg-object-left-bottom": {
-      "objectPosition": "left bottom"
-    }
   }
 }

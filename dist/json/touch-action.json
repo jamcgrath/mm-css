@@ -1,0 +1,20 @@
+{
+  ".touch-auto": {
+    "touchAction": "auto"
+  },
+  ".touch-none": {
+    "touchAction": "none"
+  },
+  ".touch-pan-x": {
+    "touchAction": "pan-x"
+  },
+  ".touch-pan-y": {
+    "touchAction": "pan-y"
+  },
+  ".touch-pinch-zoom": {
+    "touchAction": "pinch-zoom"
+  },
+  ".touch-manipulation": {
+    "touchAction": "manipulation"
+  }
+}

@@ -1,76 +1,38 @@
 {
-  ".p-content-center,\n  .place-content-center": {
+  ".place-content-center": {
     "placeContent": "center"
   },
-  ".p-content-start,\n  .place-content-start": {
+  ".place-content-start": {
     "placeContent": "start"
   },
-  ".p-content-end,\n  .place-content-end": {
+  ".place-content-end": {
     "placeContent": "end"
   },
-  ".p-content-between,\n  .place-content-between": {
+  ".place-content-between": {
     "placeContent": "between"
   },
-  ".p-content-around,\n  .place-content-around": {
+  ".place-content-around": {
     "placeContent": "around"
   },
-  ".p-content-evenly,\n  .place-content-evenly": {
+  ".place-content-evenly": {
     "placeContent": "evenly"
   },
-  ".p-content-stretch,\n  .place-content-stretch": {
+  ".place-content-stretch": {
     "placeContent": "stretch"
   },
-  ".p-content-flex-start,\n  .place-content-flex-start": {
+  ".place-content-flex-start": {
     "placeContent": "flex-start"
   },
-  ".p-content-flex-end,\n  .place-content-flex-end": {
+  ".place-content-flex-end": {
     "placeContent": "flex-end"
   },
-  ".p-content-left,\n  .place-content-left": {
+  ".place-content-left": {
     "placeContent": "left"
   },
-  ".p-content-right,\n  .place-content-right": {
+  ".place-content-right": {
     "placeContent": "right"
   },
-  ".p-content-normal,\n  .place-content-normal": {
+  ".place-content-normal": {
     "placeContent": "normal"
-  },
-  "@media (min-width: 1024px)": {
-    ".lg-p-content-center,\n.lg-place-content-center": {
-      "placeContent": "center"
-    },
-    ".lg-p-content-start,\n.lg-place-content-start": {
-      "placeContent": "start"
-    },
-    ".lg-p-content-end,\n.lg-place-content-end": {
-      "placeContent": "end"
-    },
-    ".lg-p-content-between,\n.lg-place-content-between": {
-      "placeContent": "between"
-    },
-    ".lg-p-content-around,\n.lg-place-content-around": {
-      "placeContent": "around"
-    },
-    ".lg-p-content-evenly,\n.lg-place-content-evenly": {
-      "placeContent": "evenly"
-    },
-    ".lg-p-content-stretch,\n.lg-place-content-stretch": {
-      "placeContent": "stretch"
-    },
-    ".lg-p-content-flex-start,\n.lg-place-content-flex-start": {
-      "placeContent": "flex-start"
-    },
-    ".lg-p-content-flex-end,\n.lg-place-content-flex-end": {
-      "placeContent": "flex-end"
-    },
-    ".lg-p-content-left,\n.lg-place-content-left": {
-      "placeContent": "left"
-    },
-    ".lg-p-content-right,\n.lg-place-content-right": {
-      "placeContent": "right"
-    },
-    ".lg-p-content-normal,\n.lg-place-content-normal": {
-      "placeContent": "normal"
-    }
   }
 }

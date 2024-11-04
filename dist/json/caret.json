@@ -1,0 +1,11 @@
+{
+  ".caret-inherit": {
+    "caretColor": "inherit"
+  },
+  ".caret-transparent": {
+    "caretColor": "transparent"
+  },
+  ".caret-current": {
+    "caretColor": "currentColor"
+  }
+}

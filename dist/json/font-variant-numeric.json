@@ -1,0 +1,38 @@
+{
+  ".normal-nums": {
+    "fontFeatureSettings": "normal",
+    "fontVariantNumeric": "normal"
+  },
+  ".ordinal": {
+    "fontFeatureSettings": "\"ordn\"",
+    "fontVariantNumeric": "ordinal"
+  },
+  ".slashed-zero": {
+    "fontFeatureSettings": "\"zero\"",
+    "fontVariantNumeric": "slashed-zero"
+  },
+  ".lining-nums": {
+    "fontFeatureSettings": "\"lnum\"",
+    "fontVariantNumeric": "lining-nums"
+  },
+  ".oldstyle-nums": {
+    "fontFeatureSettings": "\"onum\"",
+    "fontVariantNumeric": "oldstyle-nums"
+  },
+  ".proportional-nums": {
+    "fontFeatureSettings": "\"pnum\"",
+    "fontVariantNumeric": "proportional-nums"
+  },
+  ".tabular-nums": {
+    "fontFeatureSettings": "\"tnum\"",
+    "fontVariantNumeric": "tabular-nums"
+  },
+  ".diagonal-fractions": {
+    "fontFeatureSettings": "\"frac\"",
+    "fontVariantNumeric": "diagonal-fractions"
+  },
+  ".stacked-fractions": {
+    "fontFeatureSettings": "\"afrc\"",
+    "fontVariantNumeric": "stacked-fractions"
+  }
+}

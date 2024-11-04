@@ -1,0 +1,10 @@
+{
+  ".antialiased": {
+    "WebkitFontSmoothing": "antialiased",
+    "MozOsxFontSmoothing": "grayscale"
+  },
+  ".subpixel-antialiased": {
+    "WebkitFontSmoothing": "auto",
+    "MozOsxFontSmoothing": "auto"
+  }
+}

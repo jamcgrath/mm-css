@@ -10,19 +10,5 @@
   },
   ".auto-col-fr": {
     "gridAutoColumns": "minmax(0, 1fr)"
-  },
-  "@media (min-width: 1024px)": {
-    ".lg-auto-col": {
-      "gridAutoColumns": "auto"
-    },
-    ".lg-auto-col-min": {
-      "gridAutoColumns": "min-content"
-    },
-    ".lg-auto-col-max": {
-      "gridAutoColumns": "max-content"
-    },
-    ".lg-auto-col-fr": {
-      "gridAutoColumns": "minmax(0, 1fr)"
-    }
   }
 }

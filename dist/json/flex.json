@@ -10,19 +10,5 @@
   },
   ".flex-none": {
     "flex": "none"
-  },
-  "@media (min-width: 1024px)": {
-    ".lg-flex-1": {
-      "flex": "1 1 0%"
-    },
-    ".lg-flex-auto": {
-      "flex": "1 1 auto"
-    },
-    ".lg-flex-initial": {
-      "flex": "0 1 auto"
-    },
-    ".lg-flex-none": {
-      "flex": "none"
-    }
   }
 }

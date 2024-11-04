@@ -22,31 +22,5 @@
   },
   ".self-auto": {
     "alignSelf": "auto"
-  },
-  "@media (min-width: 1024px)": {
-    ".lg-self-center": {
-      "alignSelf": "center"
-    },
-    ".lg-self-start": {
-      "alignSelf": "flex-start"
-    },
-    ".lg-self-end": {
-      "alignSelf": "flex-end"
-    },
-    ".lg-self-self-start": {
-      "alignSelf": "self-start"
-    },
-    ".lg-self-self-end": {
-      "alignSelf": "self-end"
-    },
-    ".lg-self-stretch": {
-      "alignSelf": "stretch"
-    },
-    ".lg-self-normal": {
-      "alignSelf": "normal"
-    },
-    ".lg-self-auto": {
-      "alignSelf": "auto"
-    }
   }
 }

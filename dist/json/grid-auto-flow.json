@@ -13,22 +13,5 @@
   },
   ".grid-flow-column-dense": {
     "gridAutoFlow": "column dense"
-  },
-  "@media (min-width: 1024px)": {
-    ".lg-grid-flow-row": {
-      "gridAutoFlow": "row"
-    },
-    ".lg-grid-flow-column": {
-      "gridAutoFlow": "column"
-    },
-    ".lg-grid-flow-dense": {
-      "gridAutoFlow": "dense"
-    },
-    ".lg-grid-flow-row-dense": {
-      "gridAutoFlow": "row dense"
-    },
-    ".lg-grid-flow-column-dense": {
-      "gridAutoFlow": "column dense"
-    }
   }
 }

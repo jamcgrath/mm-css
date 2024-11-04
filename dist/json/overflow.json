@@ -43,52 +43,5 @@
   },
   ".overflow-y-clip": {
     "overflowY": "clip"
-  },
-  "@media (min-width: 1024px)": {
-    ".lg-overflow-auto": {
-      "overflow": "auto"
-    },
-    ".lg-overflow-x-auto": {
-      "overflowX": "auto"
-    },
-    ".lg-overflow-y-auto": {
-      "overflowY": "auto"
-    },
-    ".lg-overflow-scroll": {
-      "overflow": "scroll"
-    },
-    ".lg-overflow-x-scroll": {
-      "overflowX": "scroll"
-    },
-    ".lg-overflow-y-scroll": {
-      "overflowY": "scroll"
-    },
-    ".lg-overflow-hidden": {
-      "overflow": "hidden"
-    },
-    ".lg-overflow-x-hidden": {
-      "overflowX": "hidden"
-    },
-    ".lg-overflow-y-hidden": {
-      "overflowY": "hidden"
-    },
-    ".lg-overflow-visible": {
-      "overflow": "visible"
-    },
-    ".lg-overflow-x-visible": {
-      "overflowX": "visible"
-    },
-    ".lg-overflow-y-visible": {
-      "overflowY": "visible"
-    },
-    ".lg-overflow-clip": {
-      "overflow": "clip"
-    },
-    ".lg-overflow-x-clip": {
-      "overflowX": "clip"
-    },
-    ".lg-overflow-y-clip": {
-      "overflowY": "clip"
-    }
   }
 }

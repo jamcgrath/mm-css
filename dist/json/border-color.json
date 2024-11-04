@@ -1,0 +1,161 @@
+{
+  ".border-grape,\n.boder-grape_hover:hover": {
+    "--border-color": "var(--grape)"
+  },
+  ".border-grape-20,\n.border-grape-20_hover:hover": {
+    "--border-color": "var(--grape-20)"
+  },
+  ".border-grape-40,\n.border-grape-40_hover:hover": {
+    "--border-color": "var(--grape-40)"
+  },
+  ".border-grape-60,\n.border-grape-60_hover:hover": {
+    "--border-color": "var(--grape-60)"
+  },
+  ".border-grape-80,\n.border-grape-80_hover:hover": {
+    "--border-color": "var(--grape-80)"
+  },
+  ".border-grape-hover,\n.border-grape-hover_hover:hover": {
+    "--border-color": "var(--grape-hover)"
+  },
+  ".border-grape-pressed,\n,\n.border-grape-pressed_hover:hover": {
+    "--border-color": "var(--grape-pressed)"
+  },
+  ".border-grape-light-hover_hover:hover,\n.border-grape-light-hover": {
+    "--border-color": "var(--grape-light-hover)"
+  },
+  ".border-grape-light,\n.border-grape-light_hover:hover": {
+    "--border-color": "var(--grape-light-pressed)"
+  },
+  ".border-white .border-white_hover:hover": {
+    "--border-color": "var(--white)"
+  },
+  ".border-white-20,\n.border-white-20_hover:hover": {
+    "--border-color": "var(--white-20)"
+  },
+  ".border-white-40,\n.border-white-40_hover:hover": {
+    "--border-color": "var(--white-40)"
+  },
+  ".border-white-60,\n.border-white-60_hover:hover": {
+    "--border-color": "var(--white-60)"
+  },
+  ".border-white-80,\n.border-white-80_hover:hover": {
+    "--border-color": "var(--white-80)"
+  },
+  ".border-black,\n.border-black_hover:hover": {
+    "--border-color": "var(--black)"
+  },
+  ".border-black-20,\n.border-black-20_hover:hover": {
+    "--border-color": "var(--black-20)"
+  },
+  ".border-black-40,\n.border-black-40_hover:hover": {
+    "--border-color": "var(--black-40)"
+  },
+  ".border-black-60,\n.border-black-60_hover:hover": {
+    "--border-color": "var(--black-60)"
+  },
+  ".border-black-80,\n.border-black-80_hover:hover": {
+    "--border-color": "var(--black-80)"
+  },
+  ".border-violet,\n.border-violet_hover:hover": {
+    "--border-color": "var(--violet)"
+  },
+  ".border-lavendar,\n.border-lavendar_hover:hover": {
+    "--border-color": "var(--lavendar)"
+  },
+  ".border-greige,\n.border-greige_hover:hover": {
+    "--border-color": "var(--greige)"
+  },
+  ".border-dove,\n.border-dove_hover:hover": {
+    "--border-color": "var(--dove)"
+  },
+  ".border-storm,\n.border-storm_hover:hover": {
+    "--border-color": "var(--storm)"
+  },
+  ".border-peach,\n.border-peach_hover:hover": {
+    "--border-color": "var(--peach)"
+  },
+  ".border-sky,\n.border-sky_hover:hover": {
+    "--border-color": "var(--sky)"
+  },
+  ".border-sea-green,\n.border-sea-green_hover:hover": {
+    "--border-color": "var(--sea-green)"
+  },
+  ".border-emerald,\n.border-emerald_hover:hover": {
+    "--border-color": "var(--emerald)"
+  },
+  ".border-denim,\n.border-denim_hover:hover": {
+    "--border-color": "var(--denim)"
+  },
+  ".border-cheeks,\n.border-cheeks_hover:hover": {
+    "--border-color": "var(--cheeks)"
+  },
+  ".border-lagoon,\n.border-lagoon_hover:hover": {
+    "--border-color": "var(--lagoon)"
+  },
+  ".border-sea-foam,\n.border-sea-foam_hover:hover": {
+    "--border-color": "var(--sea-foam)"
+  },
+  ".border-sage,\n.border-sage_hover:hover": {
+    "--border-color": "var(--sage)"
+  },
+  ".border-blueberry,\n.border-blueberry_hover:hover": {
+    "--border-color": "var(--blueberry)"
+  },
+  ".border-info-1,\n.border-info-1_hover:hover": {
+    "--border-color": "var(--info-1)"
+  },
+  ".border-success-1,\n.border-success-1_hover:hover": {
+    "--border-color": "var(--success-1)"
+  },
+  ".border-alert-1,\n.border-alert-1_hover:hover": {
+    "--border-color": "var(--alert-1)"
+  },
+  ".border-warning-1,\n.border-warning-1_hover:hover": {
+    "--border-color": "var(--warning-1)"
+  },
+  ".border-error-1,\n.border-error-1_hover:hover": {
+    "--border-color": "var(--error-1)"
+  },
+  ".border-error-hover_hover:hover,\n.border-error-1-hover": {
+    "--border-color": "var(--error-hover)"
+  },
+  ".border-error-1-pressed,\n.border-error-1-pressed_hover:hover": {
+    "--border-color": "var(--error-pressed)"
+  },
+  ".border-info-2,\n.border-info-2_hover:hover": {
+    "--border-color": "var(--info-2)"
+  },
+  ".border-success-2,\n.border-success-2_hover:hover": {
+    "--border-color": "var(--success-2)"
+  },
+  ".border-alert-2,\n.border-alert-2_hover:hover": {
+    "--border-color": "var(--alert-2)"
+  },
+  ".border-warning-2,\n.border-warning-2_hover:hover": {
+    "--border-color": "var(--warning-2)"
+  },
+  ".border-error-2,\n.border-error-2_hover:hover": {
+    "--border-color": "var(--error-2)"
+  },
+  ".border-gray-2,\n.border-gray-2_hover:hover": {
+    "--border-color": "var(--gray-2)"
+  },
+  ".border-gray-3,\n.border-gray-3_hover:hover": {
+    "--border-color": "var(--gray-3)"
+  },
+  ".border-gray-4,\n.border-gray-4_hover:hover": {
+    "--border-color": "var(--gray-4)"
+  },
+  ".border-gray-5,\n.border-gray-5_hover:hover": {
+    "--border-color": "var(--gray-5)"
+  },
+  ".border-gray-6,\n.border-gray-6_hover:hover": {
+    "--border-color": "var(--gray-6)"
+  },
+  ".border-gray-7,\n.border-gray-7_hover:hover": {
+    "--border-color": "var(--gray-7)"
+  },
+  ".border-gray-8,\n.border-gray-8_hover:hover": {
+    "--border-color": "var(--gray-8)"
+  }
+}

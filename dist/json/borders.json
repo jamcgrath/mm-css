@@ -1,0 +1,98 @@
+{
+  ".border-0,\n.border-1,\n.border-2,\n.border-4,\n.border-t-0,\n.border-t-1,\n.border-t-2,\n.border-t-4,\n.border-r-0,\n.border-r-1,\n.border-r-2,\n.border-r-4,\n.border-b-0,\n.border-b-1,\n.border-b-2,\n.border-b-4,\n.border-l-0,\n.border-l-1,\n.border-l-2,\n.border-l-4,\n.border-y-0,\n.border-y-1,\n.border-y-2,\n.border-y-4,\n.border-x-0,\n.border-x-1,\n.border-x-2,\n.border-x-4": {
+    "borderStyle": "var(--border-style, solid)",
+    "borderColor": "var(--border-color, var(--black))"
+  },
+  ".border-0": {
+    "borderWidth": "0"
+  },
+  ".border-1": {
+    "borderWidth": "1px"
+  },
+  ".border-2": {
+    "borderWidth": "2px"
+  },
+  ".border-4": {
+    "borderWidth": "4px"
+  },
+  ".border-t-0": {
+    "borderTopWidth": "0"
+  },
+  ".border-t-1": {
+    "borderTopWidth": "1px"
+  },
+  ".border-t-2": {
+    "borderTopWidth": "2px"
+  },
+  ".border-t-4": {
+    "borderTopWidth": "4px"
+  },
+  ".border-r-0": {
+    "borderRightWidth": "0"
+  },
+  ".border-r-1": {
+    "borderRightWidth": "1px"
+  },
+  ".border-r-2": {
+    "borderRightWidth": "2px"
+  },
+  ".border-r-4": {
+    "borderRightWidth": "4px"
+  },
+  ".border-b-0": {
+    "borderBottomWidth": "0"
+  },
+  ".border-b-1": {
+    "borderBottomWidth": "1px"
+  },
+  ".border-b-2": {
+    "borderBottomWidth": "2px"
+  },
+  ".border-b-4": {
+    "borderBottomWidth": "4px"
+  },
+  ".border-l-0": {
+    "borderLeftWidth": "0"
+  },
+  ".border-l-1": {
+    "borderLeftWidth": "1px"
+  },
+  ".border-l-2": {
+    "borderLeftWidth": "2px"
+  },
+  ".border-l-4": {
+    "borderLeftWidth": "4px"
+  },
+  ".border-y-0": {
+    "borderTopWidth": "0",
+    "borderBottomWidth": "0"
+  },
+  ".border-y-1": {
+    "borderTopWidth": "1px",
+    "borderBottomWidth": "1px"
+  },
+  ".border-y-2": {
+    "borderTopWidth": "2px",
+    "borderBottomWidth": "2px"
+  },
+  ".border-y-4": {
+    "borderTopWidth": "4px",
+    "borderBottomWidth": "4px"
+  },
+  ".border-x-0": {
+    "borderLeftWidth": "0",
+    "borderRightWidth": "0"
+  },
+  ".border-x-1": {
+    "borderLeftWidth": "1px",
+    "borderRightWidth": "1px"
+  },
+  ".border-x-2": {
+    "borderLeftWidth": "2px",
+    "borderRightWidth": "2px"
+  },
+  ".border-x-4": {
+    "borderLeftWidth": "4px",
+    "borderRightWidth": "4px"
+  }
+}

@@ -10,19 +10,5 @@
   },
   ".auto-row-fr": {
     "gridAutoRows": "minmax(0, 1fr)"
-  },
-  "@media (min-width: 1024px)": {
-    ".lg-auto-row": {
-      "gridAutoRows": "auto"
-    },
-    ".lg-auto-row-min": {
-      "gridAutoRows": "min-content"
-    },
-    ".lg-auto-row-max": {
-      "gridAutoRows": "max-content"
-    },
-    ".lg-auto-row-fr": {
-      "gridAutoRows": "minmax(0, 1fr)"
-    }
   }
 }

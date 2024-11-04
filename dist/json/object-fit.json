@@ -13,22 +13,5 @@
   },
   ".object-none": {
     "objectFit": "none"
-  },
-  "@media (min-width: 1024px)": {
-    ".lg-object-contain": {
-      "objectFit": "contain"
-    },
-    ".lg-object-cover": {
-      "objectFit": "cover"
-    },
-    ".lg-object-fill": {
-      "objectFit": "fill"
-    },
-    ".lg-object-scale-down": {
-      "objectFit": "scale-down"
-    },
-    ".lg-object-none": {
-      "objectFit": "none"
-    }
   }
 }

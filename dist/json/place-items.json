@@ -1,0 +1,17 @@
+{
+  ".place-items-center": {
+    "placeItems": "center"
+  },
+  ".place-items-start": {
+    "placeItems": "start"
+  },
+  ".place-items-end": {
+    "placeItems": "end"
+  },
+  ".place-items-baseline": {
+    "placeItems": "baseline"
+  },
+  ".place-items-stretch": {
+    "placeItems": "stretch"
+  }
+}
