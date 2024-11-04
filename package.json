@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "postcss:build": "postcss src/styles.css -o dist/styles.css",
+    "postcss:build": "postcss src/css/styles.css -o dist/css/styles.css",
     "postcss:build:single": "postcss src/**/**/*.css --base src --dir dist",
     "cleanjson": "rm -rf ./dist/json/*",
     "csstojson": "npm run cleanjson && node ./scripts/csstojson.js",

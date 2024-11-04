@@ -19,19 +19,17 @@
     "whiteSpace": "inherit",
     "width": "auto"
   },
-  "@responsive": {
-    ".invisible": {
-      "visibility": "hidden"
-    },
-    ".reset-sr-only": {
-      "position": "static",
-      "width": "auto",
-      "height": "auto",
-      "padding": "0",
-      "margin": "0",
-      "overflow": "visible",
-      "clip": "auto",
-      "whiteSpace": "normal"
-    }
+  "invisible": {
+    "visibility": "hidden"
+  },
+  "reset-sr-only": {
+    "position": "static",
+    "width": "auto",
+    "height": "auto",
+    "padding": "0",
+    "margin": "0",
+    "overflow": "visible",
+    "clip": "auto",
+    "whiteSpace": "normal"
   }
 }

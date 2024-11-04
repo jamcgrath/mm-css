@@ -1,22 +1,20 @@
 {
-  "@responsive": {
-    ".text-center": {
-      "textAlign": "center"
-    },
-    ".text-left": {
-      "textAlign": "left"
-    },
-    ".text-right": {
-      "textAlign": "right"
-    },
-    ".text-start": {
-      "textAlign": "start"
-    },
-    ".text-end": {
-      "textAlign": "end"
-    },
-    ".text-justify": {
-      "textAlign": "justify"
-    }
+  "text-center": {
+    "textAlign": "center"
+  },
+  "text-left": {
+    "textAlign": "left"
+  },
+  "text-right": {
+    "textAlign": "right"
+  },
+  "text-start": {
+    "textAlign": "start"
+  },
+  "text-end": {
+    "textAlign": "end"
+  },
+  "text-justify": {
+    "textAlign": "justify"
   }
 }

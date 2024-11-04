@@ -1,7 +1,0 @@
-/* not supported in current browser support min safari 15.4 */
-.scroll-auto {
-    scroll-behaviour: auto;
-}
-.scroll-smooth {
-    scroll-behaviour: smooth;
-}

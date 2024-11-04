@@ -13,14 +13,14 @@ function readFilesRecursively(dir, fileList = []) {
     if (fileStat.isDirectory()) {
       readFilesRecursively(filePath, fileList);
     } else {
-      fileList.push(filePath.split("css/")[1]);
+      fileList.push(filePath.split("css/_css/")[1]);
     }
   });
 
   return fileList;
 }
 
-const folderPath = "./src/css";
+const folderPath = "./src/css/_css";
 const targetPath = "./dist/json";
 
 // Check if the source directory exists
@@ -48,7 +48,7 @@ if (files) {
     }
   );
   files.forEach((file) => {
-    if (file === "normalize.css") {
+    if (file === "normalize.css" || file === "styles.css") {
       return;
     }
     try {

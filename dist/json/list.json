@@ -25,57 +25,55 @@
   "list-out": {
     "listStylePosition": "outside"
   },
-  "@responsive": {
-    ".list-check-sm,\n  .list-check-med,\n  .list-check-lg": {
-      "--_list-fs": "var(--list-fs, inherit)",
-      "listStyle": "none",
-      "margin": "0",
-      "padding": "0",
-      "fontSize": "var(--_list-fs)",
-      "fontWeight": 400,
-      "lineHeight": "var(--lh-125)",
-      "color": "var(--gray-6)",
-      "width": "max-content"
-    },
-    ".list-check-sm": {
-      "--list-fs": "var(--caption)"
-    },
-    ".list-check-med": {
-      "--list-fs": "var(--body)"
-    },
-    ".list-check-lg": {
-      "--list-fs": "var(--title-6)"
-    },
-    "ul[class*='list-check'] li": {
-      "--list-gap": "calc(var(--list-fs) + var(--space-2))",
-      "display": "grid",
-      "gridTemplateColumns": "0 1fr",
-      "alignItems": "center",
-      "gap": "0 var(--list-gap)"
-    },
-    "ul[class*='list-check'] li:before": {
-      "fontSize": "inherit",
-      "content": "'\\f22d'",
-      "color": "var(--grape)",
-      "fontFamily": "mm-icons !important",
-      "fontStyle": "normal",
-      "fontWeight": "normal !important",
-      "fontVariant": "normal",
-      "textTransform": "none",
-      "lineHeight": 1,
-      "WebkitFontSmoothing": "antialiased",
-      "MozOsxFontSmoothing": "grayscale"
-    },
-    "ul[class*='list-check'] > li > ul[class*='list-check']": {
-      "padding": "0 var(--list-gap)"
-    },
-    "ul[class*='list-check']:not([role='list'])": {
-      "outline": "1px solid var(--error)"
-    },
-    "ul[class*='list-check']:not([role='list']):after": {
-      "content": "'ul needs role=list'",
-      "color": "var(--error)",
-      "display": "block"
-    }
+  "list-check-sm,\nlist-check-med,\nlist-check-lg": {
+    "--_list-fs": "var(--list-fs, inherit)",
+    "listStyle": "none",
+    "margin": "0",
+    "padding": "0",
+    "fontSize": "var(--_list-fs)",
+    "fontWeight": 400,
+    "lineHeight": "var(--lh-125)",
+    "color": "var(--gray-6)",
+    "width": "max-content"
+  },
+  "list-check-sm": {
+    "--list-fs": "var(--caption)"
+  },
+  "list-check-med": {
+    "--list-fs": "var(--body)"
+  },
+  "list-check-lg": {
+    "--list-fs": "var(--title-6)"
+  },
+  "ul[class*=\"list-check\"] li": {
+    "--list-gap": "calc(var(--list-fs) + var(--space-2))",
+    "display": "grid",
+    "gridTemplateColumns": "0 1fr",
+    "alignItems": "center",
+    "gap": "0 var(--list-gap)"
+  },
+  "ul[class*=\"list-check\"] li:before": {
+    "fontSize": "inherit",
+    "content": "\"\\f22d\"",
+    "color": "var(--grape)",
+    "fontFamily": "mm-icons !important",
+    "fontStyle": "normal",
+    "fontWeight": "normal !important",
+    "fontVariant": "normal",
+    "textTransform": "none",
+    "lineHeight": 1,
+    "WebkitFontSmoothing": "antialiased",
+    "MozOsxFontSmoothing": "grayscale"
+  },
+  "ul[class*=\"list-check\"] > li > ul[class*=\"list-check\"]": {
+    "padding": "0 var(--list-gap)"
+  },
+  "ul[class*=\"list-check\"]:not([role=\"list\"])": {
+    "outline": "1px solid var(--error)"
+  },
+  "ul[class*=\"list-check\"]:not([role=\"list\"]):after": {
+    "content": "\"ul needs role=list\"",
+    "color": "var(--error)",
+    "display": "block"
   }
 }
