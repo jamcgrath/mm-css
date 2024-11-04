@@ -1,0 +1,26 @@
+{
+    "borderRadius": {
+        $type: "dimension",
+        "0": {
+            $value: "0"
+        },
+        "sm": {
+            $value: "0.25rem"
+        },
+        "md": {
+            $value: "0.5rem"
+        },
+        "lg": {
+            $value: "0.75rem"
+        },
+        "xl": {
+            $value: "1rem"
+        },
+        "circle": {
+            $value: "50%"
+        },
+        "pill": {
+            $value: "9999px"
+        }
+    }
+}

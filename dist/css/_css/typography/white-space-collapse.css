@@ -1,0 +1,11 @@
+.white-space-collapse {
+  white-space-collapse: collapse;
+}
+
+.white-space-preserve {
+  white-space-collapse: preserve;
+}
+
+.white-space-preserve-breaks {
+  white-space-collapse: preserve-breaks;
+}

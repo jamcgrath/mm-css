@@ -1,0 +1,24 @@
+.self-center {
+  align-self: center;
+}
+.self-start {
+  align-self: flex-start;
+}
+.self-end {
+  align-self: flex-end;
+}
+.self-self-start {
+  align-self: self-start;
+}
+.self-self-end {
+  align-self: self-end;
+}
+.self-stretch {
+  align-self: stretch;
+}
+.self-normal {
+  align-self: normal;
+}
+.self-auto {
+  align-self: auto;
+}

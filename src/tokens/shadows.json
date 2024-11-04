@@ -1,0 +1,32 @@
+{
+    "boxShadow": {
+        "$type": "shadow",
+        "sm": {
+            "$value": {
+                "color": "hsla(0,0%,0%, 0.04)",
+                "offsetX": "0",
+                "offsetY": "4px",
+                "blur": "12px",
+                "spread": "0rem"
+            }
+        },
+        "md": {
+            "$value": {
+                "color": "hsla(0,0%,0%, 0.12)",
+                "offsetX": "0",
+                "offsetY": "4px",
+                "blur": "12px",
+                "spread": "0rem"
+            }
+        },
+        "lg": {
+            "$value": {
+                "color": "hsla(0,0%,0%, 0.16)",
+                "offsetX": "0",
+                "offsetY": "12px",
+                "blur": "24px",
+                "spread": "0rem"
+            }
+        }
+    }
+}

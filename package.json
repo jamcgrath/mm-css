@@ -3,13 +3,15 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "postcss:build": "postcss src/css/styles.css -o dist/css/styles.css",
-    "postcss:build:single": "postcss src/**/**/*.css --base src --dir dist",
+    "postcss:build:single": "postcss src/css/_css/**/*.css --base src --dir dist/",
+    "build:tokens": "style-dictionary build --config ./style-dictionary.config.js",
     "cleanjson": "rm -rf ./dist/json/*",
     "csstojson": "npm run cleanjson && node ./scripts/csstojson.js",
-    "build": "npm run postcss:build && npm run postcss:build:single && npm run csstojson"
+    "build": "npm run postcss:build && npm run postcss:build:single && npm run csstojson && npm run build:tokens"
   },
   "keywords": [],
   "author": "",
@@ -18,7 +20,8 @@
     "postcss": "^8.4.16",
     "postcss-cli": "^11.0.0",
     "postcss-import": "^16.1.0",
-    "postcss-preset-env": "^10.0.9"
+    "postcss-preset-env": "^10.0.9",
+    "style-dictionary": "^4.1.4"
   },
   "dependencies": {
     "autoprefixer": "^10.4.8",

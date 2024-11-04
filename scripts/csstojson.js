@@ -1,7 +1,7 @@
-const fs = require("fs");
-const path = require("path");
-const postcss = require("postcss");
-const postcssJs = require("postcss-js");
+import fs from "fs";
+import path from "path";
+import postcss from "postcss";
+import postcssJs from "postcss-js";
 
 function readFilesRecursively(dir, fileList = []) {
   const files = fs.readdirSync(dir);
@@ -43,8 +43,7 @@ if (files) {
     `${targetPath}/filenames.json`,
     JSON.stringify(filenames),
     (err) => {
-      return console.log("File names saved");
-      console.log(err);
+      return console.error(err);
     }
   );
   files.forEach((file) => {

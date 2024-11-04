@@ -1,0 +1,23 @@
+.underline,
+.overline,
+.line-through,
+.decoration-line-none {
+  text-decoration-line: var(--text-decoration-line);
+  text-decoration-color: var(--text-decoration-color, currentColor);
+  text-decoration-style: var(--text-decoration-style, solid);
+  text-decoration-thickness: var(--text-decoration-thickness, auto);
+  -webkit-text-decoration-skip-ink: var(--text-decoration-skip-ink, auto);
+          text-decoration-skip-ink: var(--text-decoration-skip-ink, auto);
+}
+.underline {
+  --text-decoration-line: underline;
+}
+.overline {
+  --text-decoration-line: overline;
+}
+.line-through {
+  --text-decoration-line: line-through;
+}
+.decoration-line-none {
+  --text-decoration-line: none;
+}

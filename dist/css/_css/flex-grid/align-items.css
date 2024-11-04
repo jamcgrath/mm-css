@@ -1,0 +1,21 @@
+.items-center {
+  align-items: center;
+}
+.items-start {
+  align-items: flex-start;
+}
+.items-end {
+  align-items: flex-end;
+}
+.items-self-start {
+  align-items: self-start;
+}
+.items-self-end {
+  align-items: self-end;
+}
+.items-normal {
+  align-items: normal;
+}
+.items-stretch {
+  align-items: stretch;
+}
