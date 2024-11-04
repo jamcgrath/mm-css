@@ -12,17 +12,11 @@
   top: 0;
   bottom: 0;
 }
-[dir="ltr"] .start-0 {
+.start-0 {
   left: 0;
 }
-[dir="rtl"] .start-0 {
+.end-0 {
   right: 0;
-}
-[dir="ltr"] .end-0 {
-  right: 0;
-}
-[dir="rtl"] .end-0 {
-  left: 0;
 }
 .top-0 {
   top: 0;

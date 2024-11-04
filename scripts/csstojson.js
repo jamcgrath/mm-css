@@ -20,9 +20,21 @@ function readFilesRecursively(dir, fileList = []) {
   return fileList;
 }
 
-const folderPath = "./dist/css";
-const files = readFilesRecursively(folderPath);
+const folderPath = "./src/css";
 const targetPath = "./dist/json";
+
+// Check if the source directory exists
+if (!fs.existsSync(folderPath)) {
+  console.error(`Source folder "${folderPath}" does not exist.`);
+  process.exit(1);
+}
+
+const files = readFilesRecursively(folderPath);
+
+// Check if the target directory exists, if not, create it
+if (!fs.existsSync(targetPath)) {
+  fs.mkdirSync(targetPath, { recursive: true });
+}
 
 if (files) {
   const filenames = { ...files };
@@ -31,6 +43,7 @@ if (files) {
     `${targetPath}/filenames.json`,
     JSON.stringify(filenames),
     (err) => {
+      return console.log("File names saved");
       console.log(err);
     }
   );
@@ -41,7 +54,16 @@ if (files) {
     try {
       const css = fs.readFileSync(`${folderPath}/${file}`, "utf8");
       const root = postcss.parse(css);
-      const postCSSObj = postcssJs.objectify(root);
+      let postCSSObj = postcssJs.objectify(root);
+
+      // Remove `.` from the keys
+      postCSSObj = Object.fromEntries(
+        Object.entries(postCSSObj).map(([key, value]) => [
+          key.replace(/\./g, ""),
+          value,
+        ])
+      );
+
       const filename = file.split("/")[1].split(".")[0];
       fs.writeFileSync(
         `${targetPath}/${filename}.json`,

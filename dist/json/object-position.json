@@ -1,23 +1,23 @@
 {
-  ".object-top": {
+  "object-top": {
     "objectPosition": "top"
   },
-  ".object-left": {
+  "object-left": {
     "objectPosition": "left"
   },
-  ".object-right": {
+  "object-right": {
     "objectPosition": "right bottom"
   },
-  ".object-bottom": {
+  "object-bottom": {
     "objectPosition": "bottom"
   },
-  ".object-center": {
+  "object-center": {
     "objectPosition": "center"
   },
-  ".object-left-top": {
+  "object-left-top": {
     "objectPosition": "left top"
   },
-  ".object-left-bottom": {
+  "object-left-bottom": {
     "objectPosition": "left bottom"
   }
 }

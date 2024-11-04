@@ -1,38 +1,38 @@
 {
-  ".cursor-pointer": {
+  "cursor-pointer": {
     "cursor": "pointer"
   },
-  ".cursor-grab": {
+  "cursor-grab": {
     "cursor": "grab"
   },
-  ".cursor-grabbing": {
+  "cursor-grabbing": {
     "cursor": "grabbing"
   },
-  ".cursor-zoom-in": {
+  "cursor-zoom-in": {
     "cursor": "zoom-in"
   },
-  ".cursor-zoom-out": {
+  "cursor-zoom-out": {
     "cursor": "zoom-out"
   },
-  ".cursor-not-allowed": {
+  "cursor-not-allowed": {
     "cursor": "not-allowed"
   },
-  ".cursor-help": {
+  "cursor-help": {
     "cursor": "help"
   },
-  ".cursor-move": {
+  "cursor-move": {
     "cursor": "move"
   },
-  ".cursor-crosshair": {
+  "cursor-crosshair": {
     "cursor": "crosshair"
   },
-  ".cursor-progress": {
+  "cursor-progress": {
     "cursor": "progress"
   },
-  ".cursor-wait": {
+  "cursor-wait": {
     "cursor": "wait"
   },
-  ".cursor-none": {
+  "cursor-none": {
     "cursor": "none"
   }
 }

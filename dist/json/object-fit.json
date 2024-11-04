@@ -1,17 +1,17 @@
 {
-  ".object-contain": {
+  "object-contain": {
     "objectFit": "contain"
   },
-  ".object-cover": {
+  "object-cover": {
     "objectFit": "cover"
   },
-  ".object-fill": {
+  "object-fill": {
     "objectFit": "fill"
   },
-  ".object-scale-down": {
+  "object-scale-down": {
     "objectFit": "scale-down"
   },
-  ".object-none": {
+  "object-none": {
     "objectFit": "none"
   }
 }

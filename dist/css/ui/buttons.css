@@ -44,15 +44,6 @@ button:focus,
     outline: none;
     outline-offset: 0;
   }
-  button.focus-visible,
-  .btn.focus-visible {
-    outline: var(--focus-outline-width, 2px) var(--focus-outline-style, solid)
-      var(
-        --button-focus-outline-color,
-        var(--button-bg-hover, var(--button-color-hover))
-      );
-    outline-offset: var(--button-focus-outline-offset, 2px);
-  }
   button:focus-visible,
   .btn:focus-visible {
     outline: var(--focus-outline-width, 2px) var(--focus-outline-style, solid)
@@ -67,17 +58,12 @@ button[disabled],
 button[aria-disabled="true"],
 button.btn-disabled,
 .btn.btn-disabled {
-  background-color: var(--button-bg) !important;
-  color: var(--gray-6) !important;
-  border: var(--button-border) !important;
-}
-button[disabled],
-button[aria-disabled="true"],
-button.btn-disabled,
-.btn.btn-disabled {
   --button-bg: var(--gray-3);
   --button-color: var(--gray-6);
   --button-border: none;
+  background-color: var(--button-bg) !important;
+  color: var(--gray-6) !important;
+  border: var(--button-border) !important;
 }
 .btn-sm {
   --button-padding: var(--space-1) var(--space-3);

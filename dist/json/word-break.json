@@ -1,14 +1,14 @@
 {
-  ".break-normal": {
+  "break-normal": {
     "wordBreak": "normal"
   },
-  ".break-all": {
+  "break-all": {
     "wordBreak": "break-all"
   },
-  ".break-keep": {
+  "break-keep": {
     "wordBreak": "keep-all"
   },
-  ".break-word": {
+  "break-word": {
     "wordBreak": "break-word"
   }
 }

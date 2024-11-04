@@ -1,38 +1,38 @@
 {
-  ".min-h-0": {
+  "min-h-0": {
     "minHeight": "0"
   },
-  ".min-h-100": {
+  "min-h-100": {
     "minHeight": "100%"
   },
-  ".min-h-100vh": {
+  "min-h-100vh": {
     "minHeight": "100vh"
   },
-  ".min-h-100svh": {
+  "min-h-100svh": {
     "minHeight": [
       "100vh",
       "100svh"
     ]
   },
-  ".min-h-100lvh": {
+  "min-h-100lvh": {
     "minHeight": [
       "100vh",
       "100lvh"
     ]
   },
-  ".min-h-100dvh": {
+  "min-h-100dvh": {
     "minHeight": [
       "100vh",
       "100dvh"
     ]
   },
-  ".min-h-min": {
+  "min-h-min": {
     "minHeight": "min-content"
   },
-  ".min-h-max": {
+  "min-h-max": {
     "minHeight": "max-content"
   },
-  ".min-h-fit": {
+  "min-h-fit": {
     "minHeight": "fit-content"
   }
 }

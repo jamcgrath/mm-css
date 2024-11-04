@@ -6,17 +6,11 @@
 .clearfix::after {
   clear: both;
 }
-[dir="ltr"] .clear-start {
+.clear-start {
   clear: left;
 }
-[dir="rtl"] .clear-start {
+.clear-end {
   clear: right;
-}
-[dir="ltr"] .clear-end {
-  clear: right;
-}
-[dir="rtl"] .clear-end {
-  clear: left;
 }
 .clear-left {
   clear: left;

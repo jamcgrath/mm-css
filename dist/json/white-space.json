@@ -1,20 +1,20 @@
 {
-  ".whitespace-normal": {
+  "whitespace-normal": {
     "whiteSpace": "normal"
   },
-  ".whitespace-nowrap": {
+  "whitespace-nowrap": {
     "whiteSpace": "nowrap"
   },
-  ".whitespace-pre": {
+  "whitespace-pre": {
     "whiteSpace": "pre"
   },
-  ".whitespace-pre-wrap": {
+  "whitespace-pre-wrap": {
     "whiteSpace": "pre-wrap"
   },
-  ".whitespace-pre-line": {
+  "whitespace-pre-line": {
     "whiteSpace": "pre-line"
   },
-  ".whitespace-break": {
+  "whitespace-break": {
     "whiteSpace": "break-spaces"
   }
 }

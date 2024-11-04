@@ -126,10 +126,11 @@ hr {
  */
 abbr[title] {
   border-bottom: none; /* 1 */
+  -webkit-text-decoration: underline;
   text-decoration: underline; /* 2 */
   text-decoration: underline;
-  -webkit-text-decoration: underline dotted currentColor;
-          text-decoration: underline dotted currentColor; /* 2 */
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted; /* 2 */
 }
 /**
  * Add the correct font weight in Chrome, Edge, and Safari.
@@ -1426,17 +1427,11 @@ html:focus-within {
 .clearfix::after {
   clear: both;
 }
-[dir="ltr"] .clear-start {
+.clear-start {
   clear: left;
 }
-[dir="rtl"] .clear-start {
+.clear-end {
   clear: right;
-}
-[dir="ltr"] .clear-end {
-  clear: right;
-}
-[dir="rtl"] .clear-end {
-  clear: left;
 }
 .clear-left {
   clear: left;
@@ -1530,17 +1525,11 @@ html:focus-within {
 .float-right {
   float: right;
 }
-[dir="ltr"] .float-start {
+.float-start {
   float: left;
 }
-[dir="rtl"] .float-start {
+.float-end {
   float: right;
-}
-[dir="ltr"] .float-end {
-  float: right;
-}
-[dir="rtl"] .float-end {
-  float: left;
 }
 .float-none {
   float: none;
@@ -1694,17 +1683,11 @@ html:focus-within {
   top: 0;
   bottom: 0;
 }
-[dir="ltr"] .start-0 {
+.start-0 {
   left: 0;
 }
-[dir="rtl"] .start-0 {
+.end-0 {
   right: 0;
-}
-[dir="ltr"] .end-0 {
-  right: 0;
-}
-[dir="rtl"] .end-0 {
-  left: 0;
 }
 .top-0 {
   top: 0;
@@ -2407,14 +2390,12 @@ ul[class*='list-check'] li {
     gap: 0 var(--list-gap);
   }
 ul[class*='list-check'] li:before {
-    font-family: mm-icons !important;
-    font-weight: normal !important;
-  }
-ul[class*='list-check'] li:before {
     font-size: inherit;
     content: '\f22d';
     color: var(--grape);
+    font-family: mm-icons !important;
     font-style: normal;
+    font-weight: normal !important;
     font-feature-settings: normal;
     font-variant: normal;
     text-transform: none;
@@ -2442,18 +2423,12 @@ ul[class*='list-check']:not([role='list']):after {
 .text-right {
 		text-align: right;
 	}
-[dir="ltr"] .text-start {
+.text-start {
 		text-align: left;
-}
-[dir="rtl"] .text-start {
+	}
+.text-end {
 		text-align: right;
-}
-[dir="ltr"] .text-end {
-		text-align: right;
-}
-[dir="rtl"] .text-end {
-		text-align: left;
-}
+	}
 .text-justify {
 		text-align: justify;
 	}
@@ -2851,10 +2826,6 @@ ul[class*='list-check']:not([role='list']):after {
 .break-word {
   word-break: break-word;
 }
-/* @import "./css/ui/badges.css";
-@import "./css/ui/breadcrumb.css";
-@import "./css/ui/buttons.css";
-@import "./css/ui/links.css"; */
 @media (min-width: 1024px) {
   .lg-container {
     --container-max-width: var(--mq-lg);
@@ -2905,18 +2876,12 @@ ul[class*='list-check']:not([role='list']):after {
 	.lg-text-right {
 		text-align: right;
 	}
-	[dir="ltr"] .lg-text-start {
+	.lg-text-start {
 		text-align: left;
-  }
-	[dir="rtl"] .lg-text-start {
+	}
+	.lg-text-end {
 		text-align: right;
-  }
-	[dir="ltr"] .lg-text-end {
-		text-align: right;
-  }
-	[dir="rtl"] .lg-text-end {
-		text-align: left;
-  }
+	}
 	.lg-text-justify {
 		text-align: justify;
 	}

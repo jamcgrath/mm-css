@@ -1,23 +1,17 @@
 {
-  ".float-left": {
+  "float-left": {
     "cssFloat": "left"
   },
-  ".float-right": {
+  "float-right": {
     "cssFloat": "right"
   },
-  "[dir=\"ltr\"] .float-start": {
-    "cssFloat": "left"
+  "float-start": {
+    "cssFloat": "inline-start"
   },
-  "[dir=\"rtl\"] .float-start": {
-    "cssFloat": "right"
+  "float-end": {
+    "cssFloat": "inline-end"
   },
-  "[dir=\"ltr\"] .float-end": {
-    "cssFloat": "right"
-  },
-  "[dir=\"rtl\"] .float-end": {
-    "cssFloat": "left"
-  },
-  ".float-none": {
+  "float-none": {
     "cssFloat": "none"
   }
 }

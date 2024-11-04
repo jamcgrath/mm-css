@@ -1,14 +1,14 @@
 {
-  ".table-auto": {
+  "table-auto": {
     "tableLayout": "auto"
   },
-  ".table-fixed": {
+  "table-fixed": {
     "tableLayout": "fixed"
   },
-  ".border-collapse": {
+  "border-collapse": {
     "borderCollapse": "collapse"
   },
-  ".border-separate": {
+  "border-separate": {
     "borderCollapse": "separate"
   }
 }

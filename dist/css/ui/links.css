@@ -32,17 +32,6 @@
   );
 }
 
-.link.focus-visible {
-  --link-color: var(--link-focus-color, var(--black));
-  --link-text-decoration-color: var(
-    --link-text-decoration-color-focus,
-    var(--grape)
-  );
-  outline: var(--link-focus-outline-width, 1px) solid
-    var(--link-focus-outline-color, var(--grape));
-  box-shadow: 0px 0px 4px 0px var(--link-focus-shadow-color, var(--grape));
-}
-
 .link:focus-visible {
   --link-color: var(--link-focus-color, var(--black));
   --link-text-decoration-color: var(

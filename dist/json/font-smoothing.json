@@ -1,9 +1,9 @@
 {
-  ".antialiased": {
+  "antialiased": {
     "WebkitFontSmoothing": "antialiased",
     "MozOsxFontSmoothing": "grayscale"
   },
-  ".subpixel-antialiased": {
+  "subpixel-antialiased": {
     "WebkitFontSmoothing": "auto",
     "MozOsxFontSmoothing": "auto"
   }

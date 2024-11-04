@@ -1,14 +1,14 @@
 {
-  ".min-w-0": {
+  "min-w-0": {
     "minWidth": "0"
   },
-  ".min-w-100,\n.min-w-full": {
+  "min-w-100,\nmin-w-full": {
     "minWidth": "100%"
   },
-  ".min-w-min": {
+  "min-w-min": {
     "minWidth": "min-content"
   },
-  ".min-w-fit": {
+  "min-w-fit": {
     "minWidth": "fit-content"
   }
 }

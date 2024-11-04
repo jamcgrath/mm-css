@@ -1,26 +1,26 @@
 {
-  ".aspect-auto": {
+  "aspect-auto": {
     "aspectRatio": "auto"
   },
-  ".aspect-1": {
+  "aspect-1": {
     "aspectRatio": "1 / 1"
   },
-  ".aspect-3x4": {
+  "aspect-3x4": {
     "aspectRatio": "3 / 4"
   },
-  ".aspect-4x3": {
+  "aspect-4x3": {
     "aspectRatio": "4 / 3"
   },
-  ".aspect-9x16": {
+  "aspect-9x16": {
     "aspectRatio": "9 / 16"
   },
-  ".aspect-16x9": {
+  "aspect-16x9": {
     "aspectRatio": "16 / 9"
   },
-  ".aspect-21x9": {
+  "aspect-21x9": {
     "aspectRatio": "21 / 9"
   },
-  ".aspect-9x21": {
+  "aspect-9x21": {
     "aspectRatio": "9 / 21"
   }
 }

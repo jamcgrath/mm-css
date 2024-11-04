@@ -1,22 +1,21 @@
 {
-  ".underline,\n.overline,\n.line-through,\n.decoration-line-none": {
+  "underline,\noverline,\nline-through,\ndecoration-line-none": {
     "textDecorationLine": "var(--text-decoration-line)",
     "textDecorationColor": "var(--text-decoration-color, currentColor)",
     "textDecorationStyle": "var(--text-decoration-style, solid)",
     "textDecorationThickness": "var(--text-decoration-thickness, auto)",
-    "WebkitTextDecorationSkipInk": "var(--text-decoration-skip-ink, auto)",
     "textDecorationSkipInk": "var(--text-decoration-skip-ink, auto)"
   },
-  ".underline": {
+  "underline": {
     "--text-decoration-line": "underline"
   },
-  ".overline": {
+  "overline": {
     "--text-decoration-line": "overline"
   },
-  ".line-through": {
+  "line-through": {
     "--text-decoration-line": "line-through"
   },
-  ".decoration-line-none": {
+  "decoration-line-none": {
     "--text-decoration-line": "none"
   }
 }

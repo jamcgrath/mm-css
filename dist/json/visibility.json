@@ -1,5 +1,5 @@
 {
-  ".sr-only": {
+  "sr-only": {
     "border": "0",
     "clip": "rect(0, 0, 0, 0)",
     "height": "1px",
@@ -10,7 +10,7 @@
     "whiteSpace": "nowrap",
     "width": "1px"
   },
-  ".sr-only.focusable:active,\n.sr-only.focusable:focus": {
+  "sr-onlyfocusable:active,\nsr-onlyfocusable:focus": {
     "clip": "auto",
     "height": "auto",
     "margin": "0",
@@ -19,24 +19,11 @@
     "whiteSpace": "inherit",
     "width": "auto"
   },
-  ".invisible": {
-    "visibility": "hidden"
-  },
-  ".reset-sr-only": {
-    "position": "static",
-    "width": "auto",
-    "height": "auto",
-    "padding": "0",
-    "margin": "0",
-    "overflow": "visible",
-    "clip": "auto",
-    "whiteSpace": "normal"
-  },
-  "@media (min-width: 1024px)": {
-    ".lg-invisible": {
+  "@responsive": {
+    ".invisible": {
       "visibility": "hidden"
     },
-    ".lg-reset-sr-only": {
+    ".reset-sr-only": {
       "position": "static",
       "width": "auto",
       "height": "auto",

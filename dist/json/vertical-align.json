@@ -1,26 +1,26 @@
 {
-  ".v-align-baseline": {
+  "v-align-baseline": {
     "verticalAlign": "baseline"
   },
-  ".v-align-bottom": {
+  "v-align-bottom": {
     "verticalAlign": "bottom"
   },
-  ".v-align-middle": {
+  "v-align-middle": {
     "verticalAlign": "middle"
   },
-  ".v-align-top": {
+  "v-align-top": {
     "verticalAlign": "top"
   },
-  ".v-align-text-bottom": {
+  "v-align-text-bottom": {
     "verticalAlign": "text-bottom"
   },
-  ".v-align-text-top": {
+  "v-align-text-top": {
     "verticalAlign": "text-top"
   },
-  ".v-align-sub": {
+  "v-align-sub": {
     "verticalAlign": "sub"
   },
-  ".v-align-super": {
+  "v-align-super": {
     "verticalAlign": "super"
   }
 }

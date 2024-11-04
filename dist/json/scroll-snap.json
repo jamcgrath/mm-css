@@ -1,41 +1,41 @@
 {
-  ".snap-start": {
+  "snap-start": {
     "scrollSnapAlign": "start"
   },
-  ".snap-center": {
+  "snap-center": {
     "scrollSnapAlign": "center"
   },
-  ".snap-end": {
+  "snap-end": {
     "scrollSnapAlign": "end"
   },
-  ".snap-alingn-none": {
+  "snap-alingn-none": {
     "scrollSnapAlign": "none"
   },
-  ".snap-none": {
+  "snap-none": {
     "scrollSnapType": "none"
   },
-  ".snap-x": {
+  "snap-x": {
     "scrollSnapType": "x"
   },
-  ".snap-y": {
+  "snap-y": {
     "scrollSnapType": "y"
   },
-  ".snap-block": {
+  "snap-block": {
     "scrollSnapType": "block"
   },
-  ".snap-inline": {
+  "snap-inline": {
     "scrollSnapType": "inline"
   },
-  ".snap-both": {
+  "snap-both": {
     "scrollSnapType": "both"
   },
-  ".snap-x-mandatory": {
+  "snap-x-mandatory": {
     "scrollSnapType": "x mandatory"
   },
-  ".snap-y-mandatory": {
+  "snap-y-mandatory": {
     "scrollSnapType": "y mandatory"
   },
-  ".snap-both-mandatory": {
+  "snap-both-mandatory": {
     "scrollSnapType": "both mandatory"
   }
 }

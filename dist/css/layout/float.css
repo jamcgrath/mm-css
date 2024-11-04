@@ -4,17 +4,11 @@
 .float-right {
   float: right;
 }
-[dir="ltr"] .float-start {
+.float-start {
   float: left;
 }
-[dir="rtl"] .float-start {
+.float-end {
   float: right;
-}
-[dir="ltr"] .float-end {
-  float: right;
-}
-[dir="rtl"] .float-end {
-  float: left;
 }
 .float-none {
   float: none;

@@ -1,5 +1,5 @@
 {
-  ".badge": {
+  "badge": {
     "padding": "var(--badge-padding, var(--space-1) var(--space-2))",
     "borderRadius": "var(--badge-border-radius, 36px)",
     "fontSize": "var(--badge-font-size, var(--caption))",
@@ -11,30 +11,30 @@
     "justifyContent": "center",
     "alignItems": "center"
   },
-  ".badge-icon": {
+  "badge-icon": {
     "gap": "var(--badge-gap, var(--space-1))"
   },
-  ".badge-success": {
+  "badge-success": {
     "--badge-color": "var(--success-1)",
     "--badge-bg": "var(--success-2)"
   },
-  ".badge-error": {
+  "badge-error": {
     "--badge-color": "var(--error-1)",
     "--badge-bg": "var(--error-2)"
   },
-  ".badge-alert": {
+  "badge-alert": {
     "--badge-color": "var(--alert-1)",
     "--badge-bg": "var(--alert-2)"
   },
-  ".badge-warning": {
+  "badge-warning": {
     "--badge-color": "var(--warning-1)",
     "--badge-bg": "var(--warning-2)"
   },
-  ".badge-info": {
+  "badge-info": {
     "--badge-color": "var(--info-1)",
     "--badge-bg": "var(--info-2)"
   },
-  ".badge-reverse": {
+  "badge-reverse": {
     "--badge-color": "var(--white)",
     "--badge-bg": "var(--black)"
   }

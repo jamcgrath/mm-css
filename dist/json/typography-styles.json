@@ -1,47 +1,47 @@
 {
-  ".title-1,\n.title-1-med,\n.title-1-semibold,\n.title-1-bold": {
+  "title-1,\ntitle-1-med,\ntitle-1-semibold,\ntitle-1-bold": {
     "fontSize": "var(--title-1)",
     "fontFamily": "var(--font-family, var(--sans-serif))",
     "fontWeight": "var(--font-weight, var(--regular))",
     "lineHeight": "var(--line-height, 1.21875)",
     "color": "var(--color, var(--black))"
   },
-  ".title-2,\n.title-2-med,\n.title-2-semibold,\n.title-2-bold": {
+  "title-2,\ntitle-2-med,\ntitle-2-semibold,\ntitle-2-bold": {
     "fontSize": "var(--title-2)",
     "fontFamily": "var(--font-family, var(--sans-serif))",
     "fontWeight": "var(--font-weight, var(--regular))",
     "lineHeight": "var(--line-height, 1.25)",
     "color": "var(--color, var(--black))"
   },
-  ".title-3,\n.title-3-med,\n.title-3-semibold,\n.title-3-bold": {
+  "title-3,\ntitle-3-med,\ntitle-3-semibold,\ntitle-3-bold": {
     "fontSize": "var(--title-3)",
     "fontFamily": "var(--font-family, var(--sans-serif))",
     "fontWeight": "var(--font-weight, var(--regular))",
     "lineHeight": "var(--line-height, 1.2)",
     "color": "var(--color, var(--black))"
   },
-  ".title-4,\n.title-4-med,\n.title-4-semibold,\n.title-4-bold": {
+  "title-4,\ntitle-4-med,\ntitle-4-semibold,\ntitle-4-bold": {
     "fontSize": "var(--title-4)",
     "fontFamily": "var(--font-family, var(--sans-serif))",
     "fontWeight": "var(--font-weight, var(--regular))",
     "lineHeight": "var(--line-height, 1.1875)",
     "color": "var(--color, var(--black))"
   },
-  ".title-5,\n.title-5-med,\n.title-5-semibold,\n.title-5-bold": {
+  "title-5,\ntitle-5-med,\ntitle-5-semibold,\ntitle-5-bold": {
     "fontSize": "var(--title-5)",
     "fontFamily": "var(--font-family, var(--sans-serif))",
     "fontWeight": "var(--font-weight, var(--regular))",
     "lineHeight": "var(--line-height, 1.25)",
     "color": "var(--color, var(--black))"
   },
-  ".title-6,\n.title-6-med,\n.title-6-semibold,\n.title-6-bold": {
+  "title-6,\ntitle-6-med,\ntitle-6-semibold,\ntitle-6-bold": {
     "fontSize": "var(--title-6)",
     "fontFamily": "var(--font-family, var(--sans-serif))",
     "fontWeight": "var(--font-weight, var(--regular))",
     "lineHeight": "var(--line-height, 1.2)",
     "color": "var(--color, var(--black))"
   },
-  ".lead,\n.lead-med,\n.lead-semibold,\n.lead-bold,\n.lead-light,\n.lead-italic,\n.lead-link": {
+  "lead,\nlead-med,\nlead-semibold,\nlead-bold,\nlead-light,\nlead-italic,\nlead-link": {
     "fontSize": "var(--lead)",
     "fontFamily": "var(--font-family, var(--sans-serif))",
     "fontWeight": "var(--font-weight, var(--regular))",
@@ -50,7 +50,7 @@
     "lineHeight": "var(--line-height, 1.5)",
     "color": "var(--color, var(--black))"
   },
-  ".body,\n.body-med,\n.body-semibold,\n.body-bold,\n.body-light,\n.body-italic,\n.body-link": {
+  "body,\nbody-med,\nbody-semibold,\nbody-bold,\nbody-light,\nbody-italic,\nbody-link": {
     "fontSize": "var(--body)",
     "fontFamily": "var(--font-family, var(--sans-serif))",
     "fontWeight": "var(--font-weight, var(--regular))",
@@ -59,7 +59,7 @@
     "lineHeight": "var(--line-height, 1.5)",
     "color": "var(--color, var(--black))"
   },
-  ".label,\n.label-med,\n.label-semibold,\n.label-bold,\n.label-light,\n.label-italic,\n.label-link": {
+  "label,\nlabel-med,\nlabel-semibold,\nlabel-bold,\nlabel-light,\nlabel-italic,\nlabel-link": {
     "fontSize": "var(--label)",
     "fontFamily": "var(--font-family, var(--sans-serif))",
     "fontWeight": "var(--font-weight, var(--regular))",
@@ -68,7 +68,7 @@
     "lineHeight": "var(--line-height, 1.2857)",
     "color": "var(--color, var(--black))"
   },
-  ".caption,\n.caption-med,\n.caption-semibold,\n.caption-bold,\n.caption-light,\n.caption-italic,\n.caption-link": {
+  "caption,\ncaption-med,\ncaption-semibold,\ncaption-bold,\ncaption-light,\ncaption-italic,\ncaption-link": {
     "fontSize": "var(--caption)",
     "fontFamily": "var(--font-family, var(--sans-serif))",
     "fontWeight": "var(--font-weight, var(--regular))",
@@ -77,14 +77,14 @@
     "lineHeight": "var(--line-height, 1.25)",
     "color": "var(--color, var(--black))"
   },
-  ".small,\n.small-med,\n.small-semibold,\n.small-bold": {
+  "small,\nsmall-med,\nsmall-semibold,\nsmall-bold": {
     "fontSize": "var(--small)",
     "fontFamily": "var(--font-family, var(--sans-serif))",
     "fontWeight": "var(--font-weight, var(--regular))",
     "lineHeight": "var(--line-height, 1.2)",
     "color": "var(--color, var(--black))"
   },
-  ".overline-lg,\n.overline-lg-med,\n.overline-lg-semibold,\n.overline-lg-bold": {
+  "overline-lg,\noverline-lg-med,\noverline-lg-semibold,\noverline-lg-bold": {
     "fontSize": "var(--overline-lg)",
     "fontFamily": "var(--font-family, var(--sans-serif))",
     "fontWeight": "var(--font-weight, var(--regular))",
@@ -93,7 +93,7 @@
     "letterSpacing": "0.5px",
     "textTransform": "var(--text-transform, uppercase)"
   },
-  ".overline-sm,\n.overline-sm-med,\n.overline-sm-semibold,\n.overline-sm-bold": {
+  "overline-sm,\noverline-sm-med,\noverline-sm-semibold,\noverline-sm-bold": {
     "fontSize": "var(--overline-sm)",
     "fontFamily": "var(--font-family, var(--sans-serif))",
     "fontWeight": "var(--font-weight, var(--regular))",
@@ -102,22 +102,22 @@
     "letterSpacing": "0.5px",
     "textTransform": "var(--text-transform, uppercase)"
   },
-  ".lead-light,\n.body-light,\n.body-italic,\n.label-light,\n.label-italic,\n.caption-light,\n.caption-italic": {
+  "lead-light,\nbody-light,\nbody-italic,\nlabel-light,\nlabel-italic,\ncaption-light,\ncaption-italic": {
     "--font-weight": "var(--light)"
   },
-  ".title-1-med,\n.title-2-med,\n.title-3-med,\n.title-4-med,\n.title-5-med,\n.title-6-med,\n.lead-med,\n.lead-italic,\n.lead-link,\n.body-med,\n.body-link,\n.label-med,\n.label-link,\n.caption-med,\n.caption-link,\n.small-med,\n.overline-lg-med,\n.overline-sm-med": {
+  "title-1-med,\ntitle-2-med,\ntitle-3-med,\ntitle-4-med,\ntitle-5-med,\ntitle-6-med,\nlead-med,\nlead-italic,\nlead-link,\nbody-med,\nbody-link,\nlabel-med,\nlabel-link,\ncaption-med,\ncaption-link,\nsmall-med,\noverline-lg-med,\noverline-sm-med": {
     "--font-weight": "var(--medium)"
   },
-  ".title-1-semibold,\n.title-2-semibold,\n.title-3-semibold,\n.title-4-semibold,\n.title-5-semibold,\n.title-6-semibold,\n.lead-semibold,\n.body-semibold,\n.label-semibold,\n.caption-semibold,\n.small-semibold,\n.overline-lg-semibold,\n.overline-sm-semibold": {
+  "title-1-semibold,\ntitle-2-semibold,\ntitle-3-semibold,\ntitle-4-semibold,\ntitle-5-semibold,\ntitle-6-semibold,\nlead-semibold,\nbody-semibold,\nlabel-semibold,\ncaption-semibold,\nsmall-semibold,\noverline-lg-semibold,\noverline-sm-semibold": {
     "--font-weight": "var(--semibold)"
   },
-  ".title-1-bold,\n.title-2-bold,\n.title-3-bold,\n.title-4-bold,\n.title-5-bold,\n.title-6-bold,\n.lead-bold,\n.body-bold,\n.label-bold,\n.caption-bold,\n.small-bold,\n.overline-lg-bold,\n.overline-sm-bold": {
+  "title-1-bold,\ntitle-2-bold,\ntitle-3-bold,\ntitle-4-bold,\ntitle-5-bold,\ntitle-6-bold,\nlead-bold,\nbody-bold,\nlabel-bold,\ncaption-bold,\nsmall-bold,\noverline-lg-bold,\noverline-sm-bold": {
     "--font-weight": "var(--bold)"
   },
-  ".lead-italic,\n.body-italic,\n.label-italic,\n.caption-italic": {
+  "lead-italic,\nbody-italic,\nlabel-italic,\ncaption-italic": {
     "--font-style": "italic"
   },
-  ".lead-link,\n.body-link,\n.label-link,\n.caption-link,\n.small-link": {
+  "lead-link,\nbody-link,\nlabel-link,\ncaption-link,\nsmall-link": {
     "--text-decoration-line": "underline"
   }
 }

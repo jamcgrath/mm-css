@@ -1,38 +1,38 @@
 {
-  ".place-content-center": {
+  "place-content-center": {
     "placeContent": "center"
   },
-  ".place-content-start": {
+  "place-content-start": {
     "placeContent": "start"
   },
-  ".place-content-end": {
+  "place-content-end": {
     "placeContent": "end"
   },
-  ".place-content-between": {
+  "place-content-between": {
     "placeContent": "between"
   },
-  ".place-content-around": {
+  "place-content-around": {
     "placeContent": "around"
   },
-  ".place-content-evenly": {
+  "place-content-evenly": {
     "placeContent": "evenly"
   },
-  ".place-content-stretch": {
+  "place-content-stretch": {
     "placeContent": "stretch"
   },
-  ".place-content-flex-start": {
+  "place-content-flex-start": {
     "placeContent": "flex-start"
   },
-  ".place-content-flex-end": {
+  "place-content-flex-end": {
     "placeContent": "flex-end"
   },
-  ".place-content-left": {
+  "place-content-left": {
     "placeContent": "left"
   },
-  ".place-content-right": {
+  "place-content-right": {
     "placeContent": "right"
   },
-  ".place-content-normal": {
+  "place-content-normal": {
     "placeContent": "normal"
   }
 }

@@ -1,10 +1,8 @@
 {
-  ".box-decoration-clone": {
-    "WebkitBoxDecorationBreak": "clone",
+  "box-decoration-clone": {
     "boxDecorationBreak": "clone"
   },
-  ".box-decoration-slice": {
-    "WebkitBoxDecorationBreak": "slice",
+  "box-decoration-slice": {
     "boxDecorationBreak": "slice"
   }
 }
