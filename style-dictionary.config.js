@@ -47,7 +47,7 @@ StyleDictionary.registerFormat({
 });
 
 export default {
-  source: ["./src/tokens/**/*.json"], // Adjust the path to your token files
+  source: ["./src/tokens/**/*.json"],
   platforms: {
     css: {
       transformGroup: "css", // For CSS variables

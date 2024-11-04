@@ -106,7 +106,7 @@ export default {
     "semibold": "600",
     "bold": "700"
   },
-  "title": {
+  "titleSize": {
     "xxl": "4rem",
     "xl": "3rem",
     "lg": "2.5rem",
@@ -114,7 +114,7 @@ export default {
     "sm": "1.5rem",
     "xs": "1.25rem"
   },
-  "text": {
+  "textSize": {
     "xxl": "1.125rem",
     "xl": "1rem",
     "lg": "0.875rem",
@@ -136,7 +136,7 @@ export default {
     "xs": 1.1875,
     "base": 1
   },
-  "heading": {
+  "title": {
     "1": {
       "fontFamily": "'Instrument Sans', sans-serif",
       "fontSize": "4rem",
@@ -174,42 +174,44 @@ export default {
       "lineHeight": 1.2
     }
   },
-  "lead": {
-    "fontFamily": "'Instrument Sans', sans-serif",
-    "fontSize": "1.125rem",
-    "letterSpacing": "0px",
-    "lineHeight": 1.5
-  },
-  "body": {
-    "fontFamily": "'Instrument Sans', sans-serif",
-    "fontSize": "1rem",
-    "lineHeight": 1.5
-  },
-  "label": {
-    "fontFamily": "'Instrument Sans', sans-serif",
-    "fontSize": "0.875rem",
-    "lineHeight": 1.28571
-  },
-  "caption": {
-    "fontFamily": "'Instrument Sans', sans-serif",
-    "fontSize": "0.75rem",
-    "lineHeight": 1.25
-  },
-  "overline-lg": {
-    "fontFamily": "'Instrument Sans', sans-serif",
-    "fontSize": "0.75rem",
-    "letterSpacing": "0.5px",
-    "lineHeight": 1.25
-  },
-  "small": {
-    "fontFamily": "'Instrument Sans', sans-serif",
-    "fontSize": "0.625rem",
-    "lineHeight": 1.2
-  },
-  "overline-sm": {
-    "fontFamily": "'Instrument Sans', sans-serif",
-    "fontSize": "0.5625rem",
-    "letterSpacing": "0.5px",
-    "lineHeight": 1
+  "text": {
+    "lead": {
+      "fontFamily": "'Instrument Sans', sans-serif",
+      "fontSize": "1.125rem",
+      "letterSpacing": "0px",
+      "lineHeight": 1.5
+    },
+    "body": {
+      "fontFamily": "'Instrument Sans', sans-serif",
+      "fontSize": "1rem",
+      "lineHeight": 1.5
+    },
+    "label": {
+      "fontFamily": "'Instrument Sans', sans-serif",
+      "fontSize": "0.875rem",
+      "lineHeight": 1.28571
+    },
+    "caption": {
+      "fontFamily": "'Instrument Sans', sans-serif",
+      "fontSize": "0.75rem",
+      "lineHeight": 1.25
+    },
+    "overline-lg": {
+      "fontFamily": "'Instrument Sans', sans-serif",
+      "fontSize": "0.75rem",
+      "letterSpacing": "0.5px",
+      "lineHeight": 1.25
+    },
+    "small": {
+      "fontFamily": "'Instrument Sans', sans-serif",
+      "fontSize": "0.625rem",
+      "lineHeight": 1.2
+    },
+    "overline-sm": {
+      "fontFamily": "'Instrument Sans', sans-serif",
+      "fontSize": "0.5625rem",
+      "letterSpacing": "0.5px",
+      "lineHeight": 1
+    }
   }
 };

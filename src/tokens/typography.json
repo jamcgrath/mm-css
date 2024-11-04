@@ -110,7 +110,7 @@
             },
             "fontSize": {
                 "$type": "fontSize",
-                "$value": "{title.xxl}"
+                "$value": "{titleSize.xxl}"
             },
             "letterSpacing": {
                 "$type": "letterSpacing",
@@ -129,7 +129,7 @@
             },
             "fontSize": {
                 "$type": "fontSize",
-                "$value": "{title.xl}"
+                "$value": "{titleSize.xl}"
             },
             "letterSpacing": {
                 "$type": "letterSpacing",
@@ -148,7 +148,7 @@
             },
             "fontSize": {
                 "$type": "fontSize",
-                "$value": "{title.lg}"
+                "$value": "{titleSize.lg}"
             },
             "letterSpacing": {
                 "$type": "letterSpacing",
@@ -167,7 +167,7 @@
             },
             "fontSize": {
                 "$type": "fontSize",
-                "$value": "{title.md}"
+                "$value": "{titleSize.md}"
             },
             "letterSpacing": {
                 "$type": "letterSpacing",
@@ -186,7 +186,7 @@
             },
             "fontSize": {
                 "$type": "fontSize",
-                "$value": "{title.sm}"
+                "$value": "{titleSize.sm}"
             },
             "letterSpacing": {
                 "$type": "letterSpacing",
@@ -205,7 +205,7 @@
             },
             "fontSize": {
                 "$type": "fontSize",
-                "$value": "{title.xs}"
+                "$value": "{titleSize.xs}"
             },
             "letterSpacing": {
                 "$type": "letterSpacing",
@@ -226,7 +226,7 @@
             },
             "fontSize": {
                 "$type": "fontSize",
-                "$value": "{text.xxl}"
+                "$value": "{textSize.xxl}"
             },
             "letterSpacing": {
                 "$type": "letterSpacing",
@@ -245,7 +245,7 @@
             },
             "fontSize": {
                 "$type": "fontSize",
-                "$value": "{text.xl}"
+                "$value": "{textSize.xl}"
             },
             "lineHeight": {
                 "$type": "lineHeight",
@@ -260,7 +260,7 @@
             },
             "fontSize": {
                 "$type": "fontSize",
-                "$value": "{text.lg}"
+                "$value": "{textSize.lg}"
             },
             "lineHeight": {
                 "$type": "lineHeight",
@@ -275,7 +275,7 @@
             },
             "fontSize": {
                 "$type": "fontSize",
-                "$value": "{text.md}"
+                "$value": "{textSize.md}"
             },
             "lineHeight": {
                 "$type": "lineHeight",
@@ -290,7 +290,7 @@
             },
             "fontSize": {
                 "$type": "fontSize",
-                "$value": "{text.md}"
+                "$value": "{textSize.md}"
             },
             "letterSpacing": {
                 "$type": "letterSpacing",
@@ -309,7 +309,7 @@
             },
             "fontSize": {
                 "$type": "fontSize",
-                "$value": "{text.sm}"
+                "$value": "{textSize.sm}"
             },
             "lineHeight": {
                 "$type": "lineHeight",
@@ -324,7 +324,7 @@
             },
             "fontSize": {
                 "$type": "fontSize",
-                "$value": "{text.xs}"
+                "$value": "{textSize.xs}"
             },
             "letterSpacing": {
                 "$type": "letterSpacing",
