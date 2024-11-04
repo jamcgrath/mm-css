@@ -73,7 +73,7 @@ export default {
       buildPath: "./dist/tokens/", // Build path as per your requirement
       files: [
         {
-          destination: "mm-tokens.js",
+          destination: "mmTokens.js",
           format: "javascript/tailwind",
           options: {
             outputReferences: true,
