@@ -1,0 +1,52 @@
+:root {
+  --mq-sm: 480px;
+  --mq-md: 768px;
+  --mq-lg: 1024px;
+  --mq-xl: 1280px;
+  --mq-2xl: 1920px;
+}
+.container,
+.sm-container,
+.md-container,
+.lg-container,
+.xl-container,
+.xxl-container {
+  --container-max-width: none;
+  width: 100%;
+  max-width: var(--container-max-width);
+}
+@media (min-width: 480px) {
+  .sm-container {
+    --container-max-width: var(--mq-sm);
+  }
+}
+@media (min-width: 768px) {
+  .md-container {
+    --container-max-width: var(--mq-md);
+  }
+}
+@media (min-width: 1024px) {
+  .lg-container {
+    --container-max-width: var(--mq-lg);
+  }
+}
+@media (min-width: 1280px) {
+  .xl-container {
+    --container-max-width: var(--mq-xl);
+  }
+}
+@media (min-width: 1920px) {
+  .xxl-container {
+    --container-max-width: var(--mq-2xl);
+  }
+}
+/* break child element out of parent container */
+.fullwidth,
+.full-width {
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+}

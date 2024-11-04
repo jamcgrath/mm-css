@@ -1,0 +1,6 @@
+{
+    "blur": {
+        "$value": "24px",
+        "$type": "dimension"
+    }
+}
