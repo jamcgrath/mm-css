@@ -6,22 +6,13 @@
     "height": "100vh"
   },
   "h-100svh": {
-    "height": [
-      "100vh",
-      "100svh"
-    ]
+    "height": "100svh"
   },
   "h-100lvh": {
-    "height": [
-      "100vh",
-      "100lvh"
-    ]
+    "height": "100lvh"
   },
   "h-100dvh": {
-    "height": [
-      "100vh",
-      "100dvh"
-    ]
+    "height": "100dvh"
   },
   "h-min": {
     "height": "min-content"

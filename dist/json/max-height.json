@@ -15,21 +15,12 @@
     "maxHeight": "100vh"
   },
   "max-h-100svh": {
-    "maxHeight": [
-      "100vh",
-      "100svh"
-    ]
+    "maxHeight": "100svh"
   },
   "max-h-100lvh": {
-    "maxHeight": [
-      "100vh",
-      "100lvh"
-    ]
+    "maxHeight": "100lvh"
   },
   "max-h-100dvh": {
-    "maxHeight": [
-      "100vh",
-      "100dvh"
-    ]
+    "maxHeight": "100dvh"
   }
 }

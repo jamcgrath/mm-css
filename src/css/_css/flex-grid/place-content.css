@@ -7,15 +7,6 @@
 .place-content-end {
   place-content: end;
 }
-.place-content-between {
-  place-content: between;
-}
-.place-content-around {
-  place-content: around;
-}
-.place-content-evenly {
-  place-content: evenly;
-}
 .place-content-stretch {
   place-content: stretch;
 }
@@ -25,12 +16,12 @@
 .place-content-flex-end {
   place-content: flex-end;
 }
-.place-content-left {
-  place-content: left;
-}
-.place-content-right {
-  place-content: right;
-}
+// .place-content-left {
+//   place-content: left;
+// }
+// .place-content-right {
+//   place-content: right;
+// }
 .place-content-normal {
   place-content: normal;
 }

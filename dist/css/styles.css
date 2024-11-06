@@ -2166,78 +2166,72 @@ html:focus-within {
 }
 
 .h-100 {
-  height: 100%;
+	height: 100%;
 }
 
 .h-100vh {
-  height: 100vh;
+	height: 100vh;
 }
 
 .h-100svh {
-  height: 100vh;
-  height: 100svh;
+	height: 100svh;
 }
 
 .h-100lvh {
-  height: 100vh;
-  height: 100lvh;
+	height: 100lvh;
 }
 
 .h-100dvh {
-  height: 100vh;
-  height: 100dvh;
+	height: 100dvh;
 }
 
 .h-min {
-  height: min-content;
+	height: min-content;
 }
 
 .h-max {
-  height: max-content;
+	height: max-content;
 }
 
 .h-fit {
-  height: fit-content;
+	height: fit-content;
 }
 
 .h-auto {
-  height: auto;
+	height: auto;
 }
 
 .max-h-auto {
-  max-height: auto;
+	max-height: auto;
 }
 
 .max-h-max {
-  max-height: max-content;
+	max-height: max-content;
 }
 
 .max-h-min {
-  max-height: min-content;
+	max-height: min-content;
 }
 
 .max-h-full,
 .max-h-100 {
-  max-height: 100%;
+	max-height: 100%;
 }
 
 .max-h-100vh {
-  max-height: 100vh;
+	max-height: 100vh;
 }
 
 .max-h-100svh {
-  max-height: 100vh;
-  max-height: 100svh;
+	max-height: 100svh;
 }
 
 .max-h-100lvh {
-  max-height: 100vh;
-  max-height: 100lvh;
+	max-height: 100lvh;
 }
 
 .max-h-100dvh {
-  max-height: 100vh;
-  max-height: 100dvh;
+	max-height: 100dvh;
 }
 
 .max-w-5 {
@@ -2346,181 +2340,179 @@ html:focus-within {
 }
 
 .min-h-0 {
-  min-height: 0;
+	min-height: 0;
 }
 
 .min-h-100 {
-  min-height: 100%;
+	min-height: 100%;
 }
 
 .min-h-100vh {
-  min-height: 100vh;
+	min-height: 100vh;
 }
 
 .min-h-100svh {
-  min-height: 100vh;
-  min-height: 100svh;
+	min-height: 100svh;
 }
 
 .min-h-100lvh {
-  min-height: 100vh;
-  min-height: 100lvh;
+	min-height: 100lvh;
 }
 
 .min-h-100dvh {
-  min-height: 100vh;
-  min-height: 100dvh;
+	min-height: 100dvh;
 }
 
 .min-h-min {
-  min-height: min-content;
+	min-height: min-content;
 }
 
 .min-h-max {
-  min-height: max-content;
+	min-height: max-content;
 }
 
 .min-h-fit {
-  min-height: fit-content;
+	min-height: fit-content;
 }
 
 .min-w-0 {
-  min-width: 0;
+	min-width: 0;
 }
 
-.min-w-100,
 .min-w-full {
-  min-width: 100%;
+	min-width: 100%;
 }
 
 .min-w-min {
-  min-width: min-content;
+	min-width: min-content;
 }
 
 .min-w-min {
-  min-width: min-content;
+	min-width: min-content;
 }
 
 .min-w-fit {
-  min-width: fit-content;
+	min-width: fit-content;
 }
 
 .w-auto {
-  width: auto;
+	width: auto;
 }
 
 .w-5 {
-  width: 5%;
+	width: 5%;
 }
 
 .w-10 {
-  width: 10%;
+	width: 10%;
 }
 
 .w-15 {
-  width: 15%;
+	width: 15%;
 }
 
 .w-20 {
-  width: 20%;
+	width: 20%;
 }
 
 .w-25 {
-  width: 25%;
+	width: 25%;
 }
 
 .w-30 {
-  width: 30%;
+	width: 30%;
 }
 
 .w-33 {
-  width: calc(100% / 3);
+	width: calc(100% / 3);
 }
 
 .w-35 {
-  width: 35%;
+	width: 35%;
 }
 
 .w-40 {
-  width: 40%;
+	width: 40%;
 }
 
 .w-45 {
-  width: 45%;
+	width: 45%;
 }
 
 .w-50 {
-  width: 50%;
+	width: 50%;
 }
 
 .w-55 {
-  width: 55%;
+	width: 55%;
 }
 
 .w-60 {
-  width: 60%;
+	width: 60%;
 }
 
 .w-65 {
-  width: 65%;
+	width: 65%;
 }
 
 .w-66 {
-  width: calc((100% / 3) * 2);
+	width: calc((100% / 3) * 2);
 }
 
 .w-70 {
-  width: 70%;
+	width: 70%;
 }
 
 .w-75 {
-  width: 75%;
+	width: 75%;
 }
 
 .w-80 {
-  width: 80%;
+	width: 80%;
 }
 
 .w-85 {
-  width: 85%;
+	width: 85%;
 }
 
 .w-90 {
-  width: 90%;
+	width: 90%;
 }
 
 .w-95 {
-  width: 95%;
+	width: 95%;
 }
 
-.w-100,
 .w-full {
-  width: 100%;
+	width: 100%;
 }
 
-.w-100vw,
+.w-100vw {
+	width: 100vw;
+}
+
 .w-screen {
-  width: 100vw;
+	width: 100vw;
 }
 
 .w-svw {
-  width: 100svw;
+	width: 100svw;
 }
 
 .w-dvw {
-  width: 100dvw;
+	width: 100dvw;
 }
 
 .w-min {
-  width: min-content;
+	width: min-content;
 }
 
 .w-max {
-  width: max-content;
+	width: max-content;
 }
 
 .w-fit {
-  width: fit-content;
+	width: fit-content;
 }
 
 .table-auto {

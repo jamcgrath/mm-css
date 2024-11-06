@@ -9,22 +9,13 @@
     "minHeight": "100vh"
   },
   "min-h-100svh": {
-    "minHeight": [
-      "100vh",
-      "100svh"
-    ]
+    "minHeight": "100svh"
   },
   "min-h-100lvh": {
-    "minHeight": [
-      "100vh",
-      "100lvh"
-    ]
+    "minHeight": "100lvh"
   },
   "min-h-100dvh": {
-    "minHeight": [
-      "100vh",
-      "100dvh"
-    ]
+    "minHeight": "100dvh"
   },
   "min-h-min": {
     "minHeight": "min-content"

@@ -2,7 +2,7 @@
   "min-w-0": {
     "minWidth": "0"
   },
-  "min-w-100,\nmin-w-full": {
+  "min-w-full": {
     "minWidth": "100%"
   },
   "min-w-min": {
