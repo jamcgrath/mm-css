@@ -1,14 +1,11 @@
 {
   "italic": {
-    "--font-style": "italic",
-    "fontStyle": "var(--font-style)"
+    "fontStyle": "italic"
   },
   "normal": {
-    "--font-style": "normal",
-    "fontStyle": "var(--font-style)"
+    "fontStyle": "normal"
   },
   "oblique": {
-    "--font-style": "oblique",
-    "fontStyle": "var(--font-style)"
+    "fontStyle": "oblique"
   }
 }

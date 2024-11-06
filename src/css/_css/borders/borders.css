@@ -1,4 +1,4 @@
-.border-0,
+/* .border-0,
 .border-1,
 .border-2,
 .border-4,
@@ -28,7 +28,7 @@
 .border-x-4 {
 	border-style: var(--border-style, solid);
 	border-color: var(--border-color, var(--black));
-}
+} */
 .border-0 {
 	border-width: 0;
 }

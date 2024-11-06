@@ -1,21 +1,14 @@
 {
-  "underline,\noverline,\nline-through,\ndecoration-line-none": {
-    "textDecorationLine": "var(--text-decoration-line)",
-    "textDecorationColor": "var(--text-decoration-color, currentColor)",
-    "textDecorationStyle": "var(--text-decoration-style, solid)",
-    "textDecorationThickness": "var(--text-decoration-thickness, auto)",
-    "textDecorationSkipInk": "var(--text-decoration-skip-ink, auto)"
-  },
   "underline": {
-    "--text-decoration-line": "underline"
+    "textDecorationLine": "underline"
   },
   "overline": {
-    "--text-decoration-line": "overline"
+    "textDecorationLine": "overline"
   },
   "line-through": {
-    "--text-decoration-line": "line-through"
+    "textDecorationLine": "line-through"
   },
   "decoration-line-none": {
-    "--text-decoration-line": "none"
+    "textDecorationLine": "none"
   }
 }

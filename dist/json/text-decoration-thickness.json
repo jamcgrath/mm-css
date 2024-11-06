@@ -1,23 +1,23 @@
 {
   "thickness-auto": {
-    "--text-decoration-thickness": "auto"
+    "textDecorationThickness": "auto"
   },
   "thickness-from-font": {
-    "--text-decoration-thickness": "from-font"
+    "textDecorationThickness": "from-font"
   },
   "thickness-0": {
-    "--text-decoration-thickness": "0"
+    "textDecorationThickness": "0"
   },
   "thickness-1": {
-    "--text-decoration-thickness": "1px"
+    "textDecorationThickness": "1px"
   },
   "thickness-2": {
-    "--text-decoration-thickness": "2px"
+    "textDecorationThickness": "2px"
   },
   "thickness-3": {
-    "--text-decoration-thickness": "3px"
+    "textDecorationThickness": "3px"
   },
   "thickness-4": {
-    "--text-decoration-thickness": "4px"
+    "textDecorationThickness": "4px"
   }
 }

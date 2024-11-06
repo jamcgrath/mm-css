@@ -1,8 +1,4 @@
 {
-  "border-0,\nborder-1,\nborder-2,\nborder-4,\nborder-t-0,\nborder-t-1,\nborder-t-2,\nborder-t-4,\nborder-r-0,\nborder-r-1,\nborder-r-2,\nborder-r-4,\nborder-b-0,\nborder-b-1,\nborder-b-2,\nborder-b-4,\nborder-l-0,\nborder-l-1,\nborder-l-2,\nborder-l-4,\nborder-y-0,\nborder-y-1,\nborder-y-2,\nborder-y-4,\nborder-x-0,\nborder-x-1,\nborder-x-2,\nborder-x-4": {
-    "borderStyle": "var(--border-style, solid)",
-    "borderColor": "var(--border-color, var(--black))"
-  },
   "border-0": {
     "borderWidth": "0"
   },

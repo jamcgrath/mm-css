@@ -1,9 +1,12 @@
 .skip-ink-none {
-  --text-decoration-skip-ink: none;
+	-webkit-text-decoration-skip-ink: none;
+	        text-decoration-skip-ink: none;
 }
 .skip-ink-auto {
-  --text-decoration-skip-ink: auto;
+	-webkit-text-decoration-skip: ink;
+	        text-decoration-skip-ink: auto;
 }
 .skip-ink-all {
-  --text-decoration-skip-ink: all;
+	-webkit-text-decoration-skip-ink: all;
+	        text-decoration-skip-ink: all;
 }

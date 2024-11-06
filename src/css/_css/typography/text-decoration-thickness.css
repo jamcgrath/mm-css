@@ -1,21 +1,21 @@
 .thickness-auto {
-  --text-decoration-thickness: auto;
+	text-decoration-thickness: auto;
 }
 .thickness-from-font {
-  --text-decoration-thickness: from-font;
+	text-decoration-thickness: from-font;
 }
 .thickness-0 {
-  --text-decoration-thickness: 0;
+	text-decoration-thickness: 0;
 }
 .thickness-1 {
-  --text-decoration-thickness: 1px;
+	text-decoration-thickness: 1px;
 }
 .thickness-2 {
-  --text-decoration-thickness: 2px;
+	text-decoration-thickness: 2px;
 }
 .thickness-3 {
-  --text-decoration-thickness: 3px;
+	text-decoration-thickness: 3px;
 }
 .thickness-4 {
-  --text-decoration-thickness: 4px;
+	text-decoration-thickness: 4px;
 }

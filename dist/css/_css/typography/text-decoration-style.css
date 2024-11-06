@@ -1,15 +1,15 @@
 .solid {
-  --text-decoration-style: solid;
+	text-decoration-style: solid;
 }
 .double {
-  --text-decoration-style: double;
+	text-decoration-style: double;
 }
 .dotted {
-  --text-decoration-style: dotted;
+	text-decoration-style: dotted;
 }
 .dashed {
-  --text-decoration-style: dashed;
+	text-decoration-style: dashed;
 }
 .wavy {
-  --text-decoration-style: wavy;
+	text-decoration-style: wavy;
 }

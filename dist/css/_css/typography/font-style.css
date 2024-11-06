@@ -1,12 +1,9 @@
 .italic {
-  --font-style: italic;
-  font-style: var(--font-style);
+	font-style: italic;
 }
 .normal {
-  --font-style: normal;
-  font-style: var(--font-style);
+	font-style: normal;
 }
 .oblique {
-  --font-style: oblique;
-  font-style: var(--font-style);
+	font-style: oblique;
 }

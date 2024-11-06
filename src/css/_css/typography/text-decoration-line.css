@@ -1,4 +1,4 @@
-.underline,
+/* .underline,
 .overline,
 .line-through,
 .decoration-line-none {
@@ -7,16 +7,16 @@
   text-decoration-style: var(--text-decoration-style, solid);
   text-decoration-thickness: var(--text-decoration-thickness, auto);
   text-decoration-skip-ink: var(--text-decoration-skip-ink, auto);
-}
+} */
 .underline {
-  --text-decoration-line: underline;
+	text-decoration-line: underline;
 }
 .overline {
-  --text-decoration-line: overline;
+	text-decoration-line: overline;
 }
 .line-through {
-  --text-decoration-line: line-through;
+	text-decoration-line: line-through;
 }
 .decoration-line-none {
-  --text-decoration-line: none;
+	text-decoration-line: none;
 }

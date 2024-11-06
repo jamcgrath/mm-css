@@ -1,16 +1,13 @@
 .text-transform-none {
-  --text-transform: none;
-  text-transform: var(--text-transform);
+	text-transform: none;
 }
 .capitalize {
-  --text-transform: capitalize;
-  text-transform: var(--text-transform);
+	text-transform: capitalize;
 }
 .uppercase {
-  --text-transform: uppercase;
-  text-transform: var(--text-transform);
+	text-transform: uppercase;
+	-transform: var(--text-transform);
 }
 .lowercase {
-  --text-transform: lowercase;
-  text-transform: var(--text-transform);
+	text-transform: lowercase;
 }

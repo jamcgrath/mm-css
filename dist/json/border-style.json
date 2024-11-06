@@ -1,32 +1,32 @@
 {
   "border-solid": {
-    "--border-style": "solid"
+    "borderStyle": "solid"
   },
   "border-dashed": {
-    "--border-style": "dashed"
+    "borderStyle": "dashed"
   },
   "border-dotted": {
-    "--border-style": "dotted"
+    "borderStyle": "dotted"
   },
   "border-double": {
-    "--border-style": "double"
+    "borderStyle": "double"
   },
   "border-groove": {
-    "--border-style": "groove"
+    "borderStyle": "groove"
   },
   "border-ridge": {
-    "--border-style": "ridge"
+    "borderStyle": "ridge"
   },
   "border-inset": {
-    "--border-style": "inset"
+    "borderStyle": "inset"
   },
   "border-outset": {
-    "--border-style": "outset"
+    "borderStyle": "outset"
   },
   "border-none": {
-    "--border-style": "none"
+    "borderStyle": "none"
   },
   "border-hidden": {
-    "--border-style": "hidden"
+    "borderStyle": "hidden"
   }
 }
