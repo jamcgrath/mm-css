@@ -8,15 +8,6 @@
   "place-content-end": {
     "placeContent": "end"
   },
-  "place-content-between": {
-    "placeContent": "between"
-  },
-  "place-content-around": {
-    "placeContent": "around"
-  },
-  "place-content-evenly": {
-    "placeContent": "evenly"
-  },
   "place-content-stretch": {
     "placeContent": "stretch"
   },
@@ -25,12 +16,6 @@
   },
   "place-content-flex-end": {
     "placeContent": "flex-end"
-  },
-  "place-content-left": {
-    "placeContent": "left"
-  },
-  "place-content-right": {
-    "placeContent": "right"
   },
   "place-content-normal": {
     "placeContent": "normal"
