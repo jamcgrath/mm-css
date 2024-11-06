@@ -1,26 +1,27 @@
-.clearfix::before,
-.clearfix::after {
-  content: "";
-  display: table;
+.clearfix::before {
+	content: '';
+	display: table;
 }
 .clearfix::after {
-  clear: both;
+	content: '';
+	display: table;
+	clear: both;
 }
 .clear-start {
-  clear: inline-start;
+	clear: inline-start;
 }
 .clear-end {
-  clear: inline-end;
+	clear: inline-end;
 }
 .clear-left {
-  clear: left;
+	clear: left;
 }
 .clear-right {
-  clear: right;
+	clear: right;
 }
 .clear-both {
-  clear: both;
+	clear: both;
 }
 .clear-none {
-  clear: none;
+	clear: none;
 }
